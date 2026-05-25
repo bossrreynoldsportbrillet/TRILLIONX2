@@ -1,0 +1,44 @@
+node_modules/
+.env
+*.log
+logs/
+data/*.jsonl
+data/*.sqlite
+.DS_Store
+_backup_before_trillions/
+
+# TRILLIONX runtime volatile state
+runtime_state/*LATEST.json
+runtime_state/local_snapshots/
+# TRILLIONX anti disk saturation
+backups/app.before*.js
+*.tmp
+*.cache
+history/*.gz
+node_modules/.cache/
+# TRILLIONX runtime noise
+logs/*.log
+logs/*.out
+*.running.json
+async_jobs/*.running.json
+runtime_state/*.pid
+runtime_state/*.lock
+runtime_state/*.tmp
+.vscode-server/
+.node_repl_history
+npm-debug.log*
+# TRILLIONX runtime PID / volatile state
+runtime_state/*PID
+runtime_state/*_PID
+runtime_state/*.running
+# TRILLIONX local/runtime generated files
+.trillionx_terminal_fast.env
+.vscode/settings.before_*.json
+async_results/
+micro_sync/
+# TRILLIONX anti-growth runtime/generated
+data/*.json.gz
+data/_archive_light/
+logs/*.gz
+runtime_state/TRILLIONX_AUTO_GROWTH_POLICY.json
+_TRILLIONX_SNAPSHOT_KEEP/photos/
