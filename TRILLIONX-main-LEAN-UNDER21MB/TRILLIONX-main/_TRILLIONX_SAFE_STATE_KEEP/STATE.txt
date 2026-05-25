@@ -1,0 +1,5 @@
+]633;E;echo "time=$(date -Iseconds)";553b8440-14e5-413d-b722-a5bc62bd81d7]633;Ctime=2026-05-25T03:52:31+00:00
+pwd=/workspaces/TRILLIONX2/TRILLIONX-main-LEAN-UNDER21MB/TRILLIONX-main
+port_3000=CLOSED
+disk=/dev/loop4       32G  9.8G   20G  33% /workspaces
+git_changes=1

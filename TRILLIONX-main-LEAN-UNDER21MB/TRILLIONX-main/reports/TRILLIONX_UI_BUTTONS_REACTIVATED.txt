@@ -1,0 +1,154 @@
+218:async function workload(){
+249:  const [s,n,r,b,w,l]=await Promise.all([system(),network(),repo(),blockchain(),workload(),launchStatus()]);
+416:<button onclick="load('/api/imperial')">IMPERIAL</button><button onclick="load('/api/benchmark/instant-score')">SCORE INSTANT</button><button onclick="load('/api/benchmark/flops-libre?size=5000000&rounds=3')">FLOPS LIBRE</button><button onclick="load('/api/benchmark/flops-libre/dict')">DICT FLOPS</button><button onclick="load('/api/benchmark/flops-libre/report?size=10000000&rounds=5')">FLOPS REPORT</button><button onclick="load('/api/benchmark/flops-libre/boost?level=standard')">FLOPS BOOST</button><button onclick="load('/api/benchmark/flops-libre/boost-report?level=standard')">BOOST REPORT</button><button onclick="load('/api/benchmark/power-catalog')">POWER CATALOG</button><button onclick="load('/api/hpc-zeta/catalog')">HPC ZETA</button><button onclick="load('/api/hpc-zeta/probe')">ZETA PROBE</button><button onclick="load('/api/hpc-zeta/stress?level=standard')">ZETA STRESS</button><button onclick="load('/api/terminal-v11/catalog')">TERMINAL V11</button><button onclick="load('/api/support-accelerator')">SUPPORT ACCEL</button><button onclick="load('/api/how-far-can-it-go')">HOW FAR</button><button onclick="load('/api/processor')">PROCESSOR</button><button onclick="load('/api/network-situation')">NET MARK</button><button onclick="load('/api/space/iss/position')">ISS LIVE</button><button onclick="load('/api/max-tech')">MAX TECH</button><button onclick="load('/api/power')">POWER 278%</button><button onclick="load('/api/experimental')">EXPERIMENTAL</button><button onclick="load('/api/exponential')">EXPONENTIAL</button><button onclick="showChat()">AI CHAT</button><button onclick="load('/api/reconnect')">RECONNECT</button><button onclick="load('/api/ai-kernel')">AI KERNEL</button><button onclick="load('/api/dict')">DICT</button><button onclick="load('/api/solver/strategic?m=runtime audit')">SOLVER</button><button onclick="load('/api/repair/report')">SAFE REPAIR</button><button onclick="load('/api/modules')">MODULES</button><button onclick="load('/api/cockpit')">MESURES</button><button onclick="load('/api/capacity')">CAPACITY</button><button onclick="load('/api/full')">FULL</button><button onclick="load('/api/system')">SYSTEM</button><button onclick="load('/api/network')">NETWORK</button><button onclick="load('/api/repo')">REPO</button><button onclick="load('/api/blockchain')">BLOCKCHAIN</button><button onclick="load('/api/workload')">WORKLOAD</button><button onclick="load('/api/launch')">LAUNCH.JSON</button><button onclick="load('/api/protocols')">PROTOCOLS</button><button onclick="load('/api/iot')">IoT REAL</button><button onclick="load('/api/security')">SECURITY</button><button onclick="load('/api/supercompute')">SUPERCOMPUTE</button><button onclick="load('/api/tech')">TECH</button>
+419:<div class="card wide"><h3>CONTROL</h3><div class="mini">REAL ONLY — potentiel affiché 278% avec labels REAL / EMULATED / UNAVAILABLE. Pas de fausse télémétrie.</div><textarea id="msg" rows="3">TRILLIONS: audit the real orchestration capacity and bottlenecks.</textarea><button class="btn" onclick="askAI()">AI ANALYZE</button><button class="btn" onclick="cmd('pm2 ls')">PM2 LS</button><button class="btn" onclick="cmd('pm2 restart TRILLIONS')">PM2 RESTART</button><button class="btn" onclick="cmd('ss -tulpn')">PORTS</button><input id="shell" value="ps aux --sort=-%cpu | head -20"><button class="btn" onclick="cmd(document.getElementById('shell').value)">RUN SAFE SHELL</button></div>
+420:<div class="card wide" id="chatbox" style="display:none"><h3>SOVEREIGN AI CHAT</h3><div class="mini">Simple en surface, complexe derrière — REAL PROVIDER ONLY.</div><div id="chatlog" class="out" style="max-height:300px">AI CHAT READY</div><textarea id="chatmsg" rows="3">/status</textarea><button class="btn" onclick="sendChat()">SEND</button><button class="btn" onclick="load('/api/ai-chat/providers')">PROVIDERS</button><button class="btn" onclick="load('/api/ai-chat/trace')">TRACE</button></div><div class="card wide"><h3>ONDE DE SITUATION</h3><canvas id="wave" height="90" style="width:100%;border:1px solid #00ff6633;background:#000"></canvas></div><div class="card wide"><h3>OUTPUT</h3><pre id="out" class="out">READY</pre></div>
+752:async function load(u){out.textContent='LOADING '+u;try{let r=await fetch(u).catch(e=>({text:async()=>String(e)}));out.textContent=JSON.stringify(await r.text(),null,2)}catch(e){out.textContent='ERROR '+e.message}}
+753:async function askAI(){load('/api/ai?m='+encodeURIComponent(document.getElementById('msg').value))}
+757:function startKeepAlive(){setInterval(async()=>{try{await fetch("/api/ping?ts="+Date.now().catch(e=>({text:async()=>String(e)})),{cache:"no-store"})}catch(e){} if(typeof socket!=="undefined"&&!socket.connected){try{socket.connect()}catch(e){}}},15000)};document.addEventListener("visibilitychange",()=>{if(!document.hidden){try{socket.connect()}catch(e){} load("/api/ping")}});window.addEventListener("online",()=>load("/api/ping"));window.addEventListener("offline",()=>{out.textContent="NETWORK OFFLINE — waiting reconnection..."});startKeepAlive();
+758:load('/api/power');
+806:app.get("/api/workload",async(req,res)=>res.json(await workload()));
+945:function apiCatalogPayload(route="/api/ultimate-api-catalog"){
+966:  app.get(r,(req,res)=>res.json(apiCatalogPayload(req.path)));
+2386:    workload().catch(e=>({error:e.message})),
+2540:<button onclick="load('/api/workload-runtime/status')">STATUS</button>
+2541:<button onclick="load('/api/workload-runtime/scripts')">SCRIPTS</button>
+2542:<button onclick="load('/api/performance/gain-report')">GAIN REPORT</button>
+2543:<button onclick="load('/api/performance/micro-benchmark?iterations=250000&workers=1')">LIGHT BENCH</button>
+2544:<button onclick="load('/api/ai-chat/providers')">PROVIDERS</button>
+2545:<button onclick="load('/api/routes/test')">ROUTES</button>
+2546:<button onclick="load('/api/workload-runtime/memory')">MEMORY</button>
+2547:<button onclick="load('/api/workload-runtime/energy')">ENERGY</button>
+2564:async function load(u){out.textContent='LOADING '+u;try{const r=await fetch(u,{cache:'no-store'}).catch(e=>({text:async()=>String(e)}));out.textContent = TX_renderOutput(await r.text(),null,2)}catch(e){out.textContent='ERROR '+e.message}}
+3868:  const report={time:now(),available:true,status:"REAL_SHARED_MEMORY_ATOMICS_READY",pool_bytes:sab.byteLength,atomic_adds:n,duration_ms:+ms.toFixed(3),ops_per_sec:+ops.toFixed(2),final:Atomics.load(view,0),zero_copy_mode:"SharedArrayBuffer_reference_transfer",honesty:"local shared memory primitive probe only"};
+4850:<button onclick="load('/api/hpc-simd')">HPC SIMD</button>
+4851:<button onclick="load('/api/hpc-simd/probe')">SIMD PROBE</button>
+4852:<button onclick="load('/api/hpc-simd/cpu-flags')">CPU FLAGS</button>
+4853:<button onclick="load('/api/hpc-simd/blas')">BLAS</button>
+4854:<button onclick="load('/api/hpc-simd/wasm')">WASM SIMD</button>
+4855:<button onclick="load('/api/hpc-simd/bench?size=2000000&rounds=5')">SIMD BENCH</button>
+4856:<button onclick="load('/api/hpc-simd/report?size=3000000&rounds=5')">SIMD REPORT</button>
+5522:<button onclick="load('/api/codec-cpu')">CODEC CPU</button>
+5523:<button onclick="load('/api/codec-cpu/probe')">CODEC PROBE</button>
+5524:<button onclick="load('/api/codec-cpu/dict')">DICT CODECS</button>
+5525:<button onclick="load('/api/codec-cpu/ffmpeg')">FFMPEG CPU</button>
+5526:<button onclick="load('/api/codec-cpu/node')">NODE CODECS</button>
+5527:<button onclick="load('/api/codec-cpu/video')">VIDEO CODECS</button>
+5528:<button onclick="load('/api/codec-cpu/audio')">AUDIO CODECS</button>
+5529:<button onclick="load('/api/codec-cpu/image')">IMAGE CODECS</button>
+5530:<button onclick="load('/api/codec-cpu/archive')">ARCHIVE CODECS</button>
+5531:<button onclick="load('/api/codec-cpu/crypto')">CRYPTO CODECS</button>
+6273:<button onclick="load('/api/memory-terms')">MEMORY TERMS</button>
+6274:<button onclick="load('/api/memory-terms/dict')">DICT MEMORY</button>
+6275:<button onclick="load('/api/memory-terms/probe')">MEM PROBE</button>
+6276:<button onclick="load('/api/memory-terms/runtime')">NODE MEMORY</button>
+6277:<button onclick="load('/api/memory-terms/system')">SYS MEMORY</button>
+6278:<button onclick="load('/api/memory-terms/numa')">NUMA MEM</button>
+6279:<button onclick="load('/api/memory-terms/gpu')">GPU MEM</button>
+6280:<button onclick="load('/api/memory-terms/hpc')">HPC MEM</button>
+6281:<button onclick="load('/api/memory-terms/prototype')">PROTO MEM</button>
+6282:<button onclick="load('/api/memory-terms/supercomputer')">SUPER MEM</button>
+6283:<button onclick="load('/api/memory-terms/solver')">SOLVER MEM</button>
+7426:<button onclick="load('/api/cache-memory')">CACHE MEMORY</button>
+7427:<button onclick="load('/api/cache-memory/dict')">DICT CACHE</button>
+7428:<button onclick="load('/api/cache-memory/probe')">CACHE PROBE</button>
+7429:<button onclick="load('/api/cache-memory/cpu')">CPU CACHE</button>
+7430:<button onclick="load('/api/cache-memory/runtime')">NODE CACHE</button>
+7431:<button onclick="load('/api/cache-memory/os-page')">PAGE CACHE</button>
+7432:<button onclick="load('/api/cache-memory/storage')">STORAGE CACHE</button>
+7433:<button onclick="load('/api/cache-memory/network')">NET CACHE</button>
+7434:<button onclick="load('/api/cache-memory/gpu')">GPU CACHE</button>
+7435:<button onclick="load('/api/cache-memory/hpc')">HPC CACHE</button>
+7436:<button onclick="load('/api/cache-memory/bench?size=2000000&passes=5')">CACHE BENCH</button>
+8487:<button onclick="load('/api/stratum-sha256')">STRATUM SHA256</button>
+8488:<button onclick="load('/api/stratum-sha256/dict')">DICT STRATUM</button>
+8489:<button onclick="load('/api/stratum-sha256/probe')">STRATUM PROBE</button>
+8490:<button onclick="load('/api/stratum-sha256/sha256')">SHA256 CPU</button>
+8491:<button onclick="load('/api/stratum-sha256/cpu-flags')">SHA FLAGS</button>
+8492:<button onclick="load('/api/stratum-sha256/bench?iterations=100000')">SHA BENCH</button>
+8493:<button onclick="load('/api/stratum-sha256/core')">STRATUM CORE</button>
+8494:<button onclick="load('/api/stratum-sha256/job')">MINING JOB</button>
+8495:<button onclick="load('/api/stratum-sha256/share')">SHARES</button>
+8496:<button onclick="load('/api/stratum-sha256/difficulty')">DIFFICULTY</button>
+8497:<button onclick="load('/api/stratum-sha256/pools')">POOLS</button>
+8498:<button onclick="load('/api/stratum-sha256/hardware')">ASIC HW</button>
+8499:<button onclick="load('/api/stratum-sha256/safety')">SAFETY</button>
+9944:<button onclick="load('/api/processor-calc')">PROCESSOR CALC</button>
+9945:<button onclick="load('/api/processor-calc/dict')">DICT CALC</button>
+9946:<button onclick="load('/api/processor-calc/probe')">CALC PROBE</button>
+9947:<button onclick="load('/api/processor-calc/bench?type=all&size=10000000')">CALC BENCH</button>
+9948:<button onclick="load('/api/processor-calc/integer')">INT ALU</button>
+9949:<button onclick="load('/api/processor-calc/floating')">FPU</button>
+9950:<button onclick="load('/api/processor-calc/simd')">SIMD</button>
+9951:<button onclick="load('/api/processor-calc/tensor')">TENSOR</button>
+9952:<button onclick="load('/api/processor-calc/crypto')">CRYPTO CALC</button>
+9953:<button onclick="load('/api/processor-calc/gpu')">GPU CALC</button>
+9954:<button onclick="load('/api/processor-calc/npu')">NPU</button>
+9955:<button onclick="load('/api/processor-calc/fpga')">FPGA</button>
+9956:<button onclick="load('/api/processor-calc/asic')">ASIC</button>
+9957:<button onclick="load('/api/processor-calc/hpc')">HPC CALC</button>
+9958:<button onclick="load('/api/processor-calc/numeric')">NUMERIC</button>
+9959:<button onclick="load('/api/processor-calc/symbolic')">SYMBOLIC</button>
+10953:<button onclick="load('/api/latency-min')">LATENCY MIN</button>
+10954:<button onclick="load('/api/latency-min/dict')">DICT LATENCY</button>
+10955:<button onclick="load('/api/latency-min/probe')">LAT PROBE</button>
+10956:<button onclick="load('/api/latency-min/event-loop')">EVENT LOOP</button>
+10957:<button onclick="load('/api/latency-min/microtask')">MICROTASK</button>
+10958:<button onclick="load('/api/latency-min/memory')">MEM LAT</button>
+10959:<button onclick="load('/api/latency-min/workers')">WORKER LAT</button>
+10960:<button onclick="load('/api/latency-min/io')">IO LAT</button>
+10961:<button onclick="load('/api/latency-min/shell')">SHELL LAT</button>
+11711:<button onclick="load('/api/sha-field')">SHA FIELD</button>
+11712:<button onclick="load('/api/sha-field/dict')">DICT SHA</button>
+11713:<button onclick="load('/api/sha-field/probe')">SHA PROBE</button>
+11714:<button onclick="load('/api/sha-field/cpu-flags')">SHA CPU</button>
+11715:<button onclick="load('/api/sha-field/bench?iterations=100000&bytes=1024')">SHA BENCH</button>
+11716:<button onclick="load('/api/sha-field/latency?samples=1000&bytes=64')">SHA LATENCY</button>
+11717:<button onclick="load('/api/sha-field/hash?algo=sha256&message=test')">SHA256 TEST</button>
+11718:<button onclick="load('/api/sha-field/hash?algo=sha512&message=test')">SHA512 TEST</button>
+12554:<button onclick="load('/api/hash-field')">HASH FIELD</button>
+12555:<button onclick="load('/api/hash-field/dict')">DICT HASH</button>
+12556:<button onclick="load('/api/hash-field/probe')">HASH PROBE</button>
+12557:<button onclick="load('/api/hash-field/bench?iterations=50000&bytes=1024')">HASH BENCH</button>
+12558:<button onclick="load('/api/hash-field/randomx')">RANDOMX</button>
+12559:<button onclick="load('/api/hash-field/hash?algo=sha3-256&message=test')">SHA3 TEST</button>
+12560:<button onclick="load('/api/hash-field/hash?algo=md5&message=test')">MD5 TEST</button>
+12561:<button onclick="load('/api/hash-field/hash?algo=blake2b512&message=test')">BLAKE2 TEST</button>
+13089:<button onclick="load('/api/qn-coprocessor')">QN COPROCESSOR</button>
+13090:<button onclick="load('/api/qn-coprocessor/probe')">QN PROBE</button>
+13091:<button onclick="load('/api/qn-coprocessor/layers')">QN L1-L6</button>
+13092:<button onclick="load('/api/qn-coprocessor/l6-raw?width=2&depth=12')">L6 RAW</button>
+13093:<button onclick="load('/api/qn-coprocessor/backend')">QN BACKEND</button>
+13094:<button onclick="load('/api/qn-coprocessor/memory-reality')">QN MEMORY REAL</button>
+13965:<button onclick="load('/api/die-3dnand')">DIE 3DNAND</button>
+13966:<button onclick="load('/api/die-3dnand/probe')">DIE PROBE</button>
+13967:<button onclick="load('/api/die-3dnand/hardware')">NAND HW</button>
+13968:<button onclick="load('/api/die-3dnand/processor')">DIE CPU</button>
+13969:<button onclick="load('/api/die-3dnand/topology')">3DNAND TOPO</button>
+13970:<button onclick="load('/api/die-3dnand/coprocessor')">COPROCESSOR</button>
+13971:<button onclick="load('/api/die-3dnand/cache')">DIE CACHE</button>
+13972:<button onclick="load('/api/die-3dnand/latency')">DIE LATENCY</button>
+16173:function load(){
+16279:  telemetry:{load:load(),mhz:cpuMHz(),temp_c:cpuTemp(),threads:os.cpus().length,ram_total:os.totalmem(),ram_free:os.freemem(),process_mem:mem()},
+16706:app.get("/api/trillions/real-ascension/ring",(q,r)=>r.json({ok:true,shared_buffer:"SharedArrayBuffer",atomics:"ready",writes:S.ring_writes,head:Atomics.load(ring,0),sample:Array.from(ring.slice(0,16))}));
+18090:function wrapPayload(payload,utxo){
+18112:   last=dsha(wrapPayload((i&1)?b16:b32,u)).toString("hex"); wrapped++;
+20233:app.get('/coprocessor-os',(req,res)=>res.type('html').send(`<!doctype html><meta charset="utf-8"><title>TRILLIONS Host Coprocessor OS</title><style>body{background:#05070b;color:#dff;font-family:Arial;margin:22px}button{padding:12px 16px;margin:6px;background:#092;color:#dff;border:1px solid #0ff;border-radius:10px}pre{white-space:pre-wrap;background:#071018;border:1px solid #134;padding:14px;border-radius:12px}.ok{color:#6f6}</style><h1>TRILLIONS HOST COPROCESSOR OS</h1><p>REAL ONLY OR UNAVAILABLE - ns / µs / massive data / host saturation comfort</p><button onclick="run('/api/host-coprocessor-os/status')">STATUS</button><button onclick="run('/api/host-coprocessor-os/bench?totalMB=256&chunkMB=8&bits=96000&rounds=4096&samples=3000')">BENCH STANDARD</button><button onclick="run('/api/host-coprocessor-os/bench?totalMB=512&chunkMB=8&bits=96000&rounds=8192&samples=5000')">BENCH LOURD</button><pre id=o>ready</pre><script>async function run(u){o.textContent='running...';let r=await fetch(u).catch(e=>({text:async()=>String(e)}));o.textContent = TX_renderOutput(await r.text(),null,2)}</script>`));
+21691:function zhVerifyPayload(payload){
+21705:app.post("/api/ai-zero-hallucination/check",async(req,res)=>res.json(zhVerifyPayload(req.body||{})));
+21706:app.post("/api/ai-zero-hallucination/verify",async(req,res)=>res.json(zhVerifyPayload(req.body||{})));
+25554:async function kyotoV14DeltaPayload(){const mem=process.memoryUsage();return {time:now(),uptime_sec:Math.floor(process.uptime()),memory:{rss_mb:+(mem.rss/1048576).toFixed(2),heap_used_mb:+(mem.heapUsed/1048576).toFixed(2)},jobs:JOBS?JOBS.size:0,cache:CACHE?CACHE.size:0,socket_clients:io.engine.clientsCount,mesh_peers:KYOTO_V14_MESH_PEERS.size};}
+25566:app.get("/api/kyoto/v14/delta",async(req,res)=>res.json(await kyotoV14DeltaPayload()));
+25568:app.get("/api/kyoto/v14/stream",async(req,res)=>{res.writeHead(200,{"Content-Type":"text/event-stream","Cache-Control":"no-cache","Connection":"keep-alive"});KYOTO_V14_DELTA_CLIENTS.add(res);const send=async()=>{try{res.write(`data: ${JSON.stringify(await kyotoV14DeltaPayload())}\n\n`)}catch(e){}};await send();const id=setInterval(send,2000);req.on("close",()=>{clearInterval(id);KYOTO_V14_DELTA_CLIENTS.delete(res);});});
+26665:<button onclick="run('status')">STATUS</button>
+26666:<button onclick="run('ports')">PORTS</button>
+26667:<button onclick="run('disk')">DISK</button>
+26668:<button onclick="run('git')">GIT</button>
+26669:<button onclick="run('bench_org')">BENCH ORG</button>
+26670:<button onclick="run('activation')">ACTIVATION</button>
+26671:<button onclick="run('button_probe')">BUTTON PROBE</button>
+26672:<button onclick="run('logs')">LOGS</button>
+26673:<button onclick="run('npm_check')">NPM CHECK</button>
+26674:<button onclick="run('push_status')">PUSH STATUS</button>
+26678:<button onclick="run(document.getElementById('cmd').value)">RUN</button>
+26693:async function load(url){

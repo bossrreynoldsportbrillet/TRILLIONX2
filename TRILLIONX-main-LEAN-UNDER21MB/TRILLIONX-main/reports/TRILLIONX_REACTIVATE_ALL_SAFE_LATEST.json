@@ -1,0 +1,18 @@
+{
+  "engine":"TRILLIONX_REACTIVATE_ALL_SAFE",
+  "time":"2026-05-25T03:42:16+00:00",
+  "root":"/workspaces/TRILLIONX2/TRILLIONX-main-LEAN-UNDER21MB/TRILLIONX-main",
+  "policy":{
+    "no_delete":true,
+    "no_clean":true,
+    "no_node_modules_remove":true,
+    "safe_reactivate_only":true
+  },
+  "checks":{
+    "app_js_present":true,
+    "port_3000_listening":true,
+    "routes_catalog":"reports/TRILLIONX_ROUTES_REACTIVATED.txt",
+    "ui_buttons_catalog":"reports/TRILLIONX_UI_BUTTONS_REACTIVATED.txt",
+    "executable_catalog":"reports/TRILLIONX_EXECUTABLE_CATALOG.txt"
+  }
+}
