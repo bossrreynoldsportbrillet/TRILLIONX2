@@ -1,0 +1,1391 @@
+{
+  "engine": "TRILLIONX_USEFUL_WORK_EXASCALE_SUPERIOR_BENCH",
+  "ts": "2026-05-24T13:01:04.500Z",
+  "policy": {
+    "target": "TRILLIONX",
+    "host": "CODESPACES_SUPPORT_ONLY",
+    "real_only": true,
+    "no_fake_exascale": true,
+    "no_fake_gpu": true,
+    "exascale_defined_as_useful_work_superiority": true
+  },
+  "context": {
+    "repo_summary": {
+      "files": 150,
+      "ext": {
+        "NOEXT": 1,
+        ".json": 72,
+        ".md": 3,
+        ".js": 50,
+        ".txt": 12,
+        ".jsonl": 10,
+        ".zip": 1,
+        ".c": 1
+      },
+      "routes": 17362,
+      "api_strings": 28446,
+      "ws_events": 95,
+      "native": 1,
+      "bench": 58,
+      "registry": 94,
+      "workers": 12,
+      "json": 72,
+      "modules": 28,
+      "errors": 26,
+      "health": 62,
+      "verdict": "REVIEW_NEEDED"
+    },
+    "shared_vr_cache": {},
+    "raid60": {
+      "protected_files": 161,
+      "total_payload_bytes": 7905600,
+      "logical_copies": 322,
+      "stripes": 6,
+      "parity_blocks": 12,
+      "session": "raid60_1779627539478"
+    },
+    "joker": {
+      "mode": "STABLE_CONTROL",
+      "actions": [
+        "JOKER_2_0_CACHE_REBALANCE",
+        "NETWORK_RESCAN_RECOMMENDED",
+        "GPU_PROFILE_ONLY_KEEP_NO_FAKE_GPU"
+      ],
+      "verdict": "HYPERBOLIC_CONTROL_EXCELLENT"
+    }
+  },
+  "summary": {
+    "avg_time_gain_percent": 60.556,
+    "avg_useful_gain_percent": 174.62,
+    "avg_waste_avoided_ratio": 0.583,
+    "avg_cache_hit_ratio": 0.583,
+    "avg_mesh_ratio": 0.5,
+    "avg_superiority_index": 93.571,
+    "avg_health": 100,
+    "best_packet": 2,
+    "best_superiority_index": 194.305,
+    "repo_routes": 17362,
+    "shared_vr_mirrors": 0,
+    "raid60_protected_files": 161,
+    "joker_verdict": "HYPERBOLIC_CONTROL_EXCELLENT",
+    "verdict": "TRILLIONX_USEFUL_WORK_SUPERIOR_ON_THIS_TASK",
+    "exascale_reading": "TRILLIONX can exceed brute-force style by avoiding wasted work on this workload; this is not a physical exaFLOPS claim."
+  },
+  "results": [
+    {
+      "packet": 1,
+      "before": {
+        "rss_mb": 53.527,
+        "heap_mb": 5.343,
+        "external_mb": 1.834,
+        "free_gb": 1.407,
+        "total_gb": 7.757
+      },
+      "baseline": {
+        "mode": "BASELINE_BRUTE_FORCE",
+        "jobs": 6200,
+        "unique_keys": 517,
+        "ops": 4463100,
+        "ms": 6530.136,
+        "jobs_s": 949.444,
+        "ops_s": 683462.016,
+        "checksum": 887652176
+      },
+      "trillionx": {
+        "mode": "TRILLIONX_ORCHESTRATED",
+        "jobs": 6200,
+        "unique_cache_keys": 2585,
+        "classes": {
+          "BTC_UTXO": 1240,
+          "VECTOR": 1240,
+          "NETWORK": 1240,
+          "VR_CACHE": 1240,
+          "REGISTRY": 1240
+        },
+        "ops_executed": 1860300,
+        "ops_avoided": 2602800,
+        "cache_hits": 3615,
+        "cache_miss": 2585,
+        "cache_hit_ratio": 0.583,
+        "mesh_nodes_seen": 20,
+        "mesh_probe_ok": 20,
+        "ms": 3075.88,
+        "jobs_s": 2015.683,
+        "executed_ops_s": 604802.503,
+        "useful_ops_s": 1450999.328,
+        "checksum": -1914043392,
+        "nodeStats": [
+          {
+            "port": 3010,
+            "ok": true,
+            "ms": 16.741,
+            "bytes": 844,
+            "status": 200
+          },
+          {
+            "port": 3011,
+            "ok": true,
+            "ms": 17.489,
+            "bytes": 841,
+            "status": 200
+          },
+          {
+            "port": 3012,
+            "ok": true,
+            "ms": 27.214,
+            "bytes": 842,
+            "status": 200
+          },
+          {
+            "port": 3013,
+            "ok": true,
+            "ms": 36.382,
+            "bytes": 840,
+            "status": 200
+          },
+          {
+            "port": 3014,
+            "ok": true,
+            "ms": 10.211,
+            "bytes": 843,
+            "status": 200
+          },
+          {
+            "port": 3015,
+            "ok": true,
+            "ms": 15.026,
+            "bytes": 843,
+            "status": 200
+          },
+          {
+            "port": 3016,
+            "ok": true,
+            "ms": 19.162,
+            "bytes": 841,
+            "status": 200
+          },
+          {
+            "port": 3017,
+            "ok": true,
+            "ms": 20.796,
+            "bytes": 840,
+            "status": 200
+          },
+          {
+            "port": 3018,
+            "ok": true,
+            "ms": 13.22,
+            "bytes": 840,
+            "status": 200
+          },
+          {
+            "port": 3019,
+            "ok": true,
+            "ms": 18.239,
+            "bytes": 844,
+            "status": 200
+          },
+          {
+            "port": 3020,
+            "ok": true,
+            "ms": 22.104,
+            "bytes": 846,
+            "status": 200
+          },
+          {
+            "port": 3021,
+            "ok": true,
+            "ms": 43.808,
+            "bytes": 845,
+            "status": 200
+          },
+          {
+            "port": 3022,
+            "ok": true,
+            "ms": 41.782,
+            "bytes": 847,
+            "status": 200
+          },
+          {
+            "port": 3023,
+            "ok": true,
+            "ms": 46.105,
+            "bytes": 845,
+            "status": 200
+          },
+          {
+            "port": 3024,
+            "ok": true,
+            "ms": 59.849,
+            "bytes": 845,
+            "status": 200
+          },
+          {
+            "port": 3025,
+            "ok": true,
+            "ms": 86.471,
+            "bytes": 844,
+            "status": 200
+          },
+          {
+            "port": 3026,
+            "ok": true,
+            "ms": 28.809,
+            "bytes": 846,
+            "status": 200
+          },
+          {
+            "port": 3027,
+            "ok": true,
+            "ms": 26.348,
+            "bytes": 847,
+            "status": 200
+          },
+          {
+            "port": 3028,
+            "ok": true,
+            "ms": 16.24,
+            "bytes": 846,
+            "status": 200
+          },
+          {
+            "port": 3029,
+            "ok": true,
+            "ms": 17.23,
+            "bytes": 847,
+            "status": 200
+          }
+        ]
+      },
+      "score": {
+        "time_gain_percent": 52.897,
+        "useful_gain_percent": 112.301,
+        "waste_avoided_ratio": 0.583,
+        "cache_hit_ratio": 0.583,
+        "mesh_ratio": 1,
+        "superiority_index": 74.694,
+        "health": 100
+      },
+      "after": {
+        "rss_mb": 74.645,
+        "heap_mb": 7.478,
+        "external_mb": 1.848,
+        "free_gb": 1.278,
+        "total_gb": 7.757
+      }
+    },
+    {
+      "packet": 2,
+      "before": {
+        "rss_mb": 74.645,
+        "heap_mb": 8.213,
+        "external_mb": 1.848,
+        "free_gb": 1.278,
+        "total_gb": 7.757
+      },
+      "baseline": {
+        "mode": "BASELINE_BRUTE_FORCE",
+        "jobs": 6400,
+        "unique_keys": 534,
+        "ops": 4607100,
+        "ms": 18193.493,
+        "jobs_s": 351.774,
+        "ops_s": 253227.896,
+        "checksum": 1953716150
+      },
+      "trillionx": {
+        "mode": "TRILLIONX_ORCHESTRATED",
+        "jobs": 6400,
+        "unique_cache_keys": 2669,
+        "classes": {
+          "BTC_UTXO": 1280,
+          "VECTOR": 1280,
+          "NETWORK": 1280,
+          "VR_CACHE": 1280,
+          "REGISTRY": 1280
+        },
+        "ops_executed": 1920780,
+        "ops_avoided": 2686320,
+        "cache_hits": 3731,
+        "cache_miss": 2669,
+        "cache_hit_ratio": 0.583,
+        "mesh_nodes_seen": 0,
+        "mesh_probe_ok": 0,
+        "ms": 3071.091,
+        "jobs_s": 2083.95,
+        "executed_ops_s": 625438.93,
+        "useful_ops_s": 1500150.822,
+        "checksum": 867773701,
+        "nodeStats": []
+      },
+      "score": {
+        "time_gain_percent": 83.12,
+        "useful_gain_percent": 492.411,
+        "waste_avoided_ratio": 0.583,
+        "cache_hit_ratio": 0.583,
+        "mesh_ratio": 0,
+        "superiority_index": 194.305,
+        "health": 100
+      },
+      "after": {
+        "rss_mb": 77.355,
+        "heap_mb": 10.114,
+        "external_mb": 1.834,
+        "free_gb": 0.899,
+        "total_gb": 7.757
+      }
+    },
+    {
+      "packet": 3,
+      "before": {
+        "rss_mb": 77.34,
+        "heap_mb": 10.914,
+        "external_mb": 1.834,
+        "free_gb": 0.908,
+        "total_gb": 7.757
+      },
+      "baseline": {
+        "mode": "BASELINE_BRUTE_FORCE",
+        "jobs": 6600,
+        "unique_keys": 550,
+        "ops": 4751460,
+        "ms": 7800.815,
+        "jobs_s": 846.065,
+        "ops_s": 609097.865,
+        "checksum": 908943385
+      },
+      "trillionx": {
+        "mode": "TRILLIONX_ORCHESTRATED",
+        "jobs": 6600,
+        "unique_cache_keys": 2750,
+        "classes": {
+          "BTC_UTXO": 1320,
+          "VECTOR": 1320,
+          "NETWORK": 1320,
+          "VR_CACHE": 1320,
+          "REGISTRY": 1320
+        },
+        "ops_executed": 1979460,
+        "ops_avoided": 2772000,
+        "cache_hits": 3850,
+        "cache_miss": 2750,
+        "cache_hit_ratio": 0.583,
+        "mesh_nodes_seen": 20,
+        "mesh_probe_ok": 20,
+        "ms": 3177.644,
+        "jobs_s": 2077.01,
+        "executed_ops_s": 622933.138,
+        "useful_ops_s": 1495277.444,
+        "checksum": 1401494855,
+        "nodeStats": [
+          {
+            "port": 3010,
+            "ok": true,
+            "ms": 16.706,
+            "bytes": 845,
+            "status": 200
+          },
+          {
+            "port": 3011,
+            "ok": true,
+            "ms": 6.808,
+            "bytes": 839,
+            "status": 200
+          },
+          {
+            "port": 3012,
+            "ok": true,
+            "ms": 8.4,
+            "bytes": 843,
+            "status": 200
+          },
+          {
+            "port": 3013,
+            "ok": true,
+            "ms": 14.264,
+            "bytes": 844,
+            "status": 200
+          },
+          {
+            "port": 3014,
+            "ok": true,
+            "ms": 11.064,
+            "bytes": 841,
+            "status": 200
+          },
+          {
+            "port": 3015,
+            "ok": true,
+            "ms": 9.426,
+            "bytes": 844,
+            "status": 200
+          },
+          {
+            "port": 3016,
+            "ok": true,
+            "ms": 12.944,
+            "bytes": 843,
+            "status": 200
+          },
+          {
+            "port": 3017,
+            "ok": true,
+            "ms": 12.245,
+            "bytes": 842,
+            "status": 200
+          },
+          {
+            "port": 3018,
+            "ok": true,
+            "ms": 8.396,
+            "bytes": 844,
+            "status": 200
+          },
+          {
+            "port": 3019,
+            "ok": true,
+            "ms": 10.358,
+            "bytes": 843,
+            "status": 200
+          },
+          {
+            "port": 3020,
+            "ok": true,
+            "ms": 12.545,
+            "bytes": 847,
+            "status": 200
+          },
+          {
+            "port": 3021,
+            "ok": true,
+            "ms": 16.836,
+            "bytes": 847,
+            "status": 200
+          },
+          {
+            "port": 3022,
+            "ok": true,
+            "ms": 16.872,
+            "bytes": 847,
+            "status": 200
+          },
+          {
+            "port": 3023,
+            "ok": true,
+            "ms": 13.364,
+            "bytes": 843,
+            "status": 200
+          },
+          {
+            "port": 3024,
+            "ok": true,
+            "ms": 22.968,
+            "bytes": 846,
+            "status": 200
+          },
+          {
+            "port": 3025,
+            "ok": true,
+            "ms": 16.659,
+            "bytes": 846,
+            "status": 200
+          },
+          {
+            "port": 3026,
+            "ok": true,
+            "ms": 12.1,
+            "bytes": 846,
+            "status": 200
+          },
+          {
+            "port": 3027,
+            "ok": true,
+            "ms": 15.573,
+            "bytes": 846,
+            "status": 200
+          },
+          {
+            "port": 3028,
+            "ok": true,
+            "ms": 21.891,
+            "bytes": 846,
+            "status": 200
+          },
+          {
+            "port": 3029,
+            "ok": true,
+            "ms": 17.93,
+            "bytes": 847,
+            "status": 200
+          }
+        ]
+      },
+      "score": {
+        "time_gain_percent": 59.265,
+        "useful_gain_percent": 145.491,
+        "waste_avoided_ratio": 0.583,
+        "cache_hit_ratio": 0.583,
+        "mesh_ratio": 1,
+        "superiority_index": 86.88,
+        "health": 100
+      },
+      "after": {
+        "rss_mb": 94.789,
+        "heap_mb": 7.57,
+        "external_mb": 1.869,
+        "free_gb": 0.825,
+        "total_gb": 7.757
+      }
+    },
+    {
+      "packet": 4,
+      "before": {
+        "rss_mb": 94.789,
+        "heap_mb": 8.454,
+        "external_mb": 1.869,
+        "free_gb": 0.832,
+        "total_gb": 7.757
+      },
+      "baseline": {
+        "mode": "BASELINE_BRUTE_FORCE",
+        "jobs": 6800,
+        "unique_keys": 567,
+        "ops": 4894920,
+        "ms": 7649.915,
+        "jobs_s": 888.899,
+        "ops_s": 639865.945,
+        "checksum": 340127623
+      },
+      "trillionx": {
+        "mode": "TRILLIONX_ORCHESTRATED",
+        "jobs": 6800,
+        "unique_cache_keys": 2835,
+        "classes": {
+          "BTC_UTXO": 1360,
+          "VECTOR": 1360,
+          "NETWORK": 1360,
+          "VR_CACHE": 1360,
+          "REGISTRY": 1360
+        },
+        "ops_executed": 2041200,
+        "ops_avoided": 2853720,
+        "cache_hits": 3965,
+        "cache_miss": 2835,
+        "cache_hit_ratio": 0.583,
+        "mesh_nodes_seen": 0,
+        "mesh_probe_ok": 0,
+        "ms": 3328.187,
+        "jobs_s": 2043.155,
+        "executed_ops_s": 613306.912,
+        "useful_ops_s": 1470746.751,
+        "checksum": 1933305997,
+        "nodeStats": []
+      },
+      "score": {
+        "time_gain_percent": 56.494,
+        "useful_gain_percent": 129.852,
+        "waste_avoided_ratio": 0.583,
+        "cache_hit_ratio": 0.583,
+        "mesh_ratio": 0,
+        "superiority_index": 76.219,
+        "health": 100
+      },
+      "after": {
+        "rss_mb": 67.328,
+        "heap_mb": 10.368,
+        "external_mb": 1.834,
+        "free_gb": 0.816,
+        "total_gb": 7.757
+      }
+    },
+    {
+      "packet": 5,
+      "before": {
+        "rss_mb": 67.328,
+        "heap_mb": 11.241,
+        "external_mb": 1.834,
+        "free_gb": 0.828,
+        "total_gb": 7.757
+      },
+      "baseline": {
+        "mode": "BASELINE_BRUTE_FORCE",
+        "jobs": 7000,
+        "unique_keys": 584,
+        "ops": 5040000,
+        "ms": 7911.117,
+        "jobs_s": 884.831,
+        "ops_s": 637078.212,
+        "checksum": 585224310
+      },
+      "trillionx": {
+        "mode": "TRILLIONX_ORCHESTRATED",
+        "jobs": 7000,
+        "unique_cache_keys": 2919,
+        "classes": {
+          "BTC_UTXO": 1400,
+          "VECTOR": 1400,
+          "NETWORK": 1400,
+          "VR_CACHE": 1400,
+          "REGISTRY": 1400
+        },
+        "ops_executed": 2101680,
+        "ops_avoided": 2938320,
+        "cache_hits": 4081,
+        "cache_miss": 2919,
+        "cache_hit_ratio": 0.583,
+        "mesh_nodes_seen": 20,
+        "mesh_probe_ok": 20,
+        "ms": 3388.766,
+        "jobs_s": 2065.648,
+        "executed_ops_s": 620190.276,
+        "useful_ops_s": 1487266.849,
+        "checksum": -31205300,
+        "nodeStats": [
+          {
+            "port": 3010,
+            "ok": true,
+            "ms": 5.459,
+            "bytes": 841,
+            "status": 200
+          },
+          {
+            "port": 3011,
+            "ok": true,
+            "ms": 7.721,
+            "bytes": 842,
+            "status": 200
+          },
+          {
+            "port": 3012,
+            "ok": true,
+            "ms": 8.084,
+            "bytes": 843,
+            "status": 200
+          },
+          {
+            "port": 3013,
+            "ok": true,
+            "ms": 9.883,
+            "bytes": 841,
+            "status": 200
+          },
+          {
+            "port": 3014,
+            "ok": true,
+            "ms": 6.582,
+            "bytes": 841,
+            "status": 200
+          },
+          {
+            "port": 3015,
+            "ok": true,
+            "ms": 19.62,
+            "bytes": 844,
+            "status": 200
+          },
+          {
+            "port": 3016,
+            "ok": true,
+            "ms": 15.02,
+            "bytes": 845,
+            "status": 200
+          },
+          {
+            "port": 3017,
+            "ok": true,
+            "ms": 13.987,
+            "bytes": 840,
+            "status": 200
+          },
+          {
+            "port": 3018,
+            "ok": true,
+            "ms": 8.23,
+            "bytes": 842,
+            "status": 200
+          },
+          {
+            "port": 3019,
+            "ok": true,
+            "ms": 10,
+            "bytes": 843,
+            "status": 200
+          },
+          {
+            "port": 3020,
+            "ok": true,
+            "ms": 11.965,
+            "bytes": 846,
+            "status": 200
+          },
+          {
+            "port": 3021,
+            "ok": true,
+            "ms": 14.604,
+            "bytes": 848,
+            "status": 200
+          },
+          {
+            "port": 3022,
+            "ok": true,
+            "ms": 18.658,
+            "bytes": 845,
+            "status": 200
+          },
+          {
+            "port": 3023,
+            "ok": true,
+            "ms": 16.87,
+            "bytes": 845,
+            "status": 200
+          },
+          {
+            "port": 3024,
+            "ok": true,
+            "ms": 14.853,
+            "bytes": 847,
+            "status": 200
+          },
+          {
+            "port": 3025,
+            "ok": true,
+            "ms": 17.604,
+            "bytes": 847,
+            "status": 200
+          },
+          {
+            "port": 3026,
+            "ok": true,
+            "ms": 15.059,
+            "bytes": 846,
+            "status": 200
+          },
+          {
+            "port": 3027,
+            "ok": true,
+            "ms": 13.719,
+            "bytes": 846,
+            "status": 200
+          },
+          {
+            "port": 3028,
+            "ok": true,
+            "ms": 18.505,
+            "bytes": 847,
+            "status": 200
+          },
+          {
+            "port": 3029,
+            "ok": true,
+            "ms": 22.04,
+            "bytes": 847,
+            "status": 200
+          }
+        ]
+      },
+      "score": {
+        "time_gain_percent": 57.165,
+        "useful_gain_percent": 133.451,
+        "waste_avoided_ratio": 0.583,
+        "cache_hit_ratio": 0.583,
+        "mesh_ratio": 1,
+        "superiority_index": 82.533,
+        "health": 100
+      },
+      "after": {
+        "rss_mb": 65.973,
+        "heap_mb": 16.434,
+        "external_mb": 1.869,
+        "free_gb": 0.792,
+        "total_gb": 7.757
+      }
+    },
+    {
+      "packet": 6,
+      "before": {
+        "rss_mb": 65.973,
+        "heap_mb": 17.278,
+        "external_mb": 1.869,
+        "free_gb": 0.79,
+        "total_gb": 7.757
+      },
+      "baseline": {
+        "mode": "BASELINE_BRUTE_FORCE",
+        "jobs": 7200,
+        "unique_keys": 600,
+        "ops": 5182920,
+        "ms": 7810.567,
+        "jobs_s": 921.828,
+        "ops_s": 663577.953,
+        "checksum": -653370834
+      },
+      "trillionx": {
+        "mode": "TRILLIONX_ORCHESTRATED",
+        "jobs": 7200,
+        "unique_cache_keys": 3000,
+        "classes": {
+          "BTC_UTXO": 1440,
+          "VECTOR": 1440,
+          "NETWORK": 1440,
+          "VR_CACHE": 1440,
+          "REGISTRY": 1440
+        },
+        "ops_executed": 2158920,
+        "ops_avoided": 3024000,
+        "cache_hits": 4200,
+        "cache_miss": 3000,
+        "cache_hit_ratio": 0.583,
+        "mesh_nodes_seen": 0,
+        "mesh_probe_ok": 0,
+        "ms": 3111.072,
+        "jobs_s": 2314.314,
+        "executed_ops_s": 693947.186,
+        "useful_ops_s": 1665959.251,
+        "checksum": -2034358451,
+        "nodeStats": []
+      },
+      "score": {
+        "time_gain_percent": 60.168,
+        "useful_gain_percent": 151.057,
+        "waste_avoided_ratio": 0.583,
+        "cache_hit_ratio": 0.583,
+        "mesh_ratio": 0,
+        "superiority_index": 83.866,
+        "health": 100
+      },
+      "after": {
+        "rss_mb": 95.926,
+        "heap_mb": 16.958,
+        "external_mb": 1.834,
+        "free_gb": 1.132,
+        "total_gb": 7.757
+      }
+    },
+    {
+      "packet": 7,
+      "before": {
+        "rss_mb": 95.926,
+        "heap_mb": 17.962,
+        "external_mb": 1.834,
+        "free_gb": 1.132,
+        "total_gb": 7.757
+      },
+      "baseline": {
+        "mode": "BASELINE_BRUTE_FORCE",
+        "jobs": 7400,
+        "unique_keys": 617,
+        "ops": 5327460,
+        "ms": 7763.745,
+        "jobs_s": 953.148,
+        "ops_s": 686197.161,
+        "checksum": 1609447830
+      },
+      "trillionx": {
+        "mode": "TRILLIONX_ORCHESTRATED",
+        "jobs": 7400,
+        "unique_cache_keys": 3085,
+        "classes": {
+          "BTC_UTXO": 1480,
+          "VECTOR": 1480,
+          "NETWORK": 1480,
+          "VR_CACHE": 1480,
+          "REGISTRY": 1480
+        },
+        "ops_executed": 2220300,
+        "ops_avoided": 3107160,
+        "cache_hits": 4315,
+        "cache_miss": 3085,
+        "cache_hit_ratio": 0.583,
+        "mesh_nodes_seen": 20,
+        "mesh_probe_ok": 20,
+        "ms": 3461.644,
+        "jobs_s": 2137.713,
+        "executed_ops_s": 641400.465,
+        "useful_ops_s": 1538997.128,
+        "checksum": -221887430,
+        "nodeStats": [
+          {
+            "port": 3010,
+            "ok": true,
+            "ms": 8.122,
+            "bytes": 845,
+            "status": 200
+          },
+          {
+            "port": 3011,
+            "ok": true,
+            "ms": 8.219,
+            "bytes": 841,
+            "status": 200
+          },
+          {
+            "port": 3012,
+            "ok": true,
+            "ms": 11.528,
+            "bytes": 840,
+            "status": 200
+          },
+          {
+            "port": 3013,
+            "ok": true,
+            "ms": 9.548,
+            "bytes": 843,
+            "status": 200
+          },
+          {
+            "port": 3014,
+            "ok": true,
+            "ms": 10.934,
+            "bytes": 843,
+            "status": 200
+          },
+          {
+            "port": 3015,
+            "ok": true,
+            "ms": 16.993,
+            "bytes": 845,
+            "status": 200
+          },
+          {
+            "port": 3016,
+            "ok": true,
+            "ms": 17.606,
+            "bytes": 843,
+            "status": 200
+          },
+          {
+            "port": 3017,
+            "ok": true,
+            "ms": 13.811,
+            "bytes": 842,
+            "status": 200
+          },
+          {
+            "port": 3018,
+            "ok": true,
+            "ms": 13.573,
+            "bytes": 844,
+            "status": 200
+          },
+          {
+            "port": 3019,
+            "ok": true,
+            "ms": 9.8,
+            "bytes": 844,
+            "status": 200
+          },
+          {
+            "port": 3020,
+            "ok": true,
+            "ms": 11.414,
+            "bytes": 847,
+            "status": 200
+          },
+          {
+            "port": 3021,
+            "ok": true,
+            "ms": 13.345,
+            "bytes": 847,
+            "status": 200
+          },
+          {
+            "port": 3022,
+            "ok": true,
+            "ms": 10.271,
+            "bytes": 844,
+            "status": 200
+          },
+          {
+            "port": 3023,
+            "ok": true,
+            "ms": 11.739,
+            "bytes": 847,
+            "status": 200
+          },
+          {
+            "port": 3024,
+            "ok": true,
+            "ms": 13.119,
+            "bytes": 848,
+            "status": 200
+          },
+          {
+            "port": 3025,
+            "ok": true,
+            "ms": 27.304,
+            "bytes": 846,
+            "status": 200
+          },
+          {
+            "port": 3026,
+            "ok": true,
+            "ms": 17.215,
+            "bytes": 847,
+            "status": 200
+          },
+          {
+            "port": 3027,
+            "ok": true,
+            "ms": 13.667,
+            "bytes": 845,
+            "status": 200
+          },
+          {
+            "port": 3028,
+            "ok": true,
+            "ms": 15.565,
+            "bytes": 847,
+            "status": 200
+          },
+          {
+            "port": 3029,
+            "ok": true,
+            "ms": 16.858,
+            "bytes": 846,
+            "status": 200
+          }
+        ]
+      },
+      "score": {
+        "time_gain_percent": 55.413,
+        "useful_gain_percent": 124.279,
+        "waste_avoided_ratio": 0.583,
+        "cache_hit_ratio": 0.583,
+        "mesh_ratio": 1,
+        "superiority_index": 79.168,
+        "health": 100
+      },
+      "after": {
+        "rss_mb": 97.734,
+        "heap_mb": 21.961,
+        "external_mb": 1.869,
+        "free_gb": 1.102,
+        "total_gb": 7.757
+      }
+    },
+    {
+      "packet": 8,
+      "before": {
+        "rss_mb": 97.734,
+        "heap_mb": 23.126,
+        "external_mb": 1.869,
+        "free_gb": 1.1,
+        "total_gb": 7.757
+      },
+      "baseline": {
+        "mode": "BASELINE_BRUTE_FORCE",
+        "jobs": 7600,
+        "unique_keys": 634,
+        "ops": 5471100,
+        "ms": 8363.304,
+        "jobs_s": 908.732,
+        "ops_s": 654179.226,
+        "checksum": -328339805
+      },
+      "trillionx": {
+        "mode": "TRILLIONX_ORCHESTRATED",
+        "jobs": 7600,
+        "unique_cache_keys": 3169,
+        "classes": {
+          "BTC_UTXO": 1520,
+          "VECTOR": 1520,
+          "NETWORK": 1520,
+          "VR_CACHE": 1520,
+          "REGISTRY": 1520
+        },
+        "ops_executed": 2280780,
+        "ops_avoided": 3190320,
+        "cache_hits": 4431,
+        "cache_miss": 3169,
+        "cache_hit_ratio": 0.583,
+        "mesh_nodes_seen": 0,
+        "mesh_probe_ok": 0,
+        "ms": 3163.471,
+        "jobs_s": 2402.425,
+        "executed_ops_s": 720973.995,
+        "useful_ops_s": 1729461.334,
+        "checksum": 1269305705,
+        "nodeStats": []
+      },
+      "score": {
+        "time_gain_percent": 62.174,
+        "useful_gain_percent": 164.371,
+        "waste_avoided_ratio": 0.583,
+        "cache_hit_ratio": 0.583,
+        "mesh_ratio": 0,
+        "superiority_index": 88.562,
+        "health": 100
+      },
+      "after": {
+        "rss_mb": 99.746,
+        "heap_mb": 16.687,
+        "external_mb": 1.834,
+        "free_gb": 1.066,
+        "total_gb": 7.757
+      }
+    },
+    {
+      "packet": 9,
+      "before": {
+        "rss_mb": 100.121,
+        "heap_mb": 17.623,
+        "external_mb": 1.834,
+        "free_gb": 1.067,
+        "total_gb": 7.757
+      },
+      "baseline": {
+        "mode": "BASELINE_BRUTE_FORCE",
+        "jobs": 7800,
+        "unique_keys": 650,
+        "ops": 5615100,
+        "ms": 8830.59,
+        "jobs_s": 883.293,
+        "ops_s": 635869.172,
+        "checksum": 989498632
+      },
+      "trillionx": {
+        "mode": "TRILLIONX_ORCHESTRATED",
+        "jobs": 7800,
+        "unique_cache_keys": 3250,
+        "classes": {
+          "BTC_UTXO": 1560,
+          "VECTOR": 1560,
+          "NETWORK": 1560,
+          "VR_CACHE": 1560,
+          "REGISTRY": 1560
+        },
+        "ops_executed": 2339100,
+        "ops_avoided": 3276000,
+        "cache_hits": 4550,
+        "cache_miss": 3250,
+        "cache_hit_ratio": 0.583,
+        "mesh_nodes_seen": 20,
+        "mesh_probe_ok": 20,
+        "ms": 3584.466,
+        "jobs_s": 2176.056,
+        "executed_ops_s": 652565.814,
+        "useful_ops_s": 1566509.471,
+        "checksum": 452983239,
+        "nodeStats": [
+          {
+            "port": 3010,
+            "ok": true,
+            "ms": 15.32,
+            "bytes": 844,
+            "status": 200
+          },
+          {
+            "port": 3011,
+            "ok": true,
+            "ms": 6.817,
+            "bytes": 842,
+            "status": 200
+          },
+          {
+            "port": 3012,
+            "ok": true,
+            "ms": 10.838,
+            "bytes": 843,
+            "status": 200
+          },
+          {
+            "port": 3013,
+            "ok": true,
+            "ms": 12.557,
+            "bytes": 844,
+            "status": 200
+          },
+          {
+            "port": 3014,
+            "ok": true,
+            "ms": 6.192,
+            "bytes": 843,
+            "status": 200
+          },
+          {
+            "port": 3015,
+            "ok": true,
+            "ms": 7.89,
+            "bytes": 844,
+            "status": 200
+          },
+          {
+            "port": 3016,
+            "ok": true,
+            "ms": 9.786,
+            "bytes": 843,
+            "status": 200
+          },
+          {
+            "port": 3017,
+            "ok": true,
+            "ms": 11.423,
+            "bytes": 841,
+            "status": 200
+          },
+          {
+            "port": 3018,
+            "ok": true,
+            "ms": 8.005,
+            "bytes": 843,
+            "status": 200
+          },
+          {
+            "port": 3019,
+            "ok": true,
+            "ms": 9.879,
+            "bytes": 843,
+            "status": 200
+          },
+          {
+            "port": 3020,
+            "ok": true,
+            "ms": 13.334,
+            "bytes": 848,
+            "status": 200
+          },
+          {
+            "port": 3021,
+            "ok": true,
+            "ms": 15.142,
+            "bytes": 848,
+            "status": 200
+          },
+          {
+            "port": 3022,
+            "ok": true,
+            "ms": 15.544,
+            "bytes": 847,
+            "status": 200
+          },
+          {
+            "port": 3023,
+            "ok": true,
+            "ms": 13.075,
+            "bytes": 847,
+            "status": 200
+          },
+          {
+            "port": 3024,
+            "ok": true,
+            "ms": 13.381,
+            "bytes": 848,
+            "status": 200
+          },
+          {
+            "port": 3025,
+            "ok": true,
+            "ms": 15.565,
+            "bytes": 844,
+            "status": 200
+          },
+          {
+            "port": 3026,
+            "ok": true,
+            "ms": 12.806,
+            "bytes": 846,
+            "status": 200
+          },
+          {
+            "port": 3027,
+            "ok": true,
+            "ms": 13.913,
+            "bytes": 847,
+            "status": 200
+          },
+          {
+            "port": 3028,
+            "ok": true,
+            "ms": 19.275,
+            "bytes": 847,
+            "status": 200
+          },
+          {
+            "port": 3029,
+            "ok": true,
+            "ms": 20.473,
+            "bytes": 847,
+            "status": 200
+          }
+        ]
+      },
+      "score": {
+        "time_gain_percent": 59.409,
+        "useful_gain_percent": 146.357,
+        "waste_avoided_ratio": 0.583,
+        "cache_hit_ratio": 0.583,
+        "mesh_ratio": 1,
+        "superiority_index": 87.19,
+        "health": 100
+      },
+      "after": {
+        "rss_mb": 101.879,
+        "heap_mb": 27.407,
+        "external_mb": 1.869,
+        "free_gb": 1.045,
+        "total_gb": 7.757
+      }
+    },
+    {
+      "packet": 10,
+      "before": {
+        "rss_mb": 102.254,
+        "heap_mb": 28.333,
+        "external_mb": 1.869,
+        "free_gb": 1.066,
+        "total_gb": 7.757
+      },
+      "baseline": {
+        "mode": "BASELINE_BRUTE_FORCE",
+        "jobs": 8000,
+        "unique_keys": 667,
+        "ops": 5759460,
+        "ms": 8750.105,
+        "jobs_s": 914.275,
+        "ops_s": 658216.093,
+        "checksum": -805466923
+      },
+      "trillionx": {
+        "mode": "TRILLIONX_ORCHESTRATED",
+        "jobs": 8000,
+        "unique_cache_keys": 3335,
+        "classes": {
+          "BTC_UTXO": 1600,
+          "VECTOR": 1600,
+          "NETWORK": 1600,
+          "VR_CACHE": 1600,
+          "REGISTRY": 1600
+        },
+        "ops_executed": 2400120,
+        "ops_avoided": 3359340,
+        "cache_hits": 4665,
+        "cache_miss": 3335,
+        "cache_hit_ratio": 0.583,
+        "mesh_nodes_seen": 0,
+        "mesh_probe_ok": 0,
+        "ms": 3547.789,
+        "jobs_s": 2254.925,
+        "executed_ops_s": 676511.453,
+        "useful_ops_s": 1623394.103,
+        "checksum": 1599505560,
+        "nodeStats": []
+      },
+      "score": {
+        "time_gain_percent": 59.454,
+        "useful_gain_percent": 146.635,
+        "waste_avoided_ratio": 0.583,
+        "cache_hit_ratio": 0.583,
+        "mesh_ratio": 0,
+        "superiority_index": 82.29,
+        "health": 100
+      },
+      "after": {
+        "rss_mb": 105.031,
+        "heap_mb": 7.621,
+        "external_mb": 1.834,
+        "free_gb": 1.011,
+        "total_gb": 7.757
+      }
+    }
+  ]
+}

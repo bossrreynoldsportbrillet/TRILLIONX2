@@ -1,0 +1,12 @@
+{
+ "time":"2026-05-25T05:49:20+00:00",
+ "cpu_threads":"2",
+ "ram_gb":"7",
+ "node":"1",
+ "pm2":"0",
+ "docker":"1",
+ "git":"1",
+ "gpu":"0",
+ "python":"1",
+ "mode":"FULL_AUTO_DETECTION"
+}

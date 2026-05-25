@@ -1,0 +1,718 @@
+{
+  "engine": "TRILLIONX_97_PORT_PROCESS_SUPERVISOR",
+  "mode": "start",
+  "ts": "2026-05-24T19:12:26.522Z",
+  "control_port": 3997,
+  "requested_networks": 97,
+  "launched_processes": 97,
+  "max_processes": 97,
+  "base_port": 20000,
+  "policy": {
+    "additive_only": true,
+    "protect_app_js_port_3000": true,
+    "safe_only": true,
+    "real_or_unavailable": true,
+    "process_per_port": true,
+    "controlled_limit": "MAX_PROCESSES prevents Codespaces overload"
+  },
+  "assignments": [
+    {
+      "network_id": "TRILLIONX_NET_01",
+      "port": 2000,
+      "role": "MAIN_APP_RUNTIME",
+      "task": "Garder app.js vivant, mesurer uptime, réponse HTTP, logs critiques",
+      "priority": "CRITICAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_02",
+      "port": 20001,
+      "role": "REMOTE_DEBUG_ATTACH",
+      "task": "Surveiller attach Node/V8, heap snapshots safe, inspection non intrusive",
+      "priority": "CRITICAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_03",
+      "port": 3001,
+      "role": "HEALTH_API",
+      "task": "Tester /api/health, score OK/SLOW/FAIL, latence ms",
+      "priority": "CRITICAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_04",
+      "port": 3002,
+      "role": "SYSTEM_API",
+      "task": "Collecter CPU/RAM/disk/network réels, aucun faux chiffre",
+      "priority": "CRITICAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_05",
+      "port": 3003,
+      "role": "VECTOR_MEMORY",
+      "task": "Maintenir mémoire vectorielle compacte, delta scan, shard loading",
+      "priority": "CRITICAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_06",
+      "port": 3004,
+      "role": "INTERNET_TARGETS",
+      "task": "Tester URLs déclarées, statut 7/7, latence, bytes, cache",
+      "priority": "CRITICAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_07",
+      "port": 3005,
+      "role": "ROUTE_REGISTRY",
+      "task": "Indexer routes Express/API, dédoublonner, classer par priorité",
+      "priority": "CRITICAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_08",
+      "port": 3010,
+      "role": "WEBSOCKET_EVENTS",
+      "task": "Mapper événements WS, bruit, cadence, clients, backpressure",
+      "priority": "CRITICAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_09",
+      "port": 3011,
+      "role": "CACHE_TTL_LRU",
+      "task": "Servir cache court, éviter rescans, invalider par SHA256",
+      "priority": "CRITICAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_10",
+      "port": 3012,
+      "role": "INTEGRITY_LEDGER",
+      "task": "Sceller chaque résultat par hash chain append-only",
+      "priority": "CRITICAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_11",
+      "port": 3013,
+      "role": "BTC_UTXO",
+      "task": "Bench UTXO/Merkle, hashing double SHA256, rapport ops/s",
+      "priority": "HIGH"
+    },
+    {
+      "network_id": "TRILLIONX_NET_12",
+      "port": 3014,
+      "role": "ETH_BLOCKS",
+      "task": "Bench ETH-like SHA3/Keccak si disponible, gas/s indicatif local",
+      "priority": "HIGH"
+    },
+    {
+      "network_id": "TRILLIONX_NET_13",
+      "port": 3015,
+      "role": "CRYPTO_AES",
+      "task": "Mesurer AES-256 throughput réel local",
+      "priority": "HIGH"
+    },
+    {
+      "network_id": "TRILLIONX_NET_14",
+      "port": 3016,
+      "role": "CRYPTO_SHA",
+      "task": "Mesurer SHA256/HMAC/BLAKE2 throughput réel local",
+      "priority": "HIGH"
+    },
+    {
+      "network_id": "TRILLIONX_NET_15",
+      "port": 3017,
+      "role": "JSON_API_LOAD",
+      "task": "Tester charge JSON locale, p50/p95/p99",
+      "priority": "HIGH"
+    },
+    {
+      "network_id": "TRILLIONX_NET_16",
+      "port": 3018,
+      "role": "NETWORK_LATENCY",
+      "task": "Mesurer ping/connect latence, ports ouverts/fermés",
+      "priority": "HIGH"
+    },
+    {
+      "network_id": "TRILLIONX_NET_17",
+      "port": 3019,
+      "role": "BANDWIDTH_STREAM",
+      "task": "Mesurer stream mémoire/réseau local MB/s",
+      "priority": "HIGH"
+    },
+    {
+      "network_id": "TRILLIONX_NET_18",
+      "port": 3030,
+      "role": "WORKER_POOL",
+      "task": "Répartir jobs CPU contrôlés selon RAM/CPU pressure",
+      "priority": "HIGH"
+    },
+    {
+      "network_id": "TRILLIONX_NET_19",
+      "port": 3031,
+      "role": "WASM_COMPUTE",
+      "task": "Réserver tâches compute-heavy WebAssembly",
+      "priority": "HIGH"
+    },
+    {
+      "network_id": "TRILLIONX_NET_20",
+      "port": 3032,
+      "role": "FIRMWARE_BRIDGE",
+      "task": "Préparer futur firmware TRILLIONX sans exécution dangereuse",
+      "priority": "HIGH"
+    },
+    {
+      "network_id": "TRILLIONX_NET_21",
+      "port": 3033,
+      "role": "SAFE_REPAIR",
+      "task": "Réparer cache/log/index seulement, jamais destructif",
+      "priority": "HIGH"
+    },
+    {
+      "network_id": "TRILLIONX_NET_22",
+      "port": 3040,
+      "role": "PORT_ROUTER",
+      "task": "Router le trafic par port logique vers rôle dédié",
+      "priority": "HIGH"
+    },
+    {
+      "network_id": "TRILLIONX_NET_23",
+      "port": 3041,
+      "role": "DASHBOARD",
+      "task": "Publier métriques cockpit, visible mais non bloquant",
+      "priority": "HIGH"
+    },
+    {
+      "network_id": "TRILLIONX_NET_24",
+      "port": 3042,
+      "role": "BENCHMARK_CORE",
+      "task": "Lancer micro/macro benchmarks orchestrés",
+      "priority": "HIGH"
+    },
+    {
+      "network_id": "TRILLIONX_NET_25",
+      "port": 3043,
+      "role": "AI_KERNEL",
+      "task": "Acheminer demandes IA vers analyse/résumé/planification",
+      "priority": "HIGH"
+    },
+    {
+      "network_id": "TRILLIONX_NET_26",
+      "port": 3050,
+      "role": "LLM_TOKEN_SIM",
+      "task": "Simuler charge tokens et mémoire sans prétendre vrai LLM",
+      "priority": "HIGH"
+    },
+    {
+      "network_id": "TRILLIONX_NET_27",
+      "port": 3055,
+      "role": "MEMORY_PRESSURE",
+      "task": "Surveiller RSS/heap/free RAM, alerte si seuil haut",
+      "priority": "HIGH"
+    },
+    {
+      "network_id": "TRILLIONX_NET_28",
+      "port": 3099,
+      "role": "RAID60_PLUS",
+      "task": "Distribuer index/logs/shards en redondance logique",
+      "priority": "HIGH"
+    },
+    {
+      "network_id": "TRILLIONX_NET_29",
+      "port": 3100,
+      "role": "VR_MIRROR",
+      "task": "Synchroniser miroir VR logique, pas clone complet",
+      "priority": "HIGH"
+    },
+    {
+      "network_id": "TRILLIONX_NET_30",
+      "port": 3101,
+      "role": "MESH_1X10",
+      "task": "Répartir tâches entre 10 nœuds logiques TRILLIONX",
+      "priority": "HIGH"
+    },
+    {
+      "network_id": "TRILLIONX_NET_31",
+      "port": 3102,
+      "role": "NODE_01",
+      "task": "Orchestration locale noyau 1",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_32",
+      "port": 3103,
+      "role": "NODE_02",
+      "task": "Orchestration locale noyau 2",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_33",
+      "port": 3110,
+      "role": "NODE_03",
+      "task": "Orchestration locale noyau 3",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_34",
+      "port": 3111,
+      "role": "NODE_04",
+      "task": "Orchestration locale noyau 4",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_35",
+      "port": 3112,
+      "role": "NODE_05",
+      "task": "Orchestration locale noyau 5",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_36",
+      "port": 3113,
+      "role": "NODE_06",
+      "task": "Orchestration locale noyau 6",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_37",
+      "port": 3114,
+      "role": "NODE_07",
+      "task": "Orchestration locale noyau 7",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_38",
+      "port": 3115,
+      "role": "NODE_08",
+      "task": "Orchestration locale noyau 8",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_39",
+      "port": 3116,
+      "role": "NODE_09",
+      "task": "Orchestration locale noyau 9",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_40",
+      "port": 3117,
+      "role": "NODE_10",
+      "task": "Orchestration locale noyau 10",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_41",
+      "port": 3118,
+      "role": "DNS_RESOLVE",
+      "task": "Tester DNS public déclaré, timeout court",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_42",
+      "port": 3119,
+      "role": "HTTP_PUBLIC",
+      "task": "Tester HTTP/HTTPS public autorisé",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_43",
+      "port": 3150,
+      "role": "GITHUB_API",
+      "task": "Tester GitHub/API/repo reachability",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_44",
+      "port": 3160,
+      "role": "COINGECKO_API",
+      "task": "Tester API crypto publique déclarée",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_45",
+      "port": 3199,
+      "role": "MEMPOOL_API",
+      "task": "Tester mempool public déclaré",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_46",
+      "port": 4000,
+      "role": "BLOCKCHAIN_INFO",
+      "task": "Tester endpoint latestblock public déclaré",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_47",
+      "port": 4001,
+      "role": "CLOUDFLARE_TRACE",
+      "task": "Tester trace réseau public déclaré",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_48",
+      "port": 4200,
+      "role": "SECURITY_PREVIEW",
+      "task": "Lister exposition sans secret, sans dump sensible",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_49",
+      "port": 4201,
+      "role": "PROCESS_TABLE",
+      "task": "Lister process utiles, détecter zombies lourds",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_50",
+      "port": 4202,
+      "role": "LOG_ROTATION",
+      "task": "Limiter logs, éviter saturation disque",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_51",
+      "port": 5000,
+      "role": "HISTORY_ARCHIVE",
+      "task": "Ajouter historique compact JSONL",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_52",
+      "port": 5001,
+      "role": "DELTA_SCAN",
+      "task": "Scanner seulement modifiés depuis dernier hash",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_53",
+      "port": 5002,
+      "role": "API_STRING_DEDUP",
+      "task": "Compresser API strings massives",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_54",
+      "port": 5003,
+      "role": "ROUTE_HEALTH_MATRIX",
+      "task": "Matrice santé endpoints/routes",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_55",
+      "port": 5004,
+      "role": "ANOMALY_DETECTOR",
+      "task": "Détecter dérives RAM, latence, erreurs",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_56",
+      "port": 5005,
+      "role": "SMART_ROUTER",
+      "task": "Choisir local/cache/internet selon health",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_57",
+      "port": 6000,
+      "role": "PRIORITY_JOBS",
+      "task": "Prioriser jobs selon valeur et coût",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_58",
+      "port": 6001,
+      "role": "BACKPRESSURE",
+      "task": "Limiter avalanche WS/HTTP",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_59",
+      "port": 6006,
+      "role": "RECONNECT",
+      "task": "Reconnect contrôlé, jitter, backoff",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_60",
+      "port": 6007,
+      "role": "PACKET_MICRO",
+      "task": "Mesurer micro-paquets et latence courte",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_61",
+      "port": 6008,
+      "role": "CODEC_HTTP",
+      "task": "Codec HTTP/1.1 analyse",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_62",
+      "port": 7000,
+      "role": "CODEC_WS",
+      "task": "Codec WebSocket analyse",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_63",
+      "port": 7001,
+      "role": "CODEC_JSON",
+      "task": "Codec JSON parse/stringify",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_64",
+      "port": 7002,
+      "role": "CODEC_GZIP",
+      "task": "Compression/décompression gzip si disponible",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_65",
+      "port": 7003,
+      "role": "CODEC_BASE64",
+      "task": "Encodage/décodage base64",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_66",
+      "port": 8000,
+      "role": "IOT_MQTT_SLOT",
+      "task": "Slot protocole MQTT si module présent",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_67",
+      "port": 8001,
+      "role": "IOT_COAP_SLOT",
+      "task": "Slot protocole CoAP si module présent",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_68",
+      "port": 8080,
+      "role": "SATELLITE_SLOT",
+      "task": "Slot satellite/edge déclaré, non simulé comme réel",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_69",
+      "port": 8081,
+      "role": "QUANTUM_SLOT",
+      "task": "Slot quantum/external only, aucune fausse puissance",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_70",
+      "port": 8082,
+      "role": "GPU_SLOT",
+      "task": "Détection GPU si disponible sinon unavailable",
+      "priority": "NORMAL"
+    },
+    {
+      "network_id": "TRILLIONX_NET_71",
+      "port": 8083,
+      "role": "SIMD_SLOT",
+      "task": "Détection SIMD/native si module présent",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_72",
+      "port": 8084,
+      "role": "NATIVE_C_SLOT",
+      "task": "Pont C/C++ natif si compilé",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_73",
+      "port": 8085,
+      "role": "PYTHON_SLOT",
+      "task": "Pont Python si disponible",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_74",
+      "port": 8443,
+      "role": "SHELL_SAFE",
+      "task": "Commandes shell safe allowlist",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_75",
+      "port": 8444,
+      "role": "PACKAGE_AUDIT",
+      "task": "npm/package health sans correction destructive",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_76",
+      "port": 8888,
+      "role": "LAUNCH_JSON",
+      "task": "Vérifier launch.json attach/runtime",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_77",
+      "port": 8889,
+      "role": "DEVCONTAINER",
+      "task": "Vérifier ports/config Codespaces",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_78",
+      "port": 9000,
+      "role": "GIT_STATUS",
+      "task": "Surveiller clean/dirty, commit prêt",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_79",
+      "port": 9001,
+      "role": "GIT_PUSH",
+      "task": "Pousser seulement état stable validé",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_80",
+      "port": 9002,
+      "role": "LFS_GUARD",
+      "task": "Détecter Git LFS hook absent et patcher safe",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_81",
+      "port": 9003,
+      "role": "DISK_SPACE",
+      "task": "Surveiller df -h, nettoyage sûr",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_82",
+      "port": 9090,
+      "role": "TMP_CLEAN",
+      "task": "Nettoyer /tmp TRILLIONX seulement",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_83",
+      "port": 9091,
+      "role": "SNAPSHOT_KEEP",
+      "task": "Conserver snapshots importants",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_84",
+      "port": 9092,
+      "role": "BACKUP_APP",
+      "task": "Backup app.js avant modification",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_85",
+      "port": 9093,
+      "role": "MODULE_REGISTRY",
+      "task": "Registre modules actifs/inactifs",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_86",
+      "port": 9229,
+      "role": "PLUGIN_REGISTRY",
+      "task": "Registre plugins et rôles",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_87",
+      "port": 9230,
+      "role": "CONTROLLER_REGISTRY",
+      "task": "Registre contrôleurs",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_88",
+      "port": 10000,
+      "role": "FIRMWARE_REGISTRY",
+      "task": "Registre firmware futur",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_89",
+      "port": 10001,
+      "role": "MEMORY_FABRIC",
+      "task": "Fabrique mémoire cache/shard",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_90",
+      "port": 10080,
+      "role": "SHARED_VR_CACHE",
+      "task": "Cache partagé miroir VR",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_91",
+      "port": 11000,
+      "role": "ORCHESTRATION_SCORE",
+      "task": "Score global orchestration",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_92",
+      "port": 11001,
+      "role": "PERF_INTEGRITY_AI",
+      "task": "Score performance/intégrité/intelligence",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_93",
+      "port": 12000,
+      "role": "REPORT_HTML",
+      "task": "Rapport HTML local cockpit",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_94",
+      "port": 12001,
+      "role": "REPORT_JSON",
+      "task": "Rapport JSON latest",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_95",
+      "port": 12563,
+      "role": "REPORT_LEDGER",
+      "task": "Scellement rapport",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_96",
+      "port": 13005,
+      "role": "USER_VALIDATED_STABLE",
+      "task": "Protéger base OKAY stable validée",
+      "priority": "SUPPORT"
+    },
+    {
+      "network_id": "TRILLIONX_NET_97",
+      "port": 15000,
+      "role": "ADDITIVE_ONLY",
+      "task": "Vérifier que tout ajout reste séparé",
+      "priority": "SUPPORT"
+    }
+  ],
+  "host": {
+    "time": "2026-05-24T19:12:26.523Z",
+    "host": "codespaces-408e60",
+    "platform": "linux",
+    "arch": "x64",
+    "node": "v22.22.2",
+    "cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "logical_cpu": 2,
+    "ghz": 3.391,
+    "ram_total_gb": 7.757,
+    "ram_free_gb": 2.966,
+    "load": [
+      2.97,
+      1.93,
+      2.32
+    ]
+  },
+  "seal": "ab67a98838433c0c1ceec9d5e57998232ef359bcbf73c85559ec0035fbb632cc",
+  "ledger_hash": "da32518be3cf80114db926529312587b250cceb2e26eba84b99b1ae46c24f94e"
+}

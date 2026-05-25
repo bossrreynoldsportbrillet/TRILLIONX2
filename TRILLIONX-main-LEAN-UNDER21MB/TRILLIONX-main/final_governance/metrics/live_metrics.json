@@ -1,0 +1,18 @@
+{
+  "cpu_threads": 2,
+  "recommended_workers": 2,
+  "active_workers": 2,
+  "rss_mb": 24.85,
+  "free_ram_gb": 2.88,
+  "eventloop_lag_ms": 0.57,
+  "p99_latency_score": 1000,
+  "queue_pressure": 393,
+  "throughput_score": 3000,
+  "autoscale_state": "CPU_PRESSURE",
+  "uptime": 331,
+  "loadavg": [
+    3.93,
+    3.33,
+    3.65
+  ]
+}

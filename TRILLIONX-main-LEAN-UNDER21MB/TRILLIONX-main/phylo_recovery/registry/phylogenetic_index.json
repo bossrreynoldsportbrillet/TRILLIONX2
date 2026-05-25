@@ -1,0 +1,50 @@
+{
+  "time": "2026-05-25T13:14:53.080Z",
+  "root": "/workspaces/TRILLIONX2/TRILLIONX-main-LEAN-UNDER21MB/TRILLIONX-main",
+  "total_files": 2709,
+  "lineage_counts": {
+    "OTHER": 1032,
+    "SCRIPT": 78,
+    "CODEC": 19,
+    "RUNTIME": 338,
+    "API": 20,
+    "NETWORK": 140,
+    "BENCH": 51,
+    "REGISTRY": 30,
+    "UI": 38,
+    "CRYPTO": 232,
+    "GPU_COPROCESSOR": 21,
+    "MEMORY": 591,
+    "STORAGE": 119
+  },
+  "cpu": {
+    "model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "threads": 2,
+    "total_ram_gb": 7.76,
+    "free_ram_gb": 1.75,
+    "flags": {
+      "sse": true,
+      "sse2": true,
+      "sse3": true,
+      "ssse3": true,
+      "sse4_1": true,
+      "sse4_2": true,
+      "avx": true,
+      "avx2": true,
+      "avx512f": true,
+      "aes_ni": true,
+      "sha_ni": true,
+      "fma": true,
+      "bmi1": true,
+      "bmi2": true,
+      "pclmulqdq": true
+    }
+  },
+  "gpu": {
+    "nvidia_smi": "GPU_UNAVAILABLE",
+    "opencl": "OPENCL_UNAVAILABLE",
+    "vulkan": "VULKAN_UNAVAILABLE"
+  },
+  "doctrine": "identify existing elements, classify by lineage, mount logical layers, activate detected runtime only",
+  "honesty": "REAL_ONLY_OR_UNAVAILABLE"
+}

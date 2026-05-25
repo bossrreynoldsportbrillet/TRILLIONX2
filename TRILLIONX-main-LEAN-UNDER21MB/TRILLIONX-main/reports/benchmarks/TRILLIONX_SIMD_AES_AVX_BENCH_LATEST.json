@@ -1,0 +1,205 @@
+{
+  "title": "TRILLIONX SIMD / AVX / AES / SSE BENCH",
+  "doctrine": "REAL_ONLY_OR_UNAVAILABLE ; flags détectés != preuve de gain ; Node/OpenSSL mesure les primitives natives disponibles",
+  "time": "2026-05-25T10:04:08.227Z",
+  "root": "/workspaces/TRILLIONX2/TRILLIONX-main-LEAN-UNDER21MB/TRILLIONX-main",
+  "system": {
+    "platform": "linux",
+    "arch": "x64",
+    "node": "v24.15.0",
+    "openssl": "3.5.5",
+    "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "cores": 2,
+    "total_ram_gb": 7.76,
+    "free_ram_gb": 1.94,
+    "loadavg": [
+      2.89,
+      2.14,
+      1.66
+    ]
+  },
+  "detected_cpu_features": {
+    "source": "/proc/cpuinfo",
+    "model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "cores": 2,
+    "flags_count": 103,
+    "SIMD": {
+      "mmx": true,
+      "sse": true,
+      "sse2": true,
+      "sse3": true,
+      "ssse3": true,
+      "sse4_1": true,
+      "sse4_2": true,
+      "avx": true,
+      "avx2": true,
+      "avx512f": true,
+      "avx512dq": true,
+      "avx512cd": true,
+      "avx512bw": true,
+      "avx512vl": true,
+      "fma": true,
+      "bmi1": true,
+      "bmi2": true,
+      "popcnt": true,
+      "pclmulqdq": true
+    },
+    "CRYPTO": {
+      "aes_ni": true,
+      "sha_ni": true,
+      "rdrand": true,
+      "rdseed": true
+    }
+  },
+  "openssl": {
+    "node_openssl": "3.5.5",
+    "openssl_version": "OpenSSL 3.5.6 7 Apr 2026 (Library: OpenSSL 3.5.6 7 Apr 2026)\nbuilt on: Thu Apr  9 15:33:19 2026 UTC\nplatform: linux-x86_64\noptions:  bn(64,64)\ncompiler: /home/task_177574831708490/croot/openssl_1775748759570/_build_env/bin/x86_64-conda-linux-gnu-cc -fPIC -pthread -m64 -Wa,--noexecstack -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -fdebug-prefix-map=/home/task_177574831708490/croot/openssl_1775748759570/work=/usr/local/src/conda/openssl-3.5.6 -fdebug-prefix-map=/opt/conda=/usr/local/src/conda-prefix -Wa,--noexecstack -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /opt/conda/include\nOPENSSLDIR: \"/opt/conda/ssl\"\nENGINESDIR: \"/opt/conda/lib/engines-3\"\nMODULESDIR: \"/opt/conda/lib/ossl-modules\"\nSeeding source: os-specific\nCPUINFO: OPENSSL_ia32cap=0xffda32235f8bffff:0x00415f46f1bf2fbb:0x0000000020000010:0x0000000000000000:0x0000000000000000",
+    "lscpu_flags": "CPU(s):                               2\nOn-line CPU(s) list:                  0,1\nVendor ID:                            GenuineIntel\nModel name:                           Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz\nThread(s) per core:                   2\nCore(s) per socket:                   1\nCPU(s) scaling MHz:                   125%\nCPU max MHz:                          2800.0000\nCPU min MHz:                          800.0000\nFlags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch tpr_shadow ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves vnmi avx512vbmi umip avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq la57 rdpid fsrm arch_capabilities\nHypervisor vendor:                    Microsoft\nNUMA node0 CPU(s):                    0,1"
+  },
+  "benchmarks": [
+    {
+      "name": "RNG_crypto_randomBytes",
+      "ok": true,
+      "ms": 171.439,
+      "source": "crypto.randomBytes",
+      "mb": 64,
+      "rounds": 4,
+      "total_mb": 256,
+      "MBps": 1494.73
+    },
+    {
+      "name": "MEM_Buffer_copy_bandwidth",
+      "ok": true,
+      "ms": 341.722,
+      "mode": "Buffer.copy memory bandwidth proxy",
+      "mb": 256,
+      "rounds": 4,
+      "total_mb": 1024,
+      "MBps": 4485.39
+    },
+    {
+      "name": "HASH_sha256",
+      "ok": true,
+      "ms": 263.761,
+      "algo": "sha256",
+      "mb": 64,
+      "rounds": 4,
+      "total_mb": 256,
+      "MBps": 1191.12,
+      "digest": "72ff172f3c613b9b6fc61f703699eeb7"
+    },
+    {
+      "name": "HASH_sha512",
+      "ok": true,
+      "ms": 511.858,
+      "algo": "sha512",
+      "mb": 64,
+      "rounds": 4,
+      "total_mb": 256,
+      "MBps": 537.37,
+      "digest": "3b8e00db6775167c536ef74927eddcc8"
+    },
+    {
+      "name": "HASH_blake2b512",
+      "ok": true,
+      "ms": 512.2,
+      "algo": "blake2b512",
+      "mb": 64,
+      "rounds": 4,
+      "total_mb": 256,
+      "MBps": 540.07,
+      "digest": "a20dec9942949462f41e578da47347d1"
+    },
+    {
+      "name": "HMAC_sha256",
+      "ok": true,
+      "ms": 875.687,
+      "algo": "hmac-sha256",
+      "rounds": 250000,
+      "ops_per_sec": 285936.94,
+      "digest": "138ea56d5ffccd09a49bc72f3e5ff8e2"
+    },
+    {
+      "name": "AES_128_CBC_encrypt",
+      "ok": true,
+      "ms": 500.985,
+      "cipher": "aes-128-cbc",
+      "mb": 64,
+      "rounds": 3,
+      "total_mb": 192,
+      "MBps": 417.67,
+      "outBytes": 201326640
+    },
+    {
+      "name": "AES_256_CBC_encrypt",
+      "ok": true,
+      "ms": 591.671,
+      "cipher": "aes-256-cbc",
+      "mb": 64,
+      "rounds": 3,
+      "total_mb": 192,
+      "MBps": 363.3,
+      "outBytes": 201326640
+    },
+    {
+      "name": "AES_256_GCM_encrypt",
+      "ok": true,
+      "ms": 678.763,
+      "cipher": "aes-256-gcm",
+      "mb": 64,
+      "rounds": 3,
+      "total_mb": 192,
+      "MBps": 345.89,
+      "outBytes": 201326592
+    },
+    {
+      "name": "AES_256_CBC_decrypt",
+      "ok": true,
+      "ms": 239.019,
+      "cipher": "aes-256-cbc-decrypt",
+      "mb": 32,
+      "rounds": 2,
+      "total_mb": 64,
+      "MBps": 523.78,
+      "outBytes": 67108864
+    },
+    {
+      "name": "AES_256_GCM_decrypt",
+      "ok": true,
+      "ms": 202.983,
+      "cipher": "aes-256-gcm-decrypt",
+      "mb": 32,
+      "rounds": 2,
+      "total_mb": 64,
+      "MBps": 545.54,
+      "outBytes": 67108864
+    },
+    {
+      "name": "ECDH_prime256v1",
+      "ok": true,
+      "ms": 395.598,
+      "algo": "ECDH prime256v1",
+      "rounds": 2500,
+      "ops_per_sec": 6323.43,
+      "secret": "47d6fcb8def0afade2352876aa8d369a"
+    },
+    {
+      "name": "RSA_2048_privateDecrypt",
+      "ok": 200,
+      "ms": 149.807,
+      "algo": "RSA-2048 privateDecrypt",
+      "rounds": 200,
+      "ops_per_sec": 2966.96
+    }
+  ],
+  "interpretation": {
+    "sse_family_available": true,
+    "sse4_available": true,
+    "avx_available": true,
+    "avx2_available": true,
+    "avx512_available": true,
+    "aes_ni_available": true,
+    "sha_ni_available": true,
+    "note": "Les mesures AES/SHA passent par OpenSSL/Node natif. AVX/SSE sont détectés via flags CPU, mais Node ne permet pas d'isoler directement chaque instruction SIMD sans addon natif C/C++."
+  }
+}

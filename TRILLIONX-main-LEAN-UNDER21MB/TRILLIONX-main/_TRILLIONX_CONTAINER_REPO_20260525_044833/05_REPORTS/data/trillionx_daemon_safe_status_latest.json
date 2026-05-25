@@ -1,0 +1,14 @@
+{
+  "engine": "TRILLIONX_DAEMON_SAFE_STATUS",
+  "ts": "2026-05-24T14:27:19Z",
+  "target": "TRILLIONX",
+  "host_role": "CODESPACES_SUPPORT_ONLY",
+  "mode": "background_daemon_no_foreground_wait",
+  "ports_expected": [3000,3033,3044],
+  "truth_policy": {
+    "real_only": true,
+    "no_fake_gpu": true,
+    "no_fake_vr": true,
+    "codespaces_support_only": true
+  }
+}

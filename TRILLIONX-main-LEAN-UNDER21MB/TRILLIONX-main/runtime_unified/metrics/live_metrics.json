@@ -1,0 +1,10 @@
+{
+  "hashes_per_sec": 96028,
+  "aes_ops_per_sec": 22134,
+  "workers": 2,
+  "queue_depth": 1,
+  "jobs_processed": 70,
+  "free_ram_gb": 0.9,
+  "rss_mb": 573.14,
+  "uptime": 150
+}

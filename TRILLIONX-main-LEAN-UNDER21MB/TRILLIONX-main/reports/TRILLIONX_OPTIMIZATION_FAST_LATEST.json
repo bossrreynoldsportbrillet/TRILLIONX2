@@ -1,0 +1,17 @@
+{
+  "engine": "TRILLIONX_OPTIMIZATION_FAST",
+  "time": "2026-05-24T20:31:12.541Z",
+  "status": "OK_FAST_NO_BLOCKING_NPM_NO_PUSH",
+  "cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+  "logical_cpu": 2,
+  "ram_total_gb": 7.757,
+  "ram_free_gb": 4.753,
+  "created": [
+    "env",
+    "runtime_guard",
+    "start_safe",
+    "monitor"
+  ],
+  "policy": "REAL_ONLY_OR_UNAVAILABLE",
+  "seal": "ede8e34fda6260e564cf594d476a6d742fbdd1923fe2b18c5a1295c290fa3738"
+}

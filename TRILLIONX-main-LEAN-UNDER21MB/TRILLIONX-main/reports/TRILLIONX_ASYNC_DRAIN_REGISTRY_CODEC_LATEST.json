@@ -1,0 +1,159 @@
+{
+  "engine": "TRILLIONX_ASYNC_DRAIN_REGISTRY_CODEC",
+  "time": "2026-05-24T23:16:46.829Z",
+  "started": "2026-05-24T23:16:46.828Z",
+  "mode": "daemon",
+  "queue_count": 0,
+  "running_count": 0,
+  "results_count": 27,
+  "by_status": {
+    "DONE": 22,
+    "REJECTED_UNKNOWN_JOB": 1,
+    "STALE_REQUEUED": 3,
+    "STALE_ABORTED": 1
+  },
+  "by_type": {
+    "disk": 5,
+    "resource": 5,
+    "status": 5,
+    "appcheck": 3,
+    "microstatus": 1,
+    "bench": 1,
+    "undefined": 3,
+    "ports": 2,
+    "micro_status": 2
+  },
+  "latest_results": [
+    {
+      "id": "20260524223626_status_491175_596144",
+      "type": "status",
+      "status": "DONE",
+      "duration_ms": 905
+    },
+    {
+      "id": "20260524223627_resource_491450_323505",
+      "type": "resource",
+      "status": "DONE"
+    },
+    {
+      "id": "20260524223628_disk_491695_787632",
+      "type": "disk",
+      "status": "DONE",
+      "duration_ms": 6597
+    },
+    {
+      "id": "20260524223629_ports_491978_482802",
+      "type": "ports",
+      "status": "STALE_ABORTED",
+      "duration_ms": null
+    },
+    {
+      "id": "20260524223630_micro_status_492297_596004",
+      "type": "micro_status",
+      "status": "DONE",
+      "duration_ms": 319
+    },
+    {
+      "status": "STALE_REQUEUED"
+    },
+    {
+      "id": "20260524223631_appcheck_492593_147890",
+      "type": "appcheck",
+      "status": "DONE",
+      "duration_ms": 776
+    },
+    {
+      "id": "20260524224001_appcheck_520930_283102",
+      "type": "appcheck",
+      "status": "DONE",
+      "duration_ms": 454
+    },
+    {
+      "id": "20260524224001_disk_520847_950106",
+      "type": "disk",
+      "status": "DONE",
+      "duration_ms": 3576
+    },
+    {
+      "id": "20260524224001_micro_status_520896_680400",
+      "type": "micro_status",
+      "status": "DONE",
+      "duration_ms": 1690
+    },
+    {
+      "status": "STALE_REQUEUED"
+    },
+    {
+      "id": "20260524224001_ports_520867_433490",
+      "type": "ports",
+      "status": "DONE",
+      "duration_ms": 52
+    },
+    {
+      "id": "20260524224001_resource_520821_939008",
+      "type": "resource",
+      "status": "DONE",
+      "duration_ms": 638
+    },
+    {
+      "id": "20260524224001_status_520764_296312",
+      "type": "status",
+      "status": "DONE"
+    },
+    {
+      "id": "20260524_220203_disk_285502",
+      "type": "disk",
+      "status": "DONE"
+    },
+    {
+      "id": "20260524_220203_resource_285485",
+      "type": "resource",
+      "status": "DONE"
+    },
+    {
+      "id": "20260524_220203_status_285468",
+      "type": "status",
+      "status": "DONE"
+    },
+    {
+      "id": "20260524_220344_disk_291361",
+      "type": "disk",
+      "status": "DONE"
+    },
+    {
+      "id": "20260524_220344_resource_291344",
+      "type": "resource",
+      "status": "DONE"
+    },
+    {
+      "id": "20260524_220344_status_291326",
+      "type": "status",
+      "status": "DONE"
+    }
+  ],
+  "registry_count": 9,
+  "directories": {
+    "q": "/workspaces/TRILLIONX/async_queue",
+    "r": "/workspaces/TRILLIONX/async_jobs",
+    "out": "/workspaces/TRILLIONX/async_results",
+    "reg": "/workspaces/TRILLIONX/async_registry",
+    "cod": "/workspaces/TRILLIONX/async_codecs",
+    "der": "/workspaces/TRILLIONX/async_derivatives",
+    "log": "/workspaces/TRILLIONX/logs",
+    "rep": "/workspaces/TRILLIONX/reports",
+    "hist": "/workspaces/TRILLIONX/history"
+  },
+  "extra": {
+    "daemon": true
+  },
+  "policy": {
+    "drain_safe": true,
+    "allowlist_only": true,
+    "stuck_running_guard": true,
+    "codec_derivative_enabled": true,
+    "no_app_js_touch": true,
+    "no_data_touch": true,
+    "no_raid60_plus_touch": true
+  },
+  "seal": "77d5d8a02a8bebcbc5e5c35868b25c575044b7d1e02f0fe82b589bbe5b5ea38e"
+}

@@ -1,0 +1,37 @@
+{
+  "engine": "TRILLIONX_RESOURCE_PERCENT_CHECK",
+  "time": "2026-05-24T22:40:03.770Z",
+  "cpu": {
+    "model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "logical_cpu": 2,
+    "ghz_detected": 3.49,
+    "load_1m": 7.94,
+    "load_5m": 4.79,
+    "load_15m": 3.34,
+    "load_pct_estimated": 100,
+    "free_capacity_pct_estimated": 0
+  },
+  "memory": {
+    "total_gb": 7.76,
+    "used_gb": 6.76,
+    "free_gb": 0.99,
+    "used_pct": 87.19,
+    "free_pct": 12.81,
+    "process_rss_mb": 44.09,
+    "process_heap_mb": 4.65
+  },
+  "disk": {
+    "mount": "/workspaces",
+    "total_gb": 31.33,
+    "used_gb": 12.76,
+    "free_gb": 16.95,
+    "used_pct": 43,
+    "free_pct": 57
+  },
+  "health": {
+    "cpu": "CRITICAL",
+    "memory": "HIGH",
+    "disk": "OK"
+  },
+  "seal": "65d4ee8e90f756ec80ef3fe1e14fbd9ca78f7991cfc53051fed074390c4b15eb"
+}

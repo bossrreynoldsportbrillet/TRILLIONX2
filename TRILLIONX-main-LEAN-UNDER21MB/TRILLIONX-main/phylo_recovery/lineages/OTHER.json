@@ -1,0 +1,602 @@
+[
+  {
+    "file": "./history/TRILLIONX_PARALLEL_MICRO_SYNC_HISTORY.jsonl",
+    "size": 24599384,
+    "sha256": "0dcd6682e43cf4d73490dfd722e1dd2ace09927535f156954ee96f300f4f8d07"
+  },
+  {
+    "file": "./data/_archive_light/trillionx_repo_total_autodetect_v2_1779619910238.json",
+    "size": 19145889,
+    "sha256": "d9aaa25d6147782d34fdfe4ec74165c19422b54ea49cd9c15871b4cb73fd6529"
+  },
+  {
+    "file": "./logs/tx_parallel_micro_sync.log",
+    "size": 11983232,
+    "sha256": "d6aaacb19023523f589855bc86ce781d82c4298f20ddcb73059ec901423b7143"
+  },
+  {
+    "file": "./data/_archive_light/trillionx_repo_total_autodetect_1779619670119.json",
+    "size": 8659914,
+    "sha256": "04776078f3f37353d3fc9f2f3407f5340502f4b22b1d0d95a181a93c7171ed2b"
+  },
+  {
+    "file": "./history/TRILLIONX_REMOTE_HOST_MICRO_SYNC_HISTORY.jsonl",
+    "size": 1844234,
+    "sha256": "be2272880123bdc51341cf8e2bd6155642a80827b0475fd359f3da9090bf91bf"
+  },
+  {
+    "file": "./app.js",
+    "size": 1183093,
+    "sha256": "a53ae47bb2c6095415cc1b6740d05c366be3613e148c6868af848afbad1a4c86"
+  },
+  {
+    "file": "./logs/tx_micro_sync.log",
+    "size": 1013720,
+    "sha256": "0903c0ea8ec00cd9a4278092a328b48c464a282ebcffd029dcf7410f747eb837"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/06_ARCHIVE_TXT/data/trillionx_firmware_stage0_latest.json",
+    "size": 406154,
+    "sha256": "ea1ae098e426228b1db451dc01fb8164944b499b46a20173f9583e9d024dc2df"
+  },
+  {
+    "file": "./data/trillionx_firmware_stage0_latest.json",
+    "size": 406154,
+    "sha256": "ea1ae098e426228b1db451dc01fb8164944b499b46a20173f9583e9d024dc2df"
+  },
+  {
+    "file": "./firmware/TRILLIONX_FIRMWARE_STAGE0.json",
+    "size": 406154,
+    "sha256": "ea1ae098e426228b1db451dc01fb8164944b499b46a20173f9583e9d024dc2df"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/06_ARCHIVE_TXT/data/TRILLIONX_VECTOR_COMPACT_LATEST.json",
+    "size": 204121,
+    "sha256": "5ec2e7e074cb895a5a6c6fc6ef765c4fb07271a0915767d23dea3b4af20ee468"
+  },
+  {
+    "file": "./data/TRILLIONX_VECTOR_COMPACT_LATEST.json",
+    "size": 204121,
+    "sha256": "5ec2e7e074cb895a5a6c6fc6ef765c4fb07271a0915767d23dea3b4af20ee468"
+  },
+  {
+    "file": "./ultimate_stabilizer/telemetry/live_telemetry.json",
+    "size": 181927,
+    "sha256": "3668f416c255db38bfd9393fe50decc9452aeeb400e878145d164deedef400e7"
+  },
+  {
+    "file": "./final_governance/telemetry/live_telemetry.json",
+    "size": 179735,
+    "sha256": "2b93725d91f1eb5c77272325281c4059f5e951a07f3908275c773bd44d791fd8"
+  },
+  {
+    "file": "./RESCAN_TREE.txt",
+    "size": 143414,
+    "sha256": "6cfeb15fa36d6854d49200c00daf1a554bc93cabb3f7a4bea94aed4942dd1266"
+  },
+  {
+    "file": "./package-lock.json",
+    "size": 81684,
+    "sha256": "cdd13bae0ff19a5b9ad93e98c3b05799e056d2ccee778030a9ea85905bfd58ea"
+  },
+  {
+    "file": "./hardware_fabric/telemetry/live_telemetry.json",
+    "size": 77274,
+    "sha256": "ee9c0709bdfeda2b50100b563634cc1684f45fd78240d3f79e02385f0e04082f"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/06_ARCHIVE_TXT/data/trillionx_1x10_node_master_1779637557992.json",
+    "size": 39311,
+    "sha256": "3f5ea9aa86cb1b9fb553149301b9b3523d3c5302c13bf0ace6aa0243a57ed96b"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/06_ARCHIVE_TXT/data/trillionx_1x10_node_master_latest.json",
+    "size": 39311,
+    "sha256": "3f5ea9aa86cb1b9fb553149301b9b3523d3c5302c13bf0ace6aa0243a57ed96b"
+  },
+  {
+    "file": "./data/trillionx_1x10_node_master_1779637557992.json",
+    "size": 39311,
+    "sha256": "3f5ea9aa86cb1b9fb553149301b9b3523d3c5302c13bf0ace6aa0243a57ed96b"
+  },
+  {
+    "file": "./data/trillionx_1x10_node_master_latest.json",
+    "size": 39311,
+    "sha256": "3f5ea9aa86cb1b9fb553149301b9b3523d3c5302c13bf0ace6aa0243a57ed96b"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/06_ARCHIVE_TXT/data/trillionx_1x10_node_master_1779637557728.json",
+    "size": 39307,
+    "sha256": "e333f611aeecf836e01738b8dd061fa53014503a82e7989d96a63eb2c31bef14"
+  },
+  {
+    "file": "./data/trillionx_1x10_node_master_1779637557728.json",
+    "size": 39307,
+    "sha256": "e333f611aeecf836e01738b8dd061fa53014503a82e7989d96a63eb2c31bef14"
+  },
+  {
+    "file": "./fabric/telemetry/live_telemetry.json",
+    "size": 36481,
+    "sha256": "af9c538c0a1964b1c1fb72226839dc3e9133a437d5d940e88b0fde90fe76b1c7"
+  },
+  {
+    "file": "./data/trillionx_useful_work_exascale_superior_1779627664552.json",
+    "size": 32890,
+    "sha256": "33177b707c8cb0c6faf1bdfa99273ea41449d5a0eb8d806a82a7a987e90df3a9"
+  },
+  {
+    "file": "./data/trillionx_useful_work_exascale_superior_latest.json",
+    "size": 32890,
+    "sha256": "33177b707c8cb0c6faf1bdfa99273ea41449d5a0eb8d806a82a7a987e90df3a9"
+  },
+  {
+    "file": "./on\" -o ",
+    "size": 26134,
+    "sha256": "dad03d63bd87a153a521acc41a0f2bc4001a4cee473cbb5a2b7a8550969f8209"
+  },
+  {
+    "file": "./data/trillionx_ladder_saturation_latest.json",
+    "size": 23843,
+    "sha256": "ed0f0bc8b9c572028f98d09d3ec969d2874c336394f97a0da0db1de1e825aee4"
+  },
+  {
+    "file": "./data/trillionx_world_superior_rediscovery_latest.json",
+    "size": 15749,
+    "sha256": "1c15f1bcb502c0b408df327586beea8c5d1e6b98c1c22afe431fa7b603aac7cc"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/06_ARCHIVE_TXT/data/trillionx_exascale_1779635644127.json",
+    "size": 13370,
+    "sha256": "104b5d79d4914b1beaef769991ab09d70e77b315ec92b1428d63893ac5521ff9"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/06_ARCHIVE_TXT/data/trillionx_exascale_latest.json",
+    "size": 13370,
+    "sha256": "104b5d79d4914b1beaef769991ab09d70e77b315ec92b1428d63893ac5521ff9"
+  },
+  {
+    "file": "./data/trillionx_exascale_1779635644127.json",
+    "size": 13370,
+    "sha256": "104b5d79d4914b1beaef769991ab09d70e77b315ec92b1428d63893ac5521ff9"
+  },
+  {
+    "file": "./data/trillionx_exascale_latest.json",
+    "size": 13370,
+    "sha256": "104b5d79d4914b1beaef769991ab09d70e77b315ec92b1428d63893ac5521ff9"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/06_ARCHIVE_TXT/data/trillionx_exascale_1779635396501.json",
+    "size": 13359,
+    "sha256": "e88e755b0db74d792b11413238db65b7bc39e1a12aa8f2a4450cb51ff4c78419"
+  },
+  {
+    "file": "./data/trillionx_exascale_1779635396501.json",
+    "size": 13359,
+    "sha256": "e88e755b0db74d792b11413238db65b7bc39e1a12aa8f2a4450cb51ff4c78419"
+  },
+  {
+    "file": "./.Q",
+    "size": 13067,
+    "sha256": "f1aaab94ce30f41c2c6aa8a898f9ad4eada8dccc9eaec8cdc86909d3d4a22aa6"
+  },
+  {
+    "file": "./Q",
+    "size": 13067,
+    "sha256": "f1aaab94ce30f41c2c6aa8a898f9ad4eada8dccc9eaec8cdc86909d3d4a22aa6"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/08_UNKNOWN/.Q",
+    "size": 13067,
+    "sha256": "f1aaab94ce30f41c2c6aa8a898f9ad4eada8dccc9eaec8cdc86909d3d4a22aa6"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/08_UNKNOWN/Q",
+    "size": 13067,
+    "sha256": "f1aaab94ce30f41c2c6aa8a898f9ad4eada8dccc9eaec8cdc86909d3d4a22aa6"
+  },
+  {
+    "file": "./leep 2",
+    "size": 13067,
+    "sha256": "f1aaab94ce30f41c2c6aa8a898f9ad4eada8dccc9eaec8cdc86909d3d4a22aa6"
+  },
+  {
+    "file": "./data/kernel_boot.jsonl",
+    "size": 12775,
+    "sha256": "f37121e1aa6773c5ac4796e80ba9be82ebacde4c4f553e8dfd7d5a2c16854e98"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/06_ARCHIVE_TXT/data/TRILLIONX_EXASCALE_FINAL.json",
+    "size": 12507,
+    "sha256": "9474f5aad85d4c674762f2c6fffe9e90747e542f657c67ba2918365209f2000a"
+  },
+  {
+    "file": "./data/TRILLIONX_EXASCALE_FINAL.json",
+    "size": 12507,
+    "sha256": "9474f5aad85d4c674762f2c6fffe9e90747e542f657c67ba2918365209f2000a"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/06_ARCHIVE_TXT/data/trillionx_ai_world_health_latest.json",
+    "size": 11765,
+    "sha256": "415226ad0ae66108f1d14bbccaede36f4bb4a4c80ee34e17ab3b6ec8e32b322e"
+  },
+  {
+    "file": "./data/trillionx_ai_world_health_latest.json",
+    "size": 11765,
+    "sha256": "415226ad0ae66108f1d14bbccaede36f4bb4a4c80ee34e17ab3b6ec8e32b322e"
+  },
+  {
+    "file": "./phylo_recovery/TRILLIONX_PHYLO_RECOVERY.js",
+    "size": 11442,
+    "sha256": "36f9a93f0f57471d60cc254fc10f7f05b23fc92a99b1cef83abe998e49a325db"
+  },
+  {
+    "file": "./cosmos_final/telemetry/live_telemetry.json",
+    "size": 11233,
+    "sha256": "174e24bca2f64fb4000af2f4d61ec6a712c824f7d77dfe02dd98e29c3874fb90"
+  },
+  {
+    "file": "./data/trillionx_turbo_amplifier_latest.json",
+    "size": 10120,
+    "sha256": "9f73970a5b782cda4c300e9e8ed3f3e380de8fc610af0a1a7bf9683f63c5545b"
+  },
+  {
+    "file": "./data/trillionx_turbo_amplifier_x2400_1779628913041.json",
+    "size": 10120,
+    "sha256": "9f73970a5b782cda4c300e9e8ed3f3e380de8fc610af0a1a7bf9683f63c5545b"
+  },
+  {
+    "file": "./data/trillionx_turbo_amplifier_x1200_1779628896879.json",
+    "size": 10113,
+    "sha256": "8f49d61e3bfd541e3fa3f2561beda6882decefd43c3d471f19c7c7df83f9c7bf"
+  },
+  {
+    "file": "./data/trillionx_turbo_amplifier_x2400_1779625651834.json",
+    "size": 10112,
+    "sha256": "4f1ab3b0d85d24a1dda9547bc27c383884b274d6aa9850ee123d3095a442ebc4"
+  },
+  {
+    "file": "./data/trillionx_turbo_amplifier_x600_1779628885432.json",
+    "size": 10104,
+    "sha256": "cd462b64aee640c983706a0aed62b83b8b2f692da61f733b815ea3b7b810f2ea"
+  },
+  {
+    "file": "./data/trillionx_turbo_amplifier_278_1779625620557.json",
+    "size": 10100,
+    "sha256": "e112c153b8a4836d925c68711d74e16ea0e4eeef0a80dbf27e8586205228e251"
+  },
+  {
+    "file": "./data/trillionx_turbo_amplifier_278_1779628876073.json",
+    "size": 10099,
+    "sha256": "b273868f493a073b8797d0e671250fe1217e2f3086e3a254ae01c266eebd4624"
+  },
+  {
+    "file": "./data/trillionx_turbo_amplifier_x1200_1779625641464.json",
+    "size": 10091,
+    "sha256": "9c851a543ee20bc9bd40320cb3fdfb4b7d51a42a6eeed8fd0dbc08ed3c012d66"
+  },
+  {
+    "file": "./data/trillionx_turbo_amplifier_x600_1779625630876.json",
+    "size": 10089,
+    "sha256": "3f0f9640167ac02ff6536b069e6a79f68a45f964641047aaa50c12f5e68c9377"
+  },
+  {
+    "file": "./data/trillionx_perf_orch_superclass_latest.json",
+    "size": 9563,
+    "sha256": "6292474e70727c504d144470e3aa682e7b03665f0749affdb7b9085f170609af"
+  },
+  {
+    "file": "./hyper_ultra_megafabric/TRILLIONX_HYPER_ULTRA_MEGAFABRIC.js",
+    "size": 9320,
+    "sha256": "c07aa7f52e1b54312a238feaaa83ec1f5e63fafb1127be873c9487e2318035a3"
+  },
+  {
+    "file": "./transcendence_overmind/TRILLIONX_TRANSCENDENCE_OVERMIND.js",
+    "size": 9266,
+    "sha256": "7ee88b76d41db80bf551cf4ea192b7875e7ced92e4d85889e98cee3b6a1094c2"
+  },
+  {
+    "file": "./hardware_fabric/TRILLIONX_HARDWARE_FABRIC.js",
+    "size": 9123,
+    "sha256": "5ae169ca5e37df3073c22a3b282fe57fcff380365e4fd88ea3eb80d911c1e8da"
+  },
+  {
+    "file": "./data/trillionx_rtx4090_astral_profile_latest.json",
+    "size": 9101,
+    "sha256": "b5bd20cda5e06100d30cc6ec47448663a7d7c8cd2b16f80d8d420ef40b60643b"
+  },
+  {
+    "file": "./async_derivatives/20260524223626_status_491175_596144.derivative.json",
+    "size": 8600,
+    "sha256": "0fc0f2e88a107af76ed4c76b07fd41404899d60b72214b8e5d8c1176c94cf2a9"
+  },
+  {
+    "file": "./absolute_activation/TRILLIONX_ABSOLUTE_ACTIVATION.js",
+    "size": 8598,
+    "sha256": "12b038ece8f9b46b73096595deb20c8f47ae781f7761fcc9a2dc73aaa957dc12"
+  },
+  {
+    "file": "./cosmos_final/TRILLIONX_COSMOS_FINAL.js",
+    "size": 8591,
+    "sha256": "36475ca59154540c449cc90530382d6e409e3a8a55a787368be1ad100210a7f8"
+  },
+  {
+    "file": "./infinity_omega/TRILLIONX_INFINITY_OMEGA_ULTRA.js",
+    "size": 8468,
+    "sha256": "94997ba5f0372599c7300a7425f746b07b6de051cea645f3aff94d03d0f9b707"
+  },
+  {
+    "file": "./TRILLIONX_REPO_TOTAL_AUTODETECT.js",
+    "size": 8357,
+    "sha256": "18f74f69e7b6ee3f0b7af13fa66d5fb29860e76c2d32c69f5c713fdd3119bba7"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/08_UNKNOWN/TRILLIONX_REPO_TOTAL_AUTODETECT.js",
+    "size": 8357,
+    "sha256": "18f74f69e7b6ee3f0b7af13fa66d5fb29860e76c2d32c69f5c713fdd3119bba7"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/06_ARCHIVE_TXT/data/trillionx_full_threadripper_profile_latest.json",
+    "size": 8288,
+    "sha256": "011ee2022efde48596bbba4fea1eb101d4abcc772956386b2b830b0c9967b037"
+  },
+  {
+    "file": "./data/trillionx_full_threadripper_profile_latest.json",
+    "size": 8288,
+    "sha256": "011ee2022efde48596bbba4fea1eb101d4abcc772956386b2b830b0c9967b037"
+  },
+  {
+    "file": "./FULL_9000_SCAN.txt",
+    "size": 8190,
+    "sha256": "354649bb26aeab4592800fce7da8e05f1181da76d1debf91e24cb09a96cba1be"
+  },
+  {
+    "file": "./TRILLIONX_1X10_NODE_MASTER.js",
+    "size": 8170,
+    "sha256": "e421f92664994b470ea141d09d30eb850cb510c13a642ba1404b879519f04d97"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/08_UNKNOWN/TRILLIONX_1X10_NODE_MASTER.js",
+    "size": 8170,
+    "sha256": "e421f92664994b470ea141d09d30eb850cb510c13a642ba1404b879519f04d97"
+  },
+  {
+    "file": "./supreme_hyperstack/TRILLIONX_SUPREME_HYPERSTACK.js",
+    "size": 8070,
+    "sha256": "3e9b15561d30cf39962b99ce6e19aa70efc944c9c0483d1df72f797bb2e8e99e"
+  },
+  {
+    "file": "./omnidomain/TRILLIONX_OMNIDOMAIN_SINGULARITY.js",
+    "size": 7901,
+    "sha256": "6a594317b11770096741076fc660f5cfbe4cbe67117069b09661e974d7eed40a"
+  },
+  {
+    "file": "./omega_legacy/TRILLIONX_OMEGA_LEGACY_FUSION.js",
+    "size": 7841,
+    "sha256": "f72b655b229aa8a9888ab5cbebc5d01a7109320cb35951035e642422792588f1"
+  },
+  {
+    "file": "./_SAFE_LOCAL_STASH_20260525_043408_status.txt",
+    "size": 7536,
+    "sha256": "c570056ca988128baaf5673e8e211c0ab6b577f9f294bdec051c3d794715b7ee"
+  },
+  {
+    "file": "./TRILLIONX_HYPERBOLIC_MICROCONTROLLER_JOKER.js",
+    "size": 7409,
+    "sha256": "7bc831336df1e73e1c8e54eab6233aff048df734bf720adff0d8813421e93f90"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/08_UNKNOWN/TRILLIONX_HYPERBOLIC_MICROCONTROLLER_JOKER.js",
+    "size": 7409,
+    "sha256": "7bc831336df1e73e1c8e54eab6233aff048df734bf720adff0d8813421e93f90"
+  },
+  {
+    "file": "./tatus --short",
+    "size": 7172,
+    "sha256": "f9d4e8d571c29c340353368b7f1b163c39297baf2c0dffd5a55401586f4349e9"
+  },
+  {
+    "file": "./TRILLIONX_REPO_TOTAL_AUTODETECT_V2.js",
+    "size": 6576,
+    "sha256": "2ac98d033082eeb96987829a3fe75b28f207241d31a3dd4d67514b15e0f51d0a"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/08_UNKNOWN/TRILLIONX_REPO_TOTAL_AUTODETECT_V2.js",
+    "size": 6576,
+    "sha256": "2ac98d033082eeb96987829a3fe75b28f207241d31a3dd4d67514b15e0f51d0a"
+  },
+  {
+    "file": "./TRILLIONX_TURBO_AMPLIFIER_278_X2400.js",
+    "size": 6395,
+    "sha256": "c94e1f63176129da294cc052bd3fbf3ddf48421366e4c1db6bfafd6187a85164"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/08_UNKNOWN/TRILLIONX_TURBO_AMPLIFIER_278_X2400.js",
+    "size": 6395,
+    "sha256": "c94e1f63176129da294cc052bd3fbf3ddf48421366e4c1db6bfafd6187a85164"
+  },
+  {
+    "file": "./infinity_omega/telemetry/live_telemetry.json",
+    "size": 5451,
+    "sha256": "109f5ede818ddc475f43ce810cda84b349a341ae444aedbd50ea879864a29a89"
+  },
+  {
+    "file": "./.devcontainer/devcontainer.before_trillionx_20260525_105225.json",
+    "size": 5429,
+    "sha256": "a4d8ea017b1ddc006bc39435b61be0720a0365b995dbcfab7740fc47138da159"
+  },
+  {
+    "file": "./.devcontainer/devcontainer.json",
+    "size": 5429,
+    "sha256": "a4d8ea017b1ddc006bc39435b61be0720a0365b995dbcfab7740fc47138da159"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/06_ARCHIVE_TXT/.devcontainer/devcontainer.json",
+    "size": 5429,
+    "sha256": "a4d8ea017b1ddc006bc39435b61be0720a0365b995dbcfab7740fc47138da159"
+  },
+  {
+    "file": "./TRILLIONX_FIRMWARE_STAGE0.js",
+    "size": 5378,
+    "sha256": "5bbc395cc3f4f239ad9f3dc8b79ccddc21474b7b90002c1f23c2d177bb00f97d"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/08_UNKNOWN/TRILLIONX_FIRMWARE_STAGE0.js",
+    "size": 5378,
+    "sha256": "5bbc395cc3f4f239ad9f3dc8b79ccddc21474b7b90002c1f23c2d177bb00f97d"
+  },
+  {
+    "file": "./.devcontainer/devcontainer.before_trillionx_augmented_20260524_165534.json",
+    "size": 4995,
+    "sha256": "b0ecd9fd5c66cb4063861aa0fd15dc8d62bba02a0063c36ba692dbc6bf9586f0"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/06_ARCHIVE_TXT/.devcontainer/devcontainer.before_trillionx_augmented_20260524_165534.json",
+    "size": 4995,
+    "sha256": "b0ecd9fd5c66cb4063861aa0fd15dc8d62bba02a0063c36ba692dbc6bf9586f0"
+  },
+  {
+    "file": "./async_derivatives/20260524224001_micro_status_520896_680400.derivative.json",
+    "size": 4873,
+    "sha256": "054bde664291eedd5690e8952350eb3832042823dd684280396b8552af5a02d3"
+  },
+  {
+    "file": "./async_derivatives/20260524223224_microstatus_463110_164558.derivative.json",
+    "size": 4857,
+    "sha256": "9b86c7c05f1f50a2916f35838faa8a10f4a903de423e84f6e192bd8478ea7be4"
+  },
+  {
+    "file": "./async_derivatives/20260524223630_micro_status_492297_596004.derivative.json",
+    "size": 4851,
+    "sha256": "c249440df443988c504a6c0a898085e39614d34e724c6792dc45e4d39c04b60b"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/08_UNKNOWN/backend/hybrid-evo.js",
+    "size": 4533,
+    "sha256": "766f0cd6d2aa9fb930c3003753355bc3cabb7bfca069027c9391acf5eff26688"
+  },
+  {
+    "file": "./backend/hybrid-evo.js",
+    "size": 4533,
+    "sha256": "766f0cd6d2aa9fb930c3003753355bc3cabb7bfca069027c9391acf5eff26688"
+  },
+  {
+    "file": "./supreme_hyperstack/telemetry/live_telemetry.json",
+    "size": 3952,
+    "sha256": "07ac7f61aab7c4b0e4150afa2ee50ab552163d454bb081c491ae18537e966bb4"
+  },
+  {
+    "file": "./final_governance/TRILLIONX_FINAL_GOVERNANCE.js",
+    "size": 3934,
+    "sha256": "cfd597c12739338f20cd1d7e6b931b85ef1c962d3c6f354cac6f08c5109737ad"
+  },
+  {
+    "file": "./logs/trillionx_full_safe_activation_3000.log",
+    "size": 3908,
+    "sha256": "6154f7de0d262149a00a47528e62399816d7cdd58d6d1b20e93f6b03c1ea47de"
+  },
+  {
+    "file": "./hardware_fabric/integrity/latest_integrity.json",
+    "size": 3668,
+    "sha256": "d79cd1a8526f38e06b9891a66b980e4fca3475276c1177db14703c0c1331b2b1"
+  },
+  {
+    "file": "./logs/trillionx_live_3000.log",
+    "size": 3612,
+    "sha256": "2e359a25118df67690b047375e333626e8db87a150a18183166adb4c4faa760d"
+  },
+  {
+    "file": "./logs/trillionx_dev_3000.log",
+    "size": 3603,
+    "sha256": "8ac2062f6b626c814dc2bb80706462cbdea6fd9e07ec0a1976b47908db021051"
+  },
+  {
+    "file": "./logs/trillionx2_clean.log",
+    "size": 3599,
+    "sha256": "1b24602a3e5e1659f433ca60b3ca56795f5eceaf7af0a179315f7f86a63a82cf"
+  },
+  {
+    "file": "./logs/app_3000_20260525_060113.log",
+    "size": 3590,
+    "sha256": "fe8189f571ea124865e0bb77e64af74a2a7c992372f870580946ed529f5847a6"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/06_ARCHIVE_TXT/data/TRILLIONX_INTERNET_VECTOR_BLOCK_LATEST.json",
+    "size": 3405,
+    "sha256": "cd971ea66ff9b8cd7b0719e9d59795dd3a382f40125ea00ccc97fa8344243c1d"
+  },
+  {
+    "file": "./data/TRILLIONX_INTERNET_VECTOR_BLOCK_LATEST.json",
+    "size": 3405,
+    "sha256": "cd971ea66ff9b8cd7b0719e9d59795dd3a382f40125ea00ccc97fa8344243c1d"
+  },
+  {
+    "file": "./ultimate_stabilizer/TRILLIONX_ULTIMATE_STABILIZER.js",
+    "size": 3373,
+    "sha256": "37d3d647cd1c985543f157a93b6144e8c41164989a3712c7d0f188613f665947"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/06_ARCHIVE_TXT/data/trillionx_compute_speed_latest.json",
+    "size": 3157,
+    "sha256": "34a0a0c846ae3bbdc5c87f28f955d3bc56a687bd7fd3f84f05b4b05105e01f80"
+  },
+  {
+    "file": "./data/trillionx_compute_speed_latest.json",
+    "size": 3157,
+    "sha256": "34a0a0c846ae3bbdc5c87f28f955d3bc56a687bd7fd3f84f05b4b05105e01f80"
+  },
+  {
+    "file": "./TRILLIONX_OUTPUT_LITE_PATCH.js",
+    "size": 3088,
+    "sha256": "aeae95d6f7c5cbf69e151a4e44dc57b6eb825af0b4c08a908f5eec4169f0cffd"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/06_ARCHIVE_TXT/controllers/hyperbolic_microcontroller_joker_latest.json",
+    "size": 2977,
+    "sha256": "ca9cb838d2289b0cb64899889bab4d828211cc3d52e6d70684f68ec1340f4c37"
+  },
+  {
+    "file": "./controllers/hyperbolic_microcontroller_joker_latest.json",
+    "size": 2977,
+    "sha256": "ca9cb838d2289b0cb64899889bab4d828211cc3d52e6d70684f68ec1340f4c37"
+  },
+  {
+    "file": "./data/trillionx_hyperbolic_microcontroller_joker_1779634034933.json",
+    "size": 2977,
+    "sha256": "96e6f9d35ca264de70efa71159f9d12dca9908813119803d38eb0275fe9351fc"
+  },
+  {
+    "file": "./data/trillionx_hyperbolic_microcontroller_joker_1779634067193.json",
+    "size": 2977,
+    "sha256": "fa881203eede3128c47ae7629100eb696fec24f133f79b0cb34161ddd27765cf"
+  },
+  {
+    "file": "./data/trillionx_hyperbolic_microcontroller_joker_1779634099478.json",
+    "size": 2977,
+    "sha256": "36775fa6a1d8d8a131e5f28fbd7e1db233830de3f59bce4d891f598b5542ccc3"
+  },
+  {
+    "file": "./data/trillionx_hyperbolic_microcontroller_joker_1779634099490.json",
+    "size": 2977,
+    "sha256": "f366f0478358c59dc7daa7a7b8a6d0f1e2385829718a8e51bf813b63dc10a806"
+  },
+  {
+    "file": "./data/trillionx_hyperbolic_microcontroller_joker_1779634126964.json",
+    "size": 2977,
+    "sha256": "a82be02999ee9442c7a278c758597b3142ed1282d8ee70cf3b481b0c883e341a"
+  },
+  {
+    "file": "./data/trillionx_hyperbolic_microcontroller_joker_1779634131770.json",
+    "size": 2977,
+    "sha256": "53e10ec8b0b6d6311596790a10965134e5447b39e5c1ec608ce061fca68138db"
+  },
+  {
+    "file": "./data/trillionx_hyperbolic_microcontroller_joker_1779634150063.json",
+    "size": 2977,
+    "sha256": "9a3c992e20f5cb5e40a982e4e9e079546c39450e66b2dc80bf4b22d596a0231c"
+  },
+  {
+    "file": "./data/trillionx_hyperbolic_microcontroller_joker_1779634167469.json",
+    "size": 2977,
+    "sha256": "717f3a264bf5f63c536239a3215b9f30164458f1e0cfaf0f134dd6568de1e489"
+  }
+]

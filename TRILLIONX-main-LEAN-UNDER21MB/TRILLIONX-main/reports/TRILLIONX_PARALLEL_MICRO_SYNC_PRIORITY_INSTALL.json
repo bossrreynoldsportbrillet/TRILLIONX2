@@ -1,0 +1,15 @@
+{
+  "engine": "TRILLIONX_PARALLEL_MICRO_SYNC_PRIORITY_INSTALL",
+  "time": "2026-05-24T22:09:41.422Z",
+  "status": "READY",
+  "safe": true,
+  "parallel": true,
+  "priority": "nice -5 if permitted, fallback normal",
+  "does_not_touch": [
+    "app.js",
+    "data",
+    "raid60_plus",
+    "node_modules"
+  ],
+  "seal": "d69d32769b9981c2a9b59dfe03c730f74c2b64dadf31de75ed71520bd2dacf11"
+}

@@ -1,0 +1,1248 @@
+{
+  "engine": "TRILLIONX_WORLD_NETWORK_AUTODETECT_BENCH",
+  "ts": "2026-05-24T12:13:51.705Z",
+  "policy": {
+    "target": "TRILLIONX",
+    "host": "CODESPACES_SUPPORT_ONLY",
+    "real_only": true,
+    "passive_public_network_only": true,
+    "no_port_attack": true,
+    "no_fake_world_network": true
+  },
+  "system": {
+    "node": "v24.14.0",
+    "platform": "linux",
+    "arch": "x64",
+    "hostname": "codespaces-09650b",
+    "cpus": 2,
+    "ram_gb": 7.757
+  },
+  "network": {
+    "interfaces": [
+      {
+        "name": "lo",
+        "family": "IPv4",
+        "address": "127.0.0.1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "cidr": "127.0.0.1/8"
+      },
+      {
+        "name": "lo",
+        "family": "IPv6",
+        "address": "::1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "cidr": "::1/128"
+      },
+      {
+        "name": "eth0",
+        "family": "IPv4",
+        "address": "10.0.2.49",
+        "internal": false,
+        "mac": "7c:ed:8d:6c:19:a4",
+        "cidr": "10.0.2.49/16"
+      },
+      {
+        "name": "eth0",
+        "family": "IPv6",
+        "address": "fe80::7eed:8dff:fe6c:19a4",
+        "internal": false,
+        "mac": "7c:ed:8d:6c:19:a4",
+        "cidr": "fe80::7eed:8dff:fe6c:19a4/64"
+      },
+      {
+        "name": "enP19127s1",
+        "family": "IPv6",
+        "address": "fe80::7eed:8dff:fe6c:19a4",
+        "internal": false,
+        "mac": "7c:ed:8d:6c:19:a4",
+        "cidr": "fe80::7eed:8dff:fe6c:19a4/64"
+      }
+    ],
+    "ip_route": "default via 10.0.0.1 dev eth0 proto dhcp src 10.0.2.49 metric 100 \n10.0.0.0/16 dev eth0 proto kernel scope link src 10.0.2.49 metric 100 \n10.0.0.1 dev eth0 proto dhcp scope link src 10.0.2.49 metric 100 \n168.63.129.16 via 10.0.0.1 dev eth0 proto dhcp src 10.0.2.49 metric 100 \n169.254.169.254 via 10.0.0.1 dev eth0 proto dhcp src 10.0.2.49 metric 100 \n172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown",
+    "listening": "Netid State  Recv-Q Send-Q  Local Address:Port  Peer Address:PortProcess                                \nudp   UNCONN 0      0       127.0.0.53%lo:53         0.0.0.0:*                                          \nudp   UNCONN 0      0      10.0.2.49%eth0:68         0.0.0.0:*                                          \ntcp   LISTEN 0      511         127.0.0.1:36589      0.0.0.0:*    users:((\"node\",pid=543,fd=21))        \ntcp   LISTEN 0      4096        127.0.0.1:40269      0.0.0.0:*                                          \ntcp   LISTEN 0      128           0.0.0.0:2000       0.0.0.0:*                                          \ntcp   LISTEN 0      4096    127.0.0.53%lo:53         0.0.0.0:*                                          \ntcp   LISTEN 0      128           0.0.0.0:2222       0.0.0.0:*                                          \ntcp   LISTEN 0      4096        127.0.0.1:13005      0.0.0.0:*                                          \ntcp   LISTEN 0      512         127.0.0.1:16635      0.0.0.0:*                                          \ntcp   LISTEN 0      512         127.0.0.1:16634      0.0.0.0:*                                          \ntcp   LISTEN 0      4096        127.0.0.1:12563      0.0.0.0:*                                          \ntcp   LISTEN 0      128              [::]:2000          [::]:*                                          \ntcp   LISTEN 0      511                 *:3000             *:*    users:((\"MainThread\",pid=27849,fd=24))\ntcp   LISTEN 0      512             [::1]:16635         [::]:*                                          \ntcp   LISTEN 0      512             [::1]:16634         [::]:*                                          \ntcp   LISTEN 0      128              [::]:2222          [::]:*"
+  },
+  "repo": {
+    "files": 114,
+    "routes": 12827,
+    "api_strings": 52104,
+    "sockets": 189,
+    "top_api_roots": [
+      {
+        "key": "/api/trillions",
+        "count": 3494
+      },
+      {
+        "key": "/api/processor-calc",
+        "count": 2872
+      },
+      {
+        "key": "/api/kyoto",
+        "count": 2479
+      },
+      {
+        "key": "/api/stratum-sha256",
+        "count": 2281
+      },
+      {
+        "key": "/api/cache-memory",
+        "count": 2191
+      },
+      {
+        "key": "/api/memory-terms",
+        "count": 2048
+      },
+      {
+        "key": "/api/benchmark",
+        "count": 1828
+      },
+      {
+        "key": "/api/codec-cpu",
+        "count": 1828
+      },
+      {
+        "key": "/api/hpc-simd",
+        "count": 1461
+      },
+      {
+        "key": "/api/frontier-kernel",
+        "count": 1433
+      },
+      {
+        "key": "/api/die-3dnand",
+        "count": 1404
+      },
+      {
+        "key": "/api/latency-min",
+        "count": 1391
+      },
+      {
+        "key": "/api/hash-field",
+        "count": 1321
+      },
+      {
+        "key": "/api/sha-field",
+        "count": 1184
+      },
+      {
+        "key": "/api/qn-coprocessor",
+        "count": 988
+      },
+      {
+        "key": "/api/kernel-score",
+        "count": 805
+      },
+      {
+        "key": "/api/jobs",
+        "count": 752
+      },
+      {
+        "key": "/api/world-hpc",
+        "count": 732
+      },
+      {
+        "key": "/api/positive-runtime",
+        "count": 727
+      },
+      {
+        "key": "/api/hpc-zeta",
+        "count": 706
+      },
+      {
+        "key": "/api/ultimate-hpc",
+        "count": 690
+      },
+      {
+        "key": "/api/hybrid-hpc",
+        "count": 664
+      },
+      {
+        "key": "/api/network",
+        "count": 557
+      },
+      {
+        "key": "/api/performance",
+        "count": 496
+      },
+      {
+        "key": "/api/dict",
+        "count": 486
+      },
+      {
+        "key": "/api/memory-l56",
+        "count": 480
+      },
+      {
+        "key": "/api/orchestrator-intelligent",
+        "count": 451
+      },
+      {
+        "key": "/api/system",
+        "count": 449
+      },
+      {
+        "key": "/api/workload-runtime",
+        "count": 449
+      },
+      {
+        "key": "/api/cockpit",
+        "count": 445
+      }
+    ],
+    "sample_routes": [
+      {
+        "method": "GET",
+        "route": "/",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/full",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ping",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/heartbeat",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/clients",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/hardware/9000vw",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/runtime/status",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/reconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ai-chat",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/ai-chat",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ai-chat/history",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ai-chat/providers",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ai-chat/trace",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/power",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/experimental",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/exponential",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/cockpit",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/capacity",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/dict",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/dict/classify",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/modules",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/legacy",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ai-kernel",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/ai-kernel/plan",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ai-kernel/plan",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/solver/strategic",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/solver/strategic",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/jobs/create",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/jobs/start",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/jobs",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/repair",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/repair/report",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/repair/risk",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/routes/test",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/self/audit",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/batch",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/system",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/network",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/repo",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/blockchain",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/workload",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/launch",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/iot",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/protocols",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/security",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/supercompute",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/tech",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ai",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/shell",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/imperial",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/orchestrator",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/space",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/space/catalog",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/space/iss",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/space/iss/position",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/max-tech",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/max-tech/scan",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/max-tech/no-flicage",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/network-situation",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/timing",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/timing/terminal",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/terminal-v11",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/terminal-v11/catalog",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/terminal-v11/run",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/polyglot/catalog",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/processor",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/performance-profile",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/support-accelerator",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/max-expansion",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/how-far-can-it-go",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ultimate-api-catalog",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ultimate-api-catalog/routes",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ultimate-api-catalog/families",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ultimate-api-catalog/audit",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ultimate-api-catalog/dependencies",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/v11-plus",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/runtime/dictionaries",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/memory/pressure",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/energy/value",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/providers/smart",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      }
+    ],
+    "sample_sockets": [
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "connect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "runtime",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "obj": "io",
+        "op": "on",
+        "event": "connection",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "obj": "socket",
+        "op": "emit",
+        "event": "runtime",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "obj": "io",
+        "op": "on",
+        "event": "connection",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "connect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "connect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "runtime",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt"
+      },
+      {
+        "obj": "io",
+        "op": "on",
+        "event": "connection",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "emit",
+        "event": "runtime",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt"
+      },
+      {
+        "obj": "io",
+        "op": "on",
+        "event": "connection",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "connect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "connect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "runtime",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt"
+      },
+      {
+        "obj": "io",
+        "op": "on",
+        "event": "connection",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "emit",
+        "event": "runtime",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt"
+      },
+      {
+        "obj": "io",
+        "op": "on",
+        "event": "connection",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "connect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "connect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "runtime",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt"
+      },
+      {
+        "obj": "io",
+        "op": "on",
+        "event": "connection",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "emit",
+        "event": "runtime",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt"
+      },
+      {
+        "obj": "io",
+        "op": "on",
+        "event": "connection",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "connect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "connect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "runtime",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt"
+      },
+      {
+        "obj": "io",
+        "op": "on",
+        "event": "connection",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "emit",
+        "event": "runtime",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt"
+      },
+      {
+        "obj": "io",
+        "op": "on",
+        "event": "connection",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "connect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "connect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6.original.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6.original.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "runtime",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6.original.txt"
+      },
+      {
+        "obj": "io",
+        "op": "on",
+        "event": "connection",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6.original.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "emit",
+        "event": "runtime",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6.original.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6.original.txt"
+      },
+      {
+        "obj": "io",
+        "op": "on",
+        "event": "connection",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6.original.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "connect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6.original.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6.original.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "connect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.TRILLIONS-FUSED-RUNTIME.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.TRILLIONS-FUSED-RUNTIME.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "runtime",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.TRILLIONS-FUSED-RUNTIME.txt"
+      },
+      {
+        "obj": "io",
+        "op": "on",
+        "event": "connection",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.TRILLIONS-FUSED-RUNTIME.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "emit",
+        "event": "runtime",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.TRILLIONS-FUSED-RUNTIME.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.TRILLIONS-FUSED-RUNTIME.txt"
+      },
+      {
+        "obj": "io",
+        "op": "on",
+        "event": "connection",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.TRILLIONS-FUSED-RUNTIME.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "connect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.TRILLIONS-FUSED-RUNTIME.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.TRILLIONS-FUSED-RUNTIME.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "connect",
+        "file": "./app.js"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./app.js"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "runtime",
+        "file": "./app.js"
+      },
+      {
+        "obj": "io",
+        "op": "on",
+        "event": "connection",
+        "file": "./app.js"
+      },
+      {
+        "obj": "socket",
+        "op": "emit",
+        "event": "runtime",
+        "file": "./app.js"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./app.js"
+      },
+      {
+        "obj": "io",
+        "op": "on",
+        "event": "connection",
+        "file": "./app.js"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "connect",
+        "file": "./app.js"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./app.js"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "connect",
+        "file": "./app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "runtime",
+        "file": "./app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt"
+      },
+      {
+        "obj": "io",
+        "op": "on",
+        "event": "connection",
+        "file": "./app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "emit",
+        "event": "runtime",
+        "file": "./app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "disconnect",
+        "file": "./app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt"
+      },
+      {
+        "obj": "io",
+        "op": "on",
+        "event": "connection",
+        "file": "./app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt"
+      },
+      {
+        "obj": "socket",
+        "op": "on",
+        "event": "connect",
+        "file": "./app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt"
+      }
+    ]
+  },
+  "local_api": [
+    {
+      "url": "http://127.0.0.1:3000/",
+      "ok": true,
+      "status": 200,
+      "ms": 6.413,
+      "bytes": 7654
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/ping",
+      "ok": true,
+      "status": 200,
+      "ms": 1.03,
+      "bytes": 168
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/full",
+      "ok": true,
+      "status": 200,
+      "ms": 390.05,
+      "bytes": 24198
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/health",
+      "ok": true,
+      "status": 200,
+      "ms": 1.283,
+      "bytes": 364
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/runtime/status",
+      "ok": true,
+      "status": 200,
+      "ms": 387.489,
+      "bytes": 2572
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/reconnect",
+      "ok": true,
+      "status": 200,
+      "ms": 1.568,
+      "bytes": 591
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/ai-chat",
+      "ok": true,
+      "status": 200,
+      "ms": 1.522,
+      "bytes": 738
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/hardware/9000vw",
+      "ok": true,
+      "status": 200,
+      "ms": 2.431,
+      "bytes": 1047
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/mobile-health",
+      "ok": true,
+      "status": 200,
+      "ms": 45.341,
+      "bytes": 272
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/snapshot-lite",
+      "ok": true,
+      "status": 200,
+      "ms": 39.561,
+      "bytes": 602
+    }
+  ],
+  "dns": [
+    {
+      "host": "github.com",
+      "ok": true,
+      "ms": 8.893,
+      "address": "20.26.156.215",
+      "family": 4
+    },
+    {
+      "host": "api.github.com",
+      "ok": true,
+      "ms": 3.527,
+      "address": "20.26.156.210",
+      "family": 4
+    },
+    {
+      "host": "mempool.space",
+      "ok": true,
+      "ms": 52.294,
+      "address": "103.165.192.202",
+      "family": 4
+    },
+    {
+      "host": "blockstream.info",
+      "ok": true,
+      "ms": 22.164,
+      "address": "23.155.96.128",
+      "family": 4
+    },
+    {
+      "host": "blockchain.info",
+      "ok": true,
+      "ms": 17.477,
+      "address": "104.16.118.55",
+      "family": 4
+    },
+    {
+      "host": "cloudflare.com",
+      "ok": true,
+      "ms": 4.904,
+      "address": "104.16.132.229",
+      "family": 4
+    },
+    {
+      "host": "google.com",
+      "ok": true,
+      "ms": 1.678,
+      "address": "142.250.140.102",
+      "family": 4
+    }
+  ],
+  "external_public": [
+    {
+      "url": "https://api.github.com",
+      "ok": true,
+      "status": 200,
+      "ms": 14.225,
+      "bytes": 2262
+    },
+    {
+      "url": "https://mempool.space/api/blocks/tip/height",
+      "ok": true,
+      "status": 200,
+      "ms": 553.533,
+      "bytes": 6
+    },
+    {
+      "url": "https://blockstream.info/api/blocks/tip/height",
+      "ok": true,
+      "status": 200,
+      "ms": 480.767,
+      "bytes": 6
+    },
+    {
+      "url": "https://blockchain.info/q/getblockcount",
+      "ok": true,
+      "status": 200,
+      "ms": 62.608,
+      "bytes": 6
+    },
+    {
+      "url": "https://cloudflare.com/cdn-cgi/trace",
+      "ok": true,
+      "status": 200,
+      "ms": 15.765,
+      "bytes": 228
+    }
+  ],
+  "summary": {
+    "local_ok": "10/10",
+    "dns_ok": "7/7",
+    "external_ok": "5/5",
+    "p50_ms": 15.765,
+    "p95_ms": 553.533,
+    "health": 100,
+    "verdict": "NETWORK_WORLD_DETECTION_GOOD",
+    "reading": "Measures TRILLIONX network reachability and repo API surface. Codespaces is only the carrier; public endpoints are passive probes."
+  }
+}

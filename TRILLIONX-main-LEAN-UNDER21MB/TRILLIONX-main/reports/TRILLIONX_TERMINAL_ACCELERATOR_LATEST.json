@@ -1,0 +1,28 @@
+{
+  "engine": "TRILLIONX_TERMINAL_PROCESS_ACCELERATOR",
+  "time": "2026-05-24T21:49:50.362Z",
+  "status": "READY",
+  "safe": true,
+  "adds": [
+    "aliases",
+    "fast env",
+    "tx_fast",
+    "start_safe_fastlog",
+    "tx_status"
+  ],
+  "does_not_touch": [
+    "app.js",
+    "data",
+    "raid60_plus",
+    "node_modules"
+  ],
+  "commands": {
+    "txs": "start normal",
+    "bash scripts/start_safe_fastlog.sh": "start background less scroll",
+    "bash scripts/tx_status.sh": "short status",
+    "txr": "resource percent",
+    "txd": "safe disk guard",
+    "txk": "kill TRILLIONX node"
+  },
+  "seal": "4a0a6fc9a76ef98b70165d5824ddf9c06f8f613e0ac056e3299a3b08d1e76441"
+}

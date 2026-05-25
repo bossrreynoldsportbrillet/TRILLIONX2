@@ -1,0 +1,685 @@
+{
+  "engine": "TRILLIONX_EXASCALE_BENCHMARK",
+  "version": "1.0-micro-packets",
+  "timestamp": "2026-05-24T15:14:04.127Z",
+  "duration_ms": 2869.264,
+  "power_detected": {
+    "timestamp": "2026-05-24T15:14:01.458Z",
+    "hardware": {
+      "cores": 2,
+      "freemem_gb": 1.044,
+      "totalmem_gb": 7.757
+    },
+    "measurements": {
+      "loop_iter_50ms": 1123464,
+      "crypto_sha256_1mb_50ms": 37,
+      "bigint_mul_50ms": 351461,
+      "alloc_100kb_50ms": 1720
+    },
+    "scores": {
+      "cpu_score": 519692.6,
+      "mem_score": 1720,
+      "base_power_ops_per_ms_per_core": 579314.3
+    },
+    "recommendations": {
+      "worker_threads": 2,
+      "adaptive_timeout_ms": 500,
+      "estimated_peak_mhz": 51969260,
+      "network_concurrency": 6
+    }
+  },
+  "config": {
+    "total_benches": 25,
+    "adaptive_timeout_ms": 500,
+    "adaptive_concurrency": 2
+  },
+  "results": {
+    "by_category": {
+      "cpu": {
+        "ok": 7,
+        "fail": 0,
+        "ms_sum": 1733.6799999999998,
+        "results": [
+          {
+            "id": "cpu_loop_billion",
+            "category": "cpu",
+            "ok": true,
+            "result": 1000000000,
+            "ms": 623.125
+          },
+          {
+            "id": "cpu_fib_40",
+            "category": "cpu",
+            "ok": true,
+            "result": 832040,
+            "ms": 42.904
+          },
+          {
+            "id": "cpu_prime_sieve",
+            "category": "cpu",
+            "ok": true,
+            "result": 9594,
+            "ms": 14.669
+          },
+          {
+            "id": "cpu_sort_1m",
+            "category": "cpu",
+            "ok": true,
+            "result": 1000000,
+            "ms": 1044.518
+          },
+          {
+            "id": "cpu_json_parse",
+            "category": "cpu",
+            "ok": true,
+            "result": 10000,
+            "ms": 8.191
+          },
+          {
+            "id": "cpu_bigint_factorial",
+            "category": "cpu",
+            "ok": true,
+            "result": 158,
+            "ms": 0.174
+          },
+          {
+            "id": "cpu_bigint_pow",
+            "category": "cpu",
+            "ok": true,
+            "result": 18,
+            "ms": 0.099
+          }
+        ],
+        "success_rate": 100,
+        "avg_ms": 247.669
+      },
+      "crypto": {
+        "ok": 5,
+        "fail": 0,
+        "ms_sum": 503.75300000000004,
+        "results": [
+          {
+            "id": "crypto_sha256_1mb",
+            "category": "crypto",
+            "ok": true,
+            "result": 113,
+            "ms": 100.785
+          },
+          {
+            "id": "crypto_sha256_100x1kb",
+            "category": "crypto",
+            "ok": true,
+            "result": 40900,
+            "ms": 100.406
+          },
+          {
+            "id": "crypto_sha3_1mb",
+            "category": "crypto",
+            "ok": true,
+            "result": 38,
+            "ms": 101.342
+          },
+          {
+            "id": "crypto_blake2b_1mb",
+            "category": "crypto",
+            "ok": true,
+            "result": 67,
+            "ms": 101.081
+          },
+          {
+            "id": "crypto_hmac_sha256",
+            "category": "crypto",
+            "ok": true,
+            "result": 30108,
+            "ms": 100.139
+          }
+        ],
+        "success_rate": 100,
+        "avg_ms": 100.751
+      },
+      "memory": {
+        "ok": 3,
+        "fail": 0,
+        "ms_sum": 214.95999999999998,
+        "results": [
+          {
+            "id": "mem_alloc_10m",
+            "category": "memory",
+            "ok": true,
+            "result": 33738,
+            "ms": 100.119
+          },
+          {
+            "id": "mem_copy_10m",
+            "category": "memory",
+            "ok": true,
+            "result": 28,
+            "ms": 105.591
+          },
+          {
+            "id": "mem_read_write_4gb",
+            "category": "memory",
+            "ok": true,
+            "result": 4194304,
+            "ms": 9.25
+          }
+        ],
+        "success_rate": 100,
+        "avg_ms": 71.653
+      },
+      "concurrency": {
+        "ok": 2,
+        "fail": 0,
+        "ms_sum": 213.419,
+        "results": [
+          {
+            "id": "async_promise_chain",
+            "category": "concurrency",
+            "ok": true,
+            "result": 1001,
+            "ms": 213.239
+          },
+          {
+            "id": "async_parallel_100",
+            "category": "concurrency",
+            "ok": true,
+            "result": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99
+            ],
+            "ms": 0.18
+          }
+        ],
+        "success_rate": 100,
+        "avg_ms": 106.71
+      },
+      "io": {
+        "ok": 2,
+        "fail": 0,
+        "ms_sum": 2.686,
+        "results": [
+          {
+            "id": "io_write_1mb",
+            "category": "io",
+            "ok": true,
+            "result": 1048576,
+            "ms": 1.418
+          },
+          {
+            "id": "io_read_1mb",
+            "category": "io",
+            "ok": true,
+            "result": 1048576,
+            "ms": 1.268
+          }
+        ],
+        "success_rate": 100,
+        "avg_ms": 1.343
+      },
+      "regex": {
+        "ok": 2,
+        "fail": 0,
+        "ms_sum": 1.359,
+        "results": [
+          {
+            "id": "regex_email_1000",
+            "category": "regex",
+            "ok": true,
+            "result": 1000,
+            "ms": 0.407
+          },
+          {
+            "id": "regex_complex_10000",
+            "category": "regex",
+            "ok": true,
+            "result": 7500,
+            "ms": 0.952
+          }
+        ],
+        "success_rate": 100,
+        "avg_ms": 0.679
+      },
+      "network": {
+        "ok": 1,
+        "fail": 0,
+        "ms_sum": 0.427,
+        "results": [
+          {
+            "id": "network_facts_fetch",
+            "category": "network",
+            "ok": true,
+            "result": {
+              "ok": "43/50",
+              "facts_count": 29
+            },
+            "ms": 0.427
+          }
+        ],
+        "success_rate": 100,
+        "avg_ms": 0.427
+      },
+      "math": {
+        "ok": 1,
+        "fail": 0,
+        "ms_sum": 7.372,
+        "results": [
+          {
+            "id": "math_matrix_mult_100",
+            "category": "math",
+            "ok": true,
+            "result": 100,
+            "ms": 7.372
+          }
+        ],
+        "success_rate": 100,
+        "avg_ms": 7.372
+      },
+      "encoding": {
+        "ok": 2,
+        "fail": 0,
+        "ms_sum": 200.601,
+        "results": [
+          {
+            "id": "encode_base64_1mb",
+            "category": "encoding",
+            "ok": true,
+            "result": 350,
+            "ms": 100.161
+          },
+          {
+            "id": "encode_hex_1mb",
+            "category": "encoding",
+            "ok": true,
+            "result": 81,
+            "ms": 100.44
+          }
+        ],
+        "success_rate": 100,
+        "avg_ms": 100.3
+      }
+    },
+    "global_score": 100,
+    "total_ok": 25,
+    "total_fail": 0,
+    "success_pct": 100
+  },
+  "details": [
+    {
+      "id": "cpu_loop_billion",
+      "category": "cpu",
+      "ok": true,
+      "result": 1000000000,
+      "ms": 623.125
+    },
+    {
+      "id": "cpu_fib_40",
+      "category": "cpu",
+      "ok": true,
+      "result": 832040,
+      "ms": 42.904
+    },
+    {
+      "id": "cpu_prime_sieve",
+      "category": "cpu",
+      "ok": true,
+      "result": 9594,
+      "ms": 14.669
+    },
+    {
+      "id": "cpu_sort_1m",
+      "category": "cpu",
+      "ok": true,
+      "result": 1000000,
+      "ms": 1044.518
+    },
+    {
+      "id": "cpu_json_parse",
+      "category": "cpu",
+      "ok": true,
+      "result": 10000,
+      "ms": 8.191
+    },
+    {
+      "id": "cpu_bigint_factorial",
+      "category": "cpu",
+      "ok": true,
+      "result": 158,
+      "ms": 0.174
+    },
+    {
+      "id": "cpu_bigint_pow",
+      "category": "cpu",
+      "ok": true,
+      "result": 18,
+      "ms": 0.099
+    },
+    {
+      "id": "crypto_sha256_1mb",
+      "category": "crypto",
+      "ok": true,
+      "result": 113,
+      "ms": 100.785
+    },
+    {
+      "id": "crypto_sha256_100x1kb",
+      "category": "crypto",
+      "ok": true,
+      "result": 40900,
+      "ms": 100.406
+    },
+    {
+      "id": "crypto_sha3_1mb",
+      "category": "crypto",
+      "ok": true,
+      "result": 38,
+      "ms": 101.342
+    },
+    {
+      "id": "crypto_blake2b_1mb",
+      "category": "crypto",
+      "ok": true,
+      "result": 67,
+      "ms": 101.081
+    },
+    {
+      "id": "crypto_hmac_sha256",
+      "category": "crypto",
+      "ok": true,
+      "result": 30108,
+      "ms": 100.139
+    },
+    {
+      "id": "mem_alloc_10m",
+      "category": "memory",
+      "ok": true,
+      "result": 33738,
+      "ms": 100.119
+    },
+    {
+      "id": "mem_copy_10m",
+      "category": "memory",
+      "ok": true,
+      "result": 28,
+      "ms": 105.591
+    },
+    {
+      "id": "mem_read_write_4gb",
+      "category": "memory",
+      "ok": true,
+      "result": 4194304,
+      "ms": 9.25
+    },
+    {
+      "id": "async_promise_chain",
+      "category": "concurrency",
+      "ok": true,
+      "result": 1001,
+      "ms": 213.239
+    },
+    {
+      "id": "async_parallel_100",
+      "category": "concurrency",
+      "ok": true,
+      "result": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99
+      ],
+      "ms": 0.18
+    },
+    {
+      "id": "io_write_1mb",
+      "category": "io",
+      "ok": true,
+      "result": 1048576,
+      "ms": 1.418
+    },
+    {
+      "id": "io_read_1mb",
+      "category": "io",
+      "ok": true,
+      "result": 1048576,
+      "ms": 1.268
+    },
+    {
+      "id": "regex_email_1000",
+      "category": "regex",
+      "ok": true,
+      "result": 1000,
+      "ms": 0.407
+    },
+    {
+      "id": "regex_complex_10000",
+      "category": "regex",
+      "ok": true,
+      "result": 7500,
+      "ms": 0.952
+    },
+    {
+      "id": "network_facts_fetch",
+      "category": "network",
+      "ok": true,
+      "result": {
+        "ok": "43/50",
+        "facts_count": 29
+      },
+      "ms": 0.427
+    },
+    {
+      "id": "math_matrix_mult_100",
+      "category": "math",
+      "ok": true,
+      "result": 100,
+      "ms": 7.372
+    },
+    {
+      "id": "encode_base64_1mb",
+      "category": "encoding",
+      "ok": true,
+      "result": 350,
+      "ms": 100.161
+    },
+    {
+      "id": "encode_hex_1mb",
+      "category": "encoding",
+      "ok": true,
+      "result": 81,
+      "ms": 100.44
+    }
+  ]
+}

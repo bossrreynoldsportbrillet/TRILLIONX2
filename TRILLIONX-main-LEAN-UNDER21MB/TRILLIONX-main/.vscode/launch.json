@@ -1,0 +1,65 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "attach",
+      "name": "TRILLIONX attach debugger 9229",
+      "port": 9229,
+      "address": "localhost",
+      "localRoot": "${workspaceFolder}",
+      "remoteRoot": "${workspaceFolder}",
+      "restart": false,
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "TRILLIONX app.js port 3000",
+      "program": "${workspaceFolder}/app.js",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "node",
+      "env": {
+        "PORT": "3000",
+        "TRILLIONX_PORT": "3000",
+        "TRILLIONX_PRIORITY_PORT": "3000",
+        "TRILLIONX_MAIN": "app.js",
+        "TRILLIONX_STRUCTURE_LOCK": "1",
+        "TRILLIONX_NO_DELETE": "1",
+        "TRILLIONX_REAL_ONLY_OR_UNAVAILABLE": "1",
+        "TRILLIONX_PROCESS_EXACT": "1",
+        "TRILLIONX_PORT_SCAN": "REAL_SS_ONLY",
+        "TRILLIONX_PROCESS_SCAN": "REAL_PS_ONLY",
+        "TRILLIONX_RAID60_PLUS": "PACKET_CACHE_GROUPS",
+        "TRILLIONX_MEMORY_MODE": "VIRTUAL_MIRROR_OF_RECOGNIZED_MEMORY",
+        "TRILLIONX_EXECUTION_MODE": "PERPETUAL_MICRO_PACKET_STREAMING",
+        "TRILLIONX_NO_FULL_LOAD": "1",
+        "NODE_OPTIONS": "--max-old-space-size=2048"
+      },
+      "console": "integratedTerminal",
+      "restart": false,
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "name": "TRILLIONS: node app.js",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/app.js",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PORT": "3000"
+      },
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "TRILLIONS: Attach 9229",
+      "type": "node",
+      "request": "attach",
+      "port": 9229,
+      "address": "localhost",
+      "restart": true
+    }
+  ]
+}

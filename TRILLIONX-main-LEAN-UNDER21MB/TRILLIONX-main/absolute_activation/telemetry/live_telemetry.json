@@ -1,0 +1,51 @@
+[
+  {
+    "time": "2026-05-25T12:45:50.398Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 20304
+    }
+  },
+  {
+    "time": "2026-05-25T12:45:51.420Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 9055
+    }
+  },
+  {
+    "time": "2026-05-25T12:45:51.455Z",
+    "type": "packets",
+    "data": {
+      "packet_rate": 5
+    }
+  },
+  {
+    "time": "2026-05-25T12:45:52.563Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 114
+    }
+  },
+  {
+    "time": "2026-05-25T12:45:52.564Z",
+    "type": "throughput",
+    "data": {
+      "throughput_ops": 29473
+    }
+  },
+  {
+    "time": "2026-05-25T12:45:53.591Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 18681
+    }
+  },
+  {
+    "time": "2026-05-25T12:45:53.592Z",
+    "type": "energy",
+    "data": {
+      "energy_index": 44181
+    }
+  }
+]

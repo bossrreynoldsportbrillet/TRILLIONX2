@@ -1,0 +1,18 @@
+{
+  "name": "TRILLIONX_MICRO_PACKET_BENCH",
+  "packet_kb": 8,
+  "rounds": 25000,
+  "duration_s": 0.4571,
+  "packets_s": 54692.31,
+  "throughput_MB_s": 427.28,
+  "checkpoints": 10,
+  "final_hash": "77d1b6950739b5aa394d8a2ba4dd5b92",
+  "rss_end_GB": 0.075,
+  "disk_workspaces": {
+    "total_MB": 32078,
+    "used_MB": 22653,
+    "free_MB": 7771,
+    "use_percent": "75%"
+  },
+  "doctrine": "REAL_ONLY_OR_UNAVAILABLE"
+}

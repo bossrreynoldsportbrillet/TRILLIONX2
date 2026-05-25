@@ -1,0 +1,462 @@
+{
+  "engine": "TRILLIONX_BTC_UTXO_ETH_VECTOR_SYSTEM_NET_SHOW",
+  "ts": "2026-05-24T17:38:58.209Z",
+  "target": "TRILLIONX_ONLY",
+  "host_role": "CODESPACES_SUPPORT_ONLY",
+  "parameters": {
+    "packets": 40,
+    "window_ms": 500
+  },
+  "system": {
+    "cpu": {
+      "model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+      "logical": 2,
+      "speed_mhz": 3488.5,
+      "speed_ghz": 3.489,
+      "arch": "x64",
+      "platform": "linux",
+      "simd": {
+        "sse": true,
+        "sse2": true,
+        "sse4_1": true,
+        "sse4_2": true,
+        "avx": true,
+        "avx2": true,
+        "avx512": true,
+        "aes": true,
+        "sha_ni": true
+      }
+    },
+    "memory_before": {
+      "rss_mb": 47.48,
+      "heap_mb": 5.119,
+      "external_mb": 1.909,
+      "arraybuf_mb": 0.016,
+      "os_total_gb": 7.757,
+      "os_free_gb": 4.871,
+      "load1": 1.44
+    },
+    "memory_after": {
+      "rss_mb": 407.266,
+      "heap_mb": 4.682,
+      "external_mb": 1.916,
+      "arraybuf_mb": 0.025,
+      "os_total_gb": 7.757,
+      "os_free_gb": 4.452,
+      "load1": 2.24
+    },
+    "support": {
+      "node": "v22.22.2",
+      "npm": "10.9.7",
+      "python3": "Python 3.10.12",
+      "openssl": "OpenSSL 3.0.2 15 Mar 2022 (Library: OpenSSL 3.0.2 15 Mar 2022)",
+      "tools": {
+        "node": true,
+        "npm": true,
+        "python3": true,
+        "gcc": true,
+        "g++": true,
+        "clang": true,
+        "make": true,
+        "cmake": true,
+        "git": true,
+        "curl": true,
+        "wget": true,
+        "ss": true,
+        "nmap": true,
+        "openssl": true,
+        "lscpu": true,
+        "free": true,
+        "df": true
+      }
+    }
+  },
+  "network": {
+    "before": {
+      "local_ip": "10.0.0.156",
+      "dns": {
+        "github_ok": true,
+        "ms": 8.009
+      },
+      "ports_scanned": 24,
+      "ports_open": [
+        3000
+      ],
+      "port_results": [
+        {
+          "open": true,
+          "port": 3000,
+          "ms": 2.344
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3033,
+          "ms": 0.894
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3044,
+          "ms": 0.652
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3055,
+          "ms": 0.358
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3100,
+          "ms": 0.348
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3110,
+          "ms": 0.26
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3111,
+          "ms": 0.537
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3112,
+          "ms": 0.351
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3113,
+          "ms": 0.721
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3114,
+          "ms": 0.449
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3115,
+          "ms": 0.31
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3116,
+          "ms": 0.148
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3117,
+          "ms": 0.121
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3118,
+          "ms": 0.148
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3119,
+          "ms": 0.122
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3150,
+          "ms": 0.217
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3160,
+          "ms": 0.148
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3199,
+          "ms": 0.13
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 5000,
+          "ms": 0.121
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 8000,
+          "ms": 0.103
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 8080,
+          "ms": 0.096
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 8888,
+          "ms": 0.112
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 9000,
+          "ms": 0.077
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 9229,
+          "ms": 0.069
+        }
+      ],
+      "http_health": [
+        {
+          "port": 3000,
+          "ok": true,
+          "status": 404,
+          "bytes": 145,
+          "ms": 6.694
+        }
+      ],
+      "routes": "default via 10.0.0.1 dev eth0 proto dhcp src 10.0.0.156 metric 100 \n10.0.0.0/16 dev eth0 proto kernel scope link src 10.0.0.156 metric 100 \n10.0.0.1 dev eth0 proto dhcp scope link src 10.0.0.156 metric 100 \n168.63.129.16 via 10.0.0.1 dev eth0 proto dhcp src 10.0.0.156 metric 100 \n169.254.169.254 via 10.0.0.1 dev eth0 proto dhcp src 10.0.0.156 metric 100 \n172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown"
+    },
+    "after": {
+      "local_ip": "10.0.0.156",
+      "dns": {
+        "github_ok": true,
+        "ms": 17.556
+      },
+      "ports_scanned": 24,
+      "ports_open": [
+        3000
+      ],
+      "port_results": [
+        {
+          "open": true,
+          "port": 3000,
+          "ms": 4.768
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3033,
+          "ms": 0.521
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3044,
+          "ms": 0.178
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3055,
+          "ms": 0.097
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3100,
+          "ms": 0.077
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3110,
+          "ms": 0.071
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3111,
+          "ms": 0.071
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3112,
+          "ms": 0.069
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3113,
+          "ms": 0.069
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3114,
+          "ms": 0.07
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3115,
+          "ms": 0.127
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3116,
+          "ms": 0.109
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3117,
+          "ms": 0.114
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3118,
+          "ms": 0.116
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3119,
+          "ms": 0.157
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3150,
+          "ms": 0.163
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3160,
+          "ms": 0.118
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3199,
+          "ms": 0.134
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 5000,
+          "ms": 0.114
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 8000,
+          "ms": 0.113
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 8080,
+          "ms": 0.109
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 8888,
+          "ms": 0.108
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 9000,
+          "ms": 0.111
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 9229,
+          "ms": 0.108
+        }
+      ],
+      "http_health": [
+        {
+          "port": 3000,
+          "ok": true,
+          "status": 404,
+          "bytes": 145,
+          "ms": 6.695
+        }
+      ],
+      "routes": "default via 10.0.0.1 dev eth0 proto dhcp src 10.0.0.156 metric 100 \n10.0.0.0/16 dev eth0 proto kernel scope link src 10.0.0.156 metric 100 \n10.0.0.1 dev eth0 proto dhcp scope link src 10.0.0.156 metric 100 \n168.63.129.16 via 10.0.0.1 dev eth0 proto dhcp src 10.0.0.156 metric 100 \n169.254.169.254 via 10.0.0.1 dev eth0 proto dhcp src 10.0.0.156 metric 100 \n172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown"
+    }
+  },
+  "benches": {
+    "btc_utxo": {
+      "packets": 40,
+      "window_ms": 500,
+      "ms": 20147.935,
+      "tx_count": 582148,
+      "tx_s": 28893.681,
+      "tx_mb_s": 3.651,
+      "sha256d_hashes_s": 57787.361,
+      "hash_gb_s": 0.004,
+      "utxo_size": 388098,
+      "merkle_root": "80f1777d0a65292a630dd3dbe4561958"
+    },
+    "eth_like_blockchain": {
+      "ms": 20105.725,
+      "synthetic_blocks": 27148,
+      "synthetic_blocks_s": 1350.262,
+      "synthetic_tx": 1072178,
+      "synthetic_tx_s": 53326.999,
+      "payload_mb_s": 5.662,
+      "synthetic_gas_s": 1214863978.301,
+      "state_root": "fabe33bcc5826c23824057bbcd982d3d"
+    },
+    "crypto": {
+      "ms": 1318.986,
+      "sha256_mb_s": 242.611,
+      "aes256_mb_s": 242.611,
+      "digest": "1736ebfc44d3b6f1a15155553a3476b0"
+    },
+    "vector": {
+      "n": 1048576,
+      "ms": 20047.67,
+      "gflops": 1.998,
+      "vector_mb": 24,
+      "memory_stream_mb_s": 11432.75,
+      "checksum": 35326649.719
+    }
+  },
+  "summary": {
+    "score": 11322.714,
+    "cpu_ghz_detected": 3.489,
+    "open_ports_after": 1,
+    "health": 100,
+    "verdict": "REAL_LOCAL_TRILLIONX_BENCH_SHOW_COMPLETE"
+  },
+  "truth_policy": {
+    "real_only": true,
+    "measures_local_trillionx_runtime": true,
+    "btc_utxo_is_synthetic_local_workload": true,
+    "eth_is_synthetic_local_workload_not_mainnet": true,
+    "no_fake_zettahash": true,
+    "no_fake_exascale": true,
+    "no_fake_gpu": true
+  }
+}

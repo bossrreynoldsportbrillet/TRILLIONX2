@@ -1,0 +1,56 @@
+{
+  "computer": "TRILLIONX_COMPUTER",
+  "processor": {
+    "model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "threads": 2,
+    "total_ram_gb": 7.76,
+    "free_ram_gb": 1.75,
+    "flags": {
+      "sse": true,
+      "sse2": true,
+      "sse3": true,
+      "ssse3": true,
+      "sse4_1": true,
+      "sse4_2": true,
+      "avx": true,
+      "avx2": true,
+      "avx512f": true,
+      "aes_ni": true,
+      "sha_ni": true,
+      "fma": true,
+      "bmi1": true,
+      "bmi2": true,
+      "pclmulqdq": true
+    }
+  },
+  "gpu": {
+    "nvidia_smi": "GPU_UNAVAILABLE",
+    "opencl": "OPENCL_UNAVAILABLE",
+    "vulkan": "VULKAN_UNAVAILABLE"
+  },
+  "lineages": {
+    "OTHER": 1032,
+    "SCRIPT": 78,
+    "CODEC": 19,
+    "RUNTIME": 338,
+    "API": 20,
+    "NETWORK": 140,
+    "BENCH": 51,
+    "REGISTRY": 30,
+    "UI": 38,
+    "CRYPTO": 232,
+    "GPU_COPROCESSOR": 21,
+    "MEMORY": 591,
+    "STORAGE": 119
+  },
+  "mounts": {
+    "cpu": "phylo_recovery/computer/cpu",
+    "gpu": "phylo_recovery/computer/gpu",
+    "memory": "phylo_recovery/computer/memory",
+    "cache": "phylo_recovery/computer/cache",
+    "mirror": "phylo_recovery/computer/mirror",
+    "raid60_plus": "phylo_recovery/computer/raid60_plus",
+    "registry": "phylo_recovery/registry",
+    "activation": "phylo_recovery/activation"
+  }
+}

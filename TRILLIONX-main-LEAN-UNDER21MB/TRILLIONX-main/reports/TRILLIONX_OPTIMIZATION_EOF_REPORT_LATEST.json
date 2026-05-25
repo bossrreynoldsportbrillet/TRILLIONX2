@@ -1,0 +1,37 @@
+{
+  "engine": "TRILLIONX_OPTIMIZATION_EOF_REPORT",
+  "time": "2026-05-24T20:39:25.317Z",
+  "status": "OPTIMIZATION_LAYER_CREATED",
+  "app_js_check": "node --check passed",
+  "cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+  "logical_cpu": 2,
+  "ram_total_gb": 7.757,
+  "ram_free_gb": 3.819,
+  "created": [
+    "guard",
+    "audit",
+    "safe start",
+    "inspect",
+    "monitor",
+    "fix",
+    "compose",
+    "README"
+  ],
+  "audit_summary": {
+    "while_true": 0,
+    "setInterval": 8,
+    "fork": 0,
+    "spawn_exec": 6,
+    "worker_threads": 80,
+    "readFileSync": 33,
+    "writeFileSync": 10,
+    "path_join": 22
+  },
+  "recommendations": [
+    "workers=2 first",
+    "24 port-processes then 48/97",
+    "profile only short tests",
+    "do not break stable app.js 3000"
+  ],
+  "seal": "1909178dd5ed36f1eb0c8f3a9f906c464fe8a734ab39803c3e1b16ade7065dec"
+}

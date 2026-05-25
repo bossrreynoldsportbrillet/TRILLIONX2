@@ -1,0 +1,22 @@
+{
+  "sha256_hps": 51127,
+  "sha512_hps": 81839,
+  "aes256_ops": 351,
+  "gzip_MBps": 0,
+  "brotli_MBps": 0,
+  "memory_MBps": 0,
+  "dns_ms": 1028,
+  "jobs_done": 13,
+  "queue_depth": 1,
+  "workers": 4,
+  "raid_blocks": 24,
+  "mirror_count": 16,
+  "rss_mb": 248.79,
+  "free_ram_gb": 2.07,
+  "uptime": 8,
+  "loadavg": [
+    9.5,
+    7.05,
+    6.36
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "boot": "2026-05-25T12:08:53.913Z",
+  "pid": 15150,
+  "cpu_threads": 2,
+  "total_ram_gb": "7.76",
+  "free_ram_gb": "3.96",
+  "mode": "TRILLIONX_PHASE2_ORCHESTRATOR",
+  "scheduler": "ACTIVE",
+  "workers": "ACTIVE",
+  "crypto": "ACTIVE",
+  "telemetry": "ACTIVE",
+  "watchdog": "ACTIVE",
+  "registry": "ACTIVE",
+  "cache": "ACTIVE",
+  "websocket": "ACTIVE",
+  "api": "ACTIVE",
+  "honesty": "REAL_ONLY_OR_UNAVAILABLE"
+}

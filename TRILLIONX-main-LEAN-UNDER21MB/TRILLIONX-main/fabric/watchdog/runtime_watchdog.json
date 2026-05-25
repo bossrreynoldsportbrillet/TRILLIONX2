@@ -1,0 +1,21 @@
+{
+  "time": "2026-05-25T12:20:20.497Z",
+  "loadavg": [
+    7.48,
+    5.24,
+    3.27
+  ],
+  "free_ram_gb": 1.26,
+  "rss_mb": 483.67,
+  "heap_mb": 10.36,
+  "metrics": {
+    "sha256_hashes_per_sec": 99601,
+    "sha512_hashes_per_sec": 84471,
+    "aes256_ops_per_sec": 31627,
+    "cache_hits": 43099,
+    "memory_bandwidth_MBps": 470,
+    "jobs_processed": 23,
+    "queue_depth": 1,
+    "workers": 2
+  }
+}

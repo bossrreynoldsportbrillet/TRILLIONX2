@@ -1,0 +1,44 @@
+{
+  "profile_name": "TRILLIONX_VIRTUAL_MIRROR_RAM_512GB_SAFE",
+  "doctrine": "REAL_ONLY_OR_UNAVAILABLE",
+  "mode": "VIRTUAL_MIRROR_OF_RECOGNIZED_MEMORY",
+  "truth_policy": {
+    "physical_512gb_claim": false,
+    "virtual_mirror_512gb": true,
+    "recognized_real_memory_required": true,
+    "no_fake_allocation": true,
+    "no_fake_telemetry": true
+  },
+  "physical_reference_profile": {
+    "capacity_gb": 512,
+    "type": "DDR5",
+    "speed_mt_s": 7200,
+    "cas_latency": 26,
+    "voltage_v": 1.1,
+    "topology": "octo_channel_x4",
+    "ecc_policy": "safe_ecc_metadata_layer"
+  },
+  "mirror_fabric": {
+    "logical_capacity_gb": 512,
+    "bank_count": 64,
+    "bank_size_gb": 8,
+    "mapping": "recognized_ram_window_to_virtual_banks",
+    "allocation_policy": "lazy_indexed_pages_only",
+    "page_size_kb": 64,
+    "compression": "optional_gzip_for_spill",
+    "spill_to_disk": true,
+    "spill_dir": "runtime_state/virtual_mirror_ram_spill",
+    "index_file": "runtime_state/virtual_mirror_ram_index.json",
+    "max_real_ram_cache_mb_codespaces": 256,
+    "max_single_object_mb": 16,
+    "max_workers_safe": 1
+  },
+  "cache_system": {
+    "L1_hot_ram_mb": 64,
+    "L2_route_ram_mb": 128,
+    "L3_result_ram_mb": 256,
+    "L4_spill_index_mb": 512,
+    "L5_disk_spill_mb": 4096,
+    "L6_archive_manifest_mb": 8192
+  }
+}

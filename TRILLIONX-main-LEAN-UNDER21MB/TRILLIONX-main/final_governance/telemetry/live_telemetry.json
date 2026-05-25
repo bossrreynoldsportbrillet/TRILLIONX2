@@ -1,0 +1,7946 @@
+[
+  {
+    "time": "2026-05-25T12:49:54.554Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:55.551Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:56.554Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:57.563Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:58.562Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:59.564Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:00.563Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:01.565Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:02.566Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:03.566Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:04.569Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:05.569Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:06.570Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:07.570Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:08.571Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:09.579Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:10.588Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:11.588Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:12.591Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:13.591Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:14.591Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:15.592Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:16.593Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:17.594Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:18.594Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:19.595Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:20.596Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:21.597Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:22.600Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:23.598Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:24.598Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:25.599Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:26.600Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:27.600Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:28.600Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:29.600Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:30.601Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:31.602Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:32.602Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:33.602Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:34.603Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:35.603Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:36.604Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:37.604Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:38.604Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:39.604Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:40.604Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:41.605Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:42.605Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:43.606Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:44.607Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:45.608Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:46.609Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:47.610Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:48.611Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:49.612Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:50.613Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:51.614Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:52.614Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:53.614Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:54.613Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:55.614Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:56.616Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:57.616Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:58.617Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:59.618Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:00.619Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:01.619Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:02.619Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:03.619Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:04.620Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:05.620Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:06.620Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:07.620Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:08.620Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:09.621Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:10.621Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:11.622Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:12.622Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:13.622Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:14.622Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:15.622Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:16.622Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:17.623Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:18.623Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:19.623Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:20.624Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:21.623Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:22.623Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:23.623Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:24.623Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:25.626Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:26.625Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:27.626Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:28.627Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:29.628Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:30.629Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:31.629Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:32.629Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:33.630Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:34.631Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:35.631Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:36.632Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:37.633Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:38.634Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:39.634Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:40.633Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:41.634Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:42.634Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:43.635Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:44.635Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:45.636Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:46.637Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:47.637Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:48.637Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:49.637Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:50.637Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:51.637Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:52.637Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:53.638Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:54.638Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:55.638Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:56.639Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:57.639Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:58.641Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:59.640Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:00.642Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:01.643Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:02.643Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:03.643Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:04.643Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:05.644Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:06.647Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:07.647Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:08.647Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:09.648Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:10.650Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:11.650Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:12.651Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:13.652Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:14.653Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:15.655Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:16.656Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:17.656Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:18.656Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:19.657Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:20.658Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:21.658Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:22.658Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:23.658Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:24.658Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:25.658Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:26.658Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:27.658Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:28.658Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:29.658Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:30.659Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:31.659Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:32.660Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:33.660Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:34.660Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:35.660Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:36.660Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:37.664Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:38.665Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:39.666Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:40.667Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:41.668Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:42.668Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:43.669Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:44.669Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:45.669Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:46.669Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:47.669Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:48.669Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:49.669Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:50.669Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:51.669Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:52.670Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:53.671Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:54.671Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:55.671Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:56.672Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:57.672Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:58.672Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:59.672Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:00.673Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:01.673Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:02.674Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:03.673Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:04.674Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:05.674Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:06.674Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:07.674Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:08.674Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:09.674Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:10.675Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:11.675Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:12.676Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:13.677Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:14.677Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:15.677Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:16.678Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:17.679Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:18.679Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:19.682Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:20.683Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:21.684Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:22.685Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:23.685Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:24.685Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:25.686Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:26.686Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:27.686Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:28.687Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:29.687Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:30.688Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:31.689Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:32.689Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:33.689Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:34.690Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:35.691Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:36.692Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:37.692Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:38.693Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:39.694Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:40.695Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:41.695Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:42.695Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:43.695Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:44.695Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:45.695Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:46.697Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:47.697Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:48.699Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:49.697Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:50.696Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:51.697Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:52.697Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:53.697Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:54.698Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:55.699Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:56.700Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:57.700Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:58.701Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:59.701Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:00.702Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:01.702Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:02.702Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:03.702Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:04.702Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:05.702Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:06.701Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:07.702Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:08.702Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:09.705Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:10.706Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:11.706Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:12.707Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:13.707Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:14.707Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:15.707Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:16.707Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:17.707Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:18.707Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:19.708Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:20.708Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:21.708Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:22.708Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:23.711Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:24.712Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:25.712Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:26.711Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:27.713Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:28.714Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:29.715Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:30.715Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:31.715Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:32.716Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:33.716Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:34.716Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:35.716Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:36.715Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:37.716Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:38.716Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:39.716Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:40.716Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:41.716Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:42.717Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:43.717Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:44.716Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:45.717Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:46.718Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:47.718Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:48.719Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:49.719Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:50.720Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:51.720Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:52.720Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:53.720Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:54.720Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:55.721Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:56.721Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:57.721Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:58.720Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:59.721Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:00.722Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:01.722Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:02.722Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:03.723Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:04.729Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:05.728Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:06.730Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:07.730Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:08.731Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:09.734Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:10.733Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:11.734Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:12.733Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:13.734Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:14.741Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:15.737Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:16.740Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:17.742Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:18.743Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:19.743Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:20.743Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:21.743Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:22.744Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:23.744Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:24.744Z",
+    "type": "autoscaler",
+    "data": {
+      "metrics": {
+        "cpu_threads": 2,
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 24.85,
+        "free_ram_gb": 2.88,
+        "eventloop_lag_ms": 0.57,
+        "p99_latency_score": 1000,
+        "queue_pressure": 393,
+        "throughput_score": 3000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 331,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ]
+      }
+    }
+  }
+]

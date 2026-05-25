@@ -1,0 +1,1710 @@
+{
+  "engine": "TRILLIONX_ADVANCED_EXASCALE_MICRO_PACKETS",
+  "ts": "2026-05-24T15:27:52.627Z",
+  "mode": "micro",
+  "budget_ms": 250,
+  "host": {
+    "node": "v24.14.0",
+    "cpus": 2,
+    "cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "ram_gb": 7.757
+  },
+  "truth_policy": {
+    "target": "TRILLIONX",
+    "host": "CODESPACES_SUPPORT_ONLY",
+    "real_only": true,
+    "no_fake_exascale": true,
+    "micro_packets": true
+  },
+  "summary": {
+    "packets": 4,
+    "tests_per_packet": 15,
+    "total_tests": 60,
+    "avg_ms": 241.405,
+    "avg_us": 241405,
+    "total_ops": 5433590947,
+    "avg_ops_s": 361819901.409,
+    "score_total_mops": 21709.194,
+    "avg_health": 100,
+    "verdict": "TRILLIONX_ADVANCED_MICRO_PACKET_READY",
+    "reading": "Real bounded advanced workloads, designed to add more complexity progressively without freezing Codespaces."
+  },
+  "results": [
+    {
+      "packet": 1,
+      "score_mops": 7052.348,
+      "health": 100,
+      "tests": [
+        {
+          "name": "TSP_BOUNDED_NP",
+          "ok": true,
+          "error": null,
+          "result": 18.615,
+          "ops": 141058,
+          "ms": 112.666,
+          "us": 112666,
+          "ops_s": 1251999.313,
+          "before": {
+            "rss_mb": 47.199,
+            "heap_mb": 4.861,
+            "external_mb": 1.672,
+            "free_gb": 1.105,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 55.824,
+            "heap_mb": 5.414,
+            "external_mb": 1.672,
+            "free_gb": 1.112,
+            "total_gb": 7.757
+          },
+          "kind": "NP-hard bounded search",
+          "packet": 1,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "KNAPSACK_DP",
+          "ok": true,
+          "error": null,
+          "result": 1651,
+          "ops": 98147693,
+          "ms": 250.048,
+          "us": 250048,
+          "ops_s": 392515459.274,
+          "before": {
+            "rss_mb": 55.824,
+            "heap_mb": 5.418,
+            "external_mb": 1.672,
+            "free_gb": 1.112,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 56.84,
+            "heap_mb": 5.26,
+            "external_mb": 1.672,
+            "free_gb": 1.114,
+            "total_gb": 7.757
+          },
+          "kind": "dynamic programming",
+          "packet": 1,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "N_BODY",
+          "ok": true,
+          "error": null,
+          "result": 106.371,
+          "ops": 576112320,
+          "ms": 250.27,
+          "us": 250270,
+          "ops_s": 2301962239.996,
+          "before": {
+            "rss_mb": 56.84,
+            "heap_mb": 5.262,
+            "external_mb": 1.672,
+            "free_gb": 1.114,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 56.895,
+            "heap_mb": 5.423,
+            "external_mb": 1.672,
+            "free_gb": 1.112,
+            "total_gb": 7.757
+          },
+          "kind": "physics n²",
+          "packet": 1,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "NEURAL_BACKPROP",
+          "ok": true,
+          "error": null,
+          "result": 6.138,
+          "ops": 242844048,
+          "ms": 250.066,
+          "us": 250066,
+          "ops_s": 971119470.741,
+          "before": {
+            "rss_mb": 56.895,
+            "heap_mb": 5.426,
+            "external_mb": 1.672,
+            "free_gb": 1.112,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 57.336,
+            "heap_mb": 4.702,
+            "external_mb": 1.691,
+            "free_gb": 1.112,
+            "total_gb": 7.757
+          },
+          "kind": "gradient/backprop",
+          "packet": 1,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "HUFFMAN",
+          "ok": true,
+          "error": null,
+          "result": 0.693,
+          "ops": 7227385,
+          "ms": 250.103,
+          "us": 250103,
+          "ops_s": 28897661.327,
+          "before": {
+            "rss_mb": 57.336,
+            "heap_mb": 4.705,
+            "external_mb": 1.691,
+            "free_gb": 1.112,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 59.699,
+            "heap_mb": 5.623,
+            "external_mb": 1.682,
+            "free_gb": 1.109,
+            "total_gb": 7.757
+          },
+          "kind": "compression/coding",
+          "packet": 1,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "CRYPTO_SIGNATURE_LIKE",
+          "ok": true,
+          "error": null,
+          "result": "561a2e607e0896e1",
+          "ops": 100270080,
+          "ms": 250.9,
+          "us": 250900,
+          "ops_s": 399641880.985,
+          "before": {
+            "rss_mb": 59.699,
+            "heap_mb": 5.631,
+            "external_mb": 1.682,
+            "free_gb": 1.109,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 63.219,
+            "heap_mb": 5.84,
+            "external_mb": 1.843,
+            "free_gb": 1.095,
+            "total_gb": 7.757
+          },
+          "kind": "crypto hash/HMAC",
+          "packet": 1,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "RUNGE_KUTTA",
+          "ok": true,
+          "error": null,
+          "result": 0.003,
+          "ops": 26073740,
+          "ms": 250.487,
+          "us": 250487,
+          "ops_s": 104092035.491,
+          "before": {
+            "rss_mb": 63.219,
+            "heap_mb": 5.844,
+            "external_mb": 1.843,
+            "free_gb": 1.095,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 63.344,
+            "heap_mb": 5.573,
+            "external_mb": 1.682,
+            "free_gb": 1.101,
+            "total_gb": 7.757
+          },
+          "kind": "ODE solver",
+          "packet": 1,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "QUANTUM_STATE_VECTOR",
+          "ok": true,
+          "error": null,
+          "result": 0,
+          "ops": 224083968,
+          "ms": 250.086,
+          "us": 250086,
+          "ops_s": 896027488.012,
+          "before": {
+            "rss_mb": 63.344,
+            "heap_mb": 5.575,
+            "external_mb": 1.682,
+            "free_gb": 1.101,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 130.145,
+            "heap_mb": 3.658,
+            "external_mb": 18.797,
+            "free_gb": 1.031,
+            "total_gb": 7.757
+          },
+          "kind": "state vector",
+          "packet": 1,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "COMBINATORICS",
+          "ok": true,
+          "error": null,
+          "result": 1162614,
+          "ops": 3284132,
+          "ms": 250.023,
+          "us": 250023,
+          "ops_s": 13135336.257,
+          "before": {
+            "rss_mb": 130.145,
+            "heap_mb": 3.663,
+            "external_mb": 18.797,
+            "free_gb": 1.031,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 130.145,
+            "heap_mb": 4.687,
+            "external_mb": 18.797,
+            "free_gb": 1.023,
+            "total_gb": 7.757
+          },
+          "kind": "combinatorial search",
+          "packet": 1,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "ANNEALING",
+          "ok": true,
+          "error": null,
+          "result": 0,
+          "ops": 27520460,
+          "ms": 250.053,
+          "us": 250053,
+          "ops_s": 110058438.494,
+          "before": {
+            "rss_mb": 130.145,
+            "heap_mb": 4.69,
+            "external_mb": 18.797,
+            "free_gb": 1.023,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 130.145,
+            "heap_mb": 5.321,
+            "external_mb": 3.672,
+            "free_gb": 1.03,
+            "total_gb": 7.757
+          },
+          "kind": "stochastic optimization",
+          "packet": 1,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "FLOYD_WARSHALL",
+          "ok": true,
+          "error": null,
+          "result": 70.863,
+          "ops": 38413440,
+          "ms": 250.082,
+          "us": 250082,
+          "ops_s": 153603666.772,
+          "before": {
+            "rss_mb": 130.145,
+            "heap_mb": 5.323,
+            "external_mb": 3.672,
+            "free_gb": 1.03,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 129.945,
+            "heap_mb": 4.942,
+            "external_mb": 3.672,
+            "free_gb": 1.03,
+            "total_gb": 7.757
+          },
+          "kind": "graph all-pairs",
+          "packet": 1,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "KMEANS",
+          "ok": true,
+          "error": null,
+          "result": 783.669,
+          "ops": 333509400,
+          "ms": 250.11,
+          "us": 250110,
+          "ops_s": 1333448471.798,
+          "before": {
+            "rss_mb": 129.945,
+            "heap_mb": 4.944,
+            "external_mb": 3.672,
+            "free_gb": 1.03,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 130.059,
+            "heap_mb": 5.627,
+            "external_mb": 3.672,
+            "free_gb": 1.031,
+            "total_gb": 7.757
+          },
+          "kind": "clustering",
+          "packet": 1,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "WAVELET",
+          "ok": true,
+          "error": null,
+          "result": 1026.477,
+          "ops": 15962240,
+          "ms": 250.195,
+          "us": 250195,
+          "ops_s": 63799224.676,
+          "before": {
+            "rss_mb": 130.059,
+            "heap_mb": 5.629,
+            "external_mb": 3.672,
+            "free_gb": 1.031,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 134,
+            "heap_mb": 7.727,
+            "external_mb": 3.672,
+            "free_gb": 1.013,
+            "total_gb": 7.757
+          },
+          "kind": "signal decomposition",
+          "packet": 1,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "CSP_BACKTRACKING",
+          "ok": true,
+          "error": null,
+          "result": 95591,
+          "ops": 36133399,
+          "ms": 250.057,
+          "us": 250057,
+          "ops_s": 144500395.589,
+          "before": {
+            "rss_mb": 134,
+            "heap_mb": 7.729,
+            "external_mb": 3.672,
+            "free_gb": 1.013,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 134.125,
+            "heap_mb": 4.644,
+            "external_mb": 3.672,
+            "free_gb": 1.011,
+            "total_gb": 7.757
+          },
+          "kind": "constraint solving",
+          "packet": 1,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "MCMC",
+          "ok": true,
+          "error": null,
+          "result": 0.805,
+          "ops": 34583328,
+          "ms": 250.071,
+          "us": 250071,
+          "ops_s": 138293768.28,
+          "before": {
+            "rss_mb": 134.125,
+            "heap_mb": 4.647,
+            "external_mb": 3.672,
+            "free_gb": 1.011,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 134.125,
+            "heap_mb": 4.392,
+            "external_mb": 3.672,
+            "free_gb": 1.011,
+            "total_gb": 7.757
+          },
+          "kind": "Monte Carlo",
+          "packet": 1,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        }
+      ],
+      "memory": {
+        "rss_mb": 134.125,
+        "heap_mb": 4.397,
+        "external_mb": 3.672,
+        "free_gb": 1.011,
+        "total_gb": 7.757
+      }
+    },
+    {
+      "packet": 2,
+      "score_mops": 7286.823,
+      "health": 100,
+      "tests": [
+        {
+          "name": "TSP_BOUNDED_NP",
+          "ok": true,
+          "error": null,
+          "result": 18.615,
+          "ops": 141058,
+          "ms": 93.554,
+          "us": 93554,
+          "ops_s": 1507771.816,
+          "before": {
+            "rss_mb": 134.125,
+            "heap_mb": 4.399,
+            "external_mb": 3.672,
+            "free_gb": 1.011,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 134.125,
+            "heap_mb": 4.291,
+            "external_mb": 3.672,
+            "free_gb": 1.011,
+            "total_gb": 7.757
+          },
+          "kind": "NP-hard bounded search",
+          "packet": 2,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "KNAPSACK_DP",
+          "ok": true,
+          "error": null,
+          "result": 1636,
+          "ops": 91043995,
+          "ms": 250.061,
+          "us": 250061,
+          "ops_s": 364086670.996,
+          "before": {
+            "rss_mb": 134.125,
+            "heap_mb": 4.293,
+            "external_mb": 3.672,
+            "free_gb": 1.011,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.973,
+            "heap_mb": 5.894,
+            "external_mb": 3.672,
+            "free_gb": 1.023,
+            "total_gb": 7.757
+          },
+          "kind": "dynamic programming",
+          "packet": 2,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "N_BODY",
+          "ok": true,
+          "error": null,
+          "result": 110.129,
+          "ops": 688689792,
+          "ms": 250.095,
+          "us": 250095,
+          "ops_s": 2753717987.229,
+          "before": {
+            "rss_mb": 133.973,
+            "heap_mb": 5.896,
+            "external_mb": 3.672,
+            "free_gb": 1.023,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 134.266,
+            "heap_mb": 7.81,
+            "external_mb": 3.672,
+            "free_gb": 1.023,
+            "total_gb": 7.757
+          },
+          "kind": "physics n²",
+          "packet": 2,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "NEURAL_BACKPROP",
+          "ok": true,
+          "error": null,
+          "result": 6.105,
+          "ops": 247556160,
+          "ms": 250.16,
+          "us": 250160,
+          "ops_s": 989591194.76,
+          "before": {
+            "rss_mb": 134.266,
+            "heap_mb": 7.812,
+            "external_mb": 3.672,
+            "free_gb": 1.023,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 134.516,
+            "heap_mb": 4.513,
+            "external_mb": 3.779,
+            "free_gb": 1.023,
+            "total_gb": 7.757
+          },
+          "kind": "gradient/backprop",
+          "packet": 2,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "HUFFMAN",
+          "ok": true,
+          "error": null,
+          "result": 0.693,
+          "ops": 7348200,
+          "ms": 250.163,
+          "us": 250163,
+          "ops_s": 29373633.117,
+          "before": {
+            "rss_mb": 134.516,
+            "heap_mb": 4.516,
+            "external_mb": 3.779,
+            "free_gb": 1.023,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 134.719,
+            "heap_mb": 5.974,
+            "external_mb": 3.682,
+            "free_gb": 1.023,
+            "total_gb": 7.757
+          },
+          "kind": "compression/coding",
+          "packet": 2,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "CRYPTO_SIGNATURE_LIKE",
+          "ok": true,
+          "error": null,
+          "result": "c0535dfda887315a",
+          "ops": 52752384,
+          "ms": 250.074,
+          "us": 250074,
+          "ops_s": 210946800.422,
+          "before": {
+            "rss_mb": 134.719,
+            "heap_mb": 5.976,
+            "external_mb": 3.682,
+            "free_gb": 1.023,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 134.969,
+            "heap_mb": 5.349,
+            "external_mb": 3.881,
+            "free_gb": 1.022,
+            "total_gb": 7.757
+          },
+          "kind": "crypto hash/HMAC",
+          "packet": 2,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "RUNGE_KUTTA",
+          "ok": true,
+          "error": null,
+          "result": -0.007,
+          "ops": 59451280,
+          "ms": 250.053,
+          "us": 250053,
+          "ops_s": 237754920.426,
+          "before": {
+            "rss_mb": 134.969,
+            "heap_mb": 5.352,
+            "external_mb": 3.881,
+            "free_gb": 1.022,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 134.969,
+            "heap_mb": 6.875,
+            "external_mb": 3.682,
+            "free_gb": 1.023,
+            "total_gb": 7.757
+          },
+          "kind": "ODE solver",
+          "packet": 2,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "QUANTUM_STATE_VECTOR",
+          "ok": true,
+          "error": null,
+          "result": 0,
+          "ops": 257392640,
+          "ms": 250.038,
+          "us": 250038,
+          "ops_s": 1029414706.613,
+          "before": {
+            "rss_mb": 134.969,
+            "heap_mb": 6.877,
+            "external_mb": 3.682,
+            "free_gb": 1.023,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.422,
+            "heap_mb": 3.642,
+            "external_mb": 13.358,
+            "free_gb": 1.024,
+            "total_gb": 7.757
+          },
+          "kind": "state vector",
+          "packet": 2,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "COMBINATORICS",
+          "ok": true,
+          "error": null,
+          "result": 1115735,
+          "ops": 3117456,
+          "ms": 250.025,
+          "us": 250025,
+          "ops_s": 12468568.315,
+          "before": {
+            "rss_mb": 133.422,
+            "heap_mb": 3.647,
+            "external_mb": 13.358,
+            "free_gb": 1.024,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.422,
+            "heap_mb": 3.66,
+            "external_mb": 13.358,
+            "free_gb": 1.024,
+            "total_gb": 7.757
+          },
+          "kind": "combinatorial search",
+          "packet": 2,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "ANNEALING",
+          "ok": true,
+          "error": null,
+          "result": 0,
+          "ops": 30533040,
+          "ms": 250.055,
+          "us": 250055,
+          "ops_s": 122105366.664,
+          "before": {
+            "rss_mb": 133.422,
+            "heap_mb": 3.663,
+            "external_mb": 13.358,
+            "free_gb": 1.024,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.422,
+            "heap_mb": 6.743,
+            "external_mb": 2.17,
+            "free_gb": 1.024,
+            "total_gb": 7.757
+          },
+          "kind": "stochastic optimization",
+          "packet": 2,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "FLOYD_WARSHALL",
+          "ok": true,
+          "error": null,
+          "result": 96.036,
+          "ops": 79501824,
+          "ms": 250.313,
+          "us": 250313,
+          "ops_s": 317609808.595,
+          "before": {
+            "rss_mb": 133.422,
+            "heap_mb": 6.745,
+            "external_mb": 2.17,
+            "free_gb": 1.024,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.469,
+            "heap_mb": 7.505,
+            "external_mb": 2.17,
+            "free_gb": 1.024,
+            "total_gb": 7.757
+          },
+          "kind": "graph all-pairs",
+          "packet": 2,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "KMEANS",
+          "ok": true,
+          "error": null,
+          "result": 783.669,
+          "ops": 215762400,
+          "ms": 250.106,
+          "us": 250106,
+          "ops_s": 862685288.003,
+          "before": {
+            "rss_mb": 133.469,
+            "heap_mb": 7.508,
+            "external_mb": 2.17,
+            "free_gb": 1.024,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.852,
+            "heap_mb": 7.508,
+            "external_mb": 2.17,
+            "free_gb": 1.029,
+            "total_gb": 7.757
+          },
+          "kind": "clustering",
+          "packet": 2,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "WAVELET",
+          "ok": true,
+          "error": null,
+          "result": 1026.477,
+          "ops": 21304704,
+          "ms": 250.072,
+          "us": 250072,
+          "ops_s": 85194118.225,
+          "before": {
+            "rss_mb": 133.852,
+            "heap_mb": 7.51,
+            "external_mb": 2.17,
+            "free_gb": 1.029,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.223,
+            "heap_mb": 6.321,
+            "external_mb": 2.17,
+            "free_gb": 1.029,
+            "total_gb": 7.757
+          },
+          "kind": "signal decomposition",
+          "packet": 2,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "CSP_BACKTRACKING",
+          "ok": true,
+          "error": null,
+          "result": 87274,
+          "ops": 32989499,
+          "ms": 250.02,
+          "us": 250020,
+          "ops_s": 131947333.072,
+          "before": {
+            "rss_mb": 133.223,
+            "heap_mb": 6.323,
+            "external_mb": 2.17,
+            "free_gb": 1.029,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.223,
+            "heap_mb": 6.526,
+            "external_mb": 2.17,
+            "free_gb": 1.029,
+            "total_gb": 7.757
+          },
+          "kind": "constraint solving",
+          "packet": 2,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "MCMC",
+          "ok": true,
+          "error": null,
+          "result": 0.804,
+          "ops": 34607820,
+          "ms": 250.022,
+          "us": 250022,
+          "ops_s": 138418825.628,
+          "before": {
+            "rss_mb": 133.223,
+            "heap_mb": 6.529,
+            "external_mb": 2.17,
+            "free_gb": 1.029,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.223,
+            "heap_mb": 6.474,
+            "external_mb": 2.17,
+            "free_gb": 1.029,
+            "total_gb": 7.757
+          },
+          "kind": "Monte Carlo",
+          "packet": 2,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        }
+      ],
+      "memory": {
+        "rss_mb": 133.223,
+        "heap_mb": 6.477,
+        "external_mb": 2.17,
+        "free_gb": 1.029,
+        "total_gb": 7.757
+      }
+    },
+    {
+      "packet": 3,
+      "score_mops": 5435.843,
+      "health": 100,
+      "tests": [
+        {
+          "name": "TSP_BOUNDED_NP",
+          "ok": true,
+          "error": null,
+          "result": 18.615,
+          "ops": 141058,
+          "ms": 82.54,
+          "us": 82540,
+          "ops_s": 1708975.392,
+          "before": {
+            "rss_mb": 133.223,
+            "heap_mb": 6.493,
+            "external_mb": 2.17,
+            "free_gb": 1.029,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.348,
+            "heap_mb": 6.171,
+            "external_mb": 2.17,
+            "free_gb": 1.029,
+            "total_gb": 7.757
+          },
+          "kind": "NP-hard bounded search",
+          "packet": 3,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "KNAPSACK_DP",
+          "ok": true,
+          "error": null,
+          "result": 1685,
+          "ops": 93708900,
+          "ms": 250.004,
+          "us": 250004,
+          "ops_s": 374829296.871,
+          "before": {
+            "rss_mb": 133.348,
+            "heap_mb": 6.173,
+            "external_mb": 2.17,
+            "free_gb": 1.029,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.383,
+            "heap_mb": 4.889,
+            "external_mb": 2.17,
+            "free_gb": 1.029,
+            "total_gb": 7.757
+          },
+          "kind": "dynamic programming",
+          "packet": 3,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "N_BODY",
+          "ok": true,
+          "error": null,
+          "result": 103.301,
+          "ops": 494282880,
+          "ms": 250.048,
+          "us": 250048,
+          "ops_s": 1976748307.573,
+          "before": {
+            "rss_mb": 133.383,
+            "heap_mb": 4.891,
+            "external_mb": 2.17,
+            "free_gb": 1.029,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.414,
+            "heap_mb": 5.175,
+            "external_mb": 2.17,
+            "free_gb": 1.02,
+            "total_gb": 7.757
+          },
+          "kind": "physics n²",
+          "packet": 3,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "NEURAL_BACKPROP",
+          "ok": true,
+          "error": null,
+          "result": 6.708,
+          "ops": 166137552,
+          "ms": 250.015,
+          "us": 250015,
+          "ops_s": 664509781.883,
+          "before": {
+            "rss_mb": 133.414,
+            "heap_mb": 5.178,
+            "external_mb": 2.17,
+            "free_gb": 1.02,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.031,
+            "heap_mb": 7.531,
+            "external_mb": 3.107,
+            "free_gb": 1.02,
+            "total_gb": 7.757
+          },
+          "kind": "gradient/backprop",
+          "packet": 3,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "HUFFMAN",
+          "ok": true,
+          "error": null,
+          "result": 0.693,
+          "ops": 3116365,
+          "ms": 250.111,
+          "us": 250111,
+          "ops_s": 12459914.042,
+          "before": {
+            "rss_mb": 133.031,
+            "heap_mb": 7.533,
+            "external_mb": 3.107,
+            "free_gb": 1.02,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.305,
+            "heap_mb": 4.142,
+            "external_mb": 2.18,
+            "free_gb": 1.03,
+            "total_gb": 7.757
+          },
+          "kind": "compression/coding",
+          "packet": 3,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "CRYPTO_SIGNATURE_LIKE",
+          "ok": true,
+          "error": null,
+          "result": "7e6dc113c2f6b4cb",
+          "ops": 118902784,
+          "ms": 250.007,
+          "us": 250007,
+          "ops_s": 475597033.597,
+          "before": {
+            "rss_mb": 133.305,
+            "heap_mb": 4.144,
+            "external_mb": 2.18,
+            "free_gb": 1.03,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.305,
+            "heap_mb": 5.515,
+            "external_mb": 2.424,
+            "free_gb": 1.025,
+            "total_gb": 7.757
+          },
+          "kind": "crypto hash/HMAC",
+          "packet": 3,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "RUNGE_KUTTA",
+          "ok": true,
+          "error": null,
+          "result": 0.007,
+          "ops": 68321456,
+          "ms": 250.008,
+          "us": 250008,
+          "ops_s": 273277064.924,
+          "before": {
+            "rss_mb": 133.305,
+            "heap_mb": 5.517,
+            "external_mb": 2.424,
+            "free_gb": 1.025,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.305,
+            "heap_mb": 4.861,
+            "external_mb": 2.18,
+            "free_gb": 1.025,
+            "total_gb": 7.757
+          },
+          "kind": "ODE solver",
+          "packet": 3,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "QUANTUM_STATE_VECTOR",
+          "ok": true,
+          "error": null,
+          "result": 0,
+          "ops": 251854848,
+          "ms": 250.038,
+          "us": 250038,
+          "ops_s": 1007265501.977,
+          "before": {
+            "rss_mb": 133.305,
+            "heap_mb": 4.863,
+            "external_mb": 2.18,
+            "free_gb": 1.025,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.293,
+            "heap_mb": 3.646,
+            "external_mb": 5.17,
+            "free_gb": 1.024,
+            "total_gb": 7.757
+          },
+          "kind": "state vector",
+          "packet": 3,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "COMBINATORICS",
+          "ok": true,
+          "error": null,
+          "result": 1029716,
+          "ops": 2857926,
+          "ms": 253.68,
+          "us": 253680,
+          "ops_s": 11265867.146,
+          "before": {
+            "rss_mb": 133.293,
+            "heap_mb": 3.649,
+            "external_mb": 5.17,
+            "free_gb": 1.024,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.293,
+            "heap_mb": 3.663,
+            "external_mb": 5.17,
+            "free_gb": 1.026,
+            "total_gb": 7.757
+          },
+          "kind": "combinatorial search",
+          "packet": 3,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "ANNEALING",
+          "ok": true,
+          "error": null,
+          "result": 0,
+          "ops": 16608540,
+          "ms": 250.012,
+          "us": 250012,
+          "ops_s": 66431050.761,
+          "before": {
+            "rss_mb": 133.293,
+            "heap_mb": 3.665,
+            "external_mb": 5.17,
+            "free_gb": 1.026,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.543,
+            "heap_mb": 5.006,
+            "external_mb": 2.045,
+            "free_gb": 1.015,
+            "total_gb": 7.757
+          },
+          "kind": "stochastic optimization",
+          "packet": 3,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "FLOYD_WARSHALL",
+          "ok": true,
+          "error": null,
+          "result": 96.036,
+          "ops": 27708480,
+          "ms": 250.045,
+          "us": 250045,
+          "ops_s": 110814000.075,
+          "before": {
+            "rss_mb": 133.543,
+            "heap_mb": 5.008,
+            "external_mb": 2.045,
+            "free_gb": 1.015,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.234,
+            "heap_mb": 5.583,
+            "external_mb": 2.045,
+            "free_gb": 1.005,
+            "total_gb": 7.757
+          },
+          "kind": "graph all-pairs",
+          "packet": 3,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "KMEANS",
+          "ok": true,
+          "error": null,
+          "result": 783.669,
+          "ops": 83424600,
+          "ms": 259.133,
+          "us": 259133,
+          "ops_s": 321937158.638,
+          "before": {
+            "rss_mb": 133.234,
+            "heap_mb": 5.585,
+            "external_mb": 2.045,
+            "free_gb": 1.005,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.176,
+            "heap_mb": 7.554,
+            "external_mb": 2.045,
+            "free_gb": 1.003,
+            "total_gb": 7.757
+          },
+          "kind": "clustering",
+          "packet": 3,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "WAVELET",
+          "ok": true,
+          "error": null,
+          "result": 1026.477,
+          "ops": 11010688,
+          "ms": 250.056,
+          "us": 250056,
+          "ops_s": 44032859.226,
+          "before": {
+            "rss_mb": 133.176,
+            "heap_mb": 7.556,
+            "external_mb": 2.045,
+            "free_gb": 1.003,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.203,
+            "heap_mb": 7.877,
+            "external_mb": 2.045,
+            "free_gb": 1.004,
+            "total_gb": 7.757
+          },
+          "kind": "signal decomposition",
+          "packet": 3,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "CSP_BACKTRACKING",
+          "ok": true,
+          "error": null,
+          "result": 31940,
+          "ops": 12072891,
+          "ms": 252.19,
+          "us": 252190,
+          "ops_s": 47872150.916,
+          "before": {
+            "rss_mb": 133.203,
+            "heap_mb": 7.879,
+            "external_mb": 2.045,
+            "free_gb": 1.004,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.328,
+            "heap_mb": 4.311,
+            "external_mb": 2.045,
+            "free_gb": 0.991,
+            "total_gb": 7.757
+          },
+          "kind": "constraint solving",
+          "packet": 3,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "MCMC",
+          "ok": true,
+          "error": null,
+          "result": 0.804,
+          "ops": 11774208,
+          "ms": 250.013,
+          "us": 250013,
+          "ops_s": 47094416.998,
+          "before": {
+            "rss_mb": 133.328,
+            "heap_mb": 4.313,
+            "external_mb": 2.045,
+            "free_gb": 0.991,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.328,
+            "heap_mb": 7.179,
+            "external_mb": 2.045,
+            "free_gb": 0.973,
+            "total_gb": 7.757
+          },
+          "kind": "Monte Carlo",
+          "packet": 3,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        }
+      ],
+      "memory": {
+        "rss_mb": 133.328,
+        "heap_mb": 7.182,
+        "external_mb": 2.045,
+        "free_gb": 0.973,
+        "total_gb": 7.757
+      }
+    },
+    {
+      "packet": 4,
+      "score_mops": 1934.18,
+      "health": 100,
+      "tests": [
+        {
+          "name": "TSP_BOUNDED_NP",
+          "ok": true,
+          "error": null,
+          "result": 18.615,
+          "ops": 141058,
+          "ms": 160.505,
+          "us": 160505,
+          "ops_s": 878840.894,
+          "before": {
+            "rss_mb": 133.328,
+            "heap_mb": 7.184,
+            "external_mb": 2.045,
+            "free_gb": 0.973,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.453,
+            "heap_mb": 6.822,
+            "external_mb": 2.045,
+            "free_gb": 0.947,
+            "total_gb": 7.757
+          },
+          "kind": "NP-hard bounded search",
+          "packet": 4,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "KNAPSACK_DP",
+          "ok": true,
+          "error": null,
+          "result": 1539,
+          "ops": 40410888,
+          "ms": 250.009,
+          "us": 250009,
+          "ops_s": 161637603.736,
+          "before": {
+            "rss_mb": 133.453,
+            "heap_mb": 6.825,
+            "external_mb": 2.045,
+            "free_gb": 0.947,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.129,
+            "heap_mb": 5.219,
+            "external_mb": 2.045,
+            "free_gb": 0.896,
+            "total_gb": 7.757
+          },
+          "kind": "dynamic programming",
+          "packet": 4,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "N_BODY",
+          "ok": true,
+          "error": null,
+          "result": 80.79,
+          "ops": 126628992,
+          "ms": 251.324,
+          "us": 251324,
+          "ops_s": 503848308.867,
+          "before": {
+            "rss_mb": 133.129,
+            "heap_mb": 5.222,
+            "external_mb": 2.045,
+            "free_gb": 0.896,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 133.004,
+            "heap_mb": 6.568,
+            "external_mb": 2.045,
+            "free_gb": 0.879,
+            "total_gb": 7.757
+          },
+          "kind": "physics n²",
+          "packet": 4,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "NEURAL_BACKPROP",
+          "ok": true,
+          "error": null,
+          "result": 7.79,
+          "ops": 36873360,
+          "ms": 254.687,
+          "us": 254687,
+          "ops_s": 144778991.999,
+          "before": {
+            "rss_mb": 133.004,
+            "heap_mb": 6.57,
+            "external_mb": 2.045,
+            "free_gb": 0.879,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 132.719,
+            "heap_mb": 7.007,
+            "external_mb": 2.766,
+            "free_gb": 0.862,
+            "total_gb": 7.757
+          },
+          "kind": "gradient/backprop",
+          "packet": 4,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "HUFFMAN",
+          "ok": true,
+          "error": null,
+          "result": 0.693,
+          "ops": 873840,
+          "ms": 255.556,
+          "us": 255556,
+          "ops_s": 3419362.266,
+          "before": {
+            "rss_mb": 132.719,
+            "heap_mb": 7.009,
+            "external_mb": 2.766,
+            "free_gb": 0.863,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 132.859,
+            "heap_mb": 6.688,
+            "external_mb": 2.045,
+            "free_gb": 0.843,
+            "total_gb": 7.757
+          },
+          "kind": "compression/coding",
+          "packet": 4,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "CRYPTO_SIGNATURE_LIKE",
+          "ok": true,
+          "error": null,
+          "result": "4d86bde2f218141c",
+          "ops": 38600704,
+          "ms": 250.734,
+          "us": 250734,
+          "ops_s": 153950724.917,
+          "before": {
+            "rss_mb": 132.859,
+            "heap_mb": 6.69,
+            "external_mb": 2.045,
+            "free_gb": 0.843,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 132.984,
+            "heap_mb": 6.907,
+            "external_mb": 2.533,
+            "free_gb": 0.821,
+            "total_gb": 7.757
+          },
+          "kind": "crypto hash/HMAC",
+          "packet": 4,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "RUNGE_KUTTA",
+          "ok": true,
+          "error": null,
+          "result": 0.001,
+          "ops": 14181188,
+          "ms": 252.695,
+          "us": 252695,
+          "ops_s": 56119802.972,
+          "before": {
+            "rss_mb": 132.984,
+            "heap_mb": 6.909,
+            "external_mb": 2.533,
+            "free_gb": 0.821,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 132.984,
+            "heap_mb": 8.059,
+            "external_mb": 2.045,
+            "free_gb": 0.798,
+            "total_gb": 7.757
+          },
+          "kind": "ODE solver",
+          "packet": 4,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "QUANTUM_STATE_VECTOR",
+          "ok": true,
+          "error": null,
+          "result": 0,
+          "ops": 57753600,
+          "ms": 250.062,
+          "us": 250062,
+          "ops_s": 230956675.612,
+          "before": {
+            "rss_mb": 132.984,
+            "heap_mb": 8.061,
+            "external_mb": 2.045,
+            "free_gb": 0.798,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 136.109,
+            "heap_mb": 3.704,
+            "external_mb": 10.108,
+            "free_gb": 0.782,
+            "total_gb": 7.757
+          },
+          "kind": "state vector",
+          "packet": 4,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "COMBINATORICS",
+          "ok": true,
+          "error": null,
+          "result": 271282,
+          "ops": 609025,
+          "ms": 250.048,
+          "us": 250048,
+          "ops_s": 2435632.846,
+          "before": {
+            "rss_mb": 136.109,
+            "heap_mb": 3.708,
+            "external_mb": 10.108,
+            "free_gb": 0.783,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 136.109,
+            "heap_mb": 3.721,
+            "external_mb": 10.108,
+            "free_gb": 0.758,
+            "total_gb": 7.757
+          },
+          "kind": "combinatorial search",
+          "packet": 4,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "ANNEALING",
+          "ok": true,
+          "error": null,
+          "result": 0,
+          "ops": 10317200,
+          "ms": 250.012,
+          "us": 250012,
+          "ops_s": 41266745.906,
+          "before": {
+            "rss_mb": 136.109,
+            "heap_mb": 3.723,
+            "external_mb": 10.108,
+            "free_gb": 0.757,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 136.359,
+            "heap_mb": 6.706,
+            "external_mb": 2.983,
+            "free_gb": 0.77,
+            "total_gb": 7.757
+          },
+          "kind": "stochastic optimization",
+          "packet": 4,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "FLOYD_WARSHALL",
+          "ok": true,
+          "error": null,
+          "result": 83.748,
+          "ops": 14079744,
+          "ms": 250.037,
+          "us": 250037,
+          "ops_s": 56310744.045,
+          "before": {
+            "rss_mb": 136.359,
+            "heap_mb": 6.708,
+            "external_mb": 2.983,
+            "free_gb": 0.77,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 136.227,
+            "heap_mb": 7.704,
+            "external_mb": 2.983,
+            "free_gb": 0.757,
+            "total_gb": 7.757
+          },
+          "kind": "graph all-pairs",
+          "packet": 4,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "KMEANS",
+          "ok": true,
+          "error": null,
+          "result": 783.669,
+          "ops": 107503200,
+          "ms": 250.077,
+          "us": 250077,
+          "ops_s": 429881068.965,
+          "before": {
+            "rss_mb": 136.227,
+            "heap_mb": 7.706,
+            "external_mb": 2.983,
+            "free_gb": 0.757,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 135.719,
+            "heap_mb": 7.808,
+            "external_mb": 2.983,
+            "free_gb": 0.763,
+            "total_gb": 7.757
+          },
+          "kind": "clustering",
+          "packet": 4,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "WAVELET",
+          "ok": true,
+          "error": null,
+          "result": 1026.477,
+          "ops": 7785664,
+          "ms": 250.268,
+          "us": 250268,
+          "ops_s": 31109269.159,
+          "before": {
+            "rss_mb": 135.719,
+            "heap_mb": 7.81,
+            "external_mb": 2.983,
+            "free_gb": 0.763,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 135.781,
+            "heap_mb": 5.985,
+            "external_mb": 2.983,
+            "free_gb": 0.756,
+            "total_gb": 7.757
+          },
+          "kind": "signal decomposition",
+          "packet": 4,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "CSP_BACKTRACKING",
+          "ok": true,
+          "error": null,
+          "result": 25169,
+          "ops": 9513453,
+          "ms": 250.338,
+          "us": 250338,
+          "ops_s": 38002421.933,
+          "before": {
+            "rss_mb": 135.781,
+            "heap_mb": 5.987,
+            "external_mb": 2.983,
+            "free_gb": 0.756,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 136.156,
+            "heap_mb": 6.195,
+            "external_mb": 2.983,
+            "free_gb": 0.765,
+            "total_gb": 7.757
+          },
+          "kind": "constraint solving",
+          "packet": 4,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        },
+        {
+          "name": "MCMC",
+          "ok": true,
+          "error": null,
+          "result": 0.805,
+          "ops": 19896912,
+          "ms": 250.012,
+          "us": 250012,
+          "ops_s": 79583979.497,
+          "before": {
+            "rss_mb": 136.156,
+            "heap_mb": 6.197,
+            "external_mb": 2.983,
+            "free_gb": 0.765,
+            "total_gb": 7.757
+          },
+          "after": {
+            "rss_mb": 132.031,
+            "heap_mb": 5.444,
+            "external_mb": 2.983,
+            "free_gb": 0.843,
+            "total_gb": 7.757
+          },
+          "kind": "Monte Carlo",
+          "packet": 4,
+          "complexity": "ADVANCED_MICRO_PACKET"
+        }
+      ],
+      "memory": {
+        "rss_mb": 132.031,
+        "heap_mb": 5.448,
+        "external_mb": 2.983,
+        "free_gb": 0.846,
+        "total_gb": 7.757
+      }
+    }
+  ]
+}

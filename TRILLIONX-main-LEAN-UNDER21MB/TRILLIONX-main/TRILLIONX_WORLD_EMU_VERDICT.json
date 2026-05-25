@@ -1,0 +1,18 @@
+{
+  "engine": "TRILLIONX",
+  "bench": "TRILLIONX_FIRE_PACKET_EXTREME_BENCH",
+  "mode": "fire",
+  "world_profile": "FRONTIER_X10000_EMULATION_PROFILE",
+  "health_status": "OK",
+  "observed_levels": "1_to_10_completed",
+  "best_health": 100,
+  "event_loop_p95_ms_observed": "about_5_to_6_ms",
+  "rss_observed_gb": "about_0.20_to_0.236",
+  "verdict": "TRILLIONX_STABLE_ON_PACKET_LEVELS",
+  "truth_policy": {
+    "real_measured": "Codespaces host execution + TRILLIONX runtime orchestration",
+    "emulated_profile": "Dual Threadripper 9000VW / Frontier x10000 label",
+    "forbidden_claim": "Do not claim real physical Frontier x10000 performance",
+    "honest_sentence": "Stable in emulated world profile; not a real world supercomputer measurement."
+  }
+}

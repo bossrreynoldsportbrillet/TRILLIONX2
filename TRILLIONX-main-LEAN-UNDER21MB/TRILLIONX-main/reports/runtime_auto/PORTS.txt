@@ -1,0 +1,16 @@
+State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess                                 
+LISTEN 0      128          0.0.0.0:2222       0.0.0.0:*                                           
+LISTEN 0      511        127.0.0.1:3050       0.0.0.0:*    users:(("MainThread",pid=147038,fd=22))
+LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*                                           
+LISTEN 0      511        127.0.0.1:36053      0.0.0.0:*    users:(("node",pid=122913,fd=21))      
+LISTEN 0      4096       127.0.0.1:13005      0.0.0.0:*                                           
+LISTEN 0      4096       127.0.0.1:41609      0.0.0.0:*                                           
+LISTEN 0      4096       127.0.0.1:12563      0.0.0.0:*                                           
+LISTEN 0      512        127.0.0.1:16635      0.0.0.0:*                                           
+LISTEN 0      512        127.0.0.1:16634      0.0.0.0:*                                           
+LISTEN 0      128          0.0.0.0:2000       0.0.0.0:*                                           
+LISTEN 0      128             [::]:2222          [::]:*                                           
+LISTEN 0      511                *:3000             *:*    users:(("MainThread",pid=133046,fd=22))
+LISTEN 0      512            [::1]:16635         [::]:*                                           
+LISTEN 0      512            [::1]:16634         [::]:*                                           
+LISTEN 0      128             [::]:2000          [::]:*                                           

@@ -1,0 +1,33 @@
+{
+  "time": "2026-05-25T13:08:52.049Z",
+  "files": {
+    "hardware_fabric/raid60_plus/stripe_4/parity_1/BLOCK_STATE.json": "376928924e58edf90ab3bf2731b88d71a48335d974f165332d9259937ed77c2c",
+    "hardware_fabric/raid60_plus/stripe_4/parity_0/BLOCK_STATE.json": "2f5d45a035d8c2576a478b687bf92e0132341fc47ae201b23037e2ba83f7c680",
+    "hardware_fabric/raid60_plus/stripe_0/parity_1/BLOCK_STATE.json": "9bc5b1c1deb6471c73d3cd5c5a19ee0cffc554d62223742989a4414e7073903b",
+    "hardware_fabric/raid60_plus/stripe_0/parity_0/BLOCK_STATE.json": "9a52226f2836b48b598e81ae1ed28f48d530f4e42dc65e0e9bd3ce19dc3ed08d",
+    "hardware_fabric/raid60_plus/stripe_5/parity_1/BLOCK_STATE.json": "bd95db7b48524b34e06c75711eeb369487ee66560992555c3f8cdf03ee68f25b",
+    "hardware_fabric/raid60_plus/stripe_5/parity_0/BLOCK_STATE.json": "02224fb4ef97500dc734cdb00026233faf74ec8c7b812a11a8cce319083f6708",
+    "hardware_fabric/raid60_plus/stripe_3/parity_1/BLOCK_STATE.json": "32d1aefb9130a08c84e690b71af6d2328a322ac7b513e256329276de61796f96",
+    "hardware_fabric/raid60_plus/stripe_3/parity_0/BLOCK_STATE.json": "feaf00c7c49b4e145cd2f1097d334c44df19199d5d9e9ee678f4878620740fc6",
+    "hardware_fabric/raid60_plus/stripe_2/parity_1/BLOCK_STATE.json": "863023e3ecc226142586278da2f03c689589c3ca7d903bf13cac6eb1da7b7406",
+    "hardware_fabric/raid60_plus/stripe_2/parity_0/BLOCK_STATE.json": "fd887784c3192abea9362d2869402761ad7ba50e2a195c55b070266f73d07fb0",
+    "hardware_fabric/raid60_plus/stripe_1/parity_1/BLOCK_STATE.json": "f0ce2e177228af13c690adf91ece27b3682e94b184fe33588b1e58bd73588033",
+    "hardware_fabric/raid60_plus/stripe_1/parity_0/BLOCK_STATE.json": "7aa10b0d2280298429534d7892640f0d329bcbf47d97ee1c6de60c6e9394216f",
+    "hardware_fabric/metrics/live_metrics.json": "22c9fd9770661370f71a60136c9e7004d9a46a7260d3bc0df071a5dcfe2cb854",
+    "hardware_fabric/TRILLIONX_HARDWARE_FABRIC.js": "5ae169ca5e37df3073c22a3b282fe57fcff380365e4fd88ea3eb80d911c1e8da",
+    "hardware_fabric/watchdog/runtime_watchdog.json": "fd54701f3e2ff18d631d0d49f490a350d027c9183cc5c54f98342c61aaafcafc",
+    "hardware_fabric/processor/cpuinfo_head.txt": "a929f8ce4d61657dad7087141755cbc2a469ae99422b90da3998a0ff4d04f300",
+    "hardware_fabric/integrity/latest_integrity.json": "75b06f5144f1d2afac90a69accc5c662ce54170dfc6e8c0d04a169440e0af094",
+    "hardware_fabric/registry/hardware_state.json": "06b621908a4523298ad042d97956c2903d4f80eb5bb06da7a1dcc42d60ac6597",
+    "hardware_fabric/mirror/mirror_6/MIRROR_STATE.json": "42cef0e6be0e900c54f420db7c5749dc567fe8786cac004972877506cc426739",
+    "hardware_fabric/mirror/mirror_7/MIRROR_STATE.json": "58492eaad24e27a1dbfe2fb7b87d8146e8146a22d1f6c826ccce8b8599f2387a",
+    "hardware_fabric/mirror/mirror_2/MIRROR_STATE.json": "97180b655d817a74c268925df70a0c9421f14e39033454b1fdf3780f825bca39",
+    "hardware_fabric/mirror/mirror_3/MIRROR_STATE.json": "b7a0e2f6773aefa2bf75a3909e3f77788890eab23943638af3244d2affdf9da0",
+    "hardware_fabric/mirror/mirror_1/MIRROR_STATE.json": "175b49eaffb65df6aef9322bff16f8a49633fd85803033d9f412981ce2b52121",
+    "hardware_fabric/mirror/mirror_5/MIRROR_STATE.json": "693a4baf2938e0aab68bb5bc12a4a139c23b0b5817e049d9755895dc60873728",
+    "hardware_fabric/mirror/mirror_4/MIRROR_STATE.json": "09244ba381c1f6d97a254d2246320e41f90d70cdc894f30653d8f583aae75f47",
+    "hardware_fabric/mirror/mirror_0/MIRROR_STATE.json": "4f24847b804b2cf4044bb82553841f24697ed0c29d99d45df3ca34877ed1f34c",
+    "hardware_fabric/telemetry/live_telemetry.json": "fab3cc41bd11d8dc64a68e9348558359386ab051d35fdabd686951203d820ed5",
+    "hardware_fabric/gpu/gpu_detection.json": "9c8bfc52cb33aaa0bc34f5722837e438bf156991271e961b1dbe036a60aa8784"
+  }
+}

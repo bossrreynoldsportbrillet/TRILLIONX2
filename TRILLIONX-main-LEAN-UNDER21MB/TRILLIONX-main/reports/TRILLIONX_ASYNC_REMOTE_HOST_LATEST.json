@@ -1,0 +1,21 @@
+{
+  "engine": "TRILLIONX_ASYNC_REMOTE_HOST_IMPROVER",
+  "time": "2026-05-24T22:01:52.696Z",
+  "status": "READY",
+  "safe": true,
+  "principle": "heavy terminal tasks moved to background queue",
+  "commands": {
+    "start_daemon": "bash scripts/tx_async_daemon_start.sh",
+    "submit_resource": "bash scripts/tx_async_submit.sh resource",
+    "submit_disk": "bash scripts/tx_async_submit.sh disk",
+    "submit_status": "bash scripts/tx_async_submit.sh status",
+    "read_status": "bash scripts/tx_async_status.sh"
+  },
+  "does_not_touch": [
+    "app.js",
+    "data",
+    "raid60_plus",
+    "node_modules"
+  ],
+  "seal": "f0fa54eb52411b44c254231405168eae97cd093d0e9288a2a89e0c7b193c8049"
+}

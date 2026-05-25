@@ -1,0 +1,43 @@
+{
+  "boot": "2026-05-25T13:05:35.561Z",
+  "pid": 72245,
+  "mode": "TRILLIONX_HARDWARE_FABRIC",
+  "honesty": "REAL_ONLY_OR_UNAVAILABLE ; RAID60+/mirror/GPU fabric are runtime orchestration layers unless backed by real OS devices",
+  "cpu_threads": 2,
+  "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+  "total_ram_gb": 7.76,
+  "free_ram_gb": 2.99,
+  "gpu_detection": {
+    "nvidia_smi": "GPU_UNAVAILABLE_IN_CODESPACES",
+    "vulkan": "VULKAN_UNAVAILABLE",
+    "opencl": "OPENCL_UNAVAILABLE",
+    "webgpu": "BROWSER_SIDE_ONLY_OR_UNAVAILABLE"
+  },
+  "cpu_features": {
+    "sse": true,
+    "sse2": true,
+    "sse3": true,
+    "ssse3": true,
+    "sse4_1": true,
+    "sse4_2": true,
+    "avx": true,
+    "avx2": true,
+    "avx512f": true,
+    "aes_ni": true,
+    "sha_ni": true,
+    "fma": true,
+    "bmi1": true,
+    "bmi2": true,
+    "pclmulqdq": true
+  },
+  "processor_fabric": "ACTIVE",
+  "coprocessor_fabric": "ACTIVE_DETECT_ONLY",
+  "gpu_fabric": "ACTIVE_IF_AVAILABLE_ELSE_UNAVAILABLE",
+  "memory_fabric": "ACTIVE",
+  "mirror_fabric": "ACTIVE_LOGICAL",
+  "raid60_plus": "ACTIVE_LOGICAL",
+  "cache_fabric": "ACTIVE",
+  "io_fabric": "ACTIVE",
+  "watchdog": "ACTIVE",
+  "manual_secure_push": "AVAILABLE_BUT_NOT_AUTOMATIC"
+}

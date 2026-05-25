@@ -1,0 +1,52 @@
+{
+  "engine": "TRILLIONX_REMOTE_HOST_MICRO_SYNC",
+  "seq": 2489,
+  "ts": "2026-05-25T06:34:18.444Z",
+  "prev": "c9c31f10b3ebed4e02af9cd47c73d9fb4f61266dc3d83dc4aa0c91c70a43168a",
+  "cpu": {
+    "model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "logical": 2,
+    "ghz": 3.393,
+    "load1": 1.2,
+    "load_pct": 60
+  },
+  "memory": {
+    "rss_mb": 73.012,
+    "heap_mb": 13.565,
+    "free_gb": 1.546,
+    "total_gb": 7.757
+  },
+  "disk": {
+    "used_pct": 74,
+    "free_pct": 26,
+    "mount": "/workspaces"
+  },
+  "ports": [
+    {
+      "port": 3000,
+      "ms": 0.35,
+      "open": true
+    },
+    {
+      "port": 3997,
+      "ms": 0.176,
+      "open": false,
+      "error": "ECONNREFUSED"
+    },
+    {
+      "port": 9229,
+      "ms": 0.112,
+      "open": false,
+      "error": "ECONNREFUSED"
+    }
+  ],
+  "app3000": {
+    "ok": true,
+    "status": 200,
+    "bytes": 20108,
+    "ms": 1.407
+  },
+  "latency_ms": 15.004,
+  "policy": "ASYNC_MICRO_PACKET_SAFE",
+  "seal": "bcf2078f0b2293c02fad5f017e1033160ba07e66f21c8398d872c57911f7d322"
+}

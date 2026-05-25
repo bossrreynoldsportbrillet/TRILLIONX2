@@ -1,0 +1,16 @@
+{
+  "engine": "TRILLIONX",
+  "checkpoint": "STABLE_AFTER_USER_BUGFIX",
+  "time": "2026-05-24T18:54:12+00:00",
+  "policy": {
+    "do_not_touch_working_derivation": true,
+    "last_derivation_router_is_experimental": true,
+    "keep_previous_working_network_behavior": true,
+    "safe_only": true
+  },
+  "notes": [
+    "User found and fixed the bug.",
+    "TRILLIONX behavior restored.",
+    "Seal this state before adding new layers."
+  ]
+}

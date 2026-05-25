@@ -1,0 +1,110 @@
+{
+  "name": "TRILLIONS_FIRE_EXTREME_SUPPORT_BENCH",
+  "time": "2026-05-24T06:53:22.140Z",
+  "support": {
+    "time": "2026-05-24T06:52:52.891Z",
+    "runtime": {
+      "node": "v24.14.0",
+      "platform": "linux",
+      "arch": "x64",
+      "pid": 26741,
+      "container": true,
+      "codespaces": true,
+      "hostname": "codespaces-09650b"
+    },
+    "cpu": {
+      "model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+      "logical_cpus": 2,
+      "speed_mhz_reported": 3400,
+      "endian": "LE",
+      "flags": {
+        "sse": true,
+        "sse2": true,
+        "sse3": true,
+        "ssse3": true,
+        "sse4_1": true,
+        "sse4_2": true,
+        "avx": true,
+        "avx2": true,
+        "avx512f": true,
+        "fma": true,
+        "aes": true,
+        "sha_ni": true
+      },
+      "raw_lscpu": "Architecture:                         x86_64\nCPU op-mode(s):                       32-bit, 64-bit\nAddress sizes:                        46 bits physical, 57 bits virtual\nByte Order:                           Little Endian\nCPU(s):                               2\nOn-line CPU(s) list:                  0,1\nVendor ID:                            GenuineIntel\nModel name:                           Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz\nCPU family:                           6\nModel:                                106\nThread(s) per core:                   2\nCore(s) per socket:                   1\nSocket(s):                            1\nStepping:                             6\nCPU(s) scaling MHz:                   125%\nCPU max MHz:                          2800.0000\nCPU min MHz:                          800.0000\nBogoMIPS:                             5586.87\nFlags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch tpr_shadow ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves vnmi avx512vbmi umip avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq la57 rdpid fsrm arch_capabilities\nVirtualization:                       VT-x\nHypervisor vendor:                    Microsoft\nVirtualization type:                  full\nL1d cache:                            48 KiB (1 instance)\nL1i cache:                            32 KiB (1 instance)\nL2 cache:                             1.3 MiB (1 instance)\nL3 cache:                             48 MiB (1 instance)\nNUMA node(s):                         1\nNUMA node0 CPU(s):                    0,1\nVulnerability Gather data sampling:   Not affected\nVulnerability Itlb multihit:          Not affected\nVulnerability L1tf:                   Not affected\nVulnerability Mds:                    Not affected\nVulnerability Meltdown:               Not affected\nVulnerability Mmio stale data:        Vulnerable: Clear CPU buffers attempted, no microcode; SMT Host state unknown\nVulnerability Reg file data sampling: Not affected\nVulnerability Retbleed:               Vulnerable\nVulnerability Spec rstack overflow:   Not affected\nVulnerability Spec store bypass:      Vulnerable\nVulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:             Mitigation; Retpolines; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Retpoline\nVulnerability Srbds:                  Not affected\nVulnerability Tsx async abort:        Not affected\nVulnerability Vmscape:                Not affected"
+    },
+    "memory": {
+      "total_gb": 7.76,
+      "free_gb": 4.44,
+      "node_heap_limit_hint": "V8 heap is separate; use --max-old-space-size for larger Node heap"
+    },
+    "gpu": {
+      "nvidia_smi": "UNAVAILABLE",
+      "cuda_nvcc": "",
+      "verdict": "REAL_GPU_ONLY_IF_NVIDIA_SMI_OR_CUDA_PRESENT"
+    },
+    "io": {
+      "cwd": "/workspaces/TRILLIONX",
+      "disk": "/dev/loop5       32G  9.7G   21G  33% /workspaces",
+      "limits": "time(seconds)        unlimited\nfile(blocks)         unlimited\ndata(kbytes)         unlimited\nstack(kbytes)        8192\ncoredump(blocks)     unlimited\nmemory(kbytes)       unlimited\nlocked memory(kbytes) 8192\nprocess              unlimited\nnofiles              524288\nvmemory(kbytes)      unlimited\nlocks                unlimited\nrtprio               0"
+    },
+    "doctrine": "REAL_SUPPORT_DETECTION_FIRST_NO_FAKE_CPU_NO_FAKE_GPU_NO_FAKE_RAM",
+    "classification": "CODESPACES_VIRTUALIZED_SUPPORT",
+    "compute_base": {
+      "primary": "CPU_NODEJS_REAL_HOST",
+      "gpu": "GPU_UNAVAILABLE",
+      "simd": "AVX512_AVAILABLE_TO_NATIVE_CODE_NOT_DIRECT_JS",
+      "note": "JavaScript uses V8/JIT. SIMD flags are detected support, not direct manual AVX execution unless native addon/WASM is used."
+    }
+  },
+  "bench": {
+    "level": "extreme",
+    "type": "REAL_MEASURED_FIRE_EXTREME_NODE",
+    "total_ms": 29225.3,
+    "cpu_user_ms": 27515.37,
+    "cpu_system_ms": 117.59,
+    "rss_mb": 211.81,
+    "heap_used_mb": 4.45,
+    "external_mb": 130.16,
+    "steps": [
+      {
+        "name": "chaotic_float_math",
+        "loops": 6000000,
+        "ms": 202.63,
+        "checksum": 35338016.82876
+      },
+      {
+        "name": "sha256_pressure",
+        "mb": 32,
+        "rounds": 16,
+        "ms": 464.01,
+        "digest": "2d4a5e0a05d8a598ab977ed8cfefe813"
+      },
+      {
+        "name": "brotli_compress_decompress",
+        "input_mb": 32,
+        "compressed_mb": 32,
+        "ratio": 1,
+        "integrity": true,
+        "ms": 28533.6
+      },
+      {
+        "name": "dense_matrix_multiply_float64",
+        "n": 128,
+        "approx_ops": 4194304,
+        "ms": 24.9,
+        "approx_gops": 0.1685,
+        "checksum": 32032.02027
+      }
+    ],
+    "verdict": "REAL_LOCAL_NODE_BENCHMARK_NOT_SUPERCOMPUTER_CLAIM"
+  },
+  "classification": {
+    "runtime_base": "CODESPACES_VIRTUALIZED_SUPPORT",
+    "compute_base": "CPU_NODEJS_REAL_HOST",
+    "gpu_base": "GPU_UNAVAILABLE",
+    "simd_base": "AVX512_AVAILABLE_TO_NATIVE_CODE_NOT_DIRECT_JS",
+    "health": "C_HEAVY_PRESSURE",
+    "honest_reading": "Ce benchmark dit sur quelle base réelle TRILLIONS calcule maintenant. Le profil Threadripper reste cible tant qu'il n'est pas détecté physiquement."
+  }
+}

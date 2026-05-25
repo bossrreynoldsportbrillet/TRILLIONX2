@@ -1,0 +1,18 @@
+{
+  "engine": "TRILLIONX_ASYNC_CODEC_CATALOG",
+  "time": "2026-05-24T22:31:55.376Z",
+  "codecs": {
+    "json": {
+      "decode": "JSON.parse",
+      "store": "pretty json + jsonl summary"
+    },
+    "text": {
+      "decode": "raw text tail",
+      "store": "log + checksum"
+    },
+    "json_or_text": {
+      "decode": "try json then raw text",
+      "store": "best effort"
+    }
+  }
+}

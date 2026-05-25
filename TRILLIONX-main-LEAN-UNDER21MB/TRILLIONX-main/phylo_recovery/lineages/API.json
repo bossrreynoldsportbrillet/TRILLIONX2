@@ -1,0 +1,102 @@
+[
+  {
+    "file": "./reports/apis/API_ROUTES_FULL_20260525_060113.txt",
+    "size": 20704821,
+    "sha256": "cd1ccfb44ae671290574e08021ab90dd13f396e8de600caeeb887c652bb5e5c6"
+  },
+  {
+    "file": "./reports/runtime_auto/API_DISCOVERY.txt",
+    "size": 9424075,
+    "sha256": "eed0c4cbaabd4636ad549e187a88d3efc30cfde1e62212aa236c1ef8c0441755"
+  },
+  {
+    "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt",
+    "size": 1115311,
+    "sha256": "cf630f3ba5436d95ea88609431c03b2f0e77f93e291416758e8613a566c0ca4a"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/01_RUNTIME_KEEP/TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt",
+    "size": 1115311,
+    "sha256": "cf630f3ba5436d95ea88609431c03b2f0e77f93e291416758e8613a566c0ca4a"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/05_REPORTS/app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt",
+    "size": 1115311,
+    "sha256": "cf630f3ba5436d95ea88609431c03b2f0e77f93e291416758e8613a566c0ca4a"
+  },
+  {
+    "file": "./app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt",
+    "size": 1115311,
+    "sha256": "cf630f3ba5436d95ea88609431c03b2f0e77f93e291416758e8613a566c0ca4a"
+  },
+  {
+    "file": "./reports/runtime_boot/API_ROUTES_FULL.txt",
+    "size": 455180,
+    "sha256": "4181f7e5eb5bc730950ab792708fb4c19233ac28084c2bc698af6e5e46d23e38"
+  },
+  {
+    "file": "./reports/container_review/runtime_api_review/RUNTIME_API_ANALYSE.txt",
+    "size": 439963,
+    "sha256": "2f9515a6f7827f8aa4e1864796024d6c754e3f125712171df06b7c891f255498"
+  },
+  {
+    "file": "./_TRILLIONX_SAFE_STATE_KEEP/TRILLIONX_ROUTES_REACTIVATED.txt",
+    "size": 33421,
+    "sha256": "d2d1a5eb6a9e288ce7d4ecf9d9ef9e16d8d5085345a9847e5f217f1fa5773692"
+  },
+  {
+    "file": "./reports/TRILLIONX_ROUTES_REACTIVATED.txt",
+    "size": 33421,
+    "sha256": "d2d1a5eb6a9e288ce7d4ecf9d9ef9e16d8d5085345a9847e5f217f1fa5773692"
+  },
+  {
+    "file": "./reports/container_review/runtime_api_review/RUNTIME_API_FILES.txt",
+    "size": 7451,
+    "sha256": "366047f129b0d400b6e116f4be1424fda5ed3df1e4ab9b3f0ac47ed673bb9fac"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/08_UNKNOWN/backend/trillionx_gpu_backend_router.js",
+    "size": 2394,
+    "sha256": "5952ebe9b330ad28fa17b63b4dbc45cbb28c6aa729aeb80e9a76b539974989db"
+  },
+  {
+    "file": "./backend/trillionx_gpu_backend_router.js",
+    "size": 2394,
+    "sha256": "5952ebe9b330ad28fa17b63b4dbc45cbb28c6aa729aeb80e9a76b539974989db"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/06_ARCHIVE_TXT/data/trillionx_gpu_backend_router_latest.json",
+    "size": 946,
+    "sha256": "54f3214cb3922c5e9058395d7f4b967244275b48ef1400b497aa3a3753643a17"
+  },
+  {
+    "file": "./data/trillionx_gpu_backend_router_latest.json",
+    "size": 946,
+    "sha256": "54f3214cb3922c5e9058395d7f4b967244275b48ef1400b497aa3a3753643a17"
+  },
+  {
+    "file": "./reports/TRILLIONX2_FULL_SAFE_ROUTES_CHECK.txt",
+    "size": 189,
+    "sha256": "a6d63e6120622386c037b7ca9dd34220444a349746bdbdfaa920b037f4a5cb99"
+  },
+  {
+    "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/TRILLIONS_ULTIMATE_API_CATALOG_REGISTRY.json",
+    "size": 88,
+    "sha256": "8ad96b6386aa36ad351d6e1a48420ec96734356054c313606d6871d87f23a8d7"
+  },
+  {
+    "file": "./TRILLIONS_ULTIMATE_API_CATALOG_REGISTRY.json",
+    "size": 88,
+    "sha256": "8ad96b6386aa36ad351d6e1a48420ec96734356054c313606d6871d87f23a8d7"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/01_RUNTIME_KEEP/TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/TRILLIONS_ULTIMATE_API_CATALOG_REGISTRY.json",
+    "size": 88,
+    "sha256": "8ad96b6386aa36ad351d6e1a48420ec96734356054c313606d6871d87f23a8d7"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/05_REPORTS/TRILLIONS_ULTIMATE_API_CATALOG_REGISTRY.json",
+    "size": 88,
+    "sha256": "8ad96b6386aa36ad351d6e1a48420ec96734356054c313606d6871d87f23a8d7"
+  }
+]

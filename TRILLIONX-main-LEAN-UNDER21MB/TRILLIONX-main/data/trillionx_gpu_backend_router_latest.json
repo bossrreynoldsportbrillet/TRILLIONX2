@@ -1,0 +1,47 @@
+{
+  "time": "2026-05-24T10:28:13.811Z",
+  "host": {
+    "cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "cpus": 2,
+    "ram_gb": 7.757,
+    "node": "v24.14.0"
+  },
+  "backends": {
+    "cuda": {
+      "available": false,
+      "tooling": {
+        "nvidia_smi": false,
+        "nvcc": false
+      },
+      "detail": null
+    },
+    "vulkan": {
+      "available": false,
+      "tooling": {
+        "vulkaninfo": false
+      },
+      "detail": null
+    },
+    "webgpu": {
+      "available": false,
+      "env": {
+        "WEBGPU_BACKEND": null,
+        "DAWN_BACKEND": null
+      }
+    },
+    "openxr": {
+      "available": false,
+      "tooling": {
+        "monado": false,
+        "openxr_runtime_json": null
+      }
+    }
+  },
+  "selected_backend": "ASTRAL_SOFTWARE_PROFILE",
+  "truth_policy": {
+    "real_only": true,
+    "no_fake_gpu": true,
+    "no_fake_vr": true
+  },
+  "verdict": "GPU_BACKEND_NOT_EXPOSED_SOFTWARE_PROFILE_ONLY"
+}

@@ -1,0 +1,12 @@
+Mon May 25 13:42:19 UTC 2026
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/loop4       32G   22G  8.0G  74% /workspaces
+/dev/loop4       32G   22G  8.0G  74% /workspaces
+4.0K	/workspaces/BIG_RUNTIME_FILES.txt
+16K	/workspaces/FULL_9000_SCAN.txt
+184K	/workspaces/TRILLIONX_MULTICORE_EVO
+188K	/workspaces/TRILLIONX_EVO_MAX
+1.3M	/workspaces/TRILLIONX_MULTI_REPO_PHYLO
+1.4M	/workspaces/TRILLIONX_GLOBAL_LINKER
+1.6M	/workspaces/TRILLIONX_UNIVERSAL_KERNEL
+1.4G	/workspaces/TRILLIONX2

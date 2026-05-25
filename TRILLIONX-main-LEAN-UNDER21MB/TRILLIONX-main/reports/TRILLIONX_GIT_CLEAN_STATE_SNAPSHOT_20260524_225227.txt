@@ -1,0 +1,81 @@
+time=2026-05-24T22:52:27+00:00
+branch=main
+--- status short ---
+ M .gitignore
+ M .trillionx_aliases
+ M async_registry/TRILLIONX_GLOBAL_ASYNC_REGISTRY_V2.json
+ D backups/app.before_TRILLIONX_virtual_threadripper_20260524_072919.js
+ D backups/app.before_TRILLIONX_virtual_threadripper_20260524_073013.js
+ D backups/app.before_TRILLIONX_virtual_threadripper_20260524_073108.js
+ D backups/app.before_compact_output_20260524_114806.js
+ D backups/app.before_dedup_threadripper_20260524_074142.js
+ D backups/app.before_output_lite_20260524_115426.js
+ D backups/app.before_virtual_threadripper_fix_20260524_073958.js
+ M data/TRILLIONX_RUNTIME_GUARD_LATEST.json
+ M history/TRILLIONX_ASYNC_GLOBAL_DRAIN_V2_HISTORY.jsonl
+ M reports/TRILLIONX_ASYNC_GLOBAL_DRAIN_V2_LATEST.json
+?? .trillionx_terminal_fast.env
+?? .vscode/settings.before_display_accel_20260524_214408.json
+?? .vscode/settings.before_display_accel_20260524_215208.json
+?? TRILLIONX_CODESPACES_DISPLAY_ACCELERATOR.sh
+?? TRILLIONX_GIT_CLEAN_STATE_SAFE.sh
+?? async_codecs/
+?? async_derivatives/
+?? async_registry/TRILLIONX_ASYNC_JOB_REGISTRY.json
+?? async_results/
+?? history/TRILLIONX_ASYNC_DRAIN_REGISTRY_CODEC_HISTORY.jsonl
+?? history/TRILLIONX_PARALLEL_MICRO_SYNC_HISTORY.jsonl
+?? history/TRILLIONX_REMOTE_HOST_MICRO_SYNC_HISTORY.jsonl
+?? history/TRILLIONX_RESOURCE_PERCENT_HISTORY.jsonl
+?? history/TRILLIONX_TERMINAL_ACCELERATOR_HISTORY.jsonl
+?? micro_sync/
+?? reports/TRILLIONX_ASYNC_DRAIN_FIRST_RUN.txt
+?? reports/TRILLIONX_ASYNC_DRAIN_REGISTRY_CODEC_LATEST.json
+?? reports/TRILLIONX_ASYNC_DRAIN_STATUS_LAST.txt
+?? reports/TRILLIONX_ASYNC_GLOBAL_DRAIN_V2_STATUS.txt
+?? reports/TRILLIONX_GIT_CLEAN_STATE_SNAPSHOT_20260524_225227.txt
+?? reports/TRILLIONX_INSTANT_RESTART_LATEST.json
+?? reports/TRILLIONX_PARALLEL_MICRO_SYNC_LATEST.json
+?? reports/TRILLIONX_REMOTE_HOST_MICRO_SYNC_LATEST.json
+?? reports/TRILLIONX_RESOURCE_PERCENT_LATEST.json
+?? reports/TRILLIONX_TERMINAL_ACCELERATOR_LATEST.json
+?? runtime_state/TRILLIONX_ASYNC_DAEMON_PID
+?? runtime_state/TRILLIONX_ASYNC_DRAIN_DAEMON_PID
+?? runtime_state/TRILLIONX_GLOBAL_DRAIN_DAEMON_PID
+?? runtime_state/TRILLIONX_MAIN_PID
+?? runtime_state/TRILLIONX_MICRO_SYNC_PID
+?? runtime_state/TRILLIONX_PARALLEL_MICRO_SYNC_PID
+?? runtime_state/TRILLIONX_WATCHDOG_PID
+?? scripts/start_safe_fastlog.sh
+?? scripts/trillionx_async_drain_registry_codec.sh
+?? scripts/trillionx_async_global_drain_v2.sh
+?? scripts/trillionx_async_remote_host.sh
+?? scripts/trillionx_instant_restart.sh
+?? scripts/trillionx_process_toolkit.sh
+?? scripts/trillionx_terminal_accelerator.sh
+?? scripts/tx_async_catalog.sh
+?? scripts/tx_async_clear_old_results.sh
+?? scripts/tx_async_drain.sh
+?? scripts/tx_async_drain_daemon_start.sh
+?? scripts/tx_async_drain_daemon_stop.sh
+?? scripts/tx_async_drain_registry_codec.js
+?? scripts/tx_async_drain_status.sh
+?? scripts/tx_async_submit2.sh
+--- diff stat ---
+ .gitignore                                         |    17 +-
+ .trillionx_aliases                                 |     7 +
+ .../TRILLIONX_GLOBAL_ASYNC_REGISTRY_V2.json        |     4 +-
+ ...ILLIONX_virtual_threadripper_20260524_072919.js | 25938 ------------------
+ ...ILLIONX_virtual_threadripper_20260524_073013.js | 26090 ------------------
+ ...ILLIONX_virtual_threadripper_20260524_073108.js | 26242 ------------------
+ .../app.before_compact_output_20260524_114806.js   | 26119 ------------------
+ ...pp.before_dedup_threadripper_20260524_074142.js | 26522 -------------------
+ backups/app.before_output_lite_20260524_115426.js  | 26197 ------------------
+ ...ore_virtual_threadripper_fix_20260524_073958.js | 26394 ------------------
+ data/TRILLIONX_RUNTIME_GUARD_LATEST.json           |    18 +-
+ .../TRILLIONX_ASYNC_GLOBAL_DRAIN_V2_HISTORY.jsonl  |     5 +
+ .../TRILLIONX_ASYNC_GLOBAL_DRAIN_V2_LATEST.json    |   121 +-
+ 13 files changed, 105 insertions(+), 183569 deletions(-)
+--- disk ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/loop4       32G   13G   17G  43% /workspaces

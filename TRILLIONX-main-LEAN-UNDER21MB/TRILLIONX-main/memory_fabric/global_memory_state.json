@@ -1,0 +1,98 @@
+{
+  "engine": "TRILLIONX_MEMORY_FABRIC_HBM3E_HAMRAM",
+  "ts": "2026-05-24T16:32:15.381Z",
+  "created": "2026-05-24T15:49:24.055Z",
+  "profile": {
+    "hbm3e_profile": "MAX_PROFILE_LOGICAL_HIGH_BANDWIDTH",
+    "ham_ram": "HYPER_ADJACENT_MEMORY_RAM",
+    "levels": [
+      "L1_HOT_REGISTER",
+      "L2_HOT_VECTOR",
+      "L3_WARM_HASH",
+      "L4_WARM_GRAPH",
+      "L5_COLD_JSON",
+      "L6_SPILL_DISK",
+      "L7_RAID60_PLUS_POINTER",
+      "L8_VR_MIRROR_SHARED"
+    ],
+    "memory_model": "hot/warm/cold/spill/raid/vr-cache fabric"
+  },
+  "policy": {
+    "target": "TRILLIONX",
+    "host_role": "CODESPACES_SUPPORT_ONLY",
+    "real_only": true,
+    "hbm3e_is_profile_not_physical_in_codespaces": true,
+    "ham_ram_is_logical_memory_fabric": true,
+    "no_fake_physical_ram": true,
+    "spill_to_disk_enabled": true,
+    "compression_enabled": true,
+    "raid60_plus_link": true,
+    "vr_cache_link": true
+  },
+  "host_memory": {
+    "rss_mb": 27.191,
+    "heap_mb": 6.522,
+    "external_mb": 1.974,
+    "arraybuf_mb": 0.018,
+    "free_gb": 1.26,
+    "total_gb": 7.757,
+    "load1": 0.47
+  },
+  "stats": {
+    "puts": 6,
+    "gets": 0,
+    "hits": 0,
+    "miss": 0,
+    "evictions": 0,
+    "spill_writes": 0,
+    "spill_reads": 0,
+    "compressed_bytes": 28654,
+    "raw_bytes": 434729,
+    "hit_ratio": 0,
+    "compression_ratio": 15.172
+  },
+  "levels": {
+    "L1_HOT_REGISTER": {
+      "items": 2,
+      "bytes": 254441,
+      "mb": 0.243
+    },
+    "L2_HOT_VECTOR": {
+      "items": 1,
+      "bytes": 52845,
+      "mb": 0.05
+    },
+    "L3_WARM_HASH": {
+      "items": 0,
+      "bytes": 0,
+      "mb": 0
+    },
+    "L4_WARM_GRAPH": {
+      "items": 1,
+      "bytes": 3262,
+      "mb": 0.003
+    },
+    "L5_COLD_JSON": {
+      "items": 1,
+      "bytes": 6408,
+      "mb": 0.006
+    },
+    "L6_SPILL_DISK": {
+      "items": 0,
+      "bytes": 0,
+      "mb": 0
+    },
+    "L7_RAID60_PLUS_POINTER": {
+      "items": 1,
+      "bytes": 18984,
+      "mb": 0.018
+    },
+    "L8_VR_MIRROR_SHARED": {
+      "items": 0,
+      "bytes": 0,
+      "mb": 0
+    }
+  },
+  "health": 100,
+  "verdict": "HBM3E_HAMRAM_FABRIC_ACTIVE"
+}

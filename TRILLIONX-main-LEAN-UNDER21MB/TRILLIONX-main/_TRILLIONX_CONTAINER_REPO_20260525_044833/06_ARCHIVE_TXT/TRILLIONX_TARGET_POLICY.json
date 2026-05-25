@@ -1,0 +1,32 @@
+{
+  "target": "TRILLIONX_SOFTWARE_ORCHESTRATOR",
+  "host_role": "CODESPACES_CONTAINER_ONLY",
+  "measurement_policy": {
+    "measure_trillions_not_codespaces": true,
+    "codespaces_cpu_is_context_only": true,
+    "benchmark_focus": [
+      "runtime_routes",
+      "api_latency",
+      "orchestration_health",
+      "memory_stability",
+      "worker_queue",
+      "cache_batch",
+      "repo_intelligence",
+      "self_repair_safe",
+      "launch_json_integrity",
+      "plugin_registry",
+      "job_throughput",
+      "error_rate"
+    ],
+    "workloads_are_payloads_not_hardware_claims": true,
+    "crypto_hash_utxo_vector_are_internal_load_tests": true,
+    "world_reading": "TRILLIONX runtime capacity, not Codespaces hardware power",
+    "truth": {
+      "real_only": true,
+      "no_fake_gpu": true,
+      "no_fake_zettahash": true,
+      "no_fake_supercomputer_claim": true,
+      "host_limits_exposed": true
+    }
+  }
+}

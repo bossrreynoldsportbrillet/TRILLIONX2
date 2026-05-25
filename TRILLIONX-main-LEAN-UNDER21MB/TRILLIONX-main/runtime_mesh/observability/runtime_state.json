@@ -1,0 +1,18 @@
+{
+  "boot": "2026-05-25T12:06:04.094Z",
+  "pid": 11797,
+  "cpu_threads": 2,
+  "total_ram_gb": "7.76",
+  "free_ram_gb": "4.41",
+  "mode": "TRILLIONX_RUNTIME_EXPANSION",
+  "scheduler": "ACTIVE",
+  "workers": "ACTIVE",
+  "crypto": "ACTIVE",
+  "telemetry": "ACTIVE",
+  "observability": "ACTIVE",
+  "watchdog": "ACTIVE",
+  "registry": "ACTIVE",
+  "cache": "ACTIVE",
+  "microbatch": "ACTIVE",
+  "honesty": "REAL_ONLY_OR_UNAVAILABLE"
+}

@@ -1,0 +1,5 @@
+{
+  "nvidia_smi": "GPU_UNAVAILABLE_IN_CODESPACES",
+  "opencl": "OPENCL_UNAVAILABLE",
+  "vulkan": "VULKAN_UNAVAILABLE"
+}

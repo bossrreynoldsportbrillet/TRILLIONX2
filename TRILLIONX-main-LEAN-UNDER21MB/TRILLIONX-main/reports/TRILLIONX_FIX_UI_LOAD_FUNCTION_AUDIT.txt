@@ -1,0 +1,162 @@
+9:   TRILLIONX_COMPACT_OUTPUT_GUARD_V1
+11:   - Résumé compact pour UI/OUTPUT
+15:const TRILLIONX_COMPACT_OUTPUT_GUARD_V1 = {
+17:  maxChars: Number(process.env.TRILLIONX_OUTPUT_MAX || 4500),
+18:  enabled: process.env.TRILLIONX_COMPACT_OUTPUT !== "0"
+54:    return {engine:"TRILLIONX_COMPACT_OUTPUT_GUARD_V1",error:String(e)};
+60:    let y = TRILLIONX_COMPACT_OUTPUT_GUARD_V1.enabled ? trillionsCompactObject(x) : x;
+61:    let txt = typeof y === "string" ? y : JSON.stringify(y,null,2);
+62:    const max = TRILLIONX_COMPACT_OUTPUT_GUARD_V1.maxChars;
+68:    return "TRILLIONX_COMPACT_OUTPUT_ERROR: "+String(e);
+79:global.TRILLIONX_COMPACT_OUTPUT_GUARD_V1 = TRILLIONX_COMPACT_OUTPUT_GUARD_V1;
+83:/* === END TRILLIONX_COMPACT_OUTPUT_GUARD_V1 === */
+125:function json(x){try{return JSON.stringify(x,null,2);}catch(e){return String(x);}}
+244:    sh("ulimit -a"),sh("node -e \"const t=Date.now();let x=0;for(let i=0;i<5e6;i++)x+=Math.sqrt(i);console.log(JSON.stringify({ops:5000000,ms:Date.now()-t,checksum:x.toFixed(3)}))\"")
+335:  const load=num(s?.load?.current); if(load>85){score-=25;notes.push("CPU load high")} else if(load>65){score-=10;notes.push("CPU load medium")}
+373:function appendJsonl(file,obj){ensureData();try{fs.appendFileSync(path.join(DATA_DIR,file),JSON.stringify(obj)+"\n");}catch(e){}}
+386:async function createJob(type,input={},priority="normal"){const id=uid("job");const job={id,type,priority,status:"queued",progress_percent:0,created_at:now(),started_at:null,ended_at:null,input,output:null,error:null,trace:[]};JOBS.set(id,job);appendJsonl("jobs.jsonl",job);bus.emit("job:created",job);return job}
+387:async function runJob(id){const job=JOBS.get(id);if(!job)return {ok:false,error:"job_not_found"};job.status="running";job.started_at=now();job.progress_percent=5;bus.emit("job:started",job);try{let out=null;if(job.type==="runtime_audit")out=await powerFull();else if(job.type==="network_probe")out=await network();else if(job.type==="security_audit")out=await security();else if(job.type==="repo_scan")out=await repo();else if(job.type==="capacity")out=await capacity();else if(job.type==="ai_analysis")out=await ai(job.input.message||json(job.input));else if(job.type==="dict_route")out={classification:dictClassify(job.input.text||job.input.message||"")};else out=await batchRun(["system","capacity","cockpit"]);job.output=out;job.status="done";job.progress_percent=100;job.ended_at=now();appendJsonl("jobs.jsonl",job);bus.emit("job:done",job);return job}catch(e){job.status="error";job.error=e.message;job.ended_at=now();job.trace.push(repairHint(job.type,e));appendJsonl("jobs.jsonl",job);bus.emit("job:error",job);return job}}
+403:function localKernelReply(message,trace){const cls=trace.classification.map(x=>x.domain).join(" + ")||"GENERAL";if(message.startsWith("/status"))return "STATUS: noyau actif. AI real-provider vérifié séparément. Domaines: "+cls; if(message.startsWith("/repair"))return "SAFE_REPAIR_ONLY actif: diagnostic, fallback, hints, route health, rollback ledger. Pas de réparation destructive."; if(message.startsWith("/dict"))return "DICT: "+JSON.stringify(trace.classification,null,2); if(message.startsWith("/modules"))return "Modules actifs: POWER, AI_KERNEL, DICT, SAFE_REPAIR, JOBS, RECONNECTION, LEGACY, COCKPIT."; return "AI_CHAT_UNAVAILABLE: aucun provider IA réel joignable. Routage local disponible seulement: "+cls+". Aucune simulation, aucune émulation."}
+405:DICT classification: ${JSON.stringify(classification)}`;try{const r=await axios.get("https://text.pollinations.ai/"+encodeURIComponent(prompt),{timeout:22000});answer=safeText(r.data,7000)}catch(e){answer="AI_CHAT_UNAVAILABLE: provider réel Pollinations erreur: "+e.message;provider="pollinations_error"}}else{answer=localKernelReply(msg,trace)}const assistant=pushChat("kernel_ai",answer,{provider,classification});appendJsonl("ai_chat_trace.jsonl",{user,assistant,trace});return {ok:provider!=="local_unavailable",time:now(),provider,answer,classification,trace,history:CHAT_HISTORY.slice(-12)}}
+420:<div class="card wide" id="chatbox" style="display:none"><h3>SOVEREIGN AI CHAT</h3><div class="mini">Simple en surface, complexe derrière — REAL PROVIDER ONLY.</div><div id="chatlog" class="out" style="max-height:300px">AI CHAT READY</div><textarea id="chatmsg" rows="3">/status</textarea><button class="btn" onclick="sendChat()">SEND</button><button class="btn" onclick="load('/api/ai-chat/providers')">PROVIDERS</button><button class="btn" onclick="load('/api/ai-chat/trace')">TRACE</button></div><div class="card wide"><h3>ONDE DE SITUATION</h3><canvas id="wave" height="90" style="width:100%;border:1px solid #00ff6633;background:#000"></canvas></div><div class="card wide"><h3>OUTPUT</h3><pre id="out" class="out">READY</pre></div>
+434:    else if(j && j.out) parts.push("\n--- OUTPUT ---\n"+j.out);
+435:    else if(j && j.data) parts.push("\n--- DATA ---\n"+(typeof j.data==="string"?j.data:JSON.stringify(j.data,null,2)));
+440:    return JSON.stringify(j,null,2);
+474:      out.push(JSON.stringify(x.summary,null,2));
+478:      out.push(JSON.stringify(x.health,null,2));
+481:    if(x.out) out.push("\n--- OUTPUT ---\n"+x.out);
+482:    if(x.data) out.push("\n--- DATA ---\n"+(typeof x.data==="string"?x.data:JSON.stringify(x.data,null,2)));
+488:    return JSON.stringify(x,null,2);
+493:function TRILLIONX_setOutputClean(target,x){
+498:      const q=document.querySelector("#output,#out,.output,pre");
+510:    const r=await fetch(url,opt||{});
+518:    TRILLIONX_setOutputClean(target||"#output",j);
+522:    TRILLIONX_setOutputClean(target||"#output",j);
+556:    if(x.out) o.push("\n--- OUTPUT ---\n"+String(x.out));
+558:    if(x.summary) o.push("\n--- SUMMARY ---\n"+JSON.stringify(x.summary,null,2));
+559:    if(x.tools) o.push("\n--- TOOLS ---\n"+JSON.stringify(x.tools,null,2));
+564:    return JSON.stringify(x,null,2);
+567:function TRILLIONX_findOutputBox(){
+568:  return document.querySelector("#output,#out,#terminalOut,#terminal-output,#result,.output,.terminal-output,pre");
+570:function TRILLIONX_writeOutput(x){
+571:  const el=TRILLIONX_findOutputBox();
+582:    const r=await fetch(url,opt);
+586:    TRILLIONX_writeOutput(x);
+590:    TRILLIONX_writeOutput(x);
+596:/* TRILLIONX_UI_SOURCE_OUTPUT_RENDERER_V2 */
+633:  if(o.out){ L.push(""); L.push("--- OUTPUT ---"); L=L.concat(TX_linesFromObject(o.out,depth+1)); }
+645:    for(const [k,v] of Object.entries(o.tools)) L.push(k+" : "+(typeof v==="object"?JSON.stringify(v):v));
+650:  if(L.length<2) L.push(JSON.stringify(o,null,2));
+653:function TX_renderOutput(v){
+657:function TX_outputEl(){
+658:  return document.querySelector("#output,#out,#terminalOut,#terminal-output,#result,#results,.output,.terminal-output,pre");
+660:function TX_setOutput(v){
+661:  const el=TX_outputEl();
+662:  const txt=TX_renderOutput(v);
+725:    if(v.out) L.push("\n--- OUTPUT ---\n"+TX_LOAD_RENDER(v.out));
+729:    if(v.summary) L.push("\n--- SUMMARY ---\n"+JSON.stringify(v.summary,null,2));
+730:    if(v.health) L.push("\n--- HEALTH ---\n"+JSON.stringify(v.health,null,2));
+734:    return L.length ? L.join("\n") : JSON.stringify(v,null,2);
+737:function TX_LOAD_OUTPUT(){
+738:  return document.querySelector("#output,#out,#result,#results,#terminalOut,.output,.terminal-output,pre");
+741:  const el=TX_LOAD_OUTPUT();
+752:async function load(u){out.textContent='LOADING '+u;try{let r=await fetch(u).catch(e=>({text:async()=>String(e)}));out.textContent=JSON.stringify(await r.text(),null,2)}catch(e){out.textContent='ERROR '+e.message}}
+754:async function cmd(c){out.textContent='$ '+c+'\\nRUNNING...';let r=await fetch('/api/shell',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({cmd:c}).catch(e=>({text:async()=>String(e)}))});let j=await r.text();out.textContent='$ '+c+'\\n\\n'+(j.out||'')+(j.err?'\\n\\nERR:\\n'+j.err:'')}
+757:function startKeepAlive(){setInterval(async()=>{try{await fetch("/api/ping?ts="+Date.now().catch(e=>({text:async()=>String(e)})),{cache:"no-store"})}catch(e){} if(typeof socket!=="undefined"&&!socket.connected){try{socket.connect()}catch(e){}}},15000)};document.addEventListener("visibilitychange",()=>{if(!document.hidden){try{socket.connect()}catch(e){} load("/api/ping")}});window.addEventListener("online",()=>load("/api/ping"));window.addEventListener("offline",()=>{out.textContent="NETWORK OFFLINE — waiting reconnection..."});startKeepAlive();
+999:  return {time:now(),source,status:payload==null?"UNAVAILABLE":"REAL_OR_DECLARED",doctrine:TRILLIONS_V11_PLUS_LAYER.doctrine,data:payload};
+1022:  const compact={time:now(),event,delta:true,payload:safeText(typeof payload==='string'?payload:json(payload),4000)};
+1063:  outputs:["best_parameters","baseline_before","level_results","gain_report_258","activation_script"]
+1550:async function loadPredictionEngine(mem,eventLoop,score){
+1824:    KYOTO_V8_UI_CONTROL_SURFACE_CATALOG:["tabs","buttons","terminal","ai_chat","wave_canvas","route_output"],
+1861:function tmemPut(key,value,opts={}){try{tmemDir();const M=TRILLIONS_MEMORY_CACHE_ECC_222;const raw=Buffer.isBuffer(value)?value:Buffer.from(typeof value==="string"?value:JSON.stringify(value));const hash=tmemHash(raw),crc=tmemCrc(raw),nowTs=Date.now();M.stats.put++;M.stats.bytes_in+=raw.length;for(const [k,m] of M.index){if(m.hash===hash&&k!==key){M.index.set(key,{...m,key,dedup_pointer:k,updated_at:now()});M.stats.dedup++;return{ok:true,key,mode:"DEDUP_INDEX_POINTER",hash,crc}}}M.ring.push({key,hash,crc,bytes:raw.length,ts:nowTs});while(M.ring.length>M.config.ringMax)M.ring.shift();const pressure=tmemPressure();let mode="HOT_CACHE_ECC";let file=null,stored=raw.length;if(raw.length>M.config.spillAboveBytes||pressure.state!=="OK"){const gz=zlib.gzipSync(raw);file=path.join(M.config.root,"pages",hash+".tmem.gz");fs.writeFileSync(file,gz);stored=gz.length;mode="COMPRESSED_SPILL_ECC";M.stats.spill++;}else{M.hot.set(key,raw);while(M.hot.size>M.config.hotMax){const first=M.hot.keys().next().value;M.hot.delete(first);M.stats.evict++;}}M.ttl.set(key,nowTs+(opts.ttlMs||M.config.ttlMs));M.index.set(key,{key,hash,crc,mode,file,raw_bytes:raw.length,stored_bytes:stored,created_at:now(),ecc:{crc32_like:crc,sha256:hash,parity_layers:2,mirrors:2}});M.stats.bytes_stored+=stored;return{ok:true,key,mode,raw_bytes:raw.length,stored_bytes:stored,compression_ratio:+(stored/Math.max(raw.length,1)).toFixed(4),ecc:"2/2/2"}}catch(e){TRILLIONS_MEMORY_CACHE_ECC_222.stats.errors.push(String(e.message||e));return{ok:false,error:String(e.message||e)}}}
+1864:function tmemSnapshot(label="manual"){tmemDir();const snap=tmemHealth();snap.label=label;const f=path.join(TRILLIONS_MEMORY_CACHE_ECC_222.config.root,"snapshots","snapshot_"+Date.now()+".json");fs.writeFileSync(f,JSON.stringify(snap,null,2));TRILLIONS_MEMORY_CACHE_ECC_222.stats.snapshots++;return{ok:true,file:f,snapshot:snap}}
+1888:function runTrillionsWorker(payload={},timeout=30000){
+2236:  const sanitized = JSON.parse(JSON.stringify(event||{}));
+2237:  const txt=JSON.stringify(sanitized);
+2244:function memoryLedgerStatus(){return {time:now(),module:"CLEAN_RUNTIME_MEMORY_LEDGER",ledger_events:MEMORY_LEDGER.length,memory_size_kb:+(Buffer.byteLength(JSON.stringify(MEMORY_LEDGER))/1024).toFixed(2),retained_events:MEMORY_LEDGER.slice(-50),status:"REAL_RUNTIME_MEMORY_NO_SECRETS_INTENDED"};}
+2256:  const h=crypto.createHash("sha1").update(JSON.stringify(payload||{})).digest("hex");
+2278:  const beforeLoad=Number(b.ram?.used_gb||0), afterLoad=Number(a.ram?.used_gb||0);
+2549:<div class="card half"><h2>Output</h2><pre id="out">READY</pre></div>
+2556:    const r=await fetch('/api/workload-runtime/status',{cache:'no-store'}).catch(e=>({text:async()=>String(e)})); const j=await r.text(); last={stability:j.pressure.stability_percent||0,chaos:j.pressure.chaos_risk_percent||0,cpu:j.pressure.cpu_load_percent||0,ram:j.pressure.ram_pressure_percent||0};
+2564:async function load(u){out.textContent='LOADING '+u;try{const r=await fetch(u,{cache:'no-store'}).catch(e=>({text:async()=>String(e)}));out.textContent = TX_renderOutput(await r.text(),null,2)}catch(e){out.textContent='ERROR '+e.message}}
+2631:  const cpuLoad=positivePct(sys?.load?.current);
+3392:  const cpuLoad=Number(sys&&sys.load&&sys.load.current||0);
+3399:  const realPathCount=hpcReadyHints.filter(x=>JSON.stringify(x).match(/REAL|available|AVAILABLE|true/i)).length;
+3523:  const raw=JSON.stringify(numa).toLowerCase();
+3570:  let loaded=false, addonKeys=[], error=null;
+4158:  const realCount=checks.filter(x=>!/UNAVAILABLE|LOCAL_OR_CONTAINER_ONLY|STANDARD_STORAGE|SINGLE_NODE/i.test(JSON.stringify(x.module||{}))).length;
+5370:  const allRaw = JSON.stringify(probe).toLowerCase();
+8236:const s=net.createConnection({host:${JSON.stringify(host)},port:${JSON.stringify(port)},timeout:5000},()=>{
+8237: console.log(JSON.stringify({ok:true,host:${JSON.stringify(host)},port:${JSON.stringify(port)},latency_ms:Date.now()-start}));
+8240:s.on('timeout',()=>{console.log(JSON.stringify({ok:false,error:'timeout',host:${JSON.stringify(host)},port:${JSON.stringify(port)}}));s.destroy();});
+8241:s.on('error',e=>{console.log(JSON.stringify({ok:false,error:e.message,host:${JSON.stringify(host)},port:${JSON.stringify(port)}}));});
+10844:    output_meaning:
+12821:  const payload = typeof data === "string" ? data : JSON.stringify(data || {});
+13628:  const payload = JSON.stringify(data || {});
+13662:    const payload = typeof x === "string" ? x : JSON.stringify(x || {});
+13740:    "node -e \"console.log(JSON.stringify(process.versions))\"",
+16103: const id=crypto.createHash("sha256").update(JSON.stringify(data)).digest("hex").slice(0,16);
+16104: try{fs.mkdirSync(root+"/data",{recursive:true});fs.writeFileSync(root+`/data/trillions_snapshot_${id}.json`,(window.TRILLIONX_UI_COMPACT?window.TRILLIONX_UI_COMPACT(data):JSON.stringify(data,null,2)))}
+16141: app.post("/api/trillions/ett/event",(req,res)=>res.json({ok:true,result:routeEvent(JSON.stringify(req.body||{})),state:STATE.counters}));
+16173:function load(){
+16459: const m=process.memoryUsage(),load=os.loadavg()[0],cores=Math.max(1,os.cpus().length);
+16472: const s=String(typeof payload==="string"?payload:JSON.stringify(payload||{}));
+16480: if(c==="QUARANTINE"){STATE.blocked++;STATE.quarantine.push({t:now(),sample:String(JSON.stringify(job)).slice(0,160)});return{lane:"QUARANTINE",ok:false,pressure:p}}
+16513: const id=crypto.createHash("sha256").update(JSON.stringify(data)).digest("hex").slice(0,16);
+16514: try{fs.mkdirSync("data",{recursive:true});fs.writeFileSync(`data/fabric_snapshot_${id}.json`,(window.TRILLIONX_UI_COMPACT?window.TRILLIONX_UI_COMPACT(data):JSON.stringify(data,null,2)));STATE.snapshots.push(id)}catch(e){}
+16686:function pressure(){const m=mem(),f=cpuFlags(),load=os.loadavg()[0]||0,c=os.cpus().length||1,p={cpu:+((load/c)*100).toFixed(2),mem:+((m.heap/m.heapTotal)*100).toFixed(2),rss:m.rss,eventLoop:S.lat.at(-1)||0,cache:+((S.cache_hits/(S.cache_hits+S.cache_miss+1))*100).toFixed(2),simd:f.avx512?100:f.avx2?85:f.avx?65:30,worker:S.workers,pipeline:+((load*50)+(S.lat.at(-1)||0)).toFixed(2),backflow:S.backflow,gc:S.gc_guard,queue:S.jobs,ring:S.ring_writes};return p}
+16692:function hotKey(j){return crypto.createHash("sha1").update(JSON.stringify(j||{})).digest("hex").slice(0,16)}
+16937: const load=os.loadavg()[0]||0;
+16963: .update(JSON.stringify(v||{}))
+17231: const load=os.loadavg()[0]||0;
+17385: KYOTO_V7_JSON_SERIALIZATION_CATALOG:["JSON.stringify","JSON.parse","payload bytes","serialization latency","parse latency","binary JSON label"],
+17513: const id=crypto.createHash("sha1").update(JSON.stringify(job)+Date.now()).digest("hex").slice(0,16);
+17515: if(lane==="QUARANTINE"){V12.blocked++;V12.quarantine.push({t:Date.now(),sample:JSON.stringify(job).slice(0,120)});}
+17526: try{fs.appendFileSync("trillions-runtime-v12.jsonl",JSON.stringify(e)+"\n");}catch(_){}
+18091: const meta=Buffer.from(JSON.stringify(utxo));
+19995:  out.tests.stream_compression={input_mb:MB,output_mb:+(total/1024/1024).toFixed(2),ms:+ms.toFixed(2),MB_s:+(MB/(ms/1000)).toFixed(2)};
+20003:  const payload=Buffer.concat([Buffer.from(ids.buffer),Buffer.from(vals.buffer)]);
+20035: fs.writeFileSync("TRILLIONS_RUNTIME_KERNEL_REAL_ONLY.json",JSON.stringify(out,null,2));
+20079:function fabricHash(x){return crypto.createHash("sha256").update(typeof x==="string"?x:JSON.stringify(x)).digest("hex")}
+20083: const groups={node:["node -v","npm -v","npm ls --depth=0","npm audit --audit-level=high"],system:["uname -a","lscpu | head -80","free -h","df -h","ulimit -a"],network:["ss -s","ss -tulpn","ip addr","ip route","ping -c 3 -W 3 1.1.1.1"],repo:["git status --short","git branch --show-current","find . -maxdepth 3 -type f -not -path './node_modules/*' | sort | head -300"],pm2:["pm2 ls","pm2 jlist"],bench:["node -e \"const crypto=require('crypto');const t=Date.now();let n=0;while(Date.now()-t<1000){crypto.createHash('sha256').update(String(n++)).digest('hex')}console.log(JSON.stringify({sha256_per_sec:n}))\"","node -e \"const t=Date.now();let x=0;for(let i=0;i<1e7;i++)x+=Math.imul(i,2654435761);console.log(JSON.stringify({ops:1e7,ms:Date.now()-t,checksum:x|0}))\""]};
+20092:async function fabricCrypto(payload={}){const body=JSON.stringify(payload||{});return {time:fabricNow(),sha256:fabricHash(body),hmac_available:!!process.env.FABRIC_HMAC_KEY,hmac_sha256:process.env.FABRIC_HMAC_KEY?crypto.createHmac('sha256',process.env.FABRIC_HMAC_KEY).update(body).digest('hex'):"unavailable_no_FABRIC_HMAC_KEY",policy:"defensive integrity only"}}
+20147:async function v36EnergyController(){const s=await system().catch(e=>({error:e.message})); const load=Number(s?.load?.current||0), ram=s?.ram&&s.ram.total_gb?Number(s.ram.used_gb/s.ram.total_gb*100):0, temp=Number(s?.temperature?.main||0); let profile='BALANCED'; if(load>80||ram>85||temp>75)profile='COOL_DOWN'; else if(load<35&&ram<70)profile='PERFORMANCE_WINDOW'; return {time:now(),profile,inputs:{cpu_load_percent:load,ram_pressure_percent:+ram.toFixed(2),temperature_C:temp||null},actions:{polling_ms:profile==='COOL_DOWN'?5000:profile==='PERFORMANCE_WINDOW'?1000:2500,worker_cap:profile==='COOL_DOWN'?Math.max(1,Math.floor((os.cpus().length||1)/2)):Math.max(1,Math.min(os.cpus().length||1,8)),network_batching:profile!=='PERFORMANCE_WINDOW',cache_ttl_ms:profile==='COOL_DOWN'?10000:3000},honesty:'software energy policy; no physical satellite-grade claim'};}
+20177:async function v37RunNext(){const job=V37_QUEUE.shift();if(!job)return {ok:false,error:'queue_empty'};job.status='running';job.started_at=now();job.timeline.push({t:now(),event:'running'});const before=v37Snap();try{let out;if(job.type==='capacity')out=await capacity();else if(job.type==='network')out=await network();else if(job.type==='benchmark')out=await v37Benchmark({runs:3});else out={echo:job.payload,handled:'generic'};job.status='done';job.output=out;job.ended_at=now();job.timeline.push({t:now(),event:'done'});v37Record({type:'scheduler',event:'done',job_id:job.id,before,after:v37Snap()});return job}catch(e){job.attempts++;job.error=e.message;job.timeline.push({t:now(),event:'error',error:e.message});if(job.attempts<=job.max_retries){job.status='queued_retry';V37_QUEUE.push(job)}else{job.status='quarantine';v37Record({type:'job_quarantine',job_id:job.id,error:e.message})}return job}}
+20185:async function v37Energy(){const s=await system().catch(e=>({}));const load=Number(s?.load?.current||0), ram=s?.ram?.total_gb?100*s.ram.used_gb/s.ram.total_gb:0, temp=Number(s?.temperature?.main||0);let mode='BALANCED_MODE';if(load>80||ram>85||temp>75)mode='ECO_MODE';if(load<35&&ram<65)mode='EXTREME_MODE_AVAILABLE';return {time:now(),mode,thermal_guard:temp?temp<80:'UNAVAILABLE',cpu_load_limit:mode==='ECO_MODE'?60:90,ram_pressure_limit:mode==='ECO_MODE'?75:90,network_burst_limit:mode==='ECO_MODE'?'reduced':'normal',job_batch_size:mode==='ECO_MODE'?4:16,worker_cap:mode==='ECO_MODE'?Math.max(1,Math.floor((os.cpus().length||1)/2)):Math.min(os.cpus().length||1,8),energy_per_result:'relative; needs wattmeter for real joules',inputs:{load,ram:+ram.toFixed(2),temp:temp||null}}}
+20229:async function hcosSaturation(){let s=typeof system==='function'?await system():null;let load=s?.load?.current??null,ram=s?.ram?+(s.ram.used_gb/s.ram.total_gb*100).toFixed(2):null;let state='NOMINAL';if((load??0)>85||(ram??0)>90)state='SATURATION_RISK';else if((load??0)>65||(ram??0)>75)state='PRESSURE';return{state,cpu_load_percent:load,ram_used_percent:ram,policy:'reduce chunk size, batch jobs, preserve host responsiveness'}}
+20233:app.get('/coprocessor-os',(req,res)=>res.type('html').send(`<!doctype html><meta charset="utf-8"><title>TRILLIONS Host Coprocessor OS</title><style>body{background:#05070b;color:#dff;font-family:Arial;margin:22px}button{padding:12px 16px;margin:6px;background:#092;color:#dff;border:1px solid #0ff;border-radius:10px}pre{white-space:pre-wrap;background:#071018;border:1px solid #134;padding:14px;border-radius:12px}.ok{color:#6f6}</style><h1>TRILLIONS HOST COPROCESSOR OS</h1><p>REAL ONLY OR UNAVAILABLE - ns / µs / massive data / host saturation comfort</p><button onclick="run('/api/host-coprocessor-os/status')">STATUS</button><button onclick="run('/api/host-coprocessor-os/bench?totalMB=256&chunkMB=8&bits=96000&rounds=4096&samples=3000')">BENCH STANDARD</button><button onclick="run('/api/host-coprocessor-os/bench?totalMB=512&chunkMB=8&bits=96000&rounds=8192&samples=5000')">BENCH LOURD</button><pre id=o>ready</pre><script>async function run(u){o.textContent='running...';let r=await fetch(u).catch(e=>({text:async()=>String(e)}));o.textContent = TX_renderOutput(await r.text(),null,2)}</script>`));
+21498:  return APPOBER_156_FAMILIES.filter(f=>!s||JSON.stringify(f).toLowerCase().includes(s));
+21588:app.get('/api/appober/die-mirror/search',async(req,res)=>{try{const q=String(req.query.q||'').toLowerCase();const c=appoberDieMirrorCatalog();res.json({...c,families:c.families.filter(f=>JSON.stringify(f).toLowerCase().includes(q)).slice(0,200),query:q})}catch(e){res.status(500).json({ok:false,error:e.message})}});
+21639:  const load=Number(host?.load?.current||0);const ram=host?.ram&&host.ram.total_gb?host.ram.used_gb/host.ram.total_gb*100:0;
+21692:  const obj=payload&&typeof payload==="object"?payload:{};
+21700:  return {time:new Date().toISOString(),core:ZERO_HALLUCINATION_AI_CORE,policy:{gain_89:"EXPECTED_TARGET until /api/ai-performance-89/run measures it",gpu:"UNAVAILABLE unless detected by host",qpu:"UNAVAILABLE unless real backend configured",metrics:"REAL_MEASURED only when returned by runtime route"},routes_guarded:routes,output_contract:{claim:"string",value:"any",class:"REAL_MEASURED|DETECTED|CONFIGURED|DERIVED|EXPECTED_TARGET|UNVERIFIED|UNAVAILABLE",source:"route/function/file",confidence:"0..1 separate from truth class"}};
+21770:function ideas250Search(q){q=String(q||'').toLowerCase();return IDEAS_250_REGISTRY.filter(x=>JSON.stringify(x).toLowerCase().includes(q)).slice(0,80)}
+21826:  const arr=s?LINKED_FUNCTIONS_1400.filter(f=>JSON.stringify(f).toLowerCase().includes(s)):LINKED_FUNCTIONS_1400;
+21862:function kyotoNativeAddonStatus(){const p=path.join(process.cwd(),KYOTO_NATIVE_EXECUTION_BASE.native_addon_path);let present=fs.existsSync(p);let loaded=false,methods=[],error=null;if(present){try{const mod=require(p);loaded=true;methods=Object.keys(mod||{});}catch(e){error=e.message}}return {time:now(),path:p,present,loaded,methods,status:loaded?"PRESENT":"UNAVAILABLE",native_gflops:loaded?"CALL_NATIVE_METHOD_TO_MEASURE":"UNAVAILABLE_NATIVE_ADDON",honesty:"No fake native score; native path is real only when addon loads and executes."};}
+25031:    max_command_output_chars:Number(process.env.KYOTO_MAX_COMMAND_OUTPUT||12000),
+25120:    const slim={...v,out:safeText(v.out,KYOTO_OPTIMIZER_V12.defaults.max_command_output_chars),err:safeText(v.err,6000),cached:false,optimizer:"KYOTO_OPTIMIZER_V12",duration_ms:Date.now()-started};
+25214:function kyotoV12Bytes(x){return Buffer.byteLength(typeof x==="string"?x:JSON.stringify(x||{}),"utf8");}
+25309:   - restructure outputs into virtual/semi-real cache memory
+25568:app.get("/api/kyoto/v14/stream",async(req,res)=>{res.writeHead(200,{"Content-Type":"text/event-stream","Cache-Control":"no-cache","Connection":"keep-alive"});KYOTO_V14_DELTA_CLIENTS.add(res);const send=async()=>{try{res.write(`data: ${JSON.stringify(await kyotoV14DeltaPayload())}\n\n`)}catch(e){}};await send();const id=setInterval(send,2000);req.on("close",()=>{clearInterval(id);KYOTO_V14_DELTA_CLIENTS.delete(res);});});
+25597:  const cmd=`${runner} -np 2 node -e "console.log(JSON.stringify({rank:process.env.OMPI_COMM_WORLD_RANK||process.env.PMI_RANK||process.env.MPI_RANK||'unknown',pid:process.pid,host:require('os').hostname()}))"`;
+25745:function v18Stats(a){a=v18FiniteArray(a);let s=a.reduce((x,y)=>x+y,0),m=a.length?s/a.length:null,v=v18Variance(a);let sorted=[...a].sort((x,y)=>x-y);let med=sorted.length?sorted[Math.floor(sorted.length/2)]:null;return {n:a.length,sum:s,mean:m,variance:v,stddev:v===null?null:Math.sqrt(v),min:sorted[0]??null,max:sorted[sorted.length-1]??null,median:med,checksum:crypto.createHash('sha256').update(JSON.stringify(a.slice(0,2048))).digest('hex')}}
+25835:  const zlib=require('zlib'); const payload=Buffer.from(('TRILLIONS_NATIVE_COMPRESSION_TEST_'+Date.now()).repeat(4096)); const t0=Date.now();
+26058:  const r=await fetch(url,opt).catch(e=>({text:async()=>String(e)}));
+26082:// OUTPUT SAFE
+26083:function trillionsOutput(msg){
+26084: const el=document.getElementById("output");
+26176:const DICT_IO_ION={name:'DICT_IO_ION',version:'V1',meaning:{IO:'Input/Output',ION:'Input/Output Orchestrated Node',role:'route memory and data through the best path according to latency, size, priority, and pressure'},modes:['IO_SYNC_READ','IO_SYNC_WRITE','IO_ASYNC_READ','IO_ASYNC_WRITE','IO_STREAM','IO_BATCH','IO_RING_BUFFER','IO_SPILL_TO_DISK','IO_COMPRESS','IO_DECOMPRESS','IO_LEDGER','IO_REPLAY','IO_ROLLBACK','IO_BACKPRESSURE','ION_FAST_PATH','ION_WARM_PATH','ION_COLD_PATH','ION_LEDGER_PATH','ION_RECOVERY_PATH'],routing_rules:['critical_small_data -> IO_SYNC_READ_WRITE -> L1/L1a/L2','runtime_metrics -> DYNAMIC_TTL_CACHE -> L1/L3','large_payload -> IO_STREAM_OR_BATCH -> compression -> spill','audit_data -> ASYNC_LEDGER -> L49-L56LE','stable_config -> STATIC_CACHE -> L5/L6','high_ram_pressure -> spill_to_disk','high_latency -> ring_buffer_fast_path','checksum_mismatch -> quarantine_then_recover']};
+26185:function l56Checksum(v){return crypto.createHash('sha256').update(typeof v==='string'?v:JSON.stringify(v)).digest('hex')}
+26187:function l56Set(key,value,opts={}){const t=Date.now();const raw=typeof value==='string'?value:JSON.stringify(value);const compressed=zlib.gzipSync(Buffer.from(raw));const entry={key,level:l56LevelFor(key,opts.priority),created_at:now(),ttl_ms:opts.ttl_ms||0,bytes:Buffer.byteLength(raw),compressed_bytes:compressed.length,checksum:l56Checksum(raw),mode:opts.mode||'dynamic',priority:opts.priority||'normal',value:raw};L56_STORE.set(key,entry);L56_MIRROR.set(key,{checksum:entry.checksum,value:raw});return {ok:true,latency_write_ms:Date.now()-t,entry:{...entry,value:'<stored>'},ecc_222_status:'MIRROR_AND_CHECKSUM_OK'}}
+26190:async function l56Benchmark(){const started=Date.now();const payload='TRILLIONS_L56_'+crypto.randomBytes(4096).toString('hex');const w=l56Set('bench_'+started,payload,{priority:'critical',ttl_ms:60000});const r=l56Get('bench_'+started);return {time:now(),duration_ms:Date.now()-started,write:w,read:{...r,value:'<hidden>'},compression_ratio:+(w.entry.bytes/w.entry.compressed_bytes).toFixed(3),real_memory:l56Mem(),pressure:l56Pressure(),requested_profile_base_mb:8092,real_allocated_mb_delta:'small_object_only_measured_by_process_memory',honesty:'Benchmark tests routing/checksum/compression on small payload; it does not allocate 8092MB.'}}
+26267:  const payload=Buffer.alloc(1024,7); const t0=process.hrtime.bigint(); let h="";
+26544:   TRILLIONX_OUTPUT_LITE_ROUTES_V1
+26551:  let load=os.loadavg();
+26560:    engine:"TRILLIONX_OUTPUT_LITE_ROUTES_V1",
+26573:    verdict:"RUNNING_REAL_CPU_BACKEND_OUTPUT_LITE",
+26578:if (typeof app !== "undefined" && app && app.get && !global.TRILLIONX_OUTPUT_LITE_ROUTES_V1){
+26579:  global.TRILLIONX_OUTPUT_LITE_ROUTES_V1=true;
+26686:    const r=await TRILLIONX_fetchTimeoutClean('/api/terminal/run',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({cmd})});
+26693:async function load(url){
+26694:  const el=TX_LOAD_OUTPUT();
+26699:    const r=await fetch(url,{signal:ctrl.signal});

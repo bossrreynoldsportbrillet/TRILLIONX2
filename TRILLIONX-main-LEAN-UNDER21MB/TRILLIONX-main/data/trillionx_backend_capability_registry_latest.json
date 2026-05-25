@@ -1,0 +1,75 @@
+{
+  "time": "2026-05-24T10:14:44.286Z",
+  "host": {
+    "platform": "linux",
+    "arch": "x64",
+    "hostname": "codespaces-09650b",
+    "node": "v24.14.0",
+    "cpu_logical": 2,
+    "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "cpu_ghz": 3.453,
+    "ram_gb": 7.757,
+    "free_gb": 0.895
+  },
+  "cpu": {
+    "status": "REAL",
+    "simd": {
+      "sse": true,
+      "sse2": true,
+      "sse4_1": true,
+      "sse4_2": true,
+      "avx": true,
+      "avx2": true,
+      "avx512": true,
+      "fma": true,
+      "aes": true,
+      "sha_ni": true
+    }
+  },
+  "gpu": {
+    "nvidia_smi": false,
+    "nvcc": false,
+    "vulkaninfo": false,
+    "glxinfo": false,
+    "clinfo": false,
+    "cuda_visible": false,
+    "vulkan_icd": false,
+    "status": "UNAVAILABLE"
+  },
+  "webgpu": {
+    "node_webgpu": false,
+    "dawn": false,
+    "status": "UNAVAILABLE"
+  },
+  "vr": {
+    "openxr_runtime": false,
+    "xr_runtime_json": null,
+    "monado": false,
+    "openxr_lib": false,
+    "status": "UNAVAILABLE"
+  },
+  "memory": {
+    "software_cache": true,
+    "ring_buffer_ready": true,
+    "mmap_possible": true,
+    "spill_to_disk": true,
+    "mirror_runtime": true,
+    "status": "SOFTWARE_REAL"
+  },
+  "truth_policy": {
+    "real_only": true,
+    "no_fake_gpu": true,
+    "no_fake_vr": true,
+    "no_fake_supercomputer": true,
+    "codespaces_can_prepare_backend": true,
+    "physical_gpu_openxr_requires_real_host": true
+  },
+  "best_runtime_path": [
+    "CPU_REAL_SIMD",
+    "UNAVAILABLE",
+    "UNAVAILABLE",
+    "UNAVAILABLE",
+    "SOFTWARE_REAL"
+  ],
+  "verdict": "CPU_MEMORY_SOFTWARE_MIRROR_ONLY__GPU_OPENXR_NOT_EXPOSED"
+}

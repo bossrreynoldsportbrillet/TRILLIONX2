@@ -1,0 +1,36 @@
+{
+  "time": "2026-05-24T10:11:45.845Z",
+  "runtime": {
+    "host": "codespaces-09650b",
+    "platform": "linux",
+    "arch": "x64",
+    "cpus": 2,
+    "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "ram_gb": 7.757,
+    "free_gb": 0.949,
+    "node": "v24.14.0"
+  },
+  "gpu": {
+    "nvidia_smi": false,
+    "vulkaninfo": false,
+    "glxinfo": false,
+    "clinfo": false,
+    "nvcc": false,
+    "webgpu_node": false,
+    "cuda_visible": false,
+    "vulkan_icd": false
+  },
+  "openxr": {
+    "openxr_runtime": false,
+    "monado": false,
+    "xr_runtime_json": null
+  },
+  "verdict": "SOFTWARE_ONLY_GPU_OPENXR_NOT_EXPOSED",
+  "truth_policy": {
+    "real_only": true,
+    "no_fake_gpu": true,
+    "no_fake_vr": true,
+    "codespaces_can_prepare_backend": true,
+    "physical_gpu_openxr_requires_real_host": true
+  }
+}

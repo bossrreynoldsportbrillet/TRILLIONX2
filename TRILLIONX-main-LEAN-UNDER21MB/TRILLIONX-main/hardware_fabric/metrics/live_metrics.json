@@ -1,0 +1,19 @@
+{
+  "sha256_hps": 148981,
+  "sha512_hps": 101467,
+  "aes256_ops": 5331,
+  "gzip_MBps": 90,
+  "memory_MBps": 468,
+  "worker_count": 2,
+  "mirror_files": "8",
+  "raid60_blocks": 12,
+  "integrity_hashes": 28,
+  "rss_mb": 1651.16,
+  "free_ram_gb": 0.78,
+  "uptime": 216,
+  "loadavg": [
+    9.03,
+    6.88,
+    6.3
+  ]
+}

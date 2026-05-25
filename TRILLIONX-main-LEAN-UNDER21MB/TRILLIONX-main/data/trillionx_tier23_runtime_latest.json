@@ -1,0 +1,70 @@
+{
+  "engine": "TRILLIONX_TIER23_RUNTIME",
+  "ts": "2026-05-24T16:02:31.280Z",
+  "target": "TRILLIONX",
+  "host_role": "CODESPACES_SUPPORT_ONLY",
+  "modules": {
+    "cryptographic_intensity": "ACTIVE",
+    "llm_token_simulation": "ACTIVE",
+    "cache_coherence_simulation": "ACTIVE",
+    "json_api_load": "ACTIVE_ON_PORT_3100",
+    "persistent_history": "ACTIVE",
+    "ml_optimizer": "ACTIVE",
+    "realtime_dashboard": "ACTIVE"
+  },
+  "crypto": {
+    "ms": 71.304,
+    "us": 71304,
+    "aes_mb_s": 56.098,
+    "sha_mb_s": 56.098,
+    "rsa_sign_s": 14.024,
+    "digest": "63f91823dabab9cab9329c44"
+  },
+  "llm": {
+    "tokens": 96,
+    "batch": 4,
+    "dim": 384,
+    "ms": 5.502,
+    "us": 5502,
+    "tokens_s": 69797.598,
+    "gops_s": 0.161,
+    "memory_mb": 0.007,
+    "checksum": 200.228
+  },
+  "cache": {
+    "size_mb": 32,
+    "stride": 64,
+    "passes": 2,
+    "ms": 27.118,
+    "us": 27118,
+    "touched_ops": 1048576,
+    "ops_s": 38666817.561,
+    "bandwidth_mb_s": 2360.035,
+    "checksum": 84410368
+  },
+  "ml_optimizer": {
+    "status": "WARMUP",
+    "suggestion": "Collect more samples"
+  },
+  "memory": {
+    "rss_mb": 136.727,
+    "heap_mb": 5.902,
+    "external_mb": 77.989,
+    "arraybuf_mb": 76.033,
+    "free_gb": 0.801,
+    "total_gb": 7.757,
+    "load1": 4.52
+  },
+  "summary": {
+    "score": 14459.576,
+    "health": 100,
+    "verdict": "TRILLIONX_TIER23_RUNTIME_ACTIVE"
+  },
+  "truth_policy": {
+    "real_only": true,
+    "target_is_trillionx": true,
+    "codespaces_support_only": true,
+    "no_fake_frontier_ratio": true,
+    "no_fake_gpu": true
+  }
+}

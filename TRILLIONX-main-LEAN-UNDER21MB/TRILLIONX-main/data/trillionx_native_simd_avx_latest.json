@@ -1,0 +1,63 @@
+{
+  "name": "TRILLIONX_NATIVE_SIMD_AVX_AVX2_AVX512_REPORT",
+  "time": "2026-05-24T08:12:50.275Z",
+  "host": {
+    "cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "logical_cpus": 2,
+    "platform": "linux",
+    "arch": "x64",
+    "node": "v24.14.0",
+    "codespaces": true,
+    "container": true
+  },
+  "compiler": "/usr/bin/gcc",
+  "compile_command": "/usr/bin/gcc -O3 -march=native native/simd/trillionx_simd_native_bench.c -o native/simd/trillionx_simd_native_bench",
+  "detected_flags": {
+    "sse": true,
+    "sse2": true,
+    "sse4_1": true,
+    "sse4_2": true,
+    "avx": true,
+    "avx2": true,
+    "avx512f": true,
+    "fma": true
+  },
+  "native_result": {
+    "name": "TRILLIONX_NATIVE_SIMD_AVX_BENCH",
+    "n": 16000000,
+    "rounds": 24,
+    "scalar": {
+      "compiled": true,
+      "seconds": 0.209362,
+      "gops": 9.170716,
+      "checksum": 4104.732755
+    },
+    "avx512": {
+      "compiled": true,
+      "seconds": 0.352789,
+      "gops": 5.44235,
+      "checksum": 4104.732755
+    },
+    "avx": {
+      "compiled": true,
+      "seconds": 0.352011,
+      "gops": 5.45437,
+      "checksum": 4104.732755
+    },
+    "avx2": {
+      "compiled": true,
+      "note": "AVX2 flag enabled; float path uses AVX registers, AVX2 mainly benefits integer/vector extensions"
+    },
+    "fma": {
+      "compiled": true
+    },
+    "doctrine": "NATIVE_C_SIMD_REAL_EXECUTION_IF_CPU_AND_COMPILER_ALLOW"
+  },
+  "verdict": {
+    "native_simd": true,
+    "avx_detected": true,
+    "avx2_detected": true,
+    "avx512_detected": true,
+    "note": "This is native C SIMD compiled with -march=native. It is real native execution, not pure JavaScript."
+  }
+}

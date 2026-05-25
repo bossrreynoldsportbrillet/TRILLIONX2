@@ -1,0 +1,12 @@
+{
+  "engine": "TRILLIONX_JOB_DERIVATIVE",
+  "time": "2026-05-24T22:40:02.383Z",
+  "id": "20260524224001_appcheck_520930_283102",
+  "type": "appcheck",
+  "cat": "APP",
+  "status": "DONE",
+  "duration_ms": 454,
+  "log_tail": "",
+  "error": null,
+  "seal": "c06f8b2449c6989670d97d2ae9069a25594351b88a032bced65b4a76df710c87"
+}

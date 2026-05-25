@@ -1,0 +1,1 @@
+{"version":"0.2.0","configurations":[{"name":"TRILLIONS: node app.js","type":"node","request":"launch","program":"${workspaceFolder}/app.js","cwd":"${workspaceFolder}","env":{"PORT":"3000"},"console":"integratedTerminal"},{"name":"TRILLIONS: Attach 9229","type":"node","request":"attach","port":9229,"address":"localhost","restart":true}]}

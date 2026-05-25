@@ -1,0 +1,26 @@
+{
+  "name": "TRILLIONX_PLANETARY_DEFENSE_MICRO_PACKET_BENCH",
+  "packet_kb": 8,
+  "rounds": 25000,
+  "duration_s": 0.4406,
+  "packets_s": 56737.4,
+  "throughput_MB_s": 443.26,
+  "accepted": 24977,
+  "quarantined": 23,
+  "repaired": 23,
+  "integrity_percent": 100,
+  "zones": {
+    "GREEN": 25000,
+    "AMBER": 23,
+    "RED": 0
+  },
+  "defense_root_hash": "43320dc63a580da775f8daa260807d14",
+  "rss_end_GB": 0.069,
+  "disk_workspaces": {
+    "total_MB": 32078,
+    "used_MB": 22653,
+    "free_MB": 7771,
+    "use_percent": "75%"
+  },
+  "doctrine": "DEFENSIVE_LOCAL_ONLY + REAL_ONLY_OR_UNAVAILABLE"
+}

@@ -1,0 +1,398 @@
+{
+  "time": "2026-05-24T10:28:26.467Z",
+  "engine": "TRILLIONX",
+  "module": "RTX4090_ASTRAL_VIRTUAL_PROFILE_BENCH",
+  "profile": {
+    "name": "TRILLIONX_RTX4090_ASTRAL_VIRTUAL_PROFILE",
+    "target": "RTX_4090_ASTRAL_VIRTUALIZED",
+    "vram_gb_profile": 24,
+    "cuda_cores_profile": 16384,
+    "tensor_cores_profile": 512,
+    "rt_cores_profile": 128,
+    "bus_profile": "PCIe_4.0_x16_profile",
+    "truth": "profile_or_emulation_until_real_gpu_backend_detected",
+    "no_fake_gpu": true
+  },
+  "host": {
+    "platform": "linux",
+    "release": "6.8.0-1044-azure",
+    "cpus": 2,
+    "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "ram_gb": 7.757,
+    "node": "v24.14.0"
+  },
+  "simd": {
+    "sse": true,
+    "sse2": true,
+    "sse4_1": true,
+    "sse4_2": true,
+    "avx": true,
+    "avx2": true,
+    "avx512f": true,
+    "avx512bw": true,
+    "avx512vl": true,
+    "avx512vnni": false,
+    "fma": true,
+    "aes": true,
+    "sha_ni": true
+  },
+  "gpu": {
+    "nvidia_smi": false,
+    "nvcc": false,
+    "vulkaninfo": false,
+    "glxinfo": false,
+    "clinfo": false,
+    "cuda_visible": false,
+    "webgpu_node": false,
+    "real_cuda": false,
+    "real_vulkan": false,
+    "real_webgpu": false
+  },
+  "packets": [
+    {
+      "summary": {
+        "packet": 1,
+        "backend": "ASTRAL_SOFTWARE_PROFILE",
+        "matrix_gops": 0.034186,
+        "mem_gb_s": 0.869,
+        "hash_mb_s": 1114.945,
+        "vr_mirror_ops_s": 75062068.82,
+        "score": 125.871,
+        "health": 83,
+        "flags": [
+          "GPU_BACKEND_NOT_EXPOSED",
+          "LOW_MATRIX_GOPS"
+        ]
+      },
+      "matrix": {
+        "n": 12000,
+        "it": 3,
+        "ms": 4.212,
+        "gops": 0.034186,
+        "checksum": 237914.887
+      },
+      "mem": {
+        "mb": 24,
+        "ms": 53.927,
+        "gb_s": 0.869,
+        "checksum": 1609039872
+      },
+      "hash": {
+        "input_mb": 12,
+        "rounds": 3,
+        "ms": 32.289,
+        "mb_s": 1114.945,
+        "hash": "beb81f12d1ac1b41"
+      },
+      "vr": {
+        "mirrors": 250000,
+        "ms": 3.331,
+        "mirror_ops_s": 75062068.82,
+        "checksum": 489983232
+      }
+    },
+    {
+      "summary": {
+        "packet": 2,
+        "backend": "ASTRAL_SOFTWARE_PROFILE",
+        "matrix_gops": 0.189058,
+        "mem_gb_s": 2.064,
+        "hash_mb_s": 1236.569,
+        "vr_mirror_ops_s": 138650064.15,
+        "score": 211.493,
+        "health": 88,
+        "flags": [
+          "GPU_BACKEND_NOT_EXPOSED"
+        ]
+      },
+      "matrix": {
+        "n": 24000,
+        "it": 4,
+        "ms": 2.031,
+        "gops": 0.189058,
+        "checksum": 634627.141
+      },
+      "mem": {
+        "mb": 32,
+        "ms": 30.277,
+        "gb_s": 2.064,
+        "checksum": 2145386496
+      },
+      "hash": {
+        "input_mb": 16,
+        "rounds": 4,
+        "ms": 51.756,
+        "mb_s": 1236.569,
+        "hash": "819f5d32a57d67d8"
+      },
+      "vr": {
+        "mirrors": 500000,
+        "ms": 3.606,
+        "mirror_ops_s": 138650064.15,
+        "checksum": 743338240
+      }
+    },
+    {
+      "summary": {
+        "packet": 3,
+        "backend": "ASTRAL_SOFTWARE_PROFILE",
+        "matrix_gops": 0.118774,
+        "mem_gb_s": 2.42,
+        "hash_mb_s": 773.116,
+        "vr_mirror_ops_s": 59803671.72,
+        "score": 109.91,
+        "health": 88,
+        "flags": [
+          "GPU_BACKEND_NOT_EXPOSED"
+        ]
+      },
+      "matrix": {
+        "n": 36000,
+        "it": 5,
+        "ms": 6.062,
+        "gops": 0.118774,
+        "checksum": 1190356.777
+      },
+      "mem": {
+        "mb": 40,
+        "ms": 32.284,
+        "gb_s": 2.42,
+        "checksum": 2681733120
+      },
+      "hash": {
+        "input_mb": 20,
+        "rounds": 5,
+        "ms": 129.347,
+        "mb_s": 773.116,
+        "hash": "484a82bc8d880f3c"
+      },
+      "vr": {
+        "mirrors": 750000,
+        "ms": 12.541,
+        "mirror_ops_s": 59803671.72,
+        "checksum": 835651584
+      }
+    },
+    {
+      "summary": {
+        "packet": 4,
+        "backend": "ASTRAL_SOFTWARE_PROFILE",
+        "matrix_gops": 0.292045,
+        "mem_gb_s": 2.632,
+        "hash_mb_s": 1227.313,
+        "vr_mirror_ops_s": 587764045.65,
+        "score": 670.748,
+        "health": 88,
+        "flags": [
+          "GPU_BACKEND_NOT_EXPOSED"
+        ]
+      },
+      "matrix": {
+        "n": 48000,
+        "it": 6,
+        "ms": 3.945,
+        "gops": 0.292045,
+        "checksum": 1904740.105
+      },
+      "mem": {
+        "mb": 48,
+        "ms": 35.613,
+        "gb_s": 2.632,
+        "checksum": 3218079744
+      },
+      "hash": {
+        "input_mb": 24,
+        "rounds": 6,
+        "ms": 117.329,
+        "mb_s": 1227.313,
+        "hash": "820b23d36ba142be"
+      },
+      "vr": {
+        "mirrors": 1000000,
+        "ms": 1.701,
+        "mirror_ops_s": 587764045.65,
+        "checksum": 4212562944
+      }
+    },
+    {
+      "summary": {
+        "packet": 5,
+        "backend": "ASTRAL_SOFTWARE_PROFILE",
+        "matrix_gops": 1.71572,
+        "mem_gb_s": 2.484,
+        "hash_mb_s": 911.41,
+        "vr_mirror_ops_s": 440286263.56,
+        "score": 623.936,
+        "health": 88,
+        "flags": [
+          "GPU_BACKEND_NOT_EXPOSED"
+        ]
+      },
+      "matrix": {
+        "n": 60000,
+        "it": 7,
+        "ms": 0.979,
+        "gops": 1.71572,
+        "checksum": 2777499.483
+      },
+      "mem": {
+        "mb": 56,
+        "ms": 44.032,
+        "gb_s": 2.484,
+        "checksum": 3754426368
+      },
+      "hash": {
+        "input_mb": 28,
+        "rounds": 7,
+        "ms": 215.051,
+        "mb_s": 911.41,
+        "hash": "fd74fa2a30b6f5de"
+      },
+      "vr": {
+        "mirrors": 1250000,
+        "ms": 2.839,
+        "mirror_ops_s": 440286263.56,
+        "checksum": 505040640
+      }
+    },
+    {
+      "summary": {
+        "packet": 6,
+        "backend": "ASTRAL_SOFTWARE_PROFILE",
+        "matrix_gops": 0.312591,
+        "mem_gb_s": 0.974,
+        "hash_mb_s": 641.148,
+        "vr_mirror_ops_s": 7032200.64,
+        "score": 61.581,
+        "health": 80,
+        "flags": [
+          "GPU_BACKEND_NOT_EXPOSED",
+          "LOW_FREE_RAM"
+        ]
+      },
+      "matrix": {
+        "n": 72000,
+        "it": 8,
+        "ms": 7.371,
+        "gops": 0.312591,
+        "checksum": 3809343.98
+      },
+      "mem": {
+        "mb": 64,
+        "ms": 128.352,
+        "gb_s": 0.974,
+        "checksum": 4290772992
+      },
+      "hash": {
+        "input_mb": 32,
+        "rounds": 8,
+        "ms": 399.284,
+        "mb_s": 641.148,
+        "hash": "f19fa3d56164c3ff"
+      },
+      "vr": {
+        "mirrors": 1500000,
+        "ms": 213.304,
+        "mirror_ops_s": 7032200.64,
+        "checksum": 1203412224
+      }
+    },
+    {
+      "summary": {
+        "packet": 7,
+        "backend": "ASTRAL_SOFTWARE_PROFILE",
+        "matrix_gops": 0.275972,
+        "mem_gb_s": 0.645,
+        "hash_mb_s": 834.672,
+        "vr_mirror_ops_s": 97002748.12,
+        "score": 155.047,
+        "health": 88,
+        "flags": [
+          "GPU_BACKEND_NOT_EXPOSED"
+        ]
+      },
+      "matrix": {
+        "n": 84000,
+        "it": 9,
+        "ms": 10.958,
+        "gops": 0.275972,
+        "checksum": 5000559.003
+      },
+      "mem": {
+        "mb": 72,
+        "ms": 217.939,
+        "gb_s": 0.645,
+        "checksum": 4827119616
+      },
+      "hash": {
+        "input_mb": 36,
+        "rounds": 9,
+        "ms": 388.176,
+        "mb_s": 834.672,
+        "hash": "2d8688279a0ce6d0"
+      },
+      "vr": {
+        "mirrors": 1750000,
+        "ms": 18.041,
+        "mirror_ops_s": 97002748.12,
+        "checksum": 1083443712
+      }
+    },
+    {
+      "summary": {
+        "packet": 8,
+        "backend": "ASTRAL_SOFTWARE_PROFILE",
+        "matrix_gops": 0.74972,
+        "mem_gb_s": 2.425,
+        "hash_mb_s": 1026.465,
+        "vr_mirror_ops_s": 96666321.73,
+        "score": 207.403,
+        "health": 88,
+        "flags": [
+          "GPU_BACKEND_NOT_EXPOSED"
+        ]
+      },
+      "matrix": {
+        "n": 96000,
+        "it": 10,
+        "ms": 5.122,
+        "gops": 0.74972,
+        "checksum": 6349257.422
+      },
+      "mem": {
+        "mb": 80,
+        "ms": 64.443,
+        "gb_s": 2.425,
+        "checksum": 5363466240
+      },
+      "hash": {
+        "input_mb": 40,
+        "rounds": 10,
+        "ms": 389.687,
+        "mb_s": 1026.465,
+        "hash": "3c626f3d6ce845a9"
+      },
+      "vr": {
+        "mirrors": 2000000,
+        "ms": 20.69,
+        "mirror_ops_s": 96666321.73,
+        "checksum": 1044847104
+      }
+    }
+  ],
+  "summary": {
+    "best_score": 670.748,
+    "best_packet": 4,
+    "best_backend": "ASTRAL_SOFTWARE_PROFILE",
+    "avg_health": 86.38,
+    "verdict": "RTX4090_ASTRAL_PROFILE_READY_GPU_NOT_EXPOSED",
+    "humanity_reading": "Useful as a truthful measurement framework: it separates real backend, software profile, VR mirrors, memory pressure and health without fake GPU claims."
+  },
+  "truth_policy": {
+    "real_only": true,
+    "no_fake_gpu": true,
+    "no_fake_vr": true,
+    "codespaces_can_prepare_backend": true,
+    "physical_rtx4090_requires_real_host": true
+  }
+}

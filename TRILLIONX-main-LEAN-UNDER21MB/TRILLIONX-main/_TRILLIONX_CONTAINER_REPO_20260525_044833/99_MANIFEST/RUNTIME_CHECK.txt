@@ -1,0 +1,13 @@
+=== Runtime check ===
+--- PORT 3000 ---
+LISTEN 0      511                *:3000             *:*    users:(("MainThread",pid=267081,fd=22))
+--- HTTP ---
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: text/html; charset=utf-8
+Content-Length: 20108
+ETag: W/"4e8c-eQnDM3Q0r1WNk/w8Mh0SWdL7CM0"
+Date: Mon, 25 May 2026 04:48:33 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+

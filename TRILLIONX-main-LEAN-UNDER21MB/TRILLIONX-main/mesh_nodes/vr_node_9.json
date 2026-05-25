@@ -1,0 +1,9 @@
+{
+  "node_id": 9,
+  "node_name": "TRILLIONX_VR_NODE_09",
+  "port": 3019,
+  "status": "ACTIVE",
+  "created": "2026-05-24T14:27:08.101Z",
+  "target": "TRILLIONX",
+  "vr_mirror": "ACTIVE"
+}

@@ -1,0 +1,111 @@
+{
+  "engine": "TRILLIONX_HYPERBOLIC_MICROCONTROLLER_JOKER",
+  "version": "V1",
+  "ts": "2026-05-24T14:14:30.472Z",
+  "sources": {
+    "joker_external_public_status": "NO_CLEAR_PUBLIC_TECH_STANDARD_FOUND_FOR_TRILLIONX_JOKER_1_1_2_0",
+    "joker_math_note": "Public search mostly finds Joker modules in algebraic topology; TRILLIONX Joker is treated as internal controller profile.",
+    "hyperbolic_note": "Hyperbolic graph methods are suitable for hierarchical / high-curvature structure maps."
+  },
+  "joker": {
+    "1.1": {
+      "name": "JOKER_1_1_STABILITY_GUARD",
+      "role": "stability, rollback, health, contradiction guard",
+      "rules": [
+        "NO_FAKE_POWER",
+        "NO_FAKE_GPU",
+        "NO_FAKE_VR",
+        "REAL_ONLY_OR_UNAVAILABLE",
+        "HEALTH_BEFORE_SCORE",
+        "ROLLBACK_ON_PRESSURE",
+        "CODESPACES_SUPPORT_ONLY"
+      ],
+      "thresholds": {
+        "health_min": 72,
+        "rss_mb_max": 1200,
+        "latency_ms_max": 1500,
+        "error_max": 3
+      }
+    },
+    "2.0": {
+      "name": "JOKER_2_0_ADAPTIVE_AMPLIFIER",
+      "role": "adaptive routing, packet scaling, mirror/cache balancing, mesh aggregation",
+      "rules": [
+        "AUTO_DETECT_REQUIRED",
+        "PACKETIZE_HEAVY_WORK",
+        "AMPLIFY_ONLY_AS_VIRTUAL_PROJECTION",
+        "MEASURE_REAL_GAIN_SEPARATELY",
+        "SHARE_VR_CACHE",
+        "RAID60_PLUS_PROTECT"
+      ],
+      "thresholds": {
+        "target_health": 88,
+        "packet_scale_max": 2400,
+        "mirror_ratio_min": 0.6,
+        "cache_hit_min": 0.33
+      }
+    }
+  },
+  "state": {
+    "ts": "2026-05-24T14:14:30.472Z",
+    "engine": "TRILLIONX_HYPERBOLIC_MICROCONTROLLER",
+    "repo": {
+      "routes": 17362,
+      "api": 28446,
+      "health": 49
+    },
+    "mesh": {
+      "nodes": 20,
+      "vr_nodes": 20,
+      "health": 100
+    },
+    "shared": {
+      "mirrors": 0,
+      "mirror_ops_s": 0,
+      "cache_mb": 0,
+      "cache_hit_ratio": 0,
+      "health": 0
+    },
+    "raid": {
+      "protected_files": 179,
+      "stripes": 6,
+      "parity_blocks": 12
+    },
+    "network": {
+      "ports": 48,
+      "health": 4
+    },
+    "backend": {
+      "gpu": "UNAVAILABLE",
+      "vr": "UNAVAILABLE"
+    },
+    "memory": {
+      "rss_mb": 29.410156,
+      "heap_mb": 7.089386,
+      "free_gb": 1.142708
+    },
+    "hyperbolic": {
+      "curvature": -0.041559,
+      "control_score": 147.08598,
+      "health": 100
+    }
+  },
+  "decision": {
+    "mode": "STABLE_CONTROL",
+    "actions": [
+      "JOKER_2_0_CACHE_REBALANCE",
+      "NETWORK_RESCAN_RECOMMENDED",
+      "GPU_PROFILE_ONLY_KEEP_NO_FAKE_GPU"
+    ],
+    "verdict": "HYPERBOLIC_CONTROL_EXCELLENT"
+  },
+  "truth_policy": {
+    "real_only": true,
+    "joker_is_internal_trillionx_profile": true,
+    "no_external_standard_claim": true,
+    "no_fake_gpu": true,
+    "no_fake_vr": true,
+    "hyperbolic_controller_is_software_runtime": true
+  },
+  "signature": "4d54663c9a6e17f8871beb8bcf528609f287fdfb6adfc71668ec8a5c000a72b9"
+}

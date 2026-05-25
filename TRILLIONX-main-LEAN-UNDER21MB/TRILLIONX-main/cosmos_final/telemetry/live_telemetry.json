@@ -1,0 +1,643 @@
+[
+  {
+    "time": "2026-05-25T12:42:43.714Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 12448
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:44.909Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 16551
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:44.986Z",
+    "type": "packets",
+    "data": {
+      "packet_rate": 4
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:45.993Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 315
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:45.993Z",
+    "type": "throughput",
+    "data": {
+      "throughput_ops": 29314
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.006Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 22416
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.019Z",
+    "type": "energy",
+    "data": {
+      "energy_index": 53592
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.019Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 4926
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.020Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 12590
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.064Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 17613
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.083Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 5476
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.084Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 18087
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.084Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 23120
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.123Z",
+    "type": "worker",
+    "data": {
+      "worker": 2,
+      "hashes_per_sec": 8367
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.130Z",
+    "type": "worker",
+    "data": {
+      "worker": 2,
+      "hashes_per_sec": 13658
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.236Z",
+    "type": "worker",
+    "data": {
+      "worker": 2,
+      "hashes_per_sec": 23049
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.253Z",
+    "type": "worker",
+    "data": {
+      "worker": 3,
+      "hashes_per_sec": 9183
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.304Z",
+    "type": "worker",
+    "data": {
+      "worker": 3,
+      "hashes_per_sec": 12554
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.305Z",
+    "type": "worker",
+    "data": {
+      "worker": 3,
+      "hashes_per_sec": 22872
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.305Z",
+    "type": "worker",
+    "data": {
+      "worker": 4,
+      "hashes_per_sec": 7583
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.306Z",
+    "type": "worker",
+    "data": {
+      "worker": 4,
+      "hashes_per_sec": 14894
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.310Z",
+    "type": "worker",
+    "data": {
+      "worker": 4,
+      "hashes_per_sec": 21085
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.313Z",
+    "type": "worker",
+    "data": {
+      "worker": 5,
+      "hashes_per_sec": 11030
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.316Z",
+    "type": "worker",
+    "data": {
+      "worker": 5,
+      "hashes_per_sec": 16519
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.316Z",
+    "type": "worker",
+    "data": {
+      "worker": 5,
+      "hashes_per_sec": 20002
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.317Z",
+    "type": "worker",
+    "data": {
+      "worker": 6,
+      "hashes_per_sec": 8846
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.318Z",
+    "type": "worker",
+    "data": {
+      "worker": 6,
+      "hashes_per_sec": 17772
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.319Z",
+    "type": "worker",
+    "data": {
+      "worker": 6,
+      "hashes_per_sec": 23508
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.322Z",
+    "type": "worker",
+    "data": {
+      "worker": 7,
+      "hashes_per_sec": 15051
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.324Z",
+    "type": "worker",
+    "data": {
+      "worker": 7,
+      "hashes_per_sec": 17399
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.325Z",
+    "type": "worker",
+    "data": {
+      "worker": 7,
+      "hashes_per_sec": 18236
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.326Z",
+    "type": "worker",
+    "data": {
+      "worker": 7,
+      "hashes_per_sec": 23134
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.331Z",
+    "type": "worker",
+    "data": {
+      "worker": 8,
+      "hashes_per_sec": 11756
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.331Z",
+    "type": "worker",
+    "data": {
+      "worker": 8,
+      "hashes_per_sec": 17237
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.331Z",
+    "type": "worker",
+    "data": {
+      "worker": 8,
+      "hashes_per_sec": 20000
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.331Z",
+    "type": "worker",
+    "data": {
+      "worker": 9,
+      "hashes_per_sec": 22628
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.331Z",
+    "type": "worker",
+    "data": {
+      "worker": 9,
+      "hashes_per_sec": 17518
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.332Z",
+    "type": "worker",
+    "data": {
+      "worker": 9,
+      "hashes_per_sec": 20454
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.332Z",
+    "type": "worker",
+    "data": {
+      "worker": 9,
+      "hashes_per_sec": 25033
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.334Z",
+    "type": "worker",
+    "data": {
+      "worker": 10,
+      "hashes_per_sec": 14441
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.335Z",
+    "type": "worker",
+    "data": {
+      "worker": 10,
+      "hashes_per_sec": 16713
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.336Z",
+    "type": "worker",
+    "data": {
+      "worker": 10,
+      "hashes_per_sec": 20615
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.338Z",
+    "type": "worker",
+    "data": {
+      "worker": 11,
+      "hashes_per_sec": 7150
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.342Z",
+    "type": "worker",
+    "data": {
+      "worker": 11,
+      "hashes_per_sec": 16754
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.342Z",
+    "type": "worker",
+    "data": {
+      "worker": 11,
+      "hashes_per_sec": 17621
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.342Z",
+    "type": "worker",
+    "data": {
+      "worker": 12,
+      "hashes_per_sec": 9505
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.342Z",
+    "type": "worker",
+    "data": {
+      "worker": 12,
+      "hashes_per_sec": 19928
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.342Z",
+    "type": "worker",
+    "data": {
+      "worker": 12,
+      "hashes_per_sec": 20165
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.386Z",
+    "type": "worker",
+    "data": {
+      "worker": 13,
+      "hashes_per_sec": 7191
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.386Z",
+    "type": "worker",
+    "data": {
+      "worker": 13,
+      "hashes_per_sec": 18716
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.386Z",
+    "type": "worker",
+    "data": {
+      "worker": 13,
+      "hashes_per_sec": 21341
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.387Z",
+    "type": "worker",
+    "data": {
+      "worker": 14,
+      "hashes_per_sec": 15752
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.394Z",
+    "type": "worker",
+    "data": {
+      "worker": 14,
+      "hashes_per_sec": 19325
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.397Z",
+    "type": "worker",
+    "data": {
+      "worker": 14,
+      "hashes_per_sec": 20794
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.418Z",
+    "type": "worker",
+    "data": {
+      "worker": 15,
+      "hashes_per_sec": 5538
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.418Z",
+    "type": "worker",
+    "data": {
+      "worker": 15,
+      "hashes_per_sec": 13633
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.419Z",
+    "type": "worker",
+    "data": {
+      "worker": 15,
+      "hashes_per_sec": 19719
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.427Z",
+    "type": "worker",
+    "data": {
+      "worker": 16,
+      "hashes_per_sec": 9873
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.428Z",
+    "type": "worker",
+    "data": {
+      "worker": 16,
+      "hashes_per_sec": 15962
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.433Z",
+    "type": "worker",
+    "data": {
+      "worker": 16,
+      "hashes_per_sec": 23466
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.434Z",
+    "type": "worker",
+    "data": {
+      "worker": 17,
+      "hashes_per_sec": 11862
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.437Z",
+    "type": "worker",
+    "data": {
+      "worker": 17,
+      "hashes_per_sec": 14499
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.437Z",
+    "type": "worker",
+    "data": {
+      "worker": 17,
+      "hashes_per_sec": 25824
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.439Z",
+    "type": "worker",
+    "data": {
+      "worker": 18,
+      "hashes_per_sec": 6165
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.443Z",
+    "type": "worker",
+    "data": {
+      "worker": 18,
+      "hashes_per_sec": 13457
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.445Z",
+    "type": "worker",
+    "data": {
+      "worker": 18,
+      "hashes_per_sec": 20881
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.448Z",
+    "type": "worker",
+    "data": {
+      "worker": 19,
+      "hashes_per_sec": 7758
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.449Z",
+    "type": "worker",
+    "data": {
+      "worker": 19,
+      "hashes_per_sec": 15841
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.456Z",
+    "type": "worker",
+    "data": {
+      "worker": 19,
+      "hashes_per_sec": 24108
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.457Z",
+    "type": "worker",
+    "data": {
+      "worker": 20,
+      "hashes_per_sec": 9307
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.457Z",
+    "type": "worker",
+    "data": {
+      "worker": 20,
+      "hashes_per_sec": 13832
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.463Z",
+    "type": "worker",
+    "data": {
+      "worker": 20,
+      "hashes_per_sec": 21552
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.466Z",
+    "type": "worker",
+    "data": {
+      "worker": 21,
+      "hashes_per_sec": 9909
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.470Z",
+    "type": "worker",
+    "data": {
+      "worker": 21,
+      "hashes_per_sec": 20223
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.479Z",
+    "type": "worker",
+    "data": {
+      "worker": 21,
+      "hashes_per_sec": 23604
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.484Z",
+    "type": "worker",
+    "data": {
+      "worker": 22,
+      "hashes_per_sec": 11018
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.488Z",
+    "type": "worker",
+    "data": {
+      "worker": 22,
+      "hashes_per_sec": 12881
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.497Z",
+    "type": "worker",
+    "data": {
+      "worker": 22,
+      "hashes_per_sec": 21379
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.497Z",
+    "type": "worker",
+    "data": {
+      "worker": 23,
+      "hashes_per_sec": 7570
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.498Z",
+    "type": "worker",
+    "data": {
+      "worker": 23,
+      "hashes_per_sec": 11952
+    }
+  },
+  {
+    "time": "2026-05-25T12:42:47.498Z",
+    "type": "worker",
+    "data": {
+      "worker": 23,
+      "hashes_per_sec": 23866
+    }
+  }
+]

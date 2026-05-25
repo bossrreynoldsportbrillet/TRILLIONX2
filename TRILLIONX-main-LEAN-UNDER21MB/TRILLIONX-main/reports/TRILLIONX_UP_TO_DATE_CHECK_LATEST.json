@@ -1,0 +1,48 @@
+{
+  "engine": "TRILLIONX_UP_TO_DATE_CHECK",
+  "time": "2026-05-24T21:10:33.915Z",
+  "git": {
+    "branch": "main",
+    "local_commit": "00434e31461d2662572722bb683ddc883b32c9ec",
+    "remote_commit": "b2272e32230d6c8a31270f0a6a32f81eb7d89d6c",
+    "up_to_date": false,
+    "dirty": true,
+    "dirty_lines": [
+      "M data/TRILLIONX_RUNTIME_GUARD_LATEST.json"
+    ]
+  },
+  "app": {
+    "exists": true,
+    "sha256": "3331118a6a1cfe667b1004b900c926a96b936b741fd539c33b1aa42116bb936e",
+    "size_bytes": 1165312
+  },
+  "npm": {
+    "package_json": true,
+    "package_sha256": "d5e417d466a3b2a2441e858fc1bb667607ee14ec9b179ecf1235cb701503cb58",
+    "node_modules": true,
+    "npm_ready": true
+  },
+  "runtime": {
+    "node": "v22.22.2",
+    "cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "logical_cpu": 2,
+    "ram_total_gb": 7.757,
+    "ram_free_gb": 1.441,
+    "load": [
+      5.97,
+      3.23,
+      2.13
+    ],
+    "ports_visible": [
+      "LISTEN 0      511                *:3000             *:*    users:((\"node\",pid=10217,fd=23))"
+    ]
+  },
+  "files": {
+    "stable": true,
+    "dict_ok": true,
+    "runtime_guard": true,
+    "start_safe": true
+  },
+  "status": "NOT_UP_TO_DATE",
+  "seal": "53d84e28fa6829bd256e24aaa0948033f822215c5bf324cc32926e00975d2f1f"
+}

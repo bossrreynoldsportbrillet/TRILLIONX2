@@ -1,0 +1,100 @@
+{
+  "name": "TRILLIONX_SIMD_AVX_BENCH",
+  "version": "V1",
+  "level": "extreme",
+  "time": "2026-05-24T08:07:12.588Z",
+  "support": {
+    "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "logical_cpus": 2,
+    "ram_gb": 7.76,
+    "platform": "linux",
+    "arch": "x64",
+    "node": "v24.14.0",
+    "codespaces": true,
+    "container": true,
+    "simd": {
+      "sse": true,
+      "sse2": true,
+      "sse3": true,
+      "ssse3": true,
+      "sse4_1": true,
+      "sse4_2": true,
+      "avx": true,
+      "avx2": true,
+      "fma": true,
+      "avx512f": true,
+      "avx512dq": true,
+      "avx512cd": true,
+      "avx512bw": true,
+      "avx512vl": true,
+      "avx512vnni": true,
+      "aes": true,
+      "sha_ni": true
+    },
+    "tier": "AVX512_DETECTED_NATIVE_SUPPORT",
+    "lscpu": "CPU(s):                               2\nOn-line CPU(s) list:                  0,1\nModel name:                           Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz\nThread(s) per core:                   2\nCore(s) per socket:                   1\nSocket(s):                            1\nCPU(s) scaling MHz:                   122%\nCPU max MHz:                          2800.0000\nCPU min MHz:                          800.0000\nFlags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch tpr_shadow ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves vnmi avx512vbmi umip avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq la57 rdpid fsrm arch_capabilities\nVirtualization:                       VT-x\nHypervisor vendor:                    Microsoft\nVirtualization type:                  full\nNUMA node0 CPU(s):                    0,1",
+    "doctrine": "SIMD flags are detected from host CPU. JS/V8 may use optimized machine code, but manual AVX512 execution requires native addon/WASM/C/C++."
+  },
+  "wasm": {
+    "webassembly_available": true,
+    "note": "For direct portable SIMD, add a WASM SIMD module later. This benchmark currently uses JS typed arrays + V8 JIT."
+  },
+  "tests": [
+    {
+      "name": "typedarray_float64_vector_pressure",
+      "size": 4000000,
+      "rounds": 8,
+      "approx_ops": 160000000,
+      "ms": 289.52,
+      "approx_gops": 0.5526,
+      "checksum": 965.968966
+    },
+    {
+      "name": "typedarray_float32_vector_pressure",
+      "size": 8000000,
+      "rounds": 8,
+      "approx_ops": 192000000,
+      "ms": 758.32,
+      "approx_gops": 0.2532,
+      "checksum": 969.27828
+    },
+    {
+      "name": "int32_bitwise_vector_pressure",
+      "size": 8000000,
+      "rounds": 10,
+      "approx_ops": 400000000,
+      "ms": 670.19,
+      "approx_gops": 0.5968,
+      "checksum": 221224960
+    },
+    {
+      "name": "sha256_crypto_pressure",
+      "mb_per_round": 64,
+      "rounds": 24,
+      "total_mb": 1536,
+      "ms": 2174.8,
+      "mb_per_sec": 706.27,
+      "digest": "927268a838619839b02d44324df891cc"
+    },
+    {
+      "name": "dense_matrix_float64",
+      "n": 192,
+      "approx_ops": 14155776,
+      "ms": 61.2,
+      "approx_gops": 0.2313,
+      "checksum": 48087.469593
+    }
+  ],
+  "summary": {
+    "total_ms": 4502.1,
+    "cpu_user_ms": 2547.43,
+    "cpu_system_ms": 167.73,
+    "rss_mb": 149.38,
+    "heap_used_mb": 4.65,
+    "external_mb": 2.59,
+    "detected_tier": "AVX512_DETECTED_NATIVE_SUPPORT",
+    "real_compute_base": "CPU_NODEJS_REAL_HOST",
+    "manual_avx_execution": "UNAVAILABLE_IN_PURE_JS",
+    "verdict": "SIMD_SUPPORT_DETECTED_BENCHMARK_REAL_HOST_ONLY"
+  }
+}

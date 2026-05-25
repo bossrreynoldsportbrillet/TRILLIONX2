@@ -1,0 +1,28 @@
+{
+  "engine": "TRILLIONX_PROCESS_TOOLKIT_SAFE",
+  "time": "2026-05-24T21:57:58.686Z",
+  "status": "READY",
+  "safe": true,
+  "adds": [
+    "tx_start_nice.sh",
+    "tx_stop.sh",
+    "tx_watchdog.sh",
+    "tx_watchdog_start.sh",
+    "tx_process_status.sh",
+    "tx_log_rotate.sh"
+  ],
+  "improves": [
+    "process restart",
+    "terminal noise reduction",
+    "watchdog auto recovery",
+    "log anti-bloat",
+    "nice priority to protect Codespaces UI"
+  ],
+  "does_not_touch": [
+    "app.js",
+    "data",
+    "raid60_plus",
+    "node_modules"
+  ],
+  "seal": "0fe2cd55113f1567c09777f0c93e69d75e4869dea63ddb339bd84852004eb0f8"
+}
