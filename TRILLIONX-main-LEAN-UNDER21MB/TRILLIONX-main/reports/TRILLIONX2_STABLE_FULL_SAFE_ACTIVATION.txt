@@ -1,0 +1,16 @@
+TRILLIONX2_STABLE_FULL_SAFE_ACTIVATION
+time_utc=2026-05-25T04:11:01Z
+mode=STABLE_FULL_SAFE
+port=3000
+http_ok=true
+real_only=true
+no_fake_metrics=true
+safe_repair_only=true
+ui_active=true
+api_active=true
+socket_expected=true
+terminal_safe=true
+autogrowth=false
+heavy_jobs=false
+npm_install_required=false
+backup=backups/app.before_full_safe_activation_20260525_041054.js

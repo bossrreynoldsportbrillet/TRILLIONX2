@@ -1,0 +1,12 @@
+200 /
+200 /api/health
+200 /api/system
+200 /api/cockpit
+200 /api/ports
+404 /api/runtime
+200 /api/capacity
+200 /api/network
+200 /api/modules
+200 /api/repo
+200 /api/security
+200 /api/workload
