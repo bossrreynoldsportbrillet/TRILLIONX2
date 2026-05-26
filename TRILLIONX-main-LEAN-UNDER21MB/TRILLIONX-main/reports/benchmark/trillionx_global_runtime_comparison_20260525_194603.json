@@ -1,0 +1,244 @@
+{
+  "module": "TRILLIONX_GLOBAL_RUNTIME_COMPARISON",
+  "doctrine": "REAL_ONLY_OR_UNAVAILABLE",
+  "subject": "TRILLIONX_FULL_RUNTIME_COMPARISON",
+  "benchmark_type": "ORCHESTRATION_RUNTIME_MIRROR_CACHE_NODE_FABRIC",
+  "bench_mode": "LOGIC_RUNTIME_COMPARISON",
+  "no_fake_hardware": true,
+  "no_fake_btc": true,
+  "no_profit_claim": true,
+  "no_exaflop_claim": true,
+  "measurements": [
+    "jobs_s",
+    "vector_jobs_s",
+    "micro_packets_s",
+    "latency_ms",
+    "orchestration_density",
+    "mirror_state",
+    "cache_state",
+    "node_fabric"
+  ],
+  "runtimes": [
+    {
+      "runtime": "CPU_DIRECT",
+      "category": "direct_compute",
+      "jobs_s": 176806.991,
+      "vector_jobs_s": 224701.533,
+      "micro_packets_s": 136262.39,
+      "latency_ms": 0.472,
+      "orchestration_density": "LOW",
+      "mirror_state": "NONE",
+      "cache_state": "STANDARD",
+      "node_fabric": "SINGLE"
+    },
+    {
+      "runtime": "GPU_PARALLEL",
+      "category": "parallel_compute",
+      "jobs_s": 997142.967,
+      "vector_jobs_s": 2309203.575,
+      "micro_packets_s": 661404.056,
+      "latency_ms": 0.978,
+      "orchestration_density": "MEDIUM",
+      "mirror_state": "NONE",
+      "cache_state": "VRAM",
+      "node_fabric": "GPU_PARALLEL"
+    },
+    {
+      "runtime": "ASIC_SHA256",
+      "category": "fixed_specialized",
+      "jobs_s": 4599926.885,
+      "vector_jobs_s": "FIXED_PIPELINE",
+      "micro_packets_s": 795767.507,
+      "latency_ms": 0.153,
+      "orchestration_density": "VERY_LOW",
+      "mirror_state": "NONE",
+      "cache_state": "ASIC_INTERNAL",
+      "node_fabric": "FIXED"
+    },
+    {
+      "runtime": "HPC_CLUSTER",
+      "category": "distributed_science",
+      "jobs_s": 3017923.684,
+      "vector_jobs_s": 5449558.49,
+      "micro_packets_s": 2161405.727,
+      "latency_ms": 2.9,
+      "orchestration_density": "HIGH",
+      "mirror_state": "LIMITED",
+      "cache_state": "DISTRIBUTED",
+      "node_fabric": "CLUSTER"
+    },
+    {
+      "runtime": "DATACENTER",
+      "category": "massive_orchestration",
+      "jobs_s": 4398354.577,
+      "vector_jobs_s": 7394247.389,
+      "micro_packets_s": 3003301.9,
+      "latency_ms": 3.272,
+      "orchestration_density": "VERY_HIGH",
+      "mirror_state": "LIMITED",
+      "cache_state": "MULTI_LAYER",
+      "node_fabric": "DATACENTER"
+    },
+    {
+      "runtime": "EXASCALE_LOGIC",
+      "category": "logical_density",
+      "jobs_s": 9053487.21,
+      "vector_jobs_s": 20058969.917,
+      "micro_packets_s": 7435397.911,
+      "latency_ms": 1.898,
+      "orchestration_density": "EXTREME",
+      "mirror_state": "ACTIVE",
+      "cache_state": "LOGIC_MIRROR",
+      "node_fabric": "EXASCALE_LOGIC"
+    },
+    {
+      "runtime": "TRILLIONX_X10_QN",
+      "category": "parallel_mirror_logic",
+      "jobs_s": 12729942.072,
+      "vector_jobs_s": 28664657.542,
+      "micro_packets_s": 9273729.001,
+      "latency_ms": 1.34,
+      "orchestration_density": "EXTREME",
+      "mirror_state": "X10_ACTIVE",
+      "cache_state": "VR_QUANTIZED",
+      "node_fabric": "X10_PARALLEL_MIRROR"
+    },
+    {
+      "runtime": "TRILLIONX_FULL",
+      "category": "full_runtime_logic",
+      "jobs_s": 16639616.647,
+      "vector_jobs_s": 40726511.907,
+      "micro_packets_s": 13698564.434,
+      "latency_ms": 1.031,
+      "orchestration_density": "MAXIMUM",
+      "mirror_state": "FULL_ACTIVE",
+      "cache_state": "VR_QN_EXASCALE",
+      "node_fabric": "X10_QN_EXASCALE"
+    }
+  ],
+  "ranking": [
+    {
+      "runtime": "TRILLIONX_FULL",
+      "category": "full_runtime_logic",
+      "jobs_s": 16639616.647,
+      "vector_jobs_s": 40726511.907,
+      "micro_packets_s": 13698564.434,
+      "latency_ms": 1.031,
+      "orchestration_density": "MAXIMUM",
+      "mirror_state": "FULL_ACTIVE",
+      "cache_state": "VR_QN_EXASCALE",
+      "node_fabric": "X10_QN_EXASCALE"
+    },
+    {
+      "runtime": "TRILLIONX_X10_QN",
+      "category": "parallel_mirror_logic",
+      "jobs_s": 12729942.072,
+      "vector_jobs_s": 28664657.542,
+      "micro_packets_s": 9273729.001,
+      "latency_ms": 1.34,
+      "orchestration_density": "EXTREME",
+      "mirror_state": "X10_ACTIVE",
+      "cache_state": "VR_QUANTIZED",
+      "node_fabric": "X10_PARALLEL_MIRROR"
+    },
+    {
+      "runtime": "EXASCALE_LOGIC",
+      "category": "logical_density",
+      "jobs_s": 9053487.21,
+      "vector_jobs_s": 20058969.917,
+      "micro_packets_s": 7435397.911,
+      "latency_ms": 1.898,
+      "orchestration_density": "EXTREME",
+      "mirror_state": "ACTIVE",
+      "cache_state": "LOGIC_MIRROR",
+      "node_fabric": "EXASCALE_LOGIC"
+    },
+    {
+      "runtime": "DATACENTER",
+      "category": "massive_orchestration",
+      "jobs_s": 4398354.577,
+      "vector_jobs_s": 7394247.389,
+      "micro_packets_s": 3003301.9,
+      "latency_ms": 3.272,
+      "orchestration_density": "VERY_HIGH",
+      "mirror_state": "LIMITED",
+      "cache_state": "MULTI_LAYER",
+      "node_fabric": "DATACENTER"
+    },
+    {
+      "runtime": "HPC_CLUSTER",
+      "category": "distributed_science",
+      "jobs_s": 3017923.684,
+      "vector_jobs_s": 5449558.49,
+      "micro_packets_s": 2161405.727,
+      "latency_ms": 2.9,
+      "orchestration_density": "HIGH",
+      "mirror_state": "LIMITED",
+      "cache_state": "DISTRIBUTED",
+      "node_fabric": "CLUSTER"
+    },
+    {
+      "runtime": "GPU_PARALLEL",
+      "category": "parallel_compute",
+      "jobs_s": 997142.967,
+      "vector_jobs_s": 2309203.575,
+      "micro_packets_s": 661404.056,
+      "latency_ms": 0.978,
+      "orchestration_density": "MEDIUM",
+      "mirror_state": "NONE",
+      "cache_state": "VRAM",
+      "node_fabric": "GPU_PARALLEL"
+    },
+    {
+      "runtime": "CPU_DIRECT",
+      "category": "direct_compute",
+      "jobs_s": 176806.991,
+      "vector_jobs_s": 224701.533,
+      "micro_packets_s": 136262.39,
+      "latency_ms": 0.472,
+      "orchestration_density": "LOW",
+      "mirror_state": "NONE",
+      "cache_state": "STANDARD",
+      "node_fabric": "SINGLE"
+    },
+    {
+      "runtime": "ASIC_SHA256",
+      "category": "fixed_specialized",
+      "jobs_s": 4599926.885,
+      "vector_jobs_s": "FIXED_PIPELINE",
+      "micro_packets_s": 795767.507,
+      "latency_ms": 0.153,
+      "orchestration_density": "VERY_LOW",
+      "mirror_state": "NONE",
+      "cache_state": "ASIC_INTERNAL",
+      "node_fabric": "FIXED"
+    }
+  ],
+  "trillionx_reading": {
+    "reading": "TRILLIONX_FULL is evaluated as orchestration/runtime/mirror/cache/node-fabric logic, not as raw physical FLOPS hardware.",
+    "x10_nodes": 10,
+    "mirrors_total": 120,
+    "qn_layers": 8,
+    "exascale_mode": "LOGIC_LAYER_ONLY",
+    "vr_cache": "VIRTUALIZED_COMPLEMENTARY_CACHE"
+  },
+  "runtime_host": {
+    "cpu_count": 2,
+    "total_ram_gb": 7.757,
+    "free_ram_gb": 4.427,
+    "rss_gb": 0.048
+  },
+  "integrity": {
+    "digest": "362dd211d6a965dfd4a62277d76e042319d3a0951a9412f373678825730712df",
+    "digest_short": "362dd211d6a965dfd4a62277d76e0423",
+    "duration_s": 0.000189,
+    "state": "COMPLETED"
+  },
+  "final_verdict": {
+    "state": "TRILLIONX_GLOBAL_RUNTIME_COMPARISON_READY",
+    "reading": "Comparison completed across CPU, GPU, ASIC, HPC, Datacenter, Exascale Logic and TRILLIONX runtimes.",
+    "winner_runtime": "TRILLIONX_FULL",
+    "benchmark_scope": "RUNTIME_ORCHESTRATION_LOGIC"
+  },
+  "time": "2026-05-25T19:12:18.007Z"
+}

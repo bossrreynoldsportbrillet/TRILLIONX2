@@ -1,0 +1,10 @@
+{
+  "engine": "TRILLIONX_ALL_BUTTONS_RENDER_FIX_SOURCE",
+  "time": "2026-05-24T23:41:34Z",
+  "patches": 1,
+  "mode": "universal_ui_button_renderer",
+  "scope": "fetch/json/stdout/out/data/stderr/error",
+  "no_security_bypass": true,
+  "api_routes_kept": true,
+  "seal": "a8d7d50fe65b7aba35279057016e4455670d90c6fcde3ab6f75bcae93fcae628"
+}

@@ -1,0 +1,105 @@
+{
+  "time": "2026-05-24T10:00:08.701Z",
+  "engine": "TRILLIONX",
+  "backend_probe": "WebGPU/CUDA/Vulkan/OpenXR",
+  "runtime_host": "current execution host",
+  "cpu": {
+    "model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "logical": 2,
+    "ghz": 2.79,
+    "ram_gb": 7.757
+  },
+  "gpu_vr_detection": {
+    "nvidia_smi": "",
+    "nvcc": "",
+    "vulkan": "",
+    "openxr": "",
+    "webgpu_node": false,
+    "cuda_exposed": false,
+    "vulkan_exposed": false,
+    "openxr_exposed": false,
+    "any_real_gpu_backend": false
+  },
+  "cpu_bench": [
+    {
+      "round": 1,
+      "loops": 580000,
+      "ms": 13.24,
+      "mops_s": 43.807,
+      "checksum": 28249.053
+    },
+    {
+      "round": 2,
+      "loops": 760000,
+      "ms": 15.748,
+      "mops_s": 48.259,
+      "checksum": 36570.405
+    },
+    {
+      "round": 3,
+      "loops": 940000,
+      "ms": 23.944,
+      "mops_s": 39.259,
+      "checksum": 45014.305
+    },
+    {
+      "round": 4,
+      "loops": 1120000,
+      "ms": 18.773,
+      "mops_s": 59.66,
+      "checksum": 54313.756
+    },
+    {
+      "round": 5,
+      "loops": 1300000,
+      "ms": 21.444,
+      "mops_s": 60.622,
+      "checksum": 63695.514
+    },
+    {
+      "round": 6,
+      "loops": 1480000,
+      "ms": 24.536,
+      "mops_s": 60.32,
+      "checksum": 72114.505
+    },
+    {
+      "round": 7,
+      "loops": 1660000,
+      "ms": 27.908,
+      "mops_s": 59.482,
+      "checksum": 80879.166
+    },
+    {
+      "round": 8,
+      "loops": 1840000,
+      "ms": 30.397,
+      "mops_s": 60.533,
+      "checksum": 89079.05
+    }
+  ],
+  "hash": {
+    "input_mb": 32,
+    "ms": 32.469,
+    "mb_s": 985.557,
+    "sha256": "b99d0ff4cd4c97d03c22b80c"
+  },
+  "vr_mirror": {
+    "mirrors": 768000,
+    "ms": 15.268,
+    "mirror_ops_s": 100601691.117,
+    "checksum": 2867847168
+  },
+  "health": {
+    "score": 88,
+    "diagnostic": "GOOD_SOFTWARE_READY_HARDWARE_NOT_EXPOSED"
+  },
+  "truth_policy": {
+    "real_only": true,
+    "no_fake_gpu": true,
+    "no_fake_vr": true,
+    "codespaces_can_prepare_backend": true,
+    "physical_gpu_or_openxr_required_for_real_vr": true
+  },
+  "verdict": "GPU_VR_BACKEND_CREATED_BUT_HARDWARE_NOT_EXPOSED_IN_CODESPACES"
+}

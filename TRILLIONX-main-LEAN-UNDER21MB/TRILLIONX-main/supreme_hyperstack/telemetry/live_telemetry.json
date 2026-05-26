@@ -1,0 +1,228 @@
+[
+  {
+    "time": "2026-05-25T12:34:30.580Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 78250
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:30.580Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 128427
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:30.581Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 119019
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:30.582Z",
+    "type": "worker",
+    "data": {
+      "worker": 2,
+      "hashes_per_sec": 124161
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:30.582Z",
+    "type": "worker",
+    "data": {
+      "worker": 3,
+      "hashes_per_sec": 114121
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:31.608Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 66954
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:32.626Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 15348
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:32.626Z",
+    "type": "cache",
+    "data": {
+      "cache_hits": 2683
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:32.639Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 75341
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:32.644Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 95103
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:32.646Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 98225
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:32.676Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 77649
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:32.677Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 77232
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:32.677Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 74479
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:32.677Z",
+    "type": "worker",
+    "data": {
+      "worker": 2,
+      "hashes_per_sec": 76254
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:32.677Z",
+    "type": "worker",
+    "data": {
+      "worker": 2,
+      "hashes_per_sec": 81883
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:32.678Z",
+    "type": "worker",
+    "data": {
+      "worker": 3,
+      "hashes_per_sec": 75855
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:32.678Z",
+    "type": "worker",
+    "data": {
+      "worker": 3,
+      "hashes_per_sec": 84043
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:32.680Z",
+    "type": "worker",
+    "data": {
+      "worker": 3,
+      "hashes_per_sec": 82687
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:33.680Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 93117
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:34.703Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 125094
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:34.712Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 93864
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:34.712Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 64447
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:34.713Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 107223
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:34.714Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 68639
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:34.714Z",
+    "type": "worker",
+    "data": {
+      "worker": 2,
+      "hashes_per_sec": 77294
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:34.714Z",
+    "type": "worker",
+    "data": {
+      "worker": 2,
+      "hashes_per_sec": 86320
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:34.714Z",
+    "type": "worker",
+    "data": {
+      "worker": 3,
+      "hashes_per_sec": 95255
+    }
+  },
+  {
+    "time": "2026-05-25T12:34:34.719Z",
+    "type": "worker",
+    "data": {
+      "worker": 3,
+      "hashes_per_sec": 65102
+    }
+  }
+]

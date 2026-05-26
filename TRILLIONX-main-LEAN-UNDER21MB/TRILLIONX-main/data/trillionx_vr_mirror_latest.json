@@ -1,0 +1,221 @@
+{
+  "time": "2026-05-24T10:06:21.749Z",
+  "engine": "TRILLIONX",
+  "bench": "VR_MIRROR_MEMORY_REAL_HOST",
+  "mode": "heavy",
+  "wait_ms": 1200,
+  "cpu_profile": {
+    "model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "logical": 2,
+    "ghz": 2.792,
+    "ram_gb": 7.757
+  },
+  "support": {
+    "cuda_exposed": false,
+    "vulkan_exposed": false,
+    "openxr_exposed": false,
+    "real_vr_runtime": false,
+    "real_gpu_runtime": false,
+    "cuda": "",
+    "cuda_note": "CUDA_NOT_EXPOSED",
+    "vulkan_note": "VULKAN_NOT_EXPOSED",
+    "openxr_note": "OPENXR_NOT_EXPOSED"
+  },
+  "packets": [
+    {
+      "level": 1,
+      "mirrors": 65536,
+      "mb": 0.25,
+      "write_read_ms": 5.175,
+      "mirror_ops_s": 16883887,
+      "bandwidth_gb_s": 0.047,
+      "compress_ms": 6.366,
+      "compressed_mb": 0.25,
+      "compression_ratio": 1.000336,
+      "checksum": 1053493830,
+      "rss_mb": 55.328,
+      "health": 99.77,
+      "flags": [
+        "OPENXR_NOT_EXPOSED",
+        "GPU_BACKEND_NOT_EXPOSED"
+      ]
+    },
+    {
+      "level": 2,
+      "mirrors": 131072,
+      "mb": 0.5,
+      "write_read_ms": 0.508,
+      "mirror_ops_s": 344278506.996,
+      "bandwidth_gb_s": 0.962,
+      "compress_ms": 11.771,
+      "compressed_mb": 0.5,
+      "compression_ratio": 1.00032,
+      "checksum": 616759921,
+      "rss_mb": 57.078,
+      "health": 99.92,
+      "flags": [
+        "OPENXR_NOT_EXPOSED",
+        "GPU_BACKEND_NOT_EXPOSED"
+      ]
+    },
+    {
+      "level": 3,
+      "mirrors": 196608,
+      "mb": 0.75,
+      "write_read_ms": 0.69,
+      "mirror_ops_s": 379804899.11,
+      "bandwidth_gb_s": 1.061,
+      "compress_ms": 19.091,
+      "compressed_mb": 0.75,
+      "compression_ratio": 1.000319,
+      "checksum": 1406806016,
+      "rss_mb": 59.328,
+      "health": 99.91,
+      "flags": [
+        "OPENXR_NOT_EXPOSED",
+        "GPU_BACKEND_NOT_EXPOSED"
+      ]
+    },
+    {
+      "level": 4,
+      "mirrors": 262144,
+      "mb": 1,
+      "write_read_ms": 0.895,
+      "mirror_ops_s": 390359561.981,
+      "bandwidth_gb_s": 1.091,
+      "compress_ms": 24.602,
+      "compressed_mb": 1,
+      "compression_ratio": 1.000316,
+      "checksum": 143295399,
+      "rss_mb": 62.453,
+      "health": 99.9,
+      "flags": [
+        "OPENXR_NOT_EXPOSED",
+        "GPU_BACKEND_NOT_EXPOSED"
+      ]
+    },
+    {
+      "level": 5,
+      "mirrors": 327680,
+      "mb": 1.25,
+      "write_read_ms": 2.216,
+      "mirror_ops_s": 197159308.848,
+      "bandwidth_gb_s": 0.551,
+      "compress_ms": 41.233,
+      "compressed_mb": 1.25,
+      "compression_ratio": 1.000314,
+      "checksum": 1815348556,
+      "rss_mb": 66.328,
+      "health": 99.85,
+      "flags": [
+        "OPENXR_NOT_EXPOSED",
+        "GPU_BACKEND_NOT_EXPOSED"
+      ]
+    },
+    {
+      "level": 6,
+      "mirrors": 393216,
+      "mb": 1.5,
+      "write_read_ms": 1.419,
+      "mirror_ops_s": 369402643.301,
+      "bandwidth_gb_s": 1.032,
+      "compress_ms": 34.541,
+      "compressed_mb": 1.5,
+      "compression_ratio": 1.000312,
+      "checksum": 1924937728,
+      "rss_mb": 70.953,
+      "health": 99.87,
+      "flags": [
+        "OPENXR_NOT_EXPOSED",
+        "GPU_BACKEND_NOT_EXPOSED"
+      ]
+    },
+    {
+      "level": 7,
+      "mirrors": 458752,
+      "mb": 1.75,
+      "write_read_ms": 1.791,
+      "mirror_ops_s": 341480625.872,
+      "bandwidth_gb_s": 0.954,
+      "compress_ms": 40.201,
+      "compressed_mb": 1.751,
+      "compression_ratio": 1.000311,
+      "checksum": 2461383216,
+      "rss_mb": 76.328,
+      "health": 99.86,
+      "flags": [
+        "OPENXR_NOT_EXPOSED",
+        "GPU_BACKEND_NOT_EXPOSED"
+      ]
+    },
+    {
+      "level": 8,
+      "mirrors": 524288,
+      "mb": 2,
+      "write_read_ms": 1.809,
+      "mirror_ops_s": 386495537.38,
+      "bandwidth_gb_s": 1.08,
+      "compress_ms": 46.211,
+      "compressed_mb": 2.001,
+      "compression_ratio": 1.00031,
+      "checksum": 662543689,
+      "rss_mb": 68.816,
+      "health": 99.86,
+      "flags": [
+        "OPENXR_NOT_EXPOSED",
+        "GPU_BACKEND_NOT_EXPOSED"
+      ]
+    },
+    {
+      "level": 9,
+      "mirrors": 589824,
+      "mb": 2.25,
+      "write_read_ms": 3.122,
+      "mirror_ops_s": 251860373.061,
+      "bandwidth_gb_s": 0.704,
+      "compress_ms": 50.582,
+      "compressed_mb": 2.251,
+      "compression_ratio": 1.00031,
+      "checksum": 2063105536,
+      "rss_mb": 73.316,
+      "health": 99.81,
+      "flags": [
+        "OPENXR_NOT_EXPOSED",
+        "GPU_BACKEND_NOT_EXPOSED"
+      ]
+    },
+    {
+      "level": 10,
+      "mirrors": 655360,
+      "mb": 2.5,
+      "write_read_ms": 2.905,
+      "mirror_ops_s": 300822653.118,
+      "bandwidth_gb_s": 0.84,
+      "compress_ms": 105.412,
+      "compressed_mb": 2.501,
+      "compression_ratio": 1.000309,
+      "checksum": 1892192756,
+      "rss_mb": 78.363,
+      "health": 99.82,
+      "flags": [
+        "OPENXR_NOT_EXPOSED",
+        "GPU_BACKEND_NOT_EXPOSED"
+      ]
+    }
+  ],
+  "summary": {
+    "best_level": 4,
+    "best_mirror_ops_s": 390359561.981,
+    "best_bandwidth_gb_s": 1.091,
+    "avg_health": 99.86,
+    "diagnostic": "EXCELLENT",
+    "verdict": "VR_MIRROR_SOFTWARE_READY_OPENXR_NOT_EXPOSED"
+  },
+  "truth_policy": {
+    "real_only": true,
+    "no_fake_vr": true,
+    "mirror_vr_is_memory_runtime": true,
+    "real_headset_requires_openxr": true,
+    "gpu_backend_required_for_real_rendering": true
+  }
+}

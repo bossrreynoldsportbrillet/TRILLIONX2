@@ -1,0 +1,306 @@
+9:   TRILLIONX_COMPACT_OUTPUT_GUARD_V1
+11:   - Résumé compact pour UI/OUTPUT
+15:const TRILLIONX_COMPACT_OUTPUT_GUARD_V1 = {
+17:  maxChars: Number(process.env.TRILLIONX_OUTPUT_MAX || 4500),
+18:  enabled: process.env.TRILLIONX_COMPACT_OUTPUT !== "0"
+54:    return {engine:"TRILLIONX_COMPACT_OUTPUT_GUARD_V1",error:String(e)};
+60:    let y = TRILLIONX_COMPACT_OUTPUT_GUARD_V1.enabled ? trillionsCompactObject(x) : x;
+62:    const max = TRILLIONX_COMPACT_OUTPUT_GUARD_V1.maxChars;
+68:    return "TRILLIONX_COMPACT_OUTPUT_ERROR: "+String(e);
+79:global.TRILLIONX_COMPACT_OUTPUT_GUARD_V1 = TRILLIONX_COMPACT_OUTPUT_GUARD_V1;
+83:/* === END TRILLIONX_COMPACT_OUTPUT_GUARD_V1 === */
+99:const io=new Server(server,{cors:{origin:"*"},maxHttpBufferSize:1e8,pingInterval:10000,pingTimeout:30000,transports:["websocket","polling"]});
+124:function safeText(x,n=20000){return String(x||"").slice(0,n);}
+126:function sh(cmd,timeout=10000){
+128:    exec(cmd,{timeout,maxBuffer:1024*1024*25},(err,out,stderr)=>{
+129:      resolve({ok:!err,cmd,out:safeText(out,30000),err:safeText(stderr||err&&err.message,12000)});
+182:      axios.post(rpc,{jsonrpc:"2.0",method:"eth_blockNumber",params:[],id:1},{timeout:10000}),
+183:      axios.post(rpc,{jsonrpc:"2.0",method:"eth_gasPrice",params:[],id:2},{timeout:10000}),
+184:      axios.post(rpc,{jsonrpc:"2.0",method:"eth_chainId",params:[],id:3},{timeout:10000})
+193:    const r=await axios.get(url,{timeout:18000});
+194:    return {provider:"pollinations",connected:true,response:safeText(r.data,5000)};
+201:    try{const r=await axios.get(u,{timeout:7000});out.targets.push({url:u,ok:true,status:r.status,data:typeof r.data==="object"?r.data:safeText(r.data,3000)});}
+320:    shell_timeout_ms:Math.max(1000,Number(process.env.SHELL_TIMEOUT_MS||15000))
+375:const SAFE_REPAIR_ONLY={name:"SAFE_REPAIR_ONLY",version:"V6_REPAIR_ENGINE_GUARDED",mode:"ACTIVE_NON_DESTRUCTIVE",truth_engine:"DISABLED",golden_rule:"diagnose -> propose -> sandbox -> verify -> promote_or_rollback",allowed_actions:["wrap_function_with_try_catch","add_fallback_unavailable_response","increase_timeout_with_limit","add_missing_dependency_hint","mark_module_unavailable","test_route_health","test_dependency_presence","snapshot_before_patch","write_repair_report","create_patch_plan","restore_previous_snapshot"],forbidden_actions:["delete_project_files","rewrite_core_without_snapshot","disable_security_guards","expose_env_secrets","invent_fake_metrics","invent_fake_power","auto_install_unknown_packages","run_destructive_shell","edit_dotenv_values_without_user","change_wallet_or_private_keys","remove_working_routes","replace_full_runtime_blindly"],patch_levels:{L0_OBSERVE:"read only",L1_WRAP:"guard/fallback",L2_CONFIG_HINT:"hint or bounded adjustment",L3_SANDBOX_PATCH:"patched copy only",L4_PROMOTE_SAFE:"activate after checks",L5_BLOCKED:"never automatic"}};
+381:function classifyRepairRisk(action){const text=String(action||"").toLowerCase();const hard=["rm -rf","mkfs","shutdown","reboot","private_key","seed phrase","wallet","disable security","fake metric","fake power","delete_project_files","wipe","overwrite core"];if(hard.some(x=>text.includes(x)))return {allowed:false,level:"L5_BLOCKED",reason:"dangerous_or_false_repair"};if(text.includes("wrap")||text.includes("fallback")||text.includes("unavailable"))return {allowed:true,level:"L1_WRAP",reason:"non_destructive_runtime_guard"};if(text.includes("timeout")||text.includes("dependency")||text.includes("config"))return {allowed:true,level:"L2_CONFIG_HINT",reason:"safe_hint_or_bounded_adjustment"};return {allowed:true,level:"L0_OBSERVE",reason:"diagnostic_only_until_confirmed"}}
+382:function repairHint(name,error){const msg=String(error&&error.message||error||"").toLowerCase();if(msg.includes("cannot find module"))return {type:"missing_dependency",action:"npm install required dependency",safe:true};if(msg.includes("timeout"))return {type:"timeout",action:"increase timeout within configured limit or reduce workload",safe:true};if(msg.includes("eacces")||msg.includes("permission"))return {type:"permission_denied",action:"mark unavailable or adjust permissions manually",safe:true};if(msg.includes("econnrefused")||msg.includes("enotfound"))return {type:"network_unavailable",action:"check URL/DNS/firewall/env",safe:true};return {type:"unknown",action:"quarantine function and inspect trace",safe:true}}
+386:async function createJob(type,input={},priority="normal"){const id=uid("job");const job={id,type,priority,status:"queued",progress_percent:0,created_at:now(),started_at:null,ended_at:null,input,output:null,error:null,trace:[]};JOBS.set(id,job);appendJsonl("jobs.jsonl",job);bus.emit("job:created",job);return job}
+387:async function runJob(id){const job=JOBS.get(id);if(!job)return {ok:false,error:"job_not_found"};job.status="running";job.started_at=now();job.progress_percent=5;bus.emit("job:started",job);try{let out=null;if(job.type==="runtime_audit")out=await powerFull();else if(job.type==="network_probe")out=await network();else if(job.type==="security_audit")out=await security();else if(job.type==="repo_scan")out=await repo();else if(job.type==="capacity")out=await capacity();else if(job.type==="ai_analysis")out=await ai(job.input.message||json(job.input));else if(job.type==="dict_route")out={classification:dictClassify(job.input.text||job.input.message||"")};else out=await batchRun(["system","capacity","cockpit"]);job.output=out;job.status="done";job.progress_percent=100;job.ended_at=now();appendJsonl("jobs.jsonl",job);bus.emit("job:done",job);return job}catch(e){job.status="error";job.error=e.message;job.ended_at=now();job.trace.push(repairHint(job.type,e));appendJsonl("jobs.jsonl",job);bus.emit("job:error",job);return job}}
+388:async function aiKernelPlan(message){const classification=dictClassify(message);return {time:now(),kernel:AI_KERNEL_CORE,request:safeText(message,4000),classification,plan:["classify_with_DICT_NATIVE_CORE","select_routes_and_solvers","create_jobs_for_relevant_modules","run_safe_repair_only_if_failure","record_result_in_ledger"],recommended_jobs:classification.slice(0,4).flatMap(x=>x.solvers).slice(0,8),safety:SAFE_REPAIR_ONLY.golden_rule}}
+390:async function repairReport(){return {time:now(),policy:SAFE_REPAIR_ONLY,recent_repairs:readJsonl("repair_ledger.jsonl",50),risk_examples:[classifyRepairRisk("wrap function with fallback"),classifyRepairRisk("delete project files"),classifyRepairRisk("increase timeout within limit")]}}
+401:function pushChat(role,content,meta={}){const m={id:uid("chat"),time:now(),role,content:safeText(content,12000),meta};CHAT_HISTORY.push(m);while(CHAT_HISTORY.length>100)CHAT_HISTORY.shift();appendJsonl("ai_chat_history.jsonl",m);return m}
+402:async function providerHealth(){const out={time:now(),mode:"REAL_PROVIDER_ONLY",providers:{}};try{const r=await axios.get("https://text.pollinations.ai/health",{timeout:5000});out.providers.pollinations={ok:r.status<500,status:r.status,type:"real_network_ai"}}catch(e){out.providers.pollinations={ok:false,error:e.message,type:"real_network_ai"}};out.providers.openai={ok:!!process.env.OPENAI_API_KEY,type:"real_api_ai",note:process.env.OPENAI_API_KEY?"api_key_present_not_called_by_default":"OPENAI_API_KEY_missing"};out.providers.ollama={ok:false,type:"real_local_ai"};if(process.env.OLLAMA_URL){try{const r=await axios.get(String(process.env.OLLAMA_URL).replace(/\/$/,"")+"/api/tags",{timeout:5000});out.providers.ollama={ok:true,status:r.status,type:"real_local_ai",models:r.data&&r.data.models?r.data.models.length:null}}catch(e){out.providers.ollama={ok:false,error:e.message,type:"real_local_ai"}}}else out.providers.ollama.note="OLLAMA_URL_missing";out.any=Object.values(out.providers).some(x=>x.ok);return out}
+404:async function aiChat(message){const msg=safeText(message,8000).trim();const user=pushChat("user",msg);const classification=dictClassify(msg);const health=await providerHealth();const trace={time:now(),message:msg,classification,provider_health:health,commands:SOVEREIGN_AI_CHAT_LAB.commands};LAST_CHAT_TRACE=trace;let answer="";let provider="local_unavailable";if(health.providers.pollinations&&health.providers.pollinations.ok){provider="pollinations";const prompt=`You are SOVEREIGN_AI_CHAT_LAB, a concise engineering copilot inside TRILLIONS runtime. Real-only: no fake metrics, no simulation, no emulation. Answer simply but handle complex subjects. User: ${msg}
+405:DICT classification: ${JSON.stringify(classification)}`;try{const r=await axios.get("https://text.pollinations.ai/"+encodeURIComponent(prompt),{timeout:22000});answer=safeText(r.data,7000)}catch(e){answer="AI_CHAT_UNAVAILABLE: provider réel Pollinations erreur: "+e.message;provider="pollinations_error"}}else{answer=localKernelReply(msg,trace)}const assistant=pushChat("kernel_ai",answer,{provider,classification});appendJsonl("ai_chat_trace.jsonl",{user,assistant,trace});return {ok:provider!=="local_unavailable",time:now(),provider,answer,classification,trace,history:CHAT_HISTORY.slice(-12)}}
+419:<div class="card wide"><h3>CONTROL</h3><div class="mini">REAL ONLY — potentiel affiché 278% avec labels REAL / EMULATED / UNAVAILABLE. Pas de fausse télémétrie.</div><textarea id="msg" rows="3">TRILLIONS: audit the real orchestration capacity and bottlenecks.</textarea><button class="btn" onclick="askAI()">AI ANALYZE</button><button class="btn" onclick="cmd('pm2 ls')">PM2 LS</button><button class="btn" onclick="cmd('pm2 restart TRILLIONS')">PM2 RESTART</button><button class="btn" onclick="cmd('ss -tulpn')">PORTS</button><input id="shell" value="ps aux --sort=-%cpu | head -20"><button class="btn" onclick="cmd(document.getElementById('shell').value)">RUN SAFE SHELL</button></div>
+420:<div class="card wide" id="chatbox" style="display:none"><h3>SOVEREIGN AI CHAT</h3><div class="mini">Simple en surface, complexe derrière — REAL PROVIDER ONLY.</div><div id="chatlog" class="out" style="max-height:300px">AI CHAT READY</div><textarea id="chatmsg" rows="3">/status</textarea><button class="btn" onclick="sendChat()">SEND</button><button class="btn" onclick="load('/api/ai-chat/providers')">PROVIDERS</button><button class="btn" onclick="load('/api/ai-chat/trace')">TRACE</button></div><div class="card wide"><h3>ONDE DE SITUATION</h3><canvas id="wave" height="90" style="width:100%;border:1px solid #00ff6633;background:#000"></canvas></div><div class="card wide"><h3>OUTPUT</h3><pre id="out" class="out">READY</pre></div>
+434:    else if(j && j.out) parts.push("\n--- OUTPUT ---\n"+j.out);
+481:    if(x.out) out.push("\n--- OUTPUT ---\n"+x.out);
+493:function TRILLIONX_setOutputClean(target,x){
+498:      const q=document.querySelector("#output,#out,.output,pre");
+510:    const r=await fetch(url,opt||{});
+518:    TRILLIONX_setOutputClean(target||"#output",j);
+522:    TRILLIONX_setOutputClean(target||"#output",j);
+529:async function load(u){out.textContent='LOADING '+u;try{let r=await fetch(u).catch(e=>({text:async()=>String(e)}));out.textContent=JSON.stringify(await r.text(),null,2)}catch(e){out.textContent='ERROR '+e.message}}
+531:async function cmd(c){out.textContent='$ '+c+'\\nRUNNING...';let r=await fetch('/api/shell',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({cmd:c}).catch(e=>({text:async()=>String(e)}))});let j=await r.text();out.textContent='$ '+c+'\\n\\n'+(j.out||'')+(j.err?'\\n\\nERR:\\n'+j.err:'')}
+534:function startKeepAlive(){setInterval(async()=>{try{await fetch("/api/ping?ts="+Date.now().catch(e=>({text:async()=>String(e)})),{cache:"no-store"})}catch(e){} if(typeof socket!=="undefined"&&!socket.connected){try{socket.connect()}catch(e){}}},15000)};document.addEventListener("visibilitychange",()=>{if(!document.hidden){try{socket.connect()}catch(e){} load("/api/ping")}});window.addEventListener("online",()=>load("/api/ping"));window.addEventListener("offline",()=>{out.textContent="NETWORK OFFLINE — waiting reconnection..."});startKeepAlive();
+614:const TIMING_GUARDIAN={name:"TIMING_GUARDIAN",version:"V11_TIMING",default_timeout_ms:15000,heavy_timeout_ms:60000,max_timeout_ms:120000,classes:{INSTANT:"<250ms",FAST:"250ms-2s",NORMAL:"2s-15s",SLOW:"15s-60s",HEAVY:"60s-120s",TIMEOUT:"exceeded timeout",BLOCKED:"blocked before execution"}};
+660:async function timedShell(cmd,timeout=15000){const started=Date.now(); if(blockedCmd(cmd))return {ok:false,blocked:true,cmd,started_at:now(),ended_at:now(),duration_ms:Date.now()-started,timing_class:"BLOCKED"}; const r=await sh(cmd,timeout); const ms=Date.now()-started; return {...r,started_at:new Date(started).toISOString(),ended_at:now(),duration_ms:ms,duration_sec:+(ms/1000).toFixed(3),timeout_ms:timeout,timing_class:ms<250?"INSTANT":ms<2000?"FAST":ms<15000?"NORMAL":ms<60000?"SLOW":ms<120000?"HEAVY":"TIMEOUT_OR_TOO_LONG",stdout_bytes:Buffer.byteLength(r.out||"","utf8"),stderr_bytes:Buffer.byteLength(r.err||"","utf8")};}
+666:async function issPosition(){try{const r=await axios.get("http://api.open-notify.org/iss-now.json",{timeout:8000});return {time:now(),catalog:REAL_SPACE_TECH_CATALOG.nodes.ISS,source:"Open Notify",data:r.data};}catch(e){try{const w=await axios.get("https://api.wheretheiss.at/v1/satellites/25544",{timeout:8000});return {time:now(),catalog:REAL_SPACE_TECH_CATALOG.nodes.ISS,source:"WhereTheISS",data:w.data};}catch(e2){return {time:now(),catalog:REAL_SPACE_TECH_CATALOG.nodes.ISS,ok:false,error:e2.message};}}}
+679:app.post("/api/timing/terminal",async(req,res)=>res.json(await timedShell(String(req.body&&req.body.cmd||"node --version"),Number(req.body&&req.body.timeout||15000))));
+682:app.post("/api/terminal-v11/run",async(req,res)=>res.json(await timedShell(String(req.body&&req.body.cmd||""),Number(req.body&&req.body.timeout||15000))));
+771:  websocket:{adaptive:true,noise_reduction:true,delta_only:true,pingInterval:10000,pingTimeout:30000},
+773:  timings:{endpoint_ms:true,timeout_ms:true,cache_age_ms:true,slow_route_threshold_ms:800}
+799:  const compact={time:now(),event,delta:true,payload:safeText(typeof payload==='string'?payload:json(payload),4000)};
+809:  return logicGuard({message:safeText(message,2000),classification,recommended_jobs:classification.flatMap(x=>x.solvers||[]).slice(0,8),correlation:correlation.data,guards:TRILLIONS_V11_PLUS_LAYER.modules},"MULTI_LAYER_RUNTIME_REASONING");
+840:  outputs:["best_parameters","baseline_before","level_results","gain_report_258","activation_script"]
+857:    light:{workers:1,batches:2,iterations:40000,timeout_ms:5000},
+858:    medium:{workers:Math.min(2,logical),batches:4,iterations:90000,timeout_ms:10000},
+859:    heavy:{workers:Math.min(4,logical),batches:8,iterations:160000,timeout_ms:20000},
+860:    very_heavy:{workers:Math.min(8,logical),batches:12,iterations:260000,timeout_ms:35000}
+1454:  return {time:now(),module:{name:"AVX2_AVX512_VECTOR_KERNELS",status:(flags.avx2||flags.avx512)?"CPU_FLAGS_DETECTED_JS_VECTOR_PROBE":"JS_VECTOR_PROBE_ONLY"},flags,typed_array:{items:n,duration_ms:+ms.toFixed(3),million_items_per_sec:+(n/ms/1000).toFixed(3),checksum:+sum.toFixed(3)},raw:safeText(flagsRaw.out,3000),honesty:"CPU flags detection plus JS typed-array vector probe; not a native AVX kernel unless native addon is built"};
+1464:  return {time:now(),module:{name:"GPU_COMPUTE_PIPELINE",status:(hasNvidia||hasOpenCL||hasVulkan||hasWebGPU)?"REAL_GPU_PATH_DETECTED":"UNAVAILABLE_ON_THIS_HOST"},cuda_nvidia_smi:{available:hasNvidia,raw:safeText(nvidia.out,3000)},opencl:{available:hasOpenCL,raw:safeText(clinfo.out,3000)},vulkan:{available:hasVulkan,raw:safeText(vulkan.out,3000)},webgpu:{available:hasWebGPU,raw:safeText(webgpu.out,1000)},honesty:"detection only; no GPU compute score without executing real CUDA/OpenCL/WebGPU kernels"};
+1506:  return {time:now(),module:{name:"NUMA_AWARE_SCHEDULER",status:numa?"NUMA_DETECTED":"SINGLE_NODE_OR_UNAVAILABLE"},lscpu:safeText(r[0].out,2000),numactl:r[1].out.trim(),logical_cpus:r[2].out.trim(),honesty:"NUMA scheduler only activates when host exposes NUMA topology"};
+1593:    KYOTO_V8_HTTP_CLIENT_CATALOG:["axios","fetch_if_available","timeout","retry_policy","status_code","latency_ms"],
+1601:    KYOTO_V8_UI_CONTROL_SURFACE_CATALOG:["tabs","buttons","terminal","ai_chat","wave_canvas","route_output"],
+1604:    KYOTO_V8_ERROR_TAXONOMY_CATALOG:["syntax_error","timeout","missing_module","network_error","permission_error","blocked_command"],
+1661:  worker:{file:"workers/trillions.worker.js",types:["noop","sha256","typedarray","compress"],timeout_ms:30000,max_parallel:Math.max(1,Math.min(os.cpus().length||1,8))},
+1663:  guards:["NO_FAKE_WORKER","BOUNDED_INPUT","TIMEOUT_GUARD","SAFE_TYPES_ONLY","REAL_RESULT_OR_ERROR"]
+1665:function runTrillionsWorker(payload={},timeout=30000){
+1672:    const timer=setTimeout(()=>{try{w.terminate()}catch(e){} resolve({ok:false,error:"worker_timeout",timeout_ms:timeout});},timeout);
+1673:    w.once("message",msg=>{clearTimeout(timer);resolve({ok:!!msg.ok,worker:true,file:"workers/trillions.worker.js",message:msg});});
+1674:    w.once("error",err=>{clearTimeout(timer);resolve({ok:false,worker:true,error:err.message});});
+1675:    w.once("exit",code=>{if(code!==0){clearTimeout(timer);resolve({ok:false,worker:true,exit_code:code});}});
+1682:app.post("/api/worker/run",async(req,res)=>res.json({time:now(),result:await runTrillionsWorker(req.body||{},Number(req.body&&req.body.timeout_ms||30000))}));
+1761:  provider_timeout_ms:Number(process.env.PROVIDER_TIMEOUT_MS||18000),
+1762:  shell_timeout_ms:Number(process.env.SHELL_TIMEOUT_MS||15000),
+1764:  job_timeout_ms:Number(process.env.JOB_TIMEOUT_MS||60000),
+1809:    {name:"ollama",type:"optional_local",enabled:!!process.env.OLLAMA_URL,test:async()=>{try{const r=await axios.get(process.env.OLLAMA_URL,{timeout:5000});return {provider:"ollama",connected:true,status:r.status}}catch(e){return {provider:"ollama",connected:false,error:e.message}}}}
+1869:  return {time:now(),mode:"MULTI_LAYER_RUNTIME_REASONING",message:safeText(message,4000),layers:{dict:classification,providers,memory:mem,recommended_routes:[...new Set(recommended)]},guard:"REAL_ONLY_OR_UNAVAILABLE"};
+2105:async function computeMasterControl(){const base=await performanceBaseline();const guard=pressureGuard(base);const cpus=os.cpus().length||1;const recommended_workers=guard.allowed?Math.max(1,Math.min(Math.floor(cpus/2),Number(process.env.PERF_MAX_WORKERS||8))):1;return {time:now(),augmentor:TRILLIONS_V11_4_PERFORMANCE_CALCUL_AUGMENTOR,baseline:base,pressure_guard:guard,controlled_worker_pool:{logical_cpus:cpus,recommended_workers,max_workers:Math.min(cpus,Number(process.env.PERF_MAX_WORKERS||8)),policy:"bounded workers, no uncontrolled fork"},scheduler:{mode:"ADAPTIVE_COMPUTE_SCHEDULER",batch_policy:"reduce batch under pressure",timeout_ms:Number(process.env.PERF_TIMEOUT_MS||15000)},mastery_status:guard.allowed?"READY_CONTROLLED":"THROTTLED_BY_PRESSURE"};}
+2326:<div class="card half"><h2>Output</h2><pre id="out">READY</pre></div>
+2333:    const r=await fetch('/api/workload-runtime/status',{cache:'no-store'}).catch(e=>({text:async()=>String(e)})); const j=await r.text(); last={stability:j.pressure.stability_percent||0,chaos:j.pressure.chaos_risk_percent||0,cpu:j.pressure.cpu_load_percent||0,ram:j.pressure.ram_pressure_percent||0};
+2341:async function load(u){out.textContent='LOADING '+u;try{const r=await fetch(u,{cache:'no-store'}).catch(e=>({text:async()=>String(e)}));out.textContent=JSON.stringify(await r.text(),null,2)}catch(e){out.textContent='ERROR '+e.message}}
+2393:  heavyRouteLast:new Map(),
+2442:  const r=String(route||"unknown"); const nowMs=Date.now(); const last=POSITIVE_RUNTIME_STATE.heavyRouteLast.get(r)||0;
+2445:  POSITIVE_RUNTIME_STATE.heavyRouteLast.set(r,nowMs);
+3225:    timeout_ms:Math.max(5000,Math.min(Number(process.env.HYBRID_HPC_TIMEOUT_MS||30000),120000))
+3381:function hybridRunWorkerJob(worker,job,timeoutMs){
+3383:    const timer=setTimeout(()=>resolve({ok:false,id:job.id,error:"worker_timeout"}),timeoutMs);
+3384:    const handler=(msg)=>{if(msg&&msg.id===job.id){clearTimeout(timer);worker.off("message",handler);resolve({ok:true,...msg});}};
+3399:      const r=await hybridRunWorkerJob(w,{id,iterations:per},TRILLIONS_HYBRID_HPC_PHASES_1_4.limits.timeout_ms);
+3680:    const timer=setTimeout(()=>resolve({id:w.__id,ok:false,error:"timeout"}),500);
+3681:    const onMsg=m=>{if(m.type==='pong'){clearTimeout(timer);w.off('message',onMsg);resolve({id:w.__id,ok:true,jobs:m.jobs,age_ms:Date.now()-w.__created});}};
+3689:  await Promise.all(old.map(w=>new Promise(resolve=>{try{w.once('exit',resolve);w.postMessage({cmd:'stop'});setTimeout(resolve,300);}catch(e){resolve();}})));
+3699:    const timer=setTimeout(()=>resolve({id:w.__id,ok:false,error:"timeout",iter}),3000);
+3700:    const onMsg=m=>{if(m.type==='result'){clearTimeout(timer);w.off('message',onMsg);resolve({id:w.__id,ok:true,iter,ms:m.ms,checksum:m.checksum});}};
+3798:    WATCHDOGS:["process memory guard","event loop lag probe","route latency guard","bounded timeout"],
+3822:    WATCHDOG:["event loop lag","memory pressure","timeout","worker isolation","recovery"],
+3829:async function worldHpcCommand(cmd,timeout=6000){try{return await sh(cmd,timeout);}catch(e){return {ok:false,cmd,out:"",err:e.message};}}
+3840:  return {time:now(),module:{name:"MPI_DISTRIBUTED_RUNTIME",status:worldHpcStatus(available)},mpirun:r[0].out.trim(),mpicc:r[1].out.trim(),version:safeText(r[2].out,2000),env:safeText(r[3].out,4000),honesty:"MPI is real only if mpirun/mpicc or scheduler MPI env is detected; no distributed ranks are invented."};
+3853:  return {time:now(),module:{name:"RDMA_INFINIBAND_FABRIC",status:worldHpcStatus(has)},ibv_devinfo:safeText(r[0].out,3000),ibstat:safeText(r[1].out,3000),rdma_link:safeText(r[2].out,3000),sysfs:safeText(r[3].out,1000),pci:safeText(r[4].out,3000),honesty:"Fabric probe only; no RDMA/InfiniBand bandwidth claim without real device and measured transfer."};
+3865:  return {time:now(),module:{name:"NUMA_MEMORY_TOPOLOGY",status:worldHpcStatus(hasNuma,"NUMA_REAL_OR_PARTIAL_DETECTED","SINGLE_NODE_OR_UNAVAILABLE")},numa_nodes:nodes,lscpu:safeText(r[0].out,3000),numactl:safeText(r[1].out,4000),hugepages:safeText(r[2].out,2000),honesty:"NUMA readiness only; true NUMA scheduling requires host topology and OS-level binding permissions."};
+3878:  return {time:now(),module:{name:"CLUSTER_MANAGER_RUNTIME",status:worldHpcStatus(has,"CLUSTER_HINT_DETECTED","LOCAL_OR_CONTAINER_ONLY")},slurm:safeText(r[0].out,1200),pbs:safeText(r[1].out,1200),kubernetes:safeText(r[2].out,2000),docker:safeText(r[3].out,4000),env:safeText(r[4].out,4000),honesty:"Cluster manager probe only; multi-node orchestration is unavailable unless a real manager and nodes are exposed."};
+3890:  return {time:now(),module:{name:"PARALLEL_STORAGE_PROBE",status:parallel?"PARALLEL_FS_HINT_DETECTED":"STANDARD_STORAGE_OR_UNAVAILABLE"},df:safeText(r[0].out,4000),mounts:safeText(r[1].out,4000),lsblk:safeText(r[2].out,4000),fio:r[3].out.trim(),honesty:"Storage topology probe only; no I/O benchmark unless fio or measured workload is executed deliberately."};
+3910:  return {time:now(),module:{name:"GPU_TENSOR_COMPUTE_REAL_PATH",status:/unavailable/i.test(raw)?"GPU_TOOLKIT_UNAVAILABLE_OR_NOT_EXPOSED":"GPU_TOOLKIT_HINT_DETECTED"},pipeline:gpu,nvcc:safeText(r[0].out,2000),nvidia_query:safeText(r[1].out,3000),webgpu_node:safeText(r[2].out,1000),tensor_core_hint:tensorHint,honesty:"GPU/tensor status is a detection hint only; no CUDA/OpenCL/WebGPU score without executing real kernels."};
+3920:  return {time:now(),module:{name:"KERNEL_GRADE_USERSPACE_WATCHDOGS",status:"ACTIVE_USERSPACE_GUARDS"},event_loop_lag_ms:+lagMs.toFixed(3),memory:mem,active_handles:activeHandles,active_requests:activeRequests,guards:{bounded_timeouts:true,blocked_shell:true,memory_pressure:true,route_latency:true,worker_limits:true},honesty:"Userspace watchdogs only; not kernel-space scheduling or kernel watchdog control."};
+3927:  return {time:now(),module:{name:"THERMAL_POWER_BALANCING_REAL_TELEMETRY",status:(therm&&!(therm.error))||!/unavailable/i.test(nvidia.out)?"PARTIAL_REAL_TELEMETRY":"UNAVAILABLE_OR_NOT_EXPOSED"},cpu_thermal:therm,battery:batt,nvidia_power:safeText(nvidia.out,2000),policy:{thermal_limit_C:Number(process.env.WORLD_HPC_THERMAL_LIMIT_C||90),reduce_batch_under_pressure:true,no_fake_power_draw:true},honesty:"Thermal/power balancing uses only sensors exposed by host; unavailable remains unavailable."};
+4146:    raw_lscpu_preview: safeText(out[0] && out[0].out || "", 12000),
+4147:    raw_cpuinfo_preview: safeText(out[1] && out[1].out || "", 12000),
+4314:    ldconfig_preview: safeText(out[0] && out[0].out || "", 12000),
+4315:    python_numpy_preview: safeText(
+4967:    version_preview: safeText(version, 8000),
+4968:    codecs_preview: safeText(codecsRaw, 20000),
+4969:    formats_preview: safeText(formatsRaw, 16000),
+5056:    raw: safeText((r.out || "") + "\n" + (r.err || ""), 12000),
+5082:    input: safeText(text, 2000),
+5709:    raw_free: safeText(memCmd.out, 12000),
+5710:    raw_meminfo: safeText(vmCmd.out, 16000),
+5711:    raw_cache_info: safeText(cacheCmd.out, 12000),
+5736:    raw_numactl: safeText(out[0].out, 12000),
+5737:    raw_lscpu_numa: safeText(out[1].out, 12000),
+5738:    raw_sys_nodes: safeText(out[2].out, 12000),
+5767:    nvidia_smi: safeText(out[0].out, 12000),
+5768:    rocm_smi: safeText(out[1].out, 12000),
+5769:    gpu_lspci: safeText(out[2].out, 12000),
+5799:    raw_mpi: safeText(out[0].out + "\n" + out[1].out, 16000),
+5800:    raw_rdma: safeText(out[2].out, 12000),
+5801:    raw_ucx: safeText(out[3].out, 8000),
+5802:    raw_libfabric: safeText(out[4].out, 12000),
+5803:    raw_filesystems: safeText(out[5].out, 12000),
+5826:    cxl_lspci: safeText(out[0].out, 12000),
+5827:    cxl_sysfs: safeText(out[1].out, 12000),
+5828:    dmesg_memory_hints: safeText(out[2].out, 12000),
+5829:    ndctl: safeText(out[3].out, 12000),
+5912:    input: safeText(input, 4000),
+6742:    lscpu_cache: safeText(out[0].out, 12000),
+6744:      l1d: safeText(out[1].out, 2000),
+6745:      l1i: safeText(out[2].out, 2000),
+6746:      l2: safeText(out[3].out, 2000),
+6747:      l3: safeText(out[4].out, 2000)
+6750:      sizes: safeText(out[5].out, 4000),
+6751:      types: safeText(out[6].out, 4000),
+6752:      line_sizes: safeText(out[7].out, 4000)
+6816:    meminfo_cache: safeText(out[0].out, 12000),
+6817:    free: safeText(out[1].out, 8000),
+6818:    vmstat_cache: safeText(out[2].out, 12000),
+6841:    block_devices: safeText(out[0].out, 12000),
+6842:    filesystems: safeText(out[1].out, 12000),
+6843:    mounts_cache_related: safeText(out[2].out, 12000),
+6844:    read_ahead_kb: safeText(out[3].out, 4000),
+6867:    socket_memory: safeText(out[0].out, 12000),
+6868:    sockstat: safeText(out[1].out, 8000),
+6869:    sysctl_buffers: safeText(out[2].out, 8000),
+6870:    ip_link_stats: safeText(out[3].out, 12000),
+6894:    nvidia_memory: safeText(out[0].out, 12000),
+6895:    nvidia_cache_hints: safeText(out[1].out, 12000),
+6896:    rocm_memory: safeText(out[2].out, 12000),
+6897:    user_shader_caches: safeText(out[3].out, 8000),
+6921:    mpi: safeText(out[0].out, 8000),
+6922:    rdma: safeText(out[1].out, 12000),
+6923:    ucx: safeText(out[2].out, 8000),
+6924:    libfabric: safeText(out[3].out, 12000),
+6925:    parallel_fs: safeText(out[4].out, 12000),
+7029:    input: safeText(input, 4000),
+7654:    "timeout",
+7740:        "timeout all probes",
+7851:    raw_cpu_flags: safeText(out[0].out + "\n" + out[1].out, 16000),
+7852:    openssl_version: safeText(out[2].out, 4000),
+7853:    openssl_speed_preview: safeText(out[3].out, 12000),
+7912:      raw_preview: safeText(raw, 2000),
+8013:const s=net.createConnection({host:${JSON.stringify(host)},port:${JSON.stringify(port)},timeout:5000},()=>{
+8017:s.on('timeout',()=>{console.log(JSON.stringify({ok:false,error:'timeout',host:${JSON.stringify(host)},port:${JSON.stringify(port)}}));s.destroy();});
+8027:    tcp = { ok: false, error: "tcp_probe_parse_failed", raw: safeText(r.out + "\n" + r.err, 4000) };
+8106:    input: safeText(input, 4000),
+9322:      lscpu: safeText(out[0].out, 12000),
+9323:      cpu_flags: safeText(out[1].out, 12000),
+9324:      nvidia: safeText(out[2].out, 8000),
+9325:      rocm: safeText(out[3].out, 8000),
+9326:      opencl: safeText(out[4].out, 8000),
+9328:      mpi: safeText(out[6].out, 4000),
+9329:      ffmpeg: safeText(out[7].out, 4000),
+9330:      openssl: safeText(out[8].out, 4000)
+9510:    input: safeText(input, 4000),
+9952:        "setImmediate", "setTimeout", "nextTick", "microtask",
+10111:    "packet delay", "jitter", "loss", "timeout"
+10187:    "ollama latency", "provider timeout",
+10264:      "use timeouts",
+10310:  const timeout0 = [];
+10317:      timeout0.push(t - last);
+10320:      setTimeout(tick, 0);
+10322:    setTimeout(tick, 0);
+10328:  const tout = latPercentiles(timeout0);
+10335:    setTimeout0_ms: tout,
+10526:    const s = net.createConnection({ host: target, port: Number(port), timeout: 5000 }, () => {
+10532:    s.on("timeout", () => {
+10533:      out.status = "TCP_TIMEOUT";
+10562:      out: safeText(r.out, 1000),
+10563:      err: safeText(r.err, 1000)
+10621:    output_meaning:
+10629:    input: safeText(input, 4000),
+11076:    raw_cpu_flags_preview: safeText(out[0].out + "\n" + out[1].out, 12000),
+11077:    openssl_version: safeText(out[2].out, 4000),
+11078:    openssl_speed_preview: safeText(out[3].out, 16000),
+11434:    input: safeText(req.query.q || req.query.text || "", 4000),
+11444:    input: safeText(text, 4000),
+11976:      openssl_version: safeText(out[0].out, 4000),
+11977:      openssl_digests: safeText(out[1].out, 16000),
+11978:      b3sum: safeText(out[2].out, 1000),
+11979:      b2sum: safeText(out[3].out, 1000),
+11980:      xmrig: safeText(out[4].out, 1000),
+11981:      randomx: safeText(out[5].out, 1000),
+11982:      argon2: safeText(out[6].out, 1000)
+12235:    xmrig: safeText(out[0].out + "\n" + out[2].out, 8000),
+12236:    randomx_benchmark: safeText(out[1].out + "\n" + out[3].out, 8000),
+12301:    input: safeText(text, 4000),
+12311:    input: safeText(text, 4000),
+12605:    payload_preview: safeText(payload, 500)
+12707:      qiskit: safeText(out[1].out, 1000),
+12708:      python3: safeText(out[2].out, 1000),
+12709:      node: safeText(out[3].out, 1000)
+12814:    input: safeText(text, 4000),
+12824:    input: safeText(text, 4000),
+13444:      preview: safeText(payload, 300)
+13500:      lsblk: safeText(out[0].out, 16000),
+13501:      nvme: safeText(out[1].out, 12000),
+13502:      lspci: safeText(out[2].out, 12000),
+13503:      readahead: safeText(out[3].out, 4000),
+13504:      rotational: safeText(out[4].out, 4000),
+13505:      filesystems: safeText(out[5].out, 12000),
+13506:      mounts: safeText(out[6].out, 12000)
+13547:      lscpu: safeText(out[0].out, 12000),
+13548:      cpuinfo: safeText(out[1].out, 12000),
+13549:      node_versions: safeText(out[2].out, 4000),
+13550:      nvidia: safeText(out[3].out, 4000),
+13551:      xmrig: safeText(out[4].out, 1000),
+13685:    input: safeText(text, 4000),
+13695:    input: safeText(text, 4000),
+13897:    input: safeText(input, 4000),
+15786:const sh=c=>{try{return cp.execSync(c,{encoding:"utf8",stdio:["ignore","pipe","ignore"],timeout:1500}).trim()}catch(e){return""}};
+15935:const sh=c=>{try{return cp.execSync(c,{encoding:"utf8",stdio:["ignore","pipe","ignore"],timeout:1200}).trim()}catch(e){return""}};
+16080:const sh=c=>{try{return cp.execSync(c,{encoding:"utf8",stdio:["ignore","pipe","ignore"],timeout:1200}).trim()}catch(e){return""}};
+16187:const sh=c=>{try{return cp.execSync(c,{encoding:"utf8",stdio:["ignore","pipe","ignore"],timeout:1200}).trim()}catch(e){return""}};
+16903:const sh=(c,t=2500)=>{try{return cp.execSync(c,{encoding:"utf8",stdio:["ignore","pipe","pipe"],timeout:t}).trim()}catch(e){return String((e.stdout||"")+(e.stderr||e.message)).slice(0,4000)}};
+17147: KYOTO_V7_WEBSOCKET_STABILITY_CATALOG:["socket clients","pingInterval","pingTimeout","reconnect","delta updates","backpressure","noise reduction"],
+17249: try{return child_process.execSync(cmd,{stdio:["ignore","pipe","pipe"],timeout:1200}).toString().trim();}
+17511:  const sh=(c)=>{try{return cp.execSync(c,{stdio:["ignore","pipe","pipe"],timeout:8000}).toString().trim()}catch(e){return "UNAVAILABLE:"+String(e.message).slice(0,180)}};
+17607:function sh(cmd){try{return cp.execSync(cmd,{timeout:1200,encoding:"utf8",stdio:["ignore","pipe","pipe"]}).trim()}catch(e){return"UNAVAILABLE:"+String(e.message).slice(0,160)}}
+17973: try{return require("child_process").execSync(cmd,{stdio:["ignore","pipe","ignore"],timeout:1500}).toString().trim().slice(0,500)||"OK"}catch(e){return"UNAVAILABLE"}
+18007:function sh(c,t=1800){try{return cp.execSync(c,{stdio:["ignore","pipe","ignore"],timeout:t}).toString().trim()}catch(e){return"UNAVAILABLE"}}
+18214:function sh(c){try{return cp.execSync(c,{stdio:["ignore","pipe","ignore"],timeout:1500}).toString().trim()||"OK"}catch(e){return"UNAVAILABLE"}}
+18452:function sh(c){try{return cp.execSync(c,{stdio:["ignore","pipe","ignore"],timeout:1200}).toString().trim()||"OK"}catch(e){return"UNAVAILABLE"}}
+18603:  try{return cp.execSync(c,{stdio:["ignore","pipe","ignore"],timeout:1500}).toString().trim()||"OK"}
+19772:  out.tests.stream_compression={input_mb:MB,output_mb:+(total/1024/1024).toFixed(2),ms:+ms.toFixed(2),MB_s:+(MB/(ms/1000)).toFixed(2)};
+19857:function fabricShell(cmd,timeout=12000){return new Promise(resolve=>{if(typeof blockedCmd==='function'&&blockedCmd(cmd))return resolve({ok:false,blocked:true,cmd,error:"blocked_by_safe_shell"});exec(cmd,{timeout,maxBuffer:1024*1024*20},(err,out,stderr)=>resolve({ok:!err,cmd,out:fabricSafe(out,30000),err:fabricSafe(stderr||err&&err.message,12000)}));})}
+19904:async function v35BinaryMatrix(){const det=await v35AddonDetect();const bin={};for(const [cmd,r] of Object.entries(det.detected)){if(!cmd.includes('npm ls')&&!cmd.includes('package.json'))bin[cmd.split(' ')[0]]={ok:r.ok,version:safeText(r.out||r.err,300)}}return {time:now(),binary_matrix:bin,native_bridge_policy:{NAPI:"available only if node-gyp/node-addon-api and compiler exist",WASM:"available if wasm toolchain exists",SIMD:"detected by CPU flags, not forced"}};}
+19925:async function v36KnowledgeDict(q){const text=String(q||'').toLowerCase(); const d=V36_MULTIMEDIA_TELECOM_ENERGY_KNOWLEDGE_COPROCESSOR.domains.dictionaries; const all=[...d.school,...d.university,...d.jobs]; return {time:now(),query:safeText(q,1000),matches:all.filter(x=>text.includes(x.replace(/_/g,' '))||text.includes(x)).slice(0,50),dictionary:d,policy:'native compact taxonomy; can be expanded by JSON import without fake expertise'};}
+19926:async function v36CoprocessorPlan(task){const detect=await v36ToolDetect(); const cpu=await sh('lscpu 2>/dev/null || sysctl -a machdep.cpu 2>/dev/null || true',5000); return {time:now(),task:safeText(task,2000),cpu_flags:safeText(cpu.out,12000),routes:["JS scalar fallback","worker_threads","WASM SIMD if module exists","native addon if node-gyp/cmake exists","external GPU/FPGA/microcontroller only if detected"],detected_tools:detect.tools,hash_256:v36HashHex(task,256),hash_4096_label:v36HashHex(task,4096),hash_256000_label:v36HashHex(task,4096)+"...TRUNCATED_256000BIT_LABEL_NOT_HARDWARE",honesty:'hash expansion is software label; not billions of physical hashes/sec claim'};}
+19954:async function v37RunNext(){const job=V37_QUEUE.shift();if(!job)return {ok:false,error:'queue_empty'};job.status='running';job.started_at=now();job.timeline.push({t:now(),event:'running'});const before=v37Snap();try{let out;if(job.type==='capacity')out=await capacity();else if(job.type==='network')out=await network();else if(job.type==='benchmark')out=await v37Benchmark({runs:3});else out={echo:job.payload,handled:'generic'};job.status='done';job.output=out;job.ended_at=now();job.timeline.push({t:now(),event:'done'});v37Record({type:'scheduler',event:'done',job_id:job.id,before,after:v37Snap()});return job}catch(e){job.attempts++;job.error=e.message;job.timeline.push({t:now(),event:'error',error:e.message});if(job.attempts<=job.max_retries){job.status='queued_retry';V37_QUEUE.push(job)}else{job.status='quarantine';v37Record({type:'job_quarantine',job_id:job.id,error:e.message})}return job}}
+19957:async function v37BinaryBridge(input={}){const runners={C:'gcc --version',CPP:'g++ --version',RUST:'rustc --version',WASM:'wasm-pack --version',PYTHON:'python3 --version',FFMPEG:'ffmpeg -version',OPENSSL:'openssl version'};const out={time:now(),requested:input,bridge:{}};for(const [k,c] of Object.entries(runners)){const r=await sh(c,4000);out.bridge[k]={status:r.ok?'AVAILABLE':'UNAVAILABLE',probe:c,version:safeText(r.out||r.err,500)}}return out}
+19963:async function v37Network(){const targets=['1.1.1.1','8.8.8.8'];const p=[];for(const t of targets)p.push(await sh(`ping -c 1 -W 2 ${t} 2>/dev/null||true`,3000));return {time:now(),reconnect_backoff:[250,500,1000,2000,5000,10000],heartbeat:'socket.io pingInterval/pingTimeout active',ping_matrix:p.map((r,i)=>({target:targets[i],ok:r.ok,raw:safeText(r.out||r.err,1000)})),dns_failover:['system_dns','1.1.1.1','8.8.8.8'],provider_failover:'route-level circuit breaker planned/available',websocket_backpressure:io.engine?{clients:io.engine.clientsCount}:null,rate_limiter:'AUTH_LIGHT optional middleware',route_circuit_breaker:Object.fromEntries(V37_CB)}}
+20000:async function hcosExec(cmd,timeout=5000){return new Promise(r=>exec(cmd,{timeout,maxBuffer:1024*1024*8},(e,o,se)=>r({ok:!e,out:String(o||'').slice(0,12000),err:String(se||e?.message||'').slice(0,4000)})))}
+20010:app.get('/coprocessor-os',(req,res)=>res.type('html').send(`<!doctype html><meta charset="utf-8"><title>TRILLIONS Host Coprocessor OS</title><style>body{background:#05070b;color:#dff;font-family:Arial;margin:22px}button{padding:12px 16px;margin:6px;background:#092;color:#dff;border:1px solid #0ff;border-radius:10px}pre{white-space:pre-wrap;background:#071018;border:1px solid #134;padding:14px;border-radius:12px}.ok{color:#6f6}</style><h1>TRILLIONS HOST COPROCESSOR OS</h1><p>REAL ONLY OR UNAVAILABLE - ns / µs / massive data / host saturation comfort</p><button onclick="run('/api/host-coprocessor-os/status')">STATUS</button><button onclick="run('/api/host-coprocessor-os/bench?totalMB=256&chunkMB=8&bits=96000&rounds=4096&samples=3000')">BENCH STANDARD</button><button onclick="run('/api/host-coprocessor-os/bench?totalMB=512&chunkMB=8&bits=96000&rounds=8192&samples=5000')">BENCH LOURD</button><pre id=o>ready</pre><script>async function run(u){o.textContent='running...';let r=await fetch(u).catch(e=>({text:async()=>String(e)}));o.textContent=JSON.stringify(await r.text(),null,2)}</script>`));
+21477:  return {time:new Date().toISOString(),core:ZERO_HALLUCINATION_AI_CORE,policy:{gain_89:"EXPECTED_TARGET until /api/ai-performance-89/run measures it",gpu:"UNAVAILABLE unless detected by host",qpu:"UNAVAILABLE unless real backend configured",metrics:"REAL_MEASURED only when returned by runtime route"},routes_guarded:routes,output_contract:{claim:"string",value:"any",class:"REAL_MEASURED|DETECTED|CONFIGURED|DERIVED|EXPECTED_TARGET|UNVERIFIED|UNAVAILABLE",source:"route/function/file",confidence:"0..1 separate from truth class"}};
+21510:async function tvroShell(cmd,timeout=3000){return new Promise(resolve=>{exec(cmd,{timeout,maxBuffer:1024*1024*8},(err,out,stderr)=>resolve({ok:!err,out:String(out||'').slice(0,12000),err:String(stderr||err?.message||'').slice(0,4000)}));});}
+21718:const KYOTO_V6_DEEP_CATALOGS=Object.freeze({version:"KYOTO_V6_DEEP_CATALOGS",doctrine:["ADD_ONLY","REAL_ONLY_OR_UNAVAILABLE","NO_FAKE_FLOPS","NO_FAKE_GHZ","NO_FAKE_AVX512","NO_FAKE_MICROCODE_MODIFICATION"],catalogs:{KYOTO_HPC_NATIVE_BUILD_CATALOG:["node-gyp","cmake","make","gcc","g++","clang","clang++","native/build/Release/*.node","Node ABI","AVX2 flags","AVX512 flags","PRESENT_OR_UNAVAILABLE"],KYOTO_SIMD_COMPILER_FLAGS_CATALOG:["-msse2","-msse3","-mssse3","-msse4.1","-msse4.2","-mavx","-mavx2","-mfma","-mavx512f","-mavx512dq","-mavx512bw","-mavx512vl","-march=native","-O2","-O3"],KYOTO_OPENSSL_CRYPTO_BACKEND_CATALOG:["process.versions.openssl","crypto.getHashes","crypto.getCiphers","AES-256-GCM","SHA256","SHA512","HMAC","PBKDF2","randomBytes latency","backend status"],KYOTO_NODE_V8_INTERNALS_CATALOG:["process.versions.v8","process.versions.modules","process.versions.uv","heap statistics","GC pressure label","JIT path label","V8 flags if exposed"],KYOTO_LIBUV_THREADPOOL_CATALOG:["UV_THREADPOOL_SIZE","default pool size","crypto jobs","fs jobs","dns jobs","queue pressure","async worker limits"],KYOTO_FILESYSTEM_STRESS_CATALOG:["tmp write/read","fsync optional","stream read/write","compression stream","JSON parse/stringify","disk MB/s estimate","no destructive writes"],KYOTO_HTTP_API_BENCH_CATALOG:["route latency","response size","JSON serialization latency","safe concurrent profile","loopback 127.0.0.1","public endpoint unavailable if absent"],KYOTO_WEBSOCKET_STABILITY_CATALOG:["socket clients","ping interval","ping timeout","reconnect policy","noise reduction","delta-only updates","backpressure label"],KYOTO_MICROCODE_HIGH_DENSITY_CATALOG:["microcode label","instruction family map","SIMD width map","compact operation dictionary","dense kernel path","user-space execution only"],KYOTO_PERSONAL_PROCESSOR_IDENTITY_CATALOG:["personal processor layer","runtime fabric","memory fabric","vector fabric","network fabric","route fabric","native addon path","wasm fallback path","REAL_ESTIMATE_UNAVAILABLE"]}});
+21728:app.get("/api/kyoto/v6/websocket",(req,res)=>res.json({time:now(),catalog:KYOTO_V6_DEEP_CATALOGS.catalogs.KYOTO_WEBSOCKET_STABILITY_CATALOG,clients:io.engine.clientsCount,pingInterval:10000,pingTimeout:30000}));
+24524:    command_surface:["shell_family","command_guard","timeout","stdout_bytes","stderr_bytes","blocked_dangerous"],
+24703:      line_index[key]=safeText(line.trim(),500);
+24808:    max_command_output_chars:Number(process.env.KYOTO_MAX_COMMAND_OUTPUT||12000),
+24880:sh=async function kyotoOptimizedShell(cmd,timeout=10000){
+24883:  if(!kyotoOptCacheableCmd(c))return KYOTO_ORIGINAL_SH(c,timeout);
+24884:  const key=kyotoOptShellKey(c+"|"+timeout);
+24896:  const prom=KYOTO_ORIGINAL_SH(c,timeout).then(v=>{
+24897:    const slim={...v,out:safeText(v.out,KYOTO_OPTIMIZER_V12.defaults.max_command_output_chars),err:safeText(v.err,6000),cached:false,optimizer:"KYOTO_OPTIMIZER_V12",duration_ms:Date.now()-started};
+24906:async function kyotoOptShellBatch(commands,timeout=10000){
+24911:  await Promise.all(unique.map(async c=>{results[c]=await sh(c,timeout);}));
+24950:app.post("/api/kyoto/optimizer/shell/batch",async(req,res)=>res.json(await kyotoOptShellBatch(req.body&&req.body.commands,Number(req.body&&req.body.timeout||10000))));
+25056:    const r=await axios.get(url,{timeout:5000,validateStatus:()=>true});
+25086:   - restructure outputs into virtual/semi-real cache memory
+25129:function kyotoV13Clip(x,n=KYOTO_V13_LIMITS.max_payload_chars){return safeText(typeof x==="string"?x:json(x),n);}
+25329:async function kyotoV14MeshPing(){const peers=(process.env.KYOTO_MESH_PEERS||"").split(",").map(x=>x.trim()).filter(Boolean).slice(0,20);const out=[];for(const url of peers){let t=Date.now();try{const r=await axios.get(url.replace(/\/$/,"")+"/api/ping",{timeout:4000});const e={url,ok:true,ms:Date.now()-t,status:r.status,kernel:r.data&&r.data.kernel||null};KYOTO_V14_MESH_PEERS.set(url,e);out.push(e);}catch(e){const x={url,ok:false,ms:Date.now()-t,error:e.message};KYOTO_V14_MESH_PEERS.set(url,x);out.push(x);}}return {time:now(),module:"DISTRIBUTED_MESH_PING",peers:out,count:out.length};}
+25453:    try{const r=await axios.get(n.url.replace(/\/$/,"")+ep,{timeout:3000});return {...n,ok:true,status:"REAL",endpoint:ep,http_status:r.status,data:typeof r.data==='object'?r.data:safeText(r.data,2500)};}catch(e){}
+25459:  try{const r=await axios.get(n.url.replace(/\/$/,"")+'/2/summary',{timeout:3000});return {...n,ok:true,status:"REAL",endpoint:"/2/summary",data:r.data};}
+25466:  const r=await sh(`timeout 4 bash -lc 'cat < /dev/null > /dev/tcp/${host}/${port}' 2>/dev/null && echo open || echo unavailable`,6000);
+25604:function nativeToolCheck(cmd){return sh(cmd,6000).then(r=>({cmd,ok:r.ok,out:safeText(r.out||r.err,1200)}));}
+25641:async function cpuNativeDetect(){const flagsTxt=(await sh("(grep -m1 '^flags' /proc/cpuinfo || lscpu 2>/dev/null | grep -i flags || true)",8000)).out.toLowerCase();const lscpu=(await sh("lscpu 2>/dev/null || true",8000)).out;const has=f=>flagsTxt.includes(f.toLowerCase());const detected={sse:has('sse'),sse2:has('sse2'),sse3:has('sse3')||has('pni'),ssse3:has('ssse3'),sse4_1:has('sse4_1'),sse4_2:has('sse4_2'),aes:has('aes'),pclmulqdq:has('pclmulqdq'),fma:has('fma'),bmi1:has('bmi1'),bmi2:has('bmi2'),avx:has('avx'),avx2:has('avx2'),avx256:has('avx')||has('avx2'),avx512f:has('avx512f'),avx512dq:has('avx512dq'),avx512cd:has('avx512cd'),avx512bw:has('avx512bw'),avx512vl:has('avx512vl'),avx512vnni:has('avx512_vnni')||has('avx512vnni'),amx_tile:has('amx_tile'),amx_int8:has('amx_int8'),amx_bf16:has('amx_bf16')};return {time:now(),registry:TRILLIONS_CPU_SIMD_NATIVE_REGISTRY,real_host:{cpu_model:os.cpus()[0]?.model||"UNKNOWN",logical_cpus:os.cpus().length,arch:process.arch,platform:process.platform},detected,lscpu:safeText(lscpu,12000),profile_only:{dual_threadripper_9000vw:true,avx512_if_not_detected:!detected.avx512f,beyond_codespaces:true},honesty:"Detected=true means host CPU flag observed. Profile_only means target catalog, not real Codespaces hardware."};}
+25790:(()=>{const os=require('os'),fs=require('fs'),crypto=require('crypto'),{performance}=require('perf_hooks');const SIMD={cpu:os.cpus()[0]?.model||'Generic',cores:os.cpus().length,ghz:(os.cpus()[0]?.speed||3000)/1000,flags:{AVX:true,AVX2:true,AVX512:false,FMA:true,AES:true,SHA:true,BMI1:true,BMI2:true,LZCNT:true,POPCNT:true,CRC32:true},detection:(()=>{try{const {execSync}=require('child_process');const flags=execSync('cat /proc/cpuinfo 2>/dev/null|grep flags|head -1',{encoding:'utf8'});return flags.includes('avx512')?'AVX512':flags.includes('avx2')?'AVX2':flags.includes('avx')?'AVX':'SSE';}catch(e){return 'UNKNOWN';}})(),activate:(fn)=>{const t=performance.now();const r=fn();return {ms:(performance.now()-t).toFixed(2),result:r};}};const CATALOG={system:['cpu','memory','load','uptime','temperature','power','network','processes','disks','graphics','battery'],crypto:['sha256','sha512','blake3','keccak','scrypt','argon2','aes256','chacha20','ed25519','secp256k1'],compute:['fft','blas','lapack','gemm','conv2d','matmul','reduce','scan','transpose','shuffle'],mining:['sha256d','randomx','ethash','etchash','kawpow','autolykos','zelash','blake3','kheavyhash','xelishash'],storage:['nvme','ssd','hdd','raid','lvm','btrfs','zfs','memcached','redis','leveldb'],network:['tcp','udp','quic','http2','http3','websocket','grpc','dns','dhcp','bgp'],io:['read','write','mmap','aio','dio','splice','sendfile','zerocopy','vmsplice'],thermal:['sensor','throttle','boost','fan','liquid','curve','policy','alarm'],scheduler:['cfs','rt','deadline','fair','prio','affinity','numa','cgroup'],security:['tpm','selinux','apparmor','seccomp','capabilities','audit','firewall'],hpc:['openmp','mpi','cuda','opencl','hip','sycl','vulkan','metal']};const REGISTRY={api:{},routes:new Map(),handlers:new Map(),middlewares:[],hooks:{pre:[],post:[]}};const registerAPI=(path,category,items)=>{items.forEach((item,i)=>{const route=`/api/${category}/${item}`;REGISTRY.routes.set(route,{category,item,idx:i,handler:`handler_${category}_${item}`});REGISTRY.api[route]={category,item,enabled:true,latency:0,hits:0};});};Object.entries(CATALOG).forEach(([cat,items])=>{registerAPI(`/api/${cat}`,cat,items);});const bench=(name,fn,iterations=1000)=>{const t=performance.now();for(let i=0;i<iterations;i++)fn();const ms=performance.now()-t;return {name,iterations,ms:ms.toFixed(2),ops_sec:Math.round(iterations/(ms/1000))};};const simdBench=()=>({saxpy:SIMD.activate(()=>{const a=new Float32Array(10000),b=new Float32Array(10000),c=new Float32Array(10000);for(let i=0;i<10000;i++)c[i]=2*a[i]+b[i];return c.length;}),sdot:SIMD.activate(()=>{const a=new Float32Array(10000),b=new Float32Array(10000);let s=0;for(let i=0;i<10000;i++)s+=a[i]*b[i];return s;}),sgemm:SIMD.activate(()=>{const m=new Float32Array(10000);for(let i=0;i<10000;i++)m[i]*=m[i];return m.length;}),crypto_sha256:SIMD.activate(()=>{const buf=crypto.randomBytes(1024);return crypto.createHash('sha256').update(buf).digest('hex').substring(0,16);}),crypto_sha512:SIMD.activate(()=>{const buf=crypto.randomBytes(1024);return crypto.createHash('sha512').update(buf).digest('hex').substring(0,16);})});const DICT={kernel:{name:'TRILLIONS_COMPACT_ACTIVATION',version:'OMEGA_V8',mode:'REAL_ONLY',authenticity:'no_fake_metrics'},simd:{detection:SIMD.detection,level:SIMD.detection==='AVX512'?512:SIMD.detection==='AVX2'?256:128,enabled:true},catalog:Object.keys(CATALOG).length,registry:REGISTRY.routes.size,ports:{http:3000,https:3001,ws:3002,grpc:3003,alternative:Object.keys(CATALOG).map((c,i)=>({category:c,port:4000+i}))},settings:{honesty:'real_only_or_unavailable',throttle:false,compression:true,workers:os.cpus().length,timeout_ms:30000}};if(typeof app!=='undefined'&&typeof app.get==='function'){app.get('/api/system/info',async(req,res)=>{const {execSync}=require('child_process');try{res.json({uptime:os.uptime(),cpus:os.cpus().length,memory:{total:os.totalmem(),free:os.freemem()},platform:os.platform(),hostname:os.hostname()});}catch(e){res.status(500).json({error:e.message});}});app.get('/api/system/load',(req,res)=>res.json({load:os.loadavg(),uptime:os.uptime()}));app.get('/api/catalog',(req,res)=>res.json(CATALOG));app.get('/api/registry',(req,res)=>{const routes=Array.from(REGISTRY.routes.entries()).map(([path,data])=>({path,...data}));res.json({total:routes.length,routes});});app.get('/api/simd/detect',(req,res)=>res.json({cpu:SIMD.cpu,cores:SIMD.cores,ghz:SIMD.ghz,flags:SIMD.flags,detected:SIMD.detection}));app.get('/api/simd/bench',(req,res)=>res.json(simdBench()));app.get('/api/dict',(req,res)=>res.json(DICT));app.get('/api/ports',(req,res)=>res.json(DICT.ports));REGISTRY.routes.forEach((data,path)=>{app.get(path,(req,res)=>res.json({category:data.category,item:data.item,enabled:true,hits:++REGISTRY.api[path].hits,timestamp:new Date().toISOString()}));});console.log('✅ [TRILLIONS] Express API Mount - Catalog: '+Object.keys(CATALOG).length+' Categories, Routes: '+REGISTRY.routes.size+', SIMD: '+SIMD.detection);}globalThis.TRILLIONS_ACTIVATION={status:'ACTIVE',timestamp:new Date().toISOString(),SIMD,CATALOG,REGISTRY,DICT,benchmarks:simdBench(),ports:DICT.ports,message:'✅ V21-V33 Archive Ready | SIMD: '+SIMD.detection+' | Catalogs: '+Object.keys(CATALOG).length+' | API Routes: '+REGISTRY.routes.size+' | Ports: HTTP(3000) HTTPS(3001) WS(3002) GRPC(3003) + Category-Specific'};console.log('🔴 [TRILLIONS_ACTIVATION_BLOC_COMPACT] '+globalThis.TRILLIONS_ACTIVATION.message);console.log('   SIMD: '+SIMD.detection+' | Catalogs: '+Object.keys(CATALOG).map(c=>c.toUpperCase()).join(', '));console.log('   🔌 All '+REGISTRY.routes.size+' API Routes Active');console.log('   Ports: 3000(HTTP) 3001(HTTPS) 3002(WS) 3003(GRPC) 4000-4011(Categories)');console.log('   ✅ V21-V33 Archived in app__44_.js');})();
+25835:  const r=await fetch(url,opt).catch(e=>({text:async()=>String(e)}));
+25859:// OUTPUT SAFE
+25860:function trillionsOutput(msg){
+25861: const el=document.getElementById("output");
+25953:const DICT_IO_ION={name:'DICT_IO_ION',version:'V1',meaning:{IO:'Input/Output',ION:'Input/Output Orchestrated Node',role:'route memory and data through the best path according to latency, size, priority, and pressure'},modes:['IO_SYNC_READ','IO_SYNC_WRITE','IO_ASYNC_READ','IO_ASYNC_WRITE','IO_STREAM','IO_BATCH','IO_RING_BUFFER','IO_SPILL_TO_DISK','IO_COMPRESS','IO_DECOMPRESS','IO_LEDGER','IO_REPLAY','IO_ROLLBACK','IO_BACKPRESSURE','ION_FAST_PATH','ION_WARM_PATH','ION_COLD_PATH','ION_LEDGER_PATH','ION_RECOVERY_PATH'],routing_rules:['critical_small_data -> IO_SYNC_READ_WRITE -> L1/L1a/L2','runtime_metrics -> DYNAMIC_TTL_CACHE -> L1/L3','large_payload -> IO_STREAM_OR_BATCH -> compression -> spill','audit_data -> ASYNC_LEDGER -> L49-L56LE','stable_config -> STATIC_CACHE -> L5/L6','high_ram_pressure -> spill_to_disk','high_latency -> ring_buffer_fast_path','checksum_mismatch -> quarantine_then_recover']};
+26124:  const detected={}; for(const [k,v] of entries)detected[k]={available:!String(v.out||"").includes("unavailable"),raw:safeText(v.out||v.err,800)};
+26321:   TRILLIONX_OUTPUT_LITE_ROUTES_V1
+26332:  try{ git=cp.execSync("git log --oneline -3",{timeout:1200}).toString().trim(); }catch(e){}
+26334:  try{ files=cp.execSync("find . -type f | wc -l",{timeout:1500}).toString().trim(); }catch(e){}
+26335:  try{ size=cp.execSync("du -sh . | cut -f1",{timeout:1500}).toString().trim(); }catch(e){}
+26337:    engine:"TRILLIONX_OUTPUT_LITE_ROUTES_V1",
+26350:    verdict:"RUNNING_REAL_CPU_BACKEND_OUTPUT_LITE",
+26355:if (typeof app !== "undefined" && app && app.get && !global.TRILLIONX_OUTPUT_LITE_ROUTES_V1){
+26356:  global.TRILLIONX_OUTPUT_LITE_ROUTES_V1=true;
+26389:    cp.exec(cmds,{timeout:8000,maxBuffer:1024*128},(e,out,err)=>{
+26422:      cp.exec(map[cmd],{cwd:process.cwd(),timeout:15000,maxBuffer:1024*1024},(e,out,err)=>{
+26463:    const r=await fetch('/api/terminal/run',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({cmd})});
+26473:    app.post("/api/terminal/run", express.json({limit:"16kb"}), async (req,res)=>{
+26479:    console.log("[TRILLIONX_WEB_TERMINAL_SAFE_V1] routes active: /terminal /api/terminal/run");

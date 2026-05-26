@@ -1,0 +1,13 @@
+{
+  "job_id": "20260524223224_appcheck_463068_200872",
+  "type": "appcheck",
+  "category": "APP",
+  "derivative": "syntax_check",
+  "status": "DONE",
+  "error": null,
+  "log_bytes": 0,
+  "log_tail": "",
+  "parsed_available": false,
+  "parsed": null,
+  "seal": "8889588a09cb5064c2675210d82ae221287b48c59d223d0ca0e5bab15ae177cf"
+}

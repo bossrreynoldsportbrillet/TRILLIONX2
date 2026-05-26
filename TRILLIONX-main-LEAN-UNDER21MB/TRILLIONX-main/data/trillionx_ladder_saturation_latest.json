@@ -1,0 +1,1044 @@
+{
+  "name": "TRILLIONX_LADDER_SATURATION_BENCH",
+  "version": "V1",
+  "time": "2026-05-24T08:44:11.066Z",
+  "executed_by": "TRILLIONX",
+  "executed_on": "CODESPACES_VIRTUALIZED_HOST",
+  "host": {
+    "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "logical_cpus": 2,
+    "ram_gb": 7.76,
+    "free_ram_gb": 0.89,
+    "codespaces": true,
+    "simd": {
+      "avx": true,
+      "avx2": true,
+      "avx512f": true,
+      "fma": true,
+      "aes": true,
+      "sha_ni": true
+    }
+  },
+  "levels": [
+    {
+      "level": 1,
+      "config": {
+        "level": 1,
+        "matrixN": 140,
+        "memMb": 44,
+        "memRounds": 2,
+        "hashMb": 20,
+        "hashRounds": 4,
+        "compMb": 11,
+        "workers": 2,
+        "loops": 1050000,
+        "workerCryptoMb": 1,
+        "timeout": 20500
+      },
+      "before": {
+        "rss_mb": 47.1,
+        "heap_mb": 5.25,
+        "external_mb": 1.76,
+        "free_ram_gb": 0.88
+      },
+      "after": {
+        "rss_mb": 141.11,
+        "heap_mb": 5.25,
+        "external_mb": 56.79,
+        "free_ram_gb": 0.8
+      },
+      "ms": 688.02,
+      "event_loop_p95_ms": 20.23,
+      "results": {
+        "matrix": {
+          "n": 140,
+          "ms": 42.23,
+          "gops": 0.13
+        },
+        "memory": {
+          "size_mb": 44,
+          "rounds": 2,
+          "ms": 61.33,
+          "gb_s": 2.802
+        },
+        "hash": {
+          "total_mb": 80,
+          "ms": 69.44,
+          "mb_s": 1152.15,
+          "hash": "97c19954c7a4d214"
+        },
+        "comp": {
+          "input_mb": 11,
+          "ms": 276.1,
+          "mb_s": 39.84,
+          "integrity": true
+        },
+        "workers": {
+          "count": 2,
+          "ok": 2,
+          "failed": 0,
+          "loops": 1050000,
+          "total_loops": 2100000,
+          "ms": 154.36,
+          "loops_s": 13604881.06,
+          "results": [
+            {
+              "ok": true,
+              "ms": 64.67,
+              "loops": 1050000,
+              "cryptoMb": 1,
+              "checksum": 7470615.537,
+              "hash": "c52cf576b8a30eba"
+            },
+            {
+              "ok": true,
+              "ms": 62.71,
+              "loops": 1050000,
+              "cryptoMb": 1,
+              "checksum": 7470615.537,
+              "hash": "6b9716bae2511d10"
+            }
+          ]
+        }
+      },
+      "score": 64.4,
+      "flags": []
+    },
+    {
+      "level": 2,
+      "config": {
+        "level": 2,
+        "matrixN": 152,
+        "memMb": 56,
+        "memRounds": 2,
+        "hashMb": 24,
+        "hashRounds": 5,
+        "compMb": 14,
+        "workers": 2,
+        "loops": 1400000,
+        "workerCryptoMb": 1,
+        "timeout": 23000
+      },
+      "before": {
+        "rss_mb": 132.05,
+        "heap_mb": 5.4,
+        "external_mb": 56.79,
+        "free_ram_gb": 0.81
+      },
+      "after": {
+        "rss_mb": 184.3,
+        "heap_mb": 4.83,
+        "external_mb": 151.79,
+        "free_ram_gb": 1.13
+      },
+      "ms": 737.14,
+      "event_loop_p95_ms": 20.84,
+      "results": {
+        "matrix": {
+          "n": 152,
+          "ms": 14.92,
+          "gops": 0.4706
+        },
+        "memory": {
+          "size_mb": 56,
+          "rounds": 2,
+          "ms": 59.66,
+          "gb_s": 3.667
+        },
+        "hash": {
+          "total_mb": 120,
+          "ms": 121.72,
+          "mb_s": 985.84,
+          "hash": "6d4f36ce874d61e3"
+        },
+        "comp": {
+          "input_mb": 14,
+          "ms": 334.76,
+          "mb_s": 41.82,
+          "integrity": true
+        },
+        "workers": {
+          "count": 2,
+          "ok": 2,
+          "failed": 0,
+          "loops": 1400000,
+          "total_loops": 2800000,
+          "ms": 142.59,
+          "loops_s": 19637009.32,
+          "results": [
+            {
+              "ok": true,
+              "ms": 84.76,
+              "loops": 1400000,
+              "cryptoMb": 1,
+              "checksum": 10221423.467,
+              "hash": "474cb8d14db66a11"
+            },
+            {
+              "ok": true,
+              "ms": 82.43,
+              "loops": 1400000,
+              "cryptoMb": 1,
+              "checksum": 10221423.467,
+              "hash": "86dc6c546d3ee4e3"
+            }
+          ]
+        }
+      },
+      "score": 83.92,
+      "flags": []
+    },
+    {
+      "level": 3,
+      "config": {
+        "level": 3,
+        "matrixN": 164,
+        "memMb": 68,
+        "memRounds": 3,
+        "hashMb": 28,
+        "hashRounds": 5,
+        "compMb": 17,
+        "workers": 2,
+        "loops": 1750000,
+        "workerCryptoMb": 1,
+        "timeout": 25500
+      },
+      "before": {
+        "rss_mb": 175.23,
+        "heap_mb": 4.88,
+        "external_mb": 151.79,
+        "free_ram_gb": 1.14
+      },
+      "after": {
+        "rss_mb": 197.4,
+        "heap_mb": 4.36,
+        "external_mb": 182.79,
+        "free_ram_gb": 1.11
+      },
+      "ms": 858.53,
+      "event_loop_p95_ms": 22.07,
+      "results": {
+        "matrix": {
+          "n": 164,
+          "ms": 36.27,
+          "gops": 0.2432
+        },
+        "memory": {
+          "size_mb": 68,
+          "rounds": 3,
+          "ms": 81,
+          "gb_s": 4.919
+        },
+        "hash": {
+          "total_mb": 140,
+          "ms": 118.51,
+          "mb_s": 1181.33,
+          "hash": "14f57794daa34b1f"
+        },
+        "comp": {
+          "input_mb": 17,
+          "ms": 391.88,
+          "mb_s": 43.38,
+          "integrity": true
+        },
+        "workers": {
+          "count": 2,
+          "ok": 2,
+          "failed": 0,
+          "loops": 1750000,
+          "total_loops": 3500000,
+          "ms": 148.08,
+          "loops_s": 23635634.84,
+          "results": [
+            {
+              "ok": true,
+              "ms": 98.53,
+              "loops": 1750000,
+              "cryptoMb": 1,
+              "checksum": 13066256.55,
+              "hash": "d50170f159a12b02"
+            },
+            {
+              "ok": true,
+              "ms": 96.14,
+              "loops": 1750000,
+              "cryptoMb": 1,
+              "checksum": 13066256.55,
+              "hash": "d612402b1ad60d29"
+            }
+          ]
+        }
+      },
+      "score": 88.37,
+      "flags": []
+    },
+    {
+      "level": 4,
+      "config": {
+        "level": 4,
+        "matrixN": 176,
+        "memMb": 80,
+        "memRounds": 3,
+        "hashMb": 32,
+        "hashRounds": 6,
+        "compMb": 20,
+        "workers": 2,
+        "loops": 2100000,
+        "workerCryptoMb": 2,
+        "timeout": 28000
+      },
+      "before": {
+        "rss_mb": 192.64,
+        "heap_mb": 4.4,
+        "external_mb": 182.79,
+        "free_ram_gb": 1.13
+      },
+      "after": {
+        "rss_mb": 205.04,
+        "heap_mb": 4.04,
+        "external_mb": 101.79,
+        "free_ram_gb": 1.15
+      },
+      "ms": 996.86,
+      "event_loop_p95_ms": 21.02,
+      "results": {
+        "matrix": {
+          "n": 176,
+          "ms": 21.78,
+          "gops": 0.5006
+        },
+        "memory": {
+          "size_mb": 80,
+          "rounds": 3,
+          "ms": 98.99,
+          "gb_s": 4.735
+        },
+        "hash": {
+          "total_mb": 192,
+          "ms": 154.83,
+          "mb_s": 1240.1,
+          "hash": "a3835a360bd8e71f"
+        },
+        "comp": {
+          "input_mb": 20,
+          "ms": 473.8,
+          "mb_s": 42.21,
+          "integrity": true
+        },
+        "workers": {
+          "count": 2,
+          "ok": 2,
+          "failed": 0,
+          "loops": 2100000,
+          "total_loops": 4200000,
+          "ms": 172,
+          "loops_s": 24418924.94,
+          "results": [
+            {
+              "ok": true,
+              "ms": 118.89,
+              "loops": 2100000,
+              "cryptoMb": 2,
+              "checksum": 15993023.74,
+              "hash": "3d5544e472408fbb"
+            },
+            {
+              "ok": true,
+              "ms": 119.73,
+              "loops": 2100000,
+              "cryptoMb": 2,
+              "checksum": 15993023.74,
+              "hash": "2771b5e0a768689b"
+            }
+          ]
+        }
+      },
+      "score": 103.12,
+      "flags": []
+    },
+    {
+      "level": 5,
+      "config": {
+        "level": 5,
+        "matrixN": 188,
+        "memMb": 92,
+        "memRounds": 3,
+        "hashMb": 36,
+        "hashRounds": 6,
+        "compMb": 23,
+        "workers": 2,
+        "loops": 2450000,
+        "workerCryptoMb": 2,
+        "timeout": 30500
+      },
+      "before": {
+        "rss_mb": 198.54,
+        "heap_mb": 4.07,
+        "external_mb": 101.79,
+        "free_ram_gb": 1.16
+      },
+      "after": {
+        "rss_mb": 202.19,
+        "heap_mb": 4.11,
+        "external_mb": 93.78,
+        "free_ram_gb": 1.14
+      },
+      "ms": 1148.37,
+      "event_loop_p95_ms": 20.59,
+      "results": {
+        "matrix": {
+          "n": 188,
+          "ms": 19.54,
+          "gops": 0.6802
+        },
+        "memory": {
+          "size_mb": 92,
+          "rounds": 3,
+          "ms": 106.55,
+          "gb_s": 5.059
+        },
+        "hash": {
+          "total_mb": 216,
+          "ms": 190.61,
+          "mb_s": 1133.2,
+          "hash": "09b11f81b17df1ee"
+        },
+        "comp": {
+          "input_mb": 23,
+          "ms": 547.27,
+          "mb_s": 42.03,
+          "integrity": true
+        },
+        "workers": {
+          "count": 2,
+          "ok": 2,
+          "failed": 0,
+          "loops": 2450000,
+          "total_loops": 4900000,
+          "ms": 198.64,
+          "loops_s": 24667268.75,
+          "results": [
+            {
+              "ok": true,
+              "ms": 141.44,
+              "loops": 2450000,
+              "cryptoMb": 2,
+              "checksum": 18992541.85,
+              "hash": "a968897817172cef"
+            },
+            {
+              "ok": true,
+              "ms": 137.88,
+              "loops": 2450000,
+              "cryptoMb": 2,
+              "checksum": 18992541.85,
+              "hash": "2fa17d6060d6d7a6"
+            }
+          ]
+        }
+      },
+      "score": 116.86,
+      "flags": []
+    },
+    {
+      "level": 6,
+      "config": {
+        "level": 6,
+        "matrixN": 200,
+        "memMb": 104,
+        "memRounds": 4,
+        "hashMb": 40,
+        "hashRounds": 7,
+        "compMb": 26,
+        "workers": 2,
+        "loops": 2800000,
+        "workerCryptoMb": 2,
+        "timeout": 33000
+      },
+      "before": {
+        "rss_mb": 197.5,
+        "heap_mb": 4.39,
+        "external_mb": 93.78,
+        "free_ram_gb": 1.14
+      },
+      "after": {
+        "rss_mb": 252.95,
+        "heap_mb": 4.12,
+        "external_mb": 105.78,
+        "free_ram_gb": 1.12
+      },
+      "ms": 1506.87,
+      "event_loop_p95_ms": 20.3,
+      "results": {
+        "matrix": {
+          "n": 200,
+          "ms": 14.62,
+          "gops": 1.0947
+        },
+        "memory": {
+          "size_mb": 104,
+          "rounds": 4,
+          "ms": 141.16,
+          "gb_s": 5.756
+        },
+        "hash": {
+          "total_mb": 280,
+          "ms": 277.47,
+          "mb_s": 1009.11,
+          "hash": "d2dc22c8048c3a80"
+        },
+        "comp": {
+          "input_mb": 26,
+          "ms": 708.84,
+          "mb_s": 36.68,
+          "integrity": true
+        },
+        "workers": {
+          "count": 2,
+          "ok": 2,
+          "failed": 0,
+          "loops": 2800000,
+          "total_loops": 5600000,
+          "ms": 246.12,
+          "loops_s": 22752701.73,
+          "results": [
+            {
+              "ok": true,
+              "ms": 197.21,
+              "loops": 2800000,
+              "cryptoMb": 2,
+              "checksum": 22066077.073,
+              "hash": "2bac8288063f457e"
+            },
+            {
+              "ok": true,
+              "ms": 174.07,
+              "loops": 2800000,
+              "cryptoMb": 2,
+              "checksum": 22066077.073,
+              "hash": "cd12f57b78afb9ba"
+            }
+          ]
+        }
+      },
+      "score": 127.13,
+      "flags": []
+    },
+    {
+      "level": 7,
+      "config": {
+        "level": 7,
+        "matrixN": 212,
+        "memMb": 116,
+        "memRounds": 4,
+        "hashMb": 44,
+        "hashRounds": 7,
+        "compMb": 29,
+        "workers": 2,
+        "loops": 3150000,
+        "workerCryptoMb": 2,
+        "timeout": 35500
+      },
+      "before": {
+        "rss_mb": 248.34,
+        "heap_mb": 4.15,
+        "external_mb": 105.78,
+        "free_ram_gb": 1.12
+      },
+      "after": {
+        "rss_mb": 259.34,
+        "heap_mb": 4.13,
+        "external_mb": 117.78,
+        "free_ram_gb": 1.14
+      },
+      "ms": 1532.68,
+      "event_loop_p95_ms": 20.41,
+      "results": {
+        "matrix": {
+          "n": 212,
+          "ms": 17.13,
+          "gops": 1.1127
+        },
+        "memory": {
+          "size_mb": 116,
+          "rounds": 4,
+          "ms": 176.97,
+          "gb_s": 5.121
+        },
+        "hash": {
+          "total_mb": 308,
+          "ms": 247.89,
+          "mb_s": 1242.48,
+          "hash": "78dc652110f37012"
+        },
+        "comp": {
+          "input_mb": 29,
+          "ms": 681.43,
+          "mb_s": 42.56,
+          "integrity": true
+        },
+        "workers": {
+          "count": 2,
+          "ok": 2,
+          "failed": 0,
+          "loops": 3150000,
+          "total_loops": 6300000,
+          "ms": 253.67,
+          "loops_s": 24835177.6,
+          "results": [
+            {
+              "ok": true,
+              "ms": 198.8,
+              "loops": 3150000,
+              "cryptoMb": 2,
+              "checksum": 25198372.588,
+              "hash": "a7d35ff1e35c0a13"
+            },
+            {
+              "ok": true,
+              "ms": 201.27,
+              "loops": 3150000,
+              "cryptoMb": 2,
+              "checksum": 25198372.588,
+              "hash": "14a62ae0969f3deb"
+            }
+          ]
+        }
+      },
+      "score": 133.97,
+      "flags": []
+    },
+    {
+      "level": 8,
+      "config": {
+        "level": 8,
+        "matrixN": 224,
+        "memMb": 128,
+        "memRounds": 4,
+        "hashMb": 48,
+        "hashRounds": 8,
+        "compMb": 32,
+        "workers": 2,
+        "loops": 3500000,
+        "workerCryptoMb": 3,
+        "timeout": 38000
+      },
+      "before": {
+        "rss_mb": 254.75,
+        "heap_mb": 4.17,
+        "external_mb": 117.78,
+        "free_ram_gb": 1.15
+      },
+      "after": {
+        "rss_mb": 235.75,
+        "heap_mb": 4.58,
+        "external_mb": 161.79,
+        "free_ram_gb": 1.17
+      },
+      "ms": 1708.92,
+      "event_loop_p95_ms": 20.19,
+      "results": {
+        "matrix": {
+          "n": 224,
+          "ms": 26.81,
+          "gops": 0.8383
+        },
+        "memory": {
+          "size_mb": 128,
+          "rounds": 4,
+          "ms": 173.55,
+          "gb_s": 5.762
+        },
+        "hash": {
+          "total_mb": 384,
+          "ms": 356.79,
+          "mb_s": 1076.26,
+          "hash": "96a0e9143c1d81c8"
+        },
+        "comp": {
+          "input_mb": 32,
+          "ms": 757.85,
+          "mb_s": 42.22,
+          "integrity": true
+        },
+        "workers": {
+          "count": 2,
+          "ok": 2,
+          "failed": 0,
+          "loops": 3500000,
+          "total_loops": 7000000,
+          "ms": 252.37,
+          "loops_s": 27736779.08,
+          "results": [
+            {
+              "ok": true,
+              "ms": 187.97,
+              "loops": 3500000,
+              "cryptoMb": 3,
+              "checksum": 28399005.231,
+              "hash": "1e2bbc203feecf6a"
+            },
+            {
+              "ok": true,
+              "ms": 197.05,
+              "loops": 3500000,
+              "cryptoMb": 3,
+              "checksum": 28399005.231,
+              "hash": "9adb1b2067995f10"
+            }
+          ]
+        }
+      },
+      "score": 143.37,
+      "flags": []
+    },
+    {
+      "level": 9,
+      "config": {
+        "level": 9,
+        "matrixN": 236,
+        "memMb": 140,
+        "memRounds": 5,
+        "hashMb": 52,
+        "hashRounds": 8,
+        "compMb": 35,
+        "workers": 2,
+        "loops": 3850000,
+        "workerCryptoMb": 3,
+        "timeout": 40500
+      },
+      "before": {
+        "rss_mb": 231.12,
+        "heap_mb": 4.61,
+        "external_mb": 161.79,
+        "free_ram_gb": 1.17
+      },
+      "after": {
+        "rss_mb": 309.16,
+        "heap_mb": 4.81,
+        "external_mb": 141.78,
+        "free_ram_gb": 1.1
+      },
+      "ms": 1894.76,
+      "event_loop_p95_ms": 21.51,
+      "results": {
+        "matrix": {
+          "n": 236,
+          "ms": 46.53,
+          "gops": 0.565
+        },
+        "memory": {
+          "size_mb": 140,
+          "rounds": 5,
+          "ms": 227.3,
+          "gb_s": 6.015
+        },
+        "hash": {
+          "total_mb": 416,
+          "ms": 335.91,
+          "mb_s": 1238.41,
+          "hash": "4e52dda9b475d180"
+        },
+        "comp": {
+          "input_mb": 35,
+          "ms": 835.63,
+          "mb_s": 41.88,
+          "integrity": true
+        },
+        "workers": {
+          "count": 2,
+          "ok": 2,
+          "failed": 0,
+          "loops": 3850000,
+          "total_loops": 7700000,
+          "ms": 302.82,
+          "loops_s": 25427963.36,
+          "results": [
+            {
+              "ok": true,
+              "ms": 249.27,
+              "loops": 3850000,
+              "cryptoMb": 3,
+              "checksum": 31650951.413,
+              "hash": "affe108f61ce5014"
+            },
+            {
+              "ok": true,
+              "ms": 243.46,
+              "loops": 3850000,
+              "cryptoMb": 3,
+              "checksum": 31650951.413,
+              "hash": "4f5a10584bd478ed"
+            }
+          ]
+        }
+      },
+      "score": 147.73,
+      "flags": []
+    },
+    {
+      "level": 10,
+      "config": {
+        "level": 10,
+        "matrixN": 248,
+        "memMb": 152,
+        "memRounds": 5,
+        "hashMb": 56,
+        "hashRounds": 9,
+        "compMb": 38,
+        "workers": 2,
+        "loops": 4200000,
+        "workerCryptoMb": 3,
+        "timeout": 43000
+      },
+      "before": {
+        "rss_mb": 304.59,
+        "heap_mb": 4.84,
+        "external_mb": 141.78,
+        "free_ram_gb": 1.11
+      },
+      "after": {
+        "rss_mb": 203.41,
+        "heap_mb": 4.21,
+        "external_mb": 153.78,
+        "free_ram_gb": 1.19
+      },
+      "ms": 2061.57,
+      "event_loop_p95_ms": 20.77,
+      "results": {
+        "matrix": {
+          "n": 248,
+          "ms": 32.8,
+          "gops": 0.93
+        },
+        "memory": {
+          "size_mb": 152,
+          "rounds": 5,
+          "ms": 240.96,
+          "gb_s": 6.16
+        },
+        "hash": {
+          "total_mb": 504,
+          "ms": 430.74,
+          "mb_s": 1170.07,
+          "hash": "5abb387c081c3fba"
+        },
+        "comp": {
+          "input_mb": 38,
+          "ms": 904.94,
+          "mb_s": 41.99,
+          "integrity": true
+        },
+        "workers": {
+          "count": 2,
+          "ok": 2,
+          "failed": 0,
+          "loops": 4200000,
+          "total_loops": 8400000,
+          "ms": 287.75,
+          "loops_s": 29191771.89,
+          "results": [
+            {
+              "ok": true,
+              "ms": 224.93,
+              "loops": 4200000,
+              "cryptoMb": 3,
+              "checksum": 34963045.695,
+              "hash": "2d9fa03e21af5243"
+            },
+            {
+              "ok": true,
+              "ms": 232.04,
+              "loops": 4200000,
+              "cryptoMb": 3,
+              "checksum": 34963045.695,
+              "hash": "de86f8b02e7798ea"
+            }
+          ]
+        }
+      },
+      "score": 160.23,
+      "flags": []
+    },
+    {
+      "level": 11,
+      "config": {
+        "level": 11,
+        "matrixN": 260,
+        "memMb": 164,
+        "memRounds": 5,
+        "hashMb": 60,
+        "hashRounds": 9,
+        "compMb": 41,
+        "workers": 2,
+        "loops": 4550000,
+        "workerCryptoMb": 3,
+        "timeout": 45500
+      },
+      "before": {
+        "rss_mb": 198.71,
+        "heap_mb": 4.24,
+        "external_mb": 153.78,
+        "free_ram_gb": 1.2
+      },
+      "after": {
+        "rss_mb": 203.58,
+        "heap_mb": 4.21,
+        "external_mb": 165.78,
+        "free_ram_gb": 1.17
+      },
+      "ms": 2294.62,
+      "event_loop_p95_ms": 20.66,
+      "results": {
+        "matrix": {
+          "n": 260,
+          "ms": 29.66,
+          "gops": 1.1853
+        },
+        "memory": {
+          "size_mb": 164,
+          "rounds": 5,
+          "ms": 262.24,
+          "gb_s": 6.107
+        },
+        "hash": {
+          "total_mb": 540,
+          "ms": 551.42,
+          "mb_s": 979.29,
+          "hash": "0ff8e68f8f3ef37a"
+        },
+        "comp": {
+          "input_mb": 41,
+          "ms": 968.25,
+          "mb_s": 42.34,
+          "integrity": true
+        },
+        "workers": {
+          "count": 2,
+          "ok": 2,
+          "failed": 0,
+          "loops": 4550000,
+          "total_loops": 9100000,
+          "ms": 306.56,
+          "loops_s": 29684533.43,
+          "results": [
+            {
+              "ok": true,
+              "ms": 250.22,
+              "loops": 4550000,
+              "cryptoMb": 3,
+              "checksum": 38325702.47,
+              "hash": "0d8218f8fe1e8fe8"
+            },
+            {
+              "ok": true,
+              "ms": 246.68,
+              "loops": 4550000,
+              "cryptoMb": 3,
+              "checksum": 38325702.47,
+              "hash": "58471b8fde238eeb"
+            }
+          ]
+        }
+      },
+      "score": 168.13,
+      "flags": []
+    },
+    {
+      "level": 12,
+      "config": {
+        "level": 12,
+        "matrixN": 272,
+        "memMb": 176,
+        "memRounds": 6,
+        "hashMb": 64,
+        "hashRounds": 10,
+        "compMb": 44,
+        "workers": 2,
+        "loops": 4900000,
+        "workerCryptoMb": 4,
+        "timeout": 48000
+      },
+      "before": {
+        "rss_mb": 198.74,
+        "heap_mb": 4.24,
+        "external_mb": 165.78,
+        "free_ram_gb": 1.17
+      },
+      "after": {
+        "rss_mb": 205.55,
+        "heap_mb": 4.22,
+        "external_mb": 177.78,
+        "free_ram_gb": 1.2
+      },
+      "ms": 2606.45,
+      "event_loop_p95_ms": 20.58,
+      "results": {
+        "matrix": {
+          "n": 272,
+          "ms": 49.32,
+          "gops": 0.8161
+        },
+        "memory": {
+          "size_mb": 176,
+          "rounds": 6,
+          "ms": 363.17,
+          "gb_s": 5.679
+        },
+        "hash": {
+          "total_mb": 640,
+          "ms": 591.46,
+          "mb_s": 1082.07,
+          "hash": "1df161ab5b5968a8"
+        },
+        "comp": {
+          "input_mb": 44,
+          "ms": 1062.42,
+          "mb_s": 41.41,
+          "integrity": true
+        },
+        "workers": {
+          "count": 2,
+          "ok": 2,
+          "failed": 0,
+          "loops": 4900000,
+          "total_loops": 9800000,
+          "ms": 337.42,
+          "loops_s": 29043906.29,
+          "results": [
+            {
+              "ok": true,
+              "ms": 274.63,
+              "loops": 4900000,
+              "cryptoMb": 4,
+              "checksum": 41738612.143,
+              "hash": "a74c3ca2d8798cba"
+            },
+            {
+              "ok": true,
+              "ms": 261.34,
+              "loops": 4900000,
+              "cryptoMb": 4,
+              "checksum": 41738612.143,
+              "hash": "ddd13601a0c2b661"
+            }
+          ]
+        }
+      },
+      "score": 175.15,
+      "flags": []
+    }
+  ],
+  "truth_policy": {
+    "real_only": true,
+    "controlled_ladder": true,
+    "no_fake_cpu": true
+  },
+  "summary": {
+    "max_level_reached": 12,
+    "max_score": 175.15,
+    "stop_reason": "NO_SATURATION_IN_LADDER",
+    "verdict": "TRILLIONX_STABLE_ON_ALL_LADDER_LEVELS",
+    "reading": "Finer progressive ladder; avoids huge level jumps that can kill Codespaces abruptly."
+  }
+}

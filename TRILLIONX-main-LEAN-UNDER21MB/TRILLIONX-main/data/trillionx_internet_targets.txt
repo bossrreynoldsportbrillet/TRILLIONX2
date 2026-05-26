@@ -1,0 +1,7 @@
+http://127.0.0.1:3000/
+http://127.0.0.1:3000/api/health
+https://api.github.com/
+https://api.coingecko.com/api/v3/ping
+https://blockchain.info/latestblock
+https://mempool.space/api/blocks/tip/height
+https://cloudflare.com/cdn-cgi/trace

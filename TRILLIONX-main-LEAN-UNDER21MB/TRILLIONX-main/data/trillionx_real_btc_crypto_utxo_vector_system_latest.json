@@ -1,0 +1,2166 @@
+{
+  "engine": "TRILLIONX_REAL_BTC_CRYPTO_UTXO_VECTOR_SYSTEM_BENCH",
+  "ts": "2026-05-24T12:07:36.280Z",
+  "policy": {
+    "target": "TRILLIONX",
+    "host": "CODESPACES_SUPPORT_ONLY",
+    "real_only": true,
+    "no_fake_zettahash": true,
+    "no_fake_gpu": true
+  },
+  "host": {
+    "node": "v24.14.0",
+    "platform": "linux",
+    "arch": "x64",
+    "cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "cpus": 2,
+    "ghz": 3.392,
+    "ram_gb": 7.757,
+    "simd": {
+      "sse": true,
+      "sse2": true,
+      "sse4_1": true,
+      "sse4_2": true,
+      "avx": true,
+      "avx2": true,
+      "avx512f": true,
+      "fma": true,
+      "aes": true,
+      "sha_ni": true
+    }
+  },
+  "registry": {
+    "files": 127,
+    "ext": {
+      ".Q": 1,
+      ".gitignore": 1,
+      ".json": 40,
+      "NOEXT": 6,
+      ".zip": 2,
+      ".md": 3,
+      ".js": 56,
+      ".txt": 12,
+      ".jsonl": 3,
+      ".gz": 1,
+      ".sh": 1,
+      ".c": 1
+    },
+    "routes": 16074,
+    "api_strings": 63482,
+    "api_roots": [
+      {
+        "key": "/api/kyoto",
+        "count": 7985
+      },
+      {
+        "key": "/api/trillions",
+        "count": 3836
+      },
+      {
+        "key": "/api/processor-calc",
+        "count": 2986
+      },
+      {
+        "key": "/api/stratum-sha256",
+        "count": 2351
+      },
+      {
+        "key": "/api/cache-memory",
+        "count": 2255
+      },
+      {
+        "key": "/api/memory-terms",
+        "count": 2109
+      },
+      {
+        "key": "/api/codec-cpu",
+        "count": 1903
+      },
+      {
+        "key": "/api/benchmark",
+        "count": 1850
+      },
+      {
+        "key": "/api/hpc-simd",
+        "count": 1531
+      },
+      {
+        "key": "/api/frontier-kernel",
+        "count": 1517
+      },
+      {
+        "key": "/api/die-3dnand",
+        "count": 1466
+      },
+      {
+        "key": "/api/latency-min",
+        "count": 1441
+      },
+      {
+        "key": "/api/fabric",
+        "count": 1418
+      },
+      {
+        "key": "/api/hash-field",
+        "count": 1387
+      },
+      {
+        "key": "/api/sha-field",
+        "count": 1238
+      },
+      {
+        "key": "/api/qn-coprocessor",
+        "count": 1034
+      },
+      {
+        "key": "/api/v37",
+        "count": 977
+      },
+      {
+        "key": "/api/world-hpc",
+        "count": 956
+      },
+      {
+        "key": "/api/kernel-score",
+        "count": 833
+      },
+      {
+        "key": "/api/jobs",
+        "count": 768
+      },
+      {
+        "key": "/api/ultimate-hpc",
+        "count": 758
+      },
+      {
+        "key": "/api/positive-runtime",
+        "count": 752
+      },
+      {
+        "key": "/api/hpc-zeta",
+        "count": 731
+      },
+      {
+        "key": "/api/hybrid-hpc",
+        "count": 722
+      },
+      {
+        "key": "/api/network",
+        "count": 558
+      },
+      {
+        "key": "/api/memory-l56",
+        "count": 517
+      },
+      {
+        "key": "/api/system",
+        "count": 498
+      },
+      {
+        "key": "/api/performance",
+        "count": 498
+      },
+      {
+        "key": "/api/dict",
+        "count": 496
+      },
+      {
+        "key": "/api/orchestrator-intelligent",
+        "count": 467
+      }
+    ],
+    "modules": [
+      "./app.js",
+      "./backend/hybrid-evo",
+      "./native-simd/build/Release/simd_addon.node",
+      "./plugin.guard",
+      "./plugin.registry",
+      "./plugins/plugin.loader",
+      "axios",
+      "child_process",
+      "crypto",
+      "dgram",
+      "dns",
+      "dotenv",
+      "events",
+      "express",
+      "fs",
+      "gpu",
+      "http",
+      "net",
+      "os",
+      "path",
+      "perf_hooks",
+      "socket.io",
+      "systeminformation",
+      "v8",
+      "worker_threads",
+      "zlib"
+    ],
+    "workers": [
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6.original.txt",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.TRILLIONS-FUSED-RUNTIME.txt",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/backend/hybrid-evo.js",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/plugins/plugin.guard.js",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/plugins/simd-native.plugin.js",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/workers/trillions.worker.js",
+      "./TRILLIONX_COMPUTE_SPEED_BENCH.js",
+      "./TRILLIONX_FIRE_PACKET_EXTREME_BENCH.before_roundfix_20260524_091152.js",
+      "./TRILLIONX_FIRE_PACKET_EXTREME_BENCH.broken_20260524_091354.js",
+      "./TRILLIONX_FULL_THREADRIPPER_PROFILE_BENCH.js",
+      "./TRILLIONX_LADDER_HEALTH_UNITS_BENCH.js",
+      "./TRILLIONX_LADDER_SATURATION_BENCH.js",
+      "./TRILLIONX_PERF_ORCH_SUPERCLASS_BENCH.js",
+      "./TRILLIONX_REAL_BTC_CRYPTO_UTXO_VECTOR_SYSTEM_BENCH.js",
+      "./TRILLIONX_SATURATION_COMPLEXITY_BENCH.js",
+      "./app.js",
+      "./app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt",
+      "./app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt",
+      "./app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt",
+      "./app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt",
+      "./app.js.9000VW.memory-ecc-222-L1L6.original.txt",
+      "./app.js.TRILLIONS-FUSED-RUNTIME.txt",
+      "./backend/hybrid-evo.js",
+      "./backups/app.before_TRILLIONX_virtual_threadripper_20260524_072919.js",
+      "./backups/app.before_TRILLIONX_virtual_threadripper_20260524_073013.js",
+      "./backups/app.before_TRILLIONX_virtual_threadripper_20260524_073108.js",
+      "./backups/app.before_compact_output_20260524_114806.js",
+      "./backups/app.before_dedup_threadripper_20260524_074142.js",
+      "./backups/app.before_output_lite_20260524_115426.js",
+      "./backups/app.before_virtual_threadripper_fix_20260524_073958.js",
+      "./data/trillions_health_bench_total_latest.json",
+      "./data/trillionx_activation_registry_latest.json",
+      "./data/trillionx_repo_master_index_latest.json",
+      "./plugins/plugin.guard.js",
+      "./plugins/simd-native.plugin.js",
+      "./workers/trillions.worker.js"
+    ],
+    "key_files": [
+      "./.vscode/launch.json",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/TRILLIONS_ULTIMATE_API_CATALOG_REGISTRY.json",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6.original.txt",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/backend/registry/worker.registry.js",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/package.json",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/plugins/plugin.guard.js",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/plugins/plugin.loader.js",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/plugins/plugin.registry.js",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/plugins/simd-native.plugin.js",
+      "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/workers/trillions.worker.js",
+      "./TRILLIONS_FIRE_EXTREME_SUPPORT_BENCH.js",
+      "./TRILLIONS_HEALTH_BENCH_TOTAL.js",
+      "./TRILLIONS_HEALTH_BENCH_TOTAL_V2.js",
+      "./TRILLIONS_ULTIMATE_API_CATALOG_REGISTRY.json",
+      "./TRILLIONX_ACTIVATION_REGISTRY.js",
+      "./TRILLIONX_AI_WORLD_HEALTH_BENCH.js",
+      "./TRILLIONX_BACKEND_CAPABILITY_REGISTRY.js",
+      "./TRILLIONX_COMPUTE_SPEED_BENCH.js",
+      "./TRILLIONX_CRYPTO_ZETTA_PACKET_BENCH.js",
+      "./TRILLIONX_FIRE_PACKET_EXTREME_BENCH.before_roundfix_20260524_091152.js",
+      "./TRILLIONX_FIRE_PACKET_EXTREME_BENCH.broken_20260524_091354.js",
+      "./TRILLIONX_FIRE_PACKET_EXTREME_BENCH.js",
+      "./TRILLIONX_FULL_THREADRIPPER_PROFILE_BENCH.js",
+      "./TRILLIONX_LADDER_HEALTH_UNITS_BENCH.js",
+      "./TRILLIONX_LADDER_SATURATION_BENCH.js",
+      "./TRILLIONX_NATIVE_SIMD_DEPENDENCY_REGISTRY.js",
+      "./TRILLIONX_PERF_ORCH_SUPERCLASS_BENCH.js",
+      "./TRILLIONX_REAL_BTC_CRYPTO_UTXO_VECTOR_SYSTEM_BENCH.js",
+      "./TRILLIONX_RTX4090_ASTRAL_PROFILE_BENCH.js",
+      "./TRILLIONX_SATURATION_COMPLEXITY_BENCH.js",
+      "./TRILLIONX_SIMD_AVX_BENCH.js",
+      "./TRILLIONX_VR_MIRROR_BENCH.js",
+      "./TRILLIONX_WORLD_SUPERIOR_REDISCOVERY_BENCH.js",
+      "./app.js",
+      "./app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt",
+      "./app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt",
+      "./app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt",
+      "./app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt",
+      "./app.js.9000VW.memory-ecc-222-L1L6.original.txt",
+      "./backend/registry/worker.registry.js",
+      "./backend/trillionx_gpu_backend_router.js",
+      "./data/_archive_light/trillionx_backend_capability_registry_1779617684345.json",
+      "./data/_archive_light/trillionx_native_simd_dependency_registry_1779617891170.json",
+      "./data/trillions_health_bench_total_latest.json",
+      "./data/trillionx_activation_registry_latest.json",
+      "./data/trillionx_backend_capability_registry_latest.json",
+      "./data/trillionx_crypto_zetta_packet_latest.json",
+      "./data/trillionx_gpu_backend_router_latest.json",
+      "./data/trillionx_native_simd_dependency_registry_latest.json",
+      "./data/trillionx_simd_avx_bench_latest.json",
+      "./native/simd/trillionx_simd_native_bench",
+      "./native/simd/trillionx_simd_native_bench.c",
+      "./package.json",
+      "./plugins/plugin.guard.js",
+      "./plugins/plugin.loader.js",
+      "./plugins/plugin.registry.js",
+      "./plugins/simd-native.plugin.js",
+      "./workers/trillions.worker.js"
+    ]
+  },
+  "api": {
+    "tested": 10,
+    "ok": 10,
+    "fail": 0,
+    "p50": 2.787,
+    "p95": 427.493,
+    "results": [
+      {
+        "path": "/",
+        "http": 200,
+        "ms": 7.34,
+        "bytes": 7654,
+        "ok": true
+      },
+      {
+        "path": "/api/ping",
+        "http": 200,
+        "ms": 1.584,
+        "bytes": 167,
+        "ok": true
+      },
+      {
+        "path": "/api/full",
+        "http": 200,
+        "ms": 427.493,
+        "bytes": 24002,
+        "ok": true
+      },
+      {
+        "path": "/api/health",
+        "http": 200,
+        "ms": 1.846,
+        "bytes": 364,
+        "ok": true
+      },
+      {
+        "path": "/api/runtime/status",
+        "http": 200,
+        "ms": 388.995,
+        "bytes": 2572,
+        "ok": true
+      },
+      {
+        "path": "/api/reconnect",
+        "http": 200,
+        "ms": 1.466,
+        "bytes": 591,
+        "ok": true
+      },
+      {
+        "path": "/api/ai-chat",
+        "http": 200,
+        "ms": 0.979,
+        "bytes": 738,
+        "ok": true
+      },
+      {
+        "path": "/api/hardware/9000vw",
+        "http": 200,
+        "ms": 1.87,
+        "bytes": 1047,
+        "ok": true
+      },
+      {
+        "path": "/api/benchmark",
+        "http": 200,
+        "ms": 2.787,
+        "bytes": 362,
+        "ok": true
+      },
+      {
+        "path": "/api/performance",
+        "http": 404,
+        "ms": 4.76,
+        "bytes": 154,
+        "ok": true
+      }
+    ]
+  },
+  "summary": {
+    "cum_score": 21114.798,
+    "avg_score": 1759.566,
+    "avg_sha256_mb_s": 1195.405,
+    "avg_utxo_s": 478630.711,
+    "avg_vector_gflops": 1.594,
+    "avg_health": 96.891,
+    "cumulative_zettahash_s": 0,
+    "cumulative_zettaflops_s": 0,
+    "verdict": "REAL_LOCAL_TRILLIONX_BTC_CRYPTO_UTXO_VECTOR_SYSTEM_BENCH",
+    "reading": "Measures TRILLIONX runtime/orchestration under real local workloads; not a claim of BTC mining power or supercomputer hardware."
+  },
+  "packets": [
+    {
+      "i": 1,
+      "before": {
+        "rss_mb": 249.93,
+        "heap_mb": 159.547,
+        "external_mb": 1.997,
+        "arraybuf_mb": 0.09,
+        "free_gb": 4.748,
+        "total_gb": 7.757
+      },
+      "sha": {
+        "mb": 24,
+        "ms": 30.297,
+        "mb_s": 792.16,
+        "hash": "8edaa7f0f439804193dc"
+      },
+      "pbkdf": {
+        "rounds": 100000,
+        "ms": 35.266,
+        "iter_s": 2835565.741
+      },
+      "scrypt": {
+        "N": 16384,
+        "ms": 45.716,
+        "ops_s": 21.874
+      },
+      "utxo": {
+        "utxos": 13500,
+        "ms": 36.245,
+        "utxo_s": 372468.436,
+        "total_sat": "634365421750",
+        "spent_sat": "90665499916",
+        "live_sat": "543699921834",
+        "checksum": "88966074276987"
+      },
+      "vector": {
+        "items": 205000,
+        "ms": 5.595,
+        "gflops": 0.147,
+        "dot": 0.986,
+        "min": -0.832,
+        "max": 0.582
+      },
+      "api": {
+        "tested": 10,
+        "ok": 10,
+        "fail": 0,
+        "p50": 2.787,
+        "p95": 427.493,
+        "results": [
+          {
+            "path": "/",
+            "http": 200,
+            "ms": 7.34,
+            "bytes": 7654,
+            "ok": true
+          },
+          {
+            "path": "/api/ping",
+            "http": 200,
+            "ms": 1.584,
+            "bytes": 167,
+            "ok": true
+          },
+          {
+            "path": "/api/full",
+            "http": 200,
+            "ms": 427.493,
+            "bytes": 24002,
+            "ok": true
+          },
+          {
+            "path": "/api/health",
+            "http": 200,
+            "ms": 1.846,
+            "bytes": 364,
+            "ok": true
+          },
+          {
+            "path": "/api/runtime/status",
+            "http": 200,
+            "ms": 388.995,
+            "bytes": 2572,
+            "ok": true
+          },
+          {
+            "path": "/api/reconnect",
+            "http": 200,
+            "ms": 1.466,
+            "bytes": 591,
+            "ok": true
+          },
+          {
+            "path": "/api/ai-chat",
+            "http": 200,
+            "ms": 0.979,
+            "bytes": 738,
+            "ok": true
+          },
+          {
+            "path": "/api/hardware/9000vw",
+            "http": 200,
+            "ms": 1.87,
+            "bytes": 1047,
+            "ok": true
+          },
+          {
+            "path": "/api/benchmark",
+            "http": 200,
+            "ms": 2.787,
+            "bytes": 362,
+            "ok": true
+          },
+          {
+            "path": "/api/performance",
+            "http": 404,
+            "ms": 4.76,
+            "bytes": 154,
+            "ok": true
+          }
+        ]
+      },
+      "memory_before": {
+        "rss_mb": 249.93,
+        "heap_mb": 159.547,
+        "external_mb": 1.997,
+        "arraybuf_mb": 0.09,
+        "free_gb": 4.748,
+        "total_gb": 7.757
+      },
+      "memory_after": {
+        "rss_mb": 278.16,
+        "heap_mb": 178.273,
+        "external_mb": 29.125,
+        "arraybuf_mb": 27.218,
+        "free_gb": 4.717,
+        "total_gb": 7.757
+      },
+      "score": {
+        "score": 1306.712,
+        "hash_gb_s": 0.792,
+        "utxo_index_100k_s": 3.725,
+        "vector_gflops": 0.147,
+        "api_ratio": 1,
+        "mem_health": 97.177
+      }
+    },
+    {
+      "i": 2,
+      "before": {
+        "rss_mb": 278.16,
+        "heap_mb": 178.295,
+        "external_mb": 29.125,
+        "arraybuf_mb": 27.218,
+        "free_gb": 4.717,
+        "total_gb": 7.757
+      },
+      "sha": {
+        "mb": 32,
+        "ms": 25.666,
+        "mb_s": 1246.763,
+        "hash": "229caf7a7dd5938f0fab"
+      },
+      "pbkdf": {
+        "rounds": 120000,
+        "ms": 22.014,
+        "iter_s": 5450980.018
+      },
+      "scrypt": {
+        "N": 16384,
+        "ms": 35.455,
+        "ops_s": 28.205
+      },
+      "utxo": {
+        "utxos": 15000,
+        "ms": 47.313,
+        "utxo_s": 317037.815,
+        "total_sat": "653628107500",
+        "spent_sat": "93410253751",
+        "live_sat": "560217853749",
+        "checksum": "161830123464320"
+      },
+      "vector": {
+        "items": 230000,
+        "ms": 0.986,
+        "gflops": 0.933,
+        "dot": 0.864,
+        "min": -0.832,
+        "max": 0.582
+      },
+      "api": {
+        "tested": 10,
+        "ok": 10,
+        "fail": 0,
+        "p50": 2.787,
+        "p95": 427.493,
+        "results": [
+          {
+            "path": "/",
+            "http": 200,
+            "ms": 7.34,
+            "bytes": 7654,
+            "ok": true
+          },
+          {
+            "path": "/api/ping",
+            "http": 200,
+            "ms": 1.584,
+            "bytes": 167,
+            "ok": true
+          },
+          {
+            "path": "/api/full",
+            "http": 200,
+            "ms": 427.493,
+            "bytes": 24002,
+            "ok": true
+          },
+          {
+            "path": "/api/health",
+            "http": 200,
+            "ms": 1.846,
+            "bytes": 364,
+            "ok": true
+          },
+          {
+            "path": "/api/runtime/status",
+            "http": 200,
+            "ms": 388.995,
+            "bytes": 2572,
+            "ok": true
+          },
+          {
+            "path": "/api/reconnect",
+            "http": 200,
+            "ms": 1.466,
+            "bytes": 591,
+            "ok": true
+          },
+          {
+            "path": "/api/ai-chat",
+            "http": 200,
+            "ms": 0.979,
+            "bytes": 738,
+            "ok": true
+          },
+          {
+            "path": "/api/hardware/9000vw",
+            "http": 200,
+            "ms": 1.87,
+            "bytes": 1047,
+            "ok": true
+          },
+          {
+            "path": "/api/benchmark",
+            "http": 200,
+            "ms": 2.787,
+            "bytes": 362,
+            "ok": true
+          },
+          {
+            "path": "/api/performance",
+            "http": 404,
+            "ms": 4.76,
+            "bytes": 154,
+            "ok": true
+          }
+        ]
+      },
+      "memory_before": {
+        "rss_mb": 278.16,
+        "heap_mb": 178.295,
+        "external_mb": 29.125,
+        "arraybuf_mb": 27.218,
+        "free_gb": 4.717,
+        "total_gb": 7.757
+      },
+      "memory_after": {
+        "rss_mb": 330.781,
+        "heap_mb": 190.939,
+        "external_mb": 64.635,
+        "arraybuf_mb": 62.728,
+        "free_gb": 4.675,
+        "total_gb": 7.757
+      },
+      "score": {
+        "score": 1396.392,
+        "hash_gb_s": 1.247,
+        "utxo_index_100k_s": 3.17,
+        "vector_gflops": 0.933,
+        "api_ratio": 1,
+        "mem_health": 94.738
+      }
+    },
+    {
+      "i": 3,
+      "before": {
+        "rss_mb": 171.734,
+        "heap_mb": 7.406,
+        "external_mb": 1.923,
+        "arraybuf_mb": 0.016,
+        "free_gb": 4.789,
+        "total_gb": 7.757
+      },
+      "sha": {
+        "mb": 40,
+        "ms": 31.997,
+        "mb_s": 1250.131,
+        "hash": "abc5c23d703d53f0efd3"
+      },
+      "pbkdf": {
+        "rounds": 140000,
+        "ms": 27.625,
+        "iter_s": 5067944.667
+      },
+      "scrypt": {
+        "N": 16384,
+        "ms": 34.242,
+        "ops_s": 29.204
+      },
+      "utxo": {
+        "utxos": 16500,
+        "ms": 41.79,
+        "utxo_s": 394832.896,
+        "total_sat": "690708543250",
+        "spent_sat": "98724264916",
+        "live_sat": "591984278334",
+        "checksum": "214899031347843"
+      },
+      "vector": {
+        "items": 255000,
+        "ms": 1.097,
+        "gflops": 0.93,
+        "dot": 0.454,
+        "min": -0.832,
+        "max": 0.582
+      },
+      "api": {
+        "tested": 10,
+        "ok": 10,
+        "fail": 0,
+        "p50": 2.787,
+        "p95": 427.493,
+        "results": [
+          {
+            "path": "/",
+            "http": 200,
+            "ms": 7.34,
+            "bytes": 7654,
+            "ok": true
+          },
+          {
+            "path": "/api/ping",
+            "http": 200,
+            "ms": 1.584,
+            "bytes": 167,
+            "ok": true
+          },
+          {
+            "path": "/api/full",
+            "http": 200,
+            "ms": 427.493,
+            "bytes": 24002,
+            "ok": true
+          },
+          {
+            "path": "/api/health",
+            "http": 200,
+            "ms": 1.846,
+            "bytes": 364,
+            "ok": true
+          },
+          {
+            "path": "/api/runtime/status",
+            "http": 200,
+            "ms": 388.995,
+            "bytes": 2572,
+            "ok": true
+          },
+          {
+            "path": "/api/reconnect",
+            "http": 200,
+            "ms": 1.466,
+            "bytes": 591,
+            "ok": true
+          },
+          {
+            "path": "/api/ai-chat",
+            "http": 200,
+            "ms": 0.979,
+            "bytes": 738,
+            "ok": true
+          },
+          {
+            "path": "/api/hardware/9000vw",
+            "http": 200,
+            "ms": 1.87,
+            "bytes": 1047,
+            "ok": true
+          },
+          {
+            "path": "/api/benchmark",
+            "http": 200,
+            "ms": 2.787,
+            "bytes": 362,
+            "ok": true
+          },
+          {
+            "path": "/api/performance",
+            "http": 404,
+            "ms": 4.76,
+            "bytes": 154,
+            "ok": true
+          }
+        ]
+      },
+      "memory_before": {
+        "rss_mb": 171.734,
+        "heap_mb": 7.406,
+        "external_mb": 1.923,
+        "arraybuf_mb": 0.016,
+        "free_gb": 4.789,
+        "total_gb": 7.757
+      },
+      "memory_after": {
+        "rss_mb": 215.238,
+        "heap_mb": 23.216,
+        "external_mb": 45.814,
+        "arraybuf_mb": 43.907,
+        "free_gb": 4.752,
+        "total_gb": 7.757
+      },
+      "score": {
+        "score": 1538.627,
+        "hash_gb_s": 1.25,
+        "utxo_index_100k_s": 3.948,
+        "vector_gflops": 0.93,
+        "api_ratio": 1,
+        "mem_health": 95.65
+      }
+    },
+    {
+      "i": 4,
+      "before": {
+        "rss_mb": 215.238,
+        "heap_mb": 23.227,
+        "external_mb": 45.814,
+        "arraybuf_mb": 43.907,
+        "free_gb": 4.734,
+        "total_gb": 7.757
+      },
+      "sha": {
+        "mb": 16,
+        "ms": 12.956,
+        "mb_s": 1234.971,
+        "hash": "4c7a7fb5f8c349a7e859"
+      },
+      "pbkdf": {
+        "rounds": 160000,
+        "ms": 28.922,
+        "iter_s": 5532173.479
+      },
+      "scrypt": {
+        "N": 16384,
+        "ms": 34.389,
+        "ops_s": 29.079
+      },
+      "utxo": {
+        "utxos": 18000,
+        "ms": 27.987,
+        "utxo_s": 643153.981,
+        "total_sat": "745606729000",
+        "spent_sat": "106558100749",
+        "live_sat": "639048628251",
+        "checksum": "39262357301704"
+      },
+      "vector": {
+        "items": 280000,
+        "ms": 0.578,
+        "gflops": 1.939,
+        "dot": -0.011,
+        "min": -0.832,
+        "max": 0.582
+      },
+      "api": {
+        "tested": 10,
+        "ok": 10,
+        "fail": 0,
+        "p50": 2.787,
+        "p95": 427.493,
+        "results": [
+          {
+            "path": "/",
+            "http": 200,
+            "ms": 7.34,
+            "bytes": 7654,
+            "ok": true
+          },
+          {
+            "path": "/api/ping",
+            "http": 200,
+            "ms": 1.584,
+            "bytes": 167,
+            "ok": true
+          },
+          {
+            "path": "/api/full",
+            "http": 200,
+            "ms": 427.493,
+            "bytes": 24002,
+            "ok": true
+          },
+          {
+            "path": "/api/health",
+            "http": 200,
+            "ms": 1.846,
+            "bytes": 364,
+            "ok": true
+          },
+          {
+            "path": "/api/runtime/status",
+            "http": 200,
+            "ms": 388.995,
+            "bytes": 2572,
+            "ok": true
+          },
+          {
+            "path": "/api/reconnect",
+            "http": 200,
+            "ms": 1.466,
+            "bytes": 591,
+            "ok": true
+          },
+          {
+            "path": "/api/ai-chat",
+            "http": 200,
+            "ms": 0.979,
+            "bytes": 738,
+            "ok": true
+          },
+          {
+            "path": "/api/hardware/9000vw",
+            "http": 200,
+            "ms": 1.87,
+            "bytes": 1047,
+            "ok": true
+          },
+          {
+            "path": "/api/benchmark",
+            "http": 200,
+            "ms": 2.787,
+            "bytes": 362,
+            "ok": true
+          },
+          {
+            "path": "/api/performance",
+            "http": 404,
+            "ms": 4.76,
+            "bytes": 154,
+            "ok": true
+          }
+        ]
+      },
+      "memory_before": {
+        "rss_mb": 215.238,
+        "heap_mb": 23.227,
+        "external_mb": 45.814,
+        "arraybuf_mb": 43.907,
+        "free_gb": 4.734,
+        "total_gb": 7.757
+      },
+      "memory_after": {
+        "rss_mb": 225.977,
+        "heap_mb": 38.464,
+        "external_mb": 66.087,
+        "arraybuf_mb": 64.18,
+        "free_gb": 4.726,
+        "total_gb": 7.757
+      },
+      "score": {
+        "score": 2109.903,
+        "hash_gb_s": 1.235,
+        "utxo_index_100k_s": 6.432,
+        "vector_gflops": 1.939,
+        "api_ratio": 1,
+        "mem_health": 98.926
+      }
+    },
+    {
+      "i": 5,
+      "before": {
+        "rss_mb": 182.996,
+        "heap_mb": 7.627,
+        "external_mb": 66.087,
+        "arraybuf_mb": 0.016,
+        "free_gb": 4.771,
+        "total_gb": 7.757
+      },
+      "sha": {
+        "mb": 24,
+        "ms": 20.139,
+        "mb_s": 1191.703,
+        "hash": "bf919c933d55dfd13937"
+      },
+      "pbkdf": {
+        "rounds": 80000,
+        "ms": 14.714,
+        "iter_s": 5436900.858
+      },
+      "scrypt": {
+        "N": 16384,
+        "ms": 32.761,
+        "ops_s": 30.524
+      },
+      "utxo": {
+        "utxos": 19500,
+        "ms": 42.479,
+        "utxo_s": 459048.344,
+        "total_sat": "818322664750",
+        "spent_sat": "116930546250",
+        "live_sat": "701392118500",
+        "checksum": "120742385721697"
+      },
+      "vector": {
+        "items": 305000,
+        "ms": 0.628,
+        "gflops": 1.942,
+        "dot": -0.403,
+        "min": -0.832,
+        "max": 0.582
+      },
+      "api": {
+        "tested": 10,
+        "ok": 10,
+        "fail": 0,
+        "p50": 2.787,
+        "p95": 427.493,
+        "results": [
+          {
+            "path": "/",
+            "http": 200,
+            "ms": 7.34,
+            "bytes": 7654,
+            "ok": true
+          },
+          {
+            "path": "/api/ping",
+            "http": 200,
+            "ms": 1.584,
+            "bytes": 167,
+            "ok": true
+          },
+          {
+            "path": "/api/full",
+            "http": 200,
+            "ms": 427.493,
+            "bytes": 24002,
+            "ok": true
+          },
+          {
+            "path": "/api/health",
+            "http": 200,
+            "ms": 1.846,
+            "bytes": 364,
+            "ok": true
+          },
+          {
+            "path": "/api/runtime/status",
+            "http": 200,
+            "ms": 388.995,
+            "bytes": 2572,
+            "ok": true
+          },
+          {
+            "path": "/api/reconnect",
+            "http": 200,
+            "ms": 1.466,
+            "bytes": 591,
+            "ok": true
+          },
+          {
+            "path": "/api/ai-chat",
+            "http": 200,
+            "ms": 0.979,
+            "bytes": 738,
+            "ok": true
+          },
+          {
+            "path": "/api/hardware/9000vw",
+            "http": 200,
+            "ms": 1.87,
+            "bytes": 1047,
+            "ok": true
+          },
+          {
+            "path": "/api/benchmark",
+            "http": 200,
+            "ms": 2.787,
+            "bytes": 362,
+            "ok": true
+          },
+          {
+            "path": "/api/performance",
+            "http": 404,
+            "ms": 4.76,
+            "bytes": 154,
+            "ok": true
+          }
+        ]
+      },
+      "memory_before": {
+        "rss_mb": 182.996,
+        "heap_mb": 7.627,
+        "external_mb": 66.087,
+        "arraybuf_mb": 0.016,
+        "free_gb": 4.771,
+        "total_gb": 7.757
+      },
+      "memory_after": {
+        "rss_mb": 199.121,
+        "heap_mb": 25.05,
+        "external_mb": 30.577,
+        "arraybuf_mb": 28.67,
+        "free_gb": 4.771,
+        "total_gb": 7.757
+      },
+      "score": {
+        "score": 1768.277,
+        "hash_gb_s": 1.192,
+        "utxo_index_100k_s": 4.59,
+        "vector_gflops": 1.942,
+        "api_ratio": 1,
+        "mem_health": 98.388
+      }
+    },
+    {
+      "i": 6,
+      "before": {
+        "rss_mb": 199.121,
+        "heap_mb": 25.064,
+        "external_mb": 30.577,
+        "arraybuf_mb": 28.67,
+        "free_gb": 4.77,
+        "total_gb": 7.757
+      },
+      "sha": {
+        "mb": 32,
+        "ms": 25.751,
+        "mb_s": 1242.689,
+        "hash": "88ddf3d02953c72e43d9"
+      },
+      "pbkdf": {
+        "rounds": 100000,
+        "ms": 19.727,
+        "iter_s": 5069133.861
+      },
+      "scrypt": {
+        "N": 16384,
+        "ms": 34.267,
+        "ops_s": 29.183
+      },
+      "utxo": {
+        "utxos": 21000,
+        "ms": 60.346,
+        "utxo_s": 347991.901,
+        "total_sat": "908856350500",
+        "spent_sat": "129907892500",
+        "live_sat": "778948458000",
+        "checksum": "5408066803321"
+      },
+      "vector": {
+        "items": 330000,
+        "ms": 0.697,
+        "gflops": 1.894,
+        "dot": -0.472,
+        "min": -0.832,
+        "max": 0.582
+      },
+      "api": {
+        "tested": 10,
+        "ok": 10,
+        "fail": 0,
+        "p50": 2.787,
+        "p95": 427.493,
+        "results": [
+          {
+            "path": "/",
+            "http": 200,
+            "ms": 7.34,
+            "bytes": 7654,
+            "ok": true
+          },
+          {
+            "path": "/api/ping",
+            "http": 200,
+            "ms": 1.584,
+            "bytes": 167,
+            "ok": true
+          },
+          {
+            "path": "/api/full",
+            "http": 200,
+            "ms": 427.493,
+            "bytes": 24002,
+            "ok": true
+          },
+          {
+            "path": "/api/health",
+            "http": 200,
+            "ms": 1.846,
+            "bytes": 364,
+            "ok": true
+          },
+          {
+            "path": "/api/runtime/status",
+            "http": 200,
+            "ms": 388.995,
+            "bytes": 2572,
+            "ok": true
+          },
+          {
+            "path": "/api/reconnect",
+            "http": 200,
+            "ms": 1.466,
+            "bytes": 591,
+            "ok": true
+          },
+          {
+            "path": "/api/ai-chat",
+            "http": 200,
+            "ms": 0.979,
+            "bytes": 738,
+            "ok": true
+          },
+          {
+            "path": "/api/hardware/9000vw",
+            "http": 200,
+            "ms": 1.87,
+            "bytes": 1047,
+            "ok": true
+          },
+          {
+            "path": "/api/benchmark",
+            "http": 200,
+            "ms": 2.787,
+            "bytes": 362,
+            "ok": true
+          },
+          {
+            "path": "/api/performance",
+            "http": 404,
+            "ms": 4.76,
+            "bytes": 154,
+            "ok": true
+          }
+        ]
+      },
+      "memory_before": {
+        "rss_mb": 199.121,
+        "heap_mb": 25.064,
+        "external_mb": 30.577,
+        "arraybuf_mb": 28.67,
+        "free_gb": 4.77,
+        "total_gb": 7.757
+      },
+      "memory_after": {
+        "rss_mb": 253.078,
+        "heap_mb": 42.623,
+        "external_mb": 67.613,
+        "arraybuf_mb": 65.705,
+        "free_gb": 4.737,
+        "total_gb": 7.757
+      },
+      "score": {
+        "score": 1566.266,
+        "hash_gb_s": 1.243,
+        "utxo_index_100k_s": 3.48,
+        "vector_gflops": 1.894,
+        "api_ratio": 1,
+        "mem_health": 94.604
+      }
+    },
+    {
+      "i": 7,
+      "before": {
+        "rss_mb": 218.156,
+        "heap_mb": 7.65,
+        "external_mb": 67.613,
+        "arraybuf_mb": 0.016,
+        "free_gb": 4.737,
+        "total_gb": 7.757
+      },
+      "sha": {
+        "mb": 40,
+        "ms": 31.962,
+        "mb_s": 1251.48,
+        "hash": "13993bcd90483c66dafb"
+      },
+      "pbkdf": {
+        "rounds": 120000,
+        "ms": 21.562,
+        "iter_s": 5565447.623
+      },
+      "scrypt": {
+        "N": 16384,
+        "ms": 33.631,
+        "ops_s": 29.734
+      },
+      "utxo": {
+        "utxos": 22500,
+        "ms": 43.931,
+        "utxo_s": 512168.859,
+        "total_sat": "1017207786250",
+        "spent_sat": "145369419999",
+        "live_sat": "871838366251",
+        "checksum": "81497005928401"
+      },
+      "vector": {
+        "items": 355000,
+        "ms": 0.769,
+        "gflops": 1.847,
+        "dot": -0.025,
+        "min": -0.832,
+        "max": 0.582
+      },
+      "api": {
+        "tested": 10,
+        "ok": 10,
+        "fail": 0,
+        "p50": 2.787,
+        "p95": 427.493,
+        "results": [
+          {
+            "path": "/",
+            "http": 200,
+            "ms": 7.34,
+            "bytes": 7654,
+            "ok": true
+          },
+          {
+            "path": "/api/ping",
+            "http": 200,
+            "ms": 1.584,
+            "bytes": 167,
+            "ok": true
+          },
+          {
+            "path": "/api/full",
+            "http": 200,
+            "ms": 427.493,
+            "bytes": 24002,
+            "ok": true
+          },
+          {
+            "path": "/api/health",
+            "http": 200,
+            "ms": 1.846,
+            "bytes": 364,
+            "ok": true
+          },
+          {
+            "path": "/api/runtime/status",
+            "http": 200,
+            "ms": 388.995,
+            "bytes": 2572,
+            "ok": true
+          },
+          {
+            "path": "/api/reconnect",
+            "http": 200,
+            "ms": 1.466,
+            "bytes": 591,
+            "ok": true
+          },
+          {
+            "path": "/api/ai-chat",
+            "http": 200,
+            "ms": 0.979,
+            "bytes": 738,
+            "ok": true
+          },
+          {
+            "path": "/api/hardware/9000vw",
+            "http": 200,
+            "ms": 1.87,
+            "bytes": 1047,
+            "ok": true
+          },
+          {
+            "path": "/api/benchmark",
+            "http": 200,
+            "ms": 2.787,
+            "bytes": 362,
+            "ok": true
+          },
+          {
+            "path": "/api/performance",
+            "http": 404,
+            "ms": 4.76,
+            "bytes": 154,
+            "ok": true
+          }
+        ]
+      },
+      "memory_before": {
+        "rss_mb": 218.156,
+        "heap_mb": 7.65,
+        "external_mb": 67.613,
+        "arraybuf_mb": 0.016,
+        "free_gb": 4.737,
+        "total_gb": 7.757
+      },
+      "memory_after": {
+        "rss_mb": 259.66,
+        "heap_mb": 27.106,
+        "external_mb": 47.34,
+        "arraybuf_mb": 45.433,
+        "free_gb": 4.698,
+        "total_gb": 7.757
+      },
+      "score": {
+        "score": 1860.569,
+        "hash_gb_s": 1.251,
+        "utxo_index_100k_s": 5.122,
+        "vector_gflops": 1.847,
+        "api_ratio": 1,
+        "mem_health": 95.85
+      }
+    },
+    {
+      "i": 8,
+      "before": {
+        "rss_mb": 259.66,
+        "heap_mb": 27.116,
+        "external_mb": 47.34,
+        "arraybuf_mb": 45.433,
+        "free_gb": 4.701,
+        "total_gb": 7.757
+      },
+      "sha": {
+        "mb": 16,
+        "ms": 12.825,
+        "mb_s": 1247.55,
+        "hash": "8ea9bce42ce7e419bbad"
+      },
+      "pbkdf": {
+        "rounds": 140000,
+        "ms": 25.345,
+        "iter_s": 5523749.935
+      },
+      "scrypt": {
+        "N": 16384,
+        "ms": 33.134,
+        "ops_s": 30.18
+      },
+      "utxo": {
+        "utxos": 24000,
+        "ms": 37.109,
+        "utxo_s": 646742.158,
+        "total_sat": "1143376972000",
+        "spent_sat": "163369557166",
+        "live_sat": "980007414834",
+        "checksum": "214441725529418"
+      },
+      "vector": {
+        "items": 380000,
+        "ms": 0.825,
+        "gflops": 1.842,
+        "dot": 0.648,
+        "min": -0.832,
+        "max": 0.582
+      },
+      "api": {
+        "tested": 10,
+        "ok": 10,
+        "fail": 0,
+        "p50": 2.787,
+        "p95": 427.493,
+        "results": [
+          {
+            "path": "/",
+            "http": 200,
+            "ms": 7.34,
+            "bytes": 7654,
+            "ok": true
+          },
+          {
+            "path": "/api/ping",
+            "http": 200,
+            "ms": 1.584,
+            "bytes": 167,
+            "ok": true
+          },
+          {
+            "path": "/api/full",
+            "http": 200,
+            "ms": 427.493,
+            "bytes": 24002,
+            "ok": true
+          },
+          {
+            "path": "/api/health",
+            "http": 200,
+            "ms": 1.846,
+            "bytes": 364,
+            "ok": true
+          },
+          {
+            "path": "/api/runtime/status",
+            "http": 200,
+            "ms": 388.995,
+            "bytes": 2572,
+            "ok": true
+          },
+          {
+            "path": "/api/reconnect",
+            "http": 200,
+            "ms": 1.466,
+            "bytes": 591,
+            "ok": true
+          },
+          {
+            "path": "/api/ai-chat",
+            "http": 200,
+            "ms": 0.979,
+            "bytes": 738,
+            "ok": true
+          },
+          {
+            "path": "/api/hardware/9000vw",
+            "http": 200,
+            "ms": 1.87,
+            "bytes": 1047,
+            "ok": true
+          },
+          {
+            "path": "/api/benchmark",
+            "http": 200,
+            "ms": 2.787,
+            "bytes": 362,
+            "ok": true
+          },
+          {
+            "path": "/api/performance",
+            "http": 404,
+            "ms": 4.76,
+            "bytes": 154,
+            "ok": true
+          }
+        ]
+      },
+      "memory_before": {
+        "rss_mb": 259.66,
+        "heap_mb": 27.116,
+        "external_mb": 47.34,
+        "arraybuf_mb": 45.433,
+        "free_gb": 4.701,
+        "total_gb": 7.757
+      },
+      "memory_after": {
+        "rss_mb": 261.16,
+        "heap_mb": 47.147,
+        "external_mb": 69.139,
+        "arraybuf_mb": 67.231,
+        "free_gb": 4.701,
+        "total_gb": 7.757
+      },
+      "score": {
+        "score": 2109.337,
+        "hash_gb_s": 1.248,
+        "utxo_index_100k_s": 6.467,
+        "vector_gflops": 1.842,
+        "api_ratio": 1,
+        "mem_health": 99.85
+      }
+    },
+    {
+      "i": 9,
+      "before": {
+        "rss_mb": 218.242,
+        "heap_mb": 7.66,
+        "external_mb": 69.139,
+        "arraybuf_mb": 2.915,
+        "free_gb": 4.74,
+        "total_gb": 7.757
+      },
+      "sha": {
+        "mb": 24,
+        "ms": 19.339,
+        "mb_s": 1241.034,
+        "hash": "57ee45918e11baee6b52"
+      },
+      "pbkdf": {
+        "rounds": 160000,
+        "ms": 29.111,
+        "iter_s": 5496253.839
+      },
+      "scrypt": {
+        "N": 16384,
+        "ms": 35.951,
+        "ops_s": 27.816
+      },
+      "utxo": {
+        "utxos": 25500,
+        "ms": 52.405,
+        "utxo_s": 486590.501,
+        "total_sat": "1262963907750",
+        "spent_sat": "180508304001",
+        "live_sat": "1082455603749",
+        "checksum": "120119349914922"
+      },
+      "vector": {
+        "items": 405000,
+        "ms": 0.855,
+        "gflops": 1.896,
+        "dot": 0.994,
+        "min": -0.832,
+        "max": 0.582
+      },
+      "api": {
+        "tested": 10,
+        "ok": 10,
+        "fail": 0,
+        "p50": 2.787,
+        "p95": 427.493,
+        "results": [
+          {
+            "path": "/",
+            "http": 200,
+            "ms": 7.34,
+            "bytes": 7654,
+            "ok": true
+          },
+          {
+            "path": "/api/ping",
+            "http": 200,
+            "ms": 1.584,
+            "bytes": 167,
+            "ok": true
+          },
+          {
+            "path": "/api/full",
+            "http": 200,
+            "ms": 427.493,
+            "bytes": 24002,
+            "ok": true
+          },
+          {
+            "path": "/api/health",
+            "http": 200,
+            "ms": 1.846,
+            "bytes": 364,
+            "ok": true
+          },
+          {
+            "path": "/api/runtime/status",
+            "http": 200,
+            "ms": 388.995,
+            "bytes": 2572,
+            "ok": true
+          },
+          {
+            "path": "/api/reconnect",
+            "http": 200,
+            "ms": 1.466,
+            "bytes": 591,
+            "ok": true
+          },
+          {
+            "path": "/api/ai-chat",
+            "http": 200,
+            "ms": 0.979,
+            "bytes": 738,
+            "ok": true
+          },
+          {
+            "path": "/api/hardware/9000vw",
+            "http": 200,
+            "ms": 1.87,
+            "bytes": 1047,
+            "ok": true
+          },
+          {
+            "path": "/api/benchmark",
+            "http": 200,
+            "ms": 2.787,
+            "bytes": 362,
+            "ok": true
+          },
+          {
+            "path": "/api/performance",
+            "http": 404,
+            "ms": 4.76,
+            "bytes": 154,
+            "ok": true
+          }
+        ]
+      },
+      "memory_before": {
+        "rss_mb": 218.242,
+        "heap_mb": 7.66,
+        "external_mb": 69.139,
+        "arraybuf_mb": 2.915,
+        "free_gb": 4.74,
+        "total_gb": 7.757
+      },
+      "memory_after": {
+        "rss_mb": 244.809,
+        "heap_mb": 30.06,
+        "external_mb": 35.002,
+        "arraybuf_mb": 33.095,
+        "free_gb": 4.737,
+        "total_gb": 7.757
+      },
+      "score": {
+        "score": 1821.097,
+        "hash_gb_s": 1.241,
+        "utxo_index_100k_s": 4.866,
+        "vector_gflops": 1.896,
+        "api_ratio": 1,
+        "mem_health": 97.343
+      }
+    },
+    {
+      "i": 10,
+      "before": {
+        "rss_mb": 244.809,
+        "heap_mb": 30.075,
+        "external_mb": 35.002,
+        "arraybuf_mb": 33.095,
+        "free_gb": 4.736,
+        "total_gb": 7.757
+      },
+      "sha": {
+        "mb": 32,
+        "ms": 25.573,
+        "mb_s": 1251.308,
+        "hash": "59f77411c38e295d5a74"
+      },
+      "pbkdf": {
+        "rounds": 80000,
+        "ms": 14.389,
+        "iter_s": 5559934.39
+      },
+      "scrypt": {
+        "N": 16384,
+        "ms": 34.103,
+        "ops_s": 29.323
+      },
+      "utxo": {
+        "utxos": 27000,
+        "ms": 45.328,
+        "utxo_s": 595658.654,
+        "total_sat": "1274768593500",
+        "spent_sat": "182199457666",
+        "live_sat": "1092569135834",
+        "checksum": "175581768916958"
+      },
+      "vector": {
+        "items": 430000,
+        "ms": 0.907,
+        "gflops": 1.896,
+        "dot": 0.834,
+        "min": -0.832,
+        "max": 0.582
+      },
+      "api": {
+        "tested": 10,
+        "ok": 10,
+        "fail": 0,
+        "p50": 2.787,
+        "p95": 427.493,
+        "results": [
+          {
+            "path": "/",
+            "http": 200,
+            "ms": 7.34,
+            "bytes": 7654,
+            "ok": true
+          },
+          {
+            "path": "/api/ping",
+            "http": 200,
+            "ms": 1.584,
+            "bytes": 167,
+            "ok": true
+          },
+          {
+            "path": "/api/full",
+            "http": 200,
+            "ms": 427.493,
+            "bytes": 24002,
+            "ok": true
+          },
+          {
+            "path": "/api/health",
+            "http": 200,
+            "ms": 1.846,
+            "bytes": 364,
+            "ok": true
+          },
+          {
+            "path": "/api/runtime/status",
+            "http": 200,
+            "ms": 388.995,
+            "bytes": 2572,
+            "ok": true
+          },
+          {
+            "path": "/api/reconnect",
+            "http": 200,
+            "ms": 1.466,
+            "bytes": 591,
+            "ok": true
+          },
+          {
+            "path": "/api/ai-chat",
+            "http": 200,
+            "ms": 0.979,
+            "bytes": 738,
+            "ok": true
+          },
+          {
+            "path": "/api/hardware/9000vw",
+            "http": 200,
+            "ms": 1.87,
+            "bytes": 1047,
+            "ok": true
+          },
+          {
+            "path": "/api/benchmark",
+            "http": 200,
+            "ms": 2.787,
+            "bytes": 362,
+            "ok": true
+          },
+          {
+            "path": "/api/performance",
+            "http": 404,
+            "ms": 4.76,
+            "bytes": 154,
+            "ok": true
+          }
+        ]
+      },
+      "memory_before": {
+        "rss_mb": 244.809,
+        "heap_mb": 30.075,
+        "external_mb": 35.002,
+        "arraybuf_mb": 33.095,
+        "free_gb": 4.736,
+        "total_gb": 7.757
+      },
+      "memory_after": {
+        "rss_mb": 289.121,
+        "heap_mb": 52.384,
+        "external_mb": 73.564,
+        "arraybuf_mb": 71.656,
+        "free_gb": 4.689,
+        "total_gb": 7.757
+      },
+      "score": {
+        "score": 2016.131,
+        "hash_gb_s": 1.251,
+        "utxo_index_100k_s": 5.957,
+        "vector_gflops": 1.896,
+        "api_ratio": 1,
+        "mem_health": 95.569
+      }
+    },
+    {
+      "i": 11,
+      "before": {
+        "rss_mb": 230.094,
+        "heap_mb": 6.914,
+        "external_mb": 73.564,
+        "arraybuf_mb": 3.297,
+        "free_gb": 4.728,
+        "total_gb": 7.757
+      },
+      "sha": {
+        "mb": 40,
+        "ms": 32.049,
+        "mb_s": 1248.073,
+        "hash": "c7f38b22e73fe9b9fef3"
+      },
+      "pbkdf": {
+        "rounds": 100000,
+        "ms": 18.215,
+        "iter_s": 5489856.31
+      },
+      "scrypt": {
+        "N": 16384,
+        "ms": 33.177,
+        "ops_s": 30.142
+      },
+      "utxo": {
+        "utxos": 28500,
+        "ms": 91.658,
+        "utxo_s": 310938.316,
+        "total_sat": "1304391029250",
+        "spent_sat": "186427286499",
+        "live_sat": "1117963742751",
+        "checksum": "111165836219561"
+      },
+      "vector": {
+        "items": 455000,
+        "ms": 0.937,
+        "gflops": 1.943,
+        "dot": 0.412,
+        "min": -0.832,
+        "max": 0.582
+      },
+      "api": {
+        "tested": 10,
+        "ok": 10,
+        "fail": 0,
+        "p50": 2.787,
+        "p95": 427.493,
+        "results": [
+          {
+            "path": "/",
+            "http": 200,
+            "ms": 7.34,
+            "bytes": 7654,
+            "ok": true
+          },
+          {
+            "path": "/api/ping",
+            "http": 200,
+            "ms": 1.584,
+            "bytes": 167,
+            "ok": true
+          },
+          {
+            "path": "/api/full",
+            "http": 200,
+            "ms": 427.493,
+            "bytes": 24002,
+            "ok": true
+          },
+          {
+            "path": "/api/health",
+            "http": 200,
+            "ms": 1.846,
+            "bytes": 364,
+            "ok": true
+          },
+          {
+            "path": "/api/runtime/status",
+            "http": 200,
+            "ms": 388.995,
+            "bytes": 2572,
+            "ok": true
+          },
+          {
+            "path": "/api/reconnect",
+            "http": 200,
+            "ms": 1.466,
+            "bytes": 591,
+            "ok": true
+          },
+          {
+            "path": "/api/ai-chat",
+            "http": 200,
+            "ms": 0.979,
+            "bytes": 738,
+            "ok": true
+          },
+          {
+            "path": "/api/hardware/9000vw",
+            "http": 200,
+            "ms": 1.87,
+            "bytes": 1047,
+            "ok": true
+          },
+          {
+            "path": "/api/benchmark",
+            "http": 200,
+            "ms": 2.787,
+            "bytes": 362,
+            "ok": true
+          },
+          {
+            "path": "/api/performance",
+            "http": 404,
+            "ms": 4.76,
+            "bytes": 154,
+            "ok": true
+          }
+        ]
+      },
+      "memory_before": {
+        "rss_mb": 230.094,
+        "heap_mb": 6.914,
+        "external_mb": 73.564,
+        "arraybuf_mb": 3.297,
+        "free_gb": 4.728,
+        "total_gb": 7.757
+      },
+      "memory_after": {
+        "rss_mb": 272.348,
+        "heap_mb": 30.899,
+        "external_mb": 52.147,
+        "arraybuf_mb": 50.239,
+        "free_gb": 4.693,
+        "total_gb": 7.757
+      },
+      "score": {
+        "score": 1508.974,
+        "hash_gb_s": 1.248,
+        "utxo_index_100k_s": 3.109,
+        "vector_gflops": 1.943,
+        "api_ratio": 1,
+        "mem_health": 95.775
+      }
+    },
+    {
+      "i": 12,
+      "before": {
+        "rss_mb": 272.348,
+        "heap_mb": 30.907,
+        "external_mb": 52.147,
+        "arraybuf_mb": 50.239,
+        "free_gb": 4.693,
+        "total_gb": 7.757
+      },
+      "sha": {
+        "mb": 16,
+        "ms": 13.949,
+        "mb_s": 1147.002,
+        "hash": "4480584173bddc8a022c"
+      },
+      "pbkdf": {
+        "rounds": 120000,
+        "ms": 37.13,
+        "iter_s": 3231897.71
+      },
+      "scrypt": {
+        "N": 16384,
+        "ms": 42.346,
+        "ops_s": 23.615
+      },
+      "utxo": {
+        "utxos": 30000,
+        "ms": 45.667,
+        "utxo_s": 656936.675,
+        "total_sat": "1351831215000",
+        "spent_sat": "193193725000",
+        "live_sat": "1158637490000",
+        "checksum": "260275136385863"
+      },
+      "vector": {
+        "items": 480000,
+        "ms": 1.002,
+        "gflops": 1.917,
+        "dot": -0.052,
+        "min": -0.832,
+        "max": 0.582
+      },
+      "api": {
+        "tested": 10,
+        "ok": 10,
+        "fail": 0,
+        "p50": 2.787,
+        "p95": 427.493,
+        "results": [
+          {
+            "path": "/",
+            "http": 200,
+            "ms": 7.34,
+            "bytes": 7654,
+            "ok": true
+          },
+          {
+            "path": "/api/ping",
+            "http": 200,
+            "ms": 1.584,
+            "bytes": 167,
+            "ok": true
+          },
+          {
+            "path": "/api/full",
+            "http": 200,
+            "ms": 427.493,
+            "bytes": 24002,
+            "ok": true
+          },
+          {
+            "path": "/api/health",
+            "http": 200,
+            "ms": 1.846,
+            "bytes": 364,
+            "ok": true
+          },
+          {
+            "path": "/api/runtime/status",
+            "http": 200,
+            "ms": 388.995,
+            "bytes": 2572,
+            "ok": true
+          },
+          {
+            "path": "/api/reconnect",
+            "http": 200,
+            "ms": 1.466,
+            "bytes": 591,
+            "ok": true
+          },
+          {
+            "path": "/api/ai-chat",
+            "http": 200,
+            "ms": 0.979,
+            "bytes": 738,
+            "ok": true
+          },
+          {
+            "path": "/api/hardware/9000vw",
+            "http": 200,
+            "ms": 1.87,
+            "bytes": 1047,
+            "ok": true
+          },
+          {
+            "path": "/api/benchmark",
+            "http": 200,
+            "ms": 2.787,
+            "bytes": 362,
+            "ok": true
+          },
+          {
+            "path": "/api/performance",
+            "http": 404,
+            "ms": 4.76,
+            "bytes": 154,
+            "ok": true
+          }
+        ]
+      },
+      "memory_before": {
+        "rss_mb": 272.348,
+        "heap_mb": 30.907,
+        "external_mb": 52.147,
+        "arraybuf_mb": 50.239,
+        "free_gb": 4.693,
+        "total_gb": 7.757
+      },
+      "memory_after": {
+        "rss_mb": 284.113,
+        "heap_mb": 55.652,
+        "external_mb": 75.471,
+        "arraybuf_mb": 73.564,
+        "free_gb": 4.689,
+        "total_gb": 7.757
+      },
+      "score": {
+        "score": 2112.513,
+        "hash_gb_s": 1.147,
+        "utxo_index_100k_s": 6.569,
+        "vector_gflops": 1.917,
+        "api_ratio": 1,
+        "mem_health": 98.824
+      }
+    }
+  ]
+}

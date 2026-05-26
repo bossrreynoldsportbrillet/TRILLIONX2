@@ -1,0 +1,2368 @@
+{
+  "engine": "TRILLIONX_97_NETWORK_TASK_ASSIGNER",
+  "version": "V1",
+  "ts": "2026-05-24T19:03:53.484Z",
+  "host": {
+    "time": "2026-05-24T19:03:53.485Z",
+    "hostname": "codespaces-408e60",
+    "platform": "linux",
+    "arch": "x64",
+    "node": "v22.22.2",
+    "cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "logical_cpu": 2,
+    "ghz": 3.491,
+    "ram_total_gb": 7.757,
+    "ram_free_gb": 3.331,
+    "load": [
+      1.3,
+      1.48,
+      2.7
+    ]
+  },
+  "policy": {
+    "exactly_97_networks": true,
+    "one_task_per_network": true,
+    "safe_only": true,
+    "real_or_unavailable": true,
+    "stable_base": "TRILLIONX_OKAY_STABLE_USER_VALIDATED",
+    "purpose": "attribuer une tâche à chacun des 97 réseaux pour orchestration"
+  },
+  "summary": {
+    "networks": 97,
+    "open": 4,
+    "reserved_or_closed": 93,
+    "critical": 10,
+    "high": 20,
+    "normal": 40,
+    "support": 27,
+    "runtime_ms": 33.165
+  },
+  "assignments": [
+    {
+      "index": 1,
+      "network_id": "TRILLIONX_NET_01",
+      "port": 2000,
+      "role": "MAIN_APP_RUNTIME",
+      "task": "Garder app.js vivant, mesurer uptime, réponse HTTP, logs critiques",
+      "priority": "CRITICAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "OPEN",
+      "probe": {
+        "open": true,
+        "state": "OPEN",
+        "port": 2000,
+        "ms": 3.592
+      }
+    },
+    {
+      "index": 2,
+      "network_id": "TRILLIONX_NET_02",
+      "port": 3000,
+      "role": "REMOTE_DEBUG_ATTACH",
+      "task": "Surveiller attach Node/V8, heap snapshots safe, inspection non intrusive",
+      "priority": "CRITICAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "OPEN",
+      "probe": {
+        "open": true,
+        "state": "OPEN",
+        "port": 3000,
+        "ms": 0.568
+      }
+    },
+    {
+      "index": 3,
+      "network_id": "TRILLIONX_NET_03",
+      "port": 3001,
+      "role": "HEALTH_API",
+      "task": "Tester /api/health, score OK/SLOW/FAIL, latence ms",
+      "priority": "CRITICAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3001,
+        "ms": 0.875
+      }
+    },
+    {
+      "index": 4,
+      "network_id": "TRILLIONX_NET_04",
+      "port": 3002,
+      "role": "SYSTEM_API",
+      "task": "Collecter CPU/RAM/disk/network réels, aucun faux chiffre",
+      "priority": "CRITICAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3002,
+        "ms": 0.439
+      }
+    },
+    {
+      "index": 5,
+      "network_id": "TRILLIONX_NET_05",
+      "port": 3003,
+      "role": "VECTOR_MEMORY",
+      "task": "Maintenir mémoire vectorielle compacte, delta scan, shard loading",
+      "priority": "CRITICAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3003,
+        "ms": 0.313
+      }
+    },
+    {
+      "index": 6,
+      "network_id": "TRILLIONX_NET_06",
+      "port": 3004,
+      "role": "INTERNET_TARGETS",
+      "task": "Tester URLs déclarées, statut 7/7, latence, bytes, cache",
+      "priority": "CRITICAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3004,
+        "ms": 0.32
+      }
+    },
+    {
+      "index": 7,
+      "network_id": "TRILLIONX_NET_07",
+      "port": 3005,
+      "role": "ROUTE_REGISTRY",
+      "task": "Indexer routes Express/API, dédoublonner, classer par priorité",
+      "priority": "CRITICAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3005,
+        "ms": 0.824
+      }
+    },
+    {
+      "index": 8,
+      "network_id": "TRILLIONX_NET_08",
+      "port": 3010,
+      "role": "WEBSOCKET_EVENTS",
+      "task": "Mapper événements WS, bruit, cadence, clients, backpressure",
+      "priority": "CRITICAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3010,
+        "ms": 2.353
+      }
+    },
+    {
+      "index": 9,
+      "network_id": "TRILLIONX_NET_09",
+      "port": 3011,
+      "role": "CACHE_TTL_LRU",
+      "task": "Servir cache court, éviter rescans, invalider par SHA256",
+      "priority": "CRITICAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3011,
+        "ms": 0.873
+      }
+    },
+    {
+      "index": 10,
+      "network_id": "TRILLIONX_NET_10",
+      "port": 3012,
+      "role": "INTEGRITY_LEDGER",
+      "task": "Sceller chaque résultat par hash chain append-only",
+      "priority": "CRITICAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3012,
+        "ms": 0.291
+      }
+    },
+    {
+      "index": 11,
+      "network_id": "TRILLIONX_NET_11",
+      "port": 3013,
+      "role": "BTC_UTXO",
+      "task": "Bench UTXO/Merkle, hashing double SHA256, rapport ops/s",
+      "priority": "HIGH",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3013,
+        "ms": 0.302
+      }
+    },
+    {
+      "index": 12,
+      "network_id": "TRILLIONX_NET_12",
+      "port": 3014,
+      "role": "ETH_BLOCKS",
+      "task": "Bench ETH-like SHA3/Keccak si disponible, gas/s indicatif local",
+      "priority": "HIGH",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3014,
+        "ms": 0.181
+      }
+    },
+    {
+      "index": 13,
+      "network_id": "TRILLIONX_NET_13",
+      "port": 3015,
+      "role": "CRYPTO_AES",
+      "task": "Mesurer AES-256 throughput réel local",
+      "priority": "HIGH",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3015,
+        "ms": 0.142
+      }
+    },
+    {
+      "index": 14,
+      "network_id": "TRILLIONX_NET_14",
+      "port": 3016,
+      "role": "CRYPTO_SHA",
+      "task": "Mesurer SHA256/HMAC/BLAKE2 throughput réel local",
+      "priority": "HIGH",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3016,
+        "ms": 0.137
+      }
+    },
+    {
+      "index": 15,
+      "network_id": "TRILLIONX_NET_15",
+      "port": 3017,
+      "role": "JSON_API_LOAD",
+      "task": "Tester charge JSON locale, p50/p95/p99",
+      "priority": "HIGH",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3017,
+        "ms": 0.137
+      }
+    },
+    {
+      "index": 16,
+      "network_id": "TRILLIONX_NET_16",
+      "port": 3018,
+      "role": "NETWORK_LATENCY",
+      "task": "Mesurer ping/connect latence, ports ouverts/fermés",
+      "priority": "HIGH",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3018,
+        "ms": 0.876
+      }
+    },
+    {
+      "index": 17,
+      "network_id": "TRILLIONX_NET_17",
+      "port": 3019,
+      "role": "BANDWIDTH_STREAM",
+      "task": "Mesurer stream mémoire/réseau local MB/s",
+      "priority": "HIGH",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3019,
+        "ms": 0.147
+      }
+    },
+    {
+      "index": 18,
+      "network_id": "TRILLIONX_NET_18",
+      "port": 3030,
+      "role": "WORKER_POOL",
+      "task": "Répartir jobs CPU contrôlés selon RAM/CPU pressure",
+      "priority": "HIGH",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3030,
+        "ms": 0.152
+      }
+    },
+    {
+      "index": 19,
+      "network_id": "TRILLIONX_NET_19",
+      "port": 3031,
+      "role": "WASM_COMPUTE",
+      "task": "Réserver tâches compute-heavy WebAssembly",
+      "priority": "HIGH",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3031,
+        "ms": 0.13
+      }
+    },
+    {
+      "index": 20,
+      "network_id": "TRILLIONX_NET_20",
+      "port": 3032,
+      "role": "FIRMWARE_BRIDGE",
+      "task": "Préparer futur firmware TRILLIONX sans exécution dangereuse",
+      "priority": "HIGH",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3032,
+        "ms": 0.118
+      }
+    },
+    {
+      "index": 21,
+      "network_id": "TRILLIONX_NET_21",
+      "port": 3033,
+      "role": "SAFE_REPAIR",
+      "task": "Réparer cache/log/index seulement, jamais destructif",
+      "priority": "HIGH",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3033,
+        "ms": 0.099
+      }
+    },
+    {
+      "index": 22,
+      "network_id": "TRILLIONX_NET_22",
+      "port": 3040,
+      "role": "PORT_ROUTER",
+      "task": "Router le trafic par port logique vers rôle dédié",
+      "priority": "HIGH",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3040,
+        "ms": 0.102
+      }
+    },
+    {
+      "index": 23,
+      "network_id": "TRILLIONX_NET_23",
+      "port": 3041,
+      "role": "DASHBOARD",
+      "task": "Publier métriques cockpit, visible mais non bloquant",
+      "priority": "HIGH",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3041,
+        "ms": 0.135
+      }
+    },
+    {
+      "index": 24,
+      "network_id": "TRILLIONX_NET_24",
+      "port": 3042,
+      "role": "BENCHMARK_CORE",
+      "task": "Lancer micro/macro benchmarks orchestrés",
+      "priority": "HIGH",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3042,
+        "ms": 0.419
+      }
+    },
+    {
+      "index": 25,
+      "network_id": "TRILLIONX_NET_25",
+      "port": 3043,
+      "role": "AI_KERNEL",
+      "task": "Acheminer demandes IA vers analyse/résumé/planification",
+      "priority": "HIGH",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3043,
+        "ms": 0.148
+      }
+    },
+    {
+      "index": 26,
+      "network_id": "TRILLIONX_NET_26",
+      "port": 3050,
+      "role": "LLM_TOKEN_SIM",
+      "task": "Simuler charge tokens et mémoire sans prétendre vrai LLM",
+      "priority": "HIGH",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3050,
+        "ms": 0.129
+      }
+    },
+    {
+      "index": 27,
+      "network_id": "TRILLIONX_NET_27",
+      "port": 3055,
+      "role": "MEMORY_PRESSURE",
+      "task": "Surveiller RSS/heap/free RAM, alerte si seuil haut",
+      "priority": "HIGH",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3055,
+        "ms": 0.125
+      }
+    },
+    {
+      "index": 28,
+      "network_id": "TRILLIONX_NET_28",
+      "port": 3099,
+      "role": "RAID60_PLUS",
+      "task": "Distribuer index/logs/shards en redondance logique",
+      "priority": "HIGH",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3099,
+        "ms": 0.121
+      }
+    },
+    {
+      "index": 29,
+      "network_id": "TRILLIONX_NET_29",
+      "port": 3100,
+      "role": "VR_MIRROR",
+      "task": "Synchroniser miroir VR logique, pas clone complet",
+      "priority": "HIGH",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3100,
+        "ms": 0.122
+      }
+    },
+    {
+      "index": 30,
+      "network_id": "TRILLIONX_NET_30",
+      "port": 3101,
+      "role": "MESH_1X10",
+      "task": "Répartir tâches entre 10 nœuds logiques TRILLIONX",
+      "priority": "HIGH",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3101,
+        "ms": 0.153
+      }
+    },
+    {
+      "index": 31,
+      "network_id": "TRILLIONX_NET_31",
+      "port": 3102,
+      "role": "NODE_01",
+      "task": "Orchestration locale noyau 1",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3102,
+        "ms": 0.129
+      }
+    },
+    {
+      "index": 32,
+      "network_id": "TRILLIONX_NET_32",
+      "port": 3103,
+      "role": "NODE_02",
+      "task": "Orchestration locale noyau 2",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3103,
+        "ms": 0.123
+      }
+    },
+    {
+      "index": 33,
+      "network_id": "TRILLIONX_NET_33",
+      "port": 3110,
+      "role": "NODE_03",
+      "task": "Orchestration locale noyau 3",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3110,
+        "ms": 0.12
+      }
+    },
+    {
+      "index": 34,
+      "network_id": "TRILLIONX_NET_34",
+      "port": 3111,
+      "role": "NODE_04",
+      "task": "Orchestration locale noyau 4",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3111,
+        "ms": 0.119
+      }
+    },
+    {
+      "index": 35,
+      "network_id": "TRILLIONX_NET_35",
+      "port": 3112,
+      "role": "NODE_05",
+      "task": "Orchestration locale noyau 5",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3112,
+        "ms": 0.118
+      }
+    },
+    {
+      "index": 36,
+      "network_id": "TRILLIONX_NET_36",
+      "port": 3113,
+      "role": "NODE_06",
+      "task": "Orchestration locale noyau 6",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3113,
+        "ms": 0.122
+      }
+    },
+    {
+      "index": 37,
+      "network_id": "TRILLIONX_NET_37",
+      "port": 3114,
+      "role": "NODE_07",
+      "task": "Orchestration locale noyau 7",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3114,
+        "ms": 0.109
+      }
+    },
+    {
+      "index": 38,
+      "network_id": "TRILLIONX_NET_38",
+      "port": 3115,
+      "role": "NODE_08",
+      "task": "Orchestration locale noyau 8",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3115,
+        "ms": 0.138
+      }
+    },
+    {
+      "index": 39,
+      "network_id": "TRILLIONX_NET_39",
+      "port": 3116,
+      "role": "NODE_09",
+      "task": "Orchestration locale noyau 9",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3116,
+        "ms": 0.122
+      }
+    },
+    {
+      "index": 40,
+      "network_id": "TRILLIONX_NET_40",
+      "port": 3117,
+      "role": "NODE_10",
+      "task": "Orchestration locale noyau 10",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3117,
+        "ms": 0.085
+      }
+    },
+    {
+      "index": 41,
+      "network_id": "TRILLIONX_NET_41",
+      "port": 3118,
+      "role": "DNS_RESOLVE",
+      "task": "Tester DNS public déclaré, timeout court",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3118,
+        "ms": 0.075
+      }
+    },
+    {
+      "index": 42,
+      "network_id": "TRILLIONX_NET_42",
+      "port": 3119,
+      "role": "HTTP_PUBLIC",
+      "task": "Tester HTTP/HTTPS public autorisé",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3119,
+        "ms": 0.103
+      }
+    },
+    {
+      "index": 43,
+      "network_id": "TRILLIONX_NET_43",
+      "port": 3150,
+      "role": "GITHUB_API",
+      "task": "Tester GitHub/API/repo reachability",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3150,
+        "ms": 0.1
+      }
+    },
+    {
+      "index": 44,
+      "network_id": "TRILLIONX_NET_44",
+      "port": 3160,
+      "role": "COINGECKO_API",
+      "task": "Tester API crypto publique déclarée",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3160,
+        "ms": 0.105
+      }
+    },
+    {
+      "index": 45,
+      "network_id": "TRILLIONX_NET_45",
+      "port": 3199,
+      "role": "MEMPOOL_API",
+      "task": "Tester mempool public déclaré",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 3199,
+        "ms": 0.096
+      }
+    },
+    {
+      "index": 46,
+      "network_id": "TRILLIONX_NET_46",
+      "port": 4000,
+      "role": "BLOCKCHAIN_INFO",
+      "task": "Tester endpoint latestblock public déclaré",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 4000,
+        "ms": 0.075
+      }
+    },
+    {
+      "index": 47,
+      "network_id": "TRILLIONX_NET_47",
+      "port": 4001,
+      "role": "CLOUDFLARE_TRACE",
+      "task": "Tester trace réseau public déclaré",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 4001,
+        "ms": 0.126
+      }
+    },
+    {
+      "index": 48,
+      "network_id": "TRILLIONX_NET_48",
+      "port": 4200,
+      "role": "SECURITY_PREVIEW",
+      "task": "Lister exposition sans secret, sans dump sensible",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 4200,
+        "ms": 0.108
+      }
+    },
+    {
+      "index": 49,
+      "network_id": "TRILLIONX_NET_49",
+      "port": 4201,
+      "role": "PROCESS_TABLE",
+      "task": "Lister process utiles, détecter zombies lourds",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 4201,
+        "ms": 0.11
+      }
+    },
+    {
+      "index": 50,
+      "network_id": "TRILLIONX_NET_50",
+      "port": 4202,
+      "role": "LOG_ROTATION",
+      "task": "Limiter logs, éviter saturation disque",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 4202,
+        "ms": 0.099
+      }
+    },
+    {
+      "index": 51,
+      "network_id": "TRILLIONX_NET_51",
+      "port": 5000,
+      "role": "HISTORY_ARCHIVE",
+      "task": "Ajouter historique compact JSONL",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 5000,
+        "ms": 0.1
+      }
+    },
+    {
+      "index": 52,
+      "network_id": "TRILLIONX_NET_52",
+      "port": 5001,
+      "role": "DELTA_SCAN",
+      "task": "Scanner seulement modifiés depuis dernier hash",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 5001,
+        "ms": 0.098
+      }
+    },
+    {
+      "index": 53,
+      "network_id": "TRILLIONX_NET_53",
+      "port": 5002,
+      "role": "API_STRING_DEDUP",
+      "task": "Compresser API strings massives",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 5002,
+        "ms": 0.098
+      }
+    },
+    {
+      "index": 54,
+      "network_id": "TRILLIONX_NET_54",
+      "port": 5003,
+      "role": "ROUTE_HEALTH_MATRIX",
+      "task": "Matrice santé endpoints/routes",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 5003,
+        "ms": 0.093
+      }
+    },
+    {
+      "index": 55,
+      "network_id": "TRILLIONX_NET_55",
+      "port": 5004,
+      "role": "ANOMALY_DETECTOR",
+      "task": "Détecter dérives RAM, latence, erreurs",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 5004,
+        "ms": 0.09
+      }
+    },
+    {
+      "index": 56,
+      "network_id": "TRILLIONX_NET_56",
+      "port": 5005,
+      "role": "SMART_ROUTER",
+      "task": "Choisir local/cache/internet selon health",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 5005,
+        "ms": 0.147
+      }
+    },
+    {
+      "index": 57,
+      "network_id": "TRILLIONX_NET_57",
+      "port": 6000,
+      "role": "PRIORITY_JOBS",
+      "task": "Prioriser jobs selon valeur et coût",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 6000,
+        "ms": 0.116
+      }
+    },
+    {
+      "index": 58,
+      "network_id": "TRILLIONX_NET_58",
+      "port": 6001,
+      "role": "BACKPRESSURE",
+      "task": "Limiter avalanche WS/HTTP",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 6001,
+        "ms": 1.109
+      }
+    },
+    {
+      "index": 59,
+      "network_id": "TRILLIONX_NET_59",
+      "port": 6006,
+      "role": "RECONNECT",
+      "task": "Reconnect contrôlé, jitter, backoff",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 6006,
+        "ms": 0.147
+      }
+    },
+    {
+      "index": 60,
+      "network_id": "TRILLIONX_NET_60",
+      "port": 6007,
+      "role": "PACKET_MICRO",
+      "task": "Mesurer micro-paquets et latence courte",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 6007,
+        "ms": 0.114
+      }
+    },
+    {
+      "index": 61,
+      "network_id": "TRILLIONX_NET_61",
+      "port": 6008,
+      "role": "CODEC_HTTP",
+      "task": "Codec HTTP/1.1 analyse",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 6008,
+        "ms": 0.107
+      }
+    },
+    {
+      "index": 62,
+      "network_id": "TRILLIONX_NET_62",
+      "port": 7000,
+      "role": "CODEC_WS",
+      "task": "Codec WebSocket analyse",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 7000,
+        "ms": 0.114
+      }
+    },
+    {
+      "index": 63,
+      "network_id": "TRILLIONX_NET_63",
+      "port": 7001,
+      "role": "CODEC_JSON",
+      "task": "Codec JSON parse/stringify",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 7001,
+        "ms": 0.122
+      }
+    },
+    {
+      "index": 64,
+      "network_id": "TRILLIONX_NET_64",
+      "port": 7002,
+      "role": "CODEC_GZIP",
+      "task": "Compression/décompression gzip si disponible",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 7002,
+        "ms": 0.115
+      }
+    },
+    {
+      "index": 65,
+      "network_id": "TRILLIONX_NET_65",
+      "port": 7003,
+      "role": "CODEC_BASE64",
+      "task": "Encodage/décodage base64",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 7003,
+        "ms": 0.107
+      }
+    },
+    {
+      "index": 66,
+      "network_id": "TRILLIONX_NET_66",
+      "port": 8000,
+      "role": "IOT_MQTT_SLOT",
+      "task": "Slot protocole MQTT si module présent",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 8000,
+        "ms": 0.095
+      }
+    },
+    {
+      "index": 67,
+      "network_id": "TRILLIONX_NET_67",
+      "port": 8001,
+      "role": "IOT_COAP_SLOT",
+      "task": "Slot protocole CoAP si module présent",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 8001,
+        "ms": 0.087
+      }
+    },
+    {
+      "index": 68,
+      "network_id": "TRILLIONX_NET_68",
+      "port": 8080,
+      "role": "SATELLITE_SLOT",
+      "task": "Slot satellite/edge déclaré, non simulé comme réel",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 8080,
+        "ms": 0.101
+      }
+    },
+    {
+      "index": 69,
+      "network_id": "TRILLIONX_NET_69",
+      "port": 8081,
+      "role": "QUANTUM_SLOT",
+      "task": "Slot quantum/external only, aucune fausse puissance",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 8081,
+        "ms": 0.085
+      }
+    },
+    {
+      "index": 70,
+      "network_id": "TRILLIONX_NET_70",
+      "port": 8082,
+      "role": "GPU_SLOT",
+      "task": "Détection GPU si disponible sinon unavailable",
+      "priority": "NORMAL",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 8082,
+        "ms": 0.105
+      }
+    },
+    {
+      "index": 71,
+      "network_id": "TRILLIONX_NET_71",
+      "port": 8083,
+      "role": "SIMD_SLOT",
+      "task": "Détection SIMD/native si module présent",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 8083,
+        "ms": 0.087
+      }
+    },
+    {
+      "index": 72,
+      "network_id": "TRILLIONX_NET_72",
+      "port": 8084,
+      "role": "NATIVE_C_SLOT",
+      "task": "Pont C/C++ natif si compilé",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 8084,
+        "ms": 0.099
+      }
+    },
+    {
+      "index": 73,
+      "network_id": "TRILLIONX_NET_73",
+      "port": 8085,
+      "role": "PYTHON_SLOT",
+      "task": "Pont Python si disponible",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 8085,
+        "ms": 0.128
+      }
+    },
+    {
+      "index": 74,
+      "network_id": "TRILLIONX_NET_74",
+      "port": 8443,
+      "role": "SHELL_SAFE",
+      "task": "Commandes shell safe allowlist",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 8443,
+        "ms": 0.099
+      }
+    },
+    {
+      "index": 75,
+      "network_id": "TRILLIONX_NET_75",
+      "port": 8444,
+      "role": "PACKAGE_AUDIT",
+      "task": "npm/package health sans correction destructive",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 8444,
+        "ms": 0.095
+      }
+    },
+    {
+      "index": 76,
+      "network_id": "TRILLIONX_NET_76",
+      "port": 8888,
+      "role": "LAUNCH_JSON",
+      "task": "Vérifier launch.json attach/runtime",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 8888,
+        "ms": 0.101
+      }
+    },
+    {
+      "index": 77,
+      "network_id": "TRILLIONX_NET_77",
+      "port": 8889,
+      "role": "DEVCONTAINER",
+      "task": "Vérifier ports/config Codespaces",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 8889,
+        "ms": 0.091
+      }
+    },
+    {
+      "index": 78,
+      "network_id": "TRILLIONX_NET_78",
+      "port": 9000,
+      "role": "GIT_STATUS",
+      "task": "Surveiller clean/dirty, commit prêt",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 9000,
+        "ms": 0.087
+      }
+    },
+    {
+      "index": 79,
+      "network_id": "TRILLIONX_NET_79",
+      "port": 9001,
+      "role": "GIT_PUSH",
+      "task": "Pousser seulement état stable validé",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 9001,
+        "ms": 0.085
+      }
+    },
+    {
+      "index": 80,
+      "network_id": "TRILLIONX_NET_80",
+      "port": 9002,
+      "role": "LFS_GUARD",
+      "task": "Détecter Git LFS hook absent et patcher safe",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 9002,
+        "ms": 0.086
+      }
+    },
+    {
+      "index": 81,
+      "network_id": "TRILLIONX_NET_81",
+      "port": 9003,
+      "role": "DISK_SPACE",
+      "task": "Surveiller df -h, nettoyage sûr",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 9003,
+        "ms": 0.109
+      }
+    },
+    {
+      "index": 82,
+      "network_id": "TRILLIONX_NET_82",
+      "port": 9090,
+      "role": "TMP_CLEAN",
+      "task": "Nettoyer /tmp TRILLIONX seulement",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 9090,
+        "ms": 0.091
+      }
+    },
+    {
+      "index": 83,
+      "network_id": "TRILLIONX_NET_83",
+      "port": 9091,
+      "role": "SNAPSHOT_KEEP",
+      "task": "Conserver snapshots importants",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 9091,
+        "ms": 0.081
+      }
+    },
+    {
+      "index": 84,
+      "network_id": "TRILLIONX_NET_84",
+      "port": 9092,
+      "role": "BACKUP_APP",
+      "task": "Backup app.js avant modification",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 9092,
+        "ms": 0.087
+      }
+    },
+    {
+      "index": 85,
+      "network_id": "TRILLIONX_NET_85",
+      "port": 9093,
+      "role": "MODULE_REGISTRY",
+      "task": "Registre modules actifs/inactifs",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 9093,
+        "ms": 0.099
+      }
+    },
+    {
+      "index": 86,
+      "network_id": "TRILLIONX_NET_86",
+      "port": 9229,
+      "role": "PLUGIN_REGISTRY",
+      "task": "Registre plugins et rôles",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 9229,
+        "ms": 0.093
+      }
+    },
+    {
+      "index": 87,
+      "network_id": "TRILLIONX_NET_87",
+      "port": 9230,
+      "role": "CONTROLLER_REGISTRY",
+      "task": "Registre contrôleurs",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 9230,
+        "ms": 0.108
+      }
+    },
+    {
+      "index": 88,
+      "network_id": "TRILLIONX_NET_88",
+      "port": 10000,
+      "role": "FIRMWARE_REGISTRY",
+      "task": "Registre firmware futur",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 10000,
+        "ms": 0.094
+      }
+    },
+    {
+      "index": 89,
+      "network_id": "TRILLIONX_NET_89",
+      "port": 10001,
+      "role": "MEMORY_FABRIC",
+      "task": "Fabrique mémoire cache/shard",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 10001,
+        "ms": 0.099
+      }
+    },
+    {
+      "index": 90,
+      "network_id": "TRILLIONX_NET_90",
+      "port": 10080,
+      "role": "SHARED_VR_CACHE",
+      "task": "Cache partagé miroir VR",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 10080,
+        "ms": 0.088
+      }
+    },
+    {
+      "index": 91,
+      "network_id": "TRILLIONX_NET_91",
+      "port": 11000,
+      "role": "ORCHESTRATION_SCORE",
+      "task": "Score global orchestration",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 11000,
+        "ms": 0.108
+      }
+    },
+    {
+      "index": 92,
+      "network_id": "TRILLIONX_NET_92",
+      "port": 11001,
+      "role": "PERF_INTEGRITY_AI",
+      "task": "Score performance/intégrité/intelligence",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 11001,
+        "ms": 0.088
+      }
+    },
+    {
+      "index": 93,
+      "network_id": "TRILLIONX_NET_93",
+      "port": 12000,
+      "role": "REPORT_HTML",
+      "task": "Rapport HTML local cockpit",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 12000,
+        "ms": 0.084
+      }
+    },
+    {
+      "index": 94,
+      "network_id": "TRILLIONX_NET_94",
+      "port": 12001,
+      "role": "REPORT_JSON",
+      "task": "Rapport JSON latest",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 12001,
+        "ms": 0.083
+      }
+    },
+    {
+      "index": 95,
+      "network_id": "TRILLIONX_NET_95",
+      "port": 12563,
+      "role": "REPORT_LEDGER",
+      "task": "Scellement rapport",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "OPEN",
+      "probe": {
+        "open": true,
+        "state": "OPEN",
+        "port": 12563,
+        "ms": 0.135
+      }
+    },
+    {
+      "index": 96,
+      "network_id": "TRILLIONX_NET_96",
+      "port": 13005,
+      "role": "USER_VALIDATED_STABLE",
+      "task": "Protéger base OKAY stable validée",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "OPEN",
+      "probe": {
+        "open": true,
+        "state": "OPEN",
+        "port": 13005,
+        "ms": 0.097
+      }
+    },
+    {
+      "index": 97,
+      "network_id": "TRILLIONX_NET_97",
+      "port": 15000,
+      "role": "ADDITIVE_ONLY",
+      "task": "Vérifier que tout ajout reste séparé",
+      "priority": "SUPPORT",
+      "mode": "SAFE_ONLY_REAL_OR_UNAVAILABLE",
+      "execution_policy": {
+        "no_intrusive_scan": true,
+        "no_bruteforce": true,
+        "no_fake_metric": true,
+        "additive_only": true,
+        "protect_stable_app": true
+      },
+      "health": "RESERVED_OR_CLOSED",
+      "probe": {
+        "open": false,
+        "state": "CLOSED",
+        "error": "ECONNREFUSED",
+        "port": 15000,
+        "ms": 0.096
+      }
+    }
+  ],
+  "seal": "37bfd4f1ac1893df6a050ef8c13fec4ea9668d235f9965c407bd5e79f3363514",
+  "ledger_hash": "73487d9e70a06c01c9f6cdfcd271501b5cd0f78de65c73d22a9cabaf2f709b57"
+}

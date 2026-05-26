@@ -1,0 +1,181 @@
+{
+  "engine": "TRILLIONX_CODESPACES_WORKSPACE_BENCH",
+  "time": "2026-05-24T22:21:54.606Z",
+  "scope": "CODESPACES_WORKSPACE_REAL_HOST",
+  "host": {
+    "time": "2026-05-24T22:21:51.697Z",
+    "hostname": "codespaces-408e60",
+    "platform": "linux",
+    "arch": "x64",
+    "node": "v22.22.2",
+    "npm": "10.9.7",
+    "git": "git version 2.51.0",
+    "cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "logical_cpu": 2,
+    "ghz": 3.392,
+    "load": [
+      1.54,
+      2.6,
+      2.78
+    ],
+    "ram_total_gb": 7.757,
+    "ram_free_gb": 2.231
+  },
+  "disk": {
+    "total_gb": 31.326,
+    "used_gb": 12.756,
+    "free_gb": 16.954,
+    "used_pct": 43,
+    "free_pct": 57,
+    "mount": "/workspaces"
+  },
+  "files": {
+    ".": {
+      "files": 9011,
+      "size": "566M"
+    },
+    "data": {
+      "files": 887,
+      "size": "215M"
+    },
+    "runtime_state": {
+      "files": 33,
+      "size": "12M"
+    },
+    "reports": {
+      "files": 15,
+      "size": "76K"
+    },
+    "history": {
+      "files": 22,
+      "size": "3.6M"
+    },
+    "logs": {
+      "files": 141,
+      "size": "2.2M"
+    },
+    "benchmarks": {
+      "files": 1,
+      "size": "12K"
+    },
+    "node_modules": {
+      "files": 1201,
+      "size": "16M"
+    },
+    ".git": {
+      "files": 2398,
+      "size": "76M"
+    },
+    "raid60_plus": {
+      "files": 3985,
+      "size": "197M"
+    }
+  },
+  "bench": {
+    "sha256": {
+      "ops": 366611,
+      "ops_s": 458263.75,
+      "mb_s": 114565.938
+    },
+    "aes256": {
+      "ops": 691,
+      "ops_s": 863.75,
+      "mb_s": 431.875
+    },
+    "json": {
+      "ops": 218,
+      "ops_s": 272.5,
+      "mb_s": 22.002
+    },
+    "file_io": {
+      "size_mb": 8,
+      "write_ms": 10.886,
+      "read_ms": 6.462,
+      "write_mb_s": 734.884,
+      "read_mb_s": 1238.058,
+      "checksum": "01accfbc30615341"
+    },
+    "ports": [
+      {
+        "port": 3000,
+        "ms": 2.975,
+        "open": true
+      },
+      {
+        "port": 3997,
+        "ms": 0.927,
+        "open": false,
+        "error": "ECONNREFUSED"
+      },
+      {
+        "port": 9229,
+        "ms": 0.527,
+        "open": false,
+        "error": "ECONNREFUSED"
+      },
+      {
+        "port": 20000,
+        "ms": 0.604,
+        "open": false,
+        "error": "ECONNREFUSED"
+      },
+      {
+        "port": 20001,
+        "ms": 0.328,
+        "open": false,
+        "error": "ECONNREFUSED"
+      },
+      {
+        "port": 20002,
+        "ms": 0.288,
+        "open": false,
+        "error": "ECONNREFUSED"
+      },
+      {
+        "port": 20003,
+        "ms": 0.392,
+        "open": false,
+        "error": "ECONNREFUSED"
+      },
+      {
+        "port": 3099,
+        "ms": 0.726,
+        "open": false,
+        "error": "ECONNREFUSED"
+      },
+      {
+        "port": 3100,
+        "ms": 2.935,
+        "open": false,
+        "error": "ECONNREFUSED"
+      },
+      {
+        "port": 8080,
+        "ms": 0.378,
+        "open": false,
+        "error": "ECONNREFUSED"
+      }
+    ]
+  },
+  "summary": {
+    "score": 162665.933,
+    "open_ports": [
+      3000
+    ],
+    "health": {
+      "cpu": "OK",
+      "memory": "OK",
+      "disk": "OK",
+      "ports": "APP3000_OPEN"
+    },
+    "verdict": "CODESPACES_WORKSPACE_BENCH_COMPLETE"
+  },
+  "truth_policy": {
+    "real_only": true,
+    "measures_codespaces_host": true,
+    "not_fake_threadripper": true,
+    "not_fake_exascale": true,
+    "no_destructive_actions": true
+  },
+  "seal": "2facf623cc95ba764cd90f6905c7c0096b108df621358a107dff81519e5a17f8"
+}

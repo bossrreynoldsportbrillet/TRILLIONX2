@@ -1,0 +1,567 @@
+{
+  "engine": "TRILLIONX_BTC_UTXO_ETH_VECTOR_SYSTEM_NET_BENCH",
+  "ts": "2026-05-24T17:27:04.269Z",
+  "target": "TRILLIONX_ONLY",
+  "host_role": "CODESPACES_SUPPORT_ONLY",
+  "parameters": {
+    "packets": 12,
+    "window_ms": 250
+  },
+  "system": {
+    "cpu": {
+      "model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+      "logical": 2,
+      "speed_mhz": 3490,
+      "speed_ghz": 3.49,
+      "arch": "x64",
+      "platform": "linux",
+      "simd": {
+        "sse": true,
+        "sse2": true,
+        "sse4_1": true,
+        "sse4_2": true,
+        "avx": true,
+        "avx2": true,
+        "avx512": true,
+        "aes": true,
+        "sha_ni": true
+      }
+    },
+    "memory_before": {
+      "rss_mb": 47.5,
+      "heap_used_mb": 5.107,
+      "external_mb": 1.91,
+      "arraybuf_mb": 0.016,
+      "os_total_gb": 7.757,
+      "os_free_gb": 5.787,
+      "load1": 0.41
+    },
+    "memory_after": {
+      "rss_mb": 184.902,
+      "heap_used_mb": 5.554,
+      "external_mb": 1.919,
+      "arraybuf_mb": 0.025,
+      "os_total_gb": 7.757,
+      "os_free_gb": 5.593,
+      "load1": 0.74
+    },
+    "support": {
+      "node": "v22.22.2",
+      "npm": "10.9.7",
+      "python3": "Python 3.10.12",
+      "openssl": "OpenSSL 3.0.2 15 Mar 2022 (Library: OpenSSL 3.0.2 15 Mar 2022)",
+      "tools": {
+        "node": true,
+        "npm": true,
+        "python3": true,
+        "gcc": true,
+        "g++": true,
+        "clang": true,
+        "make": true,
+        "cmake": true,
+        "git": true,
+        "curl": true,
+        "wget": true,
+        "ss": true,
+        "nmap": true,
+        "openssl": true,
+        "lscpu": true,
+        "free": true,
+        "df": true
+      }
+    }
+  },
+  "network": {
+    "before": {
+      "local_ip": "10.0.0.156",
+      "dns": {
+        "github_ok": true,
+        "ms": 6.355
+      },
+      "ports_scanned": 24,
+      "ports_open": [
+        3000
+      ],
+      "port_results": [
+        {
+          "open": true,
+          "port": 3000,
+          "ms": 1.735
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3033,
+          "ms": 0.735
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3044,
+          "ms": 0.321
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3055,
+          "ms": 0.301
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3100,
+          "ms": 0.239
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3110,
+          "ms": 0.195
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3111,
+          "ms": 0.242
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3112,
+          "ms": 0.213
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3113,
+          "ms": 0.361
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3114,
+          "ms": 0.22
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3115,
+          "ms": 0.117
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3116,
+          "ms": 0.085
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3117,
+          "ms": 0.076
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3118,
+          "ms": 0.14
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3119,
+          "ms": 0.098
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3150,
+          "ms": 0.153
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3160,
+          "ms": 0.078
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3199,
+          "ms": 0.072
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 5000,
+          "ms": 0.068
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 8000,
+          "ms": 0.067
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 8080,
+          "ms": 0.066
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 8888,
+          "ms": 0.066
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 9000,
+          "ms": 0.071
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 9229,
+          "ms": 0.068
+        }
+      ],
+      "http_health": [
+        {
+          "port": 3000,
+          "ok": true,
+          "status": 404,
+          "bytes": 145,
+          "ms": 25.384
+        }
+      ],
+      "network_interfaces": {
+        "lo": [
+          {
+            "address": "127.0.0.1",
+            "netmask": "255.0.0.0",
+            "family": "IPv4",
+            "mac": "00:00:00:00:00:00",
+            "internal": true,
+            "cidr": "127.0.0.1/8"
+          },
+          {
+            "address": "::1",
+            "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+            "family": "IPv6",
+            "mac": "00:00:00:00:00:00",
+            "internal": true,
+            "cidr": "::1/128",
+            "scopeid": 0
+          }
+        ],
+        "eth0": [
+          {
+            "address": "10.0.0.156",
+            "netmask": "255.255.0.0",
+            "family": "IPv4",
+            "mac": "70:a8:a5:75:33:f5",
+            "internal": false,
+            "cidr": "10.0.0.156/16"
+          },
+          {
+            "address": "fe80::72a8:a5ff:fe75:33f5",
+            "netmask": "ffff:ffff:ffff:ffff::",
+            "family": "IPv6",
+            "mac": "70:a8:a5:75:33:f5",
+            "internal": false,
+            "cidr": "fe80::72a8:a5ff:fe75:33f5/64",
+            "scopeid": 2
+          }
+        ],
+        "enP53944s1": [
+          {
+            "address": "fe80::72a8:a5ff:fe75:33f5",
+            "netmask": "ffff:ffff:ffff:ffff::",
+            "family": "IPv6",
+            "mac": "70:a8:a5:75:33:f5",
+            "internal": false,
+            "cidr": "fe80::72a8:a5ff:fe75:33f5/64",
+            "scopeid": 3
+          }
+        ]
+      },
+      "routes": "default via 10.0.0.1 dev eth0 proto dhcp src 10.0.0.156 metric 100 \n10.0.0.0/16 dev eth0 proto kernel scope link src 10.0.0.156 metric 100 \n10.0.0.1 dev eth0 proto dhcp scope link src 10.0.0.156 metric 100 \n168.63.129.16 via 10.0.0.1 dev eth0 proto dhcp src 10.0.0.156 metric 100 \n169.254.169.254 via 10.0.0.1 dev eth0 proto dhcp src 10.0.0.156 metric 100 \n172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown"
+    },
+    "after": {
+      "local_ip": "10.0.0.156",
+      "dns": {
+        "github_ok": true,
+        "ms": 28.349
+      },
+      "ports_scanned": 24,
+      "ports_open": [
+        3000
+      ],
+      "port_results": [
+        {
+          "open": true,
+          "port": 3000,
+          "ms": 0.9
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3033,
+          "ms": 0.282
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3044,
+          "ms": 0.106
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3055,
+          "ms": 0.08
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3100,
+          "ms": 0.072
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3110,
+          "ms": 0.07
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3111,
+          "ms": 0.067
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3112,
+          "ms": 0.067
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3113,
+          "ms": 0.097
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3114,
+          "ms": 0.079
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3115,
+          "ms": 0.068
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3116,
+          "ms": 0.066
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3117,
+          "ms": 0.066
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3118,
+          "ms": 0.065
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3119,
+          "ms": 0.066
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3150,
+          "ms": 0.067
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3160,
+          "ms": 0.066
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3199,
+          "ms": 0.065
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 5000,
+          "ms": 0.067
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 8000,
+          "ms": 0.07
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 8080,
+          "ms": 0.067
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 8888,
+          "ms": 0.065
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 9000,
+          "ms": 0.096
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 9229,
+          "ms": 0.071
+        }
+      ],
+      "http_health": [
+        {
+          "port": 3000,
+          "ok": true,
+          "status": 404,
+          "bytes": 145,
+          "ms": 22.515
+        }
+      ],
+      "network_interfaces": {
+        "lo": [
+          {
+            "address": "127.0.0.1",
+            "netmask": "255.0.0.0",
+            "family": "IPv4",
+            "mac": "00:00:00:00:00:00",
+            "internal": true,
+            "cidr": "127.0.0.1/8"
+          },
+          {
+            "address": "::1",
+            "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+            "family": "IPv6",
+            "mac": "00:00:00:00:00:00",
+            "internal": true,
+            "cidr": "::1/128",
+            "scopeid": 0
+          }
+        ],
+        "eth0": [
+          {
+            "address": "10.0.0.156",
+            "netmask": "255.255.0.0",
+            "family": "IPv4",
+            "mac": "70:a8:a5:75:33:f5",
+            "internal": false,
+            "cidr": "10.0.0.156/16"
+          },
+          {
+            "address": "fe80::72a8:a5ff:fe75:33f5",
+            "netmask": "ffff:ffff:ffff:ffff::",
+            "family": "IPv6",
+            "mac": "70:a8:a5:75:33:f5",
+            "internal": false,
+            "cidr": "fe80::72a8:a5ff:fe75:33f5/64",
+            "scopeid": 2
+          }
+        ],
+        "enP53944s1": [
+          {
+            "address": "fe80::72a8:a5ff:fe75:33f5",
+            "netmask": "ffff:ffff:ffff:ffff::",
+            "family": "IPv6",
+            "mac": "70:a8:a5:75:33:f5",
+            "internal": false,
+            "cidr": "fe80::72a8:a5ff:fe75:33f5/64",
+            "scopeid": 3
+          }
+        ]
+      },
+      "routes": "default via 10.0.0.1 dev eth0 proto dhcp src 10.0.0.156 metric 100 \n10.0.0.0/16 dev eth0 proto kernel scope link src 10.0.0.156 metric 100 \n10.0.0.1 dev eth0 proto dhcp scope link src 10.0.0.156 metric 100 \n168.63.129.16 via 10.0.0.1 dev eth0 proto dhcp src 10.0.0.156 metric 100 \n169.254.169.254 via 10.0.0.1 dev eth0 proto dhcp src 10.0.0.156 metric 100 \n172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown"
+    }
+  },
+  "benches": {
+    "btc_utxo": {
+      "packets": 12,
+      "window_ms": 250,
+      "ms": 3030.174,
+      "tx_count": 133154,
+      "tx_s": 43942.689,
+      "tx_mb_s": 5.553,
+      "sha256d_hashes_s": 87885.377,
+      "hash_gb_s": 0.005,
+      "utxo_size": 88769,
+      "merkle_root": "70bbbcef76352ec2dfdf340bf14439ca"
+    },
+    "eth_like_blockchain": {
+      "packets": 12,
+      "ms": 3061.997,
+      "synthetic_blocks": 4741,
+      "synthetic_blocks_s": 1548.336,
+      "synthetic_tx": 187070,
+      "synthetic_tx_s": 61094.109,
+      "payload_mb_s": 6.439,
+      "synthetic_gas_s": 1391004426.513,
+      "state_root": "b9c94a4e24e5e79f5fe4c9ce5b48e56e",
+      "note": "ETH-like local workload using sha3-256; not connected to mainnet"
+    },
+    "crypto": {
+      "ms": 320.229,
+      "sha256_mb_s": 299.785,
+      "aes256_mb_s": 299.786,
+      "digest": "444e5c28db2cab8726bf28f62b0b46e9"
+    },
+    "vector": {
+      "n": 1048576,
+      "ms": 3009.879,
+      "gflops": 2.104,
+      "vector_mb": 24,
+      "memory_stream_mb_s": 12040.353,
+      "checksum": 1122749.784
+    }
+  },
+  "summary": {
+    "score": 14559.35,
+    "cpu_ghz_detected": 3.49,
+    "open_ports_after": 1,
+    "health": 100,
+    "verdict": "REAL_LOCAL_TRILLIONX_BTC_UTXO_ETH_VECTOR_NET_BENCH_COMPLETE"
+  },
+  "truth_policy": {
+    "real_only": true,
+    "measures_local_runtime": true,
+    "btc_utxo_is_synthetic_local_workload": true,
+    "eth_is_synthetic_local_workload_not_mainnet": true,
+    "no_fake_zettahash": true,
+    "no_fake_exascale": true,
+    "no_fake_gpu": true,
+    "codespaces_limits_apply": true
+  }
+}

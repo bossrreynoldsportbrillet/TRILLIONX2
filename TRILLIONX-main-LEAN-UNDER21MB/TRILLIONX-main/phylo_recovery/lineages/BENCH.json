@@ -1,0 +1,257 @@
+[
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/data/trillionx_fire_dict_unlocker_micro_stress_1779651596453.json",
+    "size": 372736,
+    "sha256": "618c98d4f85ce811ab1b7c4e19d7056b0aebc166bcae5dae5d696ed0a70888e6"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/data/trillionx_fire_dict_unlocker_micro_stress_latest.json",
+    "size": 372736,
+    "sha256": "618c98d4f85ce811ab1b7c4e19d7056b0aebc166bcae5dae5d696ed0a70888e6"
+  },
+  {
+    "file": "./data/trillionx_fire_dict_unlocker_micro_stress_1779651596453.json",
+    "size": 372736,
+    "sha256": "618c98d4f85ce811ab1b7c4e19d7056b0aebc166bcae5dae5d696ed0a70888e6"
+  },
+  {
+    "file": "./data/trillionx_fire_dict_unlocker_micro_stress_latest.json",
+    "size": 372736,
+    "sha256": "618c98d4f85ce811ab1b7c4e19d7056b0aebc166bcae5dae5d696ed0a70888e6"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/data/trillions_health_bench_total_latest.json",
+    "size": 209391,
+    "sha256": "c6a865f065894ceaa08fdf1a5f5085e9fd14695fb5699069fdff4cf714720099"
+  },
+  {
+    "file": "./data/trillions_health_bench_total_latest.json",
+    "size": 209391,
+    "sha256": "c6a865f065894ceaa08fdf1a5f5085e9fd14695fb5699069fdff4cf714720099"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/data/trillionx_fire_dict_unlocker_micro_stress_1779651418298.json",
+    "size": 201382,
+    "sha256": "999e0f6943cb09625c991f97d98554d2a6a4859fed0f9637addb820d88c05f37"
+  },
+  {
+    "file": "./data/trillionx_fire_dict_unlocker_micro_stress_1779651418298.json",
+    "size": 201382,
+    "sha256": "999e0f6943cb09625c991f97d98554d2a6a4859fed0f9637addb820d88c05f37"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/data/trillionx_fire_dict_unlocker_micro_stress_1779651320207.json",
+    "size": 152613,
+    "sha256": "a9bc55b1a6adc3f75db10c729eefd914d9420f82d38c21533ab3e669f6e5063e"
+  },
+  {
+    "file": "./data/trillionx_fire_dict_unlocker_micro_stress_1779651320207.json",
+    "size": 152613,
+    "sha256": "a9bc55b1a6adc3f75db10c729eefd914d9420f82d38c21533ab3e669f6e5063e"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/data/trillionx_fire_dict_unlocker_micro_stress_1779651358618.json",
+    "size": 103533,
+    "sha256": "31a93d7c98cc957a6d47d0d2360d53d4912be786eda5f98f97c2cbb7282945d4"
+  },
+  {
+    "file": "./data/trillionx_fire_dict_unlocker_micro_stress_1779651358618.json",
+    "size": 103533,
+    "sha256": "31a93d7c98cc957a6d47d0d2360d53d4912be786eda5f98f97c2cbb7282945d4"
+  },
+  {
+    "file": "./trillionx_exascale_benchmark.js",
+    "size": 16221,
+    "sha256": "c05940232151ec1f27901b2215eed7b730e97462f4bf129774ab9f3e535fd12c"
+  },
+  {
+    "file": "./TRILLIONX_SATURATION_COMPLEXITY_BENCH.js",
+    "size": 12696,
+    "sha256": "6e55a66b7909f32d6bc50e8ac42138a4441cbb6f1c65f642d790214184c8181a"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/TRILLIONX_SATURATION_COMPLEXITY_BENCH.js",
+    "size": 12696,
+    "sha256": "6e55a66b7909f32d6bc50e8ac42138a4441cbb6f1c65f642d790214184c8181a"
+  },
+  {
+    "file": "./TRILLIONX_FIRE_DICT_UNLOCKER_MICRO_STRESS.js",
+    "size": 12203,
+    "sha256": "925cae94b1b283522f39965e0a846399b5e4594865a351f1e7de8553d0fce82b"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/TRILLIONX_FIRE_DICT_UNLOCKER_MICRO_STRESS.js",
+    "size": 12203,
+    "sha256": "925cae94b1b283522f39965e0a846399b5e4594865a351f1e7de8553d0fce82b"
+  },
+  {
+    "file": "./TRILLIONX_FULL_THREADRIPPER_PROFILE_BENCH.js",
+    "size": 11459,
+    "sha256": "38af811205be3220f7e96446ebe70d3fe43849e4e14375d32cdd590c340e99f5"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/TRILLIONX_FULL_THREADRIPPER_PROFILE_BENCH.js",
+    "size": 11459,
+    "sha256": "38af811205be3220f7e96446ebe70d3fe43849e4e14375d32cdd590c340e99f5"
+  },
+  {
+    "file": "./TRILLIONX_PERF_ORCH_SUPERCLASS_BENCH.js",
+    "size": 10523,
+    "sha256": "8ff918d2896a911bafecbe24f75fdc626c7659ff8d422fc315af9a2c12d77ecf"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/TRILLIONX_PERF_ORCH_SUPERCLASS_BENCH.js",
+    "size": 10523,
+    "sha256": "8ff918d2896a911bafecbe24f75fdc626c7659ff8d422fc315af9a2c12d77ecf"
+  },
+  {
+    "file": "./TRILLIONX_LADDER_HEALTH_UNITS_BENCH.js",
+    "size": 10006,
+    "sha256": "4a07d23adee1fce4cc0c7e00ef15c1dcc981a1a24bcfed9aeed7b015e32b3630"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/TRILLIONX_LADDER_HEALTH_UNITS_BENCH.js",
+    "size": 10006,
+    "sha256": "4a07d23adee1fce4cc0c7e00ef15c1dcc981a1a24bcfed9aeed7b015e32b3630"
+  },
+  {
+    "file": "./TRILLIONX_COMPUTE_SPEED_BENCH.js",
+    "size": 9590,
+    "sha256": "92087f20e520dae392a13b4061411eacd91d34780ddd59ba134c0f70ac1d032b"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/TRILLIONX_COMPUTE_SPEED_BENCH.js",
+    "size": 9590,
+    "sha256": "92087f20e520dae392a13b4061411eacd91d34780ddd59ba134c0f70ac1d032b"
+  },
+  {
+    "file": "./TRILLIONX_SYSTEM_ORGANIZATION_BENCH.sh",
+    "size": 9092,
+    "sha256": "4be9ab96958226e92fb5596b8b1efe0966b6c3c288e4ce4dc88350d4da8f83e0"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/TRILLIONX_SYSTEM_ORGANIZATION_BENCH.sh",
+    "size": 9092,
+    "sha256": "4be9ab96958226e92fb5596b8b1efe0966b6c3c288e4ce4dc88350d4da8f83e0"
+  },
+  {
+    "file": "./TRILLIONX_WORLD_SUPERIOR_REDISCOVERY_BENCH.js",
+    "size": 8739,
+    "sha256": "0d10844dbef70c6ce29398cfa133c815a8af0d8c0c78dad9694c35b20a0de6bb"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/TRILLIONX_WORLD_SUPERIOR_REDISCOVERY_BENCH.js",
+    "size": 8739,
+    "sha256": "0d10844dbef70c6ce29398cfa133c815a8af0d8c0c78dad9694c35b20a0de6bb"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/benchmarks/trillionx_system_organization_bench.js",
+    "size": 8360,
+    "sha256": "7a59abdc90d3e349a0dcb1e94a303c566f707e750063c5d34cbb0ea29a3b51d8"
+  },
+  {
+    "file": "./benchmarks/trillionx_system_organization_bench.js",
+    "size": 8360,
+    "sha256": "7a59abdc90d3e349a0dcb1e94a303c566f707e750063c5d34cbb0ea29a3b51d8"
+  },
+  {
+    "file": "./TRILLIONX_LADDER_SATURATION_BENCH.js",
+    "size": 8252,
+    "sha256": "9ac2ace33c9b470a2d64a92a8b07796ee45ba143cb3f7b5fadc320b267fe19aa"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/TRILLIONX_LADDER_SATURATION_BENCH.js",
+    "size": 8252,
+    "sha256": "9ac2ace33c9b470a2d64a92a8b07796ee45ba143cb3f7b5fadc320b267fe19aa"
+  },
+  {
+    "file": "./TRILLIONX_USEFUL_WORK_EXASCALE_SUPERIOR_BENCH.js",
+    "size": 8104,
+    "sha256": "84757ad63192d8905620337a41f776f897f0f8670736151cc75c78d67df06bc9"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/TRILLIONX_USEFUL_WORK_EXASCALE_SUPERIOR_BENCH.js",
+    "size": 8104,
+    "sha256": "84757ad63192d8905620337a41f776f897f0f8670736151cc75c78d67df06bc9"
+  },
+  {
+    "file": "./TRILLIONX_TIER23_BENCHMARK.js",
+    "size": 7384,
+    "sha256": "d0bd24d58444059c9be8c15427a607a2986637c9398d54845afa0f169983fb43"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/TRILLIONX_TIER23_BENCHMARK.js",
+    "size": 7384,
+    "sha256": "d0bd24d58444059c9be8c15427a607a2986637c9398d54845afa0f169983fb43"
+  },
+  {
+    "file": "./TRILLIONX_CODESPACES_WORKSPACE_BENCH.sh",
+    "size": 6978,
+    "sha256": "a4d1c8d9571559f97a334b0984ebff5e752377bb4a055b3962ad41dc041a830f"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/TRILLIONX_CODESPACES_WORKSPACE_BENCH.sh",
+    "size": 6978,
+    "sha256": "a4d1c8d9571559f97a334b0984ebff5e752377bb4a055b3962ad41dc041a830f"
+  },
+  {
+    "file": "./TRILLIONS_HEALTH_BENCH_TOTAL_V2.js",
+    "size": 6819,
+    "sha256": "9327d56d72b4bab0e63ab36781bd3f423e3d362ba045fabe5cb20253e14ea9af"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/TRILLIONS_HEALTH_BENCH_TOTAL_V2.js",
+    "size": 6819,
+    "sha256": "9327d56d72b4bab0e63ab36781bd3f423e3d362ba045fabe5cb20253e14ea9af"
+  },
+  {
+    "file": "./TRILLIONX_AI_WORLD_HEALTH_BENCH.js",
+    "size": 6362,
+    "sha256": "22e08d5e427766756c52dca1087fc4e075454a3898c82d0636ac4b1af39b2354"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/TRILLIONX_AI_WORLD_HEALTH_BENCH.js",
+    "size": 6362,
+    "sha256": "22e08d5e427766756c52dca1087fc4e075454a3898c82d0636ac4b1af39b2354"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/benchmarks/trillionx_codespaces_workspace_bench.js",
+    "size": 6250,
+    "sha256": "a8b40752600656d07f5992c0b834685171d2b014ff5510523c182f2f2027069a"
+  },
+  {
+    "file": "./benchmarks/trillionx_codespaces_workspace_bench.js",
+    "size": 6250,
+    "sha256": "a8b40752600656d07f5992c0b834685171d2b014ff5510523c182f2f2027069a"
+  },
+  {
+    "file": "./TRILLIONX_RTX4090_ASTRAL_PROFILE_BENCH.js",
+    "size": 6163,
+    "sha256": "cdb2f1613dadf2ca1082a3fbf2d49ddb4d66e29ce6ac71aac1e372f93f385232"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/TRILLIONX_RTX4090_ASTRAL_PROFILE_BENCH.js",
+    "size": 6163,
+    "sha256": "cdb2f1613dadf2ca1082a3fbf2d49ddb4d66e29ce6ac71aac1e372f93f385232"
+  },
+  {
+    "file": "./TRILLIONS_HEALTH_BENCH_TOTAL.js",
+    "size": 5732,
+    "sha256": "fe3a83363394fafe8306b89cf4006565221399237f233f92370a768e14d34d38"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/TRILLIONS_HEALTH_BENCH_TOTAL.js",
+    "size": 5732,
+    "sha256": "fe3a83363394fafe8306b89cf4006565221399237f233f92370a768e14d34d38"
+  },
+  {
+    "file": "./data/trillionx_tier23_benchmark_1779638741002.json",
+    "size": 5025,
+    "sha256": "734921920119517d42a0e69756618a03731dd9382abd9f5df64330837495edd9"
+  },
+  {
+    "file": "./data/trillionx_tier23_benchmark_latest.json",
+    "size": 5025,
+    "sha256": "734921920119517d42a0e69756618a03731dd9382abd9f5df64330837495edd9"
+  }
+]

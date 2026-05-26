@@ -1,0 +1,8 @@
+{
+  "hashes_per_sec": 146664,
+  "aes_ops_per_sec": 37336,
+  "jobs_processed": 611,
+  "queue_depth": 1,
+  "memory_free_gb": 1.09,
+  "uptime": 2488
+}

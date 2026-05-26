@@ -1,0 +1,156 @@
+{
+  "engine": "TRILLIONX_USEFUL_WORK_RUNTIME",
+  "ts": "2026-05-24T16:32:16.833Z",
+  "mode": "ACTIVE",
+  "tick": 4021,
+  "jobs_seen": 24126,
+  "jobs_executed": 10,
+  "jobs_avoided": 24116,
+  "cache_hits": 24116,
+  "cache_miss": 10,
+  "cache_hit_ratio": 1,
+  "cache_entries": 10,
+  "useful_index": 172.79,
+  "tick_ms": 0.089,
+  "memory": {
+    "rss_mb": 89.199,
+    "heap_mb": 33.481,
+    "external_mb": 1.942,
+    "free_gb": 1.263,
+    "total_gb": 7.757
+  },
+  "context": {
+    "mesh_nodes": 20,
+    "vr_mirrors": 0,
+    "cache_mb": 0,
+    "raid_files": 353,
+    "network_health": 0,
+    "joker": "HYPERBOLIC_CONTROL_EXCELLENT",
+    "gpu": "UNAVAILABLE"
+  },
+  "health": 100,
+  "verdict": "TRILLIONX_USEFUL_WORK_RUNTIME_SUPERIOR",
+  "truth_policy": {
+    "target": "TRILLIONX",
+    "host": "CODESPACES_SUPPORT_ONLY",
+    "real_only": true,
+    "no_fake_exascale": true,
+    "exascale_meaning": "useful work superiority, not physical exaFLOPS"
+  },
+  "last_results": [
+    {
+      "ok": true,
+      "mode": "CACHE_HIT",
+      "class": "NETWORK",
+      "key": "addecd0c42972fb56942004a103857db76745ead29a103bae5e4a0d640ec902a",
+      "result": {
+        "ok": true,
+        "mode": "EXECUTED",
+        "class": "NETWORK",
+        "key": "addecd0c42972fb56942004a103857db76745ead29a103bae5e4a0d640ec902a",
+        "result": {
+          "hash": "58ae9b978ab66d303d89518b",
+          "score": 42321
+        },
+        "ms": 0.441,
+        "ts": "2026-05-24T13:57:01.200Z"
+      },
+      "ts": "2026-05-24T16:32:16.833Z"
+    },
+    {
+      "ok": true,
+      "mode": "CACHE_HIT",
+      "class": "VR_CACHE",
+      "key": "95831ca19b875d8d91d45f3cebae2a572b6eb005ed60068a5695944ae3b860ab",
+      "result": {
+        "ok": true,
+        "mode": "EXECUTED",
+        "class": "VR_CACHE",
+        "key": "95831ca19b875d8d91d45f3cebae2a572b6eb005ed60068a5695944ae3b860ab",
+        "result": {
+          "hash": "240d9d6003eb36f36321d900",
+          "score": 74757
+        },
+        "ms": 0.634,
+        "ts": "2026-05-24T13:57:01.202Z"
+      },
+      "ts": "2026-05-24T16:32:16.833Z"
+    },
+    {
+      "ok": true,
+      "mode": "CACHE_HIT",
+      "class": "STORAGE",
+      "key": "6e8c14f5357b4c219b3a126f90ba9c9169b1143a049cd9d6d42606e2e3066fee",
+      "result": {
+        "ok": true,
+        "mode": "EXECUTED",
+        "class": "STORAGE",
+        "key": "6e8c14f5357b4c219b3a126f90ba9c9169b1143a049cd9d6d42606e2e3066fee",
+        "result": {
+          "hash": "6d4c936be65f1ffc46298a88",
+          "score": 33887
+        },
+        "ms": 0.243,
+        "ts": "2026-05-24T14:37:54.610Z"
+      },
+      "ts": "2026-05-24T16:32:16.833Z"
+    },
+    {
+      "ok": true,
+      "mode": "CACHE_HIT",
+      "class": "GENERAL",
+      "key": "7410c6f9a5897702f9e4168c9917c7e0a06b8108e600971c0faf16ac2f0340d3",
+      "result": {
+        "ok": true,
+        "mode": "EXECUTED",
+        "class": "GENERAL",
+        "key": "7410c6f9a5897702f9e4168c9917c7e0a06b8108e600971c0faf16ac2f0340d3",
+        "result": {
+          "hash": "4748b654a0444aec97095922",
+          "score": 73841
+        },
+        "ms": 0.869,
+        "ts": "2026-05-24T13:57:01.203Z"
+      },
+      "ts": "2026-05-24T16:32:16.833Z"
+    },
+    {
+      "ok": true,
+      "mode": "CACHE_HIT",
+      "class": "GENERAL",
+      "key": "7b1d1aeac9601ca5dfab658adb02ac1598673451f585fa1d9716169d0c2472e1",
+      "result": {
+        "ok": true,
+        "mode": "EXECUTED",
+        "class": "GENERAL",
+        "key": "7b1d1aeac9601ca5dfab658adb02ac1598673451f585fa1d9716169d0c2472e1",
+        "result": {
+          "hash": "04d0243681f490172f1da8eb",
+          "score": 43029
+        },
+        "ms": 0.468,
+        "ts": "2026-05-24T13:57:01.204Z"
+      },
+      "ts": "2026-05-24T16:32:16.833Z"
+    },
+    {
+      "ok": true,
+      "mode": "CACHE_HIT",
+      "class": "GENERAL",
+      "key": "d9f9bbc88b071f0f514908280719f640fcf395aa04f1871f35b2246d9abcab4a",
+      "result": {
+        "ok": true,
+        "mode": "EXECUTED",
+        "class": "GENERAL",
+        "key": "d9f9bbc88b071f0f514908280719f640fcf395aa04f1871f35b2246d9abcab4a",
+        "result": {
+          "hash": "c37ef61bd072bc038978a9e6",
+          "score": 40769
+        },
+        "ms": 1.323,
+        "ts": "2026-05-24T13:57:01.205Z"
+      },
+      "ts": "2026-05-24T16:32:16.833Z"
+    }
+  ]
+}

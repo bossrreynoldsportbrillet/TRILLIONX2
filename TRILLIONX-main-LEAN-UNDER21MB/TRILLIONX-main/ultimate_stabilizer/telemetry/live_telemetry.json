@@ -1,0 +1,8428 @@
+[
+  {
+    "time": "2026-05-25T12:47:45.328Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:47:46.528Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:47:47.730Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:47:48.931Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:47:50.131Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:47:51.332Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:47:52.534Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:47:53.736Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:47:54.936Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:47:56.137Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:47:57.338Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:47:58.539Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:47:59.739Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:00.941Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:02.142Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:03.344Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:04.544Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:05.745Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:06.945Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:08.147Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:09.350Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:10.551Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:11.752Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:12.956Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:14.154Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:15.355Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:16.556Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:17.757Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:18.959Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:20.164Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:21.365Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:22.566Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:23.768Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:24.970Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:26.171Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:27.373Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:28.575Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:29.776Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:30.977Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:32.179Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:33.379Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:34.581Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:35.782Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:36.982Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:38.184Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:39.386Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:40.586Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:41.788Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:42.990Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:44.189Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:45.390Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:46.591Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:47.792Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:48.993Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:50.200Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:51.401Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:52.602Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:53.802Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:55.004Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:56.206Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:57.408Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:58.609Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:48:59.811Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:01.013Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:02.213Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:03.416Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:04.616Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:05.820Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:07.021Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:08.223Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:09.423Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:10.625Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:11.826Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:13.029Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:14.231Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:15.433Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:16.634Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:17.835Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:19.036Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:20.238Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:21.440Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:22.641Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:23.841Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:25.042Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:26.243Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:27.443Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:28.645Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:29.846Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:31.048Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:32.251Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:33.450Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:34.656Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:35.861Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:37.064Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:38.266Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:39.469Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:40.671Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:41.876Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:43.080Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:44.281Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:45.482Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:46.688Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:47.892Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:49.093Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:50.296Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:51.502Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:52.705Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:53.906Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:55.108Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:56.314Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:57.517Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:58.718Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:49:59.920Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:01.120Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:02.322Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:03.529Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:04.733Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:05.931Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:07.131Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:08.334Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:09.539Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:10.763Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:11.962Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:13.167Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:14.367Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:15.568Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:16.771Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:17.971Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:19.174Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:20.375Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:21.576Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:22.779Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:23.979Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:25.180Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:26.382Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:27.583Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:28.784Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:29.986Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:31.188Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:32.388Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:33.590Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:34.790Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:35.991Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:37.192Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:38.393Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:39.594Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:40.794Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:41.996Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:43.196Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:44.397Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:45.597Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:46.798Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:48.000Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:49.200Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:50.402Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:51.603Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:52.804Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:54.006Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:55.210Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:56.411Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:57.614Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:50:58.815Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:00.017Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:01.218Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:02.419Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:03.623Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:04.823Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:06.024Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:07.227Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:08.428Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:09.629Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:10.830Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:12.031Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:13.233Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:14.434Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:15.634Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:16.835Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:18.036Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:19.237Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:20.438Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:21.639Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:22.840Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:24.042Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:25.244Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:26.444Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:27.646Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:28.846Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:30.047Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:31.247Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:32.449Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:33.651Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:34.852Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:36.055Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:37.255Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:38.456Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:39.656Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:40.856Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:42.057Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:43.258Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:44.459Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:45.659Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:46.860Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:48.062Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:49.263Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:50.464Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:51.664Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:52.864Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:54.065Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:55.267Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:56.468Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:57.668Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:51:58.871Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:00.072Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:01.273Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:02.473Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:03.674Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:04.875Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:06.076Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:07.276Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:08.478Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:09.680Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:10.881Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:12.082Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:13.284Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:14.483Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:15.683Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:16.884Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:18.085Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:19.290Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:20.491Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:21.692Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:22.892Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:24.093Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:25.295Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:26.495Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:27.696Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:28.897Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:30.100Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:31.301Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:32.503Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:33.704Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:34.904Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:36.106Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:37.306Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:38.507Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:39.709Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:40.910Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:42.111Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:43.311Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:44.512Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:45.711Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:46.913Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:48.114Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:49.315Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:50.517Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:51.718Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:52.918Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:54.119Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:55.319Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:56.521Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:57.723Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:52:58.923Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:00.124Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:01.325Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:02.526Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:03.726Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:04.927Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:06.129Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:07.330Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:08.531Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:09.733Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:10.933Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:12.135Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:13.337Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:14.538Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:15.738Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:16.940Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:18.141Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:19.342Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:20.544Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:21.744Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:22.946Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:24.147Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:25.349Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:26.550Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:27.750Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:28.952Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:30.153Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:31.354Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:32.556Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:33.758Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:34.958Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:36.160Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:37.362Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:38.562Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:39.763Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:40.966Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:42.168Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:43.369Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:44.570Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:45.771Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:46.972Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:48.173Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:49.374Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:50.574Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:51.775Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:52.977Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:54.179Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:55.380Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:56.580Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:57.782Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:53:58.982Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:00.183Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:01.384Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:02.585Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:03.787Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:04.989Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:06.190Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:07.391Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:08.593Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:09.795Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:10.996Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:12.198Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:13.400Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:14.600Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:15.800Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:17.001Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:18.207Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:19.407Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:20.608Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:21.810Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:23.009Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:24.211Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:25.411Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:26.612Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:27.814Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:29.016Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:30.217Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:31.419Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:32.621Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:33.822Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:35.023Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:36.225Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:37.429Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:38.629Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:39.830Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:41.032Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:42.232Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:43.434Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:44.634Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:45.835Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:47.035Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:48.236Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:49.437Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:50.643Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:51.843Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:53.044Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:54.245Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:55.445Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:56.645Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:57.847Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:54:59.048Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:00.250Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:01.451Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:02.652Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:03.854Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:05.061Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:06.261Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:07.463Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:08.664Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:09.868Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:11.067Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:12.267Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:13.473Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:14.669Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:15.869Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:17.071Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:18.272Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:19.474Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:20.674Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:21.877Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:23.080Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  },
+  {
+    "time": "2026-05-25T12:55:24.283Z",
+    "type": "governor",
+    "data": {
+      "metrics": {
+        "recommended_workers": 2,
+        "active_workers": 2,
+        "rss_mb": 23.7,
+        "free_ram_gb": 2.27,
+        "loadavg": [
+          3.93,
+          3.33,
+          3.65
+        ],
+        "queue_pressure": 393,
+        "latency_score": 254,
+        "throughput_score": 2000,
+        "autoscale_state": "CPU_PRESSURE",
+        "uptime": 460
+      }
+    }
+  }
+]

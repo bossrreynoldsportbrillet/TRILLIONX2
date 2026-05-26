@@ -1,0 +1,19 @@
+{
+  "name": "TRILLIONSX-9000VW",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "forwardPorts": [49000,49001,49002,49003,49004,49005,49006,49007,49008,49009,49010,49011,49012,49013,49014,49015,49016,49017,49018,49019,49020,49021,49022,49023,49024,49025,49026,49027,49028,49029,49030,49031,49032,49033,49034,49035,49036,49037,49038,49039,49040,49041,49042,49043,49044,49045,49046,49047,49048],
+  "portsAttributes": {
+    "49000": {"label": "TRILLIONSX-NET-00", "onAutoForward": "notify", "visibility": "public"},
+    "49001": {"label": "TRILLIONSX-NET-01", "onAutoForward": "silent"},
+    "49002": {"label": "TRILLIONSX-NET-02", "onAutoForward": "silent"},
+    "49003": {"label": "TRILLIONSX-NET-03", "onAutoForward": "silent"},
+    "49004": {"label": "TRILLIONSX-NET-04", "onAutoForward": "silent"},
+    "49005": {"label": "TRILLIONSX-NET-05", "onAutoForward": "silent"},
+    "49006": {"label": "TRILLIONSX-NET-06", "onAutoForward": "silent"},
+    "49007": {"label": "TRILLIONSX-NET-07", "onAutoForward": "silent"},
+    "49008": {"label": "TRILLIONSX-NET-08", "onAutoForward": "silent"},
+    "49009": {"label": "TRILLIONSX-NET-09", "onAutoForward": "silent"}
+  },
+  "otherPortsAttributes": {"onAutoForward": "silent"},
+  "postStartCommand": "nohup python3 $HOME/trillionsx/networks/open49.py > /tmp/trillionsx-net.log 2>&1 &"
+}

@@ -1,0 +1,102 @@
+{
+  "disk": {
+    "raw": "32G 22G 8.0G 74% /workspaces",
+    "used_percent": 74
+  },
+  "ram": {
+    "total_gb": 7.76,
+    "free_gb": 0.78
+  },
+  "cpu": {
+    "model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "threads": 2,
+    "arch": "x64",
+    "kernel": "6.8.0-1044-azure",
+    "flags": {
+      "sse": true,
+      "sse2": true,
+      "sse4_1": true,
+      "sse4_2": true,
+      "avx": true,
+      "avx2": true,
+      "avx512f": true,
+      "aes_ni": true,
+      "sha_ni": true,
+      "fma": true,
+      "bmi1": true,
+      "bmi2": true
+    }
+  },
+  "apps": [
+    {
+      "id": "APP_000",
+      "file": "/workspaces/TRILLIONX2/TRILLIONX-main-LEAN-UNDER21MB/TRILLIONX-main/TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js",
+      "repo": "/workspaces/TRILLIONX2/TRILLIONX-main-LEAN-UNDER21MB/TRILLIONX-main/TRILLIONS-HYBRID-EVO-FUSED-RUNTIME",
+      "port": 3000
+    },
+    {
+      "id": "APP_001",
+      "file": "/workspaces/TRILLIONX2/TRILLIONX-main-LEAN-UNDER21MB/TRILLIONX-main/_TRILLIONX_CONTAINER_REPO_20260525_044833/01_RUNTIME_KEEP/TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js",
+      "repo": "/workspaces/TRILLIONX2/TRILLIONX-main-LEAN-UNDER21MB/TRILLIONX-main/_TRILLIONX_CONTAINER_REPO_20260525_044833/01_RUNTIME_KEEP/TRILLIONS-HYBRID-EVO-FUSED-RUNTIME",
+      "port": 3001
+    },
+    {
+      "id": "APP_002",
+      "file": "/workspaces/TRILLIONX2/TRILLIONX-main-LEAN-UNDER21MB/TRILLIONX-main/_TRILLIONX_CONTAINER_REPO_20260525_044833/01_RUNTIME_KEEP/app.js",
+      "repo": "/workspaces/TRILLIONX2/TRILLIONX-main-LEAN-UNDER21MB/TRILLIONX-main/_TRILLIONX_CONTAINER_REPO_20260525_044833/01_RUNTIME_KEEP",
+      "port": 3002
+    },
+    {
+      "id": "APP_003",
+      "file": "/workspaces/TRILLIONX2/TRILLIONX-main-LEAN-UNDER21MB/TRILLIONX-main/app.js",
+      "repo": "/workspaces/TRILLIONX2/TRILLIONX-main-LEAN-UNDER21MB/TRILLIONX-main",
+      "port": 3003
+    }
+  ],
+  "app_js": 4,
+  "child_apps": {},
+  "workers": {
+    "W_00": {
+      "id": "W_00",
+      "pid": 1,
+      "family": "CRYPTO",
+      "last_hps": 168600,
+      "status": "RUNNING"
+    },
+    "W_01": {
+      "id": "W_01",
+      "pid": 2,
+      "family": "MEMORY",
+      "last_hps": 169783,
+      "status": "RUNNING"
+    },
+    "W_02": {
+      "id": "W_02",
+      "pid": 3,
+      "family": "NETWORK",
+      "last_hps": 191313,
+      "status": "RUNNING"
+    },
+    "W_03": {
+      "id": "W_03",
+      "pid": 4,
+      "family": "LINKER",
+      "last_hps": 176991,
+      "status": "RUNNING"
+    }
+  },
+  "worker_count": 4,
+  "worker_hash_total_hps": 706687,
+  "sha256_hps_master": 470357,
+  "dns_ms": 10,
+  "jobs_done": 52,
+  "queue_depth": 52,
+  "uptime": 21,
+  "rss_mb": 429.29,
+  "loadavg": [
+    2.05,
+    0.85,
+    1.32
+  ],
+  "verdict": "OK_MULTIPROCESS_SAFE"
+}

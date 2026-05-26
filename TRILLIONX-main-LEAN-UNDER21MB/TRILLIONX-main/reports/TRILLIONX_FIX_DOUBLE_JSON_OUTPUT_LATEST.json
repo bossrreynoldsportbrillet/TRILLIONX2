@@ -1,0 +1,8 @@
+{
+  "engine": "TRILLIONX_FIX_DOUBLE_JSON_OUTPUT",
+  "time": "2026-05-25T00:07:23Z",
+  "patched": true,
+  "target": "TX_LOAD_PARSE double encoded JSON strings",
+  "policy": "UI render only",
+  "seal": "7dd0529b9db98e701521beab509a0a43288fd738fcab110722cff7cfa40935f9"
+}

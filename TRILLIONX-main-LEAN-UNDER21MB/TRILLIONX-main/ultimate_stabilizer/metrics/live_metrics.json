@@ -1,0 +1,16 @@
+{
+  "recommended_workers": 2,
+  "active_workers": 2,
+  "rss_mb": 23.7,
+  "free_ram_gb": 2.27,
+  "loadavg": [
+    3.93,
+    3.33,
+    3.65
+  ],
+  "queue_pressure": 393,
+  "latency_score": 254,
+  "throughput_score": 2000,
+  "autoscale_state": "CPU_PRESSURE",
+  "uptime": 460
+}

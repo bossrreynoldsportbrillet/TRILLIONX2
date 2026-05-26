@@ -1,0 +1,10 @@
+BEFORE
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/loop4       32G   22G  8.0G  74% /workspaces
+/dev/loop4       32G   22G  8.0G  74% /workspaces
+1.2M	logs
+AFTER
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/loop4       32G   22G  8.0G  74% /workspaces
+/dev/loop4       32G   22G  8.0G  74% /workspaces
+1.2M	logs

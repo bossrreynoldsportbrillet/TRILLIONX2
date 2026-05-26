@@ -1,0 +1,34 @@
+{
+  "engine": "TRILLIONX_ACTIVATION_CHECK",
+  "time": "2026-05-24T23:10:44.632Z",
+  "checks": {
+    "app3000_open": true,
+    "app3000_http": true,
+    "main_pid_alive": true,
+    "watchdog_pid_alive": true,
+    "micro_pid_alive": true,
+    "async_queue_empty": true,
+    "async_running_empty": true,
+    "git_clean": false,
+    "org_report_ok": true,
+    "global_drain_report_ok": true,
+    "micro_report_ok": true
+  },
+  "ages": {
+    "org_report_age_s": 154,
+    "drain_report_age_s": 1,
+    "micro_parallel_age_s": 0,
+    "micro_remote_age_s": 0
+  },
+  "activation_percent": 90.9,
+  "activeCount": 10,
+  "total": 11,
+  "verdict": "ACTIVE_WITH_LOCAL_GIT_CHANGES",
+  "truth_policy": {
+    "real_only": true,
+    "checks_runtime_presence": true,
+    "no_fake_activation": true,
+    "no_appjs_touch": true
+  },
+  "seal": "2db2efbda9e095bf519c975171a8ecde02a5188bd712f5742978382f76db3a44"
+}

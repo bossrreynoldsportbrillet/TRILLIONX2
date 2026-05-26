@@ -1,0 +1,438 @@
+{
+  "engine": "TRILLIONX_ACTIVATION_REGISTRY",
+  "ts": "2026-05-24T11:03:48.472Z",
+  "source": "data/trillionx_repo_master_index_latest.json",
+  "activation": {
+    "activated": 10,
+    "waiting": 2,
+    "health": 48,
+    "verdict": "ACTIVATED_WITH_REVIEW",
+    "gpu_truth": "GPU_NOT_EXPOSED_SOFTWARE_PROFILE_ONLY",
+    "vr_truth": "OPENXR_NOT_EXPOSED_SOFTWARE_MIRROR_ONLY"
+  },
+  "domains": [
+    {
+      "name": "CPU_RUNTIME",
+      "status": "ACTIVE",
+      "detail": "Node.js CPU runtime active",
+      "truth": "available_in_codespaces_runtime"
+    },
+    {
+      "name": "SIMD_NATIVE_FLAGS",
+      "status": "ACTIVE",
+      "detail": "SSE/AVX/AVX2/AVX512/FMA/AES/SHA_NI detected if present",
+      "truth": "available_in_codespaces_runtime"
+    },
+    {
+      "name": "MEMORY_SOFTWARE_CACHE",
+      "status": "ACTIVE",
+      "detail": "RAM + heap + external memory + software mirrors",
+      "truth": "available_in_codespaces_runtime"
+    },
+    {
+      "name": "WORKERS",
+      "status": "ACTIVE",
+      "detail": "worker files indexed and activable",
+      "truth": "available_in_codespaces_runtime"
+    },
+    {
+      "name": "API_ROUTES",
+      "status": "ACTIVE",
+      "detail": "17362 route entries indexed",
+      "truth": "available_in_codespaces_runtime"
+    },
+    {
+      "name": "WEBSOCKET_EVENTS",
+      "status": "ACTIVE",
+      "detail": "95 websocket events indexed",
+      "truth": "available_in_codespaces_runtime"
+    },
+    {
+      "name": "BENCHMARKS",
+      "status": "ACTIVE",
+      "detail": "58 benchmark files indexed",
+      "truth": "available_in_codespaces_runtime"
+    },
+    {
+      "name": "REGISTRIES",
+      "status": "ACTIVE",
+      "detail": "94 registry files indexed",
+      "truth": "available_in_codespaces_runtime"
+    },
+    {
+      "name": "JSON_CATALOG",
+      "status": "ACTIVE",
+      "detail": "72 json files indexed",
+      "truth": "available_in_codespaces_runtime"
+    },
+    {
+      "name": "REPO_MASTER_INDEX",
+      "status": "ACTIVE",
+      "detail": "repo map active",
+      "truth": "available_in_codespaces_runtime"
+    },
+    {
+      "name": "GPU_CUDA_VULKAN_WEBGPU",
+      "status": "WAIT_REAL_BACKEND",
+      "detail": "requires real host GPU exposure",
+      "truth": "not_exposed_by_codespaces"
+    },
+    {
+      "name": "VR_OPENXR",
+      "status": "WAIT_REAL_BACKEND",
+      "detail": "requires OpenXR runtime + real compatible host/headset",
+      "truth": "not_exposed_by_codespaces"
+    }
+  ],
+  "route_activation": [
+    {
+      "route_root": "/api/kyoto",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/trillions",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/processor-calc",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/stratum-sha256",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/fabric",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/cache-memory",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/memory-terms",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/frontier-kernel",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/codec-cpu",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/hash-field",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/benchmark",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/die-3dnand",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/v37",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/hpc-simd",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/ultimate-hpc",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/world-hpc",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/sha-field",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/latency-min",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/hybrid-hpc",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/qn-coprocessor",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/memory-l56",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/performance",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/kernel-score",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/hpc-zeta",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/positive-runtime",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/appober",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/native",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/mining",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/jobs",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/orchestrator-intelligent",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/workload-runtime",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/native-vector-core",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/trillions-accelerator-open",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/v36",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/linked-functions-1400",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/simd-native",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/ai-chat",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/memory-ecc-222",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/exponential-logiware-coprocessor-v2",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/v35",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/docs",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/ai-zero-hallucination",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/registry",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/repair",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/space",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/kernel-6y",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/ai-performance-89",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/ideas-250",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/vr-mirror-798b",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    },
+    {
+      "route_root": "/api/ultimate-api-catalog",
+      "status": "INDEXED_ACTIVE",
+      "mode": "discoverable_route_family"
+    }
+  ],
+  "key_files": [
+    "app.js",
+    "backups/app.before_TRILLIONX_virtual_threadripper_20260524_073013.js",
+    "backups/app.before_TRILLIONX_virtual_threadripper_20260524_073108.js",
+    "backups/app.before_dedup_threadripper_20260524_074142.js",
+    "backups/app.before_virtual_threadripper_fix_20260524_073958.js",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.TRILLIONS-FUSED-RUNTIME.txt",
+    "app.js.TRILLIONS-FUSED-RUNTIME.txt",
+    "backups/app.before_TRILLIONX_virtual_threadripper_20260524_072919.js",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt",
+    "app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt",
+    "app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt",
+    "app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt",
+    "app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6.original.txt",
+    "app.js.9000VW.memory-ecc-222-L1L6.original.txt",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/backend/hybrid-evo.js",
+    "data/trillions_health_bench_total_latest.json",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/plugins/simd-native.plugin.js",
+    "TRILLIONS_FIRE_EXTREME_SUPPORT_BENCH.js",
+    "TRILLIONS_HEALTH_BENCH_TOTAL.js",
+    "TRILLIONS_HEALTH_BENCH_TOTAL_V2.js",
+    "TRILLIONX_AI_WORLD_HEALTH_BENCH.js",
+    "TRILLIONX_COMPUTE_SPEED_BENCH.js",
+    "TRILLIONX_CRYPTO_ZETTA_PACKET_BENCH.js",
+    "TRILLIONX_FIRE_PACKET_EXTREME_BENCH.before_roundfix_20260524_091152.js",
+    "TRILLIONX_FIRE_PACKET_EXTREME_BENCH.broken_20260524_091354.js",
+    "TRILLIONX_FIRE_PACKET_EXTREME_BENCH.js",
+    "TRILLIONX_FULL_THREADRIPPER_PROFILE_BENCH.js",
+    "TRILLIONX_LADDER_HEALTH_UNITS_BENCH.js",
+    "TRILLIONX_LADDER_SATURATION_BENCH.js",
+    "TRILLIONX_NATIVE_SIMD_AVX_RUNNER.js",
+    "TRILLIONX_NATIVE_SIMD_DEPENDENCY_REGISTRY.js",
+    "TRILLIONX_PERF_ORCH_SUPERCLASS_BENCH.js",
+    "TRILLIONX_RTX4090_ASTRAL_PROFILE_BENCH.js",
+    "TRILLIONX_SATURATION_COMPLEXITY_BENCH.js",
+    "TRILLIONX_SIMD_AVX_BENCH.js",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/TRILLIONS_ULTIMATE_API_CATALOG_REGISTRY.json",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/backend/registry/worker.registry.js",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/backend/server.js",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/data/kernel_boot.jsonl",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/plugins/plugin.registry.js",
+    "TRILLIONS_ULTIMATE_API_CATALOG_REGISTRY.json",
+    "TRILLIONX_AUTO_DETECT_REQUIRED.js",
+    "TRILLIONX_BACKEND_CAPABILITY_REGISTRY.js",
+    "TRILLIONX_BACKEND_EXPOSURE_CHECK.js",
+    "TRILLIONX_GPU_VR_BACKEND_PROBE.js",
+    "TRILLIONX_REPO_TOTAL_AUTODETECT.js",
+    "TRILLIONX_REPO_TOTAL_AUTODETECT_V2.js",
+    "backend/hybrid-evo.js",
+    "backend/registry/worker.registry.js",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/workers/trillions.worker.js",
+    "data/trillionx_full_threadripper_profile_1779610900941.json",
+    "data/trillionx_full_threadripper_profile_latest.json",
+    "workers/trillions.worker.js",
+    "native/simd/trillionx_simd_native_bench.c"
+  ],
+  "modules": [
+    "./",
+    "./app.js",
+    "./backend/hybrid-evo",
+    "./native-simd/build/Release/simd_addon.node",
+    "./plugin.guard",
+    "./plugin.registry",
+    "./plugins/plugin.loader",
+    "axios",
+    "child_process",
+    "crypto",
+    "dgram",
+    "dns",
+    "dotenv",
+    "events",
+    "express",
+    "fs",
+    "gpu",
+    "http",
+    "net",
+    "os",
+    "path",
+    "perf_hooks",
+    "socket.io",
+    "systeminformation",
+    "util",
+    "v8",
+    "worker_threads",
+    "zlib"
+  ],
+  "humanity_reading": "The system is now treated as an activable map: every real CPU/API/worker/cache/benchmark component is enabled by registry; unavailable GPU/VR backends are preserved as future physical upgrades, not faked.",
+  "truth_policy": {
+    "real_only": true,
+    "no_fake_gpu": true,
+    "no_fake_vr": true,
+    "codespaces_can_prepare_backend": true,
+    "physical_gpu_or_openxr_requires_real_host": true
+  }
+}

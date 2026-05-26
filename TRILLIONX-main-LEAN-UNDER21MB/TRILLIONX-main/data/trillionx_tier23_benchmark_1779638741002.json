@@ -1,0 +1,236 @@
+{
+  "engine": "TRILLIONX_TIER23_BENCHMARK",
+  "ts": "2026-05-24T16:05:41.002Z",
+  "mode": "full",
+  "rounds": 3,
+  "concurrency": 32,
+  "target": "TRILLIONX",
+  "host_role": "CODESPACES_SUPPORT_ONLY",
+  "before_memory": {
+    "rss_mb": 47.68,
+    "heap_mb": 5.747,
+    "free_gb": 1.069,
+    "total_gb": 7.757
+  },
+  "after_memory": {
+    "rss_mb": 199.984,
+    "heap_mb": 8.489,
+    "free_gb": 0.894,
+    "total_gb": 7.757
+  },
+  "crypto": {
+    "ms": 1872.922,
+    "us": 1872922,
+    "aes_mb_s": 51.257,
+    "sha_mb_s": 51.257,
+    "rsa2048_sign_s": 2871.591,
+    "digest": "da74ba8678040e5ebe4aff16"
+  },
+  "llm": [
+    {
+      "batch": 1,
+      "tokens": 256,
+      "dim": 768,
+      "ms": 16.239,
+      "tokens_s": 15764.344,
+      "gops_s": 0.073,
+      "memory_mb": 0.006,
+      "checksum": 314.348
+    },
+    {
+      "batch": 2,
+      "tokens": 256,
+      "dim": 768,
+      "ms": 20.091,
+      "tokens_s": 25483.413,
+      "gops_s": 0.117,
+      "memory_mb": 0.009,
+      "checksum": 628.697
+    },
+    {
+      "batch": 4,
+      "tokens": 256,
+      "dim": 768,
+      "ms": 36.947,
+      "tokens_s": 27715.366,
+      "gops_s": 0.128,
+      "memory_mb": 0.015,
+      "checksum": 1257.393
+    },
+    {
+      "batch": 8,
+      "tokens": 256,
+      "dim": 768,
+      "ms": 32.922,
+      "tokens_s": 62207.399,
+      "gops_s": 0.287,
+      "memory_mb": 0.026,
+      "checksum": 2514.787
+    },
+    {
+      "batch": 16,
+      "tokens": 256,
+      "dim": 768,
+      "ms": 63.176,
+      "tokens_s": 64834.689,
+      "gops_s": 0.299,
+      "memory_mb": 0.05,
+      "checksum": 5029.573
+    }
+  ],
+  "cache": [
+    {
+      "size_mb": 8,
+      "stride": 1,
+      "ms": 91.597,
+      "us": 91597,
+      "ops": 25165824,
+      "ops_s": 274745721.962,
+      "bandwidth_mb_s": 262.018,
+      "checksum": 3212836864
+    },
+    {
+      "size_mb": 8,
+      "stride": 64,
+      "ms": 7.593,
+      "us": 7593,
+      "ops": 393216,
+      "ops_s": 51784688.238,
+      "bandwidth_mb_s": 3160.687,
+      "checksum": 22675456
+    },
+    {
+      "size_mb": 8,
+      "stride": 4096,
+      "ms": 0.186,
+      "us": 186,
+      "ops": 6144,
+      "ops_s": 33031725.295,
+      "bandwidth_mb_s": 129030.177,
+      "checksum": 45056
+    },
+    {
+      "size_mb": 32,
+      "stride": 1,
+      "ms": 565.12,
+      "us": 565120,
+      "ops": 100663296,
+      "ops_s": 178127348.164,
+      "bandwidth_mb_s": 169.875,
+      "checksum": 4261412864
+    },
+    {
+      "size_mb": 32,
+      "stride": 64,
+      "ms": 30.761,
+      "us": 30761,
+      "ops": 1572864,
+      "ops_s": 51131553.292,
+      "bandwidth_mb_s": 3120.822,
+      "checksum": 90701824
+    },
+    {
+      "size_mb": 32,
+      "stride": 4096,
+      "ms": 0.315,
+      "us": 315,
+      "ops": 24576,
+      "ops_s": 77906022.057,
+      "bandwidth_mb_s": 304320.399,
+      "checksum": 180224
+    },
+    {
+      "size_mb": 64,
+      "stride": 1,
+      "ms": 329.048,
+      "us": 329048,
+      "ops": 201326592,
+      "ops_s": 611846441.102,
+      "bandwidth_mb_s": 583.502,
+      "checksum": 4227858432
+    },
+    {
+      "size_mb": 64,
+      "stride": 64,
+      "ms": 17.417,
+      "us": 17417,
+      "ops": 3145728,
+      "ops_s": 180608118.664,
+      "bandwidth_mb_s": 11023.445,
+      "checksum": 181403648
+    },
+    {
+      "size_mb": 64,
+      "stride": 4096,
+      "ms": 0.617,
+      "us": 617,
+      "ops": 49152,
+      "ops_s": 79705644.357,
+      "bandwidth_mb_s": 311350.173,
+      "checksum": 360448
+    },
+    {
+      "size_mb": 128,
+      "stride": 1,
+      "ms": 674.918,
+      "us": 674918,
+      "ops": 402653184,
+      "ops_s": 596596060.932,
+      "bandwidth_mb_s": 568.958,
+      "checksum": 4160749568
+    },
+    {
+      "size_mb": 128,
+      "stride": 64,
+      "ms": 36.632,
+      "us": 36632,
+      "ops": 6291456,
+      "ops_s": 171747904.144,
+      "bandwidth_mb_s": 10482.66,
+      "checksum": 362807296
+    },
+    {
+      "size_mb": 128,
+      "stride": 4096,
+      "ms": 1.357,
+      "us": 1357,
+      "ops": 98304,
+      "ops_s": 72466609.954,
+      "bandwidth_mb_s": 283072.695,
+      "checksum": 720896
+    }
+  ],
+  "json_api_load": {
+    "requests": 1000,
+    "concurrency": 32,
+    "ok": 1000,
+    "fail": 0,
+    "total_ms": 358.729,
+    "req_s": 2787.62,
+    "mb_s": 0.944,
+    "p50_us": 6448,
+    "p95_us": 22068,
+    "p99_us": 129164
+  },
+  "summary": {
+    "score": 44975.538,
+    "best_llm_tokens_s": 64834.689,
+    "best_cache_mb_s": 311350.173,
+    "api_req_s": 2787.62,
+    "health": 100,
+    "verdict": "TRILLIONX_TIER23_BENCHMARK_COMPLETE"
+  },
+  "comparative_frontier": {
+    "status": "INDICATIVE_ONLY",
+    "note": "Frontier public exascale baseline is not fetched here; no fake ratio. Compare only workload-specific metrics after sourcing official data.",
+    "trillionx_score": 44975.538,
+    "ratio_policy": "UNAVAILABLE_UNTIL_OFFICIAL_BASELINE_IMPORTED"
+  },
+  "truth_policy": {
+    "real_only": true,
+    "no_fake_frontier_ratio": true,
+    "no_fake_exascale": true,
+    "no_fake_gpu": true,
+    "benchmarks_separate_from_runtime": true
+  }
+}

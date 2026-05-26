@@ -1,0 +1,243 @@
+{
+  "name": "TRILLIONX",
+  "image": "mcr.microsoft.com/devcontainers/cpp:1-ubuntu-22.04",
+  "forwardPorts": [
+    3000,
+    3001,
+    3002,
+    3003,
+    3004,
+    3005,
+    3010,
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016,
+    3017,
+    3018,
+    3019,
+    3020,
+    3021,
+    3022,
+    3023,
+    3024,
+    3025,
+    3026,
+    3027,
+    3028,
+    3029,
+    3033,
+    3044,
+    3055,
+    3100,
+    3110,
+    3111,
+    3112,
+    3113,
+    3114,
+    3115,
+    3116,
+    3117,
+    3118,
+    3119,
+    3150,
+    3160,
+    3199,
+    4000,
+    4001,
+    4200,
+    4201,
+    4202,
+    5000,
+    5001,
+    5002,
+    5003,
+    5004,
+    5005,
+    6000,
+    6001,
+    6006,
+    6007,
+    6008,
+    7000,
+    7001,
+    7002,
+    7003,
+    8000,
+    8001,
+    8080,
+    8081,
+    8082,
+    8083,
+    8084,
+    8085,
+    8443,
+    8444,
+    8888,
+    8889,
+    9000,
+    9001,
+    9002,
+    9003,
+    9090,
+    9091,
+    9092,
+    9093,
+    9229,
+    9230,
+    10000,
+    10001,
+    10080,
+    11000,
+    11001,
+    12000,
+    12001,
+    15000,
+    15001,
+    19000,
+    19001
+  ],
+  "portsAttributes": {
+    "3000": {
+      "label": "TRILLIONX app.js core",
+      "onAutoForward": "openPreview",
+      "visibility": "private"
+    },
+    "3033": {
+      "label": "Hyperbolic Joker Controller",
+      "onAutoForward": "notify",
+      "visibility": "private"
+    },
+    "3044": {
+      "label": "Useful Work Runtime",
+      "onAutoForward": "notify",
+      "visibility": "private"
+    },
+    "3055": {
+      "label": "Exascale-Adjacent Full Runtime",
+      "onAutoForward": "notify",
+      "visibility": "private"
+    },
+    "3100": {
+      "label": "Tier 2/3 Live Dashboard",
+      "onAutoForward": "openPreview",
+      "visibility": "private"
+    },
+    "3150": {
+      "label": "TRILLIONX 1x10 Master",
+      "onAutoForward": "notify",
+      "visibility": "private"
+    },
+    "3160": {
+      "label": "HBM3e / HAM-RAM Memory Fabric",
+      "onAutoForward": "notify",
+      "visibility": "private"
+    },
+    "3199": {
+      "label": "JSON API Load Test",
+      "onAutoForward": "notify",
+      "visibility": "private"
+    },
+    "8080": {
+      "label": "HTTP Principal",
+      "onAutoForward": "notify",
+      "visibility": "private"
+    },
+    "8000": {
+      "label": "HTTP Alt",
+      "onAutoForward": "notify",
+      "visibility": "private"
+    },
+    "5000": {
+      "label": "API REST",
+      "onAutoForward": "notify",
+      "visibility": "private"
+    },
+    "9000": {
+      "label": "Debug / Profiler",
+      "onAutoForward": "notify",
+      "visibility": "private"
+    },
+    "9229": {
+      "label": "Node Inspector",
+      "onAutoForward": "notify",
+      "visibility": "private"
+    }
+  },
+  "otherPortsAttributes": {
+    "onAutoForward": "notify",
+    "visibility": "private"
+  },
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "16gb",
+    "storage": "64gb"
+  },
+  "containerEnv": {
+    "TRILLIONX_TARGET": "TRILLIONX",
+    "TRILLIONX_HOST_ROLE": "CODESPACES_SUPPORT_ONLY",
+    "TRILLIONX_REAL_ONLY": "true",
+    "TRILLIONX_COMPACT_OUTPUT": "1",
+    "TRILLIONX_OUTPUT_MAX": "2500",
+    "TRX_EXA_WORKERS": "2",
+    "TRX_EXA_PACKET": "128",
+    "TRX_EXA_TICK_MS": "5000",
+    "CXXFLAGS": "-O3 -march=native -mtune=native -flto",
+    "CFLAGS": "-O3 -march=native -mtune=native -flto",
+    "MAKEFLAGS": "-j4"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-vscode.cmake-tools",
+        "twxs.cmake",
+        "ms-vscode.js-debug-nightly"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.scrollback": 2000,
+        "terminal.integrated.enablePersistentSessions": false,
+        "terminal.integrated.persistentSessionReviveProcess": "never",
+        "files.watcherExclude": {
+          "**/.git/**": true,
+          "**/node_modules/**": true,
+          "**/logs/**": true,
+          "**/data/**": true,
+          "**/history/**": true,
+          "**/raid60_plus/**": true,
+          "**/memory_fabric/spill/**": true,
+          "**/_TRILLIONX_SNAPSHOT_KEEP/**": true,
+          "**/*.zip": true
+        },
+        "search.exclude": {
+          "**/node_modules": true,
+          "**/logs": true,
+          "**/data": true,
+          "**/history": true,
+          "**/raid60_plus": true,
+          "**/memory_fabric/spill": true,
+          "**/_TRILLIONX_SNAPSHOT_KEEP": true,
+          "**/*.zip": true
+        },
+        "git.autorefresh": false,
+        "git.autofetch": false,
+        "git.decorations.enabled": false,
+        "extensions.autoUpdate": false,
+        "extensions.autoCheckUpdates": false,
+        "editor.minimap.enabled": false,
+        "typescript.tsserver.maxTsServerMemory": 512,
+        "C_Cpp.default.compilerArgs": [
+          "-O3",
+          "-march=native",
+          "-mtune=native"
+        ]
+      }
+    }
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y ca-certificates curl gnupg cmake valgrind nmap htop net-tools iproute2 iputils-ping dnsutils wget jq python3 python3-pip build-essential wabt && curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash - && sudo apt-get install -y nodejs && node --version && npm --version && npm install || true",
+  "postStartCommand": "echo '✅ TRILLIONX prêt — ports TRILLIONX augmentés' && ss -tulpn | grep LISTEN || true"
+}

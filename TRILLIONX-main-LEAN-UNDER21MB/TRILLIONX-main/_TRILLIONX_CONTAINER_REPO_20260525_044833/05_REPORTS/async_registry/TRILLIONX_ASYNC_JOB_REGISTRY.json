@@ -1,0 +1,79 @@
+{
+  "engine": "TRILLIONX_ASYNC_JOB_REGISTRY",
+  "time": "2026-05-24T22:31:55.374Z",
+  "version": "1.0",
+  "allowed_jobs": {
+    "resource": {
+      "cmd": "bash scripts/trillionx_resource_percent.sh",
+      "category": "SYSTEM",
+      "priority": "HIGH",
+      "codec": "json_or_text",
+      "derivative": "resource_state"
+    },
+    "disk": {
+      "cmd": "bash scripts/trillionx_disk_guard_safe.sh",
+      "category": "STORAGE",
+      "priority": "CRITICAL",
+      "codec": "text",
+      "derivative": "disk_guard"
+    },
+    "status": {
+      "cmd": "bash scripts/tx_process_status.sh",
+      "category": "PROCESS",
+      "priority": "HIGH",
+      "codec": "text",
+      "derivative": "process_status"
+    },
+    "appcheck": {
+      "cmd": "node --check app.js",
+      "category": "APP",
+      "priority": "CRITICAL",
+      "codec": "text",
+      "derivative": "syntax_check"
+    },
+    "startnice": {
+      "cmd": "bash scripts/tx_start_nice.sh",
+      "category": "RUNTIME",
+      "priority": "HIGH",
+      "codec": "text",
+      "derivative": "runtime_start"
+    },
+    "stop": {
+      "cmd": "bash scripts/tx_stop.sh",
+      "category": "RUNTIME",
+      "priority": "HIGH",
+      "codec": "text",
+      "derivative": "runtime_stop"
+    },
+    "logrotate": {
+      "cmd": "bash scripts/tx_log_rotate.sh",
+      "category": "MAINTENANCE",
+      "priority": "NORMAL",
+      "codec": "text",
+      "derivative": "log_clean"
+    },
+    "microstatus": {
+      "cmd": "bash scripts/tx_parallel_micro_sync_status.sh",
+      "category": "SYNC",
+      "priority": "NORMAL",
+      "codec": "json_or_text",
+      "derivative": "micro_sync_state"
+    },
+    "bench": {
+      "cmd": "node benchmarks/trillionx_codespaces_workspace_bench.js",
+      "category": "BENCH",
+      "priority": "NORMAL",
+      "codec": "json",
+      "derivative": "bench_score"
+    }
+  },
+  "policy": {
+    "allowlist_only": true,
+    "no_shell_freeform": true,
+    "no_destructive_data_touch": true,
+    "app_js_untouched": true,
+    "data_untouched": true,
+    "raid60_plus_untouched": true
+  },
+  "seal": "4c275e009ca66b627acabcfabe74725cc39f5b75666d2c71e7e58a078abb2dc4"
+}

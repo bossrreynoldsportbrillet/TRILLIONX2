@@ -1,0 +1,13 @@
+{
+  "job_id": "20260524223223_resource_462986_596006",
+  "type": "resource",
+  "category": "SYSTEM",
+  "derivative": "resource_state",
+  "status": "DONE",
+  "error": null,
+  "log_bytes": 992,
+  "log_tail": "============================================================\n TRILLIONX RESOURCE % CHECK\n============================================================\n\nCPU utilisé estimé      : 58 %\nCPU libre estimé        : 42 %\nRAM utilisée            : 72.91 %\nRAM libre               : 27.09 %\nDisque utilisé          : 43 %\nDisque libre            : 57 %\n\nCPU health              : OK\nRAM health              : HIGH\nDISK health             : OK\n\nRapport                 : reports/TRILLIONX_RESOURCE_PERCENT_LATEST.json\n============================================================\n TOP DOSSIERS\n============================================================\n20K\t./.vscode\n28K\t./backend\n32K\t./async_results\n36K\t./native\n76K\t./_TRILLIONX_SNAPSHOT_KEEP\n88K\t./reports\n124K\t./mesh_1x10\n240K\t./scripts\n324K\t./mesh_nodes\n404K\t./firmware\n3.4M\t./logs\n6.0M\t./history\n7.7M\t./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME\n7.8M\t./backups\n12M\t./runtime_state\n16M\t./node_modules\n76M\t./.git\n197M\t./raid60_plus\n215M\t./data\n570M\t.\n",
+  "parsed_available": false,
+  "parsed": null,
+  "seal": "38fce36b940aba4898bfaf57fd29a85c0d1983120dcbc21424f77876ec6a9106"
+}

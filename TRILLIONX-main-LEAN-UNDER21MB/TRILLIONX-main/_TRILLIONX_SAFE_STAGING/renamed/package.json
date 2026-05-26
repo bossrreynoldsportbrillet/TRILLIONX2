@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "start": "node app.js",
+    "audit:plugins": "node -e \"const {auditPlugins}=require('./plugins/plugin.loader'); console.log(JSON.stringify(auditPlugins(),null,2))\"",
+    "check": "node scripts/trillionx_port_guard.js",
+    "audit:runtime": "node -e \"require('./app.js')\""
+  },
+  "dependencies": {
+    "axios": "^1.16.1",
+    "body-parser": "^2.2.2",
+    "compression": "^1.8.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "helmet": "^8.2.0",
+    "morgan": "^1.10.1",
+    "socket.io": "^4.8.3",
+    "systeminformation": "^5.31.6",
+    "web3": "^4.16.0",
+    "ws": "^8.21.0"
+  }
+}

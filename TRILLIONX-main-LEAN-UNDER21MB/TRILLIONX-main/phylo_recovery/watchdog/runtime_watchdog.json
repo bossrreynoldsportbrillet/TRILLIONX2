@@ -1,0 +1,65 @@
+{
+  "time": "2026-05-25T13:14:56.606Z",
+  "metrics": {
+    "sha256_hps": 86497,
+    "sha512_hps": 118977,
+    "aes256_ops": 0,
+    "gzip_MBps": 0,
+    "brotli_MBps": 0,
+    "memory_MBps": 0,
+    "jobs_done": 5,
+    "queue_depth": 1,
+    "workers": 4,
+    "lineage_counts": {
+      "OTHER": 1032,
+      "SCRIPT": 78,
+      "CODEC": 19,
+      "RUNTIME": 338,
+      "API": 20,
+      "NETWORK": 140,
+      "BENCH": 51,
+      "REGISTRY": 30,
+      "UI": 38,
+      "CRYPTO": 232,
+      "GPU_COPROCESSOR": 21,
+      "MEMORY": 591,
+      "STORAGE": 119
+    },
+    "rss_mb": 302.38,
+    "free_ram_gb": 1.72,
+    "uptime": 101,
+    "loadavg": [
+      4.39,
+      4.44,
+      5.3
+    ]
+  },
+  "cpu": {
+    "model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "threads": 2,
+    "total_ram_gb": 7.76,
+    "free_ram_gb": 1.75,
+    "flags": {
+      "sse": true,
+      "sse2": true,
+      "sse3": true,
+      "ssse3": true,
+      "sse4_1": true,
+      "sse4_2": true,
+      "avx": true,
+      "avx2": true,
+      "avx512f": true,
+      "aes_ni": true,
+      "sha_ni": true,
+      "fma": true,
+      "bmi1": true,
+      "bmi2": true,
+      "pclmulqdq": true
+    }
+  },
+  "gpu": {
+    "nvidia_smi": "GPU_UNAVAILABLE",
+    "opencl": "OPENCL_UNAVAILABLE",
+    "vulkan": "VULKAN_UNAVAILABLE"
+  }
+}

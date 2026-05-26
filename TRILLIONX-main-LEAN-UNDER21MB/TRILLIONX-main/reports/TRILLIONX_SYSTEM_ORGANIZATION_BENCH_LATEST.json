@@ -1,0 +1,173 @@
+{
+  "engine": "TRILLIONX_SYSTEM_ORGANIZATION_BENCH",
+  "time": "2026-05-24T23:08:08.962Z",
+  "host": {
+    "cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "logical_cpu": 2,
+    "ghz": 3.492,
+    "ram_total_gb": 7.757,
+    "ram_free_gb": 0.997,
+    "load": [
+      5.87,
+      5.35,
+      4.86
+    ],
+    "node": "v22.22.2",
+    "platform": "linux"
+  },
+  "disk": {
+    "used_pct": 44,
+    "free_pct": 56,
+    "mount": "/workspaces"
+  },
+  "dirs": {
+    "scripts": {
+      "exists": true,
+      "files": 55,
+      "size": "288K"
+    },
+    "benchmarks": {
+      "exists": true,
+      "files": 2,
+      "size": "24K"
+    },
+    "reports": {
+      "exists": true,
+      "files": 26,
+      "size": "128K"
+    },
+    "history": {
+      "exists": true,
+      "files": 25,
+      "size": "15M"
+    },
+    "logs": {
+      "exists": true,
+      "files": 161,
+      "size": "10M"
+    },
+    "runtime_state": {
+      "exists": true,
+      "files": 35,
+      "size": "12M"
+    },
+    "async_queue": {
+      "exists": true,
+      "files": 0,
+      "size": "4.0K"
+    },
+    "async_jobs": {
+      "exists": true,
+      "files": 0,
+      "size": "4.0K"
+    },
+    "async_results": {
+      "exists": true,
+      "files": 27,
+      "size": "112K"
+    },
+    "async_registry": {
+      "exists": true,
+      "files": 2,
+      "size": "12K"
+    },
+    "async_derivatives": {
+      "exists": true,
+      "files": 13,
+      "size": "76K"
+    },
+    "micro_sync": {
+      "exists": true,
+      "files": 2,
+      "size": "12K"
+    },
+    "controllers": {
+      "exists": true,
+      "files": 3,
+      "size": "16K"
+    },
+    "backend": {
+      "exists": true,
+      "files": 4,
+      "size": "28K"
+    },
+    "firmware": {
+      "exists": true,
+      "files": 1,
+      "size": "404K"
+    }
+  },
+  "scripts": {
+    "required": 8,
+    "present": 8,
+    "executable": 8,
+    "missing": [],
+    "health": "OK"
+  },
+  "async": {
+    "queue": 0,
+    "running": 0,
+    "stale_running": 0,
+    "stale": [],
+    "results": 27,
+    "derivatives": 13,
+    "registries": 2,
+    "registry_json_ok": 2,
+    "health": "OK"
+  },
+  "sync": {
+    "available": 2,
+    "files": [
+      "reports/TRILLIONX_PARALLEL_MICRO_SYNC_LATEST.json",
+      "reports/TRILLIONX_REMOTE_HOST_MICRO_SYNC_LATEST.json"
+    ],
+    "latest_seq": 7369,
+    "latest_latency_ms": 10.794,
+    "latest_open_ports": [],
+    "health": "OK"
+  },
+  "reports": {
+    "json_reports": 18,
+    "json_ok": 18,
+    "json_bad": 0,
+    "jsonl_history_files": 25,
+    "jsonl_lines": 66428,
+    "health": "OK"
+  },
+  "runtime": {
+    "port3000_open": true,
+    "ports_text": "LISTEN 0      511                *:3000             *:*    users:((\"node\",pid=312431,fd=21))",
+    "node_process_lines": 24,
+    "health": "APP3000_OPEN"
+  },
+  "git": {
+    "branch": "main",
+    "changed": "6",
+    "last_commit": "33236a0 Seal TRILLIONX clean runtime organization state",
+    "diff_stat": ".../TRILLIONX_PARALLEL_MICRO_SYNC_HISTORY.jsonl    | 108 +++++++++++++++++++++\n .../TRILLIONX_REMOTE_HOST_MICRO_SYNC_HISTORY.jsonl |  12 +++\n ...RILLIONX_ASYNC_DRAIN_REGISTRY_CODEC_LATEST.json |   6 +-\n .../TRILLIONX_ASYNC_GLOBAL_DRAIN_V2_LATEST.json    |   4 +-\n reports/TRILLIONX_PARALLEL_MICRO_SYNC_LATEST.json  |  70 ++++++-------\n .../TRILLIONX_REMOTE_HOST_MICRO_SYNC_LATEST.json   |  28 +++---\n 6 files changed, 174 insertions(+), 54 deletions(-)",
+    "health": "OK"
+  },
+  "summary": {
+    "score": 18805,
+    "health": {
+      "disk": "OK",
+      "async": "OK",
+      "sync": "OK",
+      "reports": "OK",
+      "scripts": "OK",
+      "runtime": "APP3000_OPEN",
+      "git": "OK"
+    },
+    "verdict": "TRILLIONX_SYSTEM_ORGANIZATION_BENCH_COMPLETE",
+    "runtime_ms": 1192.427
+  },
+  "truth_policy": {
+    "real_only": true,
+    "organization_bench_not_compute_power": true,
+    "no_destructive_actions": true,
+    "no_appjs_touch": true,
+    "no_data_touch": true,
+    "no_raid60_touch": true
+  },
+  "seal": "f9890f17ad4cf891624ee0ce4b1555264d51b838fddbf7e2b807aaec3033959a"
+}

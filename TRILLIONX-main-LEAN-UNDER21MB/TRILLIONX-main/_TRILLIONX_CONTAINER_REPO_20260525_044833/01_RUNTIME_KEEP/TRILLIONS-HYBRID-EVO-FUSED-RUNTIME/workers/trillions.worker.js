@@ -1,0 +1,5 @@
+const {parentPort,workerData}=require('worker_threads');
+const crypto=require('crypto');
+const zlib=require('zlib');
+function run(task){const t=Date.now();const type=task.type||'noop';if(type==='sha256'){const rounds=Math.min(Number(task.rounds||10000),500000);let h='';for(let i=0;i<rounds;i++)h=crypto.createHash('sha256').update(h+i).digest('hex');return {ok:true,type,rounds,hash:h,ms:Date.now()-t};}if(type==='typedarray'){const n=Math.min(Number(task.size||500000),5000000);const a=new Float64Array(n);let s=0;for(let i=0;i<n;i++){a[i]=Math.sin(i)*Math.cos(i);s+=a[i];}return {ok:true,type,size:n,checksum:+s.toFixed(6),ms:Date.now()-t,path:'V8_TYPEDARRAY_NATIVE_OPTIMIZED'};}if(type==='compress'){const payload=Buffer.alloc(Math.min(Number(task.bytes||1048576),16*1048576),'TRILLIONS');const gz=zlib.gzipSync(payload);const back=zlib.gunzipSync(gz);return {ok:true,type,input_bytes:payload.length,compressed_bytes:gz.length,restored:back.length,ratio:+(gz.length/payload.length).toFixed(4),ms:Date.now()-t};}return {ok:true,type:'noop',ms:Date.now()-t};}
+try{parentPort.postMessage(run(workerData.task||{}));}catch(e){parentPort.postMessage({ok:false,error:e.message});}

@@ -1,0 +1,664 @@
+{
+  "engine": "TRILLIONX_WORLD_NETWORK_AUTODETECT_BENCH",
+  "version": "3.0-uses-module",
+  "ts": "2026-05-24T14:02:43.526Z",
+  "system": {
+    "node": "v24.14.0",
+    "platform": "linux",
+    "arch": "x64",
+    "hostname": "codespaces-09650b",
+    "cpus": 2,
+    "ram_gb": 7.76
+  },
+  "network": {
+    "interfaces": [
+      {
+        "name": "lo",
+        "family": "IPv4",
+        "address": "127.0.0.1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "cidr": "127.0.0.1/8"
+      },
+      {
+        "name": "lo",
+        "family": "IPv6",
+        "address": "::1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "cidr": "::1/128"
+      },
+      {
+        "name": "eth0",
+        "family": "IPv4",
+        "address": "10.0.2.49",
+        "internal": false,
+        "mac": "7c:ed:8d:6c:19:a4",
+        "cidr": "10.0.2.49/16"
+      },
+      {
+        "name": "eth0",
+        "family": "IPv6",
+        "address": "fe80::7eed:8dff:fe6c:19a4",
+        "internal": false,
+        "mac": "7c:ed:8d:6c:19:a4",
+        "cidr": "fe80::7eed:8dff:fe6c:19a4/64"
+      },
+      {
+        "name": "enP19127s1",
+        "family": "IPv6",
+        "address": "fe80::7eed:8dff:fe6c:19a4",
+        "internal": false,
+        "mac": "7c:ed:8d:6c:19:a4",
+        "cidr": "fe80::7eed:8dff:fe6c:19a4/64"
+      }
+    ],
+    "ip_route": "default via 10.0.0.1 dev eth0 proto dhcp src 10.0.2.49 metric 100 \n10.0.0.0/16 dev eth0 proto kernel scope link src 10.0.2.49 metric 100 \n10.0.0.1 dev eth0 proto dhcp scope link src 10.0.2.49 metric 100 \n168.63.129.16 via 10.0.0.1 dev eth0 proto dhcp src 10.0.2.49 metric 100 \n169.254.169.254 via 10.0.0.1 dev eth0 proto dhcp src 10.0.2.49 metric 100 \n172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown"
+  },
+  "autodetect": {
+    "engine": "TRILLIONX_NETWORK_AUTODETECT",
+    "version": "3.0",
+    "ts": "2026-05-24T14:02:43.510Z",
+    "policy": {
+      "passive": true,
+      "read_only": true,
+      "no_auth": true,
+      "no_port_scan": true,
+      "real_only": true
+    },
+    "total_networks": 50,
+    "scan_duration_ms": 1130.953,
+    "summary": {
+      "ok": "43/50",
+      "p50_ms": 115.774,
+      "p95_ms": 583.943,
+      "health": 86,
+      "verdict": "NETWORKS_GOOD",
+      "facts_extracted": 29
+    },
+    "by_category": {
+      "btc": {
+        "ok": 9,
+        "n": 9,
+        "pct": 100
+      },
+      "eth": {
+        "ok": 1,
+        "n": 1,
+        "pct": 100
+      },
+      "market": {
+        "ok": 6,
+        "n": 8,
+        "pct": 75
+      },
+      "code": {
+        "ok": 6,
+        "n": 6,
+        "pct": 100
+      },
+      "pkg": {
+        "ok": 3,
+        "n": 5,
+        "pct": 60
+      },
+      "net": {
+        "ok": 7,
+        "n": 7,
+        "pct": 100
+      },
+      "time": {
+        "ok": 0,
+        "n": 2,
+        "pct": 0
+      },
+      "ref": {
+        "ok": 1,
+        "n": 2,
+        "pct": 50
+      },
+      "ai": {
+        "ok": 4,
+        "n": 4,
+        "pct": 100
+      },
+      "status": {
+        "ok": 6,
+        "n": 6,
+        "pct": 100
+      }
+    },
+    "facts": {
+      "btc_height": 950819,
+      "btc_height_sources": 3,
+      "btc_fee_fast": 2,
+      "btc_fee_30m": 1,
+      "btc_fee_hour": 1,
+      "btc_diff_change_pct": -0.009864032104822673,
+      "btc_diff_progress_pct": 63.64087301587301,
+      "btc_diff_remaining_blocks": 733,
+      "btc_hashrate_ghs": 950708405571,
+      "btc_usd_blockchain": 76728.21,
+      "btc_eur_blockchain": 66122.22,
+      "btc_usd": 76718,
+      "btc_eur": 66114,
+      "eth_usd": 2108.29,
+      "eth_eur": 1816.86,
+      "xmr_usd": 389.9,
+      "xmr_eur": 336,
+      "market_cap_usd": 2643816647155.8125,
+      "btc_dominance": 58.09345857436418,
+      "btc_usd_bitstamp": 76678,
+      "btc_24h_high": 77427,
+      "btc_24h_low": 75026.37,
+      "btc_24h_volume": 736.44280239,
+      "gh_rate_remaining": 0,
+      "gh_rate_limit": 60,
+      "gh_rate_reset": 1779632495,
+      "public_ip": "172.166.156.100",
+      "public_loc": "GB",
+      "service_status": {
+        "github": "none",
+        "cloudflare": "minor",
+        "npm": "none",
+        "openai": "none",
+        "python": "none"
+      }
+    },
+    "results": [
+      {
+        "id": "btc_height_mempool",
+        "cat": "btc",
+        "role": "height",
+        "ok": true,
+        "status": 200,
+        "ms": 600.099,
+        "bytes": 6,
+        "error": null
+      },
+      {
+        "id": "btc_height_blockstream",
+        "cat": "btc",
+        "role": "height",
+        "ok": true,
+        "status": 200,
+        "ms": 481.783,
+        "bytes": 6,
+        "error": null
+      },
+      {
+        "id": "btc_height_blockchain_info",
+        "cat": "btc",
+        "role": "height",
+        "ok": true,
+        "status": 200,
+        "ms": 104.177,
+        "bytes": 6,
+        "error": null
+      },
+      {
+        "id": "btc_fees_mempool",
+        "cat": "btc",
+        "role": "fees",
+        "ok": true,
+        "status": 200,
+        "ms": 583.943,
+        "bytes": 74,
+        "error": null
+      },
+      {
+        "id": "btc_diff_mempool",
+        "cat": "btc",
+        "role": "diff",
+        "ok": true,
+        "status": 200,
+        "ms": 577.527,
+        "bytes": 348,
+        "error": null
+      },
+      {
+        "id": "btc_fee_est_blockstream",
+        "cat": "btc",
+        "role": "fee_est",
+        "ok": true,
+        "status": 200,
+        "ms": 491.833,
+        "bytes": 304,
+        "error": null
+      },
+      {
+        "id": "btc_hashrate",
+        "cat": "btc",
+        "role": "hashrate",
+        "ok": true,
+        "status": 200,
+        "ms": 77.621,
+        "bytes": 12,
+        "error": null
+      },
+      {
+        "id": "btc_ticker",
+        "cat": "btc",
+        "role": "ticker",
+        "ok": true,
+        "status": 200,
+        "ms": 56.834,
+        "bytes": 2767,
+        "error": null
+      },
+      {
+        "id": "btc_stats_blockchair",
+        "cat": "btc",
+        "role": "stats",
+        "ok": true,
+        "status": 200,
+        "ms": 124.544,
+        "bytes": 1860,
+        "error": null
+      },
+      {
+        "id": "eth_stats_blockchair",
+        "cat": "eth",
+        "role": "stats",
+        "ok": true,
+        "status": 200,
+        "ms": 122.42,
+        "bytes": 2483,
+        "error": null
+      },
+      {
+        "id": "cg_ping",
+        "cat": "market",
+        "role": "ping",
+        "ok": true,
+        "status": 200,
+        "ms": 152.75,
+        "bytes": 34,
+        "error": null
+      },
+      {
+        "id": "cg_prices",
+        "cat": "market",
+        "role": "prices",
+        "ok": true,
+        "status": 200,
+        "ms": 147.32,
+        "bytes": 113,
+        "error": null
+      },
+      {
+        "id": "cg_global",
+        "cat": "market",
+        "role": "global",
+        "ok": true,
+        "status": 200,
+        "ms": 128.138,
+        "bytes": 3681,
+        "error": null
+      },
+      {
+        "id": "cc_btc",
+        "cat": "market",
+        "role": "asset",
+        "ok": false,
+        "status": 0,
+        "ms": 36.906,
+        "error": "ENOTFOUND"
+      },
+      {
+        "id": "cc_eth",
+        "cat": "market",
+        "role": "asset",
+        "ok": false,
+        "status": 0,
+        "ms": 33.725,
+        "error": "ENOTFOUND"
+      },
+      {
+        "id": "kraken_time",
+        "cat": "market",
+        "role": "time",
+        "ok": true,
+        "status": 200,
+        "ms": 33.762,
+        "bytes": 87,
+        "error": null
+      },
+      {
+        "id": "kraken_status",
+        "cat": "market",
+        "role": "status",
+        "ok": true,
+        "status": 200,
+        "ms": 38.035,
+        "bytes": 76,
+        "error": null
+      },
+      {
+        "id": "bitstamp_btcusd",
+        "cat": "market",
+        "role": "ticker",
+        "ok": true,
+        "status": 200,
+        "ms": 113.038,
+        "bytes": 254,
+        "error": null
+      },
+      {
+        "id": "gh_root",
+        "cat": "code",
+        "role": "root",
+        "ok": true,
+        "status": 403,
+        "ms": 9.482,
+        "bytes": 281,
+        "error": null
+      },
+      {
+        "id": "gh_zen",
+        "cat": "code",
+        "role": "zen",
+        "ok": true,
+        "status": 403,
+        "ms": 3.282,
+        "bytes": 281,
+        "error": null
+      },
+      {
+        "id": "gh_rate",
+        "cat": "code",
+        "role": "rate",
+        "ok": true,
+        "status": 200,
+        "ms": 9.211,
+        "bytes": 560,
+        "error": null
+      },
+      {
+        "id": "gh_meta",
+        "cat": "code",
+        "role": "meta",
+        "ok": true,
+        "status": 403,
+        "ms": 5.478,
+        "bytes": 281,
+        "error": null
+      },
+      {
+        "id": "gl_ver",
+        "cat": "code",
+        "role": "ver",
+        "ok": true,
+        "status": 401,
+        "ms": 166.701,
+        "bytes": 30,
+        "error": null
+      },
+      {
+        "id": "cb_ver",
+        "cat": "code",
+        "role": "ver",
+        "ok": true,
+        "status": 200,
+        "ms": 71.398,
+        "bytes": 47,
+        "error": null
+      },
+      {
+        "id": "npm_ping",
+        "cat": "pkg",
+        "role": "ping",
+        "ok": true,
+        "status": 200,
+        "ms": 179.454,
+        "bytes": 2,
+        "error": null
+      },
+      {
+        "id": "npm_express",
+        "cat": "pkg",
+        "role": "meta",
+        "ok": false,
+        "status": 0,
+        "ms": 41.348,
+        "error": "ECONNRESET"
+      },
+      {
+        "id": "pypi_pip",
+        "cat": "pkg",
+        "role": "meta",
+        "ok": true,
+        "status": 200,
+        "ms": 12.262,
+        "bytes": 208387,
+        "error": null
+      },
+      {
+        "id": "crates_sum",
+        "cat": "pkg",
+        "role": "summary",
+        "ok": true,
+        "status": 200,
+        "ms": 499.69,
+        "bytes": 41360,
+        "error": null
+      },
+      {
+        "id": "rubygems_rails",
+        "cat": "pkg",
+        "role": "meta",
+        "ok": false,
+        "status": 0,
+        "ms": 25,
+        "error": "ECONNRESET"
+      },
+      {
+        "id": "cf_trace",
+        "cat": "net",
+        "role": "trace",
+        "ok": true,
+        "status": 200,
+        "ms": 24.885,
+        "bytes": 225,
+        "error": null
+      },
+      {
+        "id": "cf_1111",
+        "cat": "net",
+        "role": "trace",
+        "ok": true,
+        "status": 200,
+        "ms": 13.531,
+        "bytes": 211,
+        "error": null
+      },
+      {
+        "id": "cf_doh",
+        "cat": "net",
+        "role": "doh",
+        "ok": true,
+        "status": 400,
+        "ms": 18.865,
+        "bytes": 0,
+        "error": null
+      },
+      {
+        "id": "goog_doh",
+        "cat": "net",
+        "role": "doh",
+        "ok": true,
+        "status": 200,
+        "ms": 16.929,
+        "bytes": 296,
+        "error": null
+      },
+      {
+        "id": "ipify",
+        "cat": "net",
+        "role": "ip",
+        "ok": true,
+        "status": 200,
+        "ms": 94.124,
+        "bytes": 24,
+        "error": null
+      },
+      {
+        "id": "ipapi",
+        "cat": "net",
+        "role": "geo",
+        "ok": true,
+        "status": 200,
+        "ms": 235.345,
+        "bytes": 762,
+        "error": null
+      },
+      {
+        "id": "httpbin",
+        "cat": "net",
+        "role": "echo",
+        "ok": true,
+        "status": 200,
+        "ms": 712.689,
+        "bytes": 294,
+        "error": null
+      },
+      {
+        "id": "wt_paris",
+        "cat": "time",
+        "role": "tz",
+        "ok": false,
+        "status": 0,
+        "ms": 119.73,
+        "error": "ECONNRESET"
+      },
+      {
+        "id": "wt_ip",
+        "cat": "time",
+        "role": "tz_ip",
+        "ok": false,
+        "status": 0,
+        "ms": 168.553,
+        "error": "ECONNRESET"
+      },
+      {
+        "id": "wp_btc",
+        "cat": "ref",
+        "role": "summary",
+        "ok": true,
+        "status": 200,
+        "ms": 38.769,
+        "bytes": 2435,
+        "error": null
+      },
+      {
+        "id": "pub_apis",
+        "cat": "ref",
+        "role": "list",
+        "ok": false,
+        "status": 0,
+        "ms": 264.708,
+        "error": "ENOTFOUND"
+      },
+      {
+        "id": "hf_models",
+        "cat": "ai",
+        "role": "models",
+        "ok": true,
+        "status": 200,
+        "ms": 115.774,
+        "bytes": 536,
+        "error": null
+      },
+      {
+        "id": "hf_datasets",
+        "cat": "ai",
+        "role": "datasets",
+        "ok": true,
+        "status": 200,
+        "ms": 107.059,
+        "bytes": 1367,
+        "error": null
+      },
+      {
+        "id": "anthropic_docs",
+        "cat": "ai",
+        "role": "docs",
+        "ok": true,
+        "status": 301,
+        "ms": 37.092,
+        "bytes": 167,
+        "error": null
+      },
+      {
+        "id": "anthropic_www",
+        "cat": "ai",
+        "role": "www",
+        "ok": true,
+        "status": 200,
+        "ms": 111.518,
+        "bytes": 258823,
+        "error": null
+      },
+      {
+        "id": "st_github",
+        "cat": "status",
+        "role": "status",
+        "ok": true,
+        "status": 200,
+        "ms": 272.608,
+        "bytes": 215,
+        "error": null
+      },
+      {
+        "id": "st_cloudflare",
+        "cat": "status",
+        "role": "status",
+        "ok": true,
+        "status": 200,
+        "ms": 303.838,
+        "bytes": 221,
+        "error": null
+      },
+      {
+        "id": "st_npm",
+        "cat": "status",
+        "role": "status",
+        "ok": true,
+        "status": 200,
+        "ms": 311.367,
+        "bytes": 208,
+        "error": null
+      },
+      {
+        "id": "st_openai",
+        "cat": "status",
+        "role": "status",
+        "ok": true,
+        "status": 200,
+        "ms": 186.244,
+        "bytes": 202,
+        "error": null
+      },
+      {
+        "id": "st_anthropic",
+        "cat": "status",
+        "role": "status",
+        "ok": true,
+        "status": 302,
+        "ms": 313.802,
+        "bytes": 110,
+        "error": null
+      },
+      {
+        "id": "st_python",
+        "cat": "status",
+        "role": "status",
+        "ok": true,
+        "status": 200,
+        "ms": 359.753,
+        "bytes": 227,
+        "error": null
+      }
+    ]
+  }
+}

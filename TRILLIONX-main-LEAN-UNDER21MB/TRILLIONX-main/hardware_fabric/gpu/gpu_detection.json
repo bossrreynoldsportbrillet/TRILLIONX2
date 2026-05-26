@@ -1,0 +1,6 @@
+{
+  "nvidia_smi": "GPU_UNAVAILABLE_IN_CODESPACES",
+  "vulkan": "VULKAN_UNAVAILABLE",
+  "opencl": "OPENCL_UNAVAILABLE",
+  "webgpu": "BROWSER_SIDE_ONLY_OR_UNAVAILABLE"
+}

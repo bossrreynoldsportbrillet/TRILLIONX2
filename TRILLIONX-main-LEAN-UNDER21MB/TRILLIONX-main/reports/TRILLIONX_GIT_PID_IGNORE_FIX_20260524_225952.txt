@@ -1,0 +1,36 @@
+time=2026-05-24T22:59:52+00:00
+--- status before commit ---
+ M .trillionx_aliases
+ D backups/app.before_TRILLIONX_virtual_threadripper_20260524_072919.js
+ D backups/app.before_TRILLIONX_virtual_threadripper_20260524_073013.js
+ D backups/app.before_TRILLIONX_virtual_threadripper_20260524_073108.js
+ D backups/app.before_compact_output_20260524_114806.js
+ D backups/app.before_dedup_threadripper_20260524_074142.js
+ D backups/app.before_output_lite_20260524_115426.js
+ D backups/app.before_virtual_threadripper_fix_20260524_073958.js
+ M data/TRILLIONX_RUNTIME_GUARD_LATEST.json
+ M history/TRILLIONX_PARALLEL_MICRO_SYNC_HISTORY.jsonl
+ M history/TRILLIONX_REMOTE_HOST_MICRO_SYNC_HISTORY.jsonl
+ M history/TRILLIONX_SYSTEM_ORGANIZATION_BENCH_HISTORY.jsonl
+ M reports/TRILLIONX_ASYNC_DRAIN_REGISTRY_CODEC_LATEST.json
+ M reports/TRILLIONX_ASYNC_GLOBAL_DRAIN_V2_LATEST.json
+ M reports/TRILLIONX_PARALLEL_MICRO_SYNC_LATEST.json
+ M reports/TRILLIONX_REMOTE_HOST_MICRO_SYNC_LATEST.json
+ M reports/TRILLIONX_SYSTEM_ORGANIZATION_BENCH_LATEST.json
+?? .trillionx_terminal_fast.env
+?? .vscode/settings.before_display_accel_20260524_214408.json
+?? .vscode/settings.before_display_accel_20260524_215208.json
+?? TRILLIONX_CODESPACES_DISPLAY_ACCELERATOR.sh
+?? TRILLIONX_GIT_PID_IGNORE_FIX.sh
+?? async_results/
+?? micro_sync/
+?? reports/TRILLIONX_GIT_PID_IGNORE_FIX_20260524_225952.txt
+--- gitignore runtime rules ---
+11:runtime_state/*LATEST.json
+12:runtime_state/local_snapshots/
+24:runtime_state/*.pid
+25:runtime_state/*.lock
+26:runtime_state/*.tmp
+31:runtime_state/*PID
+32:runtime_state/*_PID
+33:runtime_state/*.running

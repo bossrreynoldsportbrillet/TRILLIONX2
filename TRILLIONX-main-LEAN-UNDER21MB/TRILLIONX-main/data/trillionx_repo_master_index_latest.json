@@ -1,0 +1,765 @@
+{
+  "engine": "TRILLIONX_REPO_MASTER_INDEX",
+  "ts": "2026-05-24T10:58:29.114Z",
+  "input": "data/trillionx_repo_total_autodetect_latest.json",
+  "score": {
+    "architecture_surface": 150,
+    "routes": 17362,
+    "api_strings": 28446,
+    "ws_events": 95,
+    "modules": 28,
+    "key_files": 59,
+    "gpu_exposed": false,
+    "openxr_exposed": false
+  },
+  "health": 49,
+  "verdict": "INDEXED_REVIEW_NEEDED",
+  "summary": {
+    "files": 150,
+    "ext": {
+      "NOEXT": 1,
+      ".json": 72,
+      ".md": 3,
+      ".js": 50,
+      ".txt": 12,
+      ".jsonl": 10,
+      ".zip": 1,
+      ".c": 1
+    },
+    "routes": 17362,
+    "api_strings": 28446,
+    "ws_events": 95,
+    "native": 1,
+    "bench": 58,
+    "registry": 94,
+    "workers": 12,
+    "json": 72,
+    "modules": 28,
+    "errors": 26,
+    "health": 62,
+    "verdict": "REVIEW_NEEDED"
+  },
+  "backend": {
+    "gpu_exposed": false,
+    "openxr_exposed": false,
+    "webgpu_env": null,
+    "cuda_visible": null,
+    "xr_runtime_json": null
+  },
+  "simd": {
+    "sse": true,
+    "sse2": true,
+    "sse4_1": true,
+    "sse4_2": true,
+    "avx": true,
+    "avx2": true,
+    "avx512f": true,
+    "fma": true,
+    "aes": true,
+    "sha_ni": true
+  },
+  "route_roots": [
+    {
+      "key": "/api/kyoto",
+      "count": 3325
+    },
+    {
+      "key": "/api/trillions",
+      "count": 1805
+    },
+    {
+      "key": "/api/processor-calc",
+      "count": 570
+    },
+    {
+      "key": "/api/stratum-sha256",
+      "count": 456
+    },
+    {
+      "key": "/api/fabric",
+      "count": 437
+    },
+    {
+      "key": "/api/cache-memory",
+      "count": 418
+    },
+    {
+      "key": "/api/memory-terms",
+      "count": 399
+    },
+    {
+      "key": "/api/frontier-kernel",
+      "count": 380
+    },
+    {
+      "key": "/api/codec-cpu",
+      "count": 361
+    },
+    {
+      "key": "/api/hash-field",
+      "count": 323
+    },
+    {
+      "key": "/api/benchmark",
+      "count": 304
+    },
+    {
+      "key": "/api/die-3dnand",
+      "count": 304
+    },
+    {
+      "key": "/api/v37",
+      "count": 304
+    },
+    {
+      "key": "/api/hpc-simd",
+      "count": 285
+    },
+    {
+      "key": "/api/ultimate-hpc",
+      "count": 266
+    },
+    {
+      "key": "/api/world-hpc",
+      "count": 266
+    },
+    {
+      "key": "/api/sha-field",
+      "count": 266
+    },
+    {
+      "key": "/api/latency-min",
+      "count": 247
+    },
+    {
+      "key": "/api/hybrid-hpc",
+      "count": 228
+    },
+    {
+      "key": "/api/qn-coprocessor",
+      "count": 228
+    },
+    {
+      "key": "/api/memory-l56",
+      "count": 221
+    },
+    {
+      "key": "/api/performance",
+      "count": 190
+    },
+    {
+      "key": "/api/kernel-score",
+      "count": 190
+    },
+    {
+      "key": "/api/hpc-zeta",
+      "count": 171
+    },
+    {
+      "key": "/api/positive-runtime",
+      "count": 171
+    },
+    {
+      "key": "/api/appober",
+      "count": 171
+    },
+    {
+      "key": "/api/native",
+      "count": 156
+    },
+    {
+      "key": "/api/mining",
+      "count": 152
+    },
+    {
+      "key": "/api/jobs",
+      "count": 114
+    },
+    {
+      "key": "/api/orchestrator-intelligent",
+      "count": 114
+    },
+    {
+      "key": "/api/workload-runtime",
+      "count": 114
+    },
+    {
+      "key": "/api/native-vector-core",
+      "count": 114
+    },
+    {
+      "key": "/api/trillions-accelerator-open",
+      "count": 114
+    },
+    {
+      "key": "/api/v36",
+      "count": 114
+    },
+    {
+      "key": "/api/linked-functions-1400",
+      "count": 114
+    },
+    {
+      "key": "/api/simd-native",
+      "count": 110
+    },
+    {
+      "key": "/api/ai-chat",
+      "count": 95
+    },
+    {
+      "key": "/api/memory-ecc-222",
+      "count": 95
+    },
+    {
+      "key": "/api/exponential-logiware-coprocessor-v2",
+      "count": 95
+    },
+    {
+      "key": "/api/v35",
+      "count": 95
+    },
+    {
+      "key": "/api/docs",
+      "count": 95
+    },
+    {
+      "key": "/api/ai-zero-hallucination",
+      "count": 95
+    },
+    {
+      "key": "/api/registry",
+      "count": 79
+    },
+    {
+      "key": "/api/repair",
+      "count": 76
+    },
+    {
+      "key": "/api/space",
+      "count": 76
+    },
+    {
+      "key": "/api/kernel-6y",
+      "count": 76
+    },
+    {
+      "key": "/api/ai-performance-89",
+      "count": 76
+    },
+    {
+      "key": "/api/ideas-250",
+      "count": 76
+    },
+    {
+      "key": "/api/vr-mirror-798b",
+      "count": 76
+    },
+    {
+      "key": "/api/ultimate-api-catalog",
+      "count": 75
+    }
+  ],
+  "top_route_files": [
+    {
+      "key": "app.js",
+      "count": 942
+    },
+    {
+      "key": "backups/app.before_TRILLIONX_virtual_threadripper_20260524_073013.js",
+      "count": 940
+    },
+    {
+      "key": "backups/app.before_TRILLIONX_virtual_threadripper_20260524_073108.js",
+      "count": 940
+    },
+    {
+      "key": "backups/app.before_dedup_threadripper_20260524_074142.js",
+      "count": 940
+    },
+    {
+      "key": "backups/app.before_virtual_threadripper_fix_20260524_073958.js",
+      "count": 940
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js",
+      "count": 936
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.TRILLIONS-FUSED-RUNTIME.txt",
+      "count": 936
+    },
+    {
+      "key": "app.js.TRILLIONS-FUSED-RUNTIME.txt",
+      "count": 936
+    },
+    {
+      "key": "backups/app.before_TRILLIONX_virtual_threadripper_20260524_072919.js",
+      "count": 936
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt",
+      "count": 921
+    },
+    {
+      "key": "app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt",
+      "count": 921
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt",
+      "count": 898
+    },
+    {
+      "key": "app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt",
+      "count": 898
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt",
+      "count": 886
+    },
+    {
+      "key": "app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt",
+      "count": 886
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt",
+      "count": 877
+    },
+    {
+      "key": "app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt",
+      "count": 877
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6.original.txt",
+      "count": 864
+    },
+    {
+      "key": "app.js.9000VW.memory-ecc-222-L1L6.original.txt",
+      "count": 864
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/backend/hybrid-evo.js",
+      "count": 7
+    },
+    {
+      "key": "backend/hybrid-evo.js",
+      "count": 7
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/plugins/plugin.loader.js",
+      "count": 3
+    },
+    {
+      "key": "plugins/plugin.loader.js",
+      "count": 3
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/plugins/simd-native.plugin.js",
+      "count": 2
+    },
+    {
+      "key": "plugins/simd-native.plugin.js",
+      "count": 2
+    }
+  ],
+  "top_api_string_files": [
+    {
+      "key": "app.js",
+      "count": 1535
+    },
+    {
+      "key": "backups/app.before_TRILLIONX_virtual_threadripper_20260524_073013.js",
+      "count": 1533
+    },
+    {
+      "key": "backups/app.before_TRILLIONX_virtual_threadripper_20260524_073108.js",
+      "count": 1533
+    },
+    {
+      "key": "backups/app.before_dedup_threadripper_20260524_074142.js",
+      "count": 1533
+    },
+    {
+      "key": "backups/app.before_virtual_threadripper_fix_20260524_073958.js",
+      "count": 1533
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js",
+      "count": 1529
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.TRILLIONS-FUSED-RUNTIME.txt",
+      "count": 1529
+    },
+    {
+      "key": "app.js.TRILLIONS-FUSED-RUNTIME.txt",
+      "count": 1529
+    },
+    {
+      "key": "backups/app.before_TRILLIONX_virtual_threadripper_20260524_072919.js",
+      "count": 1529
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt",
+      "count": 1514
+    },
+    {
+      "key": "app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt",
+      "count": 1514
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt",
+      "count": 1453
+    },
+    {
+      "key": "app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt",
+      "count": 1453
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt",
+      "count": 1441
+    },
+    {
+      "key": "app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt",
+      "count": 1441
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt",
+      "count": 1127
+    },
+    {
+      "key": "app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt",
+      "count": 1127
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6.original.txt",
+      "count": 1114
+    },
+    {
+      "key": "app.js.9000VW.memory-ecc-222-L1L6.original.txt",
+      "count": 1114
+    },
+    {
+      "key": "data/trillions_health_bench_total_latest.json",
+      "count": 278
+    },
+    {
+      "key": "data/trillions_health_bench_total_v2_1779604893593.json",
+      "count": 278
+    },
+    {
+      "key": "data/trillions_health_bench_total_v2_1779605253554.json",
+      "count": 278
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/package-lock.json",
+      "count": 97
+    },
+    {
+      "key": "package-lock.json",
+      "count": 97
+    },
+    {
+      "key": "data/trillions_health_bench_total_1779604706127.json",
+      "count": 57
+    },
+    {
+      "key": "TRILLIONS_HEALTH_BENCH_TOTAL.js",
+      "count": 34
+    },
+    {
+      "key": "TRILLIONS_HEALTH_BENCH_TOTAL_V2.js",
+      "count": 31
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/plugins/plugin.registry.js",
+      "count": 27
+    },
+    {
+      "key": "plugins/plugin.registry.js",
+      "count": 27
+    },
+    {
+      "key": "data/self_test_history.jsonl",
+      "count": 13
+    },
+    {
+      "key": "data/self_test_report.json",
+      "count": 13
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/data/kernel_boot.jsonl",
+      "count": 12
+    },
+    {
+      "key": "data/kernel_boot.jsonl",
+      "count": 12
+    },
+    {
+      "key": "data/auto_detect_ledger.jsonl",
+      "count": 10
+    },
+    {
+      "key": "TRILLIONX_FULL_THREADRIPPER_PROFILE_BENCH.js",
+      "count": 9
+    },
+    {
+      "key": "TRILLIONX_PERF_ORCH_SUPERCLASS_BENCH.js",
+      "count": 9
+    },
+    {
+      "key": "data/trillionx_full_threadripper_profile_1779610900941.json",
+      "count": 9
+    },
+    {
+      "key": "data/trillionx_full_threadripper_profile_latest.json",
+      "count": 9
+    },
+    {
+      "key": "data/trillionx_perf_orch_superclass_1779610584532.json",
+      "count": 9
+    },
+    {
+      "key": "data/trillionx_perf_orch_superclass_latest.json",
+      "count": 9
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/backend/hybrid-evo.js",
+      "count": 7
+    },
+    {
+      "key": "backend/hybrid-evo.js",
+      "count": 7
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/backend/registry/worker.registry.js",
+      "count": 6
+    },
+    {
+      "key": "backend/registry/worker.registry.js",
+      "count": 6
+    },
+    {
+      "key": "launcher.json",
+      "count": 5
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/plugins/plugin.loader.js",
+      "count": 4
+    },
+    {
+      "key": "plugins/plugin.loader.js",
+      "count": 4
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/plugins/simd-native.plugin.js",
+      "count": 3
+    },
+    {
+      "key": "plugins/simd-native.plugin.js",
+      "count": 3
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/TRILLIONS_ULTIMATE_API_CATALOG_REGISTRY.json",
+      "count": 1
+    }
+  ],
+  "top_ws_files": [
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js",
+      "count": 5
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt",
+      "count": 5
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt",
+      "count": 5
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt",
+      "count": 5
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt",
+      "count": 5
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6.original.txt",
+      "count": 5
+    },
+    {
+      "key": "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.TRILLIONS-FUSED-RUNTIME.txt",
+      "count": 5
+    },
+    {
+      "key": "app.js",
+      "count": 5
+    },
+    {
+      "key": "app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt",
+      "count": 5
+    },
+    {
+      "key": "app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt",
+      "count": 5
+    },
+    {
+      "key": "app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt",
+      "count": 5
+    },
+    {
+      "key": "app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt",
+      "count": 5
+    },
+    {
+      "key": "app.js.9000VW.memory-ecc-222-L1L6.original.txt",
+      "count": 5
+    },
+    {
+      "key": "app.js.TRILLIONS-FUSED-RUNTIME.txt",
+      "count": 5
+    },
+    {
+      "key": "backups/app.before_TRILLIONX_virtual_threadripper_20260524_072919.js",
+      "count": 5
+    },
+    {
+      "key": "backups/app.before_TRILLIONX_virtual_threadripper_20260524_073013.js",
+      "count": 5
+    },
+    {
+      "key": "backups/app.before_TRILLIONX_virtual_threadripper_20260524_073108.js",
+      "count": 5
+    },
+    {
+      "key": "backups/app.before_dedup_threadripper_20260524_074142.js",
+      "count": 5
+    },
+    {
+      "key": "backups/app.before_virtual_threadripper_fix_20260524_073958.js",
+      "count": 5
+    }
+  ],
+  "tags": [
+    {
+      "key": "REGISTRY",
+      "count": 94
+    },
+    {
+      "key": "BENCH",
+      "count": 58
+    },
+    {
+      "key": "REVIEW",
+      "count": 26
+    },
+    {
+      "key": "WORKER",
+      "count": 12
+    },
+    {
+      "key": "NATIVE",
+      "count": 1
+    }
+  ],
+  "modules": [
+    "./",
+    "./app.js",
+    "./backend/hybrid-evo",
+    "./native-simd/build/Release/simd_addon.node",
+    "./plugin.guard",
+    "./plugin.registry",
+    "./plugins/plugin.loader",
+    "axios",
+    "child_process",
+    "crypto",
+    "dgram",
+    "dns",
+    "dotenv",
+    "events",
+    "express",
+    "fs",
+    "gpu",
+    "http",
+    "net",
+    "os",
+    "path",
+    "perf_hooks",
+    "socket.io",
+    "systeminformation",
+    "util",
+    "v8",
+    "worker_threads",
+    "zlib"
+  ],
+  "key_files": [
+    "app.js",
+    "backups/app.before_TRILLIONX_virtual_threadripper_20260524_073013.js",
+    "backups/app.before_TRILLIONX_virtual_threadripper_20260524_073108.js",
+    "backups/app.before_dedup_threadripper_20260524_074142.js",
+    "backups/app.before_virtual_threadripper_fix_20260524_073958.js",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.TRILLIONS-FUSED-RUNTIME.txt",
+    "app.js.TRILLIONS-FUSED-RUNTIME.txt",
+    "backups/app.before_TRILLIONX_virtual_threadripper_20260524_072919.js",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt",
+    "app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt",
+    "app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt",
+    "app.js.9000VW.memory-ecc-222-L1L6-L56LE-api-registry.txt",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt",
+    "app.js.9000VW.memory-ecc-222-L1L6-L56LE-registry-verified.txt",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js.9000VW.memory-ecc-222-L1L6.original.txt",
+    "app.js.9000VW.memory-ecc-222-L1L6.original.txt",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/backend/hybrid-evo.js",
+    "data/trillions_health_bench_total_latest.json",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/plugins/simd-native.plugin.js",
+    "TRILLIONS_FIRE_EXTREME_SUPPORT_BENCH.js",
+    "TRILLIONS_HEALTH_BENCH_TOTAL.js",
+    "TRILLIONS_HEALTH_BENCH_TOTAL_V2.js",
+    "TRILLIONX_AI_WORLD_HEALTH_BENCH.js",
+    "TRILLIONX_COMPUTE_SPEED_BENCH.js",
+    "TRILLIONX_CRYPTO_ZETTA_PACKET_BENCH.js",
+    "TRILLIONX_FIRE_PACKET_EXTREME_BENCH.before_roundfix_20260524_091152.js",
+    "TRILLIONX_FIRE_PACKET_EXTREME_BENCH.broken_20260524_091354.js",
+    "TRILLIONX_FIRE_PACKET_EXTREME_BENCH.js",
+    "TRILLIONX_FULL_THREADRIPPER_PROFILE_BENCH.js",
+    "TRILLIONX_LADDER_HEALTH_UNITS_BENCH.js",
+    "TRILLIONX_LADDER_SATURATION_BENCH.js",
+    "TRILLIONX_NATIVE_SIMD_AVX_RUNNER.js",
+    "TRILLIONX_NATIVE_SIMD_DEPENDENCY_REGISTRY.js",
+    "TRILLIONX_PERF_ORCH_SUPERCLASS_BENCH.js",
+    "TRILLIONX_RTX4090_ASTRAL_PROFILE_BENCH.js",
+    "TRILLIONX_SATURATION_COMPLEXITY_BENCH.js",
+    "TRILLIONX_SIMD_AVX_BENCH.js",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/TRILLIONS_ULTIMATE_API_CATALOG_REGISTRY.json",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/backend/registry/worker.registry.js",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/backend/server.js",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/data/kernel_boot.jsonl",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/plugins/plugin.registry.js",
+    "TRILLIONS_ULTIMATE_API_CATALOG_REGISTRY.json",
+    "TRILLIONX_AUTO_DETECT_REQUIRED.js",
+    "TRILLIONX_BACKEND_CAPABILITY_REGISTRY.js",
+    "TRILLIONX_BACKEND_EXPOSURE_CHECK.js",
+    "TRILLIONX_GPU_VR_BACKEND_PROBE.js",
+    "TRILLIONX_REPO_TOTAL_AUTODETECT.js",
+    "TRILLIONX_REPO_TOTAL_AUTODETECT_V2.js",
+    "backend/hybrid-evo.js",
+    "backend/registry/worker.registry.js",
+    "TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/workers/trillions.worker.js",
+    "data/trillionx_full_threadripper_profile_1779610900941.json",
+    "data/trillionx_full_threadripper_profile_latest.json",
+    "workers/trillions.worker.js",
+    "native/simd/trillionx_simd_native_bench.c"
+  ],
+  "humanity_reading": "Repo now has a navigable truth map: routes, APIs, workers, registries, benchmarks, native layer, backend exposure, and review load are separated instead of being hidden in raw code.",
+  "truth_policy": {
+    "real_only": true,
+    "gpu_not_claimed_if_not_exposed": true,
+    "openxr_not_claimed_if_not_exposed": true,
+    "index_is_static_map_not_performance_proof": true
+  }
+}

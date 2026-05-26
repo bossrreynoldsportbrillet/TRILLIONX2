@@ -1,0 +1,178 @@
+{
+  "engine": "TRILLIONX_ASYNC_GLOBAL_DRAIN_V2",
+  "time": "2026-05-24T22:40:19.282Z",
+  "queue": 0,
+  "running": 1,
+  "results": 26,
+  "by_status": {
+    "DONE": 21,
+    "REJECTED_UNKNOWN_JOB": 2,
+    "STALE_REQUEUED": 2,
+    "STALE_ABORTED": 1
+  },
+  "by_category": {
+    "undefined": 21,
+    "SYNC": 1,
+    "APP": 2,
+    "STORAGE": 1,
+    "NETWORK": 1
+  },
+  "by_type": {
+    "disk": 5,
+    "resource": 5,
+    "status": 5,
+    "appcheck": 3,
+    "microstatus": 1,
+    "bench": 1,
+    "undefined": 2,
+    "ports": 2,
+    "micro_status": 2
+  },
+  "latest": [
+    {
+      "status": "STALE_REQUEUED"
+    },
+    {
+      "id": "20260524223626_status_491175_596144",
+      "type": "status",
+      "status": "DONE",
+      "duration_ms": 905
+    },
+    {
+      "id": "20260524223627_resource_491450_323505",
+      "type": "resource",
+      "status": "DONE"
+    },
+    {
+      "id": "20260524223628_disk_491695_787632",
+      "type": "disk",
+      "status": "DONE",
+      "duration_ms": 6597
+    },
+    {
+      "id": "20260524223629_ports_491978_482802",
+      "type": "ports",
+      "status": "STALE_ABORTED",
+      "duration_ms": null
+    },
+    {
+      "id": "20260524223630_micro_status_492297_596004",
+      "type": "micro_status",
+      "cat": "SYNC",
+      "status": "DONE",
+      "duration_ms": 319
+    },
+    {
+      "status": "STALE_REQUEUED"
+    },
+    {
+      "id": "20260524223631_appcheck_492593_147890",
+      "type": "appcheck",
+      "cat": "APP",
+      "status": "DONE",
+      "duration_ms": 776
+    },
+    {
+      "id": "20260524224001_appcheck_520930_283102",
+      "type": "appcheck",
+      "cat": "APP",
+      "status": "DONE",
+      "duration_ms": 454
+    },
+    {
+      "id": "20260524224001_disk_520847_950106",
+      "type": "disk",
+      "cat": "STORAGE",
+      "status": "DONE",
+      "duration_ms": 3576
+    },
+    {
+      "id": "20260524224001_micro_status_520896_680400",
+      "type": "micro_status",
+      "status": "REJECTED_UNKNOWN_JOB"
+    },
+    {
+      "id": "20260524224001_ports_520867_433490",
+      "type": "ports",
+      "cat": "NETWORK",
+      "status": "DONE",
+      "duration_ms": 52
+    },
+    {
+      "id": "20260524224001_resource_520821_939008",
+      "type": "resource",
+      "status": "DONE",
+      "duration_ms": 638
+    },
+    {
+      "id": "20260524224001_status_520764_296312",
+      "type": "status",
+      "status": "DONE"
+    },
+    {
+      "id": "20260524_220203_disk_285502",
+      "type": "disk",
+      "status": "DONE"
+    },
+    {
+      "id": "20260524_220203_resource_285485",
+      "type": "resource",
+      "status": "DONE"
+    },
+    {
+      "id": "20260524_220203_status_285468",
+      "type": "status",
+      "status": "DONE"
+    },
+    {
+      "id": "20260524_220344_disk_291361",
+      "type": "disk",
+      "status": "DONE"
+    },
+    {
+      "id": "20260524_220344_resource_291344",
+      "type": "resource",
+      "status": "DONE"
+    },
+    {
+      "id": "20260524_220344_status_291326",
+      "type": "status",
+      "status": "DONE"
+    }
+  ],
+  "extra": {
+    "mode": "status"
+  },
+  "registry_jobs": [
+    "status",
+    "resource",
+    "disk",
+    "appcheck",
+    "ports",
+    "port3000",
+    "port3997",
+    "start",
+    "startnice",
+    "stop",
+    "restart",
+    "watchdog_start",
+    "watchdog_log",
+    "micro_start",
+    "micro_status",
+    "micro_stop",
+    "async_status",
+    "old_drain",
+    "logs",
+    "logrotate",
+    "gitstatus",
+    "upcheck",
+    "bench_workspace",
+    "npm_check"
+  ],
+  "policy": {
+    "global_not_bench_only": true,
+    "allowlist": true,
+    "safe": true
+  },
+  "seal": "d33f919d758b922d4ba3b83b3ab831f86db9db8b8c724c1cd0d768f4558ba3eb"
+}

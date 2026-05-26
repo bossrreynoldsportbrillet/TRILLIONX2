@@ -1,0 +1,92 @@
+{
+  "engine": "TRILLIONX_RUNTIME_CONSTANT_ACTIVATOR",
+  "ts": "2026-05-24T15:56:46.201Z",
+  "loop_ms": 30000,
+  "target": "TRILLIONX",
+  "host_role": "CODESPACES_SUPPORT_ONLY",
+  "active": 8,
+  "total": 9,
+  "mandatory_active": 7,
+  "mandatory_total": 8,
+  "health": 87.5,
+  "verdict": "RUNTIMES_PARTIAL_ACTIVE",
+  "memory": {
+    "rss_mb": 23.262,
+    "heap_mb": 5.399,
+    "free_gb": 0.994,
+    "total_gb": 7.757,
+    "load1": 0.28
+  },
+  "runtimes": [
+    {
+      "name": "APP_JS_CORE",
+      "mandatory": true,
+      "port": 3000,
+      "active": true,
+      "detail": "OK"
+    },
+    {
+      "name": "FIRMWARE_STAGE0",
+      "mandatory": true,
+      "port": null,
+      "active": true,
+      "detail": "OK"
+    },
+    {
+      "name": "USEFUL_WORK_RUNTIME",
+      "mandatory": true,
+      "port": 3044,
+      "active": true,
+      "detail": "OK"
+    },
+    {
+      "name": "HYPERBOLIC_JOKER_CONTROLLER",
+      "mandatory": true,
+      "port": 3033,
+      "active": true,
+      "detail": "OK"
+    },
+    {
+      "name": "MESH_20_VR_NODES",
+      "mandatory": true,
+      "port": "3010-3029",
+      "active": true,
+      "detail": "OK"
+    },
+    {
+      "name": "SHARED_VR_CACHE_BUS",
+      "mandatory": true,
+      "port": null,
+      "active": false,
+      "detail": "Command failed: test -f data/trillionx_shared_vr_cache_bus_latest.json"
+    },
+    {
+      "name": "RAID60_PLUS_LOGICAL",
+      "mandatory": true,
+      "port": null,
+      "active": true,
+      "detail": "OK"
+    },
+    {
+      "name": "NETWORK_CONNECTIONS_TOTAL",
+      "mandatory": true,
+      "port": null,
+      "active": true,
+      "detail": "OK"
+    },
+    {
+      "name": "NETWORK_MICROSECOND_LATENCY",
+      "mandatory": false,
+      "port": null,
+      "active": true,
+      "detail": "OK"
+    }
+  ],
+  "truth_policy": {
+    "real_only": true,
+    "activation_constant": true,
+    "no_fake_gpu": true,
+    "no_fake_vr": true,
+    "codespaces_support_only": true
+  }
+}

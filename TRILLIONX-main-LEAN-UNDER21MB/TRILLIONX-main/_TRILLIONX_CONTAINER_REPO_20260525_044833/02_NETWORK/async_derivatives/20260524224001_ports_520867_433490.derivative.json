@@ -1,0 +1,12 @@
+{
+  "engine": "TRILLIONX_JOB_DERIVATIVE",
+  "time": "2026-05-24T22:40:03.138Z",
+  "id": "20260524224001_ports_520867_433490",
+  "type": "ports",
+  "cat": "NETWORK",
+  "status": "DONE",
+  "duration_ms": 52,
+  "log_tail": "State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess                           \nLISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*                                     \nLISTEN 0      128          0.0.0.0:2000       0.0.0.0:*                                     \nLISTEN 0      4096       127.0.0.1:34385      0.0.0.0:*                                     \nLISTEN 0      512        127.0.0.1:16634      0.0.0.0:*                                     \nLISTEN 0      512        127.0.0.1:16635      0.0.0.0:*                                     \nLISTEN 0      4096       127.0.0.1:12563      0.0.0.0:*                                     \nLISTEN 0      4096       127.0.0.1:13005      0.0.0.0:*                                     \nLISTEN 0      511        127.0.0.1:37649      0.0.0.0:*    users:((\"node\",pid=322429,fd=21))\nLISTEN 0      512            [::1]:16634         [::]:*                                     \nLISTEN 0      512            [::1]:16635         [::]:*                                     \nLISTEN 0      511                *:3000             *:*    users:((\"node\",pid=312431,fd=21))\nLISTEN 0      128             [::]:2000          [::]:*                                     \n",
+  "error": null,
+  "seal": "71046ecd846547c54eee7040f740122521abbe1150c958984d36e69157464326"
+}

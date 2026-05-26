@@ -1,0 +1,25 @@
+{
+  "engine": "TRILLIONX_CODESPACES_DISPLAY_ACCELERATOR",
+  "time": "2026-05-24T21:52:09.507Z",
+  "status": "DISPLAY_ACCELERATION_SETTINGS_APPLIED",
+  "safe": true,
+  "touches": [
+    ".vscode/settings.json",
+    "scripts/trillionx_fast_terminal.sh"
+  ],
+  "does_not_touch": [
+    "app.js",
+    "data",
+    "raid60_plus",
+    "node_modules",
+    "controllers"
+  ],
+  "effects": [
+    "less file watching",
+    "less Git UI refresh",
+    "less terminal scroll memory",
+    "less search load",
+    "faster explorer display"
+  ],
+  "seal": "72ac38c7e04974f1db8e2ffcf2b9054a337a7b48d20a3945ca42b0d39c3b4f82"
+}

@@ -1,0 +1,8 @@
+services:
+  trillionx:
+    image: node:20-bookworm
+    working_dir: /app
+    command: bash -lc "npm install || true; node --max-old-space-size=4096 app.js"
+    ports: ["3000:3000","9229:9229","3997:3997"]
+    volumes: ["./:/app"]
+    environment: {PORT: "3000", TRILLIONX_REAL_ONLY: "true", TRILLIONX_MAX_WORKERS: "2", TRILLIONX_MAX_PORT_PROCESSES: "24", TRILLIONX_MEMORY_LIMIT_MB: "4096"}

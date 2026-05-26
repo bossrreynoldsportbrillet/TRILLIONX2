@@ -1,0 +1,28 @@
+{
+  "time": "2026-05-25T12:42:45.995Z",
+  "metrics": {
+    "sha256_hashes_per_sec": 12448,
+    "sha512_hashes_per_sec": 16551,
+    "aes256_ops_per_sec": 315,
+    "memory_bandwidth_MBps": 0,
+    "gzip_MBps": 0,
+    "brotli_MBps": 0,
+    "latency_ms": 0,
+    "throughput_ops": 29314,
+    "packet_rate": 4,
+    "network_dns_ms": 0,
+    "jobs_processed": 1,
+    "queue_depth": 1,
+    "cache_hits": 0,
+    "workers": 24,
+    "rss_mb": 546.98,
+    "free_ram_gb": 1.1,
+    "uptime": 5,
+    "energy_index": 0,
+    "loadavg": [
+      6.32,
+      4.44,
+      4.27
+    ]
+  }
+}

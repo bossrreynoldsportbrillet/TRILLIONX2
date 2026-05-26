@@ -1,0 +1,220 @@
+[
+  {
+    "time": "2026-05-25T13:09:13.159Z",
+    "type": "storage_fabric",
+    "data": {
+      "mirrors": 16,
+      "raid_blocks": 24
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:15.395Z",
+    "type": "sha256",
+    "data": {
+      "hps": 51173
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:15.412Z",
+    "type": "coprocessor_worker",
+    "data": {
+      "id": 0,
+      "hps": 41641
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:15.422Z",
+    "type": "coprocessor_worker",
+    "data": {
+      "id": 1,
+      "hps": 43576
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:15.424Z",
+    "type": "coprocessor_worker",
+    "data": {
+      "id": 2,
+      "hps": 61102
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:15.424Z",
+    "type": "coprocessor_worker",
+    "data": {
+      "id": 3,
+      "hps": 34854
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:16.435Z",
+    "type": "sha512",
+    "data": {
+      "hps": 34379
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:17.496Z",
+    "type": "aes256",
+    "data": {
+      "ops": 351
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:17.497Z",
+    "type": "coprocessor_worker",
+    "data": {
+      "id": 0,
+      "hps": 47396
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:17.497Z",
+    "type": "coprocessor_worker",
+    "data": {
+      "id": 0,
+      "hps": 34099
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:17.498Z",
+    "type": "coprocessor_worker",
+    "data": {
+      "id": 1,
+      "hps": 40706
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:17.500Z",
+    "type": "coprocessor_worker",
+    "data": {
+      "id": 1,
+      "hps": 36952
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:17.501Z",
+    "type": "coprocessor_worker",
+    "data": {
+      "id": 2,
+      "hps": 49807
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:17.504Z",
+    "type": "coprocessor_worker",
+    "data": {
+      "id": 2,
+      "hps": 38319
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:17.505Z",
+    "type": "coprocessor_worker",
+    "data": {
+      "id": 3,
+      "hps": 47764
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:17.505Z",
+    "type": "coprocessor_worker",
+    "data": {
+      "id": 3,
+      "hps": 35577
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:18.524Z",
+    "type": "sha256",
+    "data": {
+      "hps": 51127
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:19.564Z",
+    "type": "sha512",
+    "data": {
+      "hps": 81839
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:19.565Z",
+    "type": "network",
+    "data": {
+      "dns_ms": 1028
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:19.570Z",
+    "type": "coprocessor_worker",
+    "data": {
+      "id": 0,
+      "hps": 31923
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:19.572Z",
+    "type": "coprocessor_worker",
+    "data": {
+      "id": 0,
+      "hps": 41982
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:19.572Z",
+    "type": "coprocessor_worker",
+    "data": {
+      "id": 1,
+      "hps": 36052
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:19.572Z",
+    "type": "coprocessor_worker",
+    "data": {
+      "id": 1,
+      "hps": 48318
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:19.572Z",
+    "type": "coprocessor_worker",
+    "data": {
+      "id": 2,
+      "hps": 39068
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:19.573Z",
+    "type": "coprocessor_worker",
+    "data": {
+      "id": 2,
+      "hps": 48665
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:19.573Z",
+    "type": "coprocessor_worker",
+    "data": {
+      "id": 2,
+      "hps": 62881
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:19.573Z",
+    "type": "coprocessor_worker",
+    "data": {
+      "id": 3,
+      "hps": 34533
+    }
+  },
+  {
+    "time": "2026-05-25T13:09:19.575Z",
+    "type": "coprocessor_worker",
+    "data": {
+      "id": 3,
+      "hps": 49158
+    }
+  }
+]

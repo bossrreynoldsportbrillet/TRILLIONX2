@@ -1,0 +1,593 @@
+{
+  "engine": "TRILLIONX_BLOCKCHAIN_ALGO_STRESS_RANK",
+  "ts": "2026-05-24T17:52:55.685Z",
+  "target": "TRILLIONX_ONLY",
+  "parameters": {
+    "packets": 20,
+    "window_ms": 300,
+    "buffer_mb": 4
+  },
+  "identity": {
+    "trillionx": "AVAILABLE_AS_SOFTWARE_ORCHESTRATOR_RUNTIME",
+    "host_cpu_real": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "host_cpu_ghz": 3.462,
+    "distinction": "HOST_CPU_REAL != TRILLIONX_RUNTIME"
+  },
+  "system": {
+    "cpu": {
+      "model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+      "logical": 2,
+      "speed_mhz": 3462,
+      "speed_ghz": 3.462,
+      "arch": "x64",
+      "platform": "linux",
+      "simd": {
+        "sse": true,
+        "sse2": true,
+        "sse4_1": true,
+        "sse4_2": true,
+        "avx": true,
+        "avx2": true,
+        "avx512": true,
+        "aes": true,
+        "sha_ni": true
+      }
+    },
+    "memory_before": {
+      "rss_mb": 47.25,
+      "heap_mb": 5.113,
+      "external_mb": 1.888,
+      "arraybuf_mb": 0.017,
+      "os_total_gb": 7.757,
+      "os_free_gb": 2.885,
+      "load1": 2.82
+    },
+    "memory_after": {
+      "rss_mb": 164.578,
+      "heap_mb": 9.917,
+      "external_mb": 29.9,
+      "arraybuf_mb": 28.028,
+      "os_total_gb": 7.757,
+      "os_free_gb": 2.958,
+      "load1": 2.47
+    }
+  },
+  "network": {
+    "before": {
+      "ports_scanned": 24,
+      "ports_open": [
+        3000
+      ],
+      "port_results": [
+        {
+          "open": true,
+          "port": 3000,
+          "ms": 24.408
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3033,
+          "ms": 7.095
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3044,
+          "ms": 0.555
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3055,
+          "ms": 0.451
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3100,
+          "ms": 0.356
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3110,
+          "ms": 1.352
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3111,
+          "ms": 0.411
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3112,
+          "ms": 0.337
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3113,
+          "ms": 0.554
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3114,
+          "ms": 0.333
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3115,
+          "ms": 2.373
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3116,
+          "ms": 0.174
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3117,
+          "ms": 0.14
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3118,
+          "ms": 0.132
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3119,
+          "ms": 0.118
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3150,
+          "ms": 0.279
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3160,
+          "ms": 0.133
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3199,
+          "ms": 0.116
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 5000,
+          "ms": 0.111
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 8000,
+          "ms": 0.106
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 8080,
+          "ms": 0.101
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 8888,
+          "ms": 0.099
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 9000,
+          "ms": 0.103
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 9229,
+          "ms": 0.334
+        }
+      ]
+    },
+    "after": {
+      "ports_scanned": 24,
+      "ports_open": [
+        3000
+      ],
+      "port_results": [
+        {
+          "open": true,
+          "port": 3000,
+          "ms": 0.552
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3033,
+          "ms": 0.198
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3044,
+          "ms": 0.095
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3055,
+          "ms": 0.073
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3100,
+          "ms": 0.068
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3110,
+          "ms": 0.066
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3111,
+          "ms": 0.064
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3112,
+          "ms": 0.064
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3113,
+          "ms": 0.104
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3114,
+          "ms": 0.081
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3115,
+          "ms": 0.094
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3116,
+          "ms": 0.109
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3117,
+          "ms": 0.073
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3118,
+          "ms": 0.103
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3119,
+          "ms": 0.196
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3150,
+          "ms": 0.111
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3160,
+          "ms": 0.103
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 3199,
+          "ms": 0.128
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 5000,
+          "ms": 0.16
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 8000,
+          "ms": 0.183
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 8080,
+          "ms": 0.106
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 8888,
+          "ms": 0.104
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 9000,
+          "ms": 0.101
+        },
+        {
+          "open": false,
+          "error": "ECONNREFUSED",
+          "port": 9229,
+          "ms": 0.1
+        }
+      ]
+    }
+  },
+  "results": [
+    {
+      "name": "BTC_SHA256D",
+      "ms": 6049.523,
+      "ops": 1349,
+      "ops_s": 222.993,
+      "mb_s": 891.971,
+      "score": 178617.216,
+      "checksum": 211793
+    },
+    {
+      "name": "ETH_SHA3_256",
+      "ms": 6215.611,
+      "ops": 420,
+      "ops_s": 67.572,
+      "mb_s": 270.287,
+      "score": 51418.755,
+      "checksum": 73500
+    },
+    {
+      "name": "BLAKE2B_512",
+      "ms": 6069.069,
+      "ops": 928,
+      "ops_s": 152.906,
+      "mb_s": 611.626,
+      "score": 134725.913,
+      "checksum": 242208
+    },
+    {
+      "name": "AES_256_CBC",
+      "ms": 6114.897,
+      "ops": 832,
+      "ops_s": 136.061,
+      "mb_s": 544.245,
+      "score": 98086.499,
+      "checksum": 262912
+    },
+    {
+      "name": "HMAC_SHA256",
+      "ms": 6051.242,
+      "ops": 1398,
+      "ops_s": 231.027,
+      "mb_s": 924.108,
+      "score": 148042.07,
+      "checksum": 500484
+    },
+    {
+      "name": "PBKDF2_SHA256_1000",
+      "ms": 6002.423,
+      "ops": 24034,
+      "ops_s": 4004.05,
+      "mb_s": 0,
+      "score": 12012.149,
+      "checksum": 9493430
+    },
+    {
+      "name": "SCRYPT_N16384",
+      "ms": 6523.682,
+      "ops": 137,
+      "ops_s": 21,
+      "mb_s": 0,
+      "score": 168.003,
+      "checksum": 64116
+    },
+    {
+      "name": "BTC_UTXO_MERKLE",
+      "ms": 6051.464,
+      "ops": 128513,
+      "ops_s": 21236.678,
+      "mb_s": 2.684,
+      "utxo_size": 85675,
+      "score": 25806.035,
+      "checksum": 256955
+    },
+    {
+      "name": "ETH_LIKE_SHA3_BLOCKS",
+      "ms": 6055.379,
+      "ops": 304527,
+      "ops_s": 50290.325,
+      "blocks": 9670,
+      "blocks_s": 1596.927,
+      "mb_s": 6.838,
+      "gas_s": 1170813877.769,
+      "score": 72854.57,
+      "checksum": 342
+    },
+    {
+      "name": "VECTOR_FLOAT64_MEMORY",
+      "ms": 6033.721,
+      "ops": 2535,
+      "ops_s": 420.139,
+      "gflops": 1.762,
+      "mb_s": 10083.33,
+      "score": 8566.044,
+      "checksum": 2983340.79
+    }
+  ],
+  "ranking": {
+    "best_algorithm": "BTC_SHA256D",
+    "best_score": 178617.216,
+    "best_ops_s": 222.993,
+    "best_mb_s": 891.971,
+    "ranking": [
+      {
+        "rank": 1,
+        "algorithm": "BTC_SHA256D",
+        "score": 178617.216,
+        "ops_s": 222.993,
+        "mb_s": 891.971,
+        "gflops": 0,
+        "blocks_s": 0,
+        "gas_s": 0,
+        "utxo_size": 0
+      },
+      {
+        "rank": 2,
+        "algorithm": "HMAC_SHA256",
+        "score": 148042.07,
+        "ops_s": 231.027,
+        "mb_s": 924.108,
+        "gflops": 0,
+        "blocks_s": 0,
+        "gas_s": 0,
+        "utxo_size": 0
+      },
+      {
+        "rank": 3,
+        "algorithm": "BLAKE2B_512",
+        "score": 134725.913,
+        "ops_s": 152.906,
+        "mb_s": 611.626,
+        "gflops": 0,
+        "blocks_s": 0,
+        "gas_s": 0,
+        "utxo_size": 0
+      },
+      {
+        "rank": 4,
+        "algorithm": "AES_256_CBC",
+        "score": 98086.499,
+        "ops_s": 136.061,
+        "mb_s": 544.245,
+        "gflops": 0,
+        "blocks_s": 0,
+        "gas_s": 0,
+        "utxo_size": 0
+      },
+      {
+        "rank": 5,
+        "algorithm": "ETH_LIKE_SHA3_BLOCKS",
+        "score": 72854.57,
+        "ops_s": 50290.325,
+        "mb_s": 6.838,
+        "gflops": 0,
+        "blocks_s": 1596.927,
+        "gas_s": 1170813877.769,
+        "utxo_size": 0
+      },
+      {
+        "rank": 6,
+        "algorithm": "ETH_SHA3_256",
+        "score": 51418.755,
+        "ops_s": 67.572,
+        "mb_s": 270.287,
+        "gflops": 0,
+        "blocks_s": 0,
+        "gas_s": 0,
+        "utxo_size": 0
+      },
+      {
+        "rank": 7,
+        "algorithm": "BTC_UTXO_MERKLE",
+        "score": 25806.035,
+        "ops_s": 21236.678,
+        "mb_s": 2.684,
+        "gflops": 0,
+        "blocks_s": 0,
+        "gas_s": 0,
+        "utxo_size": 85675
+      },
+      {
+        "rank": 8,
+        "algorithm": "PBKDF2_SHA256_1000",
+        "score": 12012.149,
+        "ops_s": 4004.05,
+        "mb_s": 0,
+        "gflops": 0,
+        "blocks_s": 0,
+        "gas_s": 0,
+        "utxo_size": 0
+      },
+      {
+        "rank": 9,
+        "algorithm": "VECTOR_FLOAT64_MEMORY",
+        "score": 8566.044,
+        "ops_s": 420.139,
+        "mb_s": 10083.33,
+        "gflops": 1.762,
+        "blocks_s": 0,
+        "gas_s": 0,
+        "utxo_size": 0
+      },
+      {
+        "rank": 10,
+        "algorithm": "SCRYPT_N16384",
+        "score": 168.003,
+        "ops_s": 21,
+        "mb_s": 0,
+        "gflops": 0,
+        "blocks_s": 0,
+        "gas_s": 0,
+        "utxo_size": 0
+      }
+    ]
+  },
+  "summary": {
+    "total_score": 730297.254,
+    "winner": "BTC_SHA256D",
+    "winner_score": 178617.216,
+    "winner_ops_s": 222.993,
+    "winner_mb_s": 891.971,
+    "health": 100,
+    "verdict": "REAL_LOCAL_TRILLIONX_BLOCKCHAIN_ALGO_STRESS_RANK_COMPLETE"
+  },
+  "truth_policy": {
+    "real_only": true,
+    "trillionx_only": true,
+    "synthetic_local_blockchain_workloads": true,
+    "not_mainnet_mining": true,
+    "no_fake_zettahash": true,
+    "no_fake_exascale": true,
+    "no_fake_gpu": true,
+    "codespaces_limits_apply": true
+  }
+}

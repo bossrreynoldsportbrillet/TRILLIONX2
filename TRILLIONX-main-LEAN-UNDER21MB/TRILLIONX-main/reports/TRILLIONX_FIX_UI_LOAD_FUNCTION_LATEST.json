@@ -1,0 +1,9 @@
+{
+  "engine": "TRILLIONX_FIX_UI_LOAD_FUNCTION",
+  "time": "2026-05-25T00:11:11Z",
+  "patches": 0,
+  "target": "load(url) onclick buttons",
+  "timeout_ms": 15000,
+  "policy": "UI load renderer only; endpoints/backend preserved",
+  "seal": "b59048f20d88df62391642d1e482e214930e622d9daf1aa236198f65f3994dab"
+}

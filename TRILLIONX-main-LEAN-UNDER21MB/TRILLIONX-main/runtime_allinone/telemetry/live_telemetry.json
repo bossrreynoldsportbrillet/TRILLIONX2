@@ -1,0 +1,140 @@
+[
+  {
+    "time": "2026-05-25T12:25:35.247Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 96721
+    }
+  },
+  {
+    "time": "2026-05-25T12:25:35.370Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 70148
+    }
+  },
+  {
+    "time": "2026-05-25T12:25:36.432Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 81173
+    }
+  },
+  {
+    "time": "2026-05-25T12:25:36.432Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 114760
+    }
+  },
+  {
+    "time": "2026-05-25T12:25:36.433Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 84408
+    }
+  },
+  {
+    "time": "2026-05-25T12:25:37.442Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 60604
+    }
+  },
+  {
+    "time": "2026-05-25T12:25:38.443Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 12781
+    }
+  },
+  {
+    "time": "2026-05-25T12:25:38.485Z",
+    "type": "cache",
+    "data": {
+      "cache_hits": 7089
+    }
+  },
+  {
+    "time": "2026-05-25T12:25:38.512Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 99064
+    }
+  },
+  {
+    "time": "2026-05-25T12:25:38.512Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 50878
+    }
+  },
+  {
+    "time": "2026-05-25T12:25:38.512Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 68195
+    }
+  },
+  {
+    "time": "2026-05-25T12:25:38.512Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 58510
+    }
+  },
+  {
+    "time": "2026-05-25T12:25:39.514Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 80522
+    }
+  },
+  {
+    "time": "2026-05-25T12:25:40.515Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 59583
+    }
+  },
+  {
+    "time": "2026-05-25T12:25:40.516Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 89723
+    }
+  },
+  {
+    "time": "2026-05-25T12:25:40.519Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 79650
+    }
+  },
+  {
+    "time": "2026-05-25T12:25:40.521Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 88044
+    }
+  },
+  {
+    "time": "2026-05-25T12:25:40.521Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 99176
+    }
+  }
+]

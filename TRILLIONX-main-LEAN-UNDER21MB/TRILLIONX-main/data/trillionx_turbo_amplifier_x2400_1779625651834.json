@@ -1,0 +1,389 @@
+{
+  "engine": "TRILLIONX_TURBO_AMPLIFIER_278_X2400",
+  "ts": "2026-05-24T12:27:31.834Z",
+  "mode": "x2400",
+  "host": {
+    "target": "TRILLIONX",
+    "host_role": "CODESPACES_SUPPORT_ONLY",
+    "cpus": 2,
+    "cpu_context": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "ghz": 3.392,
+    "ram_gb": 7.757,
+    "simd": {
+      "avx": true,
+      "avx2": true,
+      "avx512f": true,
+      "fma": true,
+      "aes": true,
+      "sha_ni": true
+    }
+  },
+  "baseline": {
+    "name": "BASELINE",
+    "turbo": false,
+    "start_memory": {
+      "rss_mb": 48.367,
+      "heap_mb": 5.063,
+      "external_mb": 1.703,
+      "free_gb": 3.167,
+      "total_gb": 7.757
+    },
+    "end_memory": {
+      "rss_mb": 149.863,
+      "heap_mb": 5.503,
+      "external_mb": 74.901,
+      "free_gb": 3.067,
+      "total_gb": 7.757
+    },
+    "packets": [
+      {
+        "level": 1,
+        "turbo": false,
+        "total_ms": 193.997,
+        "hash_mb_s": 826.987,
+        "comp_mb_s": 42.565,
+        "vector_gflops": 0.039,
+        "mirror_ops_s": 225179357.977,
+        "checksum": "43e28ae508dc88e1:653640192:385.684",
+        "score": 2806.12,
+        "memory": {
+          "rss_mb": 66.352,
+          "heap_mb": 5.151,
+          "external_mb": 3.956,
+          "free_gb": 3.159,
+          "total_gb": 7.757
+        }
+      },
+      {
+        "level": 2,
+        "turbo": false,
+        "total_ms": 280.636,
+        "hash_mb_s": 1234.902,
+        "comp_mb_s": 38.448,
+        "vector_gflops": 0.097,
+        "mirror_ops_s": 479785964.641,
+        "checksum": "2115abe0cd307bfa:1422879296:811.455",
+        "score": 5787.552,
+        "memory": {
+          "rss_mb": 92.703,
+          "heap_mb": 5.456,
+          "external_mb": 36.501,
+          "free_gb": 3.143,
+          "total_gb": 7.757
+        }
+      },
+      {
+        "level": 3,
+        "turbo": false,
+        "total_ms": 359.256,
+        "hash_mb_s": 893.689,
+        "comp_mb_s": 43.138,
+        "vector_gflops": 0.025,
+        "mirror_ops_s": 102037539.983,
+        "checksum": "4d431549b39450df:2311651328:1340.899",
+        "score": 1458.806,
+        "memory": {
+          "rss_mb": 101.512,
+          "heap_mb": 5.049,
+          "external_mb": 40.524,
+          "free_gb": 3.133,
+          "total_gb": 7.757
+        }
+      },
+      {
+        "level": 4,
+        "turbo": false,
+        "total_ms": 369.293,
+        "hash_mb_s": 1123.245,
+        "comp_mb_s": 41.171,
+        "vector_gflops": 0.08,
+        "mirror_ops_s": 649964769.341,
+        "checksum": "759aff72b30b393b:2657961536:-842.998",
+        "score": 7636.777,
+        "memory": {
+          "rss_mb": 147.238,
+          "heap_mb": 5.385,
+          "external_mb": 85.62,
+          "free_gb": 3.094,
+          "total_gb": 7.757
+        }
+      },
+      {
+        "level": 5,
+        "turbo": false,
+        "total_ms": 387.488,
+        "hash_mb_s": 1189.168,
+        "comp_mb_s": 45.971,
+        "vector_gflops": 0.062,
+        "mirror_ops_s": 650005151.185,
+        "checksum": "16072f759361fb40:3078835200:1834.941",
+        "score": 7657.923,
+        "memory": {
+          "rss_mb": 127.344,
+          "heap_mb": 4.565,
+          "external_mb": 54.613,
+          "free_gb": 3.107,
+          "total_gb": 7.757
+        }
+      },
+      {
+        "level": 6,
+        "turbo": false,
+        "total_ms": 461.273,
+        "hash_mb_s": 1251.643,
+        "comp_mb_s": 42.493,
+        "vector_gflops": 0.066,
+        "mirror_ops_s": 648926572.014,
+        "checksum": "9151fe0f19867db7:3290702464:-149.297",
+        "score": 7667.899,
+        "memory": {
+          "rss_mb": 131.789,
+          "heap_mb": 5.331,
+          "external_mb": 59.35,
+          "free_gb": 3.1,
+          "total_gb": 7.757
+        }
+      },
+      {
+        "level": 7,
+        "turbo": false,
+        "total_ms": 594.858,
+        "hash_mb_s": 1141.206,
+        "comp_mb_s": 37.492,
+        "vector_gflops": 0.032,
+        "mirror_ops_s": 371476883.449,
+        "checksum": "0040d4e1eeeabeef:2582995712:2084.866",
+        "score": 4539.452,
+        "memory": {
+          "rss_mb": 143.508,
+          "heap_mb": 5.743,
+          "external_mb": 65.625,
+          "free_gb": 3.083,
+          "total_gb": 7.757
+        }
+      },
+      {
+        "level": 8,
+        "turbo": false,
+        "total_ms": 733.965,
+        "hash_mb_s": 1144.634,
+        "comp_mb_s": 34.102,
+        "vector_gflops": 0.057,
+        "mirror_ops_s": 142559548.949,
+        "checksum": "c3d722ea70ce6e09:3458777344:-1477.056",
+        "score": 2001.015,
+        "memory": {
+          "rss_mb": 149.863,
+          "heap_mb": 5.47,
+          "external_mb": 74.901,
+          "free_gb": 3.093,
+          "total_gb": 7.757
+        }
+      }
+    ],
+    "avg": {
+      "score": 4944.443,
+      "hash_mb_s": 1100.684,
+      "comp_mb_s": 40.672,
+      "vector_gflops": 0.057,
+      "mirror_ops_s": 408741973.442
+    }
+  },
+  "turbo": {
+    "name": "TURBO",
+    "turbo": true,
+    "start_memory": {
+      "rss_mb": 149.863,
+      "heap_mb": 5.51,
+      "external_mb": 74.901,
+      "free_gb": 3.067,
+      "total_gb": 7.757
+    },
+    "end_memory": {
+      "rss_mb": 108.395,
+      "heap_mb": 3.745,
+      "external_mb": 164.242,
+      "free_gb": 3.1,
+      "total_gb": 7.757
+    },
+    "packets": [
+      {
+        "level": 1,
+        "turbo": true,
+        "total_ms": 370.117,
+        "hash_mb_s": 1230.291,
+        "comp_mb_s": 35.132,
+        "vector_gflops": 0.021,
+        "mirror_ops_s": 143974499.772,
+        "checksum": "5db1e330bcfb030c:3893013568:533.864",
+        "score": 2040.422,
+        "memory": {
+          "rss_mb": 127.898,
+          "heap_mb": 5.44,
+          "external_mb": 26.835,
+          "free_gb": 3.082,
+          "total_gb": 7.757
+        }
+      },
+      {
+        "level": 2,
+        "turbo": true,
+        "total_ms": 418.136,
+        "hash_mb_s": 1120.089,
+        "comp_mb_s": 37.734,
+        "vector_gflops": 0.054,
+        "mirror_ops_s": 98658447.957,
+        "checksum": "3771b338135592ed:1499970336:-63.82",
+        "score": 1504.748,
+        "memory": {
+          "rss_mb": 142.043,
+          "heap_mb": 4.396,
+          "external_mb": 47.23,
+          "free_gb": 3.071,
+          "total_gb": 7.757
+        }
+      },
+      {
+        "level": 3,
+        "turbo": true,
+        "total_ms": 483.777,
+        "hash_mb_s": 639.897,
+        "comp_mb_s": 39.282,
+        "vector_gflops": 0.069,
+        "mirror_ops_s": 648466705.541,
+        "checksum": "6c0406794e90effb:1906466816:1822.225",
+        "score": 7448.64,
+        "memory": {
+          "rss_mb": 142.848,
+          "heap_mb": 4.796,
+          "external_mb": 56.613,
+          "free_gb": 3.081,
+          "total_gb": 7.757
+        }
+      },
+      {
+        "level": 4,
+        "turbo": true,
+        "total_ms": 504.867,
+        "hash_mb_s": 1114.753,
+        "comp_mb_s": 45.291,
+        "vector_gflops": 0.058,
+        "mirror_ops_s": 95900467.415,
+        "checksum": "6f93e42e709945e8:276551904:-362.371",
+        "score": 1474.317,
+        "memory": {
+          "rss_mb": 168.301,
+          "heap_mb": 4.748,
+          "external_mb": 65.995,
+          "free_gb": 3.066,
+          "total_gb": 7.757
+        }
+      },
+      {
+        "level": 5,
+        "turbo": true,
+        "total_ms": 653.608,
+        "hash_mb_s": 1254.132,
+        "comp_mb_s": 38.959,
+        "vector_gflops": 0.049,
+        "mirror_ops_s": 143309531.306,
+        "checksum": "b96aa206df090960:1293851968:663.694",
+        "score": 2047.107,
+        "memory": {
+          "rss_mb": 191.551,
+          "heap_mb": 4.562,
+          "external_mb": 75.378,
+          "free_gb": 3.018,
+          "total_gb": 7.757
+        }
+      },
+      {
+        "level": 6,
+        "turbo": true,
+        "total_ms": 749.041,
+        "hash_mb_s": 1165.782,
+        "comp_mb_s": 39.85,
+        "vector_gflops": 0.029,
+        "mirror_ops_s": 113050034.288,
+        "checksum": "4dbf3b58a0c41ee6:453003744:1795.321",
+        "score": 1676.528,
+        "memory": {
+          "rss_mb": 191.551,
+          "heap_mb": 5.374,
+          "external_mb": 84.76,
+          "free_gb": 3.03,
+          "total_gb": 7.757
+        }
+      },
+      {
+        "level": 7,
+        "turbo": true,
+        "total_ms": 740.322,
+        "hash_mb_s": 1165.279,
+        "comp_mb_s": 42.372,
+        "vector_gflops": 0.072,
+        "mirror_ops_s": 649030984.494,
+        "checksum": "2090d8958804cc1f:1282804224:-1342.149",
+        "score": 7639.89,
+        "memory": {
+          "rss_mb": 220.656,
+          "heap_mb": 4.35,
+          "external_mb": 120.158,
+          "free_gb": 3.008,
+          "total_gb": 7.757
+        }
+      },
+      {
+        "level": 8,
+        "turbo": true,
+        "total_ms": 1018.411,
+        "hash_mb_s": 755.448,
+        "comp_mb_s": 34.985,
+        "vector_gflops": 0.061,
+        "mirror_ops_s": 341565902.282,
+        "checksum": "e2c4b0b175a3b4d4:3938819072:2351.329",
+        "score": 4076.861,
+        "memory": {
+          "rss_mb": 252.785,
+          "heap_mb": 4.369,
+          "external_mb": 164.242,
+          "free_gb": 2.985,
+          "total_gb": 7.757
+        }
+      }
+    ],
+    "avg": {
+      "score": 3488.564,
+      "hash_mb_s": 1055.709,
+      "comp_mb_s": 39.201,
+      "vector_gflops": 0.052,
+      "mirror_ops_s": 279244571.632
+    }
+  },
+  "real_gain_percent": {
+    "score_percent": -29.445,
+    "hash_percent": -4.086,
+    "comp_percent": -3.617,
+    "vector_percent": -8.772,
+    "mirror_percent": -31.682
+  },
+  "virtual_projection": {
+    "amplifier_label": "x2400",
+    "multiplier_virtual": 2400,
+    "projected_score_virtual": 8372553.6,
+    "projected_hash_mb_s_virtual": 2533701.6,
+    "projected_vector_gflops_virtual": 124.8,
+    "projected_mirror_ops_s_virtual": 670186971916.8,
+    "warning": "virtual projection only; not physical throughput"
+  },
+  "health": 99.82,
+  "verdict": "TURBO_ACTIVE_HEALTH_OK",
+  "truth_policy": {
+    "target": "TRILLIONX",
+    "host": "CODESPACES_SUPPORT_ONLY",
+    "turbo_278_measurable": true,
+    "x600_x1200_x2400_virtual_projection_only": true,
+    "no_fake_power": true,
+    "real_gain_is_before_after_only": true
+  }
+}

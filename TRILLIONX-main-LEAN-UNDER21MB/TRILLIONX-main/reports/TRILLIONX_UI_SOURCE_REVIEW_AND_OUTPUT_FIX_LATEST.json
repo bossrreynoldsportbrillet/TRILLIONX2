@@ -1,0 +1,2010 @@
+{
+  "engine": "TRILLIONX_UI_SOURCE_REVIEW_AND_OUTPUT_FIX",
+  "time": "2026-05-24T23:52:26Z",
+  "patches": 0,
+  "ui_items_seen": 2632,
+  "items": [
+    {
+      "line": 9,
+      "text": "   TRILLIONX_COMPACT_OUTPUT_GUARD_V1"
+    },
+    {
+      "line": 11,
+      "text": "   - R\u00e9sum\u00e9 compact pour UI/OUTPUT"
+    },
+    {
+      "line": 15,
+      "text": "const TRILLIONX_COMPACT_OUTPUT_GUARD_V1 = {"
+    },
+    {
+      "line": 17,
+      "text": "  maxChars: Number(process.env.TRILLIONX_OUTPUT_MAX || 4500),"
+    },
+    {
+      "line": 18,
+      "text": "  enabled: process.env.TRILLIONX_COMPACT_OUTPUT !== \"0\""
+    },
+    {
+      "line": 54,
+      "text": "    return {engine:\"TRILLIONX_COMPACT_OUTPUT_GUARD_V1\",error:String(e)};"
+    },
+    {
+      "line": 60,
+      "text": "    let y = TRILLIONX_COMPACT_OUTPUT_GUARD_V1.enabled ? trillionsCompactObject(x) : x;"
+    },
+    {
+      "line": 62,
+      "text": "    const max = TRILLIONX_COMPACT_OUTPUT_GUARD_V1.maxChars;"
+    },
+    {
+      "line": 68,
+      "text": "    return \"TRILLIONX_COMPACT_OUTPUT_ERROR: \"+String(e);"
+    },
+    {
+      "line": 79,
+      "text": "global.TRILLIONX_COMPACT_OUTPUT_GUARD_V1 = TRILLIONX_COMPACT_OUTPUT_GUARD_V1;"
+    },
+    {
+      "line": 83,
+      "text": "/* === END TRILLIONX_COMPACT_OUTPUT_GUARD_V1 === */"
+    },
+    {
+      "line": 308,
+      "text": "  return {time:now(),potential_percent:278,base_capacity_index:base,projection:[0,1,2,3,4,5,6,7,8,9,10].map(min=>({minute:min,display_capacity:+(base*Math.pow(4,min)*2.78).toFixed(2),label:\"dashboard_projection_not_real_claim\"})),honesty:\"growth curve is visua"
+    },
+    {
+      "line": 375,
+      "text": "const SAFE_REPAIR_ONLY={name:\"SAFE_REPAIR_ONLY\",version:\"V6_REPAIR_ENGINE_GUARDED\",mode:\"ACTIVE_NON_DESTRUCTIVE\",truth_engine:\"DISABLED\",golden_rule:\"diagnose -> propose -> sandbox -> verify -> promote_or_rollback\",allowed_actions:[\"wrap_function_with_try_catc"
+    },
+    {
+      "line": 377,
+      "text": "const DICT_NATIVE_CORE={version:\"DICT_NATIVE_CORE_V1\",role:\"native routing, classification, solver selection and guard system\",domains:{SYSTEM:{keys:[\"cpu\",\"ram\",\"disk\",\"network\",\"gpu\",\"temperature\",\"process\",\"ghz\",\"gb\"],routes:[\"/api/system\",\"/api/cockpit\",\"/"
+    },
+    {
+      "line": 382,
+      "text": "function repairHint(name,error){const msg=String(error&&error.message||error||\"\").toLowerCase();if(msg.includes(\"cannot find module\"))return {type:\"missing_dependency\",action:\"npm install required dependency\",safe:true};if(msg.includes(\"timeout\"))return {type:"
+    },
+    {
+      "line": 385,
+      "text": "function moduleRegistry(){return {time:now(),kernel:KERNEL.version,core:[\"express\",\"socket.io\",\"systeminformation\",\"axios\",\"safe_shell\"],power:POWER,dict:DICT_NATIVE_CORE,ai_kernel:AI_KERNEL_CORE,repair:SAFE_REPAIR_ONLY,legacy:LEGACY_TECH_REGISTRY,memory_l56:t"
+    },
+    {
+      "line": 386,
+      "text": "async function createJob(type,input={},priority=\"normal\"){const id=uid(\"job\");const job={id,type,priority,status:\"queued\",progress_percent:0,created_at:now(),started_at:null,ended_at:null,input,output:null,error:null,trace:[]};JOBS.set(id,job);appendJsonl(\"job"
+    },
+    {
+      "line": 387,
+      "text": "async function runJob(id){const job=JOBS.get(id);if(!job)return {ok:false,error:\"job_not_found\"};job.status=\"running\";job.started_at=now();job.progress_percent=5;bus.emit(\"job:started\",job);try{let out=null;if(job.type===\"runtime_audit\")out=await powerFull();e"
+    },
+    {
+      "line": 391,
+      "text": "async function routeHealth(){const routes=[\"/api/full\",\"/api/power\",\"/api/cockpit\",\"/api/capacity\",\"/api/system\",\"/api/network\",\"/api/repo\",\"/api/blockchain\",\"/api/workload\",\"/api/security\",\"/api/supercompute\",\"/api/dict\",\"/api/ai-kernel\",\"/api/modules\",\"/api/"
+    },
+    {
+      "line": 397,
+      "text": "const RECONNECTION_MANAGER={name:\"RECONNECTION_MANAGER\",version:\"V6_2_MULTI_ENVIRONMENT_KEEPALIVE\",scope:[\"mobile_browser\",\"desktop_browser\",\"codespaces\",\"local_node\",\"vps_node\",\"pm2_runtime\",\"future_exe_shell\"],policy:\"reconnect when possible, never fake alwa"
+    },
+    {
+      "line": 402,
+      "text": "async function providerHealth(){const out={time:now(),mode:\"REAL_PROVIDER_ONLY\",providers:{}};try{const r=await axios.get(\"https://text.pollinations.ai/health\",{timeout:5000});out.providers.pollinations={ok:r.status<500,status:r.status,type:\"real_network_ai\"}}"
+    },
+    {
+      "line": 416,
+      "text": "<button onclick=\"load('/api/imperial')\">IMPERIAL</button><button onclick=\"load('/api/benchmark/instant-score')\">SCORE INSTANT</button><button onclick=\"load('/api/benchmark/flops-libre?size=5000000&rounds=3')\">FLOPS LIBRE</button><button onclick=\"load('/api/ben"
+    },
+    {
+      "line": 419,
+      "text": "<div class=\"card wide\"><h3>CONTROL</h3><div class=\"mini\">REAL ONLY \u2014 potentiel affich\u00e9 278% avec labels REAL / EMULATED / UNAVAILABLE. Pas de fausse t\u00e9l\u00e9m\u00e9trie.</div><textarea id=\"msg\" rows=\"3\">TRILLIONS: audit the real orchestration capacity and bottlenecks.<"
+    },
+    {
+      "line": 420,
+      "text": "<div class=\"card wide\" id=\"chatbox\" style=\"display:none\"><h3>SOVEREIGN AI CHAT</h3><div class=\"mini\">Simple en surface, complexe derri\u00e8re \u2014 REAL PROVIDER ONLY.</div><div id=\"chatlog\" class=\"out\" style=\"max-height:300px\">AI CHAT READY</div><textarea id=\"chatmsg"
+    },
+    {
+      "line": 423,
+      "text": "/* TRILLIONX_TERMINAL_RENDER_FIX_SOURCE_V1 */"
+    },
+    {
+      "line": 424,
+      "text": "function TRILLIONX_renderTerminalResult(j){"
+    },
+    {
+      "line": 434,
+      "text": "    else if(j && j.out) parts.push(\"\\n--- OUTPUT ---\\n\"+j.out);"
+    },
+    {
+      "line": 447,
+      "text": "/* TRILLIONX_TERMINAL_RENDER_FIX_SOURCE_V1_AUTO_BIND */"
+    },
+    {
+      "line": 454,
+      "text": "  window.TRILLIONX_renderTerminalResult = TRILLIONX_renderTerminalResult;"
+    },
+    {
+      "line": 481,
+      "text": "    if(x.out) out.push(\"\\n--- OUTPUT ---\\n\"+x.out);"
+    },
+    {
+      "line": 493,
+      "text": "function TRILLIONX_setOutputClean(target,x){"
+    },
+    {
+      "line": 498,
+      "text": "      const q=document.querySelector(\"#output,#out,.output,pre\");"
+    },
+    {
+      "line": 510,
+      "text": "    const r=await fetch(url,opt||{});"
+    },
+    {
+      "line": 518,
+      "text": "    TRILLIONX_setOutputClean(target||\"#output\",j);"
+    },
+    {
+      "line": 522,
+      "text": "    TRILLIONX_setOutputClean(target||\"#output\",j);"
+    },
+    {
+      "line": 554,
+      "text": "    if(x.terminal) o.push(\"\\n--- TERMINAL ---\\n\"+TRILLIONX_deepCleanText(x.terminal));"
+    },
+    {
+      "line": 556,
+      "text": "    if(x.out) o.push(\"\\n--- OUTPUT ---\\n\"+String(x.out));"
+    },
+    {
+      "line": 567,
+      "text": "function TRILLIONX_findOutputBox(){"
+    },
+    {
+      "line": 568,
+      "text": "  return document.querySelector(\"#output,#out,#terminalOut,#terminal-output,#result,.output,.terminal-output,pre\");"
+    },
+    {
+      "line": 570,
+      "text": "function TRILLIONX_writeOutput(x){"
+    },
+    {
+      "line": 571,
+      "text": "  const el=TRILLIONX_findOutputBox();"
+    },
+    {
+      "line": 582,
+      "text": "    const r=await fetch(url,opt);"
+    },
+    {
+      "line": 586,
+      "text": "    TRILLIONX_writeOutput(x);"
+    },
+    {
+      "line": 590,
+      "text": "    TRILLIONX_writeOutput(x);"
+    },
+    {
+      "line": 596,
+      "text": "/* TRILLIONX_UI_SOURCE_OUTPUT_RENDERER_V2 */"
+    },
+    {
+      "line": 619,
+      "text": "  if(o.iss_position&&typeof o.iss_position===\"object\"){"
+    },
+    {
+      "line": 621,
+      "text": "    L.push(\"--- ISS POSITION ---\");"
+    },
+    {
+      "line": 622,
+      "text": "    if(o.iss_position.latitude!==undefined) L.push(\"latitude  : \"+o.iss_position.latitude);"
+    },
+    {
+      "line": 623,
+      "text": "    if(o.iss_position.longitude!==undefined) L.push(\"longitude : \"+o.iss_position.longitude);"
+    },
+    {
+      "line": 624,
+      "text": "    if(o.iss_position.timestamp!==undefined) L.push(\"timestamp : \"+o.iss_position.timestamp);"
+    },
+    {
+      "line": 626,
+      "text": "  if(o.catalog&&typeof o.catalog===\"object\"){"
+    },
+    {
+      "line": 628,
+      "text": "    L.push(\"--- CATALOG ---\");"
+    },
+    {
+      "line": 629,
+      "text": "    L=L.concat(TX_linesFromObject(o.catalog,depth+1));"
+    },
+    {
+      "line": 631,
+      "text": "  if(o.terminal){ L.push(\"\"); L.push(\"--- TERMINAL ---\"); L=L.concat(TX_linesFromObject(o.terminal,depth+1)); }"
+    },
+    {
+      "line": 633,
+      "text": "  if(o.out){ L.push(\"\"); L.push(\"--- OUTPUT ---\"); L=L.concat(TX_linesFromObject(o.out,depth+1)); }"
+    },
+    {
+      "line": 653,
+      "text": "function TX_renderOutput(v){"
+    },
+    {
+      "line": 657,
+      "text": "function TX_outputEl(){"
+    },
+    {
+      "line": 658,
+      "text": "  return document.querySelector(\"#output,#out,#terminalOut,#terminal-output,#result,#results,.output,.terminal-output,pre\");"
+    },
+    {
+      "line": 660,
+      "text": "function TX_setOutput(v){"
+    },
+    {
+      "line": 661,
+      "text": "  const el=TX_outputEl();"
+    },
+    {
+      "line": 662,
+      "text": "  const txt=TX_renderOutput(v);"
+    },
+    {
+      "line": 672,
+      "text": "async function load(u){out.textContent='LOADING '+u;try{let r=await fetch(u).catch(e=>({text:async()=>String(e)}));out.textContent=JSON.stringify(await r.text(),null,2)}catch(e){out.textContent='ERROR '+e.message}}"
+    },
+    {
+      "line": 673,
+      "text": "async function askAI(){load('/api/ai?m='+encodeURIComponent(document.getElementById('msg').value))}"
+    },
+    {
+      "line": 674,
+      "text": "async function cmd(c){out.textContent='$ '+c+'\\\\nRUNNING...';let r=await fetch('/api/shell',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({cmd:c}).catch(e=>({text:async()=>String(e)}))});let j=await r.text();out.textContent='$ "
+    },
+    {
+      "line": 677,
+      "text": "function startKeepAlive(){setInterval(async()=>{try{await fetch(\"/api/ping?ts=\"+Date.now().catch(e=>({text:async()=>String(e)})),{cache:\"no-store\"})}catch(e){} if(typeof socket!==\"undefined\"&&!socket.connected){try{socket.connect()}catch(e){}}},15000)};documen"
+    },
+    {
+      "line": 678,
+      "text": "load('/api/power');"
+    },
+    {
+      "line": 684,
+      "text": "app.get(\"/api/full\",async(req,res)=>res.json(await full()));"
+    },
+    {
+      "line": 685,
+      "text": "app.get(\"/api/ping\",(req,res)=>res.json({ok:true,time:now(),uptime_app_sec:Math.floor((Date.now()-START)/1000),pid:process.pid,socket_clients:io.engine.clientsCount,kernel:KERNEL.version}));"
+    },
+    {
+      "line": 686,
+      "text": "app.get(\"/api/heartbeat\",(req,res)=>res.json({ok:true,time:now(),memory:process.memoryUsage(),uptime:process.uptime(),reconnection:RECONNECTION_MANAGER}));"
+    },
+    {
+      "line": 687,
+      "text": "app.get(\"/api/clients\",(req,res)=>res.json({time:now(),socket_clients:io.engine.clientsCount}));"
+    },
+    {
+      "line": 688,
+      "text": "app.get(\"/api/hardware/9000vw\",async(req,res)=>res.json(trillionsHardwareProfile9000VW()));"
+    },
+    {
+      "line": 689,
+      "text": "app.get(\"/api/runtime/status\",async(req,res)=>res.json({time:now(),kernel:KERNEL,capacity:await capacity(),health:healthScore(await system()),reconnection:RECONNECTION_MANAGER}));"
+    },
+    {
+      "line": 690,
+      "text": "app.get(\"/api/reconnect\",(req,res)=>res.json({time:now(),status:\"reconnect_endpoint_ready\",manager:RECONNECTION_MANAGER}));"
+    },
+    {
+      "line": 691,
+      "text": "app.get(\"/api/ai-chat\",(req,res)=>res.json({lab:SOVEREIGN_AI_CHAT_LAB,history:CHAT_HISTORY.slice(-20)}));"
+    },
+    {
+      "line": 692,
+      "text": "app.post(\"/api/ai-chat\",async(req,res)=>res.json(await aiChat(req.body&&req.body.message||\"\")));"
+    },
+    {
+      "line": 693,
+      "text": "app.get(\"/api/ai-chat/history\",(req,res)=>res.json({time:now(),history:CHAT_HISTORY.slice(-50),persisted:readJsonl(\"ai_chat_history.jsonl\",50)}));"
+    },
+    {
+      "line": 694,
+      "text": "app.get(\"/api/ai-chat/providers\",async(req,res)=>res.json(await providerHealth()));"
+    },
+    {
+      "line": 695,
+      "text": "app.get(\"/api/ai-chat/trace\",(req,res)=>res.json({time:now(),last_trace:LAST_CHAT_TRACE,traces:readJsonl(\"ai_chat_trace.jsonl\",20)}));"
+    },
+    {
+      "line": 697,
+      "text": "app.get(\"/api/power\",async(req,res)=>res.json(await powerFull()));"
+    },
+    {
+      "line": 698,
+      "text": "app.get(\"/api/experimental\",async(req,res)=>res.json(await experimental()));"
+    },
+    {
+      "line": 699,
+      "text": "app.get(\"/api/exponential\",async(req,res)=>res.json(await exponentialEngine()));"
+    },
+    {
+      "line": 700,
+      "text": "app.get(\"/api/cockpit\",async(req,res)=>res.json(await cached(\"cockpit\",POWER.knobs.cache_ttl_ms,cockpit)));"
+    },
+    {
+      "line": 701,
+      "text": "app.get(\"/api/capacity\",async(req,res)=>res.json(await cached(\"capacity\",POWER.knobs.cache_ttl_ms,capacity)));"
+    },
+    {
+      "line": 703,
+      "text": "app.get(\"/api/dict\",async(req,res)=>res.json(DICT_NATIVE_CORE));"
+    },
+    {
+      "line": 704,
+      "text": "app.post(\"/api/dict/classify\",async(req,res)=>res.json({time:now(),classification:dictClassify(req.body&&req.body.text||\"\")}));"
+    },
+    {
+      "line": 705,
+      "text": "app.get(\"/api/modules\",async(req,res)=>res.json(moduleRegistry()));"
+    },
+    {
+      "line": 706,
+      "text": "app.get(\"/api/legacy\",async(req,res)=>res.json({time:now(),legacy:LEGACY_TECH_REGISTRY}));"
+    },
+    {
+      "line": 707,
+      "text": "app.get(\"/api/ai-kernel\",async(req,res)=>res.json(AI_KERNEL_CORE));"
+    },
+    {
+      "line": 708,
+      "text": "app.post(\"/api/ai-kernel/plan\",async(req,res)=>res.json(await aiKernelPlan(req.body&&req.body.message||\"\")));"
+    },
+    {
+      "line": 709,
+      "text": "app.get(\"/api/ai-kernel/plan\",async(req,res)=>res.json(await aiKernelPlan(req.query.m||\"\")));"
+    },
+    {
+      "line": 710,
+      "text": "app.get(\"/api/solver/strategic\",async(req,res)=>res.json(await strategicSolve(req.query.m||\"runtime audit\")));"
+    },
+    {
+      "line": 711,
+      "text": "app.post(\"/api/solver/strategic\",async(req,res)=>res.json(await strategicSolve(req.body&&req.body.message||\"\")));"
+    },
+    {
+      "line": 712,
+      "text": "app.post(\"/api/jobs/create\",async(req,res)=>res.json(await createJob(req.body&&req.body.type||\"runtime_audit\",req.body&&req.body.input||{},req.body&&req.body.priority||\"normal\")));"
+    },
+    {
+      "line": 713,
+      "text": "app.post(\"/api/jobs/start\",async(req,res)=>res.json(await runJob(req.body&&req.body.id)));"
+    },
+    {
+      "line": 714,
+      "text": "app.get(\"/api/jobs\",async(req,res)=>res.json({time:now(),jobs:[...JOBS.values()],history:readJsonl(\"jobs.jsonl\",50)}));"
+    },
+    {
+      "line": 715,
+      "text": "app.get(\"/api/repair\",async(req,res)=>res.json(SAFE_REPAIR_ONLY));"
+    },
+    {
+      "line": 716,
+      "text": "app.get(\"/api/repair/report\",async(req,res)=>res.json(await repairReport()));"
+    },
+    {
+      "line": 717,
+      "text": "app.post(\"/api/repair/risk\",async(req,res)=>res.json(classifyRepairRisk(req.body&&req.body.action||\"\")));"
+    },
+    {
+      "line": 718,
+      "text": "app.get(\"/api/routes/test\",async(req,res)=>res.json(await routeHealth()));"
+    },
+    {
+      "line": 719,
+      "text": "app.get(\"/api/self/audit\",async(req,res)=>res.json(await selfAudit()));"
+    },
+    {
+      "line": 721,
+      "text": "app.post(\"/api/batch\",async(req,res)=>res.json(await batchRun(req.body&&req.body.modules)));"
+    },
+    {
+      "line": 722,
+      "text": "app.get(\"/api/system\",async(req,res)=>res.json(await system()));"
+    },
+    {
+      "line": 723,
+      "text": "app.get(\"/api/network\",async(req,res)=>res.json(await network()));"
+    },
+    {
+      "line": 724,
+      "text": "app.get(\"/api/repo\",async(req,res)=>res.json(await repo()));"
+    },
+    {
+      "line": 725,
+      "text": "app.get(\"/api/blockchain\",async(req,res)=>res.json(await blockchain()));"
+    },
+    {
+      "line": 726,
+      "text": "app.get(\"/api/workload\",async(req,res)=>res.json(await workload()));"
+    },
+    {
+      "line": 727,
+      "text": "app.get(\"/api/launch\",async(req,res)=>res.json(await launchStatus()));"
+    },
+    {
+      "line": 728,
+      "text": "app.get(\"/api/iot\",async(req,res)=>res.json(await iot()));"
+    },
+    {
+      "line": 729,
+      "text": "app.get(\"/api/protocols\",async(req,res)=>res.json(await protocols()));"
+    },
+    {
+      "line": 730,
+      "text": "app.get(\"/api/security\",async(req,res)=>res.json(await security()));"
+    },
+    {
+      "line": 731,
+      "text": "app.get(\"/api/supercompute\",async(req,res)=>res.json(await supercompute()));"
+    },
+    {
+      "line": 732,
+      "text": "app.get(\"/api/tech\",async(req,res)=>res.json(await Promise.all([protocols(),launchStatus(),repo()])));"
+    },
+    {
+      "line": 733,
+      "text": "app.get(\"/api/ai\",async(req,res)=>res.json(await ai(req.query.m)));"
+    },
+    {
+      "line": 734,
+      "text": "app.post(\"/api/shell\",async(req,res)=>{const cmd=String(req.body.cmd||\"\").trim();if(!cmd)return res.json({ok:false,err:\"empty command\"});if(blockedCmd(cmd))return res.json({ok:false,err:\"blocked dangerous command\"});res.json(await sh(cmd,15000));});"
+    },
+    {
+      "line": 742,
+      "text": "KERNEL.version=\"OMEGA_ORCHESTRATOR_V11_IMPERIAL_CONSTRUCTION_SUPPORT_AS_POWER_BASE_TERMINAL_REAL_ONLY\";"
+    },
+    {
+      "line": 751,
+      "text": "  modules:[\"UNIVERSAL_MACHINE_ORCHESTRATOR\",\"REAL_SPACE_TECH_CATALOG\",\"MAXIMAL_TECHNICAL_COLLECTION_NO_HUMAN_FLICAGE\",\"NETWORK_SITUATION_MARKER\",\"TIMING_GUARDIAN\",\"V11_TERMINAL_CORE\",\"POLYGLOT_UNIVERSAL_TERMINAL\",\"PROCESSOR_ENVIRONMENT_RECOGNIZER\",\"EXECUTION_S"
+    },
+    {
+      "line": 753,
+      "text": "const UNIVERSAL_MACHINE_ORCHESTRATOR={name:\"UNIVERSAL_MACHINE_ORCHESTRATOR\",version:\"V11_REAL_BRIDGE_FABRIC\",potential_percent:278,mission:\"orchestrate every reachable technical system through real interface, agent, API, broker, bridge or protocol\",status_rule"
+    },
+    {
+      "line": 754,
+      "text": "const REAL_SPACE_TECH_CATALOG={name:\"REAL_SPACE_TECH_CATALOG\",version:\"V11_SPACE_OBSERVABLES\",nodes:{ISS:{type:\"REAL_OBSERVABLE_SPACE_NODE\",observable:true,controllable:false,apis:[\"http://api.open-notify.org/iss-now.json\",\"https://api.wheretheiss.at/v1/satell"
+    },
+    {
+      "line": 758,
+      "text": "const V11_TERMINAL_CORE={name:\"V11_TERMINAL_CORE\",version:\"V11_SAFE_POLYGLOT_TERMINAL\",shells:[\"bash\",\"sh\",\"zsh\",\"powershell\",\"cmd\"],editors:[\"VS Code\",\"Visual Studio\",\"Codespaces\",\"code-server\",\"GitHub CLI\"],node:[\"node\",\"npm\",\"npx\",\"pnpm\",\"yarn\",\"pm2\",\"nodem"
+    },
+    {
+      "line": 759,
+      "text": "const POLYGLOT_UNIVERSAL_TERMINAL={name:\"POLYGLOT_UNIVERSAL_TERMINAL\",version:\"V11_ALL_LANGUAGES\",rule:\"runtime detected = REAL; missing runtime = UNAVAILABLE; unknown language = ADAPTER_REQUIRED\"};"
+    },
+    {
+      "line": 800,
+      "text": "const PROCESSOR_ENVIRONMENT_RECOGNIZER={name:\"PROCESSOR_ENVIRONMENT_RECOGNIZER\",version:\"V11_AUTO_CPU_ENV\",mission:\"detect CPU, architecture, cores, RAM, OS, container, Codespaces, GPU and runtime support\"};"
+    },
+    {
+      "line": 804,
+      "text": "async function terminalV11Catalog(){const checks=[\"bash --version 2>/dev/null | head -1 || echo unavailable\",\"sh --version 2>/dev/null | head -1 || echo unavailable\",\"zsh --version 2>/dev/null | head -1 || echo unavailable\",\"node -v 2>/dev/null || echo unavail"
+    },
+    {
+      "line": 808,
+      "text": "async function howFarCanItGo(){const [cap,term,env,net]=await Promise.all([capacity(),terminalV11Catalog(),processorEnvironment(),networkSituation()]); return {time:now(),imperial:IMPERIAL_CONSTRUCTION,capacity:cap,terminal_catalog:term,processor:env,network:n"
+    },
+    {
+      "line": 809,
+      "text": "async function issPosition(){try{const r=await axios.get(\"http://api.open-notify.org/iss-now.json\",{timeout:120000});return {time:now(),catalog:REAL_SPACE_TECH_CATALOG.nodes.ISS,source:\"Open Notify\",data:r.data};}catch(e){try{const w=await axios.get(\"https://a"
+    },
+    {
+      "line": 811,
+      "text": "app.get(\"/api/imperial\",async(req,res)=>res.json({time:now(),kernel:KERNEL,imperial:IMPERIAL_CONSTRUCTION}));"
+    },
+    {
+      "line": 812,
+      "text": "app.get(\"/api/orchestrator\",async(req,res)=>res.json({time:now(),orchestrator:UNIVERSAL_MACHINE_ORCHESTRATOR}));"
+    },
+    {
+      "line": 813,
+      "text": "app.get(\"/api/space\",async(req,res)=>res.json({time:now(),space:REAL_SPACE_TECH_CATALOG}));"
+    },
+    {
+      "line": 814,
+      "text": "app.get(\"/api/space/catalog\",async(req,res)=>res.json(REAL_SPACE_TECH_CATALOG));"
+    },
+    {
+      "line": 815,
+      "text": "app.get(\"/api/space/iss\",async(req,res)=>res.json(REAL_SPACE_TECH_CATALOG.nodes.ISS));"
+    },
+    {
+      "line": 816,
+      "text": "app.get(\"/api/space/iss/position\",async(req,res)=>res.json(await issPosition()));"
+    },
+    {
+      "line": 817,
+      "text": "app.get(\"/api/max-tech\",async(req,res)=>res.json(MAXIMAL_TECHNICAL_COLLECTION_NO_HUMAN_FLICAGE));"
+    },
+    {
+      "line": 818,
+      "text": "app.get(\"/api/max-tech/scan\",async(req,res)=>res.json(await powerFull()));"
+    },
+    {
+      "line": 819,
+      "text": "app.get(\"/api/max-tech/no-flicage\",async(req,res)=>res.json({time:now(),human_flicage:false,tribunal_layer:false,social_scoring:false,allowed:MAXIMAL_TECHNICAL_COLLECTION_NO_HUMAN_FLICAGE.allowed,forbidden:MAXIMAL_TECHNICAL_COLLECTION_NO_HUMAN_FLICAGE.forbidde"
+    },
+    {
+      "line": 820,
+      "text": "app.get(\"/api/network-situation\",async(req,res)=>res.json(await networkSituation()));"
+    },
+    {
+      "line": 821,
+      "text": "app.get(\"/api/timing\",async(req,res)=>res.json(TIMING_GUARDIAN));"
+    },
+    {
+      "line": 822,
+      "text": "app.post(\"/api/timing/terminal\",async(req,res)=>res.json(await timedShell(String(req.body&&req.body.cmd||\"node --version\"),Number(req.body&&req.body.timeout||15000))));"
+    },
+    {
+      "line": 823,
+      "text": "app.get(\"/api/terminal-v11\",async(req,res)=>res.json(V11_TERMINAL_CORE));"
+    },
+    {
+      "line": 824,
+      "text": "app.get(\"/api/terminal-v11/catalog\",async(req,res)=>res.json(await terminalV11Catalog()));"
+    },
+    {
+      "line": 825,
+      "text": "app.post(\"/api/terminal-v11/run\",async(req,res)=>res.json(await timedShell(String(req.body&&req.body.cmd||\"\"),Number(req.body&&req.body.timeout||15000))));"
+    },
+    {
+      "line": 826,
+      "text": "app.get(\"/api/polyglot/catalog\",async(req,res)=>res.json(await terminalV11Catalog()));"
+    },
+    {
+      "line": 827,
+      "text": "app.get(\"/api/processor\",async(req,res)=>res.json(await processorEnvironment()));"
+    },
+    {
+      "line": 828,
+      "text": "app.get(\"/api/performance-profile\",async(req,res)=>res.json(await processorEnvironment()));"
+    },
+    {
+      "line": 829,
+      "text": "app.get(\"/api/support-accelerator\",async(req,res)=>res.json(await supportAccelerationProfile()));"
+    },
+    {
+      "line": 830,
+      "text": "app.get(\"/api/max-expansion\",async(req,res)=>res.json(await howFarCanItGo()));"
+    },
+    {
+      "line": 831,
+      "text": "app.get(\"/api/how-far-can-it-go\",async(req,res)=>res.json(await howFarCanItGo()));"
+    },
+    {
+      "line": 835,
+      "text": "   TRILLIONS ULTIMATE API CATALOG REGISTRY \u2014 FRONTIER/CAPTAIN/MAASS/HEIJAD/EXASCALE+"
+    },
+    {
+      "line": 836,
+      "text": "   Additive catalog-only + registered routes. REAL_OR_UNAVAILABLE."
+    },
+    {
+      "line": 838,
+      "text": "const TRILLIONS_ULTIMATE_API_CATALOG_REGISTRY={"
+    },
+    {
+      "line": 839,
+      "text": "  name:\"TRILLIONS_ULTIMATE_API_CATALOG_REGISTRY\","
+    },
+    {
+      "line": 841,
+      "text": "  doctrine:[\"CATALOG_REGISTERED\",\"REAL_OR_UNAVAILABLE\",\"NO_FAKE_SUPERCOMPUTER\",\"NO_FAKE_FLOPS\",\"NO_FAKE_HARDWARE\"],"
+    },
+    {
+      "line": 843,
+      "text": "    system:[\"/api/system\",\"/api/system/health\",\"/api/system/topology\",\"/api/system/os\",\"/api/system/processes\",\"/api/system/limits\",\"/api/system/sensors\",\"/api/system/temperature\",\"/api/system/power\",\"/api/system/energy\",\"/api/system/uptime\"],"
+    },
+    {
+      "line": 844,
+      "text": "    processor:[\"/api/processor\",\"/api/processor/profile\",\"/api/processor/topology\",\"/api/processor/cache\",\"/api/processor/instructions\",\"/api/processor/simd\",\"/api/processor/avx\",\"/api/processor/avx2\",\"/api/processor/avx512\",\"/api/processor/sse\",\"/api/processo"
+    },
+    {
+      "line": 845,
+      "text": "    memory:[\"/api/memory\",\"/api/memory/health\",\"/api/memory/pressure\",\"/api/memory/usage\",\"/api/memory/bandwidth\",\"/api/memory/latency\",\"/api/memory/numa\",\"/api/memory/ecc\",\"/api/memory/pagefaults\",\"/api/memory/hugepages\",\"/api/memory/swap\",\"/api/memory/cache\""
+    },
+    {
+      "line": 846,
+      "text": "    gpu:[\"/api/gpu\",\"/api/gpu/health\",\"/api/gpu/devices\",\"/api/gpu/vram\",\"/api/gpu/load\",\"/api/gpu/temperature\",\"/api/gpu/power\",\"/api/gpu/clocks\",\"/api/gpu/tensor\",\"/api/gpu/cuda\",\"/api/gpu/rocm\",\"/api/gpu/opencl\",\"/api/gpu/nccl\"],"
+    },
+    {
+      "line": 847,
+      "text": "    accelerators:[\"/api/accelerators\",\"/api/accelerators/list\",\"/api/accelerators/health\",\"/api/accelerators/fpga\",\"/api/accelerators/asic\",\"/api/accelerators/qpu\",\"/api/accelerators/tpu\",\"/api/accelerators/dpu\",\"/api/accelerators/npu\",\"/api/accelerators/copro"
+    },
+    {
+      "line": 848,
+      "text": "    network:[\"/api/network\",\"/api/network/health\",\"/api/network/interfaces\",\"/api/network/routes\",\"/api/network/dns\",\"/api/network/latency\",\"/api/network/throughput\",\"/api/network/packetloss\",\"/api/network/jitter\",\"/api/network/socket-summary\",\"/api/network/po"
+    },
+    {
+      "line": 849,
+      "text": "    storage:[\"/api/storage\",\"/api/storage/health\",\"/api/storage/disks\",\"/api/storage/fs\",\"/api/storage/usage\",\"/api/storage/iops\",\"/api/storage/latency\",\"/api/storage/read\",\"/api/storage/write\",\"/api/storage/bandwidth\",\"/api/storage/cache\",\"/api/storage/spill\""
+    },
+    {
+      "line": 850,
+      "text": "    io:[\"/api/io\",\"/api/io/health\",\"/api/io/sync\",\"/api/io/async\",\"/api/io/stream\",\"/api/io/batch\",\"/api/io/ring-buffer\",\"/api/io/backpressure\",\"/api/io/compression\",\"/api/io/decompression\",\"/api/io/checksum\",\"/api/io/ledger\"],"
+    },
+    {
+      "line": 851,
+      "text": "    jobs:[\"/api/jobs\",\"/api/jobs/create\",\"/api/jobs/start\",\"/api/jobs/stop\",\"/api/jobs/status\",\"/api/jobs/history\",\"/api/jobs/queue\",\"/api/jobs/priority\",\"/api/jobs/dependencies\",\"/api/jobs/dag\",\"/api/jobs/workers\",\"/api/jobs/worker-pool\",\"/api/jobs/scheduler\""
+    },
+    {
+      "line": 852,
+      "text": "    benchmark:[\"/api/benchmark\",\"/api/benchmark/health\",\"/api/benchmark/system\",\"/api/benchmark/cpu\",\"/api/benchmark/gpu\",\"/api/benchmark/memory\",\"/api/benchmark/io\",\"/api/benchmark/network\",\"/api/benchmark/latency\",\"/api/benchmark/throughput\",\"/api/benchmark/"
+    },
+    {
+      "line": 853,
+      "text": "    solver:[\"/api/solver\",\"/api/solver/strategic\",\"/api/solver/runtime\",\"/api/solver/math\",\"/api/solver/hpc\",\"/api/solver/blockchain\",\"/api/solver/benchmark\",\"/api/solver/orchestration\",\"/api/solver/gap-detector\",\"/api/solver/proof-audit\",\"/api/solver/result-l"
+    },
+    {
+      "line": 854,
+      "text": "    dict:[\"/api/dict\",\"/api/dict/classify\",\"/api/dict/system\",\"/api/dict/network\",\"/api/dict/memory\",\"/api/dict/io\",\"/api/dict/cache\",\"/api/dict/ecc\",\"/api/dict/benchmark\",\"/api/dict/solver\",\"/api/dict/hpc\",\"/api/dict/exascale\",\"/api/dict/frontier\",\"/api/dict/"
+    },
+    {
+      "line": 855,
+      "text": "    registry:[\"/api/registry\",\"/api/registry/routes\",\"/api/registry/dependencies\",\"/api/registry/families\",\"/api/registry/audit\",\"/api/registry/missing\",\"/api/registry/coverage\",\"/api/registry/health\"],"
+    },
+    {
+      "line": 856,
+      "text": "    hpc:[\"/api/hpc\",\"/api/hpc/profile\",\"/api/hpc/topology\",\"/api/hpc/nodes\",\"/api/hpc/cluster\",\"/api/hpc/rack\",\"/api/hpc/fabric\",\"/api/hpc/mpi\",\"/api/hpc/slurm\",\"/api/hpc/scheduler\",\"/api/hpc/jobs\",\"/api/hpc/partition\",\"/api/hpc/power\",\"/api/hpc/cooling\",\"/api"
+    },
+    {
+      "line": 857,
+      "text": "    exascale:[\"/api/exascale\",\"/api/exascale/profile\",\"/api/exascale/health\",\"/api/exascale/flops\",\"/api/exascale/energy\",\"/api/exascale/workload\",\"/api/exascale/scaling\",\"/api/exascale/weak-scaling\",\"/api/exascale/strong-scaling\",\"/api/exascale/efficiency\",\"/"
+    },
+    {
+      "line": 858,
+      "text": "    competition:[\"/api/frontier\",\"/api/frontier/profile\",\"/api/frontier/specs\",\"/api/frontier/benchmark\",\"/api/frontier/flops\",\"/api/frontier/energy\",\"/api/frontier/memory\",\"/api/frontier/fabric\",\"/api/frontier/compare\",\"/api/captain\",\"/api/captain/profile\",\"/"
+    },
+    {
+      "line": 859,
+      "text": "    blockchain_stratum:[\"/api/blockchain\",\"/api/blockchain/eth\",\"/api/blockchain/btc\",\"/api/blockchain/gas\",\"/api/blockchain/block\",\"/api/blockchain/mempool\",\"/api/blockchain/providers\",\"/api/blockchain/rpc-health\",\"/api/stratum\",\"/api/stratum/health\",\"/api/st"
+    },
+    {
+      "line": 860,
+      "text": "    health_cockpit:[\"/api/health\",\"/api/health/full\",\"/api/health/routes\",\"/api/health/modules\",\"/api/health/providers\",\"/api/health/jobs\",\"/api/health/memory\",\"/api/health/network\",\"/api/health/security\",\"/api/health/benchmark\",\"/api/cockpit\",\"/api/cockpit/me"
+    },
+    {
+      "line": 861,
+      "text": "    beyond:[\"/api/beyond-exascale\",\"/api/beyond-exascale/profile\",\"/api/beyond-exascale/zettascale\",\"/api/beyond-exascale/yottascale\",\"/api/beyond-exascale/orchestration\",\"/api/beyond-exascale/projection\",\"/api/beyond-exascale/limits\",\"/api/beyond-exascale/hon"
+    },
+    {
+      "line": 864,
+      "text": "function ultimateApiRoutes(){return [...new Set(Object.values(TRILLIONS_ULTIMATE_API_CATALOG_REGISTRY.families).flat())].sort();}"
+    },
+    {
+      "line": 865,
+      "text": "function apiCatalogPayload(route=\"/api/ultimate-api-catalog\"){"
+    },
+    {
+      "line": 866,
+      "text": "  const family=Object.entries(TRILLIONS_ULTIMATE_API_CATALOG_REGISTRY.families).find(([k,v])=>v.includes(route));"
+    },
+    {
+      "line": 867,
+      "text": "  return {time:now(),route,status:\"CATALOG_REGISTERED\",execution:\"catalog_endpoint_or_existing_runtime_route\",family:family?family[0]:\"unknown\",real_rule:\"REAL data if backed by host/runtime, otherwise PROFILE_ONLY/UNAVAILABLE\",honesty:\"This route is registere"
+    },
+    {
+      "line": 875,
+      "text": "  const missing=declared.filter(r=>!registered.has(r));"
+    },
+    {
+      "line": 876,
+      "text": "  return {time:now(),registry:TRILLIONS_ULTIMATE_API_CATALOG_REGISTRY.name,total_declared:declared.length,express_routes_detected:express.length,covered_count:covered.length,missing_count:missing.length,covered,missing,ok:missing.length===0};"
+    },
+    {
+      "line": 878,
+      "text": "function ultimateFamilySummary(){const o={}; for(const [k,v] of Object.entries(TRILLIONS_ULTIMATE_API_CATALOG_REGISTRY.families))o[k]={count:v.length,routes:v}; return o;}"
+    },
+    {
+      "line": 879,
+      "text": "app.get(\"/api/ultimate-api-catalog\",(req,res)=>res.json({time:now(),registry:TRILLIONS_ULTIMATE_API_CATALOG_REGISTRY,total_routes:ultimateApiRoutes().length,families:ultimateFamilySummary()}));"
+    },
+    {
+      "line": 880,
+      "text": "app.get(\"/api/ultimate-api-catalog/routes\",(req,res)=>res.json({time:now(),routes:ultimateApiRoutes()}));"
+    },
+    {
+      "line": 881,
+      "text": "app.get(\"/api/ultimate-api-catalog/families\",(req,res)=>res.json({time:now(),families:ultimateFamilySummary()}));"
+    },
+    {
+      "line": 882,
+      "text": "app.get(\"/api/ultimate-api-catalog/audit\",(req,res)=>res.json(ultimateApiAudit()));"
+    },
+    {
+      "line": 883,
+      "text": "app.get(\"/api/ultimate-api-catalog/dependencies\",(req,res)=>res.json({time:now(),npm:[\"dotenv\",\"express\",\"socket.io\",\"systeminformation\",\"axios\"],native:[\"http\",\"os\",\"fs\",\"path\",\"crypto\",\"events\",\"child_process\",\"zlib\",\"v8\"],optional_tools:[\"pm2\",\"git\",\"docker"
+    },
+    {
+      "line": 885,
+      "text": "  if([\"/api/jobs/create\",\"/api/jobs/start\",\"/api/dict/classify\",\"/api/ai-chat\"].includes(r))continue;"
+    },
+    {
+      "line": 886,
+      "text": "  app.get(r,(req,res)=>res.json(apiCatalogPayload(req.path)));"
+    },
+    {
+      "line": 959,
+      "text": "app.get('/api/v11-plus',(req,res)=>res.json(logicGuard(TRILLIONS_V11_PLUS_LAYER,'V11_PLUS')));"
+    },
+    {
+      "line": 960,
+      "text": "app.get('/api/runtime/dictionaries',(req,res)=>res.json(logicGuard({layer:TRILLIONS_V11_PLUS_LAYER,dictionaries:RUNTIME_DICTIONARIES},'RUNTIME_DICTIONARIES')));"
+    },
+    {
+      "line": 961,
+      "text": "app.get('/api/memory/pressure',async(req,res)=>res.json(await memoryPressureTracker()));"
+    },
+    {
+      "line": 962,
+      "text": "app.get('/api/energy/value',async(req,res)=>res.json(await energyValueAnalyzer()));"
+    },
+    {
+      "line": 963,
+      "text": "app.get('/api/providers/smart',async(req,res)=>res.json(await smartProviderRouting(String(req.query.m||'health check'))));"
+    },
+    {
+      "line": 964,
+      "text": "app.get('/api/correlation/super',async(req,res)=>res.json(await superCorrelationEngine()));"
+    },
+    {
+      "line": 965,
+      "text": "app.get('/api/reasoning/multilayer',async(req,res)=>res.json(await multiLayerRuntimeReasoning(String(req.query.m||'status'))));"
+    },
+    {
+      "line": 966,
+      "text": "app.get('/api/jobs/priority',async(req,res)=>res.json(await priorityJobEngine()));"
+    },
+    {
+      "line": 967,
+      "text": "app.post('/api/jobs/create-priority',async(req,res)=>{const b=req.body||{};const j=await createJob(b.type||'dict_route',b.input||{},b.priority||'normal');res.json(logicGuard(j,'PRIORITY_JOBS_CREATE'));});"
+    },
+    {
+      "line": 968,
+      "text": "app.get('/api/latency/guard',async(req,res)=>{const t=Date.now();const c=await cockpit().catch(e=>({error:e.message}));res.json(logicGuard({latency:latencyGuard('/api/cockpit',Date.now()-t),sample:c},'LATENCY_GUARD'));});"
+    },
+    {
+      "line": 983,
+      "text": "  outputs:[\"best_parameters\",\"baseline_before\",\"level_results\",\"gain_report_258\",\"activation_script\"]"
+    },
+    {
+      "line": 1057,
+      "text": "      \"curl -s http://localhost:${PORT:-3000}/api/orchestration-258/search-parameters | tee orchestration_258_report.json\","
+    },
+    {
+      "line": 1064,
+      "text": "app.get(\"/api/orchestration-direction\",async(req,res)=>res.json(TRILLIONS_V11_5_ORCHESTRATION_DIRECTION));"
+    },
+    {
+      "line": 1065,
+      "text": "app.get(\"/api/orchestration-258/search-parameters\",async(req,res)=>res.json(await v115SearchParameters()));"
+    },
+    {
+      "line": 1066,
+      "text": "app.get(\"/api/orchestration-258/activation-script\",async(req,res)=>res.json(v115ActivationScript()));"
+    },
+    {
+      "line": 1067,
+      "text": "app.get(\"/api/orchestration-258/reports\",async(req,res)=>res.json({time:now(),history:readJsonl(\"v11_5_orchestration_258_reports.jsonl\",20)}));"
+    },
+    {
+      "line": 1148,
+      "text": "  aliases: [\"flops\",\"flops libre\",\"benchmark flops\",\"gflops\",\"tflops\",\"mflops\",\"floating point\",\"calcul brut\",\"puissance calcul\",\"micro benchmark\",\"bench libre\"],"
+    },
+    {
+      "line": 1149,
+      "text": "  routes: [\"/api/benchmark/flops-libre\",\"/api/benchmark/flops-libre/dict\",\"/api/benchmark/flops-libre/report\"],"
+    },
+    {
+      "line": 1185,
+      "text": "    warnings: [\"Ce benchmark mesure un workload JavaScript local estim\u00e9.\",\"Comparer seulement avec le m\u00eame endpoint, m\u00eame size, m\u00eames rounds.\",\"Ce n'est pas un score LINPACK/HPL officiel.\",\"Aucune puissance mat\u00e9rielle fictive n'est revendiqu\u00e9e.\"]"
+    },
+    {
+      "line": 1189,
+      "text": "app.get(\"/api/benchmark/flops-libre\", async (req, res) => {"
+    },
+    {
+      "line": 1193,
+      "text": "app.get(\"/api/benchmark/flops-libre/dict\", async (req, res) => { res.json({ time: now(), dict: DICT_FLOPS_LIBRE }); });"
+    },
+    {
+      "line": 1194,
+      "text": "app.get(\"/api/benchmark/flops-libre/report\", async (req, res) => {"
+    },
+    {
+      "line": 1201,
+      "text": "   FLOPS_LIBRE_POWER_CATALOG \u2014 next real benchmark escalation"
+    },
+    {
+      "line": 1205,
+      "text": "const FLOPS_LIBRE_POWER_CATALOG={"
+    },
+    {
+      "line": 1206,
+      "text": "  name:\"FLOPS_LIBRE_POWER_CATALOG\","
+    },
+    {
+      "line": 1211,
+      "text": "    WASM_SIMD:{status:\"PROBE_ONLY\",route:\"/api/benchmark/wasm-simd/probe\",honesty:\"detects WebAssembly/SIMD capability; does not fake WASM FLOPS\"},"
+    },
+    {
+      "line": 1212,
+      "text": "    WORKER_THREADS:{status:\"REAL_IF_NODE_WORKER_THREADS\",route:\"/api/benchmark/flops-libre/workers\",honesty:\"parallel Node.js workers measured on host\"},"
+    },
+    {
+      "line": 1213,
+      "text": "    SHARED_ARRAY_BUFFER:{status:\"REAL_IF_GLOBAL_AVAILABLE\",route:\"/api/benchmark/shared-array-buffer/probe\",honesty:\"memory primitive probe and tiny atomic timing only\"},"
+    },
+    {
+      "line": 1214,
+      "text": "    BATCH_COMPUTE:{status:\"REAL_JS\",route:\"/api/benchmark/flops-libre/boost\",honesty:\"multiple bounded batches, measured wall time\"},"
+    },
+    {
+      "line": 1215,
+      "text": "    VECTORIZED_MATH:{status:\"REAL_TYPED_ARRAY_JS\",route:\"/api/benchmark/flops-libre/vectorized\",honesty:\"Float64Array workload; vectorized data layout, not CPU AVX claim\"},"
+    },
+    {
+      "line": 1216,
+      "text": "    ADAPTIVE_SCHEDULER:{status:\"REAL_JS_POLICY\",route:\"/api/benchmark/flops-libre/boost-report\",honesty:\"selects safe worker/iteration profile from host pressure\"},"
+    },
+    {
+      "line": 1217,
+      "text": "    NATIVE_ADDON_NODE:{status:\"OPTIONAL_UNAVAILABLE_UNLESS_BUILT\",route:\"/api/benchmark/native-addon/probe\",honesty:\"only reports node-gyp/native addon availability; no fake native speed\"},"
+    },
+    {
+      "line": 1218,
+      "text": "    GPU_COMPUTE_OPTIONAL:{status:\"OPTIONAL_UNAVAILABLE_UNLESS_DETECTED\",route:\"/api/benchmark/gpu/probe\",honesty:\"nvidia-smi/WebGPU/OpenCL detection only; no fake GPU compute\"},"
+    },
+    {
+      "line": 1219,
+      "text": "    CACHE_WARMUP_JIT:{status:\"REAL_JS\",route:\"/api/benchmark/flops-libre/warmup\",honesty:\"warmup before score to reduce JIT cold-start noise\"},"
+    },
+    {
+      "line": 1220,
+      "text": "    ANTI_NOISE_AVERAGING:{status:\"REAL_STATISTICS\",route:\"/api/benchmark/instant-score\",honesty:\"median/best/worst/stability from repeated measured samples\"}"
+    },
+    {
+      "line": 1226,
+      "text": "  const maxW=FLOPS_LIBRE_POWER_CATALOG.limits.max_workers;"
+    },
+    {
+      "line": 1248,
+      "text": "  return {time:now(),module:FLOPS_LIBRE_POWER_CATALOG.modules.WASM_SIMD,wasm_basic,simd_probe,honesty:\"probe only; no fake WASM benchmark\"};"
+    },
+    {
+      "line": 1259,
+      "text": "  return {time:now(),module:FLOPS_LIBRE_POWER_CATALOG.modules.SHARED_ARRAY_BUFFER,available,result};"
+    },
+    {
+      "line": 1277,
+      "text": "  let Worker; try{ Worker=require('worker_threads').Worker; }catch(e){ return {time:now(),ok:false,status:\"UNAVAILABLE\",error:e.message,module:FLOPS_LIBRE_POWER_CATALOG.modules.WORKER_THREADS}; }"
+    },
+    {
+      "line": 1279,
+      "text": "  const workers=Math.max(1,Math.min(Number(options.workers||cfg.workers),FLOPS_LIBRE_POWER_CATALOG.limits.max_workers));"
+    },
+    {
+      "line": 1280,
+      "text": "  const iterations=Math.max(100000,Math.min(Number(options.iterations||cfg.iterations),FLOPS_LIBRE_POWER_CATALOG.limits.max_iterations_per_worker));"
+    },
+    {
+      "line": 1281,
+      "text": "  const rounds=Math.max(1,Math.min(Number(options.rounds||cfg.rounds),FLOPS_LIBRE_POWER_CATALOG.limits.max_rounds));"
+    },
+    {
+      "line": 1302,
+      "text": "  return {time:now(),module:FLOPS_LIBRE_POWER_CATALOG.modules.CACHE_WARMUP_JIT,level,warmup_runs:warm.length,last:warm[warm.length-1]||null,honesty:\"warmup only, not counted as final certified score\"};"
+    },
+    {
+      "line": 1306,
+      "text": "  return {time:now(),module:FLOPS_LIBRE_POWER_CATALOG.modules.GPU_COMPUTE_OPTIONAL,nvidia_smi:nvidia.out.trim(),opencl:opencl.out.trim(),vulkan:vulkan.out.trim(),status:/unavailable/i.test(nvidia.out+opencl.out+vulkan.out)?\"UNAVAILABLE_OR_NOT_INSTALLED\":\"DETEC"
+    },
+    {
+      "line": 1310,
+      "text": "  return {time:now(),module:FLOPS_LIBRE_POWER_CATALOG.modules.NATIVE_ADDON_NODE,node_gyp:nodegyp.out.trim(),python:python.out.trim(),make:make.out.trim(),compiler:gcc.out.trim(),status:/unavailable/i.test(nodegyp.out+python.out+make.out+gcc.out)?\"PARTIAL_OR_UN"
+    },
+    {
+      "line": 1312,
+      "text": "async function powerCatalogStatus(){"
+    },
+    {
+      "line": 1314,
+      "text": "  return {time:now(),catalog:FLOPS_LIBRE_POWER_CATALOG,detected:{wasm_simd:wasm,shared_array_buffer:sab,gpu,native_addon:native},routes:[\"/api/benchmark/instant-score\",\"/api/benchmark/flops-libre/boost\",\"/api/benchmark/flops-libre/boost-report\",\"/api/benchmark"
+    },
+    {
+      "line": 1330,
+      "text": "  const report={time:now(),level,engine:\"FLOPS_LIBRE_POWER_CATALOG_BOOST_REPORT\",catalog:FLOPS_LIBRE_POWER_CATALOG,before,warmup:warm,benchmarks:{base_js:base,vectorized_typed_array:vector,worker_threads:workers},probes:{wasm_simd:wasm,shared_array_buffer:sab,"
+    },
+    {
+      "line": 1331,
+      "text": "  appendJsonl(\"flops_libre_power_catalog_reports.jsonl\",report);"
+    },
+    {
+      "line": 1340,
+      "text": "  DICT_FLOPS_LIBRE.routes.push(\"/api/benchmark/instant-score\",\"/api/benchmark/power-catalog\",\"/api/benchmark/flops-libre/boost\",\"/api/benchmark/flops-libre/boost-report\",\"/api/benchmark/flops-libre/workers\",\"/api/benchmark/flops-libre/vectorized\");"
+    },
+    {
+      "line": 1343,
+      "text": "app.get(\"/api/benchmark/instant-score\",async(req,res)=>res.json(await instantScore()));"
+    },
+    {
+      "line": 1344,
+      "text": "app.get(\"/api/benchmark/power-catalog\",async(req,res)=>res.json(await powerCatalogStatus()));"
+    },
+    {
+      "line": 1345,
+      "text": "app.get(\"/api/benchmark/wasm-simd/probe\",async(req,res)=>res.json(await wasmSimdProbe()));"
+    },
+    {
+      "line": 1346,
+      "text": "app.get(\"/api/benchmark/shared-array-buffer/probe\",async(req,res)=>res.json(await sharedArrayBufferProbe()));"
+    },
+    {
+      "line": 1347,
+      "text": "app.get(\"/api/benchmark/gpu/probe\",async(req,res)=>res.json(await gpuComputeProbe()));"
+    },
+    {
+      "line": 1348,
+      "text": "app.get(\"/api/benchmark/native-addon/probe\",async(req,res)=>res.json(await nativeAddonProbe()));"
+    },
+    {
+      "line": 1349,
+      "text": "app.get(\"/api/benchmark/flops-libre/warmup\",async(req,res)=>res.json(await warmupJitBenchmark(req.query.level||\"instant\")));"
+    },
+    {
+      "line": 1350,
+      "text": "app.get(\"/api/benchmark/flops-libre/vectorized\",async(req,res)=>res.json(await vectorizedMathBenchmark(req.query.iterations||2000000,req.query.rounds||3)));"
+    },
+    {
+      "line": 1351,
+      "text": "app.get(\"/api/benchmark/flops-libre/workers\",async(req,res)=>res.json(await workerThreadsFlopsBenchmark({level:req.query.level||\"standard\",workers:req.query.workers,iterations:req.query.iterations,rounds:req.query.rounds})));"
+    },
+    {
+      "line": 1352,
+      "text": "app.get(\"/api/benchmark/flops-libre/boost\",async(req,res)=>res.json(await workerThreadsFlopsBenchmark({level:req.query.level||\"standard\"})));"
+    },
+    {
+      "line": 1353,
+      "text": "app.get(\"/api/benchmark/flops-libre/boost-report\",async(req,res)=>res.json(await flopsBoostReport(req.query.level||\"standard\")));"
+    },
+    {
+      "line": 1354,
+      "text": "app.get(\"/api/benchmark/flops-libre/power-history\",(req,res)=>res.json({time:now(),history:readJsonl(\"flops_libre_power_catalog_reports.jsonl\",20)}));"
+    },
+    {
+      "line": 1372,
+      "text": "  routes:[\"/api/orchestrator-intelligent/catalog\",\"/api/orchestrator-intelligent/health\",\"/api/orchestrator-intelligent/stress\",\"/api/orchestrator-intelligent/score\",\"/api/orchestrator-intelligent/script\"],"
+    },
+    {
+      "line": 1527,
+      "text": "  return [`#!/usr/bin/env bash`,`set -euo pipefail`,`BASE=http://localhost:${PORT}`,`LEVEL=${level}`,`echo 'TRILLIONS intelligent hyper-stress level' $LEVEL`,`curl -s \"$BASE/api/orchestrator-intelligent/health\" | tee orchestrator_health_before.json >/dev/null`"
+    },
+    {
+      "line": 1535,
+      "text": "app.get(\"/api/orchestrator-intelligent/catalog\",(req,res)=>res.json({time:now(),runtime:INTELLIGENT_EXTREME_ORCHESTRATION_RUNTIME,dict:DICT_EXTREME_ORCHESTRATION}));"
+    },
+    {
+      "line": 1536,
+      "text": "app.get(\"/api/orchestrator-intelligent/health\",async(req,res)=>res.json(await intelligentOrchestratorHealth()));"
+    },
+    {
+      "line": 1537,
+      "text": "app.get(\"/api/orchestrator-intelligent/score\",async(req,res)=>res.json(await intelligentOrchestratorScore()));"
+    },
+    {
+      "line": 1538,
+      "text": "app.get(\"/api/orchestrator-intelligent/stress\",async(req,res)=>res.json(await intelligentHyperStress(req.query.level||\"standard\")));"
+    },
+    {
+      "line": 1539,
+      "text": "app.get(\"/api/orchestrator-intelligent/history\",(req,res)=>res.json({time:now(),history:readJsonl(\"intelligent_hyper_stress_reports.jsonl\",20)}));"
+    },
+    {
+      "line": 1540,
+      "text": "app.get(\"/api/orchestrator-intelligent/script\",(req,res)=>{res.type(\"text/plain\").send(intelligentStressScript(req.query.level||\"standard\"));});"
+    },
+    {
+      "line": 1547,
+      "text": "   HPC_ZETAHASH_PIPELINE \u2014 additive real heavy-compute catalog"
+    },
+    {
+      "line": 1562,
+      "text": "    \"/api/hpc-zeta/catalog\",\"/api/hpc-zeta/probe\",\"/api/hpc-zeta/health\",\"/api/hpc-zeta/stress\","
+    },
+    {
+      "line": 1563,
+      "text": "    \"/api/hpc-zeta/gpu-probe\",\"/api/hpc-zeta/cpu-vector-probe\",\"/api/hpc-zeta/memory-pool-probe\","
+    },
+    {
+      "line": 1564,
+      "text": "    \"/api/hpc-zeta/thermal\",\"/api/hpc-zeta/worker-pool-probe\""
+    },
+    {
+      "line": 1698,
+      "text": "app.get(\"/api/hpc-zeta/catalog\",(req,res)=>res.json({time:now(),pipeline:HPC_ZETAHASH_PIPELINE,dict:DICT_HPC_ZETAHASH}));"
+    },
+    {
+      "line": 1699,
+      "text": "app.get(\"/api/hpc-zeta/probe\",async(req,res)=>res.json(await hpcZetaProbe()));"
+    },
+    {
+      "line": 1700,
+      "text": "app.get(\"/api/hpc-zeta/health\",async(req,res)=>res.json(await hpcZetaHealth()));"
+    },
+    {
+      "line": 1701,
+      "text": "app.get(\"/api/hpc-zeta/stress\",async(req,res)=>res.json(await hpcZetaStress(String(req.query.level||\"standard\"))));"
+    },
+    {
+      "line": 1702,
+      "text": "app.get(\"/api/hpc-zeta/gpu-probe\",async(req,res)=>res.json(await hpcGpuPipelineProbe()));"
+    },
+    {
+      "line": 1703,
+      "text": "app.get(\"/api/hpc-zeta/cpu-vector-probe\",async(req,res)=>res.json(await hpcCpuVectorProbe()));"
+    },
+    {
+      "line": 1704,
+      "text": "app.get(\"/api/hpc-zeta/memory-pool-probe\",async(req,res)=>res.json(await hpcMemoryPoolProbe()));"
+    },
+    {
+      "line": 1705,
+      "text": "app.get(\"/api/hpc-zeta/thermal\",async(req,res)=>res.json(await hpcThermalTelemetry()));"
+    },
+    {
+      "line": 1706,
+      "text": "app.get(\"/api/hpc-zeta/worker-pool-probe\",async(req,res)=>res.json(await hpcPersistentWorkerPoolProbe()));"
+    },
+    {
+      "line": 1713,
+      "text": "   KYOTO V8 REMAINING CATALOGS \u2014 30 additive catalogs"
+    },
+    {
+      "line": 1716,
+      "text": "const KYOTO_V8_REMAINING_CATALOGS={"
+    },
+    {
+      "line": 1717,
+      "text": "  version:\"KYOTO_V8_REMAINING_CATALOGS_30\","
+    },
+    {
+      "line": 1719,
+      "text": "  catalogs:{"
+    },
+    {
+      "line": 1720,
+      "text": "    KYOTO_V8_DATABASE_CONNECTOR_CATALOG:[\"sqlite\",\"postgres\",\"mysql\",\"redis\",\"mongodb\",\"duckdb\",\"unavailable_if_absent\"],"
+    },
+    {
+      "line": 1721,
+      "text": "    KYOTO_V8_MESSAGE_BUS_CATALOG:[\"nats\",\"kafka\",\"redis_pubsub\",\"rabbitmq\",\"socketio\",\"eventemitter\",\"adapter_required\"],"
+    },
+    {
+      "line": 1722,
+      "text": "    KYOTO_V8_QUEUE_BACKEND_CATALOG:[\"memory_queue\",\"priority_queue\",\"bullmq_optional\",\"agenda_optional\",\"worker_threads\",\"safe_limits\"],"
+    },
+    {
+      "line": 1723,
+      "text": "    KYOTO_V8_OBSERVABILITY_EXPORT_CATALOG:[\"json\",\"jsonl\",\"prometheus_text\",\"csv\",\"console\",\"websocket_delta\",\"no_fake_metrics\"],"
+    },
+    {
+      "line": 1724,
+      "text": "    KYOTO_V8_TELEMETRY_SCHEMA_CATALOG:[\"time\",\"source\",\"unit\",\"value\",\"status\",\"REAL_ESTIMATE_UNAVAILABLE\",\"trace_id\"],"
+    },
+    {
+      "line": 1725,
+      "text": "    KYOTO_V8_ENERGY_VALUE_CATALOG:[\"watts_if_available\",\"energy_cost_estimate\",\"joules_unavailable_if_no_sensor\",\"work_per_watt_label\"],"
+    },
+    {
+      "line": 1726,
+      "text": "    KYOTO_V8_THERMAL_POLICY_CATALOG:[\"cpu_temp\",\"gpu_temp\",\"thermal_guard\",\"throttle_label\",\"unavailable_if_no_sensor\"],"
+    },
+    {
+      "line": 1727,
+      "text": "    KYOTO_V8_GPU_COMPUTE_BACKEND_CATALOG:[\"nvidia_smi\",\"cuda_optional\",\"opencl_optional\",\"webgpu_optional\",\"unavailable_if_absent\"],"
+    },
+    {
+      "line": 1728,
+      "text": "    KYOTO_V8_FPGA_ASIC_BRIDGE_CATALOG:[\"fpga_optional\",\"asic_optional\",\"stratum_optional\",\"sha256d\",\"real_pool_required\"],"
+    },
+    {
+      "line": 1729,
+      "text": "    KYOTO_V8_STRATUM_SAFE_CATALOG:[\"tcp_client\",\"pool_status\",\"job_notify\",\"submit_result\",\"no_fake_hashrate\",\"safe_only\"],"
+    },
+    {
+      "line": 1730,
+      "text": "    KYOTO_V8_BLOCKCHAIN_PROVIDER_CATALOG:[\"eth_rpc\",\"chain_id\",\"block_height\",\"gas\",\"provider_latency\",\"connected_or_unavailable\"],"
+    },
+    {
+      "line": 1731,
+      "text": "    KYOTO_V8_MARKET_DATA_PROVIDER_CATALOG:[\"coingecko_optional\",\"exchange_optional\",\"price_latency\",\"rate_limit\",\"unavailable_if_absent\"],"
+    },
+    {
+      "line": 1732,
+      "text": "    KYOTO_V8_TIME_SYNC_CATALOG:[\"system_time\",\"ntp_optional\",\"timer_drift\",\"event_loop_drift\",\"clock_source\"],"
+    },
+    {
+      "line": 1733,
+      "text": "    KYOTO_V8_RANDOMNESS_ENTROPY_CATALOG:[\"crypto_randomBytes\",\"openssl_rng\",\"entropy_status\",\"latency\",\"no_weak_secret_exposure\"],"
+    },
+    {
+      "line": 1734,
+      "text": "    KYOTO_V8_SERIALIZATION_FORMAT_CATALOG:[\"json\",\"jsonl\",\"csv\",\"binary_buffer\",\"base64\",\"msgpack_optional\"],"
+    },
+    {
+      "line": 1735,
+      "text": "    KYOTO_V8_COMPRESSION_ALGO_CATALOG:[\"deflate\",\"inflate\",\"gzip\",\"brotli_optional\",\"stream_pipeline\",\"mb_s_estimate\"],"
+    },
+    {
+      "line": 1736,
+      "text": "    KYOTO_V8_HTTP_CLIENT_CATALOG:[\"axios\",\"fetch_if_available\",\"timeout\",\"retry_policy\",\"status_code\",\"latency_ms\"],"
+    },
+    {
+      "line": 1737,
+      "text": "    KYOTO_V8_DNS_RESOLUTION_CATALOG:[\"resolv_conf\",\"lookup\",\"dns_latency\",\"nameserver\",\"unavailable_if_absent\"],"
+    },
+    {
+      "line": 1738,
+      "text": "    KYOTO_V8_PORT_SERVICE_CATALOG:[\"ss\",\"lsof_optional\",\"netstat_optional\",\"listening_ports\",\"safe_scan_only\"],"
+    },
+    {
+      "line": 1739,
+      "text": "    KYOTO_V8_PROCESS_TREE_CATALOG:[\"pid\",\"ppid\",\"cpu_percent\",\"rss\",\"command\",\"top_processes\"],"
+    },
+    {
+      "line": 1740,
+      "text": "    KYOTO_V8_PM2_RUNTIME_CATALOG:[\"pm2_ls\",\"pm2_jlist\",\"restart_manual\",\"logs\",\"unavailable_if_absent\"],"
+    },
+    {
+      "line": 1741,
+      "text": "    KYOTO_V8_GIT_REPO_HEALTH_CATALOG:[\"git_status\",\"branch\",\"log\",\"file_count\",\"repo_size\",\"dirty_state\"],"
+    },
+    {
+      "line": 1742,
+      "text": "    KYOTO_V8_DEPENDENCY_AUDIT_CATALOG:[\"npm_ls\",\"npm_audit\",\"package_json\",\"lockfile\",\"missing_dependency_hint\"],"
+    },
+    {
+      "line": 1743,
+      "text": "    KYOTO_V8_CONFIG_ENV_CATALOG:[\"env_presence_only\",\"dotenv\",\"no_secret_print\",\"runtime_flags\",\"safe_config\"],"
+    },
+    {
+      "line": 1744,
+      "text": "    KYOTO_V8_UI_CONTROL_SURFACE_CATALOG:[\"tabs\",\"buttons\",\"terminal\",\"ai_chat\",\"wave_canvas\",\"route_output\"],"
+    },
+    {
+      "line": 1745,
+      "text": "    KYOTO_V8_MOBILE_RECONNECT_CATALOG:[\"visibilitychange\",\"online_offline\",\"socket_reconnect\",\"keepalive_ping\"],"
+    },
+    {
+      "line": 1746,
+      "text": "    KYOTO_V8_LEDGER_PERSISTENCE_CATALOG:[\"jsonl_ledger\",\"jobs_history\",\"repair_ledger\",\"result_ledger\",\"append_only\"],"
+    },
+    {
+      "line": 1747,
+      "text": "    KYOTO_V8_ERROR_TAXONOMY_CATALOG:[\"syntax_error\",\"timeout\",\"missing_module\",\"network_error\",\"permission_error\",\"blocked_command\"],"
+    },
+    {
+      "line": 1748,
+      "text": "    KYOTO_V8_ROLLBACK_SNAPSHOT_CATALOG:[\"backup_before_replace\",\"timestamped_copy\",\"restore_manual\",\"safe_repair_only\"],"
+    },
+    {
+      "line": 1749,
+      "text": "    KYOTO_V8_MASTER_INDEX_CATALOG:[\"v2\",\"v3\",\"v4\",\"v5\",\"v6\",\"v7\",\"v8\",\"single_runtime_index\"]"
+    },
+    {
+      "line": 1752,
+      "text": "function kyotoV8RemainingFull(){return {time:now(),catalog:KYOTO_V8_REMAINING_CATALOGS,rule:\"catalog only; measurements remain REAL/ESTIMATE/UNAVAILABLE\"}}"
+    },
+    {
+      "line": 1753,
+      "text": "app.get(\"/api/kyoto/v8/full\",(req,res)=>res.json(kyotoV8RemainingFull()));"
+    },
+    {
+      "line": 1754,
+      "text": "app.get(\"/api/kyoto/v8/catalogs\",(req,res)=>res.json(KYOTO_V8_REMAINING_CATALOGS.catalogs));"
+    },
+    {
+      "line": 1755,
+      "text": "app.get(\"/api/kyoto/v8/observability\",(req,res)=>res.json({time:now(),telemetry:KYOTO_V8_REMAINING_CATALOGS.catalogs.KYOTO_V8_TELEMETRY_SCHEMA_CATALOG,export:KYOTO_V8_REMAINING_CATALOGS.catalogs.KYOTO_V8_OBSERVABILITY_EXPORT_CATALOG}));"
+    },
+    {
+      "line": 1756,
+      "text": "app.get(\"/api/kyoto/v8/runtime-services\",(req,res)=>res.json({time:now(),ports:KYOTO_V8_REMAINING_CATALOGS.catalogs.KYOTO_V8_PORT_SERVICE_CATALOG,pm2:KYOTO_V8_REMAINING_CATALOGS.catalogs.KYOTO_V8_PM2_RUNTIME_CATALOG,process:KYOTO_V8_REMAINING_CATALOGS.catalogs"
+    },
+    {
+      "line": 1757,
+      "text": "app.get(\"/api/kyoto/v8/connectors\",(req,res)=>res.json({time:now(),database:KYOTO_V8_REMAINING_CATALOGS.catalogs.KYOTO_V8_DATABASE_CONNECTOR_CATALOG,bus:KYOTO_V8_REMAINING_CATALOGS.catalogs.KYOTO_V8_MESSAGE_BUS_CATALOG,blockchain:KYOTO_V8_REMAINING_CATALOGS.ca"
+    },
+    {
+      "line": 1758,
+      "text": "app.get(\"/api/kyoto/v8/safety\",(req,res)=>res.json({time:now(),errors:KYOTO_V8_REMAINING_CATALOGS.catalogs.KYOTO_V8_ERROR_TAXONOMY_CATALOG,rollback:KYOTO_V8_REMAINING_CATALOGS.catalogs.KYOTO_V8_ROLLBACK_SNAPSHOT_CATALOG,env:KYOTO_V8_REMAINING_CATALOGS.catalogs"
+    },
+    {
+      "line": 1775,
+      "text": " hot:new Map(),ring:[],index:new Map(),ttl:new Map(),stats:{put:0,get:0,hit:0,miss:0,spill:0,dedup:0,evict:0,crc_fail:0,bytes_in:0,bytes_stored:0,snapshots:0,errors:[]}"
+    },
+    {
+      "line": 1782,
+      "text": "function tmemGet(key){try{const M=TRILLIONS_MEMORY_CACHE_ECC_222;M.stats.get++;const meta=M.index.get(key);if(!meta){M.stats.miss++;return{ok:false,key,error:\"NOT_FOUND\"}}if(M.ttl.get(key)&&Date.now()>M.ttl.get(key)){M.hot.delete(key);M.ttl.delete(key)}let raw"
+    },
+    {
+      "line": 1783,
+      "text": "function tmemHealth(){const M=TRILLIONS_MEMORY_CACHE_ECC_222;return{ok:true,time:now(),memory_cache_ecc:M.name,version:M.version,profile:M.profile,honesty:M.honesty,pressure:tmemPressure(),metrics:{...M.stats,hit_rate_percent:M.stats.get?+(M.stats.hit/M.stats."
+    },
+    {
+      "line": 1786,
+      "text": "app.get(\"/api/memory-ecc-222/health\",(req,res)=>res.json(tmemHealth()));"
+    },
+    {
+      "line": 1787,
+      "text": "app.get(\"/api/memory-ecc-222/selftest\",(req,res)=>res.json(tmemSelfTest()));"
+    },
+    {
+      "line": 1788,
+      "text": "app.get(\"/api/memory-ecc-222/snapshot\",(req,res)=>res.json(tmemSnapshot(\"api\")));"
+    },
+    {
+      "line": 1789,
+      "text": "app.post(\"/api/memory-ecc-222/put\",(req,res)=>{const b=req.body||{};if(!b.key)return res.status(400).json({ok:false,error:\"key required\"});res.json(tmemPut(b.key,b.value,{ttlMs:b.ttlMs}))});"
+    },
+    {
+      "line": 1790,
+      "text": "app.get(\"/api/memory-ecc-222/get/:key\",(req,res)=>res.json(tmemGet(req.params.key)));"
+    },
+    {
+      "line": 1805,
+      "text": "  routes:[\"/api/backend\",\"/api/backend/health\",\"/api/worker\",\"/api/worker/health\",\"/api/worker/run\",\"/api/worker/benchmark\"],"
+    },
+    {
+      "line": 1811,
+      "text": "    if(!fs.existsSync(file))return resolve({ok:false,error:\"worker_file_missing\",file});"
+    },
+    {
+      "line": 1821,
+      "text": "app.get(\"/api/backend\",(req,res)=>res.json({time:now(),registry:TRILLIONS_BACKEND_WORKER_REGISTRY}));"
+    },
+    {
+      "line": 1822,
+      "text": "app.get(\"/api/backend/health\",async(req,res)=>res.json({time:now(),ok:true,backend:\"app.js+backend_shell\",folders:{backend:fs.existsSync(path.join(process.cwd(),\"backend\")),workers:fs.existsSync(path.join(process.cwd(),\"workers\"))},worker_file:fs.existsSync(pa"
+    },
+    {
+      "line": 1823,
+      "text": "app.get(\"/api/worker\",(req,res)=>res.json({time:now(),registry:TRILLIONS_BACKEND_WORKER_REGISTRY}));"
+    },
+    {
+      "line": 1824,
+      "text": "app.get(\"/api/worker/health\",async(req,res)=>res.json({time:now(),probe:await runTrillionsWorker({type:\"noop\"},5000)}));"
+    },
+    {
+      "line": 1825,
+      "text": "app.post(\"/api/worker/run\",async(req,res)=>res.json({time:now(),result:await runTrillionsWorker(req.body||{},Number(req.body&&req.body.timeout_ms||30000))}));"
+    },
+    {
+      "line": 1826,
+      "text": "app.get(\"/api/worker/benchmark\",async(req,res)=>{const type=String(req.query.type||\"typedarray\");const size=Number(req.query.size||500000);const rounds=Number(req.query.rounds||50000);res.json({time:now(),result:await runTrillionsWorker({type,size,rounds},3000"
+    },
+    {
+      "line": 1985,
+      "text": "  const routes=[\"/api/ping\",\"/api/heartbeat\",\"/api/system\",\"/api/cockpit\",\"/api/capacity\",\"/api/network\",\"/api/jobs\",\"/api/ai-chat\",\"/api/ai-kernel/plan\",\"/api/repair\",\"/api/providers/smart\",\"/api/v11-super\"];"
+    },
+    {
+      "line": 2001,
+      "text": "  return {time:now(),engine:\"SUPER_CORRELATION_ENGINE\",warnings,decision_hint:warnings.length?\"degrade_polling_reduce_batch_or_configure_missing_sources\":\"nominal\",memory:mem,capacity:cap,energy,providers,routes};"
+    },
+    {
+      "line": 2009,
+      "text": "  if(classification.find(x=>x.domain===\"SYSTEM\"))recommended.push(\"/api/system\",\"/api/cockpit\",\"/api/capacity\");"
+    },
+    {
+      "line": 2010,
+      "text": "  if(classification.find(x=>x.domain===\"AI\"))recommended.push(\"/api/ai-kernel/plan\",\"/api/providers/smart\");"
+    },
+    {
+      "line": 2011,
+      "text": "  if(classification.find(x=>x.domain===\"SOLVER\"))recommended.push(\"/api/jobs/priority\");"
+    },
+    {
+      "line": 2036,
+      "text": "app.get(\"/api/v11-super\",async(req,res)=>res.json({time:now(),mode:TRILLIONS_SUPER_INTELLIGENCE_MODE,timings:DICT_TIMINGS_CANONIQUE,repair_playbook:SAFE_REPAIR_PLAYBOOK}));"
+    },
+    {
+      "line": 2037,
+      "text": "app.get(\"/api/boot/self-test\",async(req,res)=>res.json(await bootSelfTestTotal()));"
+    },
+    {
+      "line": 2038,
+      "text": "app.get(\"/api/routes/health-matrix\",async(req,res)=>res.json(await routeHealthMatrix()));"
+    },
+    {
+      "line": 2039,
+      "text": "app.get(\"/api/timings\",async(req,res)=>res.json({time:now(),timings:DICT_TIMINGS_CANONIQUE}));"
+    },
+    {
+      "line": 2040,
+      "text": "app.get(\"/api/providers/score\",async(req,res)=>res.json(await providerScoreEngine()));"
+    },
+    {
+      "line": 2041,
+      "text": "app.get(\"/api/memory/pressure-v2\",async(req,res)=>res.json(memoryPressureTracker()));"
+    },
+    {
+      "line": 2042,
+      "text": "app.get(\"/api/shell/capabilities\",async(req,res)=>res.json(await shellCapabilityMatrix()));"
+    },
+    {
+      "line": 2043,
+      "text": "app.get(\"/api/energy/value-v2\",async(req,res)=>res.json(await energyValueAnalyzer()));"
+    },
+    {
+      "line": 2044,
+      "text": "app.get(\"/api/correlation/super-v2\",async(req,res)=>res.json(await superCorrelationEngine()));"
+    },
+    {
+      "line": 2045,
+      "text": "app.get(\"/api/reasoning/multilayer-v2\",async(req,res)=>res.json(await multiLayerRuntimeReasoning(req.query.m||req.query.message||\"\")));"
+    },
+    {
+      "line": 2046,
+      "text": "app.post(\"/api/reasoning/multilayer-v2\",async(req,res)=>res.json(await multiLayerRuntimeReasoning(req.body.message||req.body.text||\"\")));"
+    },
+    {
+      "line": 2047,
+      "text": "app.get(\"/api/repair/playbook\",async(req,res)=>res.json({time:now(),playbook:SAFE_REPAIR_PLAYBOOK}));"
+    },
+    {
+      "line": 2077,
+      "text": "  protected_routes: [\"/api/shell\", \"/api/jobs/create\", \"/api/jobs/start\", \"/api/tests/heavy-workload\"],"
+    },
+    {
+      "line": 2085,
+      "text": "  return res.status(401).json({ok:false,module:\"ACCESS_GUARD_LIGHT\",status:\"blocked\",reason:\"missing_or_invalid_api_key\"});"
+    },
+    {
+      "line": 2106,
+      "text": "  const routes=[\"/api/ping\",\"/api/system\",\"/api/cockpit\",\"/api/capacity\",\"/api/network\",\"/api/jobs\",\"/api/ai-chat\",\"/api/repair\",\"/api/providers/score\",\"/api/memory/ledger\",\"/api/energy/value-v3\",\"/api/gains/report-258\"];"
+    },
+    {
+      "line": 2112,
+      "text": "      if(route===\"/api/system\") await system();"
+    },
+    {
+      "line": 2113,
+      "text": "      else if(route===\"/api/cockpit\") await cached(\"cockpit_v113\",POWER?.knobs?.cache_ttl_ms||2000,cockpit);"
+    },
+    {
+      "line": 2114,
+      "text": "      else if(route===\"/api/capacity\") await capacity();"
+    },
+    {
+      "line": 2115,
+      "text": "      else if(route===\"/api/network\") status=\"registered_probe_heavy_not_called\";"
+    },
+    {
+      "line": 2197,
+      "text": "  if(!b||!a||!h) return {time:now(),module:\"ORCHESTRATION_258_GAIN_REPORT\",status:\"UNAVAILABLE\",reason:\"run /api/tests/heavy-workload first\",gain_percent_real:null,gain_percent_orchestration_258:null};"
+    },
+    {
+      "line": 2209,
+      "text": "app.get(\"/api/v11-3\",(req,res)=>res.json(TRILLIONS_V11_3_POSITIVE_WEAKNESS));"
+    },
+    {
+      "line": 2210,
+      "text": "app.get(\"/api/auth/status\",(req,res)=>res.json(authStatus()));"
+    },
+    {
+      "line": 2211,
+      "text": "app.get(\"/api/rate-limit/status\",(req,res)=>res.json(rateLimitStatus()));"
+    },
+    {
+      "line": 2212,
+      "text": "app.get(\"/api/routes/health-matrix\",async(req,res)=>res.json(await liveRouteHealthMatrix()));"
+    },
+    {
+      "line": 2213,
+      "text": "app.get(\"/api/boot/self-test\",async(req,res)=>res.json(await totalBootValidator()));"
+    },
+    {
+      "line": 2214,
+      "text": "app.get(\"/api/providers/score\",async(req,res)=>res.json(await providerIntelligenceScore()));"
+    },
+    {
+      "line": 2215,
+      "text": "app.get(\"/api/jobs/dependency-graph\",(req,res)=>res.json(workflowDependencyEngine()));"
+    },
+    {
+      "line": 2216,
+      "text": "app.get(\"/api/memory/ledger\",(req,res)=>res.json(memoryLedgerStatus()));"
+    },
+    {
+      "line": 2217,
+      "text": "app.get(\"/api/energy/value-v3\",async(req,res)=>res.json(await energyValueTruthGate()));"
+    },
+    {
+      "line": 2218,
+      "text": "app.get(\"/api/websocket/flow\",(req,res)=>res.json(websocketFlowStatus()));"
+    },
+    {
+      "line": 2219,
+      "text": "app.get(\"/api/tests/heavy-workload\",accessGuardLight,async(req,res)=>res.json(await heavyLoadGainObserver()));"
+    },
+    {
+      "line": 2220,
+      "text": "app.get(\"/api/gains/report-258\",(req,res)=>res.json(orchestration258GainReport()));"
+    },
+    {
+      "line": 2221,
+      "text": "app.get(\"/api/weaknesses/positive\",(req,res)=>res.json({time:now(),transform:TRILLIONS_V11_3_POSITIVE_WEAKNESS.modules,verdict:\"weaknesses transformed into positive observable modules\"}));"
+    },
+    {
+      "line": 2245,
+      "text": "async function cacheEfficiencyAnalyzer(){return {time:now(),source:\"RUNTIME_CACHE\",cache_items:CACHE.size,policy:POWER.knobs.cache_ttl_ms?\"TTL_CACHE_ACTIVE\":\"UNAVAILABLE\",ttl_ms:POWER.knobs.cache_ttl_ms,meaning:\"cache efficiency requires hit/miss counters in n"
+    },
+    {
+      "line": 2249,
+      "text": "app.get(\"/api/performance/augmentor\",async(req,res)=>res.json(TRILLIONS_V11_4_PERFORMANCE_CALCUL_AUGMENTOR));"
+    },
+    {
+      "line": 2250,
+      "text": "app.get(\"/api/performance/baseline\",async(req,res)=>res.json(await performanceBaseline()));"
+    },
+    {
+      "line": 2251,
+      "text": "app.get(\"/api/performance/mastery\",async(req,res)=>res.json(await computeMasterControl()));"
+    },
+    {
+      "line": 2252,
+      "text": "app.get(\"/api/performance/workers\",async(req,res)=>res.json((await computeMasterControl()).controlled_worker_pool));"
+    },
+    {
+      "line": 2253,
+      "text": "app.get(\"/api/performance/scheduler\",async(req,res)=>res.json((await computeMasterControl()).scheduler));"
+    },
+    {
+      "line": 2254,
+      "text": "app.get(\"/api/performance/cache-efficiency\",async(req,res)=>res.json(await cacheEfficiencyAnalyzer()));"
+    },
+    {
+      "line": 2255,
+      "text": "app.get(\"/api/performance/job-efficiency\",async(req,res)=>res.json(await jobEfficiencyAnalyzer()));"
+    },
+    {
+      "line": 2256,
+      "text": "app.get(\"/api/performance/micro-benchmark\",async(req,res)=>res.json(await realMicroBenchmark(req.query.iterations,req.query.workers)));"
+    },
+    {
+      "line": 2257,
+      "text": "app.post(\"/api/performance/compute-run\",async(req,res)=>res.json(await realMicroBenchmark(req.body&&req.body.iterations,req.body&&req.body.workers)));"
+    },
+    {
+      "line": 2258,
+      "text": "app.get(\"/api/performance/gain-report\",async(req,res)=>res.json(await gainBeforeAfterReport()));"
+    },
+    {
+      "line": 2264,
+      "text": "   Purpose: superior control dashboard + safe performance scripts catalog."
+    },
+    {
+      "line": 2379,
+      "text": "        bash: \"curl -s http://localhost:${PORT:-3000}/api/workload-runtime/status | jq .\""
+    },
+    {
+      "line": 2383,
+      "text": "        bash: \"curl -s http://localhost:${PORT:-3000}/api/performance/gain-report | jq .\""
+    },
+    {
+      "line": 2387,
+      "text": "        bash: \"curl -s 'http://localhost:${PORT:-3000}/api/performance/micro-benchmark?iterations=250000&workers=1' | jq .\""
+    },
+    {
+      "line": 2391,
+      "text": "        bash: \"curl -s 'http://localhost:${PORT:-3000}/api/performance/micro-benchmark?iterations=1000000&workers=2' | jq .\""
+    },
+    {
+      "line": 2395,
+      "text": "        bash: \"curl -s http://localhost:${PORT:-3000}/api/workload-runtime/memory | jq .\""
+    },
+    {
+      "line": 2403,
+      "text": "        bash: \"curl -s http://localhost:${PORT:-3000}/api/routes/test | jq .\""
+    },
+    {
+      "line": 2407,
+      "text": "        bash: \"curl -s http://localhost:${PORT:-3000}/api/ai-chat/providers | jq .\""
+    },
+    {
+      "line": 2411,
+      "text": "        bash: \"curl -s http://localhost:${PORT:-3000}/api/websocket/flow | jq .\""
+    },
+    {
+      "line": 2427,
+      "text": "      \"curl -s http://localhost:3000/api/workload-runtime/status | jq .\""
+    },
+    {
+      "line": 2460,
+      "text": "<button onclick=\"load('/api/workload-runtime/status')\">STATUS</button>"
+    },
+    {
+      "line": 2461,
+      "text": "<button onclick=\"load('/api/workload-runtime/scripts')\">SCRIPTS</button>"
+    },
+    {
+      "line": 2462,
+      "text": "<button onclick=\"load('/api/performance/gain-report')\">GAIN REPORT</button>"
+    },
+    {
+      "line": 2463,
+      "text": "<button onclick=\"load('/api/performance/micro-benchmark?iterations=250000&workers=1')\">LIGHT BENCH</button>"
+    },
+    {
+      "line": 2464,
+      "text": "<button onclick=\"load('/api/ai-chat/providers')\">PROVIDERS</button>"
+    },
+    {
+      "line": 2465,
+      "text": "<button onclick=\"load('/api/routes/test')\">ROUTES</button>"
+    },
+    {
+      "line": 2466,
+      "text": "<button onclick=\"load('/api/workload-runtime/memory')\">MEMORY</button>"
+    },
+    {
+      "line": 2467,
+      "text": "<button onclick=\"load('/api/workload-runtime/energy')\">ENERGY</button>"
+    },
+    {
+      "line": 2469,
+      "text": "<div class=\"card half\"><h2>Output</h2><pre id=\"out\">READY</pre></div>"
+    },
+    {
+      "line": 2476,
+      "text": "    const r=await fetch('/api/workload-runtime/status',{cache:'no-store'}).catch(e=>({text:async()=>String(e)})); const j=await r.text(); last={stability:j.pressure.stability_percent||0,chaos:j.pressure.chaos_risk_percent||0,cpu:j.pressure.cpu_load_percent||0,"
+    },
+    {
+      "line": 2484,
+      "text": "async function load(u){out.textContent='LOADING '+u;try{const r=await fetch(u,{cache:'no-store'}).catch(e=>({text:async()=>String(e)}));out.textContent = TX_renderOutput(await r.text(),null,2)}catch(e){out.textContent='ERROR '+e.message}}"
+    },
+    {
+      "line": 2493,
+      "text": "app.get(\"/api/workload-runtime/status\",async(req,res)=>res.json(await superiorRuntimeSnapshot()));"
+    },
+    {
+      "line": 2494,
+      "text": "app.get(\"/api/workload-runtime/dashboard\",async(req,res)=>res.json({time:now(),url:\"/workloads-runtime\",dashboard:TRILLIONS_V11_6_WORKLOAD_RUNTIME_DASHBOARD}));"
+    },
+    {
+      "line": 2495,
+      "text": "app.get(\"/api/workload-runtime/memory\",async(req,res)=>res.json(await (typeof memoryPressureTracker===\"function\"?memoryPressureTracker():Promise.resolve({status:\"UNAVAILABLE\"}))));"
+    },
+    {
+      "line": 2496,
+      "text": "app.get(\"/api/workload-runtime/energy\",async(req,res)=>res.json(await (typeof energyValueAnalyzer===\"function\"?energyValueAnalyzer():Promise.resolve({status:\"UNAVAILABLE\"}))));"
+    },
+    {
+      "line": 2497,
+      "text": "app.get(\"/api/workload-runtime/scripts\",(req,res)=>res.json(safePerformanceScripts()));"
+    },
+    {
+      "line": 2498,
+      "text": "app.get(\"/api/workload-runtime/solver\",async(req,res)=>{"
+    },
+    {
+      "line": 2608,
+      "text": "    1:{name:\"BASELINE_STABLE\",parallel:1,loops:1,routes:[\"/api/ping\",\"/api/cockpit\",\"/api/capacity\",\"/api/workload-runtime/memory\",\"/api/routes/test\"]},"
+    },
+    {
+      "line": 2609,
+      "text": "    2:{name:\"HEAVY_CONTROLLED\",parallel:8,loops:3,routes:[\"/api/power\",\"/api/full\",\"/api/ai-chat/providers\",\"/api/workload-runtime/status\"]},"
+    },
+    {
+      "line": 2610,
+      "text": "    3:{name:\"VERY_HEAVY_PROGRESSIVE\",parallel:30,loops:4,routes:[\"/api/cockpit\",\"/api/capacity\",\"/api/workload-runtime/memory\",\"/api/positive-runtime/status\"]},"
+    },
+    {
+      "line": 2611,
+      "text": "    4:{name:\"EXTREME_GUARDED\",parallel:100,loops:3,routes:[\"/api/full\",\"/api/power\",\"/api/how-far-can-it-go\",\"/api/positive-runtime/status\"]}"
+    },
+    {
+      "line": 2622,
+      "text": "    \"curl -s $BASE/api/positive-runtime/baseline | tee positive_baseline_before.json >/dev/null\","
+    },
+    {
+      "line": 2629,
+      "text": "    \"  curl -s $BASE/api/positive-runtime/status | tee positive_status_level_${LEVEL}_round_${round}.json >/dev/null\","
+    },
+    {
+      "line": 2631,
+      "text": "    \"curl -s $BASE/api/positive-runtime/baseline | tee positive_baseline_after.json >/dev/null\","
+    },
+    {
+      "line": 2680,
+      "text": "app.get(\"/api/positive-runtime\",(req,res)=>res.json(TRILLIONS_V11_6_POSITIVE_RUNTIME_LAYER));"
+    },
+    {
+      "line": 2681,
+      "text": "app.get(\"/api/positive-runtime/status\",async(req,res)=>res.json(await positiveRuntimeStatus()));"
+    },
+    {
+      "line": 2682,
+      "text": "app.get(\"/api/positive-runtime/baseline\",async(req,res)=>res.json(await positiveBaseline()));"
+    },
+    {
+      "line": 2683,
+      "text": "app.get(\"/api/positive-runtime/cache/optimize\",(req,res)=>res.json({time:now(),optimizer:\"CACHE_HEALTH_OPTIMIZER\",result:positivePruneCache()}));"
+    },
+    {
+      "line": 2684,
+      "text": "app.get(\"/api/positive-runtime/provider\",async(req,res)=>res.json(await positiveProviderGuard()));"
+    },
+    {
+      "line": 2685,
+      "text": "app.get(\"/api/positive-runtime/routes\",async(req,res)=>res.json(await positiveRouteHealth()));"
+    },
+    {
+      "line": 2686,
+      "text": "app.get(\"/api/positive-runtime/heavy-route-check\",(req,res)=>res.json(positiveHeavyRouteCheck(req.query.route||\"/api/full\")));"
+    },
+    {
+      "line": 2687,
+      "text": "app.get(\"/api/positive-runtime/stress-plan\",(req,res)=>res.json(positiveStressPlan(req.query.level||1)));"
+    },
+    {
+      "line": 2688,
+      "text": "app.get(\"/api/positive-runtime/stress-script\",(req,res)=>{res.type(\"text/plain\").send(positiveStressPlan(req.query.level||1).script);});"
+    },
+    {
+      "line": 2711,
+      "text": "    ROUTE_SURVIVAL:{keys:[\"route\",\"routes\",\"registered\",\"ping\",\"health\",\"alive\",\"survival\"],routes:[\"/api/ping\",\"/api/routes/test\",\"/api/kernel-score\"],weight:0.16,pass:\"routes_registered_and_ping_alive\"},"
+    },
+    {
+      "line": 2712,
+      "text": "    RECOVERY:{keys:[\"recover\",\"recovery\",\"baseline\",\"after\",\"descend\",\"cooldown\",\"heap\",\"ram\"],routes:[\"/api/positive-runtime/baseline\",\"/api/kernel-score/recovery\"],weight:0.16,pass:\"pressure_detected_and_recovery_possible\"},"
+    },
+    {
+      "line": 2713,
+      "text": "    CACHE:{keys:[\"cache\",\"ttl\",\"hit\",\"miss\",\"prune\",\"optimize\"],routes:[\"/api/positive-runtime/cache/optimize\"],weight:0.12,pass:\"cache_bounded_or_pruned\"},"
+    },
+    {
+      "line": 2714,
+      "text": "    JOBS:{keys:[\"job\",\"jobs\",\"queue\",\"queued\",\"running\",\"done\",\"error\",\"priority\"],routes:[\"/api/jobs\"],weight:0.12,pass:\"jobs_bounded_and_not_exploding\"},"
+    },
+    {
+      "line": 2715,
+      "text": "    WEBSOCKET:{keys:[\"socket\",\"websocket\",\"clients\",\"reconnect\",\"noise\",\"delta\"],routes:[\"/api/clients\",\"/api/heartbeat\"],weight:0.10,pass:\"socket_alive_or_zero_clients_clean\"},"
+    },
+    {
+      "line": 2716,
+      "text": "    PROVIDER:{keys:[\"provider\",\"ai\",\"pollinations\",\"ollama\",\"openai\",\"health\"],routes:[\"/api/ai-chat/providers\",\"/api/kernel-score/provider\"],weight:0.10,pass:\"provider_real_or_unavailable_not_fake\"},"
+    },
+    {
+      "line": 2717,
+      "text": "    HONESTY:{keys:[\"real\",\"unavailable\",\"fake\",\"metrics\",\"power\",\"honesty\"],routes:[\"/api/kernel-score\"],weight:0.12,pass:\"no_fake_metrics_no_fake_power\"},"
+    },
+    {
+      "line": 2718,
+      "text": "    SAFETY:{keys:[\"safe\",\"repair\",\"blocked\",\"dangerous\",\"guard\",\"level4\"],routes:[\"/api/repair\",\"/api/kernel-score/level4-guard\"],weight:0.12,pass:\"SAFE_REPAIR_ONLY_active_and_level4_guarded\"}"
+    },
+    {
+      "line": 2831,
+      "text": "  return {time:now(),guard:\"LEVEL_4_AUTO_GUARD\",decision,codespaces,host_context:host,safe_plan:{parallel:safe_parallel,loops:safe_loops,routes:[\"/api/kernel-score\",\"/api/routes/test\",\"/api/positive-runtime/status\",\"/api/positive-runtime/cache/optimize\"]},bloc"
+    },
+    {
+      "line": 2871,
+      "text": "    \"curl -s $BASE/api/kernel-score/level4-guard | tee kernel_level4_guard_before.json >/dev/null\","
+    },
+    {
+      "line": 2872,
+      "text": "    \"curl -s $BASE/api/kernel-score/report | tee kernel_score_before.json >/dev/null\","
+    },
+    {
+      "line": 2876,
+      "text": "    \"    curl -s $BASE/api/kernel-score >/dev/null &\","
+    },
+    {
+      "line": 2877,
+      "text": "    \"    curl -s $BASE/api/routes/test >/dev/null &\","
+    },
+    {
+      "line": 2878,
+      "text": "    \"    curl -s $BASE/api/positive-runtime/status >/dev/null &\","
+    },
+    {
+      "line": 2879,
+      "text": "    \"    curl -s $BASE/api/positive-runtime/cache/optimize >/dev/null &\","
+    },
+    {
+      "line": 2882,
+      "text": "    \"  curl -s $BASE/api/kernel-score/report | tee kernel_score_level_${LEVEL}_round_${round}.json >/dev/null\","
+    },
+    {
+      "line": 2884,
+      "text": "    \"curl -s $BASE/api/kernel-score/report | tee kernel_score_after.json >/dev/null\","
+    },
+    {
+      "line": 2890,
+      "text": "app.get(\"/api/kernel-score\",async(req,res)=>res.json(await kernelScoreReport()));"
+    },
+    {
+      "line": 2891,
+      "text": "app.get(\"/api/kernel-score/report\",async(req,res)=>res.json(await kernelScoreReport()));"
+    },
+    {
+      "line": 2892,
+      "text": "app.get(\"/api/kernel-score/history\",async(req,res)=>res.json({time:now(),history:readJsonl(\"kernel_score_reports.jsonl\",30)}));"
+    },
+    {
+      "line": 2893,
+      "text": "app.get(\"/api/kernel-score/dict\",(req,res)=>res.json(DICT_STRESS_EXTREME));"
+    },
+    {
+      "line": 2894,
+      "text": "app.get(\"/api/kernel-score/engine\",(req,res)=>res.json(KERNEL_BASED_STRESS_SCORE_ENGINE));"
+    },
+    {
+      "line": 2895,
+      "text": "app.get(\"/api/kernel-score/level4-guard\",async(req,res)=>res.json(await level4AutoGuard()));"
+    },
+    {
+      "line": 2896,
+      "text": "app.get(\"/api/kernel-score/provider\",async(req,res)=>res.json(await kernelProviderScore()));"
+    },
+    {
+      "line": 2897,
+      "text": "app.get(\"/api/kernel-score/recovery\",async(req,res)=>res.json(await kernelRecoveryScore()));"
+    },
+    {
+      "line": 2898,
+      "text": "app.get(\"/api/kernel-score/stress-plan\",(req,res)=>res.json(kernelScoreStressPlan(req.query.level||4)));"
+    },
+    {
+      "line": 2899,
+      "text": "app.get(\"/api/kernel-score/stress-script\",(req,res)=>{res.type(\"text/plain\").send(kernelScoreStressPlan(req.query.level||4).script);});"
+    },
+    {
+      "line": 2922,
+      "text": "    ROUTE_SURVIVAL:{weight:0.10,keys:[\"routes\",\"ping\",\"registered\",\"survival\",\"health\"],routes:[\"/api/ping\",\"/api/routes/test\",\"/api/frontier-kernel/report\"]},"
+    },
+    {
+      "line": 2923,
+      "text": "    SCHEDULER:{weight:0.10,keys:[\"scheduler\",\"loop\",\"interval\",\"throttle\",\"adaptive\",\"cooldown\"],routes:[\"/api/positive-runtime/status\",\"/api/frontier-kernel/report\"]},"
+    },
+    {
+      "line": 2924,
+      "text": "    JOBS:{weight:0.09,keys:[\"jobs\",\"queue\",\"queued\",\"running\",\"done\",\"error\",\"priority\",\"useful\"],routes:[\"/api/jobs\"]},"
+    },
+    {
+      "line": 2925,
+      "text": "    CACHE:{weight:0.09,keys:[\"cache\",\"hit\",\"miss\",\"prune\",\"ttl\",\"optimize\"],routes:[\"/api/positive-runtime/cache/optimize\"]},"
+    },
+    {
+      "line": 2926,
+      "text": "    WEBSOCKET:{weight:0.09,keys:[\"websocket\",\"socket\",\"quiet\",\"delta\",\"reconnect\",\"noise\"],routes:[\"/api/clients\",\"/api/heartbeat\"]},"
+    },
+    {
+      "line": 2927,
+      "text": "    PROVIDER:{weight:0.09,keys:[\"provider\",\"AI\",\"pollinations\",\"openai\",\"ollama\",\"real\",\"unavailable\"],routes:[\"/api/ai-chat/providers\",\"/api/kernel-score/provider\"]},"
+    },
+    {
+      "line": 2928,
+      "text": "    RECOVERY:{weight:0.10,keys:[\"recovery\",\"baseline\",\"after\",\"ram\",\"heap\",\"latency\",\"cooldown\"],routes:[\"/api/kernel-score/recovery\"]},"
+    },
+    {
+      "line": 2929,
+      "text": "    SAFETY:{weight:0.10,keys:[\"safe\",\"repair\",\"guard\",\"blocked\",\"dangerous\",\"level4\"],routes:[\"/api/repair\",\"/api/kernel-score/level4-guard\"]},"
+    },
+    {
+      "line": 2930,
+      "text": "    HONESTY:{weight:0.10,keys:[\"honesty\",\"fake\",\"metrics\",\"power\",\"real_only\",\"unavailable\"],routes:[\"/api/kernel-score\"]},"
+    },
+    {
+      "line": 2931,
+      "text": "    ORCHESTRATION_PROGRESSIVE:{weight:0.12,keys:[\"progressive\",\"ramp\",\"phase\",\"frontier\",\"maximal\",\"orchestration\"],routes:[\"/api/frontier-kernel/plan\",\"/api/frontier-kernel/script\"]},"
+    },
+    {
+      "line": 2932,
+      "text": "    MAXIMAL_GUARD:{weight:0.12,keys:[\"maximal\",\"guard\",\"auto_guard\",\"downgrade\",\"host_limit\",\"kernel_safe\"],routes:[\"/api/frontier-kernel/maximal-guard\"]}"
+    },
+    {
+      "line": 3026,
+      "text": "    {phase:\"P0_BASELINE\",parallel:1,loops:1,routes:[\"/api/kernel-score/report\",\"/api/routes/test\",\"/api/positive-runtime/status\"],goal:\"baseline kernel health\"},"
+    },
+    {
+      "line": 3027,
+      "text": "    {phase:\"P1_LIGHT_RAMP\",parallel:6,loops:1,routes:[\"/api/frontier-kernel/report\",\"/api/kernel-score/report\"],goal:\"light orchestration\"},"
+    },
+    {
+      "line": 3028,
+      "text": "    {phase:\"P2_CONTROLLED_RAMP\",parallel:12,loops:2,routes:[\"/api/cockpit\",\"/api/capacity\",\"/api/frontier-kernel/report\",\"/api/positive-runtime/cache/optimize\"],goal:\"scheduler/cache/jobs/websocket sanity\"},"
+    },
+    {
+      "line": 3029,
+      "text": "    {phase:\"P3_HEAVY_ORCHESTRATION\",parallel:24,loops:2,routes:[\"/api/full\",\"/api/power\",\"/api/kernel-score/report\",\"/api/positive-runtime/status\"],goal:\"heavy kernel orchestration under host pressure\"},"
+    },
+    {
+      "line": 3030,
+      "text": "    {phase:\"P4_MAXIMAL_GUARDED\",parallel:\"auto\",loops:\"auto\",routes:[\"/api/frontier-kernel/maximal-guard\",\"/api/frontier-kernel/report\"],goal:\"maximal guarded kernel validation\"},"
+    },
+    {
+      "line": 3031,
+      "text": "    {phase:\"P5_RECOVERY_VERDICT\",parallel:1,loops:1,routes:[\"/api/frontier-kernel/verdict\",\"/api/kernel-score/recovery\"],goal:\"recovery + final verdict\"}"
+    },
+    {
+      "line": 3047,
+      "text": "    \"curl -s $BASE/api/frontier-kernel/maximal-guard | tee frontier_maximal_guard_before.json >/dev/null\","
+    },
+    {
+      "line": 3048,
+      "text": "    \"curl -s $BASE/api/frontier-kernel/full-recovery | tee frontier_recovery_before.json >/dev/null\","
+    },
+    {
+      "line": 3049,
+      "text": "    \"curl -s $BASE/api/frontier-kernel/report | tee frontier_kernel_before.json >/dev/null\","
+    },
+    {
+      "line": 3053,
+      "text": "    \"    curl -s $BASE/api/frontier-kernel/report >/dev/null &\","
+    },
+    {
+      "line": 3054,
+      "text": "    \"    curl -s $BASE/api/kernel-score/report >/dev/null &\","
+    },
+    {
+      "line": 3055,
+      "text": "    \"    curl -s $BASE/api/routes/test >/dev/null &\","
+    },
+    {
+      "line": 3056,
+      "text": "    \"    curl -s $BASE/api/positive-runtime/status >/dev/null &\","
+    },
+    {
+      "line": 3057,
+      "text": "    \"    curl -s $BASE/api/positive-runtime/cache/optimize >/dev/null &\","
+    },
+    {
+      "line": 3060,
+      "text": "    \"  curl -s $BASE/api/frontier-kernel/cache-prune | tee frontier_cache_prune_level_${LEVEL}_round_${round}.json >/dev/null\","
+    },
+    {
+      "line": 3061,
+      "text": "    \"  curl -s $BASE/api/frontier-kernel/full-recovery | tee frontier_recovery_level_${LEVEL}_round_${round}.json >/dev/null\","
+    },
+    {
+      "line": 3062,
+      "text": "    \"  curl -s $BASE/api/frontier-kernel/report | tee frontier_kernel_level_${LEVEL}_round_${round}.json >/dev/null\","
+    },
+    {
+      "line": 3064,
+      "text": "    \"curl -s $BASE/api/frontier-kernel/cache-prune | tee frontier_cache_prune_after.json >/dev/null\","
+    },
+    {
+      "line": 3065,
+      "text": "    \"curl -s $BASE/api/frontier-kernel/full-report | tee frontier_full_kernel_after.json >/dev/null\","
+    },
+    {
+      "line": 3066,
+      "text": "    \"curl -s $BASE/api/frontier-kernel/verdict | tee frontier_kernel_after.json >/dev/null\","
+    },
+    {
+      "line": 3072,
+      "text": "app.get(\"/api/frontier-kernel/engine\",(req,res)=>res.json(FRONTIER_STYLE_KERNEL_ORCHESTRATION_ENGINE));"
+    },
+    {
+      "line": 3073,
+      "text": "app.get(\"/api/frontier-kernel/dict\",(req,res)=>res.json(DICT_FRONTIER_STYLE_KERNEL_ORCHESTRATION));"
+    },
+    {
+      "line": 3074,
+      "text": "app.get(\"/api/frontier-kernel/plan\",(req,res)=>res.json(frontierKernelPlan()));"
+    },
+    {
+      "line": 3075,
+      "text": "app.get(\"/api/frontier-kernel/report\",async(req,res)=>res.json(await frontierKernelReport()));"
+    },
+    {
+      "line": 3076,
+      "text": "app.get(\"/api/frontier-kernel/maximal-guard\",async(req,res)=>res.json(await frontierKernelMaximalGuard()));"
+    },
+    {
+      "line": 3077,
+      "text": "app.get(\"/api/frontier-kernel/verdict\",async(req,res)=>res.json(await frontierKernelReport()));"
+    },
+    {
+      "line": 3078,
+      "text": "app.get(\"/api/frontier-kernel/history\",(req,res)=>res.json({time:now(),history:readJsonl(\"frontier_kernel_reports.jsonl\",30)}));"
+    },
+    {
+      "line": 3079,
+      "text": "app.get(\"/api/frontier-kernel/script\",(req,res)=>{res.type(\"text/plain\").send(frontierKernelScript(req.query.level||4).script);});"
+    },
+    {
+      "line": 3080,
+      "text": "app.get(\"/api/frontier-kernel/stress-script\",(req,res)=>{res.type(\"text/plain\").send(frontierKernelScript(req.query.level||4).script);});"
+    },
+    {
+      "line": 3105,
+      "text": "  routes:[\"/api/frontier-kernel/full-recovery\",\"/api/frontier-kernel/full-report\",\"/api/frontier-kernel/ram-recovery\",\"/api/frontier-kernel/heap-cooldown\",\"/api/frontier-kernel/post-stress-window\",\"/api/frontier-kernel/cache-prune\"],"
+    },
+    {
+      "line": 3234,
+      "text": "    \"curl -s $BASE/api/frontier-kernel/full-report | tee frontier_full_before.json >/dev/null\","
+    },
+    {
+      "line": 3235,
+      "text": "    \"curl -s $BASE/api/frontier-kernel/maximal-guard | tee frontier_full_guard_before.json >/dev/null\","
+    },
+    {
+      "line": 3239,
+      "text": "    \"    curl -s $BASE/api/frontier-kernel/report >/dev/null &\","
+    },
+    {
+      "line": 3240,
+      "text": "    \"    curl -s $BASE/api/kernel-score/report >/dev/null &\","
+    },
+    {
+      "line": 3241,
+      "text": "    \"    curl -s $BASE/api/routes/test >/dev/null &\","
+    },
+    {
+      "line": 3242,
+      "text": "    \"    curl -s $BASE/api/positive-runtime/status >/dev/null &\","
+    },
+    {
+      "line": 3245,
+      "text": "    \"  curl -s $BASE/api/frontier-kernel/cache-prune | tee frontier_full_cache_prune_level_${LEVEL}_round_${round}.json >/dev/null\","
+    },
+    {
+      "line": 3246,
+      "text": "    \"  curl -s $BASE/api/frontier-kernel/full-recovery | tee frontier_full_recovery_level_${LEVEL}_round_${round}.json >/dev/null\","
+    },
+    {
+      "line": 3247,
+      "text": "    \"  curl -s $BASE/api/frontier-kernel/full-report | tee frontier_full_report_level_${LEVEL}_round_${round}.json >/dev/null\","
+    },
+    {
+      "line": 3249,
+      "text": "    \"curl -s $BASE/api/frontier-kernel/cache-prune | tee frontier_full_cache_prune_after.json >/dev/null\","
+    },
+    {
+      "line": 3250,
+      "text": "    \"curl -s $BASE/api/frontier-kernel/full-report?prune=1 | tee frontier_full_after.json >/dev/null\","
+    },
+    {
+      "line": 3256,
+      "text": "app.get(\"/api/frontier-kernel/recovery-engine\",(req,res)=>res.json(FRONTIER_RECOVERY_COMPLETE_ENGINE));"
+    },
+    {
+      "line": 3257,
+      "text": "app.get(\"/api/frontier-kernel/recovery-dict\",(req,res)=>res.json(DICT_FRONTIER_RECOVERY_COMPLETE));"
+    },
+    {
+      "line": 3258,
+      "text": "app.get(\"/api/frontier-kernel/ram-recovery\",async(req,res)=>res.json(await ramRecoveryScore()));"
+    },
+    {
+      "line": 3259,
+      "text": "app.get(\"/api/frontier-kernel/heap-cooldown\",async(req,res)=>res.json(await heapCooldownScore()));"
+    },
+    {
+      "line": 3260,
+      "text": "app.get(\"/api/frontier-kernel/post-stress-window\",async(req,res)=>res.json(await postStressRecoveryWindow()));"
+    },
+    {
+      "line": 3261,
+      "text": "app.get(\"/api/frontier-kernel/cache-prune\",async(req,res)=>res.json(await autoCachePruneAfterFrontierTest(true)));"
+    }
+  ],
+  "policy": "UI output renderer + timeout only; backend logic preserved",
+  "seal": "140cde1f69d1a1f3b2ce3f4498bbdf13ed672df7442a6381e25d8036bfe39913"
+}

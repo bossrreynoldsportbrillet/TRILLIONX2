@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "node app.js",
+    "audit:plugins": "node -e \"const {auditPlugins}=require('./plugins/plugin.loader'); console.log(JSON.stringify(auditPlugins(),null,2))\"",
+    "check": "node --check app.js",
+    "audit:runtime": "node -e \"require('./app.js')\""
+  },
+  "dependencies": {
+    "dotenv": "latest",
+    "express": "latest",
+    "socket.io": "latest",
+    "systeminformation": "latest",
+    "axios": "latest"
+  }
+}

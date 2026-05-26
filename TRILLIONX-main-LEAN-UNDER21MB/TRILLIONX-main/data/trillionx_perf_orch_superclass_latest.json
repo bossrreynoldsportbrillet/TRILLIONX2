@@ -1,0 +1,254 @@
+{
+  "name": "TRILLIONX_PERFORMANCE_ORCHESTRATION_SUPERCLASS_BENCH",
+  "version": "V1",
+  "time": "2026-05-24T08:16:24.532Z",
+  "support": {
+    "time": "2026-05-24T08:16:19.747Z",
+    "runtime": {
+      "node": "v24.14.0",
+      "platform": "linux",
+      "arch": "x64",
+      "pid": 158454,
+      "codespaces": true,
+      "container": true,
+      "hostname": "codespaces-09650b"
+    },
+    "cpu": {
+      "model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+      "logical_cpus": 2,
+      "reported_speed_mhz": 3487,
+      "flags": {
+        "sse": true,
+        "sse2": true,
+        "sse4_1": true,
+        "sse4_2": true,
+        "avx": true,
+        "avx2": true,
+        "avx512f": true,
+        "fma": true,
+        "aes": true,
+        "sha_ni": true
+      },
+      "lscpu": "Architecture:                         x86_64\nCPU op-mode(s):                       32-bit, 64-bit\nAddress sizes:                        46 bits physical, 57 bits virtual\nByte Order:                           Little Endian\nCPU(s):                               2\nOn-line CPU(s) list:                  0,1\nVendor ID:                            GenuineIntel\nModel name:                           Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz\nCPU family:                           6\nModel:                                106\nThread(s) per core:                   2\nCore(s) per socket:                   1\nSocket(s):                            1\nStepping:                             6\nCPU(s) scaling MHz:                   125%\nCPU max MHz:                          2800.0000\nCPU min MHz:                          800.0000\nBogoMIPS:                             5586.87\nFlags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch tpr_shadow ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves vnmi avx512vbmi umip avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq la57 rdpid fsrm arch_capabilities\nVirtualization:                       VT-x\nHypervisor vendor:                    Microsoft\nVirtualization type:                  full\nL1d cache:                            48 KiB (1 instance)\nL1i cache:                            32 KiB (1 instance)\nL2 cache:                             1.3 MiB (1 instance)\nL3 cache:                             48 MiB (1 instance)\nNUMA node(s):                         1\nNUMA node0 CPU(s):                    0,1\nVulnerability Gather data sampling:   Not affected\nVulnerability Itlb multihit:          Not affected\nVulnerability L1tf:                   Not affected\nVulnerability Mds:                    Not affected\nVulnerability Meltdown:               Not affected\nVulnerability Mmio stale data:        Vulnerable: Clear CPU buffers attempted, no microcode; SMT Host state unknown\nVulnerability Reg file data sampling: Not affected\nVulnerability Retbleed:               Vulnerable\nVulnerability Spec rstack overflow:   Not affected\nVulnerability Spec store bypass:      Vulnerable\nVulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:             Mitigation; Retpolines; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Retpoline\nVulnerability Srbds:                  Not affected\nVulnerability Tsx async abort:        Not affected\nVulnerability Vmscape:                Not affected"
+    },
+    "memory": {
+      "total_gb": 7.76,
+      "free_gb": 1.12
+    },
+    "disk": {
+      "cwd": "/workspaces/TRILLIONX",
+      "df": "/dev/loop5       32G  9.7G   21G  33% /workspaces"
+    },
+    "git": {
+      "remote": "origin\thttps://github.com/bossrreynoldsportbrillet/TRILLIONX.git (fetch)\norigin\thttps://github.com/bossrreynoldsportbrillet/TRILLIONX.git (push)",
+      "head": "08ecf72 Add native C SIMD AVX AVX2 AVX512 benchmark"
+    },
+    "doctrine": "REAL_MEASURED_OR_UNAVAILABLE_NO_FAKE_SUPERCOMPUTER"
+  },
+  "native_simd": {
+    "name": "TRILLIONX_NATIVE_SIMD_AVX_AVX2_AVX512_REPORT",
+    "time": "2026-05-24T08:12:50.275Z",
+    "host": {
+      "cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+      "logical_cpus": 2,
+      "platform": "linux",
+      "arch": "x64",
+      "node": "v24.14.0",
+      "codespaces": true,
+      "container": true
+    },
+    "compiler": "/usr/bin/gcc",
+    "compile_command": "/usr/bin/gcc -O3 -march=native native/simd/trillionx_simd_native_bench.c -o native/simd/trillionx_simd_native_bench",
+    "detected_flags": {
+      "sse": true,
+      "sse2": true,
+      "sse4_1": true,
+      "sse4_2": true,
+      "avx": true,
+      "avx2": true,
+      "avx512f": true,
+      "fma": true
+    },
+    "native_result": {
+      "name": "TRILLIONX_NATIVE_SIMD_AVX_BENCH",
+      "n": 16000000,
+      "rounds": 24,
+      "scalar": {
+        "compiled": true,
+        "seconds": 0.209362,
+        "gops": 9.170716,
+        "checksum": 4104.732755
+      },
+      "avx512": {
+        "compiled": true,
+        "seconds": 0.352789,
+        "gops": 5.44235,
+        "checksum": 4104.732755
+      },
+      "avx": {
+        "compiled": true,
+        "seconds": 0.352011,
+        "gops": 5.45437,
+        "checksum": 4104.732755
+      },
+      "avx2": {
+        "compiled": true,
+        "note": "AVX2 flag enabled; float path uses AVX registers, AVX2 mainly benefits integer/vector extensions"
+      },
+      "fma": {
+        "compiled": true
+      },
+      "doctrine": "NATIVE_C_SIMD_REAL_EXECUTION_IF_CPU_AND_COMPILER_ALLOW"
+    },
+    "verdict": {
+      "native_simd": true,
+      "avx_detected": true,
+      "avx2_detected": true,
+      "avx512_detected": true,
+      "note": "This is native C SIMD compiled with -march=native. It is real native execution, not pure JavaScript."
+    }
+  },
+  "compute": {
+    "matrix": {
+      "n": 192,
+      "ms": 19.82,
+      "approx_ops": 14155776,
+      "approx_gops": 0.7142,
+      "checksum": 48087.46959
+    },
+    "hash": {
+      "total_mb": 1024,
+      "ms": 869.49,
+      "mb_per_sec": 1177.71,
+      "digest": "2a6027b54d832d6a9ffb2ef3"
+    },
+    "compression": {
+      "input_mb": 32,
+      "output_mb": 32.01,
+      "ratio": 1.0003,
+      "integrity": true,
+      "ms": 878.18,
+      "mb_per_sec": 36.44
+    },
+    "io": {
+      "mb": 64,
+      "write_ms": 39.32,
+      "read_ms": 34.89,
+      "write_mb_s": 1627.83,
+      "read_mb_s": 1834.36,
+      "integrity": true
+    }
+  },
+  "orchestration": {
+    "api": [
+      {
+        "path": "/api/ping",
+        "ok": true,
+        "status": 200,
+        "ms": 17.4,
+        "bytes": 169
+      },
+      {
+        "path": "/api/system",
+        "ok": true,
+        "status": 200,
+        "ms": 712.54,
+        "bytes": 1884
+      },
+      {
+        "path": "/api/capacity",
+        "ok": true,
+        "status": 200,
+        "ms": 521.55,
+        "bytes": 452
+      },
+      {
+        "path": "/api/modules",
+        "ok": true,
+        "status": 200,
+        "ms": 8.36,
+        "bytes": 79379
+      },
+      {
+        "path": "/api/security",
+        "ok": true,
+        "status": 200,
+        "ms": 1126.41,
+        "bytes": 12742
+      },
+      {
+        "path": "/api/supercompute",
+        "ok": true,
+        "status": 200,
+        "ms": 104.52,
+        "bytes": 4677
+      },
+      {
+        "path": "/api/trillionx/virtual-threadripper/verdict",
+        "ok": true,
+        "status": 200,
+        "ms": 3.25,
+        "bytes": 612
+      },
+      {
+        "path": "/api/trillionx/support-base",
+        "ok": true,
+        "status": 200,
+        "ms": 2.3,
+        "bytes": 486
+      },
+      {
+        "path": "/api/trillionx/backups/verdict",
+        "ok": true,
+        "status": 200,
+        "ms": 2.29,
+        "bytes": 263
+      }
+    ],
+    "workers": {
+      "worker_count": 2,
+      "loops_per_worker": 2000000,
+      "total_loops": 4000000,
+      "total_ms": 221.36,
+      "loops_per_sec": 18070040.28,
+      "jobs_per_sec": 9.04,
+      "results": [
+        {
+          "ms": 133.27,
+          "loops": 2000000,
+          "checksum": 15147662.7022,
+          "hash": "a8e509e6953558c0"
+        },
+        {
+          "ms": 136.83,
+          "loops": 2000000,
+          "checksum": 15147662.7022,
+          "hash": "764c5173063d2e5e"
+        }
+      ]
+    }
+  },
+  "memory_now": {
+    "rss_mb": 252.18,
+    "heap_used_mb": 5.41,
+    "external_mb": 130.01
+  },
+  "truth_policy": {
+    "real_only": true,
+    "no_fake_supercomputer": true,
+    "target_threadripper_profile_not_physical_claim": true,
+    "equivalent_classification_indicative_only": true
+  },
+  "classification": {
+    "classification": "CODESPACES_HPC_FEATURED_NODE_INDICATIVE",
+    "equivalent_system_reading": "single virtualized HPC-capable node features, not a supercomputer",
+    "real_host": "CODESPACES_VIRTUALIZED_HOST",
+    "native_best_gops": 9.1707,
+    "node_matrix_gops": 0.7142,
+    "worker_loops_per_sec": 18070040.28,
+    "api_success": "9/9",
+    "trillionx_orchestration_score": 85.72,
+    "warning": "This is an indicative equivalence classifier. It does not claim Frontier/Captain/exascale performance.",
+    "doctrine": "BENCHMARK_TRUTH_REAL_HOST_ONLY"
+  }
+}

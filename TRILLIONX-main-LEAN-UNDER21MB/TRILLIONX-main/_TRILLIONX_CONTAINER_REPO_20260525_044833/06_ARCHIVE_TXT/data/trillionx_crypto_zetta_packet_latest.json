@@ -1,0 +1,1254 @@
+{
+  "engine": "TRILLIONX",
+  "bench": "CRYPTO_ZETTA_PACKET_BENCH",
+  "mode": "fire",
+  "packets": 12,
+  "wait_ms": 250,
+  "host": {
+    "runtime": "TRILLIONX_CRYPTO_PACKET_ENGINE",
+    "cpu_logical": 2,
+    "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "cpu_ghz": 3.464,
+    "ram_gb": 7.757,
+    "free_gb": 1.165,
+    "node": "v24.14.0",
+    "simd": {
+      "avx": true,
+      "avx2": true,
+      "avx512": true,
+      "fma": true,
+      "aes": true,
+      "sha_ni": true,
+      "sse4_2": true
+    },
+    "memory": {
+      "rss_mb": 46.676,
+      "heap_mb": 4.794,
+      "external_mb": 1.617
+    }
+  },
+  "results": [
+    {
+      "packet": 1,
+      "params": {
+        "shaMB": 10,
+        "shaRounds": 5,
+        "pbkdf": 155000,
+        "scryptN": 4096,
+        "matN": 36,
+        "matLoops": 1,
+        "compMB": 10,
+        "mirrors": 300000
+      },
+      "host": {
+        "runtime": "TRILLIONX_CRYPTO_PACKET_ENGINE",
+        "cpu_logical": 2,
+        "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+        "cpu_ghz": 3.464,
+        "ram_gb": 7.757,
+        "free_gb": 1.165,
+        "node": "v24.14.0",
+        "simd": {
+          "avx": true,
+          "avx2": true,
+          "avx512": true,
+          "fma": true,
+          "aes": true,
+          "sha_ni": true,
+          "sse4_2": true
+        },
+        "memory": {
+          "rss_mb": 46.676,
+          "heap_mb": 4.794,
+          "external_mb": 1.617
+        }
+      },
+      "sha": {
+        "algo": "sha256",
+        "input_mb": 10,
+        "rounds": 5,
+        "ms": 45.4,
+        "hash_mb_s": 1101.322,
+        "last": "d2f1038204ab7c48"
+      },
+      "pbkdf": {
+        "algo": "pbkdf2_sha512",
+        "iterations": 155000,
+        "ms": 90.921,
+        "iter_s": 1704772.118,
+        "last": "871dbdd25ab284ef"
+      },
+      "scrypt": {
+        "algo": "scrypt",
+        "N": 4096,
+        "ok": true,
+        "ms": 9.236,
+        "ops_s": 108.271,
+        "last": "a4f87a7741204f5a5a5ade63efb40846"
+      },
+      "matrix": {
+        "algo": "float64_matrix",
+        "n": 36,
+        "loops": 1,
+        "ms": 22.475,
+        "gflops": 0.004,
+        "checksum": 284.626
+      },
+      "comp": {
+        "algo": "deflate_l1",
+        "input_mb": 10,
+        "out_mb": 10.003,
+        "ratio": 1,
+        "ms": 240.781,
+        "mb_s": 41.532
+      },
+      "vr": {
+        "algo": "vr_mirror_index",
+        "mirrors": 300000,
+        "ms": 2.561,
+        "mirror_ops_s": 117154321.53,
+        "checksum": -1638313200
+      },
+      "mem": {
+        "rss_mb": 87.816,
+        "heap_mb": 5.25,
+        "external_mb": 31.752
+      },
+      "event_p95_ms": 1.124,
+      "score": {
+        "packet_score": 3397.856,
+        "hash_gb_s": 1.076,
+        "hash_tb_s": 0.001,
+        "hash_pb_s": 0,
+        "zettahash_s": 1.15482e-12,
+        "gflops": 0.004,
+        "tflops": 0,
+        "pflops": 0,
+        "zettaflops_s": 4e-15,
+        "health": 100
+      }
+    },
+    {
+      "packet": 2,
+      "params": {
+        "shaMB": 16,
+        "shaRounds": 8,
+        "pbkdf": 260000,
+        "scryptN": 8192,
+        "matN": 48,
+        "matLoops": 1,
+        "compMB": 16,
+        "mirrors": 600000
+      },
+      "host": {
+        "runtime": "TRILLIONX_CRYPTO_PACKET_ENGINE",
+        "cpu_logical": 2,
+        "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+        "cpu_ghz": 3.464,
+        "ram_gb": 7.757,
+        "free_gb": 1.165,
+        "node": "v24.14.0",
+        "simd": {
+          "avx": true,
+          "avx2": true,
+          "avx512": true,
+          "fma": true,
+          "aes": true,
+          "sha_ni": true,
+          "sse4_2": true
+        },
+        "memory": {
+          "rss_mb": 46.676,
+          "heap_mb": 4.794,
+          "external_mb": 1.617
+        }
+      },
+      "sha": {
+        "algo": "sha256",
+        "input_mb": 16,
+        "rounds": 8,
+        "ms": 114.698,
+        "hash_mb_s": 1115.976,
+        "last": "96df741eb68c681f"
+      },
+      "pbkdf": {
+        "algo": "pbkdf2_sha512",
+        "iterations": 260000,
+        "ms": 237.695,
+        "iter_s": 1093838.927,
+        "last": "9320959241ae6f43"
+      },
+      "scrypt": {
+        "algo": "scrypt",
+        "N": 8192,
+        "ok": true,
+        "ms": 18.715,
+        "ops_s": 53.434,
+        "last": "fb94a4ead5938d77051b8f22030d8c6a"
+      },
+      "matrix": {
+        "algo": "float64_matrix",
+        "n": 48,
+        "loops": 1,
+        "ms": 0.182,
+        "gflops": 1.212,
+        "checksum": 366.571
+      },
+      "comp": {
+        "algo": "deflate_l1",
+        "input_mb": 16,
+        "out_mb": 16.005,
+        "ratio": 1,
+        "ms": 354.686,
+        "mb_s": 45.11
+      },
+      "vr": {
+        "algo": "vr_mirror_index",
+        "mirrors": 600000,
+        "ms": 4.471,
+        "mirror_ops_s": 134183970.249,
+        "checksum": -1416336864
+      },
+      "mem": {
+        "rss_mb": 128.426,
+        "heap_mb": 5.186,
+        "external_mb": 49.724
+      },
+      "event_p95_ms": 1.177,
+      "score": {
+        "packet_score": 1747.607,
+        "hash_gb_s": 1.09,
+        "hash_tb_s": 0.001,
+        "hash_pb_s": 0,
+        "zettahash_s": 1.170186e-12,
+        "gflops": 1.212,
+        "tflops": 0.001,
+        "pflops": 0,
+        "zettaflops_s": 1.212e-12,
+        "health": 100
+      }
+    },
+    {
+      "packet": 3,
+      "params": {
+        "shaMB": 22,
+        "shaRounds": 11,
+        "pbkdf": 365000,
+        "scryptN": 8192,
+        "matN": 60,
+        "matLoops": 2,
+        "compMB": 22,
+        "mirrors": 900000
+      },
+      "host": {
+        "runtime": "TRILLIONX_CRYPTO_PACKET_ENGINE",
+        "cpu_logical": 2,
+        "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+        "cpu_ghz": 3.464,
+        "ram_gb": 7.757,
+        "free_gb": 1.165,
+        "node": "v24.14.0",
+        "simd": {
+          "avx": true,
+          "avx2": true,
+          "avx512": true,
+          "fma": true,
+          "aes": true,
+          "sha_ni": true,
+          "sse4_2": true
+        },
+        "memory": {
+          "rss_mb": 46.676,
+          "heap_mb": 4.794,
+          "external_mb": 1.617
+        }
+      },
+      "sha": {
+        "algo": "sha256",
+        "input_mb": 22,
+        "rounds": 11,
+        "ms": 203.274,
+        "hash_mb_s": 1190.512,
+        "last": "c66a07db34c76c22"
+      },
+      "pbkdf": {
+        "algo": "pbkdf2_sha512",
+        "iterations": 365000,
+        "ms": 230.89,
+        "iter_s": 1580841.86,
+        "last": "ceecbc6dd11ede1a"
+      },
+      "scrypt": {
+        "algo": "scrypt",
+        "N": 8192,
+        "ok": true,
+        "ms": 26.871,
+        "ops_s": 37.215,
+        "last": "fb94a4ead5938d77051b8f22030d8c6a"
+      },
+      "matrix": {
+        "algo": "float64_matrix",
+        "n": 60,
+        "loops": 2,
+        "ms": 12.326,
+        "gflops": 0.07,
+        "checksum": 953.879
+      },
+      "comp": {
+        "algo": "deflate_l1",
+        "input_mb": 22,
+        "out_mb": 22.007,
+        "ratio": 1,
+        "ms": 632.59,
+        "mb_s": 34.778
+      },
+      "vr": {
+        "algo": "vr_mirror_index",
+        "mirrors": 900000,
+        "ms": 6.288,
+        "mirror_ops_s": 143125013.816,
+        "checksum": 665929008
+      },
+      "mem": {
+        "rss_mb": 135.43,
+        "heap_mb": 5.481,
+        "external_mb": 67.726
+      },
+      "event_p95_ms": 1.091,
+      "score": {
+        "packet_score": 1276.389,
+        "hash_gb_s": 1.163,
+        "hash_tb_s": 0.001,
+        "hash_pb_s": 0,
+        "zettahash_s": 1.248342e-12,
+        "gflops": 0.07,
+        "tflops": 0,
+        "pflops": 0,
+        "zettaflops_s": 7e-14,
+        "health": 100
+      }
+    },
+    {
+      "packet": 4,
+      "params": {
+        "shaMB": 28,
+        "shaRounds": 14,
+        "pbkdf": 470000,
+        "scryptN": 16384,
+        "matN": 72,
+        "matLoops": 2,
+        "compMB": 28,
+        "mirrors": 1200000
+      },
+      "host": {
+        "runtime": "TRILLIONX_CRYPTO_PACKET_ENGINE",
+        "cpu_logical": 2,
+        "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+        "cpu_ghz": 3.464,
+        "ram_gb": 7.757,
+        "free_gb": 1.165,
+        "node": "v24.14.0",
+        "simd": {
+          "avx": true,
+          "avx2": true,
+          "avx512": true,
+          "fma": true,
+          "aes": true,
+          "sha_ni": true,
+          "sse4_2": true
+        },
+        "memory": {
+          "rss_mb": 46.676,
+          "heap_mb": 4.794,
+          "external_mb": 1.617
+        }
+      },
+      "sha": {
+        "algo": "sha256",
+        "input_mb": 28,
+        "rounds": 14,
+        "ms": 343.906,
+        "hash_mb_s": 1139.847,
+        "last": "d0f0555a441b931f"
+      },
+      "pbkdf": {
+        "algo": "pbkdf2_sha512",
+        "iterations": 470000,
+        "ms": 310.365,
+        "iter_s": 1514344.119,
+        "last": "5e71d84b9f0a2d20"
+      },
+      "scrypt": {
+        "algo": "scrypt",
+        "N": 16384,
+        "ok": true,
+        "ms": 39.035,
+        "ops_s": 25.618,
+        "last": "329ffb31db8456ba3036e3f11d9d30d4"
+      },
+      "matrix": {
+        "algo": "float64_matrix",
+        "n": 72,
+        "loops": 2,
+        "ms": 29.91,
+        "gflops": 0.05,
+        "checksum": 1105.95
+      },
+      "comp": {
+        "algo": "deflate_l1",
+        "input_mb": 28,
+        "out_mb": 28.009,
+        "ratio": 1,
+        "ms": 613.664,
+        "mb_s": 45.628
+      },
+      "vr": {
+        "algo": "vr_mirror_index",
+        "mirrors": 1200000,
+        "ms": 13.873,
+        "mirror_ops_s": 86496423.445,
+        "checksum": 313517120
+      },
+      "mem": {
+        "rss_mb": 129.563,
+        "heap_mb": 4.512,
+        "external_mb": 1.703
+      },
+      "event_p95_ms": 1.166,
+      "score": {
+        "packet_score": 911.67,
+        "hash_gb_s": 1.113,
+        "hash_tb_s": 0.001,
+        "hash_pb_s": 0,
+        "zettahash_s": 1.195216e-12,
+        "gflops": 0.05,
+        "tflops": 0,
+        "pflops": 0,
+        "zettaflops_s": 5e-14,
+        "health": 100
+      }
+    },
+    {
+      "packet": 5,
+      "params": {
+        "shaMB": 34,
+        "shaRounds": 17,
+        "pbkdf": 575000,
+        "scryptN": 16384,
+        "matN": 84,
+        "matLoops": 2,
+        "compMB": 34,
+        "mirrors": 1500000
+      },
+      "host": {
+        "runtime": "TRILLIONX_CRYPTO_PACKET_ENGINE",
+        "cpu_logical": 2,
+        "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+        "cpu_ghz": 3.464,
+        "ram_gb": 7.757,
+        "free_gb": 1.165,
+        "node": "v24.14.0",
+        "simd": {
+          "avx": true,
+          "avx2": true,
+          "avx512": true,
+          "fma": true,
+          "aes": true,
+          "sha_ni": true,
+          "sse4_2": true
+        },
+        "memory": {
+          "rss_mb": 46.676,
+          "heap_mb": 4.794,
+          "external_mb": 1.617
+        }
+      },
+      "sha": {
+        "algo": "sha256",
+        "input_mb": 34,
+        "rounds": 17,
+        "ms": 477.707,
+        "hash_mb_s": 1209.948,
+        "last": "38a38f8505575d90"
+      },
+      "pbkdf": {
+        "algo": "pbkdf2_sha512",
+        "iterations": 575000,
+        "ms": 660.517,
+        "iter_s": 870530.082,
+        "last": "d4a94d62d13ad579"
+      },
+      "scrypt": {
+        "algo": "scrypt",
+        "N": 16384,
+        "ok": true,
+        "ms": 39.96,
+        "ops_s": 25.025,
+        "last": "329ffb31db8456ba3036e3f11d9d30d4"
+      },
+      "matrix": {
+        "algo": "float64_matrix",
+        "n": 84,
+        "loops": 2,
+        "ms": 2.891,
+        "gflops": 0.82,
+        "checksum": 1340.807
+      },
+      "comp": {
+        "algo": "deflate_l1",
+        "input_mb": 34,
+        "out_mb": 34.01,
+        "ratio": 1,
+        "ms": 1314.361,
+        "mb_s": 25.868
+      },
+      "vr": {
+        "algo": "vr_mirror_index",
+        "mirrors": 1500000,
+        "ms": 27.39,
+        "mirror_ops_s": 54765218.405,
+        "checksum": 1821394768
+      },
+      "mem": {
+        "rss_mb": 141.574,
+        "heap_mb": 3.749,
+        "external_mb": 103.729
+      },
+      "event_p95_ms": 1.092,
+      "score": {
+        "packet_score": 881.841,
+        "hash_gb_s": 1.182,
+        "hash_tb_s": 0.001,
+        "hash_pb_s": 0,
+        "zettahash_s": 1.268722e-12,
+        "gflops": 0.82,
+        "tflops": 0.001,
+        "pflops": 0,
+        "zettaflops_s": 8.2e-13,
+        "health": 100
+      }
+    },
+    {
+      "packet": 6,
+      "params": {
+        "shaMB": 40,
+        "shaRounds": 20,
+        "pbkdf": 680000,
+        "scryptN": 32768,
+        "matN": 96,
+        "matLoops": 3,
+        "compMB": 40,
+        "mirrors": 1800000
+      },
+      "host": {
+        "runtime": "TRILLIONX_CRYPTO_PACKET_ENGINE",
+        "cpu_logical": 2,
+        "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+        "cpu_ghz": 3.464,
+        "ram_gb": 7.757,
+        "free_gb": 1.165,
+        "node": "v24.14.0",
+        "simd": {
+          "avx": true,
+          "avx2": true,
+          "avx512": true,
+          "fma": true,
+          "aes": true,
+          "sha_ni": true,
+          "sse4_2": true
+        },
+        "memory": {
+          "rss_mb": 46.676,
+          "heap_mb": 4.794,
+          "external_mb": 1.617
+        }
+      },
+      "sha": {
+        "algo": "sha256",
+        "input_mb": 40,
+        "rounds": 20,
+        "ms": 1176.218,
+        "hash_mb_s": 680.146,
+        "last": "55d9270d7f054d9f"
+      },
+      "pbkdf": {
+        "algo": "pbkdf2_sha512",
+        "iterations": 680000,
+        "ms": 909.987,
+        "iter_s": 747263.357,
+        "last": "89cfbf8f8da7983e"
+      },
+      "scrypt": {
+        "algo": "scrypt",
+        "N": 32768,
+        "ok": true,
+        "ms": 140.484,
+        "ops_s": 7.118,
+        "last": "929912024875241f138b3ed992cdbdbc"
+      },
+      "matrix": {
+        "algo": "float64_matrix",
+        "n": 96,
+        "loops": 3,
+        "ms": 12.267,
+        "gflops": 0.433,
+        "checksum": 2167.784
+      },
+      "comp": {
+        "algo": "deflate_l1",
+        "input_mb": 40,
+        "out_mb": 40.012,
+        "ratio": 1,
+        "ms": 896.929,
+        "mb_s": 44.597
+      },
+      "vr": {
+        "algo": "vr_mirror_index",
+        "mirrors": 1800000,
+        "ms": 14.676,
+        "mirror_ops_s": 122650175.942,
+        "checksum": 894594656
+      },
+      "mem": {
+        "rss_mb": 142.246,
+        "heap_mb": 3.698,
+        "external_mb": 121.729
+      },
+      "event_p95_ms": 2.561,
+      "score": {
+        "packet_score": 311.006,
+        "hash_gb_s": 0.664,
+        "hash_tb_s": 0.001,
+        "hash_pb_s": 0,
+        "zettahash_s": 7.131848e-13,
+        "gflops": 0.433,
+        "tflops": 0,
+        "pflops": 0,
+        "zettaflops_s": 4.33e-13,
+        "health": 100
+      }
+    },
+    {
+      "packet": 7,
+      "params": {
+        "shaMB": 46,
+        "shaRounds": 23,
+        "pbkdf": 785000,
+        "scryptN": 32768,
+        "matN": 96,
+        "matLoops": 3,
+        "compMB": 46,
+        "mirrors": 2100000
+      },
+      "host": {
+        "runtime": "TRILLIONX_CRYPTO_PACKET_ENGINE",
+        "cpu_logical": 2,
+        "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+        "cpu_ghz": 3.464,
+        "ram_gb": 7.757,
+        "free_gb": 1.165,
+        "node": "v24.14.0",
+        "simd": {
+          "avx": true,
+          "avx2": true,
+          "avx512": true,
+          "fma": true,
+          "aes": true,
+          "sha_ni": true,
+          "sse4_2": true
+        },
+        "memory": {
+          "rss_mb": 46.676,
+          "heap_mb": 4.794,
+          "external_mb": 1.617
+        }
+      },
+      "sha": {
+        "algo": "sha256",
+        "input_mb": 46,
+        "rounds": 23,
+        "ms": 1004.502,
+        "hash_mb_s": 1053.258,
+        "last": "dad77efa1a3be013"
+      },
+      "pbkdf": {
+        "algo": "pbkdf2_sha512",
+        "iterations": 785000,
+        "ms": 543.647,
+        "iter_s": 1443951.77,
+        "last": "83448a034ba2ed7f"
+      },
+      "scrypt": {
+        "algo": "scrypt",
+        "N": 32768,
+        "ok": true,
+        "ms": 81.004,
+        "ops_s": 12.345,
+        "last": "929912024875241f138b3ed992cdbdbc"
+      },
+      "matrix": {
+        "algo": "float64_matrix",
+        "n": 96,
+        "loops": 3,
+        "ms": 4.18,
+        "gflops": 1.27,
+        "checksum": 2167.784
+      },
+      "comp": {
+        "algo": "deflate_l1",
+        "input_mb": 46,
+        "out_mb": 46.014,
+        "ratio": 1,
+        "ms": 1019.394,
+        "mb_s": 45.125
+      },
+      "vr": {
+        "algo": "vr_mirror_index",
+        "mirrors": 2100000,
+        "ms": 19.723,
+        "mirror_ops_s": 106475797.139,
+        "checksum": 1828084080
+      },
+      "mem": {
+        "rss_mb": 143.277,
+        "heap_mb": 3.722,
+        "external_mb": 1.701
+      },
+      "event_p95_ms": 1.143,
+      "score": {
+        "packet_score": 511.287,
+        "hash_gb_s": 1.029,
+        "hash_tb_s": 0.001,
+        "hash_pb_s": 0,
+        "zettahash_s": 1.104421e-12,
+        "gflops": 1.27,
+        "tflops": 0.001,
+        "pflops": 0,
+        "zettaflops_s": 1.27e-12,
+        "health": 100
+      }
+    },
+    {
+      "packet": 8,
+      "params": {
+        "shaMB": 52,
+        "shaRounds": 24,
+        "pbkdf": 890000,
+        "scryptN": 65536,
+        "matN": 96,
+        "matLoops": 3,
+        "compMB": 48,
+        "mirrors": 2400000
+      },
+      "host": {
+        "runtime": "TRILLIONX_CRYPTO_PACKET_ENGINE",
+        "cpu_logical": 2,
+        "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+        "cpu_ghz": 3.464,
+        "ram_gb": 7.757,
+        "free_gb": 1.165,
+        "node": "v24.14.0",
+        "simd": {
+          "avx": true,
+          "avx2": true,
+          "avx512": true,
+          "fma": true,
+          "aes": true,
+          "sha_ni": true,
+          "sse4_2": true
+        },
+        "memory": {
+          "rss_mb": 46.676,
+          "heap_mb": 4.794,
+          "external_mb": 1.617
+        }
+      },
+      "sha": {
+        "algo": "sha256",
+        "input_mb": 52,
+        "rounds": 24,
+        "ms": 1094.845,
+        "hash_mb_s": 1139.887,
+        "last": "f3d9f127db7d4983"
+      },
+      "pbkdf": {
+        "algo": "pbkdf2_sha512",
+        "iterations": 890000,
+        "ms": 627.114,
+        "iter_s": 1419200.063,
+        "last": "675619d2667a5a49"
+      },
+      "scrypt": {
+        "algo": "scrypt",
+        "N": 65536,
+        "ok": true,
+        "ms": 161.401,
+        "ops_s": 6.196,
+        "last": "f1c5b0046430a34160ddbe5d5562bb38"
+      },
+      "matrix": {
+        "algo": "float64_matrix",
+        "n": 96,
+        "loops": 3,
+        "ms": 4.183,
+        "gflops": 1.269,
+        "checksum": 2167.784
+      },
+      "comp": {
+        "algo": "deflate_l1",
+        "input_mb": 48,
+        "out_mb": 48.015,
+        "ratio": 1,
+        "ms": 1179.094,
+        "mb_s": 40.709
+      },
+      "vr": {
+        "algo": "vr_mirror_index",
+        "mirrors": 2400000,
+        "ms": 20.771,
+        "mirror_ops_s": 115548388.56,
+        "checksum": 326895744
+      },
+      "mem": {
+        "rss_mb": 143.277,
+        "heap_mb": 3.716,
+        "external_mb": 1.701
+      },
+      "event_p95_ms": 1.829,
+      "score": {
+        "packet_score": 335.309,
+        "hash_gb_s": 1.113,
+        "hash_tb_s": 0.001,
+        "hash_pb_s": 0,
+        "zettahash_s": 1.195258e-12,
+        "gflops": 1.269,
+        "tflops": 0.001,
+        "pflops": 0,
+        "zettaflops_s": 1.269e-12,
+        "health": 100
+      }
+    },
+    {
+      "packet": 9,
+      "params": {
+        "shaMB": 58,
+        "shaRounds": 24,
+        "pbkdf": 900000,
+        "scryptN": 65536,
+        "matN": 96,
+        "matLoops": 4,
+        "compMB": 48,
+        "mirrors": 2700000
+      },
+      "host": {
+        "runtime": "TRILLIONX_CRYPTO_PACKET_ENGINE",
+        "cpu_logical": 2,
+        "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+        "cpu_ghz": 3.464,
+        "ram_gb": 7.757,
+        "free_gb": 1.165,
+        "node": "v24.14.0",
+        "simd": {
+          "avx": true,
+          "avx2": true,
+          "avx512": true,
+          "fma": true,
+          "aes": true,
+          "sha_ni": true,
+          "sse4_2": true
+        },
+        "memory": {
+          "rss_mb": 46.676,
+          "heap_mb": 4.794,
+          "external_mb": 1.617
+        }
+      },
+      "sha": {
+        "algo": "sha256",
+        "input_mb": 58,
+        "rounds": 24,
+        "ms": 1235.998,
+        "hash_mb_s": 1126.215,
+        "last": "5a46191c9afc2524"
+      },
+      "pbkdf": {
+        "algo": "pbkdf2_sha512",
+        "iterations": 900000,
+        "ms": 573.393,
+        "iter_s": 1569603.757,
+        "last": "55af986d1b42fde4"
+      },
+      "scrypt": {
+        "algo": "scrypt",
+        "N": 65536,
+        "ok": true,
+        "ms": 159.821,
+        "ops_s": 6.257,
+        "last": "f1c5b0046430a34160ddbe5d5562bb38"
+      },
+      "matrix": {
+        "algo": "float64_matrix",
+        "n": 96,
+        "loops": 4,
+        "ms": 5.581,
+        "gflops": 1.268,
+        "checksum": 2890.379
+      },
+      "comp": {
+        "algo": "deflate_l1",
+        "input_mb": 48,
+        "out_mb": 48.015,
+        "ratio": 1,
+        "ms": 1197.363,
+        "mb_s": 40.088
+      },
+      "vr": {
+        "algo": "vr_mirror_index",
+        "mirrors": 2700000,
+        "ms": 23.647,
+        "mirror_ops_s": 114180542.528,
+        "checksum": 685996944
+      },
+      "mem": {
+        "rss_mb": 143.289,
+        "heap_mb": 3.781,
+        "external_mb": 1.701
+      },
+      "event_p95_ms": 1.105,
+      "score": {
+        "packet_score": 338.726,
+        "hash_gb_s": 1.1,
+        "hash_tb_s": 0.001,
+        "hash_pb_s": 0,
+        "zettahash_s": 1.180922e-12,
+        "gflops": 1.268,
+        "tflops": 0.001,
+        "pflops": 0,
+        "zettaflops_s": 1.268e-12,
+        "health": 100
+      }
+    },
+    {
+      "packet": 10,
+      "params": {
+        "shaMB": 64,
+        "shaRounds": 24,
+        "pbkdf": 900000,
+        "scryptN": 65536,
+        "matN": 96,
+        "matLoops": 4,
+        "compMB": 48,
+        "mirrors": 3000000
+      },
+      "host": {
+        "runtime": "TRILLIONX_CRYPTO_PACKET_ENGINE",
+        "cpu_logical": 2,
+        "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+        "cpu_ghz": 3.464,
+        "ram_gb": 7.757,
+        "free_gb": 1.165,
+        "node": "v24.14.0",
+        "simd": {
+          "avx": true,
+          "avx2": true,
+          "avx512": true,
+          "fma": true,
+          "aes": true,
+          "sha_ni": true,
+          "sse4_2": true
+        },
+        "memory": {
+          "rss_mb": 46.676,
+          "heap_mb": 4.794,
+          "external_mb": 1.617
+        }
+      },
+      "sha": {
+        "algo": "sha256",
+        "input_mb": 64,
+        "rounds": 24,
+        "ms": 1353.382,
+        "hash_mb_s": 1134.934,
+        "last": "563c5548cd6ea019"
+      },
+      "pbkdf": {
+        "algo": "pbkdf2_sha512",
+        "iterations": 900000,
+        "ms": 565.282,
+        "iter_s": 1592125.573,
+        "last": "55af986d1b42fde4"
+      },
+      "scrypt": {
+        "algo": "scrypt",
+        "N": 65536,
+        "ok": true,
+        "ms": 162.161,
+        "ops_s": 6.167,
+        "last": "f1c5b0046430a34160ddbe5d5562bb38"
+      },
+      "matrix": {
+        "algo": "float64_matrix",
+        "n": 96,
+        "loops": 4,
+        "ms": 9.357,
+        "gflops": 0.756,
+        "checksum": 2890.379
+      },
+      "comp": {
+        "algo": "deflate_l1",
+        "input_mb": 48,
+        "out_mb": 48.015,
+        "ratio": 1,
+        "ms": 1106.665,
+        "mb_s": 43.374
+      },
+      "vr": {
+        "algo": "vr_mirror_index",
+        "mirrors": 3000000,
+        "ms": 24.531,
+        "mirror_ops_s": 122293083.364,
+        "checksum": -1389579616
+      },
+      "mem": {
+        "rss_mb": 143.32,
+        "heap_mb": 3.792,
+        "external_mb": 1.701
+      },
+      "event_p95_ms": 1.139,
+      "score": {
+        "packet_score": 337.835,
+        "hash_gb_s": 1.108,
+        "hash_tb_s": 0.001,
+        "hash_pb_s": 0,
+        "zettahash_s": 1.190065e-12,
+        "gflops": 0.756,
+        "tflops": 0.001,
+        "pflops": 0,
+        "zettaflops_s": 7.56e-13,
+        "health": 100
+      }
+    },
+    {
+      "packet": 11,
+      "params": {
+        "shaMB": 64,
+        "shaRounds": 24,
+        "pbkdf": 900000,
+        "scryptN": 65536,
+        "matN": 96,
+        "matLoops": 4,
+        "compMB": 48,
+        "mirrors": 3300000
+      },
+      "host": {
+        "runtime": "TRILLIONX_CRYPTO_PACKET_ENGINE",
+        "cpu_logical": 2,
+        "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+        "cpu_ghz": 3.464,
+        "ram_gb": 7.757,
+        "free_gb": 1.165,
+        "node": "v24.14.0",
+        "simd": {
+          "avx": true,
+          "avx2": true,
+          "avx512": true,
+          "fma": true,
+          "aes": true,
+          "sha_ni": true,
+          "sse4_2": true
+        },
+        "memory": {
+          "rss_mb": 46.676,
+          "heap_mb": 4.794,
+          "external_mb": 1.617
+        }
+      },
+      "sha": {
+        "algo": "sha256",
+        "input_mb": 64,
+        "rounds": 24,
+        "ms": 1373.475,
+        "hash_mb_s": 1118.332,
+        "last": "60bc2a43117a692f"
+      },
+      "pbkdf": {
+        "algo": "pbkdf2_sha512",
+        "iterations": 900000,
+        "ms": 539.878,
+        "iter_s": 1667043.638,
+        "last": "55af986d1b42fde4"
+      },
+      "scrypt": {
+        "algo": "scrypt",
+        "N": 65536,
+        "ok": true,
+        "ms": 222.598,
+        "ops_s": 4.492,
+        "last": "f1c5b0046430a34160ddbe5d5562bb38"
+      },
+      "matrix": {
+        "algo": "float64_matrix",
+        "n": 96,
+        "loops": 4,
+        "ms": 9.447,
+        "gflops": 0.749,
+        "checksum": 2890.379
+      },
+      "comp": {
+        "algo": "deflate_l1",
+        "input_mb": 48,
+        "out_mb": 48.015,
+        "ratio": 1,
+        "ms": 1274.356,
+        "mb_s": 37.666
+      },
+      "vr": {
+        "algo": "vr_mirror_index",
+        "mirrors": 3300000,
+        "ms": 26.117,
+        "mirror_ops_s": 126355879.957,
+        "checksum": -1604866640
+      },
+      "mem": {
+        "rss_mb": 143.332,
+        "heap_mb": 3.796,
+        "external_mb": 1.701
+      },
+      "event_p95_ms": 1.099,
+      "score": {
+        "packet_score": 288.441,
+        "hash_gb_s": 1.092,
+        "hash_tb_s": 0.001,
+        "hash_pb_s": 0,
+        "zettahash_s": 1.172656e-12,
+        "gflops": 0.749,
+        "tflops": 0.001,
+        "pflops": 0,
+        "zettaflops_s": 7.49e-13,
+        "health": 100
+      }
+    },
+    {
+      "packet": 12,
+      "params": {
+        "shaMB": 64,
+        "shaRounds": 24,
+        "pbkdf": 900000,
+        "scryptN": 65536,
+        "matN": 96,
+        "matLoops": 5,
+        "compMB": 48,
+        "mirrors": 3600000
+      },
+      "host": {
+        "runtime": "TRILLIONX_CRYPTO_PACKET_ENGINE",
+        "cpu_logical": 2,
+        "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+        "cpu_ghz": 3.464,
+        "ram_gb": 7.757,
+        "free_gb": 1.165,
+        "node": "v24.14.0",
+        "simd": {
+          "avx": true,
+          "avx2": true,
+          "avx512": true,
+          "fma": true,
+          "aes": true,
+          "sha_ni": true,
+          "sse4_2": true
+        },
+        "memory": {
+          "rss_mb": 46.676,
+          "heap_mb": 4.794,
+          "external_mb": 1.617
+        }
+      },
+      "sha": {
+        "algo": "sha256",
+        "input_mb": 64,
+        "rounds": 24,
+        "ms": 1295.699,
+        "hash_mb_s": 1185.461,
+        "last": "cdceb8bc38e58800"
+      },
+      "pbkdf": {
+        "algo": "pbkdf2_sha512",
+        "iterations": 900000,
+        "ms": 539.796,
+        "iter_s": 1667296.074,
+        "last": "55af986d1b42fde4"
+      },
+      "scrypt": {
+        "algo": "scrypt",
+        "N": 65536,
+        "ok": true,
+        "ms": 160.062,
+        "ops_s": 6.248,
+        "last": "f1c5b0046430a34160ddbe5d5562bb38"
+      },
+      "matrix": {
+        "algo": "float64_matrix",
+        "n": 96,
+        "loops": 5,
+        "ms": 10.455,
+        "gflops": 0.846,
+        "checksum": 3612.973
+      },
+      "comp": {
+        "algo": "deflate_l1",
+        "input_mb": 48,
+        "out_mb": 48.015,
+        "ratio": 1,
+        "ms": 1198.435,
+        "mb_s": 40.052
+      },
+      "vr": {
+        "algo": "vr_mirror_index",
+        "mirrors": 3600000,
+        "ms": 27.459,
+        "mirror_ops_s": 131103018.494,
+        "checksum": 40135872
+      },
+      "mem": {
+        "rss_mb": 143.41,
+        "heap_mb": 3.79,
+        "external_mb": 1.701
+      },
+      "event_p95_ms": 1.146,
+      "score": {
+        "packet_score": 347.887,
+        "hash_gb_s": 1.158,
+        "hash_tb_s": 0.001,
+        "hash_pb_s": 0,
+        "zettahash_s": 1.243046e-12,
+        "gflops": 0.846,
+        "tflops": 0.001,
+        "pflops": 0,
+        "zettaflops_s": 8.46e-13,
+        "health": 100
+      }
+    }
+  ],
+  "cumulative": {
+    "score": 10685.854,
+    "avg_health": 100,
+    "avg_sha256_mb_s": 1099.653,
+    "avg_matrix_gflops": 0.729,
+    "cumulative_zettahash_s": 1.383684e-11,
+    "cumulative_zettaflops_s": 8.747e-12,
+    "avg_hash_gb_s": 1.074,
+    "avg_hash_tb_s": 0.001,
+    "avg_tflops": 0.001,
+    "best_packet": 1,
+    "best_score": 3397.856
+  },
+  "truth_policy": {
+    "real_only": true,
+    "mini_packets": true,
+    "cumulative_projection": true,
+    "no_fake_zettahash": true,
+    "no_fake_zettaflops": true,
+    "world_result_requires_external_reproducible_hosts": true
+  },
+  "verdict": "REAL_LOCAL_CRYPTO_PACKET_BENCH_CUMULATIVE_WORLD_READING_INDICATIVE"
+}

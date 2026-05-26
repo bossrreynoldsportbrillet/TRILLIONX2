@@ -1,0 +1,1 @@
+module.exports={name:'TRILLIONS_WORKER_BACKEND_REGISTRY',version:'V1_REAL_WORKER_THREADS',mode:'REAL_OR_UNAVAILABLE',workers:['trillions.worker.js'],routes:['/api/worker','/api/worker/health','/api/worker/run','/api/worker/benchmark','/api/backend','/api/backend/health'],guards:['NO_FAKE_WORKER','BOUNDED_INPUT','TIMEOUT_GUARD','SAFE_TYPES_ONLY']};

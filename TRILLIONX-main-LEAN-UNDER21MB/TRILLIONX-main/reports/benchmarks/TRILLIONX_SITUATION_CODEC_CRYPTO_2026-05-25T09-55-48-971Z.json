@@ -1,0 +1,216 @@
+{
+  "title": "TRILLIONX SITUATION + CODEC + CRYPTO BENCH",
+  "doctrine": "REAL_ONLY_OR_UNAVAILABLE / NO_FAKE_HASHRATE / NO_FAKE_POWER",
+  "root": "/workspaces/TRILLIONX2/TRILLIONX-main-LEAN-UNDER21MB/TRILLIONX-main",
+  "time": "2026-05-25T09:55:48.972Z",
+  "system": {
+    "platform": "linux",
+    "arch": "x64",
+    "node": "v24.15.0",
+    "pid": 36467,
+    "cpus": 2,
+    "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "totalmem_bytes": 8329433088,
+    "freemem_bytes": 2691907584,
+    "totalmem": "7.76 GB",
+    "freemem": "2.51 GB",
+    "loadavg": [
+      1.76,
+      1.05,
+      0.84
+    ],
+    "uptime_sec": 2692,
+    "docker": true,
+    "git_branch": "dev-ui-runtime-next",
+    "git_head": "78a0132",
+    "disk_df": "/dev/loop4       32G   22G  7.9G  74% /workspaces"
+  },
+  "inventory": {
+    "folders": {
+      "logs": {
+        "exists": true,
+        "count": 26
+      },
+      "reports": {
+        "exists": true,
+        "count": 70
+      },
+      "data": {
+        "exists": true,
+        "count": 884
+      },
+      "scripts": {
+        "exists": true,
+        "count": 56
+      },
+      "runtime_state": {
+        "exists": true,
+        "count": 24
+      },
+      "memory_fabric": {
+        "exists": true,
+        "count": 1
+      },
+      "raid60_plus": {
+        "exists": false,
+        "count": 0
+      },
+      "mesh_nodes": {
+        "exists": true,
+        "count": 50
+      },
+      "workers": {
+        "exists": true,
+        "count": 1
+      },
+      "controllers": {
+        "exists": true,
+        "count": 2
+      },
+      "benchmarks": {
+        "exists": true,
+        "count": 2
+      }
+    },
+    "detection_counts": {
+      "api_routes": 0,
+      "crypto_refs": 0,
+      "codec_refs": 0,
+      "runtime_refs": 0,
+      "raid_mirror_refs": 0,
+      "registry_refs": 0
+    }
+  },
+  "benchmarks": [
+    {
+      "name": "disk_io_32MB",
+      "ok": true,
+      "ms": 647.967,
+      "size_bytes": 33554432,
+      "write_MBps": 55.79,
+      "read_MBps": 837.55,
+      "integrity": true
+    },
+    {
+      "name": "codec_gzip_brotli_16MB",
+      "ok": false,
+      "ms": 1919.665,
+      "error": "ReferenceError: gzip_ok is not defined\n    at codecBench (/workspaces/TRILLIONX2/TRILLIONX-main-LEAN-UNDER21MB/TRILLIONX-main/TRILLIONX_SITUATION_CODEC_CRYPTO_BENCH.js:74:22)\n    at bench (/workspaces/TRILLIONX2/TRILLIONX-main-LEAN-UNDER21MB/TRILLIONX-main/TRILLIONX_SITUATION_CODEC_CRYPTO_BENCH.js:26:13)\n    at /workspaces/TRILLIONX2/TRILLIONX-main-LEAN-UNDER21MB/TRILLIONX-main/TRILLIONX_SITUATION_CODEC_CRYPTO_BENCH.js:169:7\n    at Object.<anonymous> (/workspaces/TRILLIONX2/TRILLIONX-main-LEAN-UNDER21MB/TRILLIONX-main/TRILLIONX_SITUATION_CODEC_CRYPTO_BENCH.js:207:3)\n    at Module._compile (node:internal/modules/cjs/loader:1830:14)\n    at Object..js (node:internal/modules/cjs/loader:1961:10)\n    at Module.load (node:internal/modules/cjs/loader:1553:32)\n    at Module._load (node:internal/modules/cjs/loader:1355:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+    },
+    {
+      "name": "crypto_sha256_32MBx4",
+      "ok": true,
+      "ms": 134.766,
+      "algo": "sha256",
+      "sizeMB": 32,
+      "rounds": 4,
+      "MBps": 1093.71,
+      "hashes_per_sec": 34.18,
+      "digest": "eb5d963a074f7d6f3b8fb54b"
+    },
+    {
+      "name": "crypto_sha512_32MBx4",
+      "ok": true,
+      "ms": 254.88,
+      "algo": "sha512",
+      "sizeMB": 32,
+      "rounds": 4,
+      "MBps": 545.84,
+      "hashes_per_sec": 17.06,
+      "digest": "2b188c18a000ce262f066c20"
+    },
+    {
+      "name": "crypto_blake2b512_32MBx4",
+      "ok": true,
+      "ms": 196.837,
+      "algo": "blake2b512",
+      "sizeMB": 32,
+      "rounds": 4,
+      "MBps": 732.01,
+      "hashes_per_sec": 22.88,
+      "digest": "0c0846cd0ddec98104c5799c"
+    },
+    {
+      "name": "crypto_hmac_sha256_200k",
+      "ok": true,
+      "ms": 1085.988,
+      "algo": "hmac-sha256",
+      "rounds": 200000,
+      "ops_per_sec": 184201.62,
+      "digest": "c45012a8fbf0b9a6b6112161"
+    },
+    {
+      "name": "crypto_aes_256_cbc_32MBx3",
+      "ok": true,
+      "ms": 307.036,
+      "algo": "aes-256-cbc-encrypt",
+      "sizeMB": 32,
+      "rounds": 3,
+      "MBps": 334.1,
+      "out_bytes": 33554448
+    },
+    {
+      "name": "crypto_sha256_probe_2s",
+      "ok": true,
+      "ms": 2000.215,
+      "mode": "CPU_SHA256_PROBE_NOT_REAL_MINING",
+      "seconds": 2,
+      "hashes": 1013430,
+      "hashes_per_sec": 506715,
+      "best_leading_zeroes": 64,
+      "best_hash": "",
+      "targetPrefix": "0000"
+    }
+  ],
+  "api_3000": [
+    {
+      "path": "/",
+      "ok": true,
+      "status": 200,
+      "bytes": 20108,
+      "ms": 507.94
+    },
+    {
+      "path": "/api/system",
+      "ok": false,
+      "error": "TIMEOUT"
+    },
+    {
+      "path": "/api/capacity",
+      "ok": false,
+      "error": "TIMEOUT"
+    },
+    {
+      "path": "/api/network",
+      "ok": false,
+      "error": "TIMEOUT"
+    },
+    {
+      "path": "/api/benchmark/flops-libre/report",
+      "ok": true,
+      "status": 200,
+      "bytes": 5168,
+      "ms": 983.41
+    },
+    {
+      "path": "/api/crypto",
+      "ok": true,
+      "status": 404,
+      "bytes": 149,
+      "ms": 38.73
+    },
+    {
+      "path": "/api/blockchain",
+      "ok": true,
+      "status": 200,
+      "bytes": 123,
+      "ms": 350.89
+    }
+  ],
+  "notes": [
+    "hashes_per_sec ici = probe CPU local Node.js, pas un hashrate minier garanti.",
+    "GPU/CUDA/OpenCL/WebGPU non exécutés sauf si vrais outils présents.",
+    "Les compteurs grep indiquent présence de logique/code, pas validation fonctionnelle complète.",
+    "Pour TRILLIONX, le verdict sérieux vient des mesures avant/après + endpoints 200 + logs propres."
+  ]
+}

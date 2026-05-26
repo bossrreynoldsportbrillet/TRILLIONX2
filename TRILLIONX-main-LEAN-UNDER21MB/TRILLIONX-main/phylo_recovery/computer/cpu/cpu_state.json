@@ -1,0 +1,23 @@
+{
+  "model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+  "threads": 2,
+  "total_ram_gb": 7.76,
+  "free_ram_gb": 1.75,
+  "flags": {
+    "sse": true,
+    "sse2": true,
+    "sse3": true,
+    "ssse3": true,
+    "sse4_1": true,
+    "sse4_2": true,
+    "avx": true,
+    "avx2": true,
+    "avx512f": true,
+    "aes_ni": true,
+    "sha_ni": true,
+    "fma": true,
+    "bmi1": true,
+    "bmi2": true,
+    "pclmulqdq": true
+  }
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "file": "./reports/processors/PROCESSOR_COPROCESSOR_20260525_060113.txt",
+    "size": 616234327,
+    "sha256": "3757fb417d395fe72e29ed0372546fe38a14b4542228c666150296e1cd38d746"
+  },
+  {
+    "file": "./native/simd/trillionx_simd_native_bench",
+    "size": 20448,
+    "sha256": "0d50410bd7e0e36fff6447e2eb3c45e7a87c465544837d139fa1bb92ec66651e"
+  },
+  {
+    "file": "./TRILLIONX_SIMD_AVX_BENCH.js",
+    "size": 8121,
+    "sha256": "1d3daead81dc96a9b8d4f043d8f7533ffdb8a13d9d4ba3096d8ac1d113521c87"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/TRILLIONX_SIMD_AVX_BENCH.js",
+    "size": 8121,
+    "sha256": "1d3daead81dc96a9b8d4f043d8f7533ffdb8a13d9d4ba3096d8ac1d113521c87"
+  },
+  {
+    "file": "./native/simd/trillionx_simd_native_bench.c",
+    "size": 4569,
+    "sha256": "db15d983b10b8371841fdb1e9ee8a41df2f70a5e79e12b4050ca84f34aec4648"
+  },
+  {
+    "file": "./TRILLIONX_NATIVE_SIMD_DEPENDENCY_REGISTRY.js",
+    "size": 4126,
+    "sha256": "e116ea91fd10e719c2af3a07e1b43dae202fc39649284ca0b1ff6f36f51d8681"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/05_REPORTS/TRILLIONX_NATIVE_SIMD_DEPENDENCY_REGISTRY.js",
+    "size": 4126,
+    "sha256": "e116ea91fd10e719c2af3a07e1b43dae202fc39649284ca0b1ff6f36f51d8681"
+  },
+  {
+    "file": "./TRILLIONX_GPU_VR_BACKEND_PROBE.js",
+    "size": 4031,
+    "sha256": "b9ec22df013036a065f94942823dbdc67f7fa79439cf5a8f455b436d38da651c"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/08_UNKNOWN/TRILLIONX_GPU_VR_BACKEND_PROBE.js",
+    "size": 4031,
+    "sha256": "b9ec22df013036a065f94942823dbdc67f7fa79439cf5a8f455b436d38da651c"
+  },
+  {
+    "file": "./data/trillionx_simd_avx_bench_latest.json",
+    "size": 3970,
+    "sha256": "7f6467e0434f7428a915dab934d11ebbcfd7fe76aaffd737608f466ffd9e4f61"
+  },
+  {
+    "file": "./TRILLIONX_NATIVE_SIMD_AVX_RUNNER.js",
+    "size": 2914,
+    "sha256": "3e913973414bced06183d0f375d3c69cb8926b0191d8ca379f53a658a97a9e47"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/08_UNKNOWN/TRILLIONX_NATIVE_SIMD_AVX_RUNNER.js",
+    "size": 2914,
+    "sha256": "3e913973414bced06183d0f375d3c69cb8926b0191d8ca379f53a658a97a9e47"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/06_ARCHIVE_TXT/data/trillionx_gpu_vr_backend_probe_latest.json",
+    "size": 2182,
+    "sha256": "09c5300105dee9b4a35f79dca28206ec9a1aaffeba6bccd8cee75582fd36ec85"
+  },
+  {
+    "file": "./data/trillionx_gpu_vr_backend_probe_latest.json",
+    "size": 2182,
+    "sha256": "09c5300105dee9b4a35f79dca28206ec9a1aaffeba6bccd8cee75582fd36ec85"
+  },
+  {
+    "file": "./data/_archive_light/trillionx_native_simd_dependency_registry_1779617891170.json",
+    "size": 1871,
+    "sha256": "72d6ccfce6286982206a8cd6064bec4738f98c30e730e00c238a29cd87ce9ad3"
+  },
+  {
+    "file": "./data/trillionx_native_simd_dependency_registry_latest.json",
+    "size": 1871,
+    "sha256": "72d6ccfce6286982206a8cd6064bec4738f98c30e730e00c238a29cd87ce9ad3"
+  },
+  {
+    "file": "./data/_archive_light/trillionx_native_simd_avx_1779610171434.json",
+    "size": 1664,
+    "sha256": "de735bb9ff38718c0be439b63fdd81769a1fa1d9092eb105b47b8384053ac05f"
+  },
+  {
+    "file": "./data/_archive_light/trillionx_native_simd_avx_1779610370312.json",
+    "size": 1661,
+    "sha256": "5113a7f8cfa3f6540c60861094d1a4420ee91d1c718d680244e7daa69de84e4c"
+  },
+  {
+    "file": "./data/trillionx_native_simd_avx_latest.json",
+    "size": 1661,
+    "sha256": "5113a7f8cfa3f6540c60861094d1a4420ee91d1c718d680244e7daa69de84e4c"
+  },
+  {
+    "file": "./plugins/simd-native.plugin.js",
+    "size": 513,
+    "sha256": "311ed53757a1c26b6c079f97b1db049a4ecda344e43b55862a5a7fee3a145727"
+  },
+  {
+    "file": "./hardware_fabric/gpu/gpu_detection.json",
+    "size": 167,
+    "sha256": "9c8bfc52cb33aaa0bc34f5722837e438bf156991271e961b1dbe036a60aa8784"
+  }
+]

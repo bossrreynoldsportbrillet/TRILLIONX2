@@ -1,0 +1,2092 @@
+[
+  {
+    "time": "2026-05-25T12:18:55.641Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 85709
+    }
+  },
+  {
+    "time": "2026-05-25T12:18:55.665Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 90864
+    }
+  },
+  {
+    "time": "2026-05-25T12:18:56.922Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 62091
+    }
+  },
+  {
+    "time": "2026-05-25T12:18:56.923Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 59103
+    }
+  },
+  {
+    "time": "2026-05-25T12:18:56.924Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 64477
+    }
+  },
+  {
+    "time": "2026-05-25T12:18:57.933Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 72524
+    }
+  },
+  {
+    "time": "2026-05-25T12:18:58.946Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 11934
+    }
+  },
+  {
+    "time": "2026-05-25T12:18:58.947Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 103001
+    }
+  },
+  {
+    "time": "2026-05-25T12:18:58.951Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 71693
+    }
+  },
+  {
+    "time": "2026-05-25T12:18:58.952Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 82803
+    }
+  },
+  {
+    "time": "2026-05-25T12:18:59.033Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 78339
+    }
+  },
+  {
+    "time": "2026-05-25T12:18:59.111Z",
+    "type": "cache",
+    "data": {
+      "cache_hits": 2601
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:00.158Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 31582
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:01.176Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 52796
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:01.200Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 46328
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:01.209Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 46693
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:01.209Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 39617
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:01.210Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 43330
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:03.020Z",
+    "type": "memory",
+    "data": {
+      "bandwidth_MBps": 300
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:04.024Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 20375
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:05.025Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 71805
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:05.027Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 49150
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:05.034Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 80947
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:05.034Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 67649
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:05.035Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 78339
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:05.036Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 48818
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:05.037Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 74340
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:05.038Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 74315
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:05.041Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 74954
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:06.096Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 30122
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:06.119Z",
+    "type": "cache",
+    "data": {
+      "cache_hits": 6944
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:07.135Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 9668
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:07.136Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 37000
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:07.136Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 35212
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:07.138Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 44693
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:07.138Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 70876
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:08.181Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 83085
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:09.287Z",
+    "type": "memory",
+    "data": {
+      "bandwidth_MBps": 352
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:10.292Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 68703
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:10.297Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 70880
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:10.299Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 89758
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:10.299Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 74304
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:10.299Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 72593
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:10.300Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 87766
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:10.300Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 57447
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:11.317Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 10023
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:12.318Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 71144
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:12.318Z",
+    "type": "cache",
+    "data": {
+      "cache_hits": 7337
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:12.341Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 49167
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:12.351Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 72152
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:12.363Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 42331
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:12.363Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 68458
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:13.403Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 59010
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:14.410Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 8558
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:14.445Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 70729
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:14.446Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 72509
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:14.448Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 94368
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:14.448Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 68000
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:15.472Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 86517
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:16.746Z",
+    "type": "memory",
+    "data": {
+      "bandwidth_MBps": 293
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:17.748Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 106215
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:17.751Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 70370
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:17.751Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 94071
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:17.751Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 91169
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:17.752Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 85976
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:17.752Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 74385
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:17.752Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 84696
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:17.759Z",
+    "type": "cache",
+    "data": {
+      "cache_hits": 11276
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:18.772Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 16963
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:19.777Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 48730
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:19.844Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 95391
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:19.860Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 47596
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:19.861Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 69763
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:19.861Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 48932
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:20.862Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 62078
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:21.884Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 16802
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:21.911Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 81867
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:21.927Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 96084
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:21.927Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 97621
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:21.927Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 95937
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:22.951Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 43649
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:24.910Z",
+    "type": "memory",
+    "data": {
+      "bandwidth_MBps": 176
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:24.920Z",
+    "type": "cache",
+    "data": {
+      "cache_hits": 14567
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:25.922Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 37308
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:26.001Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 46262
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:26.001Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 36875
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:26.004Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 46419
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:26.006Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 49735
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:26.007Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 48977
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:26.010Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 47687
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:26.014Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 47593
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:26.014Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 47602
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:27.026Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 13667
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:28.044Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 47321
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:28.045Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 50172
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:28.050Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 40552
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:28.053Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 47688
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:28.056Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 47504
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:29.071Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 45618
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:29.072Z",
+    "type": "cache",
+    "data": {
+      "cache_hits": 15991
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:30.805Z",
+    "type": "memory",
+    "data": {
+      "bandwidth_MBps": 255
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:31.813Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 21338
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:31.814Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 50108
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:31.814Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 63525
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:31.814Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 75427
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:31.816Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 50570
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:31.816Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 44624
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:31.817Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 96921
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:32.821Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 83143
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:33.827Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 42475
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:33.874Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 95392
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:33.881Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 70846
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:33.889Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 95386
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:33.889Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 58959
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:33.903Z",
+    "type": "cache",
+    "data": {
+      "cache_hits": 19979
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:34.904Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 20547
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:35.990Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 90507
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:35.993Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 51205
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:35.997Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 118127
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:35.997Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 66861
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:35.998Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 89341
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:37.142Z",
+    "type": "memory",
+    "data": {
+      "bandwidth_MBps": 346
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:38.166Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 79709
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:39.176Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 12913
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:39.177Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 87003
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:39.178Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 82085
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:39.180Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 93062
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:39.181Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 57700
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:39.188Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 97231
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:39.188Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 102792
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:40.189Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 105630
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:40.191Z",
+    "type": "cache",
+    "data": {
+      "cache_hits": 24859
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:41.194Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 77343
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:41.200Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 60641
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:41.200Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 87746
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:41.201Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 67483
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:41.203Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 76756
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:42.204Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 19412
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:43.204Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 112861
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:44.090Z",
+    "type": "memory",
+    "data": {
+      "bandwidth_MBps": 366
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:44.097Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 83752
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:44.097Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 95401
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:44.098Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 110638
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:44.098Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 97429
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:44.100Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 143077
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:44.100Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 102035
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:45.102Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 95512
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:46.104Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 91265
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:46.105Z",
+    "type": "cache",
+    "data": {
+      "cache_hits": 28978
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:47.105Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 24064
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:47.110Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 103410
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:47.112Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 94326
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:47.112Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 97762
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:47.115Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 90662
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:47.115Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 106753
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:47.116Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 126960
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:48.119Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 117931
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:49.121Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 88553
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:49.123Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 111422
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:49.123Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 131698
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:49.125Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 98522
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:49.128Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 115387
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:50.131Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 24081
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:50.926Z",
+    "type": "memory",
+    "data": {
+      "bandwidth_MBps": 460
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:51.989Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 94447
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:51.990Z",
+    "type": "cache",
+    "data": {
+      "cache_hits": 32077
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:51.990Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 120956
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:51.991Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 98566
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:51.992Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 88505
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:51.994Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 107598
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:51.994Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 118754
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:51.998Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 74700
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:52.998Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 92782
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:54.005Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 22818
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:54.005Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 117594
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:54.006Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 111499
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:54.008Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 115961
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:54.008Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 99299
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:55.011Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 118008
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:56.012Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 95961
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:56.062Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 104761
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:56.065Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 105914
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:56.065Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 101699
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:56.066Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 118671
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:56.067Z",
+    "type": "cache",
+    "data": {
+      "cache_hits": 33748
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:57.067Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 25456
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:57.767Z",
+    "type": "memory",
+    "data": {
+      "bandwidth_MBps": 483
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:58.771Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 121012
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:58.774Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 84249
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:58.775Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 111241
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:58.777Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 114480
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:58.777Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 105026
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:58.778Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 93898
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:58.779Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 128145
+    }
+  },
+  {
+    "time": "2026-05-25T12:19:59.783Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 98088
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:00.786Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 24301
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:00.787Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 109229
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:00.790Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 125673
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:00.790Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 106381
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:00.790Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 113588
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:00.791Z",
+    "type": "cache",
+    "data": {
+      "cache_hits": 35182
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:01.794Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 109060
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:02.800Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 67344
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:02.803Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 107810
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:02.804Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 101719
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:02.804Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 82376
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:03.809Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 25326
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:04.573Z",
+    "type": "memory",
+    "data": {
+      "bandwidth_MBps": 455
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:05.581Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 124834
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:05.581Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 97949
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:05.584Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 124223
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:05.584Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 99437
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:05.585Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 97767
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:05.590Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 107376
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:06.590Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 91999
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:06.597Z",
+    "type": "cache",
+    "data": {
+      "cache_hits": 37360
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:07.614Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 24991
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:07.618Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 118089
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:07.622Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 117647
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:07.622Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 118373
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:07.622Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 112906
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:08.657Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 119492
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:09.662Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 97664
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:09.665Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 109661
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:09.666Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 112852
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:09.668Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 100058
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:09.669Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 105027
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:09.669Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 96223
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:10.673Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 25042
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:11.531Z",
+    "type": "memory",
+    "data": {
+      "bandwidth_MBps": 398
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:12.538Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 103215
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:12.539Z",
+    "type": "cache",
+    "data": {
+      "cache_hits": 41250
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:12.601Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 126582
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:12.602Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 107480
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:12.603Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 103950
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:12.605Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 119574
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:12.605Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 98338
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:13.616Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 101409
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:14.619Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 20267
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:14.621Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 100872
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:14.622Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 98709
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:14.623Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 103440
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:14.626Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 88675
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:15.626Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 116454
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:16.639Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 92715
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:16.678Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 102275
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:16.679Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 116789
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:16.680Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 100714
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:16.681Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 113658
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:16.683Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 110542
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:16.684Z",
+    "type": "cache",
+    "data": {
+      "cache_hits": 43099
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:17.686Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 31627
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:18.446Z",
+    "type": "memory",
+    "data": {
+      "bandwidth_MBps": 470
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:19.462Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 99601
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:19.475Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 115133
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:19.475Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 111121
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:19.492Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 109973
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:19.492Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 96326
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:19.493Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 118479
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:20.494Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 84471
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:21.500Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 21390
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:21.510Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 103062
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:21.510Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 111605
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:21.590Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 93711
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:21.591Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 112296
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:21.593Z",
+    "type": "cache",
+    "data": {
+      "cache_hits": 45209
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:22.605Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 50445
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:23.610Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 55792
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:23.615Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 71207
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:23.621Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 31503
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:23.622Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 86125
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:23.623Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 59652
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:24.677Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 14789
+    }
+  },
+  {
+    "time": "2026-05-25T12:20:26.496Z",
+    "type": "memory",
+    "data": {
+      "bandwidth_MBps": 212
+    }
+  }
+]

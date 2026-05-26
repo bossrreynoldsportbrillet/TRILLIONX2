@@ -1,0 +1,12 @@
+{
+  "engine": "TRILLIONX_JOB_DERIVATIVE",
+  "time": "2026-05-24T22:40:05.970Z",
+  "id": "20260524224001_disk_520847_950106",
+  "type": "disk",
+  "cat": "STORAGE",
+  "status": "DONE",
+  "duration_ms": 3576,
+  "log_tail": "=== TRILLIONX DISK GUARD SAFE ===\nFilesystem      Size  Used Avail Use% Mounted on\n/dev/loop4       32G   13G   17G  43% /workspaces\n=== TOP DOSSIERS ===\n12K\t./micro_sync\n16K\t./controllers\n20K\t./.devcontainer\n20K\t./plugins\n20K\t./.vscode\n28K\t./backend\n36K\t./native\n56K\t./async_derivatives\n76K\t./_TRILLIONX_SNAPSHOT_KEEP\n96K\t./async_results\n96K\t./reports\n124K\t./mesh_1x10\n288K\t./scripts\n324K\t./mesh_nodes\n404K\t./firmware\n4.5M\t./logs\n7.7M\t./history\n7.7M\t./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME\n7.8M\t./backups\n12M\t./runtime_state\n16M\t./node_modules\n76M\t./.git\n197M\t./raid60_plus\n215M\t./data\n573M\t.\n=== NETTOYAGE SAFE UNIQUEMENT ===\n=== APRES ===\nFilesystem      Size  Used Avail Use% Mounted on\n/dev/loop4       32G   13G   17G  43% /workspaces\n12K\t./micro_sync\n16K\t./controllers\n20K\t./.devcontainer\n20K\t./plugins\n20K\t./.vscode\n28K\t./backend\n36K\t./native\n64K\t./async_derivatives\n76K\t./_TRILLIONX_SNAPSHOT_KEEP\n96K\t./reports\n104K\t./async_results\n124K\t./mesh_1x10\n288K\t./scripts\n324K\t./mesh_nodes\n404K\t./firmware\n4.5M\t./logs\n7.7M\t./history\n7.7M\t./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME\n7.8M\t./backups\n12M\t./runtime_state\n16M\t./node_modules\n76M\t./.git\n197M\t./raid60_plus\n215M\t./data\n573M\t.\n✅ SAFE CLEAN OK : app.js, node_modules, data, raid60_plus non touchés\n",
+  "error": null,
+  "seal": "36e63499cbe206beedf73fd3d02c4683b14ae4aa5f374ef319553b27c27d01a1"
+}

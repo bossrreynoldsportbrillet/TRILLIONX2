@@ -1,0 +1,53 @@
+time=2026-05-24T23:08:04+00:00
+--- status staged/unstaged ---
+M  .gitignore
+M  .trillionx_aliases
+A  TRILLIONX_CODESPACES_DISPLAY_ACCELERATOR.sh
+A  TRILLIONX_GIT_24_LINES_RESOLVE_SAFE.sh
+A  TRILLIONX_GIT_PID_IGNORE_FIX.sh
+D  backups/app.before_TRILLIONX_virtual_threadripper_20260524_072919.js
+D  backups/app.before_TRILLIONX_virtual_threadripper_20260524_073013.js
+D  backups/app.before_TRILLIONX_virtual_threadripper_20260524_073108.js
+D  backups/app.before_compact_output_20260524_114806.js
+D  backups/app.before_dedup_threadripper_20260524_074142.js
+D  backups/app.before_output_lite_20260524_115426.js
+D  backups/app.before_virtual_threadripper_fix_20260524_073958.js
+M  data/TRILLIONX_RUNTIME_GUARD_LATEST.json
+MM history/TRILLIONX_PARALLEL_MICRO_SYNC_HISTORY.jsonl
+M  history/TRILLIONX_REMOTE_HOST_MICRO_SYNC_HISTORY.jsonl
+M  history/TRILLIONX_SYSTEM_ORGANIZATION_BENCH_HISTORY.jsonl
+M  reports/TRILLIONX_ASYNC_DRAIN_REGISTRY_CODEC_LATEST.json
+M  reports/TRILLIONX_ASYNC_GLOBAL_DRAIN_V2_LATEST.json
+M  reports/TRILLIONX_PARALLEL_MICRO_SYNC_LATEST.json
+M  reports/TRILLIONX_REMOTE_HOST_MICRO_SYNC_LATEST.json
+M  reports/TRILLIONX_SYSTEM_ORGANIZATION_BENCH_LATEST.json
+?? reports/TRILLIONX_GIT_24_LINES_RESOLVE_SNAPSHOT_20260524_230804.txt
+--- diff stat ---
+ .../TRILLIONX_PARALLEL_MICRO_SYNC_HISTORY.jsonl    | 26 +++++++++
+ .../TRILLIONX_REMOTE_HOST_MICRO_SYNC_HISTORY.jsonl |  1 +
+ reports/TRILLIONX_PARALLEL_MICRO_SYNC_LATEST.json  | 68 +++++++++++-----------
+ .../TRILLIONX_REMOTE_HOST_MICRO_SYNC_LATEST.json   | 24 ++++----
+ 4 files changed, 73 insertions(+), 46 deletions(-)
+--- cached stat ---
+ .gitignore                                         |     5 +
+ .trillionx_aliases                                 |     7 +
+ TRILLIONX_CODESPACES_DISPLAY_ACCELERATOR.sh        |   118 +
+ TRILLIONX_GIT_24_LINES_RESOLVE_SAFE.sh             |    81 +
+ TRILLIONX_GIT_PID_IGNORE_FIX.sh                    |    59 +
+ ...ILLIONX_virtual_threadripper_20260524_072919.js | 25938 ------------------
+ ...ILLIONX_virtual_threadripper_20260524_073013.js | 26090 ------------------
+ ...ILLIONX_virtual_threadripper_20260524_073108.js | 26242 ------------------
+ .../app.before_compact_output_20260524_114806.js   | 26119 ------------------
+ ...pp.before_dedup_threadripper_20260524_074142.js | 26522 -------------------
+ backups/app.before_output_lite_20260524_115426.js  | 26197 ------------------
+ ...ore_virtual_threadripper_fix_20260524_073958.js | 26394 ------------------
+ data/TRILLIONX_RUNTIME_GUARD_LATEST.json           |    18 +-
+ .../TRILLIONX_PARALLEL_MICRO_SYNC_HISTORY.jsonl    | 13035 +++++++++
+ .../TRILLIONX_REMOTE_HOST_MICRO_SYNC_HISTORY.jsonl |  1623 ++
+ ...ILLIONX_SYSTEM_ORGANIZATION_BENCH_HISTORY.jsonl |     4 +
+ ...RILLIONX_ASYNC_DRAIN_REGISTRY_CODEC_LATEST.json |     6 +-
+ .../TRILLIONX_ASYNC_GLOBAL_DRAIN_V2_LATEST.json    |     4 +-
+ reports/TRILLIONX_PARALLEL_MICRO_SYNC_LATEST.json  |    74 +-
+ .../TRILLIONX_REMOTE_HOST_MICRO_SYNC_LATEST.json   |    32 +-
+ ...TRILLIONX_SYSTEM_ORGANIZATION_BENCH_LATEST.json |    52 +-
+ 21 files changed, 15025 insertions(+), 183595 deletions(-)

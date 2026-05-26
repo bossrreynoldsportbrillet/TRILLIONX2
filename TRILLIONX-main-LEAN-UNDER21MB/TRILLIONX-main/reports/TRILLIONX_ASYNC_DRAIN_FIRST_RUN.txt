@@ -1,0 +1,80 @@
+{
+  "engine": "TRILLIONX_ASYNC_DRAIN_REGISTRY_CODEC",
+  "time": "2026-05-24T22:29:57.383Z",
+  "started": "2026-05-24T22:29:57.382Z",
+  "mode": "drain",
+  "queue_count": 0,
+  "running_count": 0,
+  "results_count": 6,
+  "by_status": {
+    "DONE": 6
+  },
+  "by_type": {
+    "disk": 2,
+    "resource": 2,
+    "status": 2
+  },
+  "latest_results": [
+    {
+      "id": "20260524_220203_disk_285502",
+      "type": "disk",
+      "status": "DONE"
+    },
+    {
+      "id": "20260524_220203_resource_285485",
+      "type": "resource",
+      "status": "DONE"
+    },
+    {
+      "id": "20260524_220203_status_285468",
+      "type": "status",
+      "status": "DONE"
+    },
+    {
+      "id": "20260524_220344_disk_291361",
+      "type": "disk",
+      "status": "DONE"
+    },
+    {
+      "id": "20260524_220344_resource_291344",
+      "type": "resource",
+      "status": "DONE"
+    },
+    {
+      "id": "20260524_220344_status_291326",
+      "type": "status",
+      "status": "DONE"
+    }
+  ],
+  "registry_count": 9,
+  "directories": {
+    "q": "/workspaces/TRILLIONX/async_queue",
+    "r": "/workspaces/TRILLIONX/async_jobs",
+    "out": "/workspaces/TRILLIONX/async_results",
+    "reg": "/workspaces/TRILLIONX/async_registry",
+    "cod": "/workspaces/TRILLIONX/async_codecs",
+    "der": "/workspaces/TRILLIONX/async_derivatives",
+    "log": "/workspaces/TRILLIONX/logs",
+    "rep": "/workspaces/TRILLIONX/reports",
+    "hist": "/workspaces/TRILLIONX/history"
+  },
+  "extra": {
+    "stale_recovered": 0,
+    "done": 0,
+    "failed": 0,
+    "timeout": 0,
+    "rejected": 0,
+    "max_jobs": 20,
+    "concurrency": 1
+  },
+  "policy": {
+    "drain_safe": true,
+    "allowlist_only": true,
+    "stuck_running_guard": true,
+    "codec_derivative_enabled": true,
+    "no_app_js_touch": true,
+    "no_data_touch": true,
+    "no_raid60_plus_touch": true
+  },
+  "seal": "28e9f923b2e448e503030ea44b009cc08be17925b5b08ac791a1a1ca298bcdb5"
+}

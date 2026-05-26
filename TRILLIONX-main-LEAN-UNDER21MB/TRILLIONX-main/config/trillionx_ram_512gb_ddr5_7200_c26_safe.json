@@ -1,0 +1,56 @@
+{
+  "profile_name": "TRILLIONX_TARGET_RAM_512GB_DDR5_7200_C26_SAFE",
+  "doctrine": "REAL_ONLY_OR_UNAVAILABLE",
+  "truth_policy": {
+    "real_host_ram_claim": false,
+    "target_profile": true,
+    "codespaces_real_ram_must_be_measured": true,
+    "no_fake_telemetry": true,
+    "no_fake_memory_allocation": true
+  },
+  "target_memory": {
+    "capacity_gb": 512,
+    "memory_type": "DDR5",
+    "speed_mt_s": 7200,
+    "cas_latency": 26,
+    "voltage_v": 1.1,
+    "channel_topology": "octo_channel_x4",
+    "ecc": "preferred_safe_if_platform_supports",
+    "mode": "SAFE",
+    "notes": [
+      "Target hardware profile only unless detected on real host",
+      "Do not allocate 512GB inside Codespaces",
+      "Use bounded cache and spill-to-disk on small hosts"
+    ]
+  },
+  "cache_system": {
+    "enabled": true,
+    "mode": "SAFE_BOUNDED_CACHE",
+    "levels": {
+      "L1_hot_objects_mb": 64,
+      "L2_route_cache_mb": 128,
+      "L3_json_result_cache_mb": 256,
+      "L4_report_index_cache_mb": 512,
+      "L5_disk_spill_cache_mb": 2048,
+      "L6_cold_archive_index_mb": 4096
+    },
+    "codespaces_guard": {
+      "max_ram_cache_mb": 256,
+      "max_output_chars": 60000,
+      "max_workers": 1,
+      "max_parallel_jobs": 1,
+      "disable_heavy_bench_by_default": true
+    }
+  },
+  "activation_env": {
+    "TRILLIONX_TARGET_RAM_PROFILE": "512GB_DDR5_7200_C26_SAFE",
+    "TRILLIONX_RAM_PROFILE_MODE": "TARGET_NOT_CLAIM",
+    "TRILLIONX_CACHE_SYSTEM": "SAFE_BOUNDED",
+    "TRILLIONX_MAX_WORKERS": "1",
+    "TRILLIONX_MAX_PARALLEL_JOBS": "1",
+    "TRILLIONX_CACHE_MAX_MB": "256",
+    "TRILLIONX_OUTPUT_LIMIT": "60000",
+    "TRILLIONX_HEAVY_BENCH": "0",
+    "NODE_OPTIONS": "--max-old-space-size=2048"
+  }
+}

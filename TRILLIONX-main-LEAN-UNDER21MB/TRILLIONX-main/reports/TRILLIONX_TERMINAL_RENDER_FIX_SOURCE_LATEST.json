@@ -1,0 +1,9 @@
+{
+  "engine": "TRILLIONX_TERMINAL_RENDER_FIX_SOURCE",
+  "time": "2026-05-24T23:39:43Z",
+  "mode": "source_render_fix",
+  "api_kept": "/api/terminal/run",
+  "security": "allowlist preserved",
+  "appjs_modified": true,
+  "seal": "6f00d68d8162531088c522a60c0ad0fda388548e43bbf03152125146b435b5f4"
+}

@@ -1,0 +1,14 @@
+{
+  "engine": "TRILLIONX",
+  "state": "OKAY_STABLE_USER_VALIDATED",
+  "time": "2026-05-24T18:59:45+00:00",
+  "port": 3000,
+  "app": "app.js",
+  "debug_attach": 9229,
+  "policy": {
+    "real_only": true,
+    "safe_repair_active": true,
+    "do_not_break_working_runtime": true,
+    "future_modules_must_be_additive": true
+  }
+}

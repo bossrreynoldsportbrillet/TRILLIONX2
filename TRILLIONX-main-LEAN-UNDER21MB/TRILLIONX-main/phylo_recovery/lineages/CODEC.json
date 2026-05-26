@@ -1,0 +1,97 @@
+[
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/03_BENCH/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt",
+    "size": 1137741,
+    "sha256": "e9936f05c645987f4f1fcd9065180810390780fc438561368980ae5f56d3946a"
+  },
+  {
+    "file": "./app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr-ai-meta-cpu-native-SIMD-NATIVE.txt",
+    "size": 1137741,
+    "sha256": "e9936f05c645987f4f1fcd9065180810390780fc438561368980ae5f56d3946a"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/06_ARCHIVE_TXT/app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt",
+    "size": 1122183,
+    "sha256": "5986a3e402e8c7cd2901a05ac3e6475535669071868051797ab54fa463f6e376"
+  },
+  {
+    "file": "./app.js.9000VW.memory-ecc-222-L1L6-L56LE-native-codex-codecs-vr.txt",
+    "size": 1122183,
+    "sha256": "5986a3e402e8c7cd2901a05ac3e6475535669071868051797ab54fa463f6e376"
+  },
+  {
+    "file": "./scripts/trillionx_async_drain_registry_codec.sh",
+    "size": 15706,
+    "sha256": "ed403173bc3e5f09368337b904bca4728bafbff2c077830515431bcc142745a2"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/02_NETWORK/data/trillionx_codex_codecs_network_satellite_1779629068235.json",
+    "size": 14969,
+    "sha256": "3039b5a726d51ca2ea96eee5ec1b89f8f71b3c1317d99048d369f02a09a6e713"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/02_NETWORK/data/trillionx_codex_codecs_network_satellite_latest.json",
+    "size": 14969,
+    "sha256": "3039b5a726d51ca2ea96eee5ec1b89f8f71b3c1317d99048d369f02a09a6e713"
+  },
+  {
+    "file": "./data/trillionx_codex_codecs_network_satellite_1779629068235.json",
+    "size": 14969,
+    "sha256": "3039b5a726d51ca2ea96eee5ec1b89f8f71b3c1317d99048d369f02a09a6e713"
+  },
+  {
+    "file": "./data/trillionx_codex_codecs_network_satellite_latest.json",
+    "size": 14969,
+    "sha256": "3039b5a726d51ca2ea96eee5ec1b89f8f71b3c1317d99048d369f02a09a6e713"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/02_NETWORK/data/trillionx_codex_codecs_network_satellite_1779625199281.json",
+    "size": 12661,
+    "sha256": "25539957d6d37beb9da22d9fc56dec33c2daa9886e75904116113952b47944bc"
+  },
+  {
+    "file": "./data/trillionx_codex_codecs_network_satellite_1779625199281.json",
+    "size": 12661,
+    "sha256": "25539957d6d37beb9da22d9fc56dec33c2daa9886e75904116113952b47944bc"
+  },
+  {
+    "file": "./scripts/tx_async_drain_registry_codec.js",
+    "size": 10867,
+    "sha256": "211351077ba244d87fc4d615ef91d4f8f52f744da41991d59ea8513941ad9dcc"
+  },
+  {
+    "file": "./TRILLIONX_CODEX_CODECS_NETWORK_SATELLITE_CATALOG.js",
+    "size": 6874,
+    "sha256": "7a086d89c7e333bd61a87f3a74c976fe3ad4993540855cae2328e622e5ebef27"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/02_NETWORK/TRILLIONX_CODEX_CODECS_NETWORK_SATELLITE_CATALOG.js",
+    "size": 6874,
+    "sha256": "7a086d89c7e333bd61a87f3a74c976fe3ad4993540855cae2328e622e5ebef27"
+  },
+  {
+    "file": "./reports/TRILLIONX_ASYNC_DRAIN_REGISTRY_CODEC_LATEST.json",
+    "size": 3718,
+    "sha256": "c26e1a360a07af49a33aca4a8cfc1cee20ccad07866c2d7992c8a44d0318aec4"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/05_REPORTS/async_codecs/TRILLIONX_ASYNC_CODEC_CATALOG.json",
+    "size": 385,
+    "sha256": "e90dae6cce9d35e3583fdf55953f6026a4be2130eca21d75b86940166282d0ec"
+  },
+  {
+    "file": "./async_codecs/TRILLIONX_ASYNC_CODEC_CATALOG.json",
+    "size": 385,
+    "sha256": "e90dae6cce9d35e3583fdf55953f6026a4be2130eca21d75b86940166282d0ec"
+  },
+  {
+    "file": "./NEUTRAL_COMPRESSION_NOTE.txt",
+    "size": 303,
+    "sha256": "436bb1bfbaa3b3997c43661f857a347c47d67c2b679edaa3a11d6a02fe1bf6ad"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/06_ARCHIVE_TXT/NEUTRAL_COMPRESSION_NOTE.txt",
+    "size": 303,
+    "sha256": "436bb1bfbaa3b3997c43661f857a347c47d67c2b679edaa3a11d6a02fe1bf6ad"
+  }
+]

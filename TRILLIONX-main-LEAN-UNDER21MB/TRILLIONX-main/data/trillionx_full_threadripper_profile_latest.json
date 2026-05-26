@@ -1,0 +1,196 @@
+{
+  "name": "TRILLIONX_FULL_THREADRIPPER_PROFILE_BENCH",
+  "version": "V1",
+  "time": "2026-05-24T08:21:40.928Z",
+  "real_measured": {
+    "host": {
+      "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+      "logical_cpus": 2,
+      "reported_speed_mhz": 3386,
+      "ram_gb": 7.76,
+      "free_ram_gb": 1.11,
+      "platform": "linux",
+      "arch": "x64",
+      "node": "v24.14.0",
+      "codespaces": true,
+      "container": true,
+      "simd": {
+        "sse": true,
+        "sse2": true,
+        "sse4_1": true,
+        "sse4_2": true,
+        "avx": true,
+        "avx2": true,
+        "avx512f": true,
+        "fma": true,
+        "aes": true,
+        "sha_ni": true
+      },
+      "lscpu": "Architecture:                         x86_64\nCPU op-mode(s):                       32-bit, 64-bit\nAddress sizes:                        46 bits physical, 57 bits virtual\nByte Order:                           Little Endian\nCPU(s):                               2\nOn-line CPU(s) list:                  0,1\nVendor ID:                            GenuineIntel\nModel name:                           Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz\nCPU family:                           6\nModel:                                106\nThread(s) per core:                   2\nCore(s) per socket:                   1\nSocket(s):                            1\nStepping:                             6\nCPU(s) scaling MHz:                   124%\nCPU max MHz:                          2800.0000\nCPU min MHz:                          800.0000\nBogoMIPS:                             5586.87\nFlags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch tpr_shadow ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves vnmi avx512vbmi umip avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq la57 rdpid fsrm arch_capabilities\nVirtualization:                       VT-x\nHypervisor vendor:                    Microsoft\nVirtualization type:                  full\nL1d cache:                            48 KiB (1 instance)\nL1i cache:                            32 KiB (1 instance)\nL2 cache:                             1.3 MiB (1 instance)\nL3 cache:                             48 MiB (1 instance)\nNUMA node(s):                         1\nNUMA node0 CPU(s):                    0,1\nVulnerability Gather data sampling:   Not affected\nVulnerability Itlb multihit:          Not affected\nVulnerability L1tf:                   Not affected\nVulnerability Mds:                    Not affected\nVulnerability Meltdown:               Not affected\nVulnerability Mmio stale data:        Vulnerable: Clear CPU buffers attempted, no microcode; SMT Host state unknown\nVulnerability Reg file data sampling: Not affected\nVulnerability Retbleed:               Vulnerable\nVulnerability Spec rstack overflow:   Not affected\nVulnerability Spec store bypass:      Vulnerable\nVulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:             Mitigation; Retpolines; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Retpoline\nVulnerability Srbds:                  Not affected\nVulnerability Tsx async abort:        Not affected\nVulnerability Vmscape:                Not affected",
+      "remote": "origin\thttps://github.com/bossrreynoldsportbrillet/TRILLIONX.git (fetch)\norigin\thttps://github.com/bossrreynoldsportbrillet/TRILLIONX.git (push)",
+      "head": "08ecf72 Add native C SIMD AVX AVX2 AVX512 benchmark"
+    },
+    "api": [
+      {
+        "path": "/api/ping",
+        "ok": true,
+        "status": 200,
+        "ms": 10.34,
+        "bytes": 169
+      },
+      {
+        "path": "/api/system",
+        "ok": true,
+        "status": 200,
+        "ms": 353.06,
+        "bytes": 1881
+      },
+      {
+        "path": "/api/capacity",
+        "ok": true,
+        "status": 200,
+        "ms": 327.27,
+        "bytes": 452
+      },
+      {
+        "path": "/api/modules",
+        "ok": true,
+        "status": 200,
+        "ms": 2.78,
+        "bytes": 79379
+      },
+      {
+        "path": "/api/security",
+        "ok": true,
+        "status": 200,
+        "ms": 951.04,
+        "bytes": 12742
+      },
+      {
+        "path": "/api/supercompute",
+        "ok": true,
+        "status": 200,
+        "ms": 85.33,
+        "bytes": 4677
+      },
+      {
+        "path": "/api/trillionx/virtual-threadripper/verdict",
+        "ok": true,
+        "status": 200,
+        "ms": 2.04,
+        "bytes": 612
+      },
+      {
+        "path": "/api/trillionx/support-base",
+        "ok": true,
+        "status": 200,
+        "ms": 1.75,
+        "bytes": 486
+      },
+      {
+        "path": "/api/trillionx/backups/verdict",
+        "ok": true,
+        "status": 200,
+        "ms": 1.56,
+        "bytes": 263
+      }
+    ],
+    "native_best_gops": 9.1707,
+    "matrix": {
+      "n": 224,
+      "ms": 25.55,
+      "approx_ops": 22478848,
+      "approx_gops": 0.8799,
+      "checksum": 56069.874088
+    },
+    "hash": {
+      "total_mb": 1536,
+      "ms": 1391.75,
+      "mb_per_sec": 1103.65,
+      "digest": "51f9ecc95b3e1f63e05b5cf3"
+    },
+    "compression": {
+      "input_mb": 32,
+      "output_mb": 32.01,
+      "ratio": 1.0003,
+      "integrity": true,
+      "ms": 786.32,
+      "mb_per_sec": 40.7
+    },
+    "io": {
+      "mb": 64,
+      "write_ms": 40.8,
+      "read_ms": 159.9,
+      "write_mb_s": 1568.47,
+      "read_mb_s": 400.24,
+      "integrity": true
+    },
+    "workers": {
+      "worker_count": 2,
+      "loops_per_worker": 3000000,
+      "total_loops": 6000000,
+      "total_ms": 333.9,
+      "loops_per_sec": 17969487.02,
+      "jobs_per_sec": 5.99,
+      "results": [
+        {
+          "ms": 177.7,
+          "loops": 3000000,
+          "checksum": 23851216.7817,
+          "hash": "9c17ab244b25569d"
+        },
+        {
+          "ms": 173.82,
+          "loops": 3000000,
+          "checksum": 23851216.7817,
+          "hash": "de829d2c6f2888de"
+        }
+      ]
+    }
+  },
+  "threadripper_9000vw_profile": {
+    "target": {
+      "label": "DUAL_THREADRIPPER_9000VW_3NM_266MB_3D_VCACHE_ECC",
+      "sockets": 2,
+      "assumed_logical_threads": 256,
+      "cache_mb": 266,
+      "ecc": true,
+      "status": "VIRTUAL_TARGET_PROFILE_NOT_PHYSICAL_CLAIM"
+    },
+    "projection_method": "indicative scaling from real TRILLIONX benchmark, not physical measurement",
+    "real_host_logical_cpus": 2,
+    "target_logical_threads": 256,
+    "thread_scale": 128,
+    "cache_factor": 1.15,
+    "efficiency_guard": 0.62,
+    "projection_factor": 91.26,
+    "projected_native_best_gops": 836.9195,
+    "projected_worker_loops_per_sec": 1639895385.45,
+    "projected_hash_mb_per_sec": 100719.1,
+    "verdict": "THREADRIPPER_PROFILE_PROJECTION_ONLY_REAL_CONFIRMATION_REQUIRED"
+  },
+  "classification": {
+    "real_classification": "TRILLIONX_ON_CODESPACES_HPC_FEATURED_NODE",
+    "real_equivalent": "single virtualized HPC-capable node features, not a supercomputer",
+    "threadripper_profile_classification": "THREADRIPPER_PROFILE_HIGH_WORKSTATION_CLUSTERLIKE_INDICATIVE",
+    "api_success": "9/9",
+    "trillionx_real_orchestration_score": 82.53,
+    "trillionx_threadripper_profile_score": 97.39,
+    "warning": "Threadripper score is a profile projection, not a real sensor measurement.",
+    "doctrine": "REAL_MEASURED_CODESPACES_PLUS_THREADRIPPER_TARGET_PROFILE_SEPARATED"
+  },
+  "truth_policy": {
+    "real_only": true,
+    "no_fake_cpu": true,
+    "no_fake_supercomputer": true,
+    "threadripper_profile_not_physical_claim": true,
+    "physical_confirmation_required": true,
+    "executed_by": "TRILLIONX",
+    "executed_on": "CODESPACES_VIRTUALIZED_HOST"
+  },
+  "memory_now": {
+    "rss_mb": 302.76,
+    "heap_used_mb": 5.84,
+    "external_mb": 194.02
+  }
+}

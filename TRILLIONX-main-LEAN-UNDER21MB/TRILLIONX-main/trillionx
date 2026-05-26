@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+set -e
+
+ROOT="/workspaces/TRILLIONX2/TRILLIONX-main-LEAN-UNDER21MB/TRILLIONX-main"
+cd "$ROOT"
+
+mkdir -p logs reports runtime_state _TRILLIONX_CONTAINER_INPUT
+
+echo "======================================"
+echo " TRILLIONX2 NATIVE START"
+echo " ROOT: $ROOT"
+echo "======================================"
+
+echo
+echo "=== JSON CHECK ==="
+for f in package.json .devcontainer/devcontainer.json .vscode/launch.json; do
+  if [ -f "$f" ]; then
+    node -e "JSON.parse(require('fs').readFileSync(process.argv[1],'utf8')); console.log('OK JSON:',process.argv[1])" "$f" \
+      || { echo "JSON ERROR: $f"; exit 1; }
+  fi
+done
+
+echo
+echo "=== PORT 3000 CLEAN ==="
+if command -v lsof >/dev/null 2>&1; then
+  lsof -ti:3000 | xargs -r kill -9
+else
+  pkill -f "node app.js" 2>/dev/null || true
+fi
+
+sleep 1
+
+echo
+echo "=== SAFE AUTO DETECTION ==="
+echo "CPU THREADS : $(node -e 'console.log(require("os").cpus().length)')"
+echo "RAM GB      : $(node -e 'console.log(Math.round(require("os").totalmem()/1024/1024/1024))')"
+echo "NODE        : $(node -v)"
+echo "NPM         : $(npm -v 2>/dev/null || echo unavailable)"
+echo "PYTHON      : $(python3 --version 2>/dev/null || echo unavailable)"
+echo "DOCKER      : $(docker --version 2>/dev/null || echo unavailable)"
+echo "GPU         : $(command -v nvidia-smi >/dev/null 2>&1 && nvidia-smi --query-gpu=name --format=csv,noheader 2>/dev/null || echo GPU_UNAVAILABLE_IN_CODESPACES)"
+
+echo
+echo "=== START APP ==="
+PORT=3000 node app.js 2>&1 | tee logs/trillionx_native_3000.log

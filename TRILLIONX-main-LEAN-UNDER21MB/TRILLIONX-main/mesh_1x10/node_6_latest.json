@@ -1,0 +1,48 @@
+{
+  "node_id": 6,
+  "node_name": "TRILLIONX_1X10_NODE_06",
+  "port": 3116,
+  "status": "ACTIVE",
+  "created": "2026-05-24T15:45:50.828Z",
+  "target": "TRILLIONX",
+  "role": "WORKER_NODE",
+  "work": {
+    "loops": 330000,
+    "ms": 13.246,
+    "loops_s": 24913850.923,
+    "digest": "a9a68cfbf29234225d759093",
+    "checksum": 15597.767
+  },
+  "vr_mirror": {
+    "node_id": 6,
+    "mirrors": 190000,
+    "ms": 0.438,
+    "mirror_ops_s": 434087274.388,
+    "checksum": 377767392
+  },
+  "cache": {
+    "bytes": 458752,
+    "mb": 0.438,
+    "ms": 0.429,
+    "cache_ops_s": 16693759.869,
+    "hits": 1792,
+    "miss": 5376,
+    "hit_ratio": 0.25,
+    "checksum": 731136
+  },
+  "memory": {
+    "rss_mb": 56.797,
+    "heap_mb": 5.48,
+    "external_mb": 2.817,
+    "free_gb": 0.926,
+    "total_gb": 7.757
+  },
+  "score": 30924.1,
+  "truth_policy": {
+    "real_only": true,
+    "node_is_local_runtime_process": true,
+    "not_physical_machine": true,
+    "vr_mirror_is_software_runtime": true,
+    "host": "CODESPACES_SUPPORT_ONLY"
+  }
+}

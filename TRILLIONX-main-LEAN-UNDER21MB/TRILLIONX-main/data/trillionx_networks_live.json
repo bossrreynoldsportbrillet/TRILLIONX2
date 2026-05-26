@@ -1,0 +1,606 @@
+{
+  "engine": "TRILLIONX_NETWORK_AUTODETECT",
+  "version": "3.0",
+  "ts": "2026-05-25T06:34:13.233Z",
+  "policy": {
+    "passive": true,
+    "read_only": true,
+    "no_auth": true,
+    "no_port_scan": true,
+    "real_only": true
+  },
+  "total_networks": 50,
+  "scan_duration_ms": 1785.508,
+  "summary": {
+    "ok": "43/50",
+    "p50_ms": 102.449,
+    "p95_ms": 564.169,
+    "health": 86,
+    "verdict": "NETWORKS_GOOD",
+    "facts_extracted": 29
+  },
+  "by_category": {
+    "btc": {
+      "ok": 9,
+      "n": 9,
+      "pct": 100
+    },
+    "eth": {
+      "ok": 1,
+      "n": 1,
+      "pct": 100
+    },
+    "market": {
+      "ok": 6,
+      "n": 8,
+      "pct": 75
+    },
+    "code": {
+      "ok": 6,
+      "n": 6,
+      "pct": 100
+    },
+    "pkg": {
+      "ok": 3,
+      "n": 5,
+      "pct": 60
+    },
+    "net": {
+      "ok": 7,
+      "n": 7,
+      "pct": 100
+    },
+    "time": {
+      "ok": 0,
+      "n": 2,
+      "pct": 0
+    },
+    "ref": {
+      "ok": 1,
+      "n": 2,
+      "pct": 50
+    },
+    "ai": {
+      "ok": 4,
+      "n": 4,
+      "pct": 100
+    },
+    "status": {
+      "ok": 6,
+      "n": 6,
+      "pct": 100
+    }
+  },
+  "facts": {
+    "btc_height": 950919,
+    "btc_height_sources": 3,
+    "btc_fee_fast": 2,
+    "btc_fee_30m": 1,
+    "btc_fee_hour": 1,
+    "btc_diff_change_pct": 0.05217074895749185,
+    "btc_diff_progress_pct": 68.60119047619048,
+    "btc_diff_remaining_blocks": 633,
+    "btc_hashrate_ghs": 869219113665,
+    "btc_usd_blockchain": 77251.81,
+    "btc_eur_blockchain": 66373.52,
+    "btc_usd": 77245,
+    "btc_eur": 66368,
+    "eth_usd": 2101.61,
+    "eth_eur": 1805.67,
+    "xmr_usd": 391.42,
+    "xmr_eur": 336.31,
+    "market_cap_usd": 2654585575005.7114,
+    "btc_dominance": 58.261374196158634,
+    "btc_usd_bitstamp": 77251.01,
+    "btc_24h_high": 77553.68,
+    "btc_24h_low": 76015,
+    "btc_24h_volume": 586.20291687,
+    "gh_rate_remaining": 0,
+    "gh_rate_limit": 60,
+    "gh_rate_reset": 1779692830,
+    "public_ip": "172.166.156.96",
+    "public_loc": "GB",
+    "service_status": {
+      "github": "none",
+      "cloudflare": "minor",
+      "npm": "none",
+      "openai": "none",
+      "python": "none"
+    }
+  },
+  "results": [
+    {
+      "id": "btc_height_mempool",
+      "cat": "btc",
+      "role": "height",
+      "ok": true,
+      "status": 200,
+      "ms": 564.169,
+      "bytes": 6,
+      "error": null
+    },
+    {
+      "id": "btc_height_blockstream",
+      "cat": "btc",
+      "role": "height",
+      "ok": true,
+      "status": 200,
+      "ms": 495.974,
+      "bytes": 6,
+      "error": null
+    },
+    {
+      "id": "btc_height_blockchain_info",
+      "cat": "btc",
+      "role": "height",
+      "ok": true,
+      "status": 200,
+      "ms": 52.043,
+      "bytes": 6,
+      "error": null
+    },
+    {
+      "id": "btc_fees_mempool",
+      "cat": "btc",
+      "role": "fees",
+      "ok": true,
+      "status": 200,
+      "ms": 559.626,
+      "bytes": 74,
+      "error": null
+    },
+    {
+      "id": "btc_diff_mempool",
+      "cat": "btc",
+      "role": "diff",
+      "ok": true,
+      "status": 200,
+      "ms": 557.769,
+      "bytes": 346,
+      "error": null
+    },
+    {
+      "id": "btc_fee_est_blockstream",
+      "cat": "btc",
+      "role": "fee_est",
+      "ok": true,
+      "status": 200,
+      "ms": 474.512,
+      "bytes": 304,
+      "error": null
+    },
+    {
+      "id": "btc_hashrate",
+      "cat": "btc",
+      "role": "hashrate",
+      "ok": true,
+      "status": 200,
+      "ms": 38.231,
+      "bytes": 12,
+      "error": null
+    },
+    {
+      "id": "btc_ticker",
+      "cat": "btc",
+      "role": "ticker",
+      "ok": true,
+      "status": 200,
+      "ms": 21.139,
+      "bytes": 2779,
+      "error": null
+    },
+    {
+      "id": "btc_stats_blockchair",
+      "cat": "btc",
+      "role": "stats",
+      "ok": true,
+      "status": 200,
+      "ms": 179.49,
+      "bytes": 1871,
+      "error": null
+    },
+    {
+      "id": "eth_stats_blockchair",
+      "cat": "eth",
+      "role": "stats",
+      "ok": true,
+      "status": 200,
+      "ms": 173.215,
+      "bytes": 2481,
+      "error": null
+    },
+    {
+      "id": "cg_ping",
+      "cat": "market",
+      "role": "ping",
+      "ok": true,
+      "status": 200,
+      "ms": 222.384,
+      "bytes": 34,
+      "error": null
+    },
+    {
+      "id": "cg_prices",
+      "cat": "market",
+      "role": "prices",
+      "ok": true,
+      "status": 200,
+      "ms": 210.983,
+      "bytes": 115,
+      "error": null
+    },
+    {
+      "id": "cg_global",
+      "cat": "market",
+      "role": "global",
+      "ok": true,
+      "status": 200,
+      "ms": 198.75,
+      "bytes": 3666,
+      "error": null
+    },
+    {
+      "id": "cc_btc",
+      "cat": "market",
+      "role": "asset",
+      "ok": false,
+      "status": 0,
+      "ms": 53.952,
+      "error": "ENOTFOUND"
+    },
+    {
+      "id": "cc_eth",
+      "cat": "market",
+      "role": "asset",
+      "ok": false,
+      "status": 0,
+      "ms": 49.294,
+      "error": "ENOTFOUND"
+    },
+    {
+      "id": "kraken_time",
+      "cat": "market",
+      "role": "time",
+      "ok": true,
+      "status": 200,
+      "ms": 24.843,
+      "bytes": 87,
+      "error": null
+    },
+    {
+      "id": "kraken_status",
+      "cat": "market",
+      "role": "status",
+      "ok": true,
+      "status": 200,
+      "ms": 27.042,
+      "bytes": 76,
+      "error": null
+    },
+    {
+      "id": "bitstamp_btcusd",
+      "cat": "market",
+      "role": "ticker",
+      "ok": true,
+      "status": 200,
+      "ms": 31.928,
+      "bytes": 254,
+      "error": null
+    },
+    {
+      "id": "gh_root",
+      "cat": "code",
+      "role": "root",
+      "ok": true,
+      "status": 403,
+      "ms": 12.571,
+      "bytes": 280,
+      "error": null
+    },
+    {
+      "id": "gh_zen",
+      "cat": "code",
+      "role": "zen",
+      "ok": true,
+      "status": 403,
+      "ms": 13.428,
+      "bytes": 280,
+      "error": null
+    },
+    {
+      "id": "gh_rate",
+      "cat": "code",
+      "role": "rate",
+      "ok": true,
+      "status": 200,
+      "ms": 14.387,
+      "bytes": 560,
+      "error": null
+    },
+    {
+      "id": "gh_meta",
+      "cat": "code",
+      "role": "meta",
+      "ok": true,
+      "status": 403,
+      "ms": 13.423,
+      "bytes": 280,
+      "error": null
+    },
+    {
+      "id": "gl_ver",
+      "cat": "code",
+      "role": "ver",
+      "ok": true,
+      "status": 401,
+      "ms": 154.053,
+      "bytes": 30,
+      "error": null
+    },
+    {
+      "id": "cb_ver",
+      "cat": "code",
+      "role": "ver",
+      "ok": true,
+      "status": 200,
+      "ms": 64.676,
+      "bytes": 47,
+      "error": null
+    },
+    {
+      "id": "npm_ping",
+      "cat": "pkg",
+      "role": "ping",
+      "ok": true,
+      "status": 200,
+      "ms": 185.412,
+      "bytes": 2,
+      "error": null
+    },
+    {
+      "id": "npm_express",
+      "cat": "pkg",
+      "role": "meta",
+      "ok": false,
+      "status": 0,
+      "ms": 33.319,
+      "error": "ECONNRESET"
+    },
+    {
+      "id": "pypi_pip",
+      "cat": "pkg",
+      "role": "meta",
+      "ok": true,
+      "status": 200,
+      "ms": 7.618,
+      "bytes": 208387,
+      "error": null
+    },
+    {
+      "id": "crates_sum",
+      "cat": "pkg",
+      "role": "summary",
+      "ok": true,
+      "status": 200,
+      "ms": 401.035,
+      "bytes": 41675,
+      "error": null
+    },
+    {
+      "id": "rubygems_rails",
+      "cat": "pkg",
+      "role": "meta",
+      "ok": false,
+      "status": 0,
+      "ms": 28.748,
+      "error": "ECONNRESET"
+    },
+    {
+      "id": "cf_trace",
+      "cat": "net",
+      "role": "trace",
+      "ok": true,
+      "status": 200,
+      "ms": 12.17,
+      "bytes": 223,
+      "error": null
+    },
+    {
+      "id": "cf_1111",
+      "cat": "net",
+      "role": "trace",
+      "ok": true,
+      "status": 200,
+      "ms": 16.552,
+      "bytes": 210,
+      "error": null
+    },
+    {
+      "id": "cf_doh",
+      "cat": "net",
+      "role": "doh",
+      "ok": true,
+      "status": 400,
+      "ms": 165.66,
+      "bytes": 0,
+      "error": null
+    },
+    {
+      "id": "goog_doh",
+      "cat": "net",
+      "role": "doh",
+      "ok": true,
+      "status": 200,
+      "ms": 13.75,
+      "bytes": 295,
+      "error": null
+    },
+    {
+      "id": "ipify",
+      "cat": "net",
+      "role": "ip",
+      "ok": true,
+      "status": 200,
+      "ms": 94.29,
+      "bytes": 23,
+      "error": null
+    },
+    {
+      "id": "ipapi",
+      "cat": "net",
+      "role": "geo",
+      "ok": true,
+      "status": 200,
+      "ms": 202.073,
+      "bytes": 761,
+      "error": null
+    },
+    {
+      "id": "httpbin",
+      "cat": "net",
+      "role": "echo",
+      "ok": true,
+      "status": 200,
+      "ms": 796.346,
+      "bytes": 293,
+      "error": null
+    },
+    {
+      "id": "wt_paris",
+      "cat": "time",
+      "role": "tz",
+      "ok": false,
+      "status": 0,
+      "ms": 184.044,
+      "error": "ECONNRESET"
+    },
+    {
+      "id": "wt_ip",
+      "cat": "time",
+      "role": "tz_ip",
+      "ok": false,
+      "status": 0,
+      "ms": 172.355,
+      "error": "ECONNRESET"
+    },
+    {
+      "id": "wp_btc",
+      "cat": "ref",
+      "role": "summary",
+      "ok": true,
+      "status": 200,
+      "ms": 26.104,
+      "bytes": 2435,
+      "error": null
+    },
+    {
+      "id": "pub_apis",
+      "cat": "ref",
+      "role": "list",
+      "ok": false,
+      "status": 0,
+      "ms": 24.924,
+      "error": "ENOTFOUND"
+    },
+    {
+      "id": "hf_models",
+      "cat": "ai",
+      "role": "models",
+      "ok": true,
+      "status": 200,
+      "ms": 102.449,
+      "bytes": 536,
+      "error": null
+    },
+    {
+      "id": "hf_datasets",
+      "cat": "ai",
+      "role": "datasets",
+      "ok": true,
+      "status": 200,
+      "ms": 94.827,
+      "bytes": 1367,
+      "error": null
+    },
+    {
+      "id": "anthropic_docs",
+      "cat": "ai",
+      "role": "docs",
+      "ok": true,
+      "status": 301,
+      "ms": 13.979,
+      "bytes": 167,
+      "error": null
+    },
+    {
+      "id": "anthropic_www",
+      "cat": "ai",
+      "role": "www",
+      "ok": true,
+      "status": 200,
+      "ms": 75.485,
+      "bytes": 258823,
+      "error": null
+    },
+    {
+      "id": "st_github",
+      "cat": "status",
+      "role": "status",
+      "ok": true,
+      "status": 200,
+      "ms": 165.785,
+      "bytes": 215,
+      "error": null
+    },
+    {
+      "id": "st_cloudflare",
+      "cat": "status",
+      "role": "status",
+      "ok": true,
+      "status": 200,
+      "ms": 166.799,
+      "bytes": 221,
+      "error": null
+    },
+    {
+      "id": "st_npm",
+      "cat": "status",
+      "role": "status",
+      "ok": true,
+      "status": 200,
+      "ms": 1162.998,
+      "bytes": 208,
+      "error": null
+    },
+    {
+      "id": "st_openai",
+      "cat": "status",
+      "role": "status",
+      "ok": true,
+      "status": 200,
+      "ms": 74.516,
+      "bytes": 202,
+      "error": null
+    },
+    {
+      "id": "st_anthropic",
+      "cat": "status",
+      "role": "status",
+      "ok": true,
+      "status": 302,
+      "ms": 227.102,
+      "bytes": 110,
+      "error": null
+    },
+    {
+      "id": "st_python",
+      "cat": "status",
+      "role": "status",
+      "ok": true,
+      "status": 200,
+      "ms": 228.671,
+      "bytes": 227,
+      "error": null
+    }
+  ]
+}

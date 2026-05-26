@@ -1,0 +1,48 @@
+{
+  "boot": "2026-05-25T13:09:12.974Z",
+  "pid": 75392,
+  "mode": "TRILLIONX_COMPUTER_CORE",
+  "doctrine": "REAL_ONLY_OR_UNAVAILABLE",
+  "honesty": "GPU/RAID60+/mirrors are detected or logical runtime layers unless real OS devices exist.",
+  "cpu": {
+    "model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "threads": 2,
+    "flags": {
+      "raw": "flags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch tpr_shadow ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves vnmi avx512vbmi umip avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq la57 rdpid fsrm arch_capabilities",
+      "sse": true,
+      "sse2": true,
+      "sse3": true,
+      "ssse3": true,
+      "sse4_1": true,
+      "sse4_2": true,
+      "avx": true,
+      "avx2": true,
+      "avx512f": true,
+      "aes_ni": true,
+      "sha_ni": true,
+      "fma": true,
+      "bmi1": true,
+      "bmi2": true,
+      "pclmulqdq": true
+    }
+  },
+  "gpu": {
+    "nvidia_smi": "GPU_UNAVAILABLE_IN_CODESPACES",
+    "opencl": "OPENCL_UNAVAILABLE",
+    "vulkan": "VULKAN_UNAVAILABLE"
+  },
+  "memory": {
+    "total_gb": 7.76,
+    "free_gb": 2.29,
+    "fabric": "ACTIVE"
+  },
+  "processor_fabric": "ACTIVE",
+  "coprocessor_fabric": "ACTIVE",
+  "gpu_fabric": "ACTIVE_IF_AVAILABLE_ELSE_UNAVAILABLE",
+  "cache_fabric": "ACTIVE",
+  "memory_bus": "ACTIVE",
+  "io_bus": "ACTIVE",
+  "raid60_plus": "ACTIVE_LOGICAL",
+  "mirrors": "ACTIVE_LOGICAL",
+  "secure_push": "MANUAL_ONLY"
+}

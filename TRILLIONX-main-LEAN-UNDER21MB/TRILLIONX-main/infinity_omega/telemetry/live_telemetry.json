@@ -1,0 +1,314 @@
+[
+  {
+    "time": "2026-05-25T12:36:26.777Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 35642
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:26.777Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 39449
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:26.782Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 36261
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:26.782Z",
+    "type": "worker",
+    "data": {
+      "worker": 2,
+      "hashes_per_sec": 39639
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:26.793Z",
+    "type": "worker",
+    "data": {
+      "worker": 3,
+      "hashes_per_sec": 36577
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:26.793Z",
+    "type": "worker",
+    "data": {
+      "worker": 4,
+      "hashes_per_sec": 35146
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:26.793Z",
+    "type": "worker",
+    "data": {
+      "worker": 5,
+      "hashes_per_sec": 37822
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:26.793Z",
+    "type": "worker",
+    "data": {
+      "worker": 6,
+      "hashes_per_sec": 33204
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:26.793Z",
+    "type": "worker",
+    "data": {
+      "worker": 7,
+      "hashes_per_sec": 39843
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:27.794Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 24299
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:27.800Z",
+    "type": "cache",
+    "data": {
+      "cache_hits": 33963
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:28.809Z",
+    "type": "aes256",
+    "data": {
+      "aes256_ops_per_sec": 2806
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.820Z",
+    "type": "sha256",
+    "data": {
+      "hashes_per_sec": 34665
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.826Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 31299
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.828Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 34293
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.832Z",
+    "type": "worker",
+    "data": {
+      "worker": 0,
+      "hashes_per_sec": 26886
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.834Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 31917
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.834Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 30576
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.834Z",
+    "type": "worker",
+    "data": {
+      "worker": 1,
+      "hashes_per_sec": 30370
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.834Z",
+    "type": "worker",
+    "data": {
+      "worker": 2,
+      "hashes_per_sec": 31518
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.834Z",
+    "type": "worker",
+    "data": {
+      "worker": 2,
+      "hashes_per_sec": 35226
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.835Z",
+    "type": "worker",
+    "data": {
+      "worker": 2,
+      "hashes_per_sec": 30072
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.835Z",
+    "type": "worker",
+    "data": {
+      "worker": 3,
+      "hashes_per_sec": 31435
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.835Z",
+    "type": "worker",
+    "data": {
+      "worker": 3,
+      "hashes_per_sec": 51047
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.835Z",
+    "type": "worker",
+    "data": {
+      "worker": 3,
+      "hashes_per_sec": 26694
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.836Z",
+    "type": "worker",
+    "data": {
+      "worker": 4,
+      "hashes_per_sec": 34333
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.838Z",
+    "type": "worker",
+    "data": {
+      "worker": 4,
+      "hashes_per_sec": 45216
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.838Z",
+    "type": "worker",
+    "data": {
+      "worker": 4,
+      "hashes_per_sec": 34788
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.845Z",
+    "type": "worker",
+    "data": {
+      "worker": 5,
+      "hashes_per_sec": 32221
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.845Z",
+    "type": "worker",
+    "data": {
+      "worker": 5,
+      "hashes_per_sec": 35825
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.845Z",
+    "type": "worker",
+    "data": {
+      "worker": 5,
+      "hashes_per_sec": 29523
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.845Z",
+    "type": "worker",
+    "data": {
+      "worker": 6,
+      "hashes_per_sec": 40970
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.846Z",
+    "type": "worker",
+    "data": {
+      "worker": 6,
+      "hashes_per_sec": 37415
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.846Z",
+    "type": "worker",
+    "data": {
+      "worker": 6,
+      "hashes_per_sec": 27650
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.846Z",
+    "type": "worker",
+    "data": {
+      "worker": 7,
+      "hashes_per_sec": 30851
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.846Z",
+    "type": "worker",
+    "data": {
+      "worker": 7,
+      "hashes_per_sec": 39304
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.846Z",
+    "type": "worker",
+    "data": {
+      "worker": 7,
+      "hashes_per_sec": 42523
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.862Z",
+    "type": "throughput",
+    "data": {
+      "throughput_ops": 61770
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:29.862Z",
+    "type": "energy",
+    "data": {
+      "energy_index": 180540
+    }
+  },
+  {
+    "time": "2026-05-25T12:36:30.863Z",
+    "type": "sha512",
+    "data": {
+      "hashes_per_sec": 30835
+    }
+  }
+]

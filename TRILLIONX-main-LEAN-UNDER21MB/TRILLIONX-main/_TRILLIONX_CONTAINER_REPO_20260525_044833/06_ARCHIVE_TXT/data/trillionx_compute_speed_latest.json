@@ -1,0 +1,124 @@
+{
+  "name": "TRILLIONX_COMPUTE_SPEED_BENCH",
+  "version": "V1",
+  "time": "2026-05-24T08:30:47.067Z",
+  "executed_by": "TRILLIONX",
+  "executed_on": "CODESPACES_VIRTUALIZED_HOST",
+  "host": {
+    "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+    "logical_cpus": 2,
+    "ram_gb": 7.76,
+    "node": "v24.14.0",
+    "platform": "linux",
+    "arch": "x64",
+    "codespaces": true,
+    "container": true,
+    "simd": {
+      "avx": true,
+      "avx2": true,
+      "avx512f": true,
+      "fma": true,
+      "aes": true,
+      "sha_ni": true
+    }
+  },
+  "real_measured_compute_speed": {
+    "native_best_gops": 9.1707,
+    "float": {
+      "name": "float_math_pressure",
+      "loops": 12000000,
+      "ms": 375.12,
+      "loops_per_sec": 31989534.13,
+      "checksum": 238393.87498
+    },
+    "int": {
+      "name": "int32_bitwise_pressure",
+      "loops": 80000000,
+      "ms": 136.41,
+      "loops_per_sec": 586486353,
+      "checksum": -310927841
+    },
+    "typed": {
+      "name": "float32_vector_typedarray",
+      "size": 8000000,
+      "rounds": 10,
+      "approx_ops": 240000000,
+      "ms": 248.11,
+      "approx_gops": 0.9673,
+      "checksum": 979.16052
+    },
+    "matrix": {
+      "name": "dense_matrix_float64",
+      "n": 256,
+      "approx_ops": 33554432,
+      "ms": 60.11,
+      "approx_gops": 0.5582,
+      "checksum": 64064.53817
+    },
+    "hash": {
+      "name": "sha256_speed",
+      "total_mb": 2304,
+      "ms": 2025.99,
+      "mb_per_sec": 1137.22,
+      "digest": "5ba8934bdb20d46d185204d9"
+    },
+    "compression": {
+      "name": "gzip_level1_speed",
+      "input_mb": 64,
+      "output_mb": 64.02,
+      "ratio": 1.0003,
+      "integrity": true,
+      "ms": 1591.02,
+      "mb_per_sec": 40.23
+    },
+    "workers": {
+      "name": "worker_parallel_compute_speed",
+      "worker_count": 2,
+      "loops_per_worker": 5000000,
+      "total_loops": 10000000,
+      "ms": 454.17,
+      "loops_per_sec": 22018031.55,
+      "results": [
+        {
+          "loops": 5000000,
+          "ms": 337.79,
+          "loops_per_sec": 14802175.56,
+          "checksum": 42726925.8874
+        },
+        {
+          "loops": 5000000,
+          "ms": 359.71,
+          "loops_per_sec": 13900257.48,
+          "checksum": 42726925.8874
+        }
+      ]
+    }
+  },
+  "compute_score": {
+    "raw_score": 112.66,
+    "trillionx_compute_speed_score": 100,
+    "class": "VERY_FAST_FOR_CURRENT_PROFILE",
+    "note": "Score is local to this benchmark scale, not TOP500 FLOPS."
+  },
+  "threadripper_9000vw_projection": {
+    "target": "DUAL_THREADRIPPER_9000VW_3NM_266MB_3D_VCACHE_ECC",
+    "projection_only": true,
+    "physical_confirmation_required": true,
+    "factor": 91.26,
+    "projected_native_best_gops": 836.9195,
+    "projected_worker_loops_per_sec": 2009365559.25,
+    "projected_hash_mb_per_sec": 103782.7,
+    "projected_matrix_gops": 50.9413
+  },
+  "truth_policy": {
+    "real_only": true,
+    "no_fake_cpu": true,
+    "benchmark_measures_current_host": true,
+    "threadripper_is_projection_until_physical_detection": true
+  },
+  "memory_now": {
+    "rss_mb": 142.86,
+    "heap_used_mb": 3.97,
+    "external_mb": 1.76
+  }
+}

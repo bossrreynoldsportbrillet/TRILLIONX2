@@ -1,0 +1,135 @@
+{
+  "engine": "TRILLIONX_GLOBAL_ASYNC_REGISTRY_V2",
+  "time": "2026-05-24T22:40:19.261Z",
+  "jobs": {
+    "status": {
+      "cmd": "bash scripts/tx_process_status.sh",
+      "cat": "PROCESS",
+      "pri": "HIGH"
+    },
+    "resource": {
+      "cmd": "bash scripts/trillionx_resource_percent.sh",
+      "cat": "SYSTEM",
+      "pri": "HIGH"
+    },
+    "disk": {
+      "cmd": "bash scripts/trillionx_disk_guard_safe.sh",
+      "cat": "STORAGE",
+      "pri": "CRITICAL"
+    },
+    "appcheck": {
+      "cmd": "node --check app.js",
+      "cat": "APP",
+      "pri": "CRITICAL"
+    },
+    "ports": {
+      "cmd": "ss -lntp 2>/dev/null | head -120 || true",
+      "cat": "NETWORK",
+      "pri": "HIGH"
+    },
+    "port3000": {
+      "cmd": "curl -fsS http://127.0.0.1:3000/ | head -40 || true",
+      "cat": "NETWORK",
+      "pri": "HIGH"
+    },
+    "port3997": {
+      "cmd": "curl -fsS http://127.0.0.1:3997/status | head -80 || true",
+      "cat": "NETWORK",
+      "pri": "NORMAL"
+    },
+    "start": {
+      "cmd": "bash scripts/start_safe.sh",
+      "cat": "RUNTIME",
+      "pri": "HIGH"
+    },
+    "startnice": {
+      "cmd": "bash scripts/tx_start_nice.sh",
+      "cat": "RUNTIME",
+      "pri": "HIGH"
+    },
+    "stop": {
+      "cmd": "bash scripts/tx_stop.sh",
+      "cat": "RUNTIME",
+      "pri": "HIGH"
+    },
+    "restart": {
+      "cmd": "bash scripts/tx_stop.sh; sleep 1; bash scripts/tx_start_nice.sh",
+      "cat": "RUNTIME",
+      "pri": "CRITICAL"
+    },
+    "watchdog_start": {
+      "cmd": "bash scripts/tx_watchdog_start.sh",
+      "cat": "RUNTIME",
+      "pri": "HIGH"
+    },
+    "watchdog_log": {
+      "cmd": "tail -80 logs/tx_watchdog.log 2>/dev/null || true",
+      "cat": "RUNTIME",
+      "pri": "NORMAL"
+    },
+    "micro_start": {
+      "cmd": "TX_MICRO_SYNC_WORKERS=4 TX_MICRO_SYNC_MS=250 bash scripts/tx_parallel_micro_sync_start.sh",
+      "cat": "SYNC",
+      "pri": "HIGH"
+    },
+    "micro_status": {
+      "cmd": "bash scripts/tx_parallel_micro_sync_status.sh",
+      "cat": "SYNC",
+      "pri": "HIGH"
+    },
+    "micro_stop": {
+      "cmd": "bash scripts/tx_parallel_micro_sync_stop.sh",
+      "cat": "SYNC",
+      "pri": "NORMAL"
+    },
+    "async_status": {
+      "cmd": "bash scripts/tx_async_status.sh",
+      "cat": "ASYNC",
+      "pri": "HIGH"
+    },
+    "old_drain": {
+      "cmd": "TX_ASYNC_MAX_JOBS=20 bash scripts/tx_async_drain.sh",
+      "cat": "ASYNC",
+      "pri": "HIGH"
+    },
+    "logs": {
+      "cmd": "du -sh logs reports history async_queue async_jobs async_results 2>/dev/null || true",
+      "cat": "MAINTENANCE",
+      "pri": "NORMAL"
+    },
+    "logrotate": {
+      "cmd": "bash scripts/tx_log_rotate.sh",
+      "cat": "MAINTENANCE",
+      "pri": "NORMAL"
+    },
+    "gitstatus": {
+      "cmd": "git status --short && git diff --stat",
+      "cat": "GIT",
+      "pri": "NORMAL"
+    },
+    "upcheck": {
+      "cmd": "cat reports/TRILLIONX_UP_TO_DATE_CHECK_LATEST.json 2>/dev/null | python3 -m json.tool | tail -80 || true",
+      "cat": "GIT",
+      "pri": "NORMAL"
+    },
+    "bench_workspace": {
+      "cmd": "node benchmarks/trillionx_codespaces_workspace_bench.js",
+      "cat": "BENCH",
+      "pri": "NORMAL"
+    },
+    "npm_check": {
+      "cmd": "npm --version && node --version && npm ls --depth=0 2>/dev/null | head -80 || true",
+      "cat": "NPM",
+      "pri": "NORMAL"
+    }
+  },
+  "policy": {
+    "allowlist_only": true,
+    "no_free_shell": true,
+    "no_appjs_touch": true,
+    "no_data_touch": true,
+    "no_raid60_touch": true,
+    "scope": "runtime/network/sync/maintenance/bench/git/npm/process"
+  },
+  "seal": "fd32be2cd3f2dc540b1b41c5319504b45ef7110895e7f48be7d27a65d1e7e74d"
+}

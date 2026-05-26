@@ -1,0 +1,6 @@
+{
+  "mirror": 15,
+  "mode": "LOGICAL_MIRROR",
+  "source": "phylo_recovery",
+  "physical_claim": false
+}

@@ -1,0 +1,2781 @@
+{
+  "engine": "TRILLIONX_20_NODE_VR_MESH",
+  "ts": "2026-05-24T13:19:31.513Z",
+  "target": "TRILLIONX",
+  "host_role": "CODESPACES_SUPPORT_ONLY",
+  "topology": {
+    "type": "LOCAL_PARALLEL_HTTP_MESH_WITH_VR_MIRRORS",
+    "nodes_requested": 20,
+    "nodes_active": 20,
+    "vr_nodes_active": 20,
+    "ports": [
+      3010,
+      3011,
+      3012,
+      3013,
+      3014,
+      3015,
+      3016,
+      3017,
+      3018,
+      3019,
+      3020,
+      3021,
+      3022,
+      3023,
+      3024,
+      3025,
+      3026,
+      3027,
+      3028,
+      3029
+    ]
+  },
+  "aggregate": {
+    "total_loops_s": 116938886.519,
+    "total_mirror_ops_s": 742927370.379,
+    "total_mirrors": 2925000,
+    "avg_latency_ms": 103.252,
+    "total_node_rss_mb": 1197.36,
+    "health": 100,
+    "verdict": "MESH_20_NODES_VR_ACTIVE"
+  },
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_name": "TRILLIONX_VR_NODE_00",
+      "role": "MASTER_CAPABLE",
+      "status": "ACTIVE",
+      "port": 3010,
+      "created": "2026-05-24T13:19:24.618Z",
+      "target": "TRILLIONX",
+      "host_role": "CODESPACES_SUPPORT_ONLY",
+      "work": {
+        "loops": 100000,
+        "ms": 57.671,
+        "loops_s": 1733961.15,
+        "hash": "3631010ec2832b1ff399",
+        "checksum": 5144.616
+      },
+      "vr_mirror": {
+        "node_id": 0,
+        "mirrors": 75000,
+        "ms": 5.162,
+        "mirror_ops_s": 14529832.07,
+        "checksum": 1740591832
+      },
+      "memory": {
+        "rss_mb": 56.043,
+        "heap_mb": 5.957,
+        "external_mb": 2.942,
+        "free_gb": 0.848,
+        "total_gb": 7.757
+      },
+      "score": 1879.259,
+      "truth_policy": {
+        "real_only": true,
+        "node_is_local_codespaces_process": true,
+        "no_fake_physical_cluster": true,
+        "vr_mirror_is_logical_runtime": true
+      }
+    },
+    {
+      "node_id": 1,
+      "node_name": "TRILLIONX_VR_NODE_01",
+      "role": "WORKER_NODE",
+      "status": "ACTIVE",
+      "port": 3011,
+      "created": "2026-05-24T13:19:24.730Z",
+      "target": "TRILLIONX",
+      "host_role": "CODESPACES_SUPPORT_ONLY",
+      "work": {
+        "loops": 125000,
+        "ms": 22.891,
+        "loops_s": 5460730.099,
+        "hash": "3b12404a8a5662114e1d",
+        "checksum": 5697.129
+      },
+      "vr_mirror": {
+        "node_id": 1,
+        "mirrors": 82500,
+        "ms": 7.168,
+        "mirror_ops_s": 11509965.119,
+        "checksum": 1058815308
+      },
+      "memory": {
+        "rss_mb": 59.059,
+        "heap_mb": 5.42,
+        "external_mb": 3.942,
+        "free_gb": 0.851,
+        "total_gb": 7.757
+      },
+      "score": 5575.83,
+      "truth_policy": {
+        "real_only": true,
+        "node_is_local_codespaces_process": true,
+        "no_fake_physical_cluster": true,
+        "vr_mirror_is_logical_runtime": true
+      }
+    },
+    {
+      "node_id": 2,
+      "node_name": "TRILLIONX_VR_NODE_02",
+      "role": "WORKER_NODE",
+      "status": "ACTIVE",
+      "port": 3012,
+      "created": "2026-05-24T13:19:24.771Z",
+      "target": "TRILLIONX",
+      "host_role": "CODESPACES_SUPPORT_ONLY",
+      "work": {
+        "loops": 150000,
+        "ms": 39.932,
+        "loops_s": 3756417.464,
+        "hash": "769cd9c94ca1337636e1",
+        "checksum": 6814.179
+      },
+      "vr_mirror": {
+        "node_id": 2,
+        "mirrors": 90000,
+        "ms": 2.431,
+        "mirror_ops_s": 37026477.634,
+        "checksum": 1113074656
+      },
+      "memory": {
+        "rss_mb": 61.004,
+        "heap_mb": 5.385,
+        "external_mb": 4.942,
+        "free_gb": 0.846,
+        "total_gb": 7.757
+      },
+      "score": 4126.682,
+      "truth_policy": {
+        "real_only": true,
+        "node_is_local_codespaces_process": true,
+        "no_fake_physical_cluster": true,
+        "vr_mirror_is_logical_runtime": true
+      }
+    },
+    {
+      "node_id": 3,
+      "node_name": "TRILLIONX_VR_NODE_03",
+      "role": "WORKER_NODE",
+      "status": "ACTIVE",
+      "port": 3013,
+      "created": "2026-05-24T13:19:24.742Z",
+      "target": "TRILLIONX",
+      "host_role": "CODESPACES_SUPPORT_ONLY",
+      "work": {
+        "loops": 175000,
+        "ms": 30.347,
+        "loops_s": 5766638.887,
+        "hash": "7e9410058d80aa9ccd8a",
+        "checksum": 8284.135
+      },
+      "vr_mirror": {
+        "node_id": 3,
+        "mirrors": 97500,
+        "ms": 2.457,
+        "mirror_ops_s": 39678050.265,
+        "checksum": 2169241984
+      },
+      "memory": {
+        "rss_mb": 57.84,
+        "heap_mb": 4.98,
+        "external_mb": 5.942,
+        "free_gb": 0.835,
+        "total_gb": 7.757
+      },
+      "score": 6163.419,
+      "truth_policy": {
+        "real_only": true,
+        "node_is_local_codespaces_process": true,
+        "no_fake_physical_cluster": true,
+        "vr_mirror_is_logical_runtime": true
+      }
+    },
+    {
+      "node_id": 4,
+      "node_name": "TRILLIONX_VR_NODE_04",
+      "role": "WORKER_NODE",
+      "status": "ACTIVE",
+      "port": 3014,
+      "created": "2026-05-24T13:19:24.787Z",
+      "target": "TRILLIONX",
+      "host_role": "CODESPACES_SUPPORT_ONLY",
+      "work": {
+        "loops": 200000,
+        "ms": 47.912,
+        "loops_s": 4174346.856,
+        "hash": "834396424b18e63671ab",
+        "checksum": 10089.095
+      },
+      "vr_mirror": {
+        "node_id": 4,
+        "mirrors": 105000,
+        "ms": 3.465,
+        "mirror_ops_s": 30306047.788,
+        "checksum": 772070264
+      },
+      "memory": {
+        "rss_mb": 59.133,
+        "heap_mb": 5.057,
+        "external_mb": 2.942,
+        "free_gb": 0.835,
+        "total_gb": 7.757
+      },
+      "score": 4477.407,
+      "truth_policy": {
+        "real_only": true,
+        "node_is_local_codespaces_process": true,
+        "no_fake_physical_cluster": true,
+        "vr_mirror_is_logical_runtime": true
+      }
+    },
+    {
+      "node_id": 5,
+      "node_name": "TRILLIONX_VR_NODE_05",
+      "role": "WORKER_NODE",
+      "status": "ACTIVE",
+      "port": 3015,
+      "created": "2026-05-24T13:19:24.737Z",
+      "target": "TRILLIONX",
+      "host_role": "CODESPACES_SUPPORT_ONLY",
+      "work": {
+        "loops": 225000,
+        "ms": 39.971,
+        "loops_s": 5629101.786,
+        "hash": "79f4ae1e3bf6abd173f6",
+        "checksum": 10748.952
+      },
+      "vr_mirror": {
+        "node_id": 5,
+        "mirrors": 112500,
+        "ms": 3.576,
+        "mirror_ops_s": 31460171.423,
+        "checksum": 2485996284
+      },
+      "memory": {
+        "rss_mb": 60.055,
+        "heap_mb": 5.652,
+        "external_mb": 3.942,
+        "free_gb": 0.833,
+        "total_gb": 7.757
+      },
+      "score": 5943.704,
+      "truth_policy": {
+        "real_only": true,
+        "node_is_local_codespaces_process": true,
+        "no_fake_physical_cluster": true,
+        "vr_mirror_is_logical_runtime": true
+      }
+    },
+    {
+      "node_id": 6,
+      "node_name": "TRILLIONX_VR_NODE_06",
+      "role": "WORKER_NODE",
+      "status": "ACTIVE",
+      "port": 3016,
+      "created": "2026-05-24T13:19:24.635Z",
+      "target": "TRILLIONX",
+      "host_role": "CODESPACES_SUPPORT_ONLY",
+      "work": {
+        "loops": 250000,
+        "ms": 57.564,
+        "loops_s": 4342997.278,
+        "hash": "c43506f392622f6d3ffa",
+        "checksum": 11914.249
+      },
+      "vr_mirror": {
+        "node_id": 6,
+        "mirrors": 120000,
+        "ms": 2.707,
+        "mirror_ops_s": 44326814.213,
+        "checksum": 369406208
+      },
+      "memory": {
+        "rss_mb": 60.855,
+        "heap_mb": 5.829,
+        "external_mb": 4.942,
+        "free_gb": 0.824,
+        "total_gb": 7.757
+      },
+      "score": 4786.265,
+      "truth_policy": {
+        "real_only": true,
+        "node_is_local_codespaces_process": true,
+        "no_fake_physical_cluster": true,
+        "vr_mirror_is_logical_runtime": true
+      }
+    },
+    {
+      "node_id": 7,
+      "node_name": "TRILLIONX_VR_NODE_07",
+      "role": "WORKER_NODE",
+      "status": "ACTIVE",
+      "port": 3017,
+      "created": "2026-05-24T13:19:24.614Z",
+      "target": "TRILLIONX",
+      "host_role": "CODESPACES_SUPPORT_ONLY",
+      "work": {
+        "loops": 275000,
+        "ms": 74.465,
+        "loops_s": 3693014.503,
+        "hash": "de54a75519b4e1bd00f5",
+        "checksum": 13408.5
+      },
+      "vr_mirror": {
+        "node_id": 7,
+        "mirrors": 127500,
+        "ms": 8.885,
+        "mirror_ops_s": 14350018.447,
+        "checksum": 569708672
+      },
+      "memory": {
+        "rss_mb": 61.844,
+        "heap_mb": 5.764,
+        "external_mb": 5.942,
+        "free_gb": 0.803,
+        "total_gb": 7.757
+      },
+      "score": 3836.515,
+      "truth_policy": {
+        "real_only": true,
+        "node_is_local_codespaces_process": true,
+        "no_fake_physical_cluster": true,
+        "vr_mirror_is_logical_runtime": true
+      }
+    },
+    {
+      "node_id": 8,
+      "node_name": "TRILLIONX_VR_NODE_08",
+      "role": "WORKER_NODE",
+      "status": "ACTIVE",
+      "port": 3018,
+      "created": "2026-05-24T13:19:24.762Z",
+      "target": "TRILLIONX",
+      "host_role": "CODESPACES_SUPPORT_ONLY",
+      "work": {
+        "loops": 300000,
+        "ms": 28.489,
+        "loops_s": 10530273.325,
+        "hash": "37a1e4686b43ad5cc3d9",
+        "checksum": 14663.242
+      },
+      "vr_mirror": {
+        "node_id": 8,
+        "mirrors": 135000,
+        "ms": 3.265,
+        "mirror_ops_s": 41347854.291,
+        "checksum": 2865016504
+      },
+      "memory": {
+        "rss_mb": 58.996,
+        "heap_mb": 5.583,
+        "external_mb": 2.942,
+        "free_gb": 0.815,
+        "total_gb": 7.757
+      },
+      "score": 10943.752,
+      "truth_policy": {
+        "real_only": true,
+        "node_is_local_codespaces_process": true,
+        "no_fake_physical_cluster": true,
+        "vr_mirror_is_logical_runtime": true
+      }
+    },
+    {
+      "node_id": 9,
+      "node_name": "TRILLIONX_VR_NODE_09",
+      "role": "WORKER_NODE",
+      "status": "ACTIVE",
+      "port": 3019,
+      "created": "2026-05-24T13:19:24.727Z",
+      "target": "TRILLIONX",
+      "host_role": "CODESPACES_SUPPORT_ONLY",
+      "work": {
+        "loops": 325000,
+        "ms": 76.943,
+        "loops_s": 4223882.623,
+        "hash": "2ee2ae0926d8a6b7fb3b",
+        "checksum": 15385.154
+      },
+      "vr_mirror": {
+        "node_id": 9,
+        "mirrors": 142500,
+        "ms": 36.521,
+        "mirror_ops_s": 3901897.267,
+        "checksum": 3746296364
+      },
+      "memory": {
+        "rss_mb": 57.918,
+        "heap_mb": 5.188,
+        "external_mb": 3.942,
+        "free_gb": 0.813,
+        "total_gb": 7.757
+      },
+      "score": 4262.902,
+      "truth_policy": {
+        "real_only": true,
+        "node_is_local_codespaces_process": true,
+        "no_fake_physical_cluster": true,
+        "vr_mirror_is_logical_runtime": true
+      }
+    },
+    {
+      "node_id": 10,
+      "node_name": "TRILLIONX_VR_NODE_10",
+      "role": "WORKER_NODE",
+      "status": "ACTIVE",
+      "port": 3020,
+      "created": "2026-05-24T13:19:24.622Z",
+      "target": "TRILLIONX",
+      "host_role": "CODESPACES_SUPPORT_ONLY",
+      "work": {
+        "loops": 350000,
+        "ms": 41.062,
+        "loops_s": 8523780.984,
+        "hash": "d0c45bd95c428f77fe27",
+        "checksum": 16528.801
+      },
+      "vr_mirror": {
+        "node_id": 10,
+        "mirrors": 150000,
+        "ms": 2.618,
+        "mirror_ops_s": 57295557.99,
+        "checksum": 1002853440
+      },
+      "memory": {
+        "rss_mb": 60.77,
+        "heap_mb": 5.668,
+        "external_mb": 4.942,
+        "free_gb": 0.806,
+        "total_gb": 7.757
+      },
+      "score": 9096.737,
+      "truth_policy": {
+        "real_only": true,
+        "node_is_local_codespaces_process": true,
+        "no_fake_physical_cluster": true,
+        "vr_mirror_is_logical_runtime": true
+      }
+    },
+    {
+      "node_id": 11,
+      "node_name": "TRILLIONX_VR_NODE_11",
+      "role": "WORKER_NODE",
+      "status": "ACTIVE",
+      "port": 3021,
+      "created": "2026-05-24T13:19:24.760Z",
+      "target": "TRILLIONX",
+      "host_role": "CODESPACES_SUPPORT_ONLY",
+      "work": {
+        "loops": 375000,
+        "ms": 39.559,
+        "loops_s": 9479618.012,
+        "hash": "b3eb9cbbe18117429d99",
+        "checksum": 17965.835
+      },
+      "vr_mirror": {
+        "node_id": 11,
+        "mirrors": 157500,
+        "ms": 2.629,
+        "mirror_ops_s": 59910305.714,
+        "checksum": 2995921152
+      },
+      "memory": {
+        "rss_mb": 62.004,
+        "heap_mb": 5.183,
+        "external_mb": 5.942,
+        "free_gb": 0.802,
+        "total_gb": 7.757
+      },
+      "score": 10078.721,
+      "truth_policy": {
+        "real_only": true,
+        "node_is_local_codespaces_process": true,
+        "no_fake_physical_cluster": true,
+        "vr_mirror_is_logical_runtime": true
+      }
+    },
+    {
+      "node_id": 12,
+      "node_name": "TRILLIONX_VR_NODE_12",
+      "role": "WORKER_NODE",
+      "status": "ACTIVE",
+      "port": 3022,
+      "created": "2026-05-24T13:19:24.616Z",
+      "target": "TRILLIONX",
+      "host_role": "CODESPACES_SUPPORT_ONLY",
+      "work": {
+        "loops": 400000,
+        "ms": 45.892,
+        "loops_s": 8716024.555,
+        "hash": "2f3547c057c8da9fbb39",
+        "checksum": 19663.177
+      },
+      "vr_mirror": {
+        "node_id": 12,
+        "mirrors": 165000,
+        "ms": 3.578,
+        "mirror_ops_s": 46108704.765,
+        "checksum": 2495990264
+      },
+      "memory": {
+        "rss_mb": 58.781,
+        "heap_mb": 5.629,
+        "external_mb": 2.942,
+        "free_gb": 0.802,
+        "total_gb": 7.757
+      },
+      "score": 9177.112,
+      "truth_policy": {
+        "real_only": true,
+        "node_is_local_codespaces_process": true,
+        "no_fake_physical_cluster": true,
+        "vr_mirror_is_logical_runtime": true
+      }
+    },
+    {
+      "node_id": 13,
+      "node_name": "TRILLIONX_VR_NODE_13",
+      "role": "WORKER_NODE",
+      "status": "ACTIVE",
+      "port": 3023,
+      "created": "2026-05-24T13:19:24.776Z",
+      "target": "TRILLIONX",
+      "host_role": "CODESPACES_SUPPORT_ONLY",
+      "work": {
+        "loops": 425000,
+        "ms": 119.263,
+        "loops_s": 3563545.141,
+        "hash": "0fcf39f66e4f3b900787",
+        "checksum": 20288.674
+      },
+      "vr_mirror": {
+        "node_id": 13,
+        "mirrors": 172500,
+        "ms": 5.193,
+        "mirror_ops_s": 33220115.329,
+        "checksum": 129358524
+      },
+      "memory": {
+        "rss_mb": 60.102,
+        "heap_mb": 5.892,
+        "external_mb": 3.942,
+        "free_gb": 0.796,
+        "total_gb": 7.757
+      },
+      "score": 3895.746,
+      "truth_policy": {
+        "real_only": true,
+        "node_is_local_codespaces_process": true,
+        "no_fake_physical_cluster": true,
+        "vr_mirror_is_logical_runtime": true
+      }
+    },
+    {
+      "node_id": 14,
+      "node_name": "TRILLIONX_VR_NODE_14",
+      "role": "WORKER_NODE",
+      "status": "ACTIVE",
+      "port": 3024,
+      "created": "2026-05-24T13:19:24.766Z",
+      "target": "TRILLIONX",
+      "host_role": "CODESPACES_SUPPORT_ONLY",
+      "work": {
+        "loops": 450000,
+        "ms": 220.245,
+        "loops_s": 2043181.256,
+        "hash": "f53d9da2e62c5373ab24",
+        "checksum": 21337.071
+      },
+      "vr_mirror": {
+        "node_id": 14,
+        "mirrors": 180000,
+        "ms": 3.039,
+        "mirror_ops_s": 59238138.303,
+        "checksum": 4214872384
+      },
+      "memory": {
+        "rss_mb": 61.086,
+        "heap_mb": 5.475,
+        "external_mb": 4.942,
+        "free_gb": 0.789,
+        "total_gb": 7.757
+      },
+      "score": 2635.563,
+      "truth_policy": {
+        "real_only": true,
+        "node_is_local_codespaces_process": true,
+        "no_fake_physical_cluster": true,
+        "vr_mirror_is_logical_runtime": true
+      }
+    },
+    {
+      "node_id": 15,
+      "node_name": "TRILLIONX_VR_NODE_15",
+      "role": "WORKER_NODE",
+      "status": "ACTIVE",
+      "port": 3025,
+      "created": "2026-05-24T13:19:24.789Z",
+      "target": "TRILLIONX",
+      "host_role": "CODESPACES_SUPPORT_ONLY",
+      "work": {
+        "loops": 475000,
+        "ms": 146.045,
+        "loops_s": 3252423.245,
+        "hash": "7beb03fce5051cebba9f",
+        "checksum": 22671.707
+      },
+      "vr_mirror": {
+        "node_id": 15,
+        "mirrors": 187500,
+        "ms": 5.274,
+        "mirror_ops_s": 35548635.842,
+        "checksum": 321638592
+      },
+      "memory": {
+        "rss_mb": 61.953,
+        "heap_mb": 5.618,
+        "external_mb": 5.942,
+        "free_gb": 0.775,
+        "total_gb": 7.757
+      },
+      "score": 3607.91,
+      "truth_policy": {
+        "real_only": true,
+        "node_is_local_codespaces_process": true,
+        "no_fake_physical_cluster": true,
+        "vr_mirror_is_logical_runtime": true
+      }
+    },
+    {
+      "node_id": 16,
+      "node_name": "TRILLIONX_VR_NODE_16",
+      "role": "WORKER_NODE",
+      "status": "ACTIVE",
+      "port": 3026,
+      "created": "2026-05-24T13:19:24.792Z",
+      "target": "TRILLIONX",
+      "host_role": "CODESPACES_SUPPORT_ONLY",
+      "work": {
+        "loops": 500000,
+        "ms": 60.531,
+        "loops_s": 8260287.337,
+        "hash": "73153a30d65031ddd16a",
+        "checksum": 24919.979
+      },
+      "vr_mirror": {
+        "node_id": 16,
+        "mirrors": 195000,
+        "ms": 7.759,
+        "mirror_ops_s": 25131447.134,
+        "checksum": 1692146328
+      },
+      "memory": {
+        "rss_mb": 58.883,
+        "heap_mb": 5.614,
+        "external_mb": 2.942,
+        "free_gb": 1.077,
+        "total_gb": 7.757
+      },
+      "score": 8511.602,
+      "truth_policy": {
+        "real_only": true,
+        "node_is_local_codespaces_process": true,
+        "no_fake_physical_cluster": true,
+        "vr_mirror_is_logical_runtime": true
+      }
+    },
+    {
+      "node_id": 17,
+      "node_name": "TRILLIONX_VR_NODE_17",
+      "role": "WORKER_NODE",
+      "status": "ACTIVE",
+      "port": 3027,
+      "created": "2026-05-24T13:19:24.754Z",
+      "target": "TRILLIONX",
+      "host_role": "CODESPACES_SUPPORT_ONLY",
+      "work": {
+        "loops": 525000,
+        "ms": 61.941,
+        "loops_s": 8475799.276,
+        "hash": "3ba5df6a8c91f1820e42",
+        "checksum": 25759.039
+      },
+      "vr_mirror": {
+        "node_id": 17,
+        "mirrors": 202500,
+        "ms": 4.535,
+        "mirror_ops_s": 44654473.606,
+        "checksum": 4019121164
+      },
+      "memory": {
+        "rss_mb": 58.023,
+        "heap_mb": 5.159,
+        "external_mb": 3.942,
+        "free_gb": 1.086,
+        "total_gb": 7.757
+      },
+      "score": 8922.344,
+      "truth_policy": {
+        "real_only": true,
+        "node_is_local_codespaces_process": true,
+        "no_fake_physical_cluster": true,
+        "vr_mirror_is_logical_runtime": true
+      }
+    },
+    {
+      "node_id": 18,
+      "node_name": "TRILLIONX_VR_NODE_18",
+      "role": "WORKER_NODE",
+      "status": "ACTIVE",
+      "port": 3028,
+      "created": "2026-05-24T13:19:24.618Z",
+      "target": "TRILLIONX",
+      "host_role": "CODESPACES_SUPPORT_ONLY",
+      "work": {
+        "loops": 550000,
+        "ms": 89.924,
+        "loops_s": 6116254.745,
+        "hash": "efdea5d01f0d11527edf",
+        "checksum": 26979.481
+      },
+      "vr_mirror": {
+        "node_id": 18,
+        "mirrors": 210000,
+        "ms": 4.134,
+        "mirror_ops_s": 50803001.925,
+        "checksum": 674373024
+      },
+      "memory": {
+        "rss_mb": 60.738,
+        "heap_mb": 5.218,
+        "external_mb": 4.942,
+        "free_gb": 1.085,
+        "total_gb": 7.757
+      },
+      "score": 6624.285,
+      "truth_policy": {
+        "real_only": true,
+        "node_is_local_codespaces_process": true,
+        "no_fake_physical_cluster": true,
+        "vr_mirror_is_logical_runtime": true
+      }
+    },
+    {
+      "node_id": 19,
+      "node_name": "TRILLIONX_VR_NODE_19",
+      "role": "WORKER_NODE",
+      "status": "ACTIVE",
+      "port": 3029,
+      "created": "2026-05-24T13:19:24.806Z",
+      "target": "TRILLIONX",
+      "host_role": "CODESPACES_SUPPORT_ONLY",
+      "work": {
+        "loops": 575000,
+        "ms": 62.523,
+        "loops_s": 9196607.997,
+        "hash": "9a0dfccd188f25ebb21b",
+        "checksum": 28485.183
+      },
+      "vr_mirror": {
+        "node_id": 19,
+        "mirrors": 217500,
+        "ms": 3.476,
+        "mirror_ops_s": 62579861.254,
+        "checksum": 2519784832
+      },
+      "memory": {
+        "rss_mb": 62.273,
+        "heap_mb": 5.314,
+        "external_mb": 5.942,
+        "free_gb": 1.065,
+        "total_gb": 7.757
+      },
+      "score": 9822.407,
+      "truth_policy": {
+        "real_only": true,
+        "node_is_local_codespaces_process": true,
+        "no_fake_physical_cluster": true,
+        "vr_mirror_is_logical_runtime": true
+      }
+    }
+  ],
+  "vr_nodes": [
+    {
+      "node_id": 0,
+      "node_name": "TRILLIONX_VR_NODE_00",
+      "port": 3010,
+      "status": "VR_MIRROR_ACTIVE",
+      "vr_mirror": {
+        "node_id": 0,
+        "mirrors": 100000,
+        "ms": 0.255,
+        "mirror_ops_s": 392520136.283,
+        "checksum": 2572856256
+      },
+      "memory": {
+        "rss_mb": 58.137,
+        "heap_mb": 5.068,
+        "external_mb": 2.942,
+        "free_gb": 0.844,
+        "total_gb": 7.757
+      },
+      "truth_policy": {
+        "real_only": true,
+        "vr_mirror_is_software_runtime": true,
+        "physical_openxr_not_claimed": true
+      }
+    },
+    {
+      "node_id": 1,
+      "node_name": "TRILLIONX_VR_NODE_01",
+      "port": 3011,
+      "status": "VR_MIRROR_ACTIVE",
+      "vr_mirror": {
+        "node_id": 1,
+        "mirrors": 107500,
+        "ms": 0.227,
+        "mirror_ops_s": 472674988.679,
+        "checksum": 290494844
+      },
+      "memory": {
+        "rss_mb": 59.809,
+        "heap_mb": 5.518,
+        "external_mb": 3.942,
+        "free_gb": 0.851,
+        "total_gb": 7.757
+      },
+      "truth_policy": {
+        "real_only": true,
+        "vr_mirror_is_software_runtime": true,
+        "physical_openxr_not_claimed": true
+      }
+    },
+    {
+      "node_id": 2,
+      "node_name": "TRILLIONX_VR_NODE_02",
+      "port": 3012,
+      "status": "VR_MIRROR_ACTIVE",
+      "vr_mirror": {
+        "node_id": 2,
+        "mirrors": 115000,
+        "ms": 0.279,
+        "mirror_ops_s": 412119908.975,
+        "checksum": 574846832
+      },
+      "memory": {
+        "rss_mb": 61.254,
+        "heap_mb": 5.488,
+        "external_mb": 4.942,
+        "free_gb": 0.846,
+        "total_gb": 7.757
+      },
+      "truth_policy": {
+        "real_only": true,
+        "vr_mirror_is_software_runtime": true,
+        "physical_openxr_not_claimed": true
+      }
+    },
+    {
+      "node_id": 3,
+      "node_name": "TRILLIONX_VR_NODE_03",
+      "port": 3013,
+      "status": "VR_MIRROR_ACTIVE",
+      "vr_mirror": {
+        "node_id": 3,
+        "mirrors": 122500,
+        "ms": 0.274,
+        "mirror_ops_s": 446957949.466,
+        "checksum": 1402725368
+      },
+      "memory": {
+        "rss_mb": 58.34,
+        "heap_mb": 5.074,
+        "external_mb": 1.942,
+        "free_gb": 0.835,
+        "total_gb": 7.757
+      },
+      "truth_policy": {
+        "real_only": true,
+        "vr_mirror_is_software_runtime": true,
+        "physical_openxr_not_claimed": true
+      }
+    },
+    {
+      "node_id": 4,
+      "node_name": "TRILLIONX_VR_NODE_04",
+      "port": 3014,
+      "status": "VR_MIRROR_ACTIVE",
+      "vr_mirror": {
+        "node_id": 4,
+        "mirrors": 130000,
+        "ms": 0.643,
+        "mirror_ops_s": 202222267.161,
+        "checksum": 3835844704
+      },
+      "memory": {
+        "rss_mb": 59.383,
+        "heap_mb": 5.16,
+        "external_mb": 2.942,
+        "free_gb": 0.835,
+        "total_gb": 7.757
+      },
+      "truth_policy": {
+        "real_only": true,
+        "vr_mirror_is_software_runtime": true,
+        "physical_openxr_not_claimed": true
+      }
+    },
+    {
+      "node_id": 5,
+      "node_name": "TRILLIONX_VR_NODE_05",
+      "port": 3015,
+      "status": "VR_MIRROR_ACTIVE",
+      "vr_mirror": {
+        "node_id": 5,
+        "mirrors": 137500,
+        "ms": 0.313,
+        "mirror_ops_s": 438735039.136,
+        "checksum": 1587142524
+      },
+      "memory": {
+        "rss_mb": 60.055,
+        "heap_mb": 5.755,
+        "external_mb": 3.942,
+        "free_gb": 0.833,
+        "total_gb": 7.757
+      },
+      "truth_policy": {
+        "real_only": true,
+        "vr_mirror_is_software_runtime": true,
+        "physical_openxr_not_claimed": true
+      }
+    },
+    {
+      "node_id": 6,
+      "node_name": "TRILLIONX_VR_NODE_06",
+      "port": 3016,
+      "status": "VR_MIRROR_ACTIVE",
+      "vr_mirror": {
+        "node_id": 6,
+        "mirrors": 145000,
+        "ms": 0.759,
+        "mirror_ops_s": 191122932.906,
+        "checksum": 1535292416
+      },
+      "memory": {
+        "rss_mb": 60.98,
+        "heap_mb": 5.929,
+        "external_mb": 4.942,
+        "free_gb": 0.824,
+        "total_gb": 7.757
+      },
+      "truth_policy": {
+        "real_only": true,
+        "vr_mirror_is_software_runtime": true,
+        "physical_openxr_not_claimed": true
+      }
+    },
+    {
+      "node_id": 7,
+      "node_name": "TRILLIONX_VR_NODE_07",
+      "port": 3017,
+      "status": "VR_MIRROR_ACTIVE",
+      "vr_mirror": {
+        "node_id": 7,
+        "mirrors": 152500,
+        "ms": 0.389,
+        "mirror_ops_s": 392452558.276,
+        "checksum": 3152774376
+      },
+      "memory": {
+        "rss_mb": 61.969,
+        "heap_mb": 5.864,
+        "external_mb": 5.942,
+        "free_gb": 0.804,
+        "total_gb": 7.757
+      },
+      "truth_policy": {
+        "real_only": true,
+        "vr_mirror_is_software_runtime": true,
+        "physical_openxr_not_claimed": true
+      }
+    },
+    {
+      "node_id": 8,
+      "node_name": "TRILLIONX_VR_NODE_08",
+      "port": 3018,
+      "status": "VR_MIRROR_ACTIVE",
+      "vr_mirror": {
+        "node_id": 8,
+        "mirrors": 160000,
+        "ms": 4.597,
+        "mirror_ops_s": 34808654.65,
+        "checksum": 1993103360
+      },
+      "memory": {
+        "rss_mb": 59.246,
+        "heap_mb": 5.684,
+        "external_mb": 2.942,
+        "free_gb": 0.814,
+        "total_gb": 7.757
+      },
+      "truth_policy": {
+        "real_only": true,
+        "vr_mirror_is_software_runtime": true,
+        "physical_openxr_not_claimed": true
+      }
+    },
+    {
+      "node_id": 9,
+      "node_name": "TRILLIONX_VR_NODE_09",
+      "port": 3019,
+      "status": "VR_MIRROR_ACTIVE",
+      "vr_mirror": {
+        "node_id": 9,
+        "mirrors": 167500,
+        "ms": 0.382,
+        "mirror_ops_s": 437943990.232,
+        "checksum": 1233088412
+      },
+      "memory": {
+        "rss_mb": 58.043,
+        "heap_mb": 5.287,
+        "external_mb": 1.942,
+        "free_gb": 0.813,
+        "total_gb": 7.757
+      },
+      "truth_policy": {
+        "real_only": true,
+        "vr_mirror_is_software_runtime": true,
+        "physical_openxr_not_claimed": true
+      }
+    },
+    {
+      "node_id": 10,
+      "node_name": "TRILLIONX_VR_NODE_10",
+      "port": 3020,
+      "status": "VR_MIRROR_ACTIVE",
+      "vr_mirror": {
+        "node_id": 10,
+        "mirrors": 175000,
+        "ms": 0.39,
+        "mirror_ops_s": 449201704.4,
+        "checksum": 1140045520
+      },
+      "memory": {
+        "rss_mb": 60.77,
+        "heap_mb": 5.761,
+        "external_mb": 4.942,
+        "free_gb": 0.806,
+        "total_gb": 7.757
+      },
+      "truth_policy": {
+        "real_only": true,
+        "vr_mirror_is_software_runtime": true,
+        "physical_openxr_not_claimed": true
+      }
+    },
+    {
+      "node_id": 11,
+      "node_name": "TRILLIONX_VR_NODE_11",
+      "port": 3021,
+      "status": "VR_MIRROR_ACTIVE",
+      "vr_mirror": {
+        "node_id": 11,
+        "mirrors": 182500,
+        "ms": 0.374,
+        "mirror_ops_s": 488478596.607,
+        "checksum": 841457016
+      },
+      "memory": {
+        "rss_mb": 62.254,
+        "heap_mb": 5.274,
+        "external_mb": 5.942,
+        "free_gb": 0.802,
+        "total_gb": 7.757
+      },
+      "truth_policy": {
+        "real_only": true,
+        "vr_mirror_is_software_runtime": true,
+        "physical_openxr_not_claimed": true
+      }
+    },
+    {
+      "node_id": 12,
+      "node_name": "TRILLIONX_VR_NODE_12",
+      "port": 3022,
+      "status": "VR_MIRROR_ACTIVE",
+      "vr_mirror": {
+        "node_id": 12,
+        "mirrors": 190000,
+        "ms": 0.587,
+        "mirror_ops_s": 323472528.67,
+        "checksum": 353789472
+      },
+      "memory": {
+        "rss_mb": 58.906,
+        "heap_mb": 5.707,
+        "external_mb": 2.942,
+        "free_gb": 0.8,
+        "total_gb": 7.757
+      },
+      "truth_policy": {
+        "real_only": true,
+        "vr_mirror_is_software_runtime": true,
+        "physical_openxr_not_claimed": true
+      }
+    },
+    {
+      "node_id": 13,
+      "node_name": "TRILLIONX_VR_NODE_13",
+      "port": 3023,
+      "status": "VR_MIRROR_ACTIVE",
+      "vr_mirror": {
+        "node_id": 13,
+        "mirrors": 197500,
+        "ms": 0.495,
+        "mirror_ops_s": 399273827.045,
+        "checksum": 1435536124
+      },
+      "memory": {
+        "rss_mb": 60.227,
+        "heap_mb": 5.976,
+        "external_mb": 3.942,
+        "free_gb": 0.795,
+        "total_gb": 7.757
+      },
+      "truth_policy": {
+        "real_only": true,
+        "vr_mirror_is_software_runtime": true,
+        "physical_openxr_not_claimed": true
+      }
+    },
+    {
+      "node_id": 14,
+      "node_name": "TRILLIONX_VR_NODE_14",
+      "port": 3024,
+      "status": "VR_MIRROR_ACTIVE",
+      "vr_mirror": {
+        "node_id": 14,
+        "mirrors": 205000,
+        "ms": 0.63,
+        "mirror_ops_s": 325596834.881,
+        "checksum": 4150332032
+      },
+      "memory": {
+        "rss_mb": 61.336,
+        "heap_mb": 5.575,
+        "external_mb": 4.942,
+        "free_gb": 0.788,
+        "total_gb": 7.757
+      },
+      "truth_policy": {
+        "real_only": true,
+        "vr_mirror_is_software_runtime": true,
+        "physical_openxr_not_claimed": true
+      }
+    },
+    {
+      "node_id": 15,
+      "node_name": "TRILLIONX_VR_NODE_15",
+      "port": 3025,
+      "status": "VR_MIRROR_ACTIVE",
+      "vr_mirror": {
+        "node_id": 15,
+        "mirrors": 212500,
+        "ms": 0.392,
+        "mirror_ops_s": 541524065.33,
+        "checksum": 569807112
+      },
+      "memory": {
+        "rss_mb": 61.953,
+        "heap_mb": 5.717,
+        "external_mb": 5.942,
+        "free_gb": 0.774,
+        "total_gb": 7.757
+      },
+      "truth_policy": {
+        "real_only": true,
+        "vr_mirror_is_software_runtime": true,
+        "physical_openxr_not_claimed": true
+      }
+    },
+    {
+      "node_id": 16,
+      "node_name": "TRILLIONX_VR_NODE_16",
+      "port": 3026,
+      "status": "VR_MIRROR_ACTIVE",
+      "vr_mirror": {
+        "node_id": 16,
+        "mirrors": 220000,
+        "ms": 0.466,
+        "mirror_ops_s": 472136438.846,
+        "checksum": 2681807168
+      },
+      "memory": {
+        "rss_mb": 59.133,
+        "heap_mb": 5.715,
+        "external_mb": 2.942,
+        "free_gb": 1.092,
+        "total_gb": 7.757
+      },
+      "truth_policy": {
+        "real_only": true,
+        "vr_mirror_is_software_runtime": true,
+        "physical_openxr_not_claimed": true
+      }
+    },
+    {
+      "node_id": 17,
+      "node_name": "TRILLIONX_VR_NODE_17",
+      "port": 3027,
+      "status": "VR_MIRROR_ACTIVE",
+      "vr_mirror": {
+        "node_id": 17,
+        "mirrors": 227500,
+        "ms": 0.492,
+        "mirror_ops_s": 462187007.974,
+        "checksum": 1643991164
+      },
+      "memory": {
+        "rss_mb": 58.398,
+        "heap_mb": 5.26,
+        "external_mb": 1.942,
+        "free_gb": 1.089,
+        "total_gb": 7.757
+      },
+      "truth_policy": {
+        "real_only": true,
+        "vr_mirror_is_software_runtime": true,
+        "physical_openxr_not_claimed": true
+      }
+    },
+    {
+      "node_id": 18,
+      "node_name": "TRILLIONX_VR_NODE_18",
+      "port": 3028,
+      "status": "VR_MIRROR_ACTIVE",
+      "vr_mirror": {
+        "node_id": 18,
+        "mirrors": 235000,
+        "ms": 0.52,
+        "mirror_ops_s": 451694623.68,
+        "checksum": 4248883440
+      },
+      "memory": {
+        "rss_mb": 60.988,
+        "heap_mb": 5.312,
+        "external_mb": 4.942,
+        "free_gb": 1.073,
+        "total_gb": 7.757
+      },
+      "truth_policy": {
+        "real_only": true,
+        "vr_mirror_is_software_runtime": true,
+        "physical_openxr_not_claimed": true
+      }
+    },
+    {
+      "node_id": 19,
+      "node_name": "TRILLIONX_VR_NODE_19",
+      "port": 3029,
+      "status": "VR_MIRROR_ACTIVE",
+      "vr_mirror": {
+        "node_id": 19,
+        "mirrors": 242500,
+        "ms": 0.519,
+        "mirror_ops_s": 467450055.13,
+        "checksum": 3619217144
+      },
+      "memory": {
+        "rss_mb": 62.398,
+        "heap_mb": 5.413,
+        "external_mb": 5.942,
+        "free_gb": 1.065,
+        "total_gb": 7.757
+      },
+      "truth_policy": {
+        "real_only": true,
+        "vr_mirror_is_software_runtime": true,
+        "physical_openxr_not_claimed": true
+      }
+    }
+  ],
+  "raw": {
+    "health": [
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 136.815,
+        "json": {
+          "node_id": 0,
+          "node_name": "TRILLIONX_VR_NODE_00",
+          "role": "MASTER_CAPABLE",
+          "status": "ACTIVE",
+          "port": 3010,
+          "created": "2026-05-24T13:19:24.618Z",
+          "target": "TRILLIONX",
+          "host_role": "CODESPACES_SUPPORT_ONLY",
+          "work": {
+            "loops": 100000,
+            "ms": 57.671,
+            "loops_s": 1733961.15,
+            "hash": "3631010ec2832b1ff399",
+            "checksum": 5144.616
+          },
+          "vr_mirror": {
+            "node_id": 0,
+            "mirrors": 75000,
+            "ms": 5.162,
+            "mirror_ops_s": 14529832.07,
+            "checksum": 1740591832
+          },
+          "memory": {
+            "rss_mb": 56.043,
+            "heap_mb": 5.957,
+            "external_mb": 2.942,
+            "free_gb": 0.848,
+            "total_gb": 7.757
+          },
+          "score": 1879.259,
+          "truth_policy": {
+            "real_only": true,
+            "node_is_local_codespaces_process": true,
+            "no_fake_physical_cluster": true,
+            "vr_mirror_is_logical_runtime": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 52.737,
+        "json": {
+          "node_id": 1,
+          "node_name": "TRILLIONX_VR_NODE_01",
+          "role": "WORKER_NODE",
+          "status": "ACTIVE",
+          "port": 3011,
+          "created": "2026-05-24T13:19:24.730Z",
+          "target": "TRILLIONX",
+          "host_role": "CODESPACES_SUPPORT_ONLY",
+          "work": {
+            "loops": 125000,
+            "ms": 22.891,
+            "loops_s": 5460730.099,
+            "hash": "3b12404a8a5662114e1d",
+            "checksum": 5697.129
+          },
+          "vr_mirror": {
+            "node_id": 1,
+            "mirrors": 82500,
+            "ms": 7.168,
+            "mirror_ops_s": 11509965.119,
+            "checksum": 1058815308
+          },
+          "memory": {
+            "rss_mb": 59.059,
+            "heap_mb": 5.42,
+            "external_mb": 3.942,
+            "free_gb": 0.851,
+            "total_gb": 7.757
+          },
+          "score": 5575.83,
+          "truth_policy": {
+            "real_only": true,
+            "node_is_local_codespaces_process": true,
+            "no_fake_physical_cluster": true,
+            "vr_mirror_is_logical_runtime": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 68.369,
+        "json": {
+          "node_id": 2,
+          "node_name": "TRILLIONX_VR_NODE_02",
+          "role": "WORKER_NODE",
+          "status": "ACTIVE",
+          "port": 3012,
+          "created": "2026-05-24T13:19:24.771Z",
+          "target": "TRILLIONX",
+          "host_role": "CODESPACES_SUPPORT_ONLY",
+          "work": {
+            "loops": 150000,
+            "ms": 39.932,
+            "loops_s": 3756417.464,
+            "hash": "769cd9c94ca1337636e1",
+            "checksum": 6814.179
+          },
+          "vr_mirror": {
+            "node_id": 2,
+            "mirrors": 90000,
+            "ms": 2.431,
+            "mirror_ops_s": 37026477.634,
+            "checksum": 1113074656
+          },
+          "memory": {
+            "rss_mb": 61.004,
+            "heap_mb": 5.385,
+            "external_mb": 4.942,
+            "free_gb": 0.846,
+            "total_gb": 7.757
+          },
+          "score": 4126.682,
+          "truth_policy": {
+            "real_only": true,
+            "node_is_local_codespaces_process": true,
+            "no_fake_physical_cluster": true,
+            "vr_mirror_is_logical_runtime": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 50.724,
+        "json": {
+          "node_id": 3,
+          "node_name": "TRILLIONX_VR_NODE_03",
+          "role": "WORKER_NODE",
+          "status": "ACTIVE",
+          "port": 3013,
+          "created": "2026-05-24T13:19:24.742Z",
+          "target": "TRILLIONX",
+          "host_role": "CODESPACES_SUPPORT_ONLY",
+          "work": {
+            "loops": 175000,
+            "ms": 30.347,
+            "loops_s": 5766638.887,
+            "hash": "7e9410058d80aa9ccd8a",
+            "checksum": 8284.135
+          },
+          "vr_mirror": {
+            "node_id": 3,
+            "mirrors": 97500,
+            "ms": 2.457,
+            "mirror_ops_s": 39678050.265,
+            "checksum": 2169241984
+          },
+          "memory": {
+            "rss_mb": 57.84,
+            "heap_mb": 4.98,
+            "external_mb": 5.942,
+            "free_gb": 0.835,
+            "total_gb": 7.757
+          },
+          "score": 6163.419,
+          "truth_policy": {
+            "real_only": true,
+            "node_is_local_codespaces_process": true,
+            "no_fake_physical_cluster": true,
+            "vr_mirror_is_logical_runtime": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 74.891,
+        "json": {
+          "node_id": 4,
+          "node_name": "TRILLIONX_VR_NODE_04",
+          "role": "WORKER_NODE",
+          "status": "ACTIVE",
+          "port": 3014,
+          "created": "2026-05-24T13:19:24.787Z",
+          "target": "TRILLIONX",
+          "host_role": "CODESPACES_SUPPORT_ONLY",
+          "work": {
+            "loops": 200000,
+            "ms": 47.912,
+            "loops_s": 4174346.856,
+            "hash": "834396424b18e63671ab",
+            "checksum": 10089.095
+          },
+          "vr_mirror": {
+            "node_id": 4,
+            "mirrors": 105000,
+            "ms": 3.465,
+            "mirror_ops_s": 30306047.788,
+            "checksum": 772070264
+          },
+          "memory": {
+            "rss_mb": 59.133,
+            "heap_mb": 5.057,
+            "external_mb": 2.942,
+            "free_gb": 0.835,
+            "total_gb": 7.757
+          },
+          "score": 4477.407,
+          "truth_policy": {
+            "real_only": true,
+            "node_is_local_codespaces_process": true,
+            "no_fake_physical_cluster": true,
+            "vr_mirror_is_logical_runtime": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 56.666,
+        "json": {
+          "node_id": 5,
+          "node_name": "TRILLIONX_VR_NODE_05",
+          "role": "WORKER_NODE",
+          "status": "ACTIVE",
+          "port": 3015,
+          "created": "2026-05-24T13:19:24.737Z",
+          "target": "TRILLIONX",
+          "host_role": "CODESPACES_SUPPORT_ONLY",
+          "work": {
+            "loops": 225000,
+            "ms": 39.971,
+            "loops_s": 5629101.786,
+            "hash": "79f4ae1e3bf6abd173f6",
+            "checksum": 10748.952
+          },
+          "vr_mirror": {
+            "node_id": 5,
+            "mirrors": 112500,
+            "ms": 3.576,
+            "mirror_ops_s": 31460171.423,
+            "checksum": 2485996284
+          },
+          "memory": {
+            "rss_mb": 60.055,
+            "heap_mb": 5.652,
+            "external_mb": 3.942,
+            "free_gb": 0.833,
+            "total_gb": 7.757
+          },
+          "score": 5943.704,
+          "truth_policy": {
+            "real_only": true,
+            "node_is_local_codespaces_process": true,
+            "no_fake_physical_cluster": true,
+            "vr_mirror_is_logical_runtime": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 83.427,
+        "json": {
+          "node_id": 6,
+          "node_name": "TRILLIONX_VR_NODE_06",
+          "role": "WORKER_NODE",
+          "status": "ACTIVE",
+          "port": 3016,
+          "created": "2026-05-24T13:19:24.635Z",
+          "target": "TRILLIONX",
+          "host_role": "CODESPACES_SUPPORT_ONLY",
+          "work": {
+            "loops": 250000,
+            "ms": 57.564,
+            "loops_s": 4342997.278,
+            "hash": "c43506f392622f6d3ffa",
+            "checksum": 11914.249
+          },
+          "vr_mirror": {
+            "node_id": 6,
+            "mirrors": 120000,
+            "ms": 2.707,
+            "mirror_ops_s": 44326814.213,
+            "checksum": 369406208
+          },
+          "memory": {
+            "rss_mb": 60.855,
+            "heap_mb": 5.829,
+            "external_mb": 4.942,
+            "free_gb": 0.824,
+            "total_gb": 7.757
+          },
+          "score": 4786.265,
+          "truth_policy": {
+            "real_only": true,
+            "node_is_local_codespaces_process": true,
+            "no_fake_physical_cluster": true,
+            "vr_mirror_is_logical_runtime": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 96.26,
+        "json": {
+          "node_id": 7,
+          "node_name": "TRILLIONX_VR_NODE_07",
+          "role": "WORKER_NODE",
+          "status": "ACTIVE",
+          "port": 3017,
+          "created": "2026-05-24T13:19:24.614Z",
+          "target": "TRILLIONX",
+          "host_role": "CODESPACES_SUPPORT_ONLY",
+          "work": {
+            "loops": 275000,
+            "ms": 74.465,
+            "loops_s": 3693014.503,
+            "hash": "de54a75519b4e1bd00f5",
+            "checksum": 13408.5
+          },
+          "vr_mirror": {
+            "node_id": 7,
+            "mirrors": 127500,
+            "ms": 8.885,
+            "mirror_ops_s": 14350018.447,
+            "checksum": 569708672
+          },
+          "memory": {
+            "rss_mb": 61.844,
+            "heap_mb": 5.764,
+            "external_mb": 5.942,
+            "free_gb": 0.803,
+            "total_gb": 7.757
+          },
+          "score": 3836.515,
+          "truth_policy": {
+            "real_only": true,
+            "node_is_local_codespaces_process": true,
+            "no_fake_physical_cluster": true,
+            "vr_mirror_is_logical_runtime": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 44.777,
+        "json": {
+          "node_id": 8,
+          "node_name": "TRILLIONX_VR_NODE_08",
+          "role": "WORKER_NODE",
+          "status": "ACTIVE",
+          "port": 3018,
+          "created": "2026-05-24T13:19:24.762Z",
+          "target": "TRILLIONX",
+          "host_role": "CODESPACES_SUPPORT_ONLY",
+          "work": {
+            "loops": 300000,
+            "ms": 28.489,
+            "loops_s": 10530273.325,
+            "hash": "37a1e4686b43ad5cc3d9",
+            "checksum": 14663.242
+          },
+          "vr_mirror": {
+            "node_id": 8,
+            "mirrors": 135000,
+            "ms": 3.265,
+            "mirror_ops_s": 41347854.291,
+            "checksum": 2865016504
+          },
+          "memory": {
+            "rss_mb": 58.996,
+            "heap_mb": 5.583,
+            "external_mb": 2.942,
+            "free_gb": 0.815,
+            "total_gb": 7.757
+          },
+          "score": 10943.752,
+          "truth_policy": {
+            "real_only": true,
+            "node_is_local_codespaces_process": true,
+            "no_fake_physical_cluster": true,
+            "vr_mirror_is_logical_runtime": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 142.619,
+        "json": {
+          "node_id": 9,
+          "node_name": "TRILLIONX_VR_NODE_09",
+          "role": "WORKER_NODE",
+          "status": "ACTIVE",
+          "port": 3019,
+          "created": "2026-05-24T13:19:24.727Z",
+          "target": "TRILLIONX",
+          "host_role": "CODESPACES_SUPPORT_ONLY",
+          "work": {
+            "loops": 325000,
+            "ms": 76.943,
+            "loops_s": 4223882.623,
+            "hash": "2ee2ae0926d8a6b7fb3b",
+            "checksum": 15385.154
+          },
+          "vr_mirror": {
+            "node_id": 9,
+            "mirrors": 142500,
+            "ms": 36.521,
+            "mirror_ops_s": 3901897.267,
+            "checksum": 3746296364
+          },
+          "memory": {
+            "rss_mb": 57.918,
+            "heap_mb": 5.188,
+            "external_mb": 3.942,
+            "free_gb": 0.813,
+            "total_gb": 7.757
+          },
+          "score": 4262.902,
+          "truth_policy": {
+            "real_only": true,
+            "node_is_local_codespaces_process": true,
+            "no_fake_physical_cluster": true,
+            "vr_mirror_is_logical_runtime": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 61.472,
+        "json": {
+          "node_id": 10,
+          "node_name": "TRILLIONX_VR_NODE_10",
+          "role": "WORKER_NODE",
+          "status": "ACTIVE",
+          "port": 3020,
+          "created": "2026-05-24T13:19:24.622Z",
+          "target": "TRILLIONX",
+          "host_role": "CODESPACES_SUPPORT_ONLY",
+          "work": {
+            "loops": 350000,
+            "ms": 41.062,
+            "loops_s": 8523780.984,
+            "hash": "d0c45bd95c428f77fe27",
+            "checksum": 16528.801
+          },
+          "vr_mirror": {
+            "node_id": 10,
+            "mirrors": 150000,
+            "ms": 2.618,
+            "mirror_ops_s": 57295557.99,
+            "checksum": 1002853440
+          },
+          "memory": {
+            "rss_mb": 60.77,
+            "heap_mb": 5.668,
+            "external_mb": 4.942,
+            "free_gb": 0.806,
+            "total_gb": 7.757
+          },
+          "score": 9096.737,
+          "truth_policy": {
+            "real_only": true,
+            "node_is_local_codespaces_process": true,
+            "no_fake_physical_cluster": true,
+            "vr_mirror_is_logical_runtime": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 51.309,
+        "json": {
+          "node_id": 11,
+          "node_name": "TRILLIONX_VR_NODE_11",
+          "role": "WORKER_NODE",
+          "status": "ACTIVE",
+          "port": 3021,
+          "created": "2026-05-24T13:19:24.760Z",
+          "target": "TRILLIONX",
+          "host_role": "CODESPACES_SUPPORT_ONLY",
+          "work": {
+            "loops": 375000,
+            "ms": 39.559,
+            "loops_s": 9479618.012,
+            "hash": "b3eb9cbbe18117429d99",
+            "checksum": 17965.835
+          },
+          "vr_mirror": {
+            "node_id": 11,
+            "mirrors": 157500,
+            "ms": 2.629,
+            "mirror_ops_s": 59910305.714,
+            "checksum": 2995921152
+          },
+          "memory": {
+            "rss_mb": 62.004,
+            "heap_mb": 5.183,
+            "external_mb": 5.942,
+            "free_gb": 0.802,
+            "total_gb": 7.757
+          },
+          "score": 10078.721,
+          "truth_policy": {
+            "real_only": true,
+            "node_is_local_codespaces_process": true,
+            "no_fake_physical_cluster": true,
+            "vr_mirror_is_logical_runtime": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 58.871,
+        "json": {
+          "node_id": 12,
+          "node_name": "TRILLIONX_VR_NODE_12",
+          "role": "WORKER_NODE",
+          "status": "ACTIVE",
+          "port": 3022,
+          "created": "2026-05-24T13:19:24.616Z",
+          "target": "TRILLIONX",
+          "host_role": "CODESPACES_SUPPORT_ONLY",
+          "work": {
+            "loops": 400000,
+            "ms": 45.892,
+            "loops_s": 8716024.555,
+            "hash": "2f3547c057c8da9fbb39",
+            "checksum": 19663.177
+          },
+          "vr_mirror": {
+            "node_id": 12,
+            "mirrors": 165000,
+            "ms": 3.578,
+            "mirror_ops_s": 46108704.765,
+            "checksum": 2495990264
+          },
+          "memory": {
+            "rss_mb": 58.781,
+            "heap_mb": 5.629,
+            "external_mb": 2.942,
+            "free_gb": 0.802,
+            "total_gb": 7.757
+          },
+          "score": 9177.112,
+          "truth_policy": {
+            "real_only": true,
+            "node_is_local_codespaces_process": true,
+            "no_fake_physical_cluster": true,
+            "vr_mirror_is_logical_runtime": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 174.109,
+        "json": {
+          "node_id": 13,
+          "node_name": "TRILLIONX_VR_NODE_13",
+          "role": "WORKER_NODE",
+          "status": "ACTIVE",
+          "port": 3023,
+          "created": "2026-05-24T13:19:24.776Z",
+          "target": "TRILLIONX",
+          "host_role": "CODESPACES_SUPPORT_ONLY",
+          "work": {
+            "loops": 425000,
+            "ms": 119.263,
+            "loops_s": 3563545.141,
+            "hash": "0fcf39f66e4f3b900787",
+            "checksum": 20288.674
+          },
+          "vr_mirror": {
+            "node_id": 13,
+            "mirrors": 172500,
+            "ms": 5.193,
+            "mirror_ops_s": 33220115.329,
+            "checksum": 129358524
+          },
+          "memory": {
+            "rss_mb": 60.102,
+            "heap_mb": 5.892,
+            "external_mb": 3.942,
+            "free_gb": 0.796,
+            "total_gb": 7.757
+          },
+          "score": 3895.746,
+          "truth_policy": {
+            "real_only": true,
+            "node_is_local_codespaces_process": true,
+            "no_fake_physical_cluster": true,
+            "vr_mirror_is_logical_runtime": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 258.367,
+        "json": {
+          "node_id": 14,
+          "node_name": "TRILLIONX_VR_NODE_14",
+          "role": "WORKER_NODE",
+          "status": "ACTIVE",
+          "port": 3024,
+          "created": "2026-05-24T13:19:24.766Z",
+          "target": "TRILLIONX",
+          "host_role": "CODESPACES_SUPPORT_ONLY",
+          "work": {
+            "loops": 450000,
+            "ms": 220.245,
+            "loops_s": 2043181.256,
+            "hash": "f53d9da2e62c5373ab24",
+            "checksum": 21337.071
+          },
+          "vr_mirror": {
+            "node_id": 14,
+            "mirrors": 180000,
+            "ms": 3.039,
+            "mirror_ops_s": 59238138.303,
+            "checksum": 4214872384
+          },
+          "memory": {
+            "rss_mb": 61.086,
+            "heap_mb": 5.475,
+            "external_mb": 4.942,
+            "free_gb": 0.789,
+            "total_gb": 7.757
+          },
+          "score": 2635.563,
+          "truth_policy": {
+            "real_only": true,
+            "node_is_local_codespaces_process": true,
+            "no_fake_physical_cluster": true,
+            "vr_mirror_is_logical_runtime": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 242.809,
+        "json": {
+          "node_id": 15,
+          "node_name": "TRILLIONX_VR_NODE_15",
+          "role": "WORKER_NODE",
+          "status": "ACTIVE",
+          "port": 3025,
+          "created": "2026-05-24T13:19:24.789Z",
+          "target": "TRILLIONX",
+          "host_role": "CODESPACES_SUPPORT_ONLY",
+          "work": {
+            "loops": 475000,
+            "ms": 146.045,
+            "loops_s": 3252423.245,
+            "hash": "7beb03fce5051cebba9f",
+            "checksum": 22671.707
+          },
+          "vr_mirror": {
+            "node_id": 15,
+            "mirrors": 187500,
+            "ms": 5.274,
+            "mirror_ops_s": 35548635.842,
+            "checksum": 321638592
+          },
+          "memory": {
+            "rss_mb": 61.953,
+            "heap_mb": 5.618,
+            "external_mb": 5.942,
+            "free_gb": 0.775,
+            "total_gb": 7.757
+          },
+          "score": 3607.91,
+          "truth_policy": {
+            "real_only": true,
+            "node_is_local_codespaces_process": true,
+            "no_fake_physical_cluster": true,
+            "vr_mirror_is_logical_runtime": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 91.864,
+        "json": {
+          "node_id": 16,
+          "node_name": "TRILLIONX_VR_NODE_16",
+          "role": "WORKER_NODE",
+          "status": "ACTIVE",
+          "port": 3026,
+          "created": "2026-05-24T13:19:24.792Z",
+          "target": "TRILLIONX",
+          "host_role": "CODESPACES_SUPPORT_ONLY",
+          "work": {
+            "loops": 500000,
+            "ms": 60.531,
+            "loops_s": 8260287.337,
+            "hash": "73153a30d65031ddd16a",
+            "checksum": 24919.979
+          },
+          "vr_mirror": {
+            "node_id": 16,
+            "mirrors": 195000,
+            "ms": 7.759,
+            "mirror_ops_s": 25131447.134,
+            "checksum": 1692146328
+          },
+          "memory": {
+            "rss_mb": 58.883,
+            "heap_mb": 5.614,
+            "external_mb": 2.942,
+            "free_gb": 1.077,
+            "total_gb": 7.757
+          },
+          "score": 8511.602,
+          "truth_policy": {
+            "real_only": true,
+            "node_is_local_codespaces_process": true,
+            "no_fake_physical_cluster": true,
+            "vr_mirror_is_logical_runtime": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 89.05,
+        "json": {
+          "node_id": 17,
+          "node_name": "TRILLIONX_VR_NODE_17",
+          "role": "WORKER_NODE",
+          "status": "ACTIVE",
+          "port": 3027,
+          "created": "2026-05-24T13:19:24.754Z",
+          "target": "TRILLIONX",
+          "host_role": "CODESPACES_SUPPORT_ONLY",
+          "work": {
+            "loops": 525000,
+            "ms": 61.941,
+            "loops_s": 8475799.276,
+            "hash": "3ba5df6a8c91f1820e42",
+            "checksum": 25759.039
+          },
+          "vr_mirror": {
+            "node_id": 17,
+            "mirrors": 202500,
+            "ms": 4.535,
+            "mirror_ops_s": 44654473.606,
+            "checksum": 4019121164
+          },
+          "memory": {
+            "rss_mb": 58.023,
+            "heap_mb": 5.159,
+            "external_mb": 3.942,
+            "free_gb": 1.086,
+            "total_gb": 7.757
+          },
+          "score": 8922.344,
+          "truth_policy": {
+            "real_only": true,
+            "node_is_local_codespaces_process": true,
+            "no_fake_physical_cluster": true,
+            "vr_mirror_is_logical_runtime": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 144.048,
+        "json": {
+          "node_id": 18,
+          "node_name": "TRILLIONX_VR_NODE_18",
+          "role": "WORKER_NODE",
+          "status": "ACTIVE",
+          "port": 3028,
+          "created": "2026-05-24T13:19:24.618Z",
+          "target": "TRILLIONX",
+          "host_role": "CODESPACES_SUPPORT_ONLY",
+          "work": {
+            "loops": 550000,
+            "ms": 89.924,
+            "loops_s": 6116254.745,
+            "hash": "efdea5d01f0d11527edf",
+            "checksum": 26979.481
+          },
+          "vr_mirror": {
+            "node_id": 18,
+            "mirrors": 210000,
+            "ms": 4.134,
+            "mirror_ops_s": 50803001.925,
+            "checksum": 674373024
+          },
+          "memory": {
+            "rss_mb": 60.738,
+            "heap_mb": 5.218,
+            "external_mb": 4.942,
+            "free_gb": 1.085,
+            "total_gb": 7.757
+          },
+          "score": 6624.285,
+          "truth_policy": {
+            "real_only": true,
+            "node_is_local_codespaces_process": true,
+            "no_fake_physical_cluster": true,
+            "vr_mirror_is_logical_runtime": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 85.847,
+        "json": {
+          "node_id": 19,
+          "node_name": "TRILLIONX_VR_NODE_19",
+          "role": "WORKER_NODE",
+          "status": "ACTIVE",
+          "port": 3029,
+          "created": "2026-05-24T13:19:24.806Z",
+          "target": "TRILLIONX",
+          "host_role": "CODESPACES_SUPPORT_ONLY",
+          "work": {
+            "loops": 575000,
+            "ms": 62.523,
+            "loops_s": 9196607.997,
+            "hash": "9a0dfccd188f25ebb21b",
+            "checksum": 28485.183
+          },
+          "vr_mirror": {
+            "node_id": 19,
+            "mirrors": 217500,
+            "ms": 3.476,
+            "mirror_ops_s": 62579861.254,
+            "checksum": 2519784832
+          },
+          "memory": {
+            "rss_mb": 62.273,
+            "heap_mb": 5.314,
+            "external_mb": 5.942,
+            "free_gb": 1.065,
+            "total_gb": 7.757
+          },
+          "score": 9822.407,
+          "truth_policy": {
+            "real_only": true,
+            "node_is_local_codespaces_process": true,
+            "no_fake_physical_cluster": true,
+            "vr_mirror_is_logical_runtime": true
+          }
+        }
+      }
+    ],
+    "vr": [
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 9.651,
+        "json": {
+          "node_id": 0,
+          "node_name": "TRILLIONX_VR_NODE_00",
+          "port": 3010,
+          "status": "VR_MIRROR_ACTIVE",
+          "vr_mirror": {
+            "node_id": 0,
+            "mirrors": 100000,
+            "ms": 0.255,
+            "mirror_ops_s": 392520136.283,
+            "checksum": 2572856256
+          },
+          "memory": {
+            "rss_mb": 58.137,
+            "heap_mb": 5.068,
+            "external_mb": 2.942,
+            "free_gb": 0.844,
+            "total_gb": 7.757
+          },
+          "truth_policy": {
+            "real_only": true,
+            "vr_mirror_is_software_runtime": true,
+            "physical_openxr_not_claimed": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 10.218,
+        "json": {
+          "node_id": 1,
+          "node_name": "TRILLIONX_VR_NODE_01",
+          "port": 3011,
+          "status": "VR_MIRROR_ACTIVE",
+          "vr_mirror": {
+            "node_id": 1,
+            "mirrors": 107500,
+            "ms": 0.227,
+            "mirror_ops_s": 472674988.679,
+            "checksum": 290494844
+          },
+          "memory": {
+            "rss_mb": 59.809,
+            "heap_mb": 5.518,
+            "external_mb": 3.942,
+            "free_gb": 0.851,
+            "total_gb": 7.757
+          },
+          "truth_policy": {
+            "real_only": true,
+            "vr_mirror_is_software_runtime": true,
+            "physical_openxr_not_claimed": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 4.203,
+        "json": {
+          "node_id": 2,
+          "node_name": "TRILLIONX_VR_NODE_02",
+          "port": 3012,
+          "status": "VR_MIRROR_ACTIVE",
+          "vr_mirror": {
+            "node_id": 2,
+            "mirrors": 115000,
+            "ms": 0.279,
+            "mirror_ops_s": 412119908.975,
+            "checksum": 574846832
+          },
+          "memory": {
+            "rss_mb": 61.254,
+            "heap_mb": 5.488,
+            "external_mb": 4.942,
+            "free_gb": 0.846,
+            "total_gb": 7.757
+          },
+          "truth_policy": {
+            "real_only": true,
+            "vr_mirror_is_software_runtime": true,
+            "physical_openxr_not_claimed": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 3.351,
+        "json": {
+          "node_id": 3,
+          "node_name": "TRILLIONX_VR_NODE_03",
+          "port": 3013,
+          "status": "VR_MIRROR_ACTIVE",
+          "vr_mirror": {
+            "node_id": 3,
+            "mirrors": 122500,
+            "ms": 0.274,
+            "mirror_ops_s": 446957949.466,
+            "checksum": 1402725368
+          },
+          "memory": {
+            "rss_mb": 58.34,
+            "heap_mb": 5.074,
+            "external_mb": 1.942,
+            "free_gb": 0.835,
+            "total_gb": 7.757
+          },
+          "truth_policy": {
+            "real_only": true,
+            "vr_mirror_is_software_runtime": true,
+            "physical_openxr_not_claimed": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 4.752,
+        "json": {
+          "node_id": 4,
+          "node_name": "TRILLIONX_VR_NODE_04",
+          "port": 3014,
+          "status": "VR_MIRROR_ACTIVE",
+          "vr_mirror": {
+            "node_id": 4,
+            "mirrors": 130000,
+            "ms": 0.643,
+            "mirror_ops_s": 202222267.161,
+            "checksum": 3835844704
+          },
+          "memory": {
+            "rss_mb": 59.383,
+            "heap_mb": 5.16,
+            "external_mb": 2.942,
+            "free_gb": 0.835,
+            "total_gb": 7.757
+          },
+          "truth_policy": {
+            "real_only": true,
+            "vr_mirror_is_software_runtime": true,
+            "physical_openxr_not_claimed": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 7.851,
+        "json": {
+          "node_id": 5,
+          "node_name": "TRILLIONX_VR_NODE_05",
+          "port": 3015,
+          "status": "VR_MIRROR_ACTIVE",
+          "vr_mirror": {
+            "node_id": 5,
+            "mirrors": 137500,
+            "ms": 0.313,
+            "mirror_ops_s": 438735039.136,
+            "checksum": 1587142524
+          },
+          "memory": {
+            "rss_mb": 60.055,
+            "heap_mb": 5.755,
+            "external_mb": 3.942,
+            "free_gb": 0.833,
+            "total_gb": 7.757
+          },
+          "truth_policy": {
+            "real_only": true,
+            "vr_mirror_is_software_runtime": true,
+            "physical_openxr_not_claimed": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 3.955,
+        "json": {
+          "node_id": 6,
+          "node_name": "TRILLIONX_VR_NODE_06",
+          "port": 3016,
+          "status": "VR_MIRROR_ACTIVE",
+          "vr_mirror": {
+            "node_id": 6,
+            "mirrors": 145000,
+            "ms": 0.759,
+            "mirror_ops_s": 191122932.906,
+            "checksum": 1535292416
+          },
+          "memory": {
+            "rss_mb": 60.98,
+            "heap_mb": 5.929,
+            "external_mb": 4.942,
+            "free_gb": 0.824,
+            "total_gb": 7.757
+          },
+          "truth_policy": {
+            "real_only": true,
+            "vr_mirror_is_software_runtime": true,
+            "physical_openxr_not_claimed": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 1.807,
+        "json": {
+          "node_id": 7,
+          "node_name": "TRILLIONX_VR_NODE_07",
+          "port": 3017,
+          "status": "VR_MIRROR_ACTIVE",
+          "vr_mirror": {
+            "node_id": 7,
+            "mirrors": 152500,
+            "ms": 0.389,
+            "mirror_ops_s": 392452558.276,
+            "checksum": 3152774376
+          },
+          "memory": {
+            "rss_mb": 61.969,
+            "heap_mb": 5.864,
+            "external_mb": 5.942,
+            "free_gb": 0.804,
+            "total_gb": 7.757
+          },
+          "truth_policy": {
+            "real_only": true,
+            "vr_mirror_is_software_runtime": true,
+            "physical_openxr_not_claimed": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 16.421,
+        "json": {
+          "node_id": 8,
+          "node_name": "TRILLIONX_VR_NODE_08",
+          "port": 3018,
+          "status": "VR_MIRROR_ACTIVE",
+          "vr_mirror": {
+            "node_id": 8,
+            "mirrors": 160000,
+            "ms": 4.597,
+            "mirror_ops_s": 34808654.65,
+            "checksum": 1993103360
+          },
+          "memory": {
+            "rss_mb": 59.246,
+            "heap_mb": 5.684,
+            "external_mb": 2.942,
+            "free_gb": 0.814,
+            "total_gb": 7.757
+          },
+          "truth_policy": {
+            "real_only": true,
+            "vr_mirror_is_software_runtime": true,
+            "physical_openxr_not_claimed": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 10.755,
+        "json": {
+          "node_id": 9,
+          "node_name": "TRILLIONX_VR_NODE_09",
+          "port": 3019,
+          "status": "VR_MIRROR_ACTIVE",
+          "vr_mirror": {
+            "node_id": 9,
+            "mirrors": 167500,
+            "ms": 0.382,
+            "mirror_ops_s": 437943990.232,
+            "checksum": 1233088412
+          },
+          "memory": {
+            "rss_mb": 58.043,
+            "heap_mb": 5.287,
+            "external_mb": 1.942,
+            "free_gb": 0.813,
+            "total_gb": 7.757
+          },
+          "truth_policy": {
+            "real_only": true,
+            "vr_mirror_is_software_runtime": true,
+            "physical_openxr_not_claimed": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 3.54,
+        "json": {
+          "node_id": 10,
+          "node_name": "TRILLIONX_VR_NODE_10",
+          "port": 3020,
+          "status": "VR_MIRROR_ACTIVE",
+          "vr_mirror": {
+            "node_id": 10,
+            "mirrors": 175000,
+            "ms": 0.39,
+            "mirror_ops_s": 449201704.4,
+            "checksum": 1140045520
+          },
+          "memory": {
+            "rss_mb": 60.77,
+            "heap_mb": 5.761,
+            "external_mb": 4.942,
+            "free_gb": 0.806,
+            "total_gb": 7.757
+          },
+          "truth_policy": {
+            "real_only": true,
+            "vr_mirror_is_software_runtime": true,
+            "physical_openxr_not_claimed": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 3.678,
+        "json": {
+          "node_id": 11,
+          "node_name": "TRILLIONX_VR_NODE_11",
+          "port": 3021,
+          "status": "VR_MIRROR_ACTIVE",
+          "vr_mirror": {
+            "node_id": 11,
+            "mirrors": 182500,
+            "ms": 0.374,
+            "mirror_ops_s": 488478596.607,
+            "checksum": 841457016
+          },
+          "memory": {
+            "rss_mb": 62.254,
+            "heap_mb": 5.274,
+            "external_mb": 5.942,
+            "free_gb": 0.802,
+            "total_gb": 7.757
+          },
+          "truth_policy": {
+            "real_only": true,
+            "vr_mirror_is_software_runtime": true,
+            "physical_openxr_not_claimed": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 18.373,
+        "json": {
+          "node_id": 12,
+          "node_name": "TRILLIONX_VR_NODE_12",
+          "port": 3022,
+          "status": "VR_MIRROR_ACTIVE",
+          "vr_mirror": {
+            "node_id": 12,
+            "mirrors": 190000,
+            "ms": 0.587,
+            "mirror_ops_s": 323472528.67,
+            "checksum": 353789472
+          },
+          "memory": {
+            "rss_mb": 58.906,
+            "heap_mb": 5.707,
+            "external_mb": 2.942,
+            "free_gb": 0.8,
+            "total_gb": 7.757
+          },
+          "truth_policy": {
+            "real_only": true,
+            "vr_mirror_is_software_runtime": true,
+            "physical_openxr_not_claimed": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 8.431,
+        "json": {
+          "node_id": 13,
+          "node_name": "TRILLIONX_VR_NODE_13",
+          "port": 3023,
+          "status": "VR_MIRROR_ACTIVE",
+          "vr_mirror": {
+            "node_id": 13,
+            "mirrors": 197500,
+            "ms": 0.495,
+            "mirror_ops_s": 399273827.045,
+            "checksum": 1435536124
+          },
+          "memory": {
+            "rss_mb": 60.227,
+            "heap_mb": 5.976,
+            "external_mb": 3.942,
+            "free_gb": 0.795,
+            "total_gb": 7.757
+          },
+          "truth_policy": {
+            "real_only": true,
+            "vr_mirror_is_software_runtime": true,
+            "physical_openxr_not_claimed": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 5.547,
+        "json": {
+          "node_id": 14,
+          "node_name": "TRILLIONX_VR_NODE_14",
+          "port": 3024,
+          "status": "VR_MIRROR_ACTIVE",
+          "vr_mirror": {
+            "node_id": 14,
+            "mirrors": 205000,
+            "ms": 0.63,
+            "mirror_ops_s": 325596834.881,
+            "checksum": 4150332032
+          },
+          "memory": {
+            "rss_mb": 61.336,
+            "heap_mb": 5.575,
+            "external_mb": 4.942,
+            "free_gb": 0.788,
+            "total_gb": 7.757
+          },
+          "truth_policy": {
+            "real_only": true,
+            "vr_mirror_is_software_runtime": true,
+            "physical_openxr_not_claimed": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 11.036,
+        "json": {
+          "node_id": 15,
+          "node_name": "TRILLIONX_VR_NODE_15",
+          "port": 3025,
+          "status": "VR_MIRROR_ACTIVE",
+          "vr_mirror": {
+            "node_id": 15,
+            "mirrors": 212500,
+            "ms": 0.392,
+            "mirror_ops_s": 541524065.33,
+            "checksum": 569807112
+          },
+          "memory": {
+            "rss_mb": 61.953,
+            "heap_mb": 5.717,
+            "external_mb": 5.942,
+            "free_gb": 0.774,
+            "total_gb": 7.757
+          },
+          "truth_policy": {
+            "real_only": true,
+            "vr_mirror_is_software_runtime": true,
+            "physical_openxr_not_claimed": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 4.61,
+        "json": {
+          "node_id": 16,
+          "node_name": "TRILLIONX_VR_NODE_16",
+          "port": 3026,
+          "status": "VR_MIRROR_ACTIVE",
+          "vr_mirror": {
+            "node_id": 16,
+            "mirrors": 220000,
+            "ms": 0.466,
+            "mirror_ops_s": 472136438.846,
+            "checksum": 2681807168
+          },
+          "memory": {
+            "rss_mb": 59.133,
+            "heap_mb": 5.715,
+            "external_mb": 2.942,
+            "free_gb": 1.092,
+            "total_gb": 7.757
+          },
+          "truth_policy": {
+            "real_only": true,
+            "vr_mirror_is_software_runtime": true,
+            "physical_openxr_not_claimed": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 5.495,
+        "json": {
+          "node_id": 17,
+          "node_name": "TRILLIONX_VR_NODE_17",
+          "port": 3027,
+          "status": "VR_MIRROR_ACTIVE",
+          "vr_mirror": {
+            "node_id": 17,
+            "mirrors": 227500,
+            "ms": 0.492,
+            "mirror_ops_s": 462187007.974,
+            "checksum": 1643991164
+          },
+          "memory": {
+            "rss_mb": 58.398,
+            "heap_mb": 5.26,
+            "external_mb": 1.942,
+            "free_gb": 1.089,
+            "total_gb": 7.757
+          },
+          "truth_policy": {
+            "real_only": true,
+            "vr_mirror_is_software_runtime": true,
+            "physical_openxr_not_claimed": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 9.825,
+        "json": {
+          "node_id": 18,
+          "node_name": "TRILLIONX_VR_NODE_18",
+          "port": 3028,
+          "status": "VR_MIRROR_ACTIVE",
+          "vr_mirror": {
+            "node_id": 18,
+            "mirrors": 235000,
+            "ms": 0.52,
+            "mirror_ops_s": 451694623.68,
+            "checksum": 4248883440
+          },
+          "memory": {
+            "rss_mb": 60.988,
+            "heap_mb": 5.312,
+            "external_mb": 4.942,
+            "free_gb": 1.073,
+            "total_gb": 7.757
+          },
+          "truth_policy": {
+            "real_only": true,
+            "vr_mirror_is_software_runtime": true,
+            "physical_openxr_not_claimed": true
+          }
+        }
+      },
+      {
+        "ok": true,
+        "status": 200,
+        "ms": 2.341,
+        "json": {
+          "node_id": 19,
+          "node_name": "TRILLIONX_VR_NODE_19",
+          "port": 3029,
+          "status": "VR_MIRROR_ACTIVE",
+          "vr_mirror": {
+            "node_id": 19,
+            "mirrors": 242500,
+            "ms": 0.519,
+            "mirror_ops_s": 467450055.13,
+            "checksum": 3619217144
+          },
+          "memory": {
+            "rss_mb": 62.398,
+            "heap_mb": 5.413,
+            "external_mb": 5.942,
+            "free_gb": 1.065,
+            "total_gb": 7.757
+          },
+          "truth_policy": {
+            "real_only": true,
+            "vr_mirror_is_software_runtime": true,
+            "physical_openxr_not_claimed": true
+          }
+        }
+      }
+    ]
+  },
+  "truth_policy": {
+    "real_only": true,
+    "twenty_nodes_are_local_runtime_processes": true,
+    "not_twenty_physical_machines": true,
+    "vr_mirror_is_software_runtime": true,
+    "physical_openxr_not_claimed": true,
+    "codespaces_is_support_only": true
+  }
+}

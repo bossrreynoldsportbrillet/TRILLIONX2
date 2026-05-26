@@ -1,0 +1,9 @@
+{
+  "engine": "TRILLIONX_UI_TIMEOUT_SOURCE_DEEP_PATCH",
+  "time": "2026-05-24T23:46:25Z",
+  "timeout_replacements": 18,
+  "deep_renderer_present": true,
+  "target": "UI buttons / OUTPUT / terminal source",
+  "policy": "no backend logic change; UI timeout/render only",
+  "seal": "f85ca28590615afd4314a012732dd885f5302f79789951cb48d45072fba7e626"
+}

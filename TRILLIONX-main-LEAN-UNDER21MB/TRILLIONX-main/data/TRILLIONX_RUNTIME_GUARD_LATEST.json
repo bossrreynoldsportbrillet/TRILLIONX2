@@ -1,0 +1,32 @@
+{
+  "engine": "TRILLIONX_RUNTIME_GUARD",
+  "policy": {
+    "real_only": true,
+    "safe_repair_only": true,
+    "no_fake_metrics": true
+  },
+  "pressure": {
+    "level": "CRITICAL",
+    "load_per_cpu": 2.985,
+    "mem_ratio": 0.011,
+    "snapshot": {
+      "time": "2026-05-24T21:10:33.824Z",
+      "cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+      "logical_cpu": 2,
+      "ghz": 3.485,
+      "load": [
+        5.97,
+        3.23,
+        2.13
+      ],
+      "ram_total_gb": 7.757,
+      "ram_free_gb": 1.44,
+      "rss_mb": 43.875,
+      "heap_mb": 4.239,
+      "max_workers": 2,
+      "max_port_processes": 24,
+      "memory_limit_mb": 4096
+    }
+  },
+  "seal": "ecd2e9dc204ae2f8cca96b8f193a267e2115140eb20e228138dd18e675993573"
+}

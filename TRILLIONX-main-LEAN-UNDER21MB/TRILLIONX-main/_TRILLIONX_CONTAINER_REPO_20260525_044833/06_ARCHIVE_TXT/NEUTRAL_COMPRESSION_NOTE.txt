@@ -1,0 +1,4 @@
+TRILLIONX neutral compression package.
+Heavy/generated files replaced by neutral note to stay below 21 MB.
+Excluded: node_modules, .git, backups, logs, runtime_state, large data vector memories, nested zips/tar.gz, raid60 generated payloads.
+Run npm install after extraction if package.json is present.

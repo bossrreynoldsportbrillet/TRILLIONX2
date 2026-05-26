@@ -1,0 +1,152 @@
+[
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/99_MANIFEST/CLASSIFICATION_DETAIL.txt",
+    "size": 23047060,
+    "sha256": "f526e7fd3aba14087294b6c65efcf025160da58569f834cab69234459357ea08"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/99_MANIFEST/UNTRACKED_ALL.txt",
+    "size": 121811,
+    "sha256": "9e93e230f52dc871b40d927b75cbd76acbc56ae67e13717a5fff53d5197c3818"
+  },
+  {
+    "file": "./data/trillionx_repo_master_index_latest.json",
+    "size": 19322,
+    "sha256": "fd0eb4e30d0297caac9bf439b239980516473d70f83209a3f2cf2ac161c6fd2c"
+  },
+  {
+    "file": "./data/trillionx_activation_registry_latest.json",
+    "size": 13443,
+    "sha256": "37378cf6cafb8ffe96d56875a230e72cb950f602b9580986e6f624d44351cb42"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/99_MANIFEST/GIT_STATUS_BEFORE.txt",
+    "size": 7624,
+    "sha256": "f5bc8e0e348eb3460420b8d6ad278a54d0933674ad0696deae10ef402d61535d"
+  },
+  {
+    "file": "./async_registry/TRILLIONX_GLOBAL_ASYNC_REGISTRY_V2.json",
+    "size": 3651,
+    "sha256": "a9e23d54fbdfdbe7e8360f741d8be002fc93f29ffef5b5e085ad8980d71ec0e5"
+  },
+  {
+    "file": "./TRILLIONX_ACTIVATION_REGISTRY.js",
+    "size": 3619,
+    "sha256": "ef580635bafdd414b831000dbb089fd001ea85f482f0d8a35c33116c7ca237a6"
+  },
+  {
+    "file": "./data/result_ledger.jsonl",
+    "size": 3498,
+    "sha256": "bbb025637404e7f9fba7ec07c272da5beb044ac0380fce3591a9109f44d5500f"
+  },
+  {
+    "file": "./TRILLIONX_BACKEND_CAPABILITY_REGISTRY.js",
+    "size": 3421,
+    "sha256": "94da89549d2c594afe85a059d535d246e6d4989501316b3d0a8c680235ffe038"
+  },
+  {
+    "file": "./TRILLIONX_REPO_MASTER_INDEX.js",
+    "size": 3097,
+    "sha256": "64572e68abc901302e95e5c08537706a5d7cd3da0debeb4199bef9a3a34408a8"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/08_UNKNOWN/TRILLIONX_REPO_MASTER_INDEX.js",
+    "size": 3097,
+    "sha256": "64572e68abc901302e95e5c08537706a5d7cd3da0debeb4199bef9a3a34408a8"
+  },
+  {
+    "file": "./plugins/plugin.registry.js",
+    "size": 2612,
+    "sha256": "1bb177fbca910d94ca78a9ec7d76801b4c554574c634c007984a2c0badae3d19"
+  },
+  {
+    "file": "./async_registry/TRILLIONX_ASYNC_JOB_REGISTRY.json",
+    "size": 2145,
+    "sha256": "1880acf97f460ce4e86aeb1fe77e45973d805f1cb4672a109ecf8b4a00414409"
+  },
+  {
+    "file": "./data/_archive_light/trillionx_backend_capability_registry_1779617684345.json",
+    "size": 1639,
+    "sha256": "afd7d4dfd6c453fc14ff5b920d0331c99db6cb3a6c6c4e60ff8e436fd0521b37"
+  },
+  {
+    "file": "./data/trillionx_backend_capability_registry_latest.json",
+    "size": 1639,
+    "sha256": "afd7d4dfd6c453fc14ff5b920d0331c99db6cb3a6c6c4e60ff8e436fd0521b37"
+  },
+  {
+    "file": "./TRILLIONX_GIT_CLEAN_STATE_SAFE.sh",
+    "size": 1622,
+    "sha256": "c364e41b402eac090d1fc9de88743dc3a60e44e0c5ad93aad02b91b85330c820"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/07_SCRIPTS_SH/TRILLIONX_GIT_CLEAN_STATE_SAFE.sh",
+    "size": 1622,
+    "sha256": "c364e41b402eac090d1fc9de88743dc3a60e44e0c5ad93aad02b91b85330c820"
+  },
+  {
+    "file": "./hardware_fabric/registry/hardware_state.json",
+    "size": 1234,
+    "sha256": "06b621908a4523298ad042d97956c2903d4f80eb5bb06da7a1dcc42d60ac6597"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/06_ARCHIVE_TXT/data/TRILLIONX_DICT_OK_SEAL_LATEST.json",
+    "size": 1126,
+    "sha256": "754ebbe2603ee62b92c97a31d8ddff77986e200b8cd060f00bfdc433bdb920a0"
+  },
+  {
+    "file": "./data/TRILLIONX_DICT_OK_SEAL_LATEST.json",
+    "size": 1126,
+    "sha256": "754ebbe2603ee62b92c97a31d8ddff77986e200b8cd060f00bfdc433bdb920a0"
+  },
+  {
+    "file": "./TRILLIONX_WORLD_EMU_VERDICT.json",
+    "size": 755,
+    "sha256": "02cc7d2c6ae40090bc86eb1028f1e34db4b3cf07117247546887e415619bd2a2"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/06_ARCHIVE_TXT/TRILLIONX_WORLD_EMU_VERDICT.json",
+    "size": 755,
+    "sha256": "02cc7d2c6ae40090bc86eb1028f1e34db4b3cf07117247546887e415619bd2a2"
+  },
+  {
+    "file": "./_TRILLIONX_SAFE_STATE_KEEP/TRILLIONX_REACTIVATE_ALL_SAFE_LATEST.json",
+    "size": 576,
+    "sha256": "7d318728c918240a5bfd00874a69cb9f6f9b9eeba6aec3ae7a89c041d5289611"
+  },
+  {
+    "file": "./scripts/tx_async_catalog.sh",
+    "size": 424,
+    "sha256": "071ffd29d27c270e0c4f355c416f1be92d84cd3e05551188f257acbfbc3ca3ab"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/99_MANIFEST/GIT_LOG_LAST10.txt",
+    "size": 381,
+    "sha256": "88d55f79d3e73204004e8789475ea0037ce9fde986c000c4222dabcf6c1a42e8"
+  },
+  {
+    "file": "./async_derivatives/TRILLIONX_ASYNC_DERIVATIVE_CATALOG.json",
+    "size": 296,
+    "sha256": "1cd090743d5f8f797432e072300fa76abd30f89865f1335fd3663ba7de776c97"
+  },
+  {
+    "file": "./_TRILLIONX_SAFE_STATE_KEEP/STATE.txt",
+    "size": 272,
+    "sha256": "6300b514bf452458de9a05218e8b9cf6dd1baa86a5500b0a1408de501eb83882"
+  },
+  {
+    "file": "./scripts/tx_global_catalog.sh",
+    "size": 137,
+    "sha256": "7ca4c303df072d09837fafe3907fe149821f55b1c76ca3e25a74742c84474f17"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/99_MANIFEST/ROOT.txt",
+    "size": 68,
+    "sha256": "c0741358654a6c431576e83dfdbfb07edf00725b8a5430764dda2e8bb909347f"
+  },
+  {
+    "file": "./_TRILLIONX_CONTAINER_REPO_20260525_044833/99_MANIFEST/BRANCH.txt",
+    "size": 20,
+    "sha256": "8e8deca5307c221497462ce00284c04187afa99a0ffe91af999614be9e8849d3"
+  }
+]

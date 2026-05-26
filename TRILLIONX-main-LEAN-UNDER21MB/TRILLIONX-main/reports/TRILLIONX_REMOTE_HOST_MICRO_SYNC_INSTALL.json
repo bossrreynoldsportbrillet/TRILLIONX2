@@ -1,0 +1,19 @@
+{
+  "engine": "TRILLIONX_REMOTE_HOST_MICRO_SYNC_INSTALL",
+  "time": "2026-05-24T22:06:24.589Z",
+  "status": "READY",
+  "interval_ms": 750,
+  "adds": [
+    "tx_micro_sync_start",
+    "tx_micro_sync_stop",
+    "tx_micro_sync_status"
+  ],
+  "safe": true,
+  "does_not_touch": [
+    "app.js",
+    "data",
+    "raid60_plus",
+    "node_modules"
+  ],
+  "seal": "e1ab088ea1caec47cfeb3fe7f73f0796db7a96a3eefa3f9f12efdd00fab634d9"
+}

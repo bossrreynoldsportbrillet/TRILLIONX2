@@ -1,0 +1,1977 @@
+{
+  "engine": "TRILLIONX_NETWORK_PORTS_TOTAL_AUTODETECT",
+  "ts": "2026-05-24T13:25:43.806Z",
+  "policy": {
+    "target": "TRILLIONX",
+    "host": "CODESPACES_SUPPORT_ONLY",
+    "auto_detect_networks": true,
+    "auto_detect_ports": true,
+    "passive_public_probe_only": true,
+    "no_external_port_scan": true,
+    "real_only": true
+  },
+  "system": {
+    "node": "v24.14.0",
+    "platform": "linux",
+    "arch": "x64",
+    "hostname": "codespaces-09650b",
+    "cpus": 2,
+    "ram_gb": 7.757
+  },
+  "interfaces": [
+    {
+      "name": "lo",
+      "family": "IPv4",
+      "address": "127.0.0.1",
+      "internal": true,
+      "mac": "00:00:00:00:00:00",
+      "cidr": "127.0.0.1/8"
+    },
+    {
+      "name": "lo",
+      "family": "IPv6",
+      "address": "::1",
+      "internal": true,
+      "mac": "00:00:00:00:00:00",
+      "cidr": "::1/128"
+    },
+    {
+      "name": "eth0",
+      "family": "IPv4",
+      "address": "10.0.2.49",
+      "internal": false,
+      "mac": "7c:ed:8d:6c:19:a4",
+      "cidr": "10.0.2.49/16"
+    },
+    {
+      "name": "eth0",
+      "family": "IPv6",
+      "address": "fe80::7eed:8dff:fe6c:19a4",
+      "internal": false,
+      "mac": "7c:ed:8d:6c:19:a4",
+      "cidr": "fe80::7eed:8dff:fe6c:19a4/64"
+    },
+    {
+      "name": "enP19127s1",
+      "family": "IPv6",
+      "address": "fe80::7eed:8dff:fe6c:19a4",
+      "internal": false,
+      "mac": "7c:ed:8d:6c:19:a4",
+      "cidr": "fe80::7eed:8dff:fe6c:19a4/64"
+    }
+  ],
+  "ip_route": "default via 10.0.0.1 dev eth0 proto dhcp src 10.0.2.49 metric 100 \n10.0.0.0/16 dev eth0 proto kernel scope link src 10.0.2.49 metric 100 \n10.0.0.1 dev eth0 proto dhcp scope link src 10.0.2.49 metric 100 \n168.63.129.16 via 10.0.0.1 dev eth0 proto dhcp src 10.0.2.49 metric 100 \n169.254.169.254 via 10.0.0.1 dev eth0 proto dhcp src 10.0.2.49 metric 100 \n172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown",
+  "listening": {
+    "raw": [
+      "Netid State  Recv-Q Send-Q  Local Address:Port  Peer Address:PortProcess                                 ",
+      "udp   UNCONN 0      0       127.0.0.53%lo:53         0.0.0.0:*                                           ",
+      "udp   UNCONN 0      0      10.0.2.49%eth0:68         0.0.0.0:*                                           ",
+      "tcp   LISTEN 0      511         127.0.0.1:36589      0.0.0.0:*    users:((\"node\",pid=543,fd=21))         ",
+      "tcp   LISTEN 0      4096        127.0.0.1:40269      0.0.0.0:*                                           ",
+      "tcp   LISTEN 0      128           0.0.0.0:2000       0.0.0.0:*                                           ",
+      "tcp   LISTEN 0      511         127.0.0.1:3025       0.0.0.0:*    users:((\"MainThread\",pid=173658,fd=22))",
+      "tcp   LISTEN 0      511         127.0.0.1:3024       0.0.0.0:*    users:((\"MainThread\",pid=173657,fd=22))",
+      "tcp   LISTEN 0      511         127.0.0.1:3027       0.0.0.0:*    users:((\"MainThread\",pid=173660,fd=22))",
+      "tcp   LISTEN 0      511         127.0.0.1:3026       0.0.0.0:*    users:((\"MainThread\",pid=173659,fd=22))",
+      "tcp   LISTEN 0      511         127.0.0.1:3029       0.0.0.0:*    users:((\"MainThread\",pid=173662,fd=22))",
+      "tcp   LISTEN 0      511         127.0.0.1:3028       0.0.0.0:*    users:((\"MainThread\",pid=173661,fd=22))",
+      "tcp   LISTEN 0      511         127.0.0.1:3033       0.0.0.0:*    users:((\"MainThread\",pid=99585,fd=22)) ",
+      "tcp   LISTEN 0      511         127.0.0.1:3011       0.0.0.0:*    users:((\"MainThread\",pid=173644,fd=22))",
+      "tcp   LISTEN 0      511         127.0.0.1:3010       0.0.0.0:*    users:((\"MainThread\",pid=173643,fd=22))",
+      "tcp   LISTEN 0      511         127.0.0.1:3013       0.0.0.0:*    users:((\"MainThread\",pid=173646,fd=22))",
+      "tcp   LISTEN 0      511         127.0.0.1:3012       0.0.0.0:*    users:((\"MainThread\",pid=173645,fd=22))",
+      "tcp   LISTEN 0      511         127.0.0.1:3015       0.0.0.0:*    users:((\"MainThread\",pid=173648,fd=22))",
+      "tcp   LISTEN 0      511         127.0.0.1:3014       0.0.0.0:*    users:((\"MainThread\",pid=173647,fd=22))",
+      "tcp   LISTEN 0      511         127.0.0.1:3017       0.0.0.0:*    users:((\"MainThread\",pid=173650,fd=22))",
+      "tcp   LISTEN 0      511         127.0.0.1:3016       0.0.0.0:*    users:((\"MainThread\",pid=173649,fd=22))",
+      "tcp   LISTEN 0      511         127.0.0.1:3019       0.0.0.0:*    users:((\"MainThread\",pid=173652,fd=22))",
+      "tcp   LISTEN 0      511         127.0.0.1:3018       0.0.0.0:*    users:((\"MainThread\",pid=173651,fd=22))",
+      "tcp   LISTEN 0      511         127.0.0.1:3021       0.0.0.0:*    users:((\"MainThread\",pid=173654,fd=22))",
+      "tcp   LISTEN 0      511         127.0.0.1:3020       0.0.0.0:*    users:((\"MainThread\",pid=173653,fd=22))",
+      "tcp   LISTEN 0      511         127.0.0.1:3023       0.0.0.0:*    users:((\"MainThread\",pid=173656,fd=22))",
+      "tcp   LISTEN 0      511         127.0.0.1:3022       0.0.0.0:*    users:((\"MainThread\",pid=173655,fd=22))",
+      "tcp   LISTEN 0      4096    127.0.0.53%lo:53         0.0.0.0:*                                           ",
+      "tcp   LISTEN 0      128           0.0.0.0:2222       0.0.0.0:*                                           ",
+      "tcp   LISTEN 0      4096        127.0.0.1:13005      0.0.0.0:*                                           ",
+      "tcp   LISTEN 0      512         127.0.0.1:16635      0.0.0.0:*                                           ",
+      "tcp   LISTEN 0      512         127.0.0.1:16634      0.0.0.0:*                                           ",
+      "tcp   LISTEN 0      4096        127.0.0.1:12563      0.0.0.0:*                                           ",
+      "tcp   LISTEN 0      128              [::]:2000          [::]:*                                           ",
+      "tcp   LISTEN 0      511                 *:3000             *:*    users:((\"MainThread\",pid=27849,fd=24)) ",
+      "tcp   LISTEN 0      512             [::1]:16635         [::]:*                                           ",
+      "tcp   LISTEN 0      512             [::1]:16634         [::]:*                                           ",
+      "tcp   LISTEN 0      128              [::]:2222          [::]:*"
+    ],
+    "ports": [
+      {
+        "port": 53,
+        "line": "tcp   LISTEN 0      4096    127.0.0.53%lo:53         0.0.0.0:*                                           "
+      },
+      {
+        "port": 68,
+        "line": "udp   UNCONN 0      0      10.0.2.49%eth0:68         0.0.0.0:*                                           "
+      },
+      {
+        "port": 2000,
+        "line": "tcp   LISTEN 0      128              [::]:2000          [::]:*                                           "
+      },
+      {
+        "port": 2222,
+        "line": "tcp   LISTEN 0      128              [::]:2222          [::]:*"
+      },
+      {
+        "port": 3000,
+        "line": "tcp   LISTEN 0      511                 *:3000             *:*    users:((\"MainThread\",pid=27849,fd=24)) "
+      },
+      {
+        "port": 3010,
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3010       0.0.0.0:*    users:((\"MainThread\",pid=173643,fd=22))"
+      },
+      {
+        "port": 3011,
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3011       0.0.0.0:*    users:((\"MainThread\",pid=173644,fd=22))"
+      },
+      {
+        "port": 3012,
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3012       0.0.0.0:*    users:((\"MainThread\",pid=173645,fd=22))"
+      },
+      {
+        "port": 3013,
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3013       0.0.0.0:*    users:((\"MainThread\",pid=173646,fd=22))"
+      },
+      {
+        "port": 3014,
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3014       0.0.0.0:*    users:((\"MainThread\",pid=173647,fd=22))"
+      },
+      {
+        "port": 3015,
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3015       0.0.0.0:*    users:((\"MainThread\",pid=173648,fd=22))"
+      },
+      {
+        "port": 3016,
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3016       0.0.0.0:*    users:((\"MainThread\",pid=173649,fd=22))"
+      },
+      {
+        "port": 3017,
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3017       0.0.0.0:*    users:((\"MainThread\",pid=173650,fd=22))"
+      },
+      {
+        "port": 3018,
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3018       0.0.0.0:*    users:((\"MainThread\",pid=173651,fd=22))"
+      },
+      {
+        "port": 3019,
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3019       0.0.0.0:*    users:((\"MainThread\",pid=173652,fd=22))"
+      },
+      {
+        "port": 3020,
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3020       0.0.0.0:*    users:((\"MainThread\",pid=173653,fd=22))"
+      },
+      {
+        "port": 3021,
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3021       0.0.0.0:*    users:((\"MainThread\",pid=173654,fd=22))"
+      },
+      {
+        "port": 3022,
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3022       0.0.0.0:*    users:((\"MainThread\",pid=173655,fd=22))"
+      },
+      {
+        "port": 3023,
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3023       0.0.0.0:*    users:((\"MainThread\",pid=173656,fd=22))"
+      },
+      {
+        "port": 3024,
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3024       0.0.0.0:*    users:((\"MainThread\",pid=173657,fd=22))"
+      },
+      {
+        "port": 3025,
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3025       0.0.0.0:*    users:((\"MainThread\",pid=173658,fd=22))"
+      },
+      {
+        "port": 3026,
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3026       0.0.0.0:*    users:((\"MainThread\",pid=173659,fd=22))"
+      },
+      {
+        "port": 3027,
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3027       0.0.0.0:*    users:((\"MainThread\",pid=173660,fd=22))"
+      },
+      {
+        "port": 3028,
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3028       0.0.0.0:*    users:((\"MainThread\",pid=173661,fd=22))"
+      },
+      {
+        "port": 3029,
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3029       0.0.0.0:*    users:((\"MainThread\",pid=173662,fd=22))"
+      },
+      {
+        "port": 3033,
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3033       0.0.0.0:*    users:((\"MainThread\",pid=99585,fd=22)) "
+      },
+      {
+        "port": 12563,
+        "line": "tcp   LISTEN 0      4096        127.0.0.1:12563      0.0.0.0:*                                           "
+      },
+      {
+        "port": 13005,
+        "line": "tcp   LISTEN 0      4096        127.0.0.1:13005      0.0.0.0:*                                           "
+      },
+      {
+        "port": 16634,
+        "line": "tcp   LISTEN 0      512             [::1]:16634         [::]:*                                           "
+      },
+      {
+        "port": 16635,
+        "line": "tcp   LISTEN 0      512             [::1]:16635         [::]:*                                           "
+      },
+      {
+        "port": 36589,
+        "line": "tcp   LISTEN 0      511         127.0.0.1:36589      0.0.0.0:*    users:((\"node\",pid=543,fd=21))         "
+      },
+      {
+        "port": 40269,
+        "line": "tcp   LISTEN 0      4096        127.0.0.1:40269      0.0.0.0:*                                           "
+      }
+    ]
+  },
+  "repo": {
+    "files": 1225,
+    "routes": 57575,
+    "api_strings": 218887,
+    "declared_ports": [
+      {
+        "file": "./TRILLIONX_10_NODE_MESH.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./TRILLIONX_20_NODE_VR_MESH.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./TRILLIONX_SHARED_VR_CACHE_BUS.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./raid60_plus/raid60_1779626212372/stripe_3/mirror_0/TRILLIONX_10_NODE_MESH.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./raid60_plus/raid60_1779626212372/stripe_3/mirror_1/TRILLIONX_10_NODE_MESH.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./raid60_plus/raid60_1779626212372/stripe_5/mirror_0/TRILLIONX_20_NODE_VR_MESH.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./raid60_plus/raid60_1779626212372/stripe_5/mirror_1/TRILLIONX_20_NODE_VR_MESH.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./raid60_plus/raid60_1779627539478/stripe_3/mirror_0/TRILLIONX_10_NODE_MESH.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./raid60_plus/raid60_1779627539478/stripe_3/mirror_0/TRILLIONX_SHARED_VR_CACHE_BUS.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./raid60_plus/raid60_1779627539478/stripe_3/mirror_1/TRILLIONX_10_NODE_MESH.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./raid60_plus/raid60_1779627539478/stripe_3/mirror_1/TRILLIONX_SHARED_VR_CACHE_BUS.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./raid60_plus/raid60_1779627539478/stripe_5/mirror_0/TRILLIONX_20_NODE_VR_MESH.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./raid60_plus/raid60_1779627539478/stripe_5/mirror_1/TRILLIONX_20_NODE_VR_MESH.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./raid60_plus/raid60_1779628050983/stripe_3/mirror_0/TRILLIONX_10_NODE_MESH.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./raid60_plus/raid60_1779628050983/stripe_3/mirror_1/TRILLIONX_10_NODE_MESH.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./raid60_plus/raid60_1779628050983/stripe_5/mirror_0/TRILLIONX_20_NODE_VR_MESH.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./raid60_plus/raid60_1779628050983/stripe_5/mirror_0/TRILLIONX_SHARED_VR_CACHE_BUS.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./raid60_plus/raid60_1779628050983/stripe_5/mirror_1/TRILLIONX_20_NODE_VR_MESH.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./raid60_plus/raid60_1779628050983/stripe_5/mirror_1/TRILLIONX_SHARED_VR_CACHE_BUS.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./raid60_plus/raid60_1779628671996/stripe_0/mirror_0/TRILLIONX_SHARED_VR_CACHE_BUS.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./raid60_plus/raid60_1779628671996/stripe_0/mirror_1/TRILLIONX_SHARED_VR_CACHE_BUS.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./raid60_plus/raid60_1779628671996/stripe_3/mirror_0/TRILLIONX_10_NODE_MESH.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./raid60_plus/raid60_1779628671996/stripe_3/mirror_1/TRILLIONX_10_NODE_MESH.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./raid60_plus/raid60_1779628671996/stripe_5/mirror_0/TRILLIONX_20_NODE_VR_MESH.js",
+        "match": "PORT=3010",
+        "port": 3010
+      },
+      {
+        "file": "./raid60_plus/raid60_1779628671996/stripe_5/mirror_1/TRILLIONX_20_NODE_VR_MESH.js",
+        "match": "PORT=3010",
+        "port": 3010
+      }
+    ],
+    "top_api_roots": [
+      {
+        "key": "/api/kyoto",
+        "count": 29068
+      },
+      {
+        "key": "/api/trillions",
+        "count": 8932
+      },
+      {
+        "key": "/api/processor-calc",
+        "count": 8470
+      },
+      {
+        "key": "/api/stratum-sha256",
+        "count": 6693
+      },
+      {
+        "key": "/api/benchmark",
+        "count": 6681
+      },
+      {
+        "key": "/api/cache-memory",
+        "count": 6459
+      },
+      {
+        "key": "/api/memory-terms",
+        "count": 6036
+      },
+      {
+        "key": "/api/codec-cpu",
+        "count": 5400
+      },
+      {
+        "key": "/api/hpc-simd",
+        "count": 4279
+      },
+      {
+        "key": "/api/latency-min",
+        "count": 4208
+      },
+      {
+        "key": "/api/die-3dnand",
+        "count": 4160
+      },
+      {
+        "key": "/api/frontier-kernel",
+        "count": 3927
+      },
+      {
+        "key": "/api/hash-field",
+        "count": 3742
+      },
+      {
+        "key": "/api/fabric",
+        "count": 3682
+      },
+      {
+        "key": "/api/sha-field",
+        "count": 3538
+      },
+      {
+        "key": "/api/ping",
+        "count": 3402
+      },
+      {
+        "key": "/api/qn-coprocessor",
+        "count": 2964
+      },
+      {
+        "key": "/api/jobs",
+        "count": 2894
+      },
+      {
+        "key": "/api/health",
+        "count": 2855
+      },
+      {
+        "key": "/api/memory-l56",
+        "count": 2792
+      },
+      {
+        "key": "/api/v37",
+        "count": 2757
+      },
+      {
+        "key": "/api/hpc-zeta",
+        "count": 2690
+      },
+      {
+        "key": "/api/kernel-score",
+        "count": 2253
+      },
+      {
+        "key": "/api/full",
+        "count": 2186
+      },
+      {
+        "key": "/api/positive-runtime",
+        "count": 2049
+      },
+      {
+        "key": "/api/network",
+        "count": 2032
+      },
+      {
+        "key": "/api/world-hpc",
+        "count": 2032
+      },
+      {
+        "key": "/api/mobile-health",
+        "count": 2011
+      },
+      {
+        "key": "/api/snapshot-lite",
+        "count": 2008
+      },
+      {
+        "key": "/api/runtime",
+        "count": 1972
+      },
+      {
+        "key": "/api/ai-chat",
+        "count": 1961
+      },
+      {
+        "key": "/api/ultimate-hpc",
+        "count": 1910
+      },
+      {
+        "key": "/api/dict",
+        "count": 1902
+      },
+      {
+        "key": "/api/system",
+        "count": 1884
+      },
+      {
+        "key": "/api/hybrid-hpc",
+        "count": 1868
+      },
+      {
+        "key": "/api/reconnect",
+        "count": 1788
+      },
+      {
+        "key": "/api/orchestrator-intelligent",
+        "count": 1783
+      },
+      {
+        "key": "/api/cockpit",
+        "count": 1608
+      },
+      {
+        "key": "/api/memory",
+        "count": 1565
+      },
+      {
+        "key": "/api/native",
+        "count": 1544
+      }
+    ],
+    "sample_routes": [
+      {
+        "method": "GET",
+        "route": "/",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/full",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ping",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/heartbeat",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/clients",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/hardware/9000vw",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/runtime/status",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/reconnect",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ai-chat",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/ai-chat",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ai-chat/history",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ai-chat/providers",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ai-chat/trace",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/power",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/experimental",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/exponential",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/cockpit",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/capacity",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/dict",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/dict/classify",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/modules",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/legacy",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ai-kernel",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/ai-kernel/plan",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ai-kernel/plan",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/solver/strategic",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/solver/strategic",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/jobs/create",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/jobs/start",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/jobs",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/repair",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/repair/report",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/repair/risk",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/routes/test",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/self/audit",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/batch",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/system",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/network",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/repo",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/blockchain",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/workload",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/launch",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/iot",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/protocols",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/security",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/supercompute",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/tech",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ai",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/shell",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/imperial",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/orchestrator",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/space",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/space/catalog",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/space/iss",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/space/iss/position",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/max-tech",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/max-tech/scan",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/max-tech/no-flicage",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/network-situation",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/timing",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/timing/terminal",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/terminal-v11",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/terminal-v11/catalog",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/terminal-v11/run",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/polyglot/catalog",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/processor",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/performance-profile",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/support-accelerator",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/max-expansion",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/how-far-can-it-go",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ultimate-api-catalog",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ultimate-api-catalog/routes",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ultimate-api-catalog/families",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ultimate-api-catalog/audit",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ultimate-api-catalog/dependencies",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/v11-plus",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/runtime/dictionaries",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/memory/pressure",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/energy/value",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/providers/smart",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/correlation/super",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/reasoning/multilayer",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/jobs/priority",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "POST",
+        "route": "/api/jobs/create-priority",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/latency/guard",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/orchestration-direction",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/orchestration-258/search-parameters",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/orchestration-258/activation-script",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/orchestration-258/reports",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/benchmark/flops-libre",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/benchmark/flops-libre/dict",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/benchmark/flops-libre/report",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/benchmark/instant-score",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/benchmark/power-catalog",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/benchmark/wasm-simd/probe",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/benchmark/shared-array-buffer/probe",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/benchmark/gpu/probe",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/benchmark/native-addon/probe",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/benchmark/flops-libre/warmup",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/benchmark/flops-libre/vectorized",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/benchmark/flops-libre/workers",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/benchmark/flops-libre/boost",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/benchmark/flops-libre/boost-report",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/benchmark/flops-libre/power-history",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/orchestrator-intelligent/catalog",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/orchestrator-intelligent/health",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/orchestrator-intelligent/score",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/orchestrator-intelligent/stress",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/orchestrator-intelligent/history",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/orchestrator-intelligent/script",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/hpc-zeta/catalog",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/hpc-zeta/probe",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/hpc-zeta/health",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/hpc-zeta/stress",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/hpc-zeta/gpu-probe",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/hpc-zeta/cpu-vector-probe",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/hpc-zeta/memory-pool-probe",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/hpc-zeta/thermal",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/hpc-zeta/worker-pool-probe",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      },
+      {
+        "method": "GET",
+        "route": "/api/kyoto/v8/full",
+        "file": "./TRILLIONS-HYBRID-EVO-FUSED-RUNTIME/app.js"
+      }
+    ]
+  },
+  "detected_ports": [
+    53,
+    68,
+    2000,
+    2222,
+    3000,
+    3010,
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016,
+    3017,
+    3018,
+    3019,
+    3020,
+    3021,
+    3022,
+    3023,
+    3024,
+    3025,
+    3026,
+    3027,
+    3028,
+    3029,
+    3033,
+    5000,
+    5173,
+    8000,
+    8080,
+    12563,
+    13005,
+    16634,
+    16635,
+    36589,
+    40269
+  ],
+  "local_port_probes": [
+    {
+      "url": "http://127.0.0.1:53/",
+      "ok": false,
+      "status": 0,
+      "ms": 8.191,
+      "error": "ECONNREFUSED"
+    },
+    {
+      "url": "http://127.0.0.1:53/api/ping",
+      "ok": false,
+      "status": 0,
+      "ms": 1.169,
+      "error": "ECONNREFUSED"
+    },
+    {
+      "url": "http://127.0.0.1:53/api/health",
+      "ok": false,
+      "status": 0,
+      "ms": 0.643,
+      "error": "ECONNREFUSED"
+    },
+    {
+      "url": "http://127.0.0.1:53/api/mobile-health",
+      "ok": false,
+      "status": 0,
+      "ms": 0.557,
+      "error": "ECONNREFUSED"
+    },
+    {
+      "url": "http://127.0.0.1:53/api/snapshot-lite",
+      "ok": false,
+      "status": 0,
+      "ms": 0.647,
+      "error": "ECONNREFUSED"
+    },
+    {
+      "url": "http://127.0.0.1:68/",
+      "ok": false,
+      "status": 0,
+      "ms": 0.534,
+      "error": "ECONNREFUSED"
+    },
+    {
+      "url": "http://127.0.0.1:68/api/ping",
+      "ok": false,
+      "status": 0,
+      "ms": 0.483,
+      "error": "ECONNREFUSED"
+    },
+    {
+      "url": "http://127.0.0.1:68/api/health",
+      "ok": false,
+      "status": 0,
+      "ms": 0.776,
+      "error": "ECONNREFUSED"
+    },
+    {
+      "url": "http://127.0.0.1:68/api/mobile-health",
+      "ok": false,
+      "status": 0,
+      "ms": 1.357,
+      "error": "ECONNREFUSED"
+    },
+    {
+      "url": "http://127.0.0.1:68/api/snapshot-lite",
+      "ok": false,
+      "status": 0,
+      "ms": 0.735,
+      "error": "ECONNREFUSED"
+    },
+    {
+      "url": "http://127.0.0.1:2000/",
+      "ok": false,
+      "status": 0,
+      "ms": 20.223,
+      "error": "HPE_INVALID_CONSTANT"
+    },
+    {
+      "url": "http://127.0.0.1:2000/api/ping",
+      "ok": false,
+      "status": 0,
+      "ms": 8.087,
+      "error": "HPE_INVALID_CONSTANT"
+    },
+    {
+      "url": "http://127.0.0.1:2000/api/health",
+      "ok": false,
+      "status": 0,
+      "ms": 7.644,
+      "error": "HPE_INVALID_CONSTANT"
+    },
+    {
+      "url": "http://127.0.0.1:2000/api/mobile-health",
+      "ok": false,
+      "status": 0,
+      "ms": 7.526,
+      "error": "HPE_INVALID_CONSTANT"
+    },
+    {
+      "url": "http://127.0.0.1:2000/api/snapshot-lite",
+      "ok": false,
+      "status": 0,
+      "ms": 7.522,
+      "error": "HPE_INVALID_CONSTANT"
+    },
+    {
+      "url": "http://127.0.0.1:2222/",
+      "ok": false,
+      "status": 0,
+      "ms": 61.068,
+      "error": "HPE_INVALID_CONSTANT"
+    },
+    {
+      "url": "http://127.0.0.1:2222/api/ping",
+      "ok": false,
+      "status": 0,
+      "ms": 7.606,
+      "error": "HPE_INVALID_CONSTANT"
+    },
+    {
+      "url": "http://127.0.0.1:2222/api/health",
+      "ok": false,
+      "status": 0,
+      "ms": 7.006,
+      "error": "HPE_INVALID_CONSTANT"
+    },
+    {
+      "url": "http://127.0.0.1:2222/api/mobile-health",
+      "ok": false,
+      "status": 0,
+      "ms": 6.881,
+      "error": "HPE_INVALID_CONSTANT"
+    },
+    {
+      "url": "http://127.0.0.1:2222/api/snapshot-lite",
+      "ok": false,
+      "status": 0,
+      "ms": 7.247,
+      "error": "HPE_INVALID_CONSTANT"
+    },
+    {
+      "url": "http://127.0.0.1:3000/",
+      "ok": true,
+      "status": 200,
+      "ms": 4.371,
+      "bytes": 7654
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/ping",
+      "ok": true,
+      "status": 200,
+      "ms": 0.663,
+      "bytes": 168
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/health",
+      "ok": true,
+      "status": 200,
+      "ms": 1.146,
+      "bytes": 364
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/mobile-health",
+      "ok": true,
+      "status": 200,
+      "ms": 490.885,
+      "bytes": 272
+    },
+    {
+      "url": "http://127.0.0.1:3000/api/snapshot-lite",
+      "ok": true,
+      "status": 200,
+      "ms": 40.932,
+      "bytes": 593
+    },
+    {
+      "url": "http://127.0.0.1:3010/",
+      "ok": true,
+      "status": 200,
+      "ms": 1.314,
+      "bytes": 38
+    },
+    {
+      "url": "http://127.0.0.1:3010/api/ping",
+      "ok": true,
+      "status": 404,
+      "ms": 0.47,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3010/api/health",
+      "ok": true,
+      "status": 200,
+      "ms": 6.149,
+      "bytes": 845
+    },
+    {
+      "url": "http://127.0.0.1:3010/api/mobile-health",
+      "ok": true,
+      "status": 404,
+      "ms": 3.87,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3010/api/snapshot-lite",
+      "ok": true,
+      "status": 404,
+      "ms": 0.829,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3011/",
+      "ok": true,
+      "status": 200,
+      "ms": 1.066,
+      "bytes": 38
+    },
+    {
+      "url": "http://127.0.0.1:3011/api/ping",
+      "ok": true,
+      "status": 404,
+      "ms": 0.382,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3011/api/health",
+      "ok": true,
+      "status": 200,
+      "ms": 5.899,
+      "bytes": 840
+    },
+    {
+      "url": "http://127.0.0.1:3011/api/mobile-health",
+      "ok": true,
+      "status": 404,
+      "ms": 0.38,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3011/api/snapshot-lite",
+      "ok": true,
+      "status": 404,
+      "ms": 0.315,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3012/",
+      "ok": true,
+      "status": 200,
+      "ms": 0.992,
+      "bytes": 38
+    },
+    {
+      "url": "http://127.0.0.1:3012/api/ping",
+      "ok": true,
+      "status": 404,
+      "ms": 0.39,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3012/api/health",
+      "ok": true,
+      "status": 200,
+      "ms": 7.66,
+      "bytes": 842
+    },
+    {
+      "url": "http://127.0.0.1:3012/api/mobile-health",
+      "ok": true,
+      "status": 404,
+      "ms": 0.35,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3012/api/snapshot-lite",
+      "ok": true,
+      "status": 404,
+      "ms": 0.374,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3013/",
+      "ok": true,
+      "status": 200,
+      "ms": 1.111,
+      "bytes": 38
+    },
+    {
+      "url": "http://127.0.0.1:3013/api/ping",
+      "ok": true,
+      "status": 404,
+      "ms": 0.389,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3013/api/health",
+      "ok": true,
+      "status": 200,
+      "ms": 10.553,
+      "bytes": 843
+    },
+    {
+      "url": "http://127.0.0.1:3013/api/mobile-health",
+      "ok": true,
+      "status": 404,
+      "ms": 0.356,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3013/api/snapshot-lite",
+      "ok": true,
+      "status": 404,
+      "ms": 0.33,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3014/",
+      "ok": true,
+      "status": 200,
+      "ms": 1.019,
+      "bytes": 38
+    },
+    {
+      "url": "http://127.0.0.1:3014/api/ping",
+      "ok": true,
+      "status": 404,
+      "ms": 0.722,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3014/api/health",
+      "ok": true,
+      "status": 200,
+      "ms": 5.929,
+      "bytes": 843
+    },
+    {
+      "url": "http://127.0.0.1:3014/api/mobile-health",
+      "ok": true,
+      "status": 404,
+      "ms": 0.362,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3014/api/snapshot-lite",
+      "ok": true,
+      "status": 404,
+      "ms": 0.357,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3015/",
+      "ok": true,
+      "status": 200,
+      "ms": 0.998,
+      "bytes": 38
+    },
+    {
+      "url": "http://127.0.0.1:3015/api/ping",
+      "ok": true,
+      "status": 404,
+      "ms": 0.369,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3015/api/health",
+      "ok": true,
+      "status": 200,
+      "ms": 8.171,
+      "bytes": 841
+    },
+    {
+      "url": "http://127.0.0.1:3015/api/mobile-health",
+      "ok": true,
+      "status": 404,
+      "ms": 0.392,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3015/api/snapshot-lite",
+      "ok": true,
+      "status": 404,
+      "ms": 0.621,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3016/",
+      "ok": true,
+      "status": 200,
+      "ms": 1.412,
+      "bytes": 38
+    },
+    {
+      "url": "http://127.0.0.1:3016/api/ping",
+      "ok": true,
+      "status": 404,
+      "ms": 0.401,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3016/api/health",
+      "ok": true,
+      "status": 200,
+      "ms": 9.572,
+      "bytes": 843
+    },
+    {
+      "url": "http://127.0.0.1:3016/api/mobile-health",
+      "ok": true,
+      "status": 404,
+      "ms": 0.564,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3016/api/snapshot-lite",
+      "ok": true,
+      "status": 404,
+      "ms": 0.441,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3017/",
+      "ok": true,
+      "status": 200,
+      "ms": 1.209,
+      "bytes": 38
+    },
+    {
+      "url": "http://127.0.0.1:3017/api/ping",
+      "ok": true,
+      "status": 404,
+      "ms": 0.419,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3017/api/health",
+      "ok": true,
+      "status": 200,
+      "ms": 11.725,
+      "bytes": 842
+    },
+    {
+      "url": "http://127.0.0.1:3017/api/mobile-health",
+      "ok": true,
+      "status": 404,
+      "ms": 0.633,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3017/api/snapshot-lite",
+      "ok": true,
+      "status": 404,
+      "ms": 0.404,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3018/",
+      "ok": true,
+      "status": 200,
+      "ms": 1.692,
+      "bytes": 38
+    },
+    {
+      "url": "http://127.0.0.1:3018/api/ping",
+      "ok": true,
+      "status": 404,
+      "ms": 0.572,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3018/api/health",
+      "ok": true,
+      "status": 200,
+      "ms": 7.71,
+      "bytes": 843
+    },
+    {
+      "url": "http://127.0.0.1:3018/api/mobile-health",
+      "ok": true,
+      "status": 404,
+      "ms": 0.333,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3018/api/snapshot-lite",
+      "ok": true,
+      "status": 404,
+      "ms": 0.307,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3019/",
+      "ok": true,
+      "status": 200,
+      "ms": 0.972,
+      "bytes": 38
+    },
+    {
+      "url": "http://127.0.0.1:3019/api/ping",
+      "ok": true,
+      "status": 404,
+      "ms": 0.428,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3019/api/health",
+      "ok": true,
+      "status": 200,
+      "ms": 9.517,
+      "bytes": 844
+    },
+    {
+      "url": "http://127.0.0.1:3019/api/mobile-health",
+      "ok": true,
+      "status": 404,
+      "ms": 0.316,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3019/api/snapshot-lite",
+      "ok": true,
+      "status": 404,
+      "ms": 0.291,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3020/",
+      "ok": true,
+      "status": 200,
+      "ms": 0.96,
+      "bytes": 38
+    },
+    {
+      "url": "http://127.0.0.1:3020/api/ping",
+      "ok": true,
+      "status": 404,
+      "ms": 0.375,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3020/api/health",
+      "ok": true,
+      "status": 200,
+      "ms": 11.216,
+      "bytes": 846
+    },
+    {
+      "url": "http://127.0.0.1:3020/api/mobile-health",
+      "ok": true,
+      "status": 404,
+      "ms": 0.501,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3020/api/snapshot-lite",
+      "ok": true,
+      "status": 404,
+      "ms": 0.34,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3021/",
+      "ok": true,
+      "status": 200,
+      "ms": 1.035,
+      "bytes": 38
+    },
+    {
+      "url": "http://127.0.0.1:3021/api/ping",
+      "ok": true,
+      "status": 404,
+      "ms": 0.47,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3021/api/health",
+      "ok": true,
+      "status": 200,
+      "ms": 14.307,
+      "bytes": 847
+    },
+    {
+      "url": "http://127.0.0.1:3021/api/mobile-health",
+      "ok": true,
+      "status": 404,
+      "ms": 0.398,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3021/api/snapshot-lite",
+      "ok": true,
+      "status": 404,
+      "ms": 0.316,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3022/",
+      "ok": true,
+      "status": 200,
+      "ms": 0.977,
+      "bytes": 38
+    },
+    {
+      "url": "http://127.0.0.1:3022/api/ping",
+      "ok": true,
+      "status": 404,
+      "ms": 0.437,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3022/api/health",
+      "ok": true,
+      "status": 200,
+      "ms": 9.463,
+      "bytes": 846
+    },
+    {
+      "url": "http://127.0.0.1:3022/api/mobile-health",
+      "ok": true,
+      "status": 404,
+      "ms": 0.412,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3022/api/snapshot-lite",
+      "ok": true,
+      "status": 404,
+      "ms": 0.318,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3023/",
+      "ok": true,
+      "status": 200,
+      "ms": 1.066,
+      "bytes": 38
+    },
+    {
+      "url": "http://127.0.0.1:3023/api/ping",
+      "ok": true,
+      "status": 404,
+      "ms": 0.358,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3023/api/health",
+      "ok": true,
+      "status": 200,
+      "ms": 11.128,
+      "bytes": 846
+    },
+    {
+      "url": "http://127.0.0.1:3023/api/mobile-health",
+      "ok": true,
+      "status": 404,
+      "ms": 0.443,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3023/api/snapshot-lite",
+      "ok": true,
+      "status": 404,
+      "ms": 0.304,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3024/",
+      "ok": true,
+      "status": 200,
+      "ms": 0.979,
+      "bytes": 38
+    },
+    {
+      "url": "http://127.0.0.1:3024/api/ping",
+      "ok": true,
+      "status": 404,
+      "ms": 0.456,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3024/api/health",
+      "ok": true,
+      "status": 200,
+      "ms": 13.518,
+      "bytes": 848
+    },
+    {
+      "url": "http://127.0.0.1:3024/api/mobile-health",
+      "ok": true,
+      "status": 404,
+      "ms": 0.538,
+      "bytes": 9
+    },
+    {
+      "url": "http://127.0.0.1:3024/api/snapshot-lite",
+      "ok": true,
+      "status": 404,
+      "ms": 0.315,
+      "bytes": 9
+    }
+  ],
+  "dns": [
+    {
+      "host": "github.com",
+      "ok": true,
+      "ms": 6.822,
+      "address": "20.26.156.215",
+      "family": 4
+    },
+    {
+      "host": "api.github.com",
+      "ok": true,
+      "ms": 2.305,
+      "address": "20.26.156.210",
+      "family": 4
+    },
+    {
+      "host": "mempool.space",
+      "ok": true,
+      "ms": 0.572,
+      "address": "103.165.192.202",
+      "family": 4
+    },
+    {
+      "host": "blockstream.info",
+      "ok": true,
+      "ms": 0.444,
+      "address": "23.155.96.128",
+      "family": 4
+    },
+    {
+      "host": "blockchain.info",
+      "ok": true,
+      "ms": 12.942,
+      "address": "104.16.117.55",
+      "family": 4
+    },
+    {
+      "host": "cloudflare.com",
+      "ok": true,
+      "ms": 0.392,
+      "address": "104.16.132.229",
+      "family": 4
+    },
+    {
+      "host": "google.com",
+      "ok": true,
+      "ms": 0.471,
+      "address": "142.250.151.113",
+      "family": 4
+    },
+    {
+      "host": "npmjs.com",
+      "ok": true,
+      "ms": 0.391,
+      "address": "104.17.134.117",
+      "family": 4
+    }
+  ],
+  "external_public_probes": [
+    {
+      "url": "https://api.github.com",
+      "ok": true,
+      "status": 200,
+      "ms": 38.915,
+      "bytes": 2262
+    },
+    {
+      "url": "https://mempool.space/api/blocks/tip/height",
+      "ok": true,
+      "status": 200,
+      "ms": 569.581,
+      "bytes": 6
+    },
+    {
+      "url": "https://blockstream.info/api/blocks/tip/height",
+      "ok": true,
+      "status": 200,
+      "ms": 477.088,
+      "bytes": 6
+    },
+    {
+      "url": "https://blockchain.info/q/getblockcount",
+      "ok": true,
+      "status": 200,
+      "ms": 56.611,
+      "bytes": 6
+    },
+    {
+      "url": "https://cloudflare.com/cdn-cgi/trace",
+      "ok": true,
+      "status": 200,
+      "ms": 17.111,
+      "bytes": 238
+    }
+  ],
+  "summary": {
+    "ports_detected": 36,
+    "local_ok": "80/100",
+    "dns_ok": "8/8",
+    "external_ok": "5/5",
+    "p50_ms": 0.663,
+    "p95_ms": 40.932,
+    "health": 60,
+    "verdict": "NETWORK_PORT_AUTODETECT_REVIEW"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "engine": "TRILLIONX_INSTANT_RESTART",
+  "time": "2026-05-24T21:28:11.012Z",
+  "status": "RESTART_COMMAND_SENT",
+  "pid": "155020",
+  "cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+  "logical_cpu": 2,
+  "load": [
+    10.38,
+    5.36,
+    3.7
+  ],
+  "ram_free_gb": 1.135,
+  "command": "nohup bash scripts/start_safe.sh",
+  "seal": "e65ecf04d70c60aad5f42155b10a624df64cd208fb747c476f1e32597340c65d"
+}
