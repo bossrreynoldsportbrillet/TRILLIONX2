@@ -1,7 +1,7 @@
 {
   "engine": "TRILLIONX_MEMORY_FABRIC_HBM3E_HAMRAM",
-  "ts": "2026-05-24T16:32:15.381Z",
-  "created": "2026-05-24T15:49:24.055Z",
+  "ts": "2026-06-01T16:30:52.197Z",
+  "created": "2026-06-01T15:11:11.360Z",
   "profile": {
     "hbm3e_profile": "MAX_PROFILE_LOGICAL_HIGH_BANDWIDTH",
     "ham_ram": "HYPER_ADJACENT_MEMORY_RAM",
@@ -30,13 +30,13 @@
     "vr_cache_link": true
   },
   "host_memory": {
-    "rss_mb": 27.191,
-    "heap_mb": 6.522,
-    "external_mb": 1.974,
-    "arraybuf_mb": 0.018,
-    "free_gb": 1.26,
-    "total_gb": 7.757,
-    "load1": 0.47
+    "rss_mb": 15.957,
+    "heap_mb": 7.463,
+    "external_mb": 2.472,
+    "arraybuf_mb": 0.31,
+    "free_gb": 2.606,
+    "total_gb": 7.204,
+    "load1": 2.477
   },
   "stats": {
     "puts": 6,
@@ -46,10 +46,10 @@
     "evictions": 0,
     "spill_writes": 0,
     "spill_reads": 0,
-    "compressed_bytes": 28654,
-    "raw_bytes": 434729,
+    "compressed_bytes": 94092,
+    "raw_bytes": 747041,
     "hit_ratio": 0,
-    "compression_ratio": 15.172
+    "compression_ratio": 7.939
   },
   "levels": {
     "L1_HOT_REGISTER": {
@@ -59,8 +59,8 @@
     },
     "L2_HOT_VECTOR": {
       "items": 1,
-      "bytes": 52845,
-      "mb": 0.05
+      "bytes": 155250,
+      "mb": 0.148
     },
     "L3_WARM_HASH": {
       "items": 0,
@@ -69,13 +69,13 @@
     },
     "L4_WARM_GRAPH": {
       "items": 1,
-      "bytes": 3262,
+      "bytes": 3499,
       "mb": 0.003
     },
     "L5_COLD_JSON": {
       "items": 1,
-      "bytes": 6408,
-      "mb": 0.006
+      "bytes": 6828,
+      "mb": 0.007
     },
     "L6_SPILL_DISK": {
       "items": 0,
@@ -84,8 +84,8 @@
     },
     "L7_RAID60_PLUS_POINTER": {
       "items": 1,
-      "bytes": 18984,
-      "mb": 0.018
+      "bytes": 83765,
+      "mb": 0.08
     },
     "L8_VR_MIRROR_SHARED": {
       "items": 0,

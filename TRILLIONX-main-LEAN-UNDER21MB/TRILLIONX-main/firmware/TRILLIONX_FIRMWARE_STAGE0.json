@@ -2818,7 +2818,7 @@
             "count": 224
           },
           {
-            "host": "REDACTED_EXTERNAL_AI_SESSION",
+            "host": "packages.applied-caas-gateway1.internal.api.openai.org",
             "count": 206
           },
           {

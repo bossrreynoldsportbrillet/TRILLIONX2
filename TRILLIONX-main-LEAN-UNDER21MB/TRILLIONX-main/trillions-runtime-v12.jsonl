@@ -1,0 +1,3 @@
+{"t":1780118058585,"type":"pressure_guard","data":{"cpu":108.4,"mem":0.898,"rss":69492736,"heapUsed":25940544,"heapTotal":28499968,"eventLoopP95":11.2312,"eventLoopP99":11.9931,"cache":3.81,"simd":10,"worker":0,"queue":0,"gpu":0,"ipc":0,"ping":0}}
+{"t":1780118064585,"type":"pressure_guard","data":{"cpu":110.3,"mem":0.956,"rss":73936896,"heapUsed":26605104,"heapTotal":28979200,"eventLoopP95":11.2312,"eventLoopP99":11.9931,"cache":3.81,"simd":10,"worker":0,"queue":0,"gpu":0,"ipc":0,"ping":0}}
+{"t":1780122054895,"type":"pressure_guard","data":{"cpu":97.6,"mem":2.168,"rss":167669760,"heapUsed":25971256,"heapTotal":29503488,"eventLoopP95":11.2312,"eventLoopP99":11.9931,"cache":205.07,"simd":10,"worker":0,"queue":0,"gpu":0,"ipc":0,"ping":0}}

@@ -1,6 +1,6 @@
 {
   "engine": "TRILLIONX_NETWORK_CONNECTIONS_TOTAL",
-  "ts": "2026-05-24T14:27:05.351Z",
+  "ts": "2026-05-24T14:24:47.716Z",
   "policy": {
     "target": "TRILLIONX",
     "host": "CODESPACES_SUPPORT_ONLY",
@@ -18,7 +18,7 @@
     "hostname": "codespaces-09650b",
     "cpus": 2,
     "ram_gb": 7.757,
-    "free_gb": 3.042
+    "free_gb": 2.809
   },
   "interfaces": [
     {
@@ -81,8 +81,8 @@
       "udp   UNCONN 0      0      10.0.2.49%eth0:68         0.0.0.0:*                                           ",
       "tcp   LISTEN 0      4096        127.0.0.1:40269      0.0.0.0:*                                           ",
       "tcp   LISTEN 0      128           0.0.0.0:2000       0.0.0.0:*                                           ",
-      "tcp   LISTEN 0      511         127.0.0.1:3044       0.0.0.0:*    users:((\"MainThread\",pid=290867,fd=22))",
-      "tcp   LISTEN 0      511         127.0.0.1:3033       0.0.0.0:*    users:((\"MainThread\",pid=290901,fd=22))",
+      "tcp   LISTEN 0      511         127.0.0.1:3044       0.0.0.0:*    users:((\"MainThread\",pid=286335,fd=22))",
+      "tcp   LISTEN 0      511         127.0.0.1:3033       0.0.0.0:*    users:((\"MainThread\",pid=286373,fd=22))",
       "tcp   LISTEN 0      4096    127.0.0.53%lo:53         0.0.0.0:*                                           ",
       "tcp   LISTEN 0      128           0.0.0.0:2222       0.0.0.0:*                                           ",
       "tcp   LISTEN 0      4096        127.0.0.1:13005      0.0.0.0:*                                           ",
@@ -91,64 +91,80 @@
       "tcp   LISTEN 0      512         127.0.0.1:16634      0.0.0.0:*                                           ",
       "tcp   LISTEN 0      4096        127.0.0.1:12563      0.0.0.0:*                                           ",
       "tcp   LISTEN 0      128              [::]:2000          [::]:*                                           ",
-      "tcp   LISTEN 0      511                 *:3000             *:*    users:((\"MainThread\",pid=290679,fd=22))",
+      "tcp   LISTEN 0      511                 *:3000             *:*    users:((\"MainThread\",pid=286189,fd=22))",
       "tcp   LISTEN 0      512             [::1]:16635         [::]:*                                           ",
       "tcp   LISTEN 0      512             [::1]:16634         [::]:*                                           ",
       "tcp   LISTEN 0      128              [::]:2222          [::]:*"
     ],
     "active_raw": [
-      "Netid State     Recv-Q Send-Q      Local Address:Port            Peer Address:Port Process                                 ",
-      "udp   UNCONN    0      0           127.0.0.53%lo:53                   0.0.0.0:*                                            ",
-      "udp   UNCONN    0      0          10.0.2.49%eth0:68                   0.0.0.0:*                                            ",
-      "tcp   LISTEN    0      4096            127.0.0.1:40269                0.0.0.0:*                                            ",
-      "tcp   LISTEN    0      128               0.0.0.0:2000                 0.0.0.0:*                                            ",
-      "tcp   LISTEN    0      511             127.0.0.1:3044                 0.0.0.0:*     users:((\"MainThread\",pid=290867,fd=22))",
-      "tcp   LISTEN    0      511             127.0.0.1:3033                 0.0.0.0:*     users:((\"MainThread\",pid=290901,fd=22))",
-      "tcp   LISTEN    0      4096        127.0.0.53%lo:53                   0.0.0.0:*                                            ",
-      "tcp   LISTEN    0      128               0.0.0.0:2222                 0.0.0.0:*                                            ",
-      "tcp   LISTEN    0      4096            127.0.0.1:13005                0.0.0.0:*                                            ",
-      "tcp   LISTEN    0      511             127.0.0.1:37885                0.0.0.0:*     users:((\"node\",pid=283013,fd=21))      ",
-      "tcp   LISTEN    0      512             127.0.0.1:16635                0.0.0.0:*                                            ",
-      "tcp   LISTEN    0      512             127.0.0.1:16634                0.0.0.0:*                                            ",
-      "tcp   LISTEN    0      4096            127.0.0.1:12563                0.0.0.0:*                                            ",
-      "tcp   ESTAB     0      0               10.0.2.49:36912          20.209.158.33:443                                          ",
-      "tcp   ESTAB     0      0               127.0.0.1:37885              127.0.0.1:44286 users:((\"node\",pid=283013,fd=27))      ",
-      "tcp   ESTAB     0      0               10.0.2.49:35662        169.254.169.254:80                                           ",
-      "tcp   ESTAB     0      36              127.0.0.1:37885              127.0.0.1:44302 users:((\"node\",pid=283035,fd=33))      ",
-      "tcp   TIME-WAIT 0      0               10.0.2.49:46392        169.254.169.254:80                                           ",
-      "tcp   TIME-WAIT 0      0               10.0.2.49:35132         104.46.162.225:443                                          ",
-      "tcp   ESTAB     0      0               10.0.2.49:34446            20.60.166.1:443                                          ",
-      "tcp   TIME-WAIT 0      0               127.0.0.1:37885              127.0.0.1:40000                                        ",
-      "tcp   TIME-WAIT 0      0               10.0.2.49:32772           20.44.10.123:443                                          ",
-      "tcp   TIME-WAIT 0      0               127.0.0.1:37885              127.0.0.1:40008                                        ",
-      "tcp   LISTEN    0      128                  [::]:2000                    [::]:*                                            ",
-      "tcp   LISTEN    0      511                     *:3000                       *:*     users:((\"MainThread\",pid=290679,fd=22))",
-      "tcp   LISTEN    0      512                 [::1]:16635                   [::]:*                                            ",
-      "tcp   LISTEN    0      512                 [::1]:16634                   [::]:*                                            ",
-      "tcp   LISTEN    0      128                  [::]:2222                    [::]:*                                            ",
-      "tcp   ESTAB     120638 0      [::ffff:127.0.0.1]:52224     [::ffff:127.0.0.1]:36589                                        ",
-      "tcp   ESTAB     119360 0      [::ffff:127.0.0.1]:39002     [::ffff:127.0.0.1]:36589                                        ",
-      "tcp   ESTAB     117692 0      [::ffff:127.0.0.1]:52542     [::ffff:127.0.0.1]:36589                                        ",
-      "tcp   ESTAB     117909 0      [::ffff:127.0.0.1]:41852     [::ffff:127.0.0.1]:36589                                        ",
-      "tcp   ESTAB     121611 0      [::ffff:127.0.0.1]:56236     [::ffff:127.0.0.1]:36589                                        ",
-      "tcp   ESTAB     0      0      [::ffff:10.0.2.49]:35640 [::ffff:51.132.41.129]:443                                          ",
-      "tcp   ESTAB     0      0      [::ffff:10.0.2.49]:58324    [::ffff:20.90.66.7]:443                                          ",
-      "tcp   ESTAB     122864 0      [::ffff:127.0.0.1]:48512     [::ffff:127.0.0.1]:36589                                        ",
-      "tcp   ESTAB     118076 0      [::ffff:127.0.0.1]:51236     [::ffff:127.0.0.1]:36589                                        ",
-      "tcp   ESTAB     116856 0      [::ffff:127.0.0.1]:39116     [::ffff:127.0.0.1]:36589                                        ",
-      "tcp   ESTAB     118643 0      [::ffff:127.0.0.1]:56116     [::ffff:127.0.0.1]:36589                                        ",
-      "tcp   ESTAB     0      0      [::ffff:10.0.2.49]:36364 [::ffff:51.132.41.129]:443                                          ",
-      "tcp   ESTAB     0      0      [::ffff:127.0.0.1]:44286     [::ffff:127.0.0.1]:37885                                        ",
-      "tcp   ESTAB     121407 0      [::ffff:127.0.0.1]:50306     [::ffff:127.0.0.1]:36589                                        ",
-      "tcp   ESTAB     0      0      [::ffff:10.0.2.49]:48996    [::ffff:20.90.66.7]:443                                          ",
-      "tcp   ESTAB     123324 0      [::ffff:127.0.0.1]:51678     [::ffff:127.0.0.1]:36589                                        ",
-      "tcp   ESTAB     0      0      [::ffff:127.0.0.1]:44302     [::ffff:127.0.0.1]:37885                                        ",
-      "tcp   ESTAB     120527 0      [::ffff:127.0.0.1]:60506     [::ffff:127.0.0.1]:36589                                        ",
-      "tcp   ESTAB     124826 0      [::ffff:127.0.0.1]:60326     [::ffff:127.0.0.1]:36589                                        ",
-      "tcp   ESTAB     118431 0      [::ffff:127.0.0.1]:59424     [::ffff:127.0.0.1]:36589                                        ",
-      "tcp   ESTAB     116828 0      [::ffff:127.0.0.1]:59590     [::ffff:127.0.0.1]:36589                                        ",
-      "tcp   ESTAB     0      0      [::ffff:10.0.2.49]:52962   [::ffff:20.209.6.69]:443                                          ",
-      "tcp   ESTAB     123118 0      [::ffff:127.0.0.1]:37580     [::ffff:127.0.0.1]:36589"
+      "Netid State      Recv-Q Send-Q       Local Address:Port            Peer Address:Port Process                                 ",
+      "udp   UNCONN     0      0            127.0.0.53%lo:53                   0.0.0.0:*                                            ",
+      "udp   UNCONN     0      0           10.0.2.49%eth0:68                   0.0.0.0:*                                            ",
+      "tcp   LISTEN     0      4096             127.0.0.1:40269                0.0.0.0:*                                            ",
+      "tcp   LISTEN     0      128                0.0.0.0:2000                 0.0.0.0:*                                            ",
+      "tcp   LISTEN     0      511              127.0.0.1:3044                 0.0.0.0:*     users:((\"MainThread\",pid=286335,fd=22))",
+      "tcp   LISTEN     0      511              127.0.0.1:3033                 0.0.0.0:*     users:((\"MainThread\",pid=286373,fd=22))",
+      "tcp   LISTEN     0      4096         127.0.0.53%lo:53                   0.0.0.0:*                                            ",
+      "tcp   LISTEN     0      128                0.0.0.0:2222                 0.0.0.0:*                                            ",
+      "tcp   LISTEN     0      4096             127.0.0.1:13005                0.0.0.0:*                                            ",
+      "tcp   LISTEN     0      511              127.0.0.1:37885                0.0.0.0:*     users:((\"node\",pid=283013,fd=21))      ",
+      "tcp   LISTEN     0      512              127.0.0.1:16635                0.0.0.0:*                                            ",
+      "tcp   LISTEN     0      512              127.0.0.1:16634                0.0.0.0:*                                            ",
+      "tcp   LISTEN     0      4096             127.0.0.1:12563                0.0.0.0:*                                            ",
+      "tcp   TIME-WAIT  0      0                127.0.0.1:37885              127.0.0.1:59228                                        ",
+      "tcp   ESTAB      0      0                10.0.2.49:36912          20.209.158.33:443                                          ",
+      "tcp   FIN-WAIT-1 0      2075772          127.0.0.1:36589              127.0.0.1:60506                                        ",
+      "tcp   FIN-WAIT-1 0      1685494          127.0.0.1:36589              127.0.0.1:48512                                        ",
+      "tcp   FIN-WAIT-1 0      858291           127.0.0.1:36589              127.0.0.1:56236                                        ",
+      "tcp   FIN-WAIT-1 0      1418888          127.0.0.1:36589              127.0.0.1:39116                                        ",
+      "tcp   FIN-WAIT-1 0      1732766          127.0.0.1:36589              127.0.0.1:51678                                        ",
+      "tcp   FIN-WAIT-1 0      1190217          127.0.0.1:36589              127.0.0.1:50306                                        ",
+      "tcp   FIN-WAIT-1 0      875320           127.0.0.1:36589              127.0.0.1:59424                                        ",
+      "tcp   FIN-WAIT-1 0      1945171          127.0.0.1:36589              127.0.0.1:51236                                        ",
+      "tcp   TIME-WAIT  0      0                10.0.2.49:50694        150.171.109.210:443                                          ",
+      "tcp   FIN-WAIT-1 0      496147           127.0.0.1:36589              127.0.0.1:39002                                        ",
+      "tcp   FIN-WAIT-1 0      1406767          127.0.0.1:36589              127.0.0.1:59590                                        ",
+      "tcp   TIME-WAIT  0      0                10.0.2.49:58116        150.171.109.210:443                                          ",
+      "tcp   ESTAB      0      36               127.0.0.1:37885              127.0.0.1:40000 users:((\"node\",pid=283035,fd=23))      ",
+      "tcp   TIME-WAIT  0      0                10.0.2.49:48188        169.254.169.254:80                                           ",
+      "tcp   TIME-WAIT  0      0                10.0.2.49:56548          104.208.16.88:443                                          ",
+      "tcp   FIN-WAIT-1 0      1948777          127.0.0.1:36589              127.0.0.1:41852                                        ",
+      "tcp   FIN-WAIT-1 0      1133820          127.0.0.1:36589              127.0.0.1:52224                                        ",
+      "tcp   TIME-WAIT  0      0                10.0.2.49:32946            13.107.5.93:443                                          ",
+      "tcp   ESTAB      0      0                127.0.0.1:37885              127.0.0.1:40008 users:((\"node\",pid=283013,fd=26))      ",
+      "tcp   ESTAB      0      0                10.0.2.49:52988            20.60.166.1:443                                          ",
+      "tcp   FIN-WAIT-1 0      1179185          127.0.0.1:36589              127.0.0.1:52542                                        ",
+      "tcp   FIN-WAIT-1 0      1723748          127.0.0.1:36589              127.0.0.1:56116                                        ",
+      "tcp   LISTEN     0      128                   [::]:2000                    [::]:*                                            ",
+      "tcp   LISTEN     0      511                      *:3000                       *:*     users:((\"MainThread\",pid=286189,fd=22))",
+      "tcp   LISTEN     0      512                  [::1]:16635                   [::]:*                                            ",
+      "tcp   LISTEN     0      512                  [::1]:16634                   [::]:*                                            ",
+      "tcp   LISTEN     0      128                   [::]:2222                    [::]:*                                            ",
+      "tcp   ESTAB      120638 0       [::ffff:127.0.0.1]:52224     [::ffff:127.0.0.1]:36589                                        ",
+      "tcp   ESTAB      119360 0       [::ffff:127.0.0.1]:39002     [::ffff:127.0.0.1]:36589                                        ",
+      "tcp   ESTAB      117692 0       [::ffff:127.0.0.1]:52542     [::ffff:127.0.0.1]:36589                                        ",
+      "tcp   ESTAB      117909 0       [::ffff:127.0.0.1]:41852     [::ffff:127.0.0.1]:36589                                        ",
+      "tcp   TIME-WAIT  0      0                    [::1]:16635                  [::1]:57906                                        ",
+      "tcp   ESTAB      0      0       [::ffff:10.0.2.49]:59380    [::ffff:20.90.66.7]:443                                          ",
+      "tcp   ESTAB      121611 0       [::ffff:127.0.0.1]:56236     [::ffff:127.0.0.1]:36589                                        ",
+      "tcp   ESTAB      0      0       [::ffff:10.0.2.49]:35640 [::ffff:51.132.41.129]:443                                          ",
+      "tcp   ESTAB      0      0       [::ffff:10.0.2.49]:58324    [::ffff:20.90.66.7]:443                                          ",
+      "tcp   ESTAB      122864 0       [::ffff:127.0.0.1]:48512     [::ffff:127.0.0.1]:36589                                        ",
+      "tcp   ESTAB      0      0       [::ffff:127.0.0.1]:40008     [::ffff:127.0.0.1]:37885                                        ",
+      "tcp   ESTAB      0      0       [::ffff:10.0.2.49]:56062   [::ffff:20.209.6.69]:443                                          ",
+      "tcp   ESTAB      118076 0       [::ffff:127.0.0.1]:51236     [::ffff:127.0.0.1]:36589                                        ",
+      "tcp   ESTAB      116856 0       [::ffff:127.0.0.1]:39116     [::ffff:127.0.0.1]:36589                                        ",
+      "tcp   ESTAB      118643 0       [::ffff:127.0.0.1]:56116     [::ffff:127.0.0.1]:36589                                        ",
+      "tcp   ESTAB      0      0       [::ffff:127.0.0.1]:40000     [::ffff:127.0.0.1]:37885                                        ",
+      "tcp   ESTAB      121407 0       [::ffff:127.0.0.1]:50306     [::ffff:127.0.0.1]:36589                                        ",
+      "tcp   ESTAB      123324 0       [::ffff:127.0.0.1]:51678     [::ffff:127.0.0.1]:36589                                        ",
+      "tcp   ESTAB      120527 0       [::ffff:127.0.0.1]:60506     [::ffff:127.0.0.1]:36589                                        ",
+      "tcp   TIME-WAIT  0      0       [::ffff:10.0.2.49]:52580    [::ffff:20.90.66.7]:443                                          ",
+      "tcp   TIME-WAIT  0      0       [::ffff:10.0.2.49]:52576    [::ffff:20.90.66.7]:443                                          ",
+      "tcp   ESTAB      124826 0       [::ffff:127.0.0.1]:60326     [::ffff:127.0.0.1]:36589                                        ",
+      "tcp   ESTAB      118431 0       [::ffff:127.0.0.1]:59424     [::ffff:127.0.0.1]:36589                                        ",
+      "tcp   ESTAB      116828 0       [::ffff:127.0.0.1]:59590     [::ffff:127.0.0.1]:36589                                        ",
+      "tcp   ESTAB      123118 0       [::ffff:127.0.0.1]:37580     [::ffff:127.0.0.1]:36589"
     ],
     "listening_ports": [
       {
@@ -173,15 +189,15 @@
       },
       {
         "port": 3000,
-        "line": "tcp   LISTEN 0      511                 *:3000             *:*    users:((\"MainThread\",pid=290679,fd=22))"
+        "line": "tcp   LISTEN 0      511                 *:3000             *:*    users:((\"MainThread\",pid=286189,fd=22))"
       },
       {
         "port": 3033,
-        "line": "tcp   LISTEN 0      511         127.0.0.1:3033       0.0.0.0:*    users:((\"MainThread\",pid=290901,fd=22))"
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3033       0.0.0.0:*    users:((\"MainThread\",pid=286373,fd=22))"
       },
       {
         "port": 3044,
-        "line": "tcp   LISTEN 0      511         127.0.0.1:3044       0.0.0.0:*    users:((\"MainThread\",pid=290867,fd=22))"
+        "line": "tcp   LISTEN 0      511         127.0.0.1:3044       0.0.0.0:*    users:((\"MainThread\",pid=286335,fd=22))"
       },
       {
         "port": 12563,
@@ -210,11 +226,11 @@
     ]
   },
   "repo_network_surface": {
-    "files": 2801,
-    "routes": 86129,
-    "api_strings": 348235,
-    "socket_events": 819,
-    "urls": 56820,
+    "files": 2293,
+    "routes": 76611,
+    "api_strings": 304854,
+    "socket_events": 729,
+    "urls": 45296,
     "declared_ports": [
       {
         "port": 3333,
@@ -1220,289 +1236,289 @@
     "top_api_roots": [
       {
         "key": "/api/kyoto",
-        "count": 42053
-      },
-      {
-        "key": "/api/processor-calc",
-        "count": 12542
+        "count": 37714
       },
       {
         "key": "/api/trillions",
-        "count": 12536
+        "count": 11335
+      },
+      {
+        "key": "/api/processor-calc",
+        "count": 11185
       },
       {
         "key": "/api/benchmark",
-        "count": 10867
+        "count": 9457
       },
       {
         "key": "/api/stratum-sha256",
-        "count": 9931
+        "count": 8852
       },
       {
         "key": "/api/cache-memory",
-        "count": 9601
+        "count": 8554
       },
       {
         "key": "/api/memory-terms",
-        "count": 8974
+        "count": 7995
       },
       {
         "key": "/api/codec-cpu",
-        "count": 8038
+        "count": 7159
       },
       {
         "key": "/api/ping",
-        "count": 7939
+        "count": 6439
       },
       {
         "key": "/api/health",
-        "count": 7073
+        "count": 5680
       },
       {
         "key": "/api/hpc-simd",
-        "count": 6377
+        "count": 5678
       },
       {
         "key": "/api/latency-min",
-        "count": 6306
+        "count": 5607
       },
       {
         "key": "/api/die-3dnand",
-        "count": 6216
+        "count": 5531
       },
       {
         "key": "/api/frontier-kernel",
-        "count": 5761
-      },
-      {
-        "key": "/api/mobile-health",
-        "count": 5723
-      },
-      {
-        "key": "/api/snapshot-lite",
-        "count": 5700
+        "count": 5150
       },
       {
         "key": "/api/hash-field",
-        "count": 5516
+        "count": 4925
       },
       {
         "key": "/api/fabric",
-        "count": 5356
+        "count": 4797
       },
       {
         "key": "/api/sha-field",
-        "count": 5282
+        "count": 4701
+      },
+      {
+        "key": "/api/mobile-health",
+        "count": 4498
+      },
+      {
+        "key": "/api/snapshot-lite",
+        "count": 4481
       },
       {
         "key": "/api/jobs",
-        "count": 4767
-      },
-      {
-        "key": "/api/hpc-zeta",
-        "count": 4548
+        "count": 4138
       },
       {
         "key": "/api/qn-coprocessor",
-        "count": 4444
+        "count": 3951
       },
       {
-        "key": "/api/full",
-        "count": 4346
+        "key": "/api/hpc-zeta",
+        "count": 3920
       },
       {
         "key": "/api/memory-l56",
-        "count": 4207
+        "count": 3734
       },
       {
         "key": "/api/v37",
-        "count": 4155
+        "count": 3680
+      },
+      {
+        "key": "/api/full",
+        "count": 3586
       },
       {
         "key": "/api/runtime",
-        "count": 4086
+        "count": 3341
       },
       {
         "key": "/api/reconnect",
-        "count": 3738
-      },
-      {
-        "key": "/api/ai-chat",
-        "count": 3431
+        "count": 3048
       },
       {
         "key": "/api/kernel-score",
-        "count": 3367
-      },
-      {
-        "key": "/api/network",
-        "count": 3232
-      },
-      {
-        "key": "/api/dict",
-        "count": 3080
-      },
-      {
-        "key": "/api/positive-runtime",
-        "count": 3073
-      },
-      {
-        "key": "/api/orchestrator-intelligent",
-        "count": 3053
-      },
-      {
-        "key": "/api/world-hpc",
         "count": 2996
       },
       {
+        "key": "/api/ai-chat",
+        "count": 2941
+      },
+      {
+        "key": "/api/network",
+        "count": 2832
+      },
+      {
+        "key": "/api/positive-runtime",
+        "count": 2732
+      },
+      {
+        "key": "/api/dict",
+        "count": 2687
+      },
+      {
+        "key": "/api/world-hpc",
+        "count": 2675
+      },
+      {
+        "key": "/api/orchestrator-intelligent",
+        "count": 2624
+      },
+      {
         "key": "/api/system",
-        "count": 2982
+        "count": 2616
       },
       {
         "key": "/api/ultimate-hpc",
-        "count": 2814
+        "count": 2513
       },
       {
         "key": "/api/hybrid-hpc",
-        "count": 2772
+        "count": 2471
       },
       {
         "key": "/api/cockpit",
-        "count": 2574
+        "count": 2252
       },
       {
         "key": "/api/memory",
-        "count": 2523
+        "count": 2199
       },
       {
         "key": "/api/native",
-        "count": 2396
+        "count": 2111
       },
       {
         "key": "/api/simd-native",
-        "count": 2357
+        "count": 2070
       },
       {
         "key": "/api/workload-runtime",
-        "count": 2318
+        "count": 2029
       },
       {
         "key": "/api/performance",
-        "count": 2253
+        "count": 2006
       },
       {
         "key": "/api/solver",
-        "count": 2187
+        "count": 1902
       },
       {
         "key": "/api/repair",
-        "count": 2134
+        "count": 1837
       },
       {
         "key": "/api/capacity",
-        "count": 2069
+        "count": 1815
       },
       {
         "key": "/api/cpu-native",
-        "count": 1870
+        "count": 1641
       },
       {
         "key": "/api/hpc",
-        "count": 1863
+        "count": 1640
       },
       {
         "key": "/api/processor",
-        "count": 1849
+        "count": 1615
       },
       {
         "key": "/api/ultimate-api-catalog",
-        "count": 1794
+        "count": 1506
       },
       {
         "key": "/api/routes",
-        "count": 1697
+        "count": 1477
       },
       {
         "key": "/api/ai-kernel",
-        "count": 1678
+        "count": 1440
       },
       {
         "key": "/api/ai-catalog",
-        "count": 1597
+        "count": 1402
       },
       {
         "key": "/api/blockchain",
-        "count": 1517
-      },
-      {
-        "key": "/api/space",
-        "count": 1497
-      },
-      {
-        "key": "/api/storage",
-        "count": 1489
+        "count": 1323
       },
       {
         "key": "/api/registry",
-        "count": 1489
+        "count": 1314
+      },
+      {
+        "key": "/api/storage",
+        "count": 1310
+      },
+      {
+        "key": "/api/space",
+        "count": 1259
       },
       {
         "key": "/api/memory-ecc-222",
-        "count": 1405
+        "count": 1219
       },
       {
         "key": "/api/kernel-6y",
-        "count": 1373
+        "count": 1218
       },
       {
         "key": "/api/v36",
-        "count": 1312
+        "count": 1167
       }
     ],
     "top_url_hosts": [
       {
         "host": "127.0.0.1",
-        "count": 39368
+        "count": 30988
       },
       {
         "host": "localhost",
-        "count": 1916
+        "count": 1572
       },
       {
         "host": "text.pollinations.ai",
-        "count": 1743
+        "count": 1426
       },
       {
         "host": "api.open-notify.org",
-        "count": 1152
+        "count": 942
       },
       {
         "host": "api.wheretheiss.at",
-        "count": 1152
+        "count": 942
       },
       {
         "host": "api.github.com",
-        "count": 598
+        "count": 477
       },
       {
         "host": "mempool.space",
-        "count": 597
+        "count": 476
       },
       {
         "host": "blockstream.info",
-        "count": 596
+        "count": 475
       },
       {
         "host": "cloudflare.com",
-        "count": 595
+        "count": 474
       },
       {
         "host": "ethereum.publicnode.com",
-        "count": 576
+        "count": 471
       },
       {
         "host": "blockchain.info",
-        "count": 273
+        "count": 224
       },
       {
         "host": "packages.applied-caas-gateway1.internal.api.openai.org",
@@ -1510,11 +1526,11 @@
       },
       {
         "host": "registry.npmjs.org",
-        "count": 140
+        "count": 115
       },
       {
         "host": "github.com",
-        "count": 88
+        "count": 80
       },
       {
         "host": "opencollective.com",
@@ -3843,231 +3859,231 @@
       "url": "http://127.0.0.1:1/",
       "ok": false,
       "status": 0,
-      "ms": 5.301,
+      "ms": 6.983,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:1/api/ping",
       "ok": false,
       "status": 0,
-      "ms": 1.228,
+      "ms": 1.733,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:1/api/health",
       "ok": false,
       "status": 0,
-      "ms": 0.595,
+      "ms": 0.585,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:1/api/full",
       "ok": false,
       "status": 0,
-      "ms": 0.486,
+      "ms": 0.51,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:1/api/mobile-health",
       "ok": false,
       "status": 0,
-      "ms": 0.711,
+      "ms": 0.679,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:1/api/snapshot-lite",
       "ok": false,
       "status": 0,
-      "ms": 0.414,
+      "ms": 0.404,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:1/api/runtime/status",
       "ok": false,
       "status": 0,
-      "ms": 0.434,
+      "ms": 0.462,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:1/api/reconnect",
       "ok": false,
       "status": 0,
-      "ms": 0.479,
+      "ms": 0.494,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:53/",
       "ok": false,
       "status": 0,
-      "ms": 0.656,
+      "ms": 0.793,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:53/api/ping",
       "ok": false,
       "status": 0,
-      "ms": 0.735,
+      "ms": 0.64,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:53/api/health",
       "ok": false,
       "status": 0,
-      "ms": 0.298,
+      "ms": 0.296,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:53/api/full",
       "ok": false,
       "status": 0,
-      "ms": 0.273,
+      "ms": 0.23,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:53/api/mobile-health",
       "ok": false,
       "status": 0,
-      "ms": 0.341,
+      "ms": 0.353,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:53/api/snapshot-lite",
       "ok": false,
       "status": 0,
-      "ms": 0.332,
+      "ms": 0.343,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:53/api/runtime/status",
       "ok": false,
       "status": 0,
-      "ms": 0.324,
+      "ms": 0.298,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:53/api/reconnect",
       "ok": false,
       "status": 0,
-      "ms": 0.337,
+      "ms": 0.358,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:68/",
       "ok": false,
       "status": 0,
-      "ms": 0.245,
+      "ms": 0.248,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:68/api/ping",
       "ok": false,
       "status": 0,
-      "ms": 0.202,
+      "ms": 0.2,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:68/api/health",
       "ok": false,
       "status": 0,
-      "ms": 0.239,
+      "ms": 0.191,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:68/api/full",
       "ok": false,
       "status": 0,
-      "ms": 0.193,
+      "ms": 0.191,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:68/api/mobile-health",
       "ok": false,
       "status": 0,
-      "ms": 0.192,
+      "ms": 0.246,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:68/api/snapshot-lite",
       "ok": false,
       "status": 0,
-      "ms": 0.303,
+      "ms": 0.309,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:68/api/runtime/status",
       "ok": false,
       "status": 0,
-      "ms": 0.374,
+      "ms": 0.327,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:68/api/reconnect",
       "ok": false,
       "status": 0,
-      "ms": 0.23,
+      "ms": 0.266,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:443/",
       "ok": false,
       "status": 0,
-      "ms": 0.245,
+      "ms": 0.243,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:443/api/ping",
       "ok": false,
       "status": 0,
-      "ms": 0.361,
+      "ms": 0.348,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:443/api/health",
       "ok": false,
       "status": 0,
-      "ms": 0.215,
+      "ms": 0.262,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:443/api/full",
       "ok": false,
       "status": 0,
-      "ms": 0.237,
+      "ms": 0.205,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:443/api/mobile-health",
       "ok": false,
       "status": 0,
-      "ms": 0.258,
+      "ms": 0.25,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:443/api/snapshot-lite",
       "ok": false,
       "status": 0,
-      "ms": 0.357,
+      "ms": 0.33,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:443/api/runtime/status",
       "ok": false,
       "status": 0,
-      "ms": 0.263,
+      "ms": 0.234,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:443/api/reconnect",
       "ok": false,
       "status": 0,
-      "ms": 0.206,
+      "ms": 0.192,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:1800/",
       "ok": false,
       "status": 0,
-      "ms": 0.337,
+      "ms": 0.329,
       "error": "ECONNREFUSED"
     },
     {
@@ -4081,1036 +4097,1036 @@
       "url": "http://127.0.0.1:1800/api/health",
       "ok": false,
       "status": 0,
-      "ms": 0.281,
+      "ms": 0.319,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:1800/api/full",
       "ok": false,
       "status": 0,
-      "ms": 0.382,
+      "ms": 0.316,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:1800/api/mobile-health",
       "ok": false,
       "status": 0,
-      "ms": 0.23,
+      "ms": 0.219,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:1800/api/snapshot-lite",
       "ok": false,
       "status": 0,
-      "ms": 0.196,
+      "ms": 0.192,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:1800/api/runtime/status",
       "ok": false,
       "status": 0,
-      "ms": 0.188,
+      "ms": 0.197,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:1800/api/reconnect",
       "ok": false,
       "status": 0,
-      "ms": 0.182,
+      "ms": 0.18,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:2000/",
       "ok": false,
       "status": 0,
-      "ms": 9.372,
+      "ms": 19.407,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:2000/api/ping",
       "ok": false,
       "status": 0,
-      "ms": 8.234,
+      "ms": 9.679,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:2000/api/health",
       "ok": false,
       "status": 0,
-      "ms": 8.132,
+      "ms": 8.562,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:2000/api/full",
       "ok": false,
       "status": 0,
-      "ms": 8.081,
+      "ms": 10.044,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:2000/api/mobile-health",
       "ok": false,
       "status": 0,
-      "ms": 8.217,
+      "ms": 10.273,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:2000/api/snapshot-lite",
       "ok": false,
       "status": 0,
-      "ms": 8.43,
+      "ms": 8.865,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:2000/api/runtime/status",
       "ok": false,
       "status": 0,
-      "ms": 8.728,
+      "ms": 10.433,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:2000/api/reconnect",
       "ok": false,
       "status": 0,
-      "ms": 8.421,
+      "ms": 8.918,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:2222/",
       "ok": false,
       "status": 0,
-      "ms": 9.676,
+      "ms": 74.051,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:2222/api/ping",
       "ok": false,
       "status": 0,
-      "ms": 7.698,
+      "ms": 11.641,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:2222/api/health",
       "ok": false,
       "status": 0,
-      "ms": 7.447,
+      "ms": 8.185,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:2222/api/full",
       "ok": false,
       "status": 0,
-      "ms": 7.348,
+      "ms": 9.31,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:2222/api/mobile-health",
       "ok": false,
       "status": 0,
-      "ms": 7.454,
+      "ms": 8.313,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:2222/api/snapshot-lite",
       "ok": false,
       "status": 0,
-      "ms": 9.256,
+      "ms": 9.665,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:2222/api/runtime/status",
       "ok": false,
       "status": 0,
-      "ms": 11.591,
+      "ms": 7.295,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:2222/api/reconnect",
       "ok": false,
       "status": 0,
-      "ms": 8.962,
+      "ms": 7.244,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:3000/",
       "ok": true,
       "status": 200,
-      "ms": 7.992,
+      "ms": 9.201,
       "bytes": 7654
     },
     {
       "url": "http://127.0.0.1:3000/api/ping",
       "ok": true,
       "status": 200,
-      "ms": 1.191,
+      "ms": 1.998,
       "bytes": 167
     },
     {
       "url": "http://127.0.0.1:3000/api/health",
       "ok": true,
       "status": 200,
-      "ms": 2.787,
+      "ms": 4.176,
       "bytes": 364
     },
     {
       "url": "http://127.0.0.1:3000/api/full",
       "ok": true,
       "status": 200,
-      "ms": 636.836,
-      "bytes": 36262
+      "ms": 1073.873,
+      "bytes": 35875
     },
     {
       "url": "http://127.0.0.1:3000/api/mobile-health",
       "ok": true,
       "status": 200,
-      "ms": 110.494,
+      "ms": 100.79,
       "bytes": 272
     },
     {
       "url": "http://127.0.0.1:3000/api/snapshot-lite",
       "ok": true,
       "status": 200,
-      "ms": 91.385,
-      "bytes": 609
+      "ms": 106.282,
+      "bytes": 612
     },
     {
       "url": "http://127.0.0.1:3000/api/runtime/status",
       "ok": true,
       "status": 200,
-      "ms": 218.959,
+      "ms": 309.882,
       "bytes": 2572
     },
     {
       "url": "http://127.0.0.1:3000/api/reconnect",
       "ok": true,
       "status": 200,
-      "ms": 1.776,
+      "ms": 1.597,
       "bytes": 591
     },
     {
       "url": "http://127.0.0.1:3033/",
       "ok": true,
       "status": 200,
-      "ms": 15.93,
+      "ms": 13.776,
       "bytes": 416
     },
     {
       "url": "http://127.0.0.1:3033/api/ping",
       "ok": true,
       "status": 404,
-      "ms": 2.526,
+      "ms": 4.608,
       "bytes": 9
     },
     {
       "url": "http://127.0.0.1:3033/api/health",
       "ok": true,
       "status": 404,
-      "ms": 2.367,
+      "ms": 0.826,
       "bytes": 9
     },
     {
       "url": "http://127.0.0.1:3033/api/full",
       "ok": true,
       "status": 404,
-      "ms": 0.977,
+      "ms": 1.871,
       "bytes": 9
     },
     {
       "url": "http://127.0.0.1:3033/api/mobile-health",
       "ok": true,
       "status": 404,
-      "ms": 0.518,
+      "ms": 5.632,
       "bytes": 9
     },
     {
       "url": "http://127.0.0.1:3033/api/snapshot-lite",
       "ok": true,
       "status": 404,
-      "ms": 0.641,
+      "ms": 1.99,
       "bytes": 9
     },
     {
       "url": "http://127.0.0.1:3033/api/runtime/status",
       "ok": true,
       "status": 404,
-      "ms": 0.653,
+      "ms": 0.609,
       "bytes": 9
     },
     {
       "url": "http://127.0.0.1:3033/api/reconnect",
       "ok": true,
       "status": 404,
-      "ms": 0.617,
+      "ms": 5.913,
       "bytes": 9
     },
     {
       "url": "http://127.0.0.1:3044/",
       "ok": true,
       "status": 200,
-      "ms": 7.13,
+      "ms": 20.177,
       "bytes": 4295
     },
     {
       "url": "http://127.0.0.1:3044/api/ping",
       "ok": true,
       "status": 404,
-      "ms": 1.5,
+      "ms": 3.411,
       "bytes": 9
     },
     {
       "url": "http://127.0.0.1:3044/api/health",
       "ok": true,
       "status": 404,
-      "ms": 0.506,
+      "ms": 0.637,
       "bytes": 9
     },
     {
       "url": "http://127.0.0.1:3044/api/full",
       "ok": true,
       "status": 404,
-      "ms": 0.48,
+      "ms": 1.949,
       "bytes": 9
     },
     {
       "url": "http://127.0.0.1:3044/api/mobile-health",
       "ok": true,
       "status": 404,
-      "ms": 0.434,
+      "ms": 1.015,
       "bytes": 9
     },
     {
       "url": "http://127.0.0.1:3044/api/snapshot-lite",
       "ok": true,
       "status": 404,
-      "ms": 0.453,
+      "ms": 1.045,
       "bytes": 9
     },
     {
       "url": "http://127.0.0.1:3044/api/runtime/status",
       "ok": true,
       "status": 404,
-      "ms": 0.513,
+      "ms": 1.162,
       "bytes": 9
     },
     {
       "url": "http://127.0.0.1:3044/api/reconnect",
       "ok": true,
       "status": 404,
-      "ms": 1.039,
+      "ms": 1.89,
       "bytes": 9
     },
     {
       "url": "http://127.0.0.1:3099/",
       "ok": false,
       "status": 0,
-      "ms": 0.298,
+      "ms": 0.427,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:3099/api/ping",
       "ok": false,
       "status": 0,
-      "ms": 0.281,
+      "ms": 0.415,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:3099/api/health",
       "ok": false,
       "status": 0,
-      "ms": 0.211,
+      "ms": 0.599,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:3099/api/full",
       "ok": false,
       "status": 0,
-      "ms": 0.193,
+      "ms": 0.348,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:3099/api/mobile-health",
       "ok": false,
       "status": 0,
-      "ms": 0.185,
+      "ms": 0.42,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:3099/api/snapshot-lite",
       "ok": false,
       "status": 0,
-      "ms": 0.262,
+      "ms": 0.52,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:3099/api/runtime/status",
       "ok": false,
       "status": 0,
-      "ms": 0.347,
+      "ms": 0.869,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:3099/api/reconnect",
       "ok": false,
       "status": 0,
-      "ms": 0.221,
+      "ms": 0.365,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:3333/",
       "ok": false,
       "status": 0,
-      "ms": 0.234,
+      "ms": 0.583,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:3333/api/ping",
       "ok": false,
       "status": 0,
-      "ms": 0.293,
+      "ms": 0.512,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:3333/api/health",
       "ok": false,
       "status": 0,
-      "ms": 0.198,
+      "ms": 0.51,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:3333/api/full",
       "ok": false,
       "status": 0,
-      "ms": 0.18,
+      "ms": 0.362,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:3333/api/mobile-health",
       "ok": false,
       "status": 0,
-      "ms": 0.201,
+      "ms": 0.607,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:3333/api/snapshot-lite",
       "ok": false,
       "status": 0,
-      "ms": 0.299,
+      "ms": 0.397,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:3333/api/runtime/status",
       "ok": false,
       "status": 0,
-      "ms": 0.279,
+      "ms": 0.741,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:3333/api/reconnect",
       "ok": false,
       "status": 0,
-      "ms": 0.34,
+      "ms": 0.421,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:4000/",
       "ok": false,
       "status": 0,
-      "ms": 0.352,
+      "ms": 0.344,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:4000/api/ping",
       "ok": false,
       "status": 0,
-      "ms": 0.357,
+      "ms": 0.494,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:4000/api/health",
       "ok": false,
       "status": 0,
-      "ms": 0.353,
+      "ms": 0.343,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:4000/api/full",
       "ok": false,
       "status": 0,
-      "ms": 0.337,
+      "ms": 0.328,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:4000/api/mobile-health",
       "ok": false,
       "status": 0,
-      "ms": 0.21,
+      "ms": 0.528,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:4000/api/snapshot-lite",
       "ok": false,
       "status": 0,
-      "ms": 0.188,
+      "ms": 0.363,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:4000/api/runtime/status",
       "ok": false,
       "status": 0,
-      "ms": 0.18,
+      "ms": 0.365,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:4000/api/reconnect",
       "ok": false,
       "status": 0,
-      "ms": 0.174,
+      "ms": 0.627,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:4444/",
       "ok": false,
       "status": 0,
-      "ms": 0.226,
+      "ms": 0.378,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:4444/api/ping",
       "ok": false,
       "status": 0,
-      "ms": 0.292,
+      "ms": 0.386,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:4444/api/health",
       "ok": false,
       "status": 0,
-      "ms": 0.232,
+      "ms": 0.416,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:4444/api/full",
       "ok": false,
       "status": 0,
-      "ms": 0.182,
+      "ms": 0.317,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:4444/api/mobile-health",
       "ok": false,
       "status": 0,
-      "ms": 0.198,
+      "ms": 1.752,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:4444/api/snapshot-lite",
       "ok": false,
       "status": 0,
-      "ms": 0.173,
+      "ms": 0.345,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:4444/api/runtime/status",
       "ok": false,
       "status": 0,
-      "ms": 0.169,
+      "ms": 0.332,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:4444/api/reconnect",
       "ok": false,
       "status": 0,
-      "ms": 0.191,
+      "ms": 2.458,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:5000/",
       "ok": false,
       "status": 0,
-      "ms": 0.34,
+      "ms": 0.383,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:5000/api/ping",
       "ok": false,
       "status": 0,
-      "ms": 0.377,
+      "ms": 0.552,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:5000/api/health",
       "ok": false,
       "status": 0,
-      "ms": 0.327,
+      "ms": 0.357,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:5000/api/full",
       "ok": false,
       "status": 0,
-      "ms": 0.359,
+      "ms": 0.353,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:5000/api/mobile-health",
       "ok": false,
       "status": 0,
-      "ms": 0.257,
+      "ms": 0.372,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:5000/api/snapshot-lite",
       "ok": false,
       "status": 0,
-      "ms": 0.288,
+      "ms": 0.367,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:5000/api/runtime/status",
       "ok": false,
       "status": 0,
-      "ms": 0.201,
+      "ms": 2.131,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:5000/api/reconnect",
       "ok": false,
       "status": 0,
-      "ms": 0.205,
+      "ms": 0.359,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:5173/",
       "ok": false,
       "status": 0,
-      "ms": 0.187,
+      "ms": 0.23,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:5173/api/ping",
       "ok": false,
       "status": 0,
-      "ms": 0.18,
+      "ms": 0.208,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:5173/api/health",
       "ok": false,
       "status": 0,
-      "ms": 0.172,
+      "ms": 0.612,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:5173/api/full",
       "ok": false,
       "status": 0,
-      "ms": 0.168,
+      "ms": 0.551,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:5173/api/mobile-health",
       "ok": false,
       "status": 0,
-      "ms": 0.288,
+      "ms": 0.673,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:5173/api/snapshot-lite",
       "ok": false,
       "status": 0,
-      "ms": 0.195,
+      "ms": 0.634,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:5173/api/runtime/status",
       "ok": false,
       "status": 0,
-      "ms": 0.3,
+      "ms": 0.903,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:5173/api/reconnect",
       "ok": false,
       "status": 0,
-      "ms": 0.318,
+      "ms": 1.076,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8000/",
       "ok": false,
       "status": 0,
-      "ms": 0.31,
+      "ms": 0.632,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8000/api/ping",
       "ok": false,
       "status": 0,
-      "ms": 0.22,
+      "ms": 0.25,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8000/api/health",
       "ok": false,
       "status": 0,
-      "ms": 0.187,
+      "ms": 0.209,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8000/api/full",
       "ok": false,
       "status": 0,
-      "ms": 0.199,
+      "ms": 0.664,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8000/api/mobile-health",
       "ok": false,
       "status": 0,
-      "ms": 0.189,
+      "ms": 0.457,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8000/api/snapshot-lite",
       "ok": false,
       "status": 0,
-      "ms": 0.175,
+      "ms": 0.692,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8000/api/runtime/status",
       "ok": false,
       "status": 0,
-      "ms": 0.169,
+      "ms": 0.624,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8000/api/reconnect",
       "ok": false,
       "status": 0,
-      "ms": 0.267,
+      "ms": 0.459,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8008/",
       "ok": false,
       "status": 0,
-      "ms": 0.343,
+      "ms": 0.461,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8008/api/ping",
       "ok": false,
       "status": 0,
-      "ms": 0.208,
+      "ms": 0.447,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8008/api/health",
       "ok": false,
       "status": 0,
-      "ms": 0.184,
+      "ms": 0.651,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8008/api/full",
       "ok": false,
       "status": 0,
-      "ms": 0.175,
+      "ms": 0.551,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8008/api/mobile-health",
       "ok": false,
       "status": 0,
-      "ms": 0.202,
+      "ms": 0.532,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8008/api/snapshot-lite",
       "ok": false,
       "status": 0,
-      "ms": 0.187,
+      "ms": 0.976,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8008/api/runtime/status",
       "ok": false,
       "status": 0,
-      "ms": 0.174,
+      "ms": 0.541,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8008/api/reconnect",
       "ok": false,
       "status": 0,
-      "ms": 0.171,
+      "ms": 0.44,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8080/",
       "ok": false,
       "status": 0,
-      "ms": 0.172,
+      "ms": 0.644,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8080/api/ping",
       "ok": false,
       "status": 0,
-      "ms": 0.166,
+      "ms": 0.675,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8080/api/health",
       "ok": false,
       "status": 0,
-      "ms": 0.21,
+      "ms": 0.509,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8080/api/full",
       "ok": false,
       "status": 0,
-      "ms": 0.172,
+      "ms": 0.549,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8080/api/mobile-health",
       "ok": false,
       "status": 0,
-      "ms": 0.167,
+      "ms": 0.557,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8080/api/snapshot-lite",
       "ok": false,
       "status": 0,
-      "ms": 0.167,
+      "ms": 0.353,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8080/api/runtime/status",
       "ok": false,
       "status": 0,
-      "ms": 0.273,
+      "ms": 1.09,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:8080/api/reconnect",
       "ok": false,
       "status": 0,
-      "ms": 0.201,
+      "ms": 0.515,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:9999/",
       "ok": false,
       "status": 0,
-      "ms": 0.175,
+      "ms": 0.586,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:9999/api/ping",
       "ok": false,
       "status": 0,
-      "ms": 0.166,
+      "ms": 0.6,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:9999/api/health",
       "ok": false,
       "status": 0,
-      "ms": 0.166,
+      "ms": 0.54,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:9999/api/full",
       "ok": false,
       "status": 0,
-      "ms": 0.165,
+      "ms": 0.359,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:9999/api/mobile-health",
       "ok": false,
       "status": 0,
-      "ms": 0.181,
+      "ms": 0.456,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:9999/api/snapshot-lite",
       "ok": false,
       "status": 0,
-      "ms": 0.169,
+      "ms": 0.557,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:9999/api/runtime/status",
       "ok": false,
       "status": 0,
-      "ms": 0.169,
+      "ms": 0.674,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:9999/api/reconnect",
       "ok": false,
       "status": 0,
-      "ms": 0.318,
+      "ms": 0.812,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:12563/",
       "ok": false,
       "status": 0,
-      "ms": 3500.881,
+      "ms": 3501.924,
       "error": "timeout"
     },
     {
       "url": "http://127.0.0.1:12563/api/ping",
       "ok": false,
       "status": 0,
-      "ms": 3499.966,
+      "ms": 3501.443,
       "error": "timeout"
     },
     {
       "url": "http://127.0.0.1:12563/api/health",
       "ok": false,
       "status": 0,
-      "ms": 3500.857,
+      "ms": 3504.327,
       "error": "timeout"
     },
     {
       "url": "http://127.0.0.1:12563/api/full",
       "ok": false,
       "status": 0,
-      "ms": 3504.308,
+      "ms": 3504.402,
       "error": "timeout"
     },
     {
       "url": "http://127.0.0.1:12563/api/mobile-health",
       "ok": false,
       "status": 0,
-      "ms": 3501.566,
+      "ms": 3504.386,
       "error": "timeout"
     },
     {
       "url": "http://127.0.0.1:12563/api/snapshot-lite",
       "ok": false,
       "status": 0,
-      "ms": 3504.311,
+      "ms": 3504.375,
       "error": "timeout"
     },
     {
       "url": "http://127.0.0.1:12563/api/runtime/status",
       "ok": false,
       "status": 0,
-      "ms": 3502.501,
+      "ms": 3502.405,
       "error": "timeout"
     },
     {
       "url": "http://127.0.0.1:12563/api/reconnect",
       "ok": false,
       "status": 0,
-      "ms": 3504.285,
+      "ms": 3504.25,
       "error": "timeout"
     },
     {
       "url": "http://127.0.0.1:13005/",
       "ok": false,
       "status": 0,
-      "ms": 0.948,
+      "ms": 4.953,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:13005/api/ping",
       "ok": false,
       "status": 0,
-      "ms": 0.444,
+      "ms": 4.109,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:13005/api/health",
       "ok": false,
       "status": 0,
-      "ms": 0.591,
+      "ms": 0.725,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:13005/api/full",
       "ok": false,
       "status": 0,
-      "ms": 0.397,
+      "ms": 0.527,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:13005/api/mobile-health",
       "ok": false,
       "status": 0,
-      "ms": 0.557,
+      "ms": 0.588,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:13005/api/snapshot-lite",
       "ok": false,
       "status": 0,
-      "ms": 0.421,
+      "ms": 0.567,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:13005/api/runtime/status",
       "ok": false,
       "status": 0,
-      "ms": 0.407,
+      "ms": 0.379,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:13005/api/reconnect",
       "ok": false,
       "status": 0,
-      "ms": 0.389,
+      "ms": 0.401,
       "error": "HPE_INVALID_CONSTANT"
     },
     {
       "url": "http://127.0.0.1:13333/",
       "ok": false,
       "status": 0,
-      "ms": 0.231,
+      "ms": 0.239,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:13333/api/ping",
       "ok": false,
       "status": 0,
-      "ms": 0.228,
+      "ms": 0.216,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:13333/api/health",
       "ok": false,
       "status": 0,
-      "ms": 0.209,
+      "ms": 0.187,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:13333/api/full",
       "ok": false,
       "status": 0,
-      "ms": 0.193,
+      "ms": 0.215,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:13333/api/mobile-health",
       "ok": false,
       "status": 0,
-      "ms": 0.173,
+      "ms": 0.179,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:13333/api/snapshot-lite",
       "ok": false,
       "status": 0,
-      "ms": 0.165,
+      "ms": 0.168,
       "error": "ECONNREFUSED"
     },
     {
@@ -5124,21 +5140,21 @@
       "url": "http://127.0.0.1:13333/api/reconnect",
       "ok": false,
       "status": 0,
-      "ms": 0.205,
+      "ms": 0.161,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:14433/",
       "ok": false,
       "status": 0,
-      "ms": 0.176,
+      "ms": 0.194,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:14433/api/ping",
       "ok": false,
       "status": 0,
-      "ms": 0.162,
+      "ms": 0.173,
       "error": "ECONNREFUSED"
     },
     {
@@ -5152,259 +5168,259 @@
       "url": "http://127.0.0.1:14433/api/full",
       "ok": false,
       "status": 0,
-      "ms": 0.161,
+      "ms": 0.162,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:14433/api/mobile-health",
       "ok": false,
       "status": 0,
-      "ms": 0.191,
+      "ms": 0.162,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:14433/api/snapshot-lite",
       "ok": false,
       "status": 0,
-      "ms": 0.171,
+      "ms": 0.163,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:14433/api/runtime/status",
       "ok": false,
       "status": 0,
-      "ms": 0.164,
+      "ms": 0.197,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:14433/api/reconnect",
       "ok": false,
       "status": 0,
-      "ms": 0.317,
+      "ms": 0.334,
       "error": "ECONNREFUSED"
     },
     {
       "url": "http://127.0.0.1:16634/",
       "ok": true,
       "status": 400,
-      "ms": 1.81,
+      "ms": 2.112,
       "bytes": 56
     },
     {
       "url": "http://127.0.0.1:16634/api/ping",
       "ok": true,
       "status": 400,
-      "ms": 1.271,
+      "ms": 0.868,
       "bytes": 56
     },
     {
       "url": "http://127.0.0.1:16634/api/health",
       "ok": true,
       "status": 400,
-      "ms": 1.005,
+      "ms": 0.591,
       "bytes": 56
     },
     {
       "url": "http://127.0.0.1:16634/api/full",
       "ok": true,
       "status": 400,
-      "ms": 0.693,
+      "ms": 0.583,
       "bytes": 56
     },
     {
       "url": "http://127.0.0.1:16634/api/mobile-health",
       "ok": true,
       "status": 400,
-      "ms": 0.863,
+      "ms": 0.61,
       "bytes": 56
     },
     {
       "url": "http://127.0.0.1:16634/api/snapshot-lite",
       "ok": true,
       "status": 400,
-      "ms": 1.308,
+      "ms": 0.604,
       "bytes": 56
     },
     {
       "url": "http://127.0.0.1:16634/api/runtime/status",
       "ok": true,
       "status": 400,
-      "ms": 0.86,
+      "ms": 0.529,
       "bytes": 56
     },
     {
       "url": "http://127.0.0.1:16634/api/reconnect",
       "ok": true,
       "status": 400,
-      "ms": 1.151,
+      "ms": 0.755,
       "bytes": 56
     },
     {
       "url": "http://127.0.0.1:16635/",
       "ok": true,
       "status": 404,
-      "ms": 1.102,
+      "ms": 1.466,
       "bytes": 0
     },
     {
       "url": "http://127.0.0.1:16635/api/ping",
       "ok": true,
       "status": 404,
-      "ms": 0.605,
+      "ms": 0.885,
       "bytes": 0
     },
     {
       "url": "http://127.0.0.1:16635/api/health",
       "ok": true,
       "status": 404,
-      "ms": 0.566,
+      "ms": 0.347,
       "bytes": 0
     },
     {
       "url": "http://127.0.0.1:16635/api/full",
       "ok": true,
       "status": 404,
-      "ms": 0.404,
+      "ms": 0.499,
       "bytes": 0
     },
     {
       "url": "http://127.0.0.1:16635/api/mobile-health",
       "ok": true,
       "status": 404,
-      "ms": 0.401,
+      "ms": 0.287,
       "bytes": 0
     },
     {
       "url": "http://127.0.0.1:16635/api/snapshot-lite",
       "ok": true,
       "status": 404,
-      "ms": 0.475,
+      "ms": 0.76,
       "bytes": 0
     },
     {
       "url": "http://127.0.0.1:16635/api/runtime/status",
       "ok": true,
       "status": 404,
-      "ms": 0.677,
+      "ms": 0.317,
       "bytes": 0
     },
     {
       "url": "http://127.0.0.1:16635/api/reconnect",
       "ok": true,
       "status": 404,
-      "ms": 0.372,
+      "ms": 0.287,
       "bytes": 0
     },
     {
       "url": "http://127.0.0.1:37885/",
       "ok": true,
       "status": 403,
-      "ms": 1.24,
+      "ms": 1.368,
       "bytes": 10
     },
     {
       "url": "http://127.0.0.1:37885/api/ping",
       "ok": true,
       "status": 403,
-      "ms": 0.636,
+      "ms": 0.687,
       "bytes": 10
     },
     {
       "url": "http://127.0.0.1:37885/api/health",
       "ok": true,
       "status": 403,
-      "ms": 0.494,
+      "ms": 0.536,
       "bytes": 10
     },
     {
       "url": "http://127.0.0.1:37885/api/full",
       "ok": true,
       "status": 403,
-      "ms": 0.641,
+      "ms": 0.554,
       "bytes": 10
     },
     {
       "url": "http://127.0.0.1:37885/api/mobile-health",
       "ok": true,
       "status": 403,
-      "ms": 0.62,
+      "ms": 0.566,
       "bytes": 10
     },
     {
       "url": "http://127.0.0.1:37885/api/snapshot-lite",
       "ok": true,
       "status": 403,
-      "ms": 0.475,
+      "ms": 0.489,
       "bytes": 10
     },
     {
       "url": "http://127.0.0.1:37885/api/runtime/status",
       "ok": true,
       "status": 403,
-      "ms": 0.867,
+      "ms": 0.581,
       "bytes": 10
     },
     {
       "url": "http://127.0.0.1:37885/api/reconnect",
       "ok": true,
       "status": 403,
-      "ms": 0.503,
+      "ms": 0.478,
       "bytes": 10
     },
     {
       "url": "http://127.0.0.1:40269/",
       "ok": true,
       "status": 404,
-      "ms": 0.678,
+      "ms": 18.015,
       "bytes": 19
     },
     {
       "url": "http://127.0.0.1:40269/api/ping",
       "ok": true,
       "status": 404,
-      "ms": 0.361,
+      "ms": 0.291,
       "bytes": 19
     },
     {
       "url": "http://127.0.0.1:40269/api/health",
       "ok": true,
       "status": 404,
-      "ms": 0.4,
+      "ms": 0.259,
       "bytes": 19
     },
     {
       "url": "http://127.0.0.1:40269/api/full",
       "ok": true,
       "status": 404,
-      "ms": 0.358,
+      "ms": 0.26,
       "bytes": 19
     },
     {
       "url": "http://127.0.0.1:40269/api/mobile-health",
       "ok": true,
       "status": 404,
-      "ms": 0.365,
+      "ms": 0.271,
       "bytes": 19
     },
     {
       "url": "http://127.0.0.1:40269/api/snapshot-lite",
       "ok": true,
       "status": 404,
-      "ms": 0.364,
+      "ms": 0.232,
       "bytes": 19
     },
     {
       "url": "http://127.0.0.1:40269/api/runtime/status",
       "ok": true,
       "status": 404,
-      "ms": 0.351,
+      "ms": 0.245,
       "bytes": 19
     },
     {
       "url": "http://127.0.0.1:40269/api/reconnect",
       "ok": true,
       "status": 404,
-      "ms": 0.38,
+      "ms": 0.25,
       "bytes": 19
     }
   ],
@@ -5412,71 +5428,71 @@
     {
       "host": "github.com",
       "ok": true,
-      "ms": 6.256,
+      "ms": 7.379,
       "address": "20.26.156.215",
       "family": 4
     },
     {
       "host": "api.github.com",
       "ok": true,
-      "ms": 3.09,
+      "ms": 3.419,
       "address": "20.26.156.210",
       "family": 4
     },
     {
       "host": "npmjs.com",
       "ok": true,
-      "ms": 0.498,
+      "ms": 43.582,
       "address": "104.17.135.117",
       "family": 4
     },
     {
       "host": "registry.npmjs.org",
       "ok": true,
-      "ms": 0.659,
-      "address": "104.16.6.34",
+      "ms": 6.368,
+      "address": "104.16.7.34",
       "family": 4
     },
     {
       "host": "mempool.space",
       "ok": true,
-      "ms": 0.461,
-      "address": "103.165.192.208",
+      "ms": 37.495,
+      "address": "103.165.192.203",
       "family": 4
     },
     {
       "host": "blockstream.info",
       "ok": true,
-      "ms": 0.382,
+      "ms": 11.889,
       "address": "23.155.96.128",
       "family": 4
     },
     {
       "host": "blockchain.info",
       "ok": true,
-      "ms": 4.675,
-      "address": "104.16.118.55",
+      "ms": 6.573,
+      "address": "104.16.117.55",
       "family": 4
     },
     {
       "host": "cloudflare.com",
       "ok": true,
-      "ms": 0.384,
-      "address": "104.16.133.229",
+      "ms": 4.562,
+      "address": "104.16.132.229",
       "family": 4
     },
     {
       "host": "google.com",
       "ok": true,
-      "ms": 1.859,
-      "address": "142.250.129.113",
+      "ms": 2.183,
+      "address": "142.250.151.113",
       "family": 4
     },
     {
       "host": "one.one.one.one",
       "ok": true,
-      "ms": 0.443,
-      "address": "1.1.1.1",
+      "ms": 2.477,
+      "address": "1.0.0.1",
       "family": 4
     }
   ],
@@ -5485,43 +5501,43 @@
       "url": "https://api.github.com",
       "ok": true,
       "status": 200,
-      "ms": 19.299,
+      "ms": 15.826,
       "bytes": 2262
     },
     {
       "url": "https://registry.npmjs.org",
       "ok": true,
       "status": 200,
-      "ms": 21.083,
+      "ms": 20.974,
       "bytes": 2
     },
     {
       "url": "https://mempool.space/api/blocks/tip/height",
       "ok": true,
       "status": 200,
-      "ms": 558.127,
+      "ms": 558.672,
       "bytes": 6
     },
     {
       "url": "https://blockstream.info/api/blocks/tip/height",
       "ok": true,
       "status": 200,
-      "ms": 688.81,
+      "ms": 471.617,
       "bytes": 6
     },
     {
       "url": "https://blockchain.info/q/getblockcount",
       "ok": true,
       "status": 200,
-      "ms": 59.026,
+      "ms": 99.307,
       "bytes": 6
     },
     {
       "url": "https://cloudflare.com/cdn-cgi/trace",
       "ok": true,
       "status": 200,
-      "ms": 20.822,
-      "bytes": 240
+      "ms": 15.072,
+      "bytes": 239
     }
   ],
   "summary": {
@@ -5543,14 +5559,14 @@
       37885,
       40269
     ],
-    "repo_routes": 86129,
-    "repo_api_strings": 348235,
-    "repo_socket_events": 819,
+    "repo_routes": 76611,
+    "repo_api_strings": 304854,
+    "repo_socket_events": 729,
     "local_ok": "56/224",
     "dns_ok": "10/10",
     "external_ok": "6/6",
-    "p50_ms": 0.86,
-    "p95_ms": 218.959,
+    "p50_ms": 1.015,
+    "p95_ms": 309.882,
     "health": 0,
     "verdict": "NETWORK_CONNECTIONS_REVIEW_NEEDED"
   }
