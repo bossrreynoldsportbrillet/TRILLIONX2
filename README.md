@@ -10,11 +10,15 @@
 
 ![Doctrine](https://img.shields.io/badge/doctrine-REAL__ONLY__OR__UNAVAILABLE-E5604C?style=for-the-badge)
 
+
+
 # TRILLIONX2
 
-LINES=$(find . -path ./TX3/node_modules -prune -o \( -name "*.js" -o -name "*.sh" \) -print | xargs wc -l 2>/dev/null | tail -1 | awk '{print $1}')
-echo "Badge à jour: 
+Orchestrateur Node.js — 6 ans de développement, principalement sur Termux ARM64.
 
-![Code](https://img.shields.io/badge/code-${LINES}%20lignes-FFB347?style=for-the-badge)
+**Doctrine absolue** : REAL_ONLY_OR_UNAVAILABLE · NO_FAKE_METRICS · ADDITIVE_ONLY · HUMAN_OVER_AI
 
-"
+Architecture : cockpit (port 8888) · runner async scellé SHA · modèle d'audit doctrine ·
+pont d'orchestration · TX3_INTELLECT (IA symbolique hors ligne) · oracle hybride LLM.
+
+*Chiffres mesurés le 10/06/2026 — jamais estimés.*
